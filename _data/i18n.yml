@@ -18,8 +18,8 @@ en:
   android_big: Google Play
   android_note: Android
   web_small: Learn on the web
-  web_big: learningclarity.ai
-  web_note: Any browser
+  web_big: Web app
+  web_note: learningclarity.ai
   back: All posts
   published: Published
   rights: LearningClarity is a product of intelliSYS s.r.o.
@@ -43,8 +43,8 @@ ar:
   android_big: Google Play
   android_note: Android
   web_small: تعلّم عبر الويب
-  web_big: learningclarity.ai
-  web_note: أي متصفح
+  web_big: تطبيق الويب
+  web_note: learningclarity.ai
   back: كل المقالات
   published: نُشر في
   rights: LearningClarity منتج من intelliSYS s.r.o.

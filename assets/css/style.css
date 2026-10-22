@@ -112,7 +112,7 @@ a:hover { color: var(--blue); }
 .store span { display: flex; flex-direction: column; min-width: 0; }
 .store small { font-size: 13px; color: var(--muted); }
 .store strong { font: 700 18px/1.25 "Poppins", sans-serif; }
-.store strong.web { color: var(--link); font-size: 16px; overflow-wrap: anywhere; }
+.store strong.web { color: var(--link); }
 
 /* Footer */
 .site-footer { background: #fff; border-top: 1px solid var(--line); padding: 32px 0; }
