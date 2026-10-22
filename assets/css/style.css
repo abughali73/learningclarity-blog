@@ -65,6 +65,12 @@ a:hover { color: var(--blue); }
 .post-body h3 { margin: 28px 0 8px; font: 700 21px/1.3 var(--display); color: var(--ink); }
 .post-body li { margin-bottom: 6px; }
 .post-body strong { color: var(--ink); }
+.hashtags { margin: 32px 0 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.hashtag { padding: 6px 12px; border-radius: 999px; background: #EAF0FF; color: #1D3FAF; font-size: 15px; font-weight: 600; }
+.related { margin-top: 36px; padding-top: 24px; border-top: 1px solid var(--line); }
+.related h2 { margin: 0 0 10px; font: 700 22px/1.3 var(--display); }
+.related ul { margin: 0; padding-inline-start: 20px; }
+.related li { margin-bottom: 6px; }
 .cta { margin-top: 40px; padding: 28px; border-radius: 20px; background: var(--card); border: 1px solid var(--line); text-align: center; }
 .cta h2 { margin: 0 0 6px; font: 700 26px/1.25 var(--display); }
 .cta p { margin: 0 0 18px; color: var(--muted); }

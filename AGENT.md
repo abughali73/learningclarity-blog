@@ -21,6 +21,8 @@ date: 2026-10-22 09:00:00 +0300   # from the command in step 3
 lang: en            # ar for the Arabic file
 ref: same-slug-in-both-files
 capability: explain-mode
+keywords: ["AI study tutor", "step-by-step explanations", "learn at your own pace"]
+tags: [LearningClarity, LearningClarityAI, ExplainMode, AITutor, StudyTips, OnlineLearning, EdTech, AIinEducation, Students, LifelongLearning]
 ad:
   color: purple
   eyebrow: "Explain Mode"
@@ -35,6 +37,23 @@ ad:
 ---
 ```
 
-6. **Check before publishing.** The YAML must parse (quote strings that contain a colon or a quote). Both files must exist with the same `ref`. The date must not be in the future. If a local Jekyll build is available, run `bundle exec jekyll build` or `jekyll build`; otherwise parse the front matter with Python's `yaml` module.
-7. **Publish.** Commit both files to `main` with the message `post: <slug>`, then push. Never edit the layouts, CSS, `_config.yml`, `CNAME` or this file during a scheduled run.
-8. **Report.** End with the post title and the live English and Arabic URLs: `https://blog.learningclarity.ai/en/YYYY/MM/<slug>/` and `/ar/YYYY/MM/<slug>/`. GitHub Pages takes about a minute to update.
+6. **SEO and hashtags.** Apply these to both languages.
+   - **Keyword:** pick one primary search phrase a learner would type, such as "AI study tutor", "how to revise for exams", or "تطبيق تعليمي بالذكاء الاصطناعي" for Arabic. Add 3 to 5 related phrases. Put them in `keywords:`, primary first, written in that post's language.
+   - **Title:** 50 to 65 characters, with the primary phrase near the start.
+   - **Description:** 140 to 160 characters, with the primary phrase, written as a reason to click.
+   - **Slug:** 3 to 6 English words that include the primary phrase.
+   - **Body:**
+     - Use the primary phrase in the first 2 sentences and in at least one `##` heading.
+     - Use the related phrases naturally, never stuffed.
+     - Add one internal link to an earlier post in the same language (relative URL, descriptive anchor text) when one exists.
+     - Add one link to https://www.learningclarity.ai with descriptive anchor text, not "click here".
+   - **Hashtags:** add `tags:` with 10 to 15 hashtags, written without the `#` (the layout adds it), in CamelCase with no spaces. Mix these kinds:
+     - brand: LearningClarity, LearningClarityAI;
+     - feature: for example ExplainMode, AIPodcast;
+     - topic: for example StudyTips, ExamPrep, OnlineLearning, EdTech, AIinEducation;
+     - audience: for example Students, Teachers, Parents, LifelongLearning, CorporateTraining.
+
+     Arabic posts mix Arabic hashtags (use `_` between words, for example تعلم_ذاتي, الذكاء_الاصطناعي, نصائح_دراسية, التعليم_الإلكتروني) with the 2 brand hashtags and 2 or 3 English ones. Use only real, commonly used hashtags. Never repeat a hashtag within one post.
+7. **Check before publishing.** The YAML must parse (quote strings that contain a colon or a quote). Both files must exist with the same `ref`. Each must have `keywords` and 10 to 15 `tags` with no `#` and no spaces. The date must not be in the future. If a local Jekyll build is available, run `bundle exec jekyll build` or `jekyll build`; otherwise parse the front matter with Python's `yaml` module.
+8. **Publish.** Commit both files to `main` with the message `post: <slug>`, then push. Never edit the layouts, CSS, `_config.yml`, `CNAME` or this file during a scheduled run.
+9. **Report.** End with the post title and the live English and Arabic URLs: `https://blog.learningclarity.ai/en/YYYY/MM/<slug>/` and `/ar/YYYY/MM/<slug>/`. GitHub Pages takes about a minute to update.

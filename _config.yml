@@ -5,6 +5,22 @@ url: https://blog.learningclarity.ai
 baseurl: ""
 lang: en
 timezone: Africa/Cairo
+locale: en_US
+logo: /assets/img/lc-icon.png
+author:
+  name: LearningClarity
+  url: https://www.learningclarity.ai
+social:
+  name: LearningClarity
+  links:
+    - https://www.learningclarity.ai
+    - https://apps.apple.com/app/learning-clarity/id6776674430
+    - https://play.google.com/store/apps/details?id=ai.learningclarity.app
+twitter:
+  card: summary_large_image
+seo:
+  type: Organization
+  name: LearningClarity
 markdown: kramdown
 future: false
 
@@ -30,6 +46,7 @@ defaults:
     values:
       layout: post
       lang: en
+      locale: en_US
       dir: ltr
       categories: [en]
       permalink: /en/:year/:month/:title/
@@ -39,6 +56,7 @@ defaults:
     values:
       layout: post
       lang: ar
+      locale: ar_AR
       dir: rtl
       categories: [ar]
       permalink: /ar/:year/:month/:title/
@@ -46,7 +64,7 @@ defaults:
       path: ""
     values:
       layout: default
-      image: /assets/img/lc-icon.png
+      image: /assets/img/og-default.png
 
 exclude:
   - AGENT.md

@@ -6,7 +6,28 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% seo %}
+  {%- if page.tags and page.tags.size > 0 %}
+  <meta name="keywords" content="{% if page.keywords %}{{ page.keywords | join: ', ' }}, {% endif %}{{ page.tags | join: ', ' }}">
+  {%- endif %}
+  {%- if page.ref %}
+  {%- assign alts = site.posts | where: "ref", page.ref -%}
+  {%- for alt in alts %}
+  <link rel="alternate" hreflang="{{ alt.lang }}" href="{{ alt.url | absolute_url }}">
+  {%- if alt.lang == 'en' %}
+  <link rel="alternate" hreflang="x-default" href="{{ alt.url | absolute_url }}">
+  {%- endif %}
+  {%- endfor %}
+  {%- elsif page.url == '/' or page.url == '/ar/' %}
+  <link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
+  <link rel="alternate" hreflang="ar" href="{{ '/ar/' | absolute_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+  {%- endif %}
   {% feed_meta %}
+  {%- if lang == 'ar' %}
+  <link rel="alternate" type="application/atom+xml" title="مدونة Learning Clarity" href="{{ '/feed/ar.xml' | absolute_url }}">
+  {%- else %}
+  <link rel="alternate" type="application/atom+xml" title="Learning Clarity Blog (English)" href="{{ '/feed/en.xml' | absolute_url }}">
+  {%- endif %}
   <link rel="icon" href="/assets/img/lc-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

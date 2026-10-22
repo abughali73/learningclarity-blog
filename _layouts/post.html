@@ -17,6 +17,27 @@ layout: default
   <div class="post-body">
     {{ content }}
   </div>
+  {%- if page.tags and page.tags.size > 0 %}
+  <p class="hashtags" aria-label="{% if page.lang == 'ar' %}الوسوم{% else %}Hashtags{% endif %}">
+    {%- for tag in page.tags %}<span class="hashtag" dir="auto">#{{ tag | remove: " " | remove: "#" }}</span>{% endfor -%}
+  </p>
+  {%- endif %}
+  {%- assign same_lang = site.posts | where: "lang", page.lang -%}
+  {%- assign shown = 0 -%}
+  {%- capture related -%}
+    {%- for p in same_lang -%}
+      {%- if p.url != page.url and shown < 3 -%}
+      {%- assign shown = shown | plus: 1 -%}
+      <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endcapture -%}
+  {%- if shown > 0 %}
+  <nav class="related" aria-label="{% if page.lang == 'ar' %}مقالات ذات صلة{% else %}Related posts{% endif %}">
+    <h2>{% if page.lang == 'ar' %}اقرأ أيضًا{% else %}Keep reading{% endif %}</h2>
+    <ul>{{ related }}</ul>
+  </nav>
+  {%- endif %}
   <aside class="cta">
     <h2>{{ t.cta_title }}</h2>
     <p>{{ t.cta_text }}</p>

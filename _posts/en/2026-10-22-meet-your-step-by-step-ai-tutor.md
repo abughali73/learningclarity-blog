@@ -5,6 +5,8 @@ date: 2026-10-22 09:00:00 +0300
 lang: en
 ref: meet-your-step-by-step-ai-tutor
 capability: explain-mode
+keywords: ["AI tutor", "step-by-step explanations", "AI study app", "learn at your own pace", "understand difficult topics"]
+tags: [LearningClarity, LearningClarityAI, ExplainMode, AITutor, AIinEducation, StudyTips, StudySmarter, OnlineLearning, EdTech, ExamPrep, Students, LifelongLearning, SelfStudy]
 ad:
   color: purple
   eyebrow: "Explain Mode"
@@ -27,7 +29,7 @@ ad:
 ---
 Most of us have had the same experience with a textbook chapter. You read a page, reach the bottom, and realise you can't say what it was about. The problem usually isn't effort. Too much arrives at once, and there is nobody to ask when one sentence doesn't make sense.
 
-**Explain Mode** is LearningClarity's answer to that. It is an interactive AI tutor that teaches a subtopic one short section at a time, and it waits for you before moving on.
+**Explain Mode** is LearningClarity's answer to that. It is an interactive AI tutor that gives step-by-step explanations: it teaches a subtopic one short section at a time, and it waits for you before moving on.
 
 ## One section at a time, at your pace
 
@@ -44,11 +46,11 @@ Every learner gets stuck in different places, so every section comes with two bu
 
 You stay in control of the depth, section by section, instead of being stuck with one level for the whole topic.
 
-## See it, ask about it, hear it
+## See it, ask your AI tutor, hear it
 
 Some ideas are easier to understand as a picture. **Visualize** generates a clean, labelled diagram of the current concept, with labels in the language of your topic.
 
-When something still isn't clear, you can **ask your own question** about the section or ask for an example, just as you would with a human tutor. If you'd rather listen, **Listen** reads the current explanation aloud, which helps when you're away from the screen or prefer learning by ear.
+When something still isn't clear, you can **ask your own question** about the section or ask for an example, just as you would with a human tutor. If you'd rather listen, **Listen** reads the current explanation aloud, which helps when you're away from the screen or prefer learning by ear. For longer listening sessions, you can also [turn a whole topic into a two-voice podcast](/en/2026/10/turn-any-topic-into-a-podcast/).
 
 ## Know that you've understood before moving on
 
@@ -66,4 +68,4 @@ Explain Mode is the first step in LearningClarity's learning path:
 
 You can go straight to any mode, but starting with Explain gives the quiz and exam something solid to build on.
 
-Pick a topic you've been putting off and try your first section today. Every new account starts with 300 free credits.
+Pick a topic you've been putting off and [try your first section with the LearningClarity AI tutor](https://www.learningclarity.ai). Every new account starts with 300 free credits.
