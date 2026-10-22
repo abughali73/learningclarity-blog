@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign other = page.lang | replace: "en", "x" | replace: "ar", "en" | replace: "x", "ar" -%}
+{%- assign twin = site.posts | where: "ref", page.ref | where: "lang", other | first -%}
+<article class="post">
+  <p class="crumbs"><a href="{% if page.lang == 'ar' %}/ar/{% else %}/{% endif %}">← {{ t.back }}</a></p>
+  <header class="post-head">
+    {% if page.ad.eyebrow %}<span class="ad-eyebrow ad-eyebrow-{{ page.ad.color | default: 'blue' }}">{{ page.ad.eyebrow }}</span>{% endif %}
+    <h1>{{ page.title }}</h1>
+    <p class="post-desc">{{ page.description }}</p>
+    <p class="post-meta">{{ t.published }} <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time>
+      {% if twin %} · <a href="{{ twin.url }}" lang="{{ other }}">{{ t.translation }}</a>{% endif %}</p>
+  </header>
+  {% if page.ad %}{% include ad.html ad=page.ad lang=page.lang %}{% endif %}
+  <div class="post-body">
+    {{ content }}
+  </div>
+  <aside class="cta">
+    <h2>{{ t.cta_title }}</h2>
+    <p>{{ t.cta_text }}</p>
+    <a class="btn" href="{{ site.app.web }}" rel="noopener">{{ t.cta_button }}</a>
+  </aside>
+</article>

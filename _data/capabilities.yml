@@ -1,0 +1,132 @@
+# Source of truth for blog posts. Every claim in a post must come from the facts below.
+# Keep this file in sync with the LearningClarity User Features Guide.
+- key: upload-material
+  name: Learn from your own material
+  facts:
+    - Upload PDF, PPTX, DOCX or TXT files and LearningClarity builds a topic from their content.
+    - Lets learners study exactly what their course or employer requires.
+    - Video and YouTube links are not supported as sources.
+    - Building a topic from an uploaded document uses more credits than describing a topic, because the whole document is analysed.
+- key: describe-topic
+  name: Create a topic by describing it
+  facts:
+    - Type the subject you want to learn (up to 5,000 characters), optionally with goals or level.
+    - LearningClarity builds the topic, assigns a category and generates its subtopics.
+    - The fastest and most economical way to start.
+    - You choose which subtopics to focus on; completion is tracked for each one.
+- key: ai-courses
+  name: AI Courses
+  facts:
+    - An AI Course groups several related topics into a structured sequence.
+    - Describe what you want to learn and LearningClarity generates the course and its topics.
+    - LearningClarity can suggest the best order in which to study the topics.
+- key: learning-plans
+  name: AI Learning Plans
+  facts:
+    - An AI Learning Plan is a full curriculum of several courses toward a broader goal, e.g. "Prepare for a career in data analysis".
+    - LearningClarity generates the plan and its courses and can suggest the best order.
+    - Structure is Learning Plan > Course > Topic > Subtopic.
+- key: explain-mode
+  name: Explain Mode
+  facts:
+    - An interactive AI tutor that teaches a subtopic one short section at a time; select Next to continue at your own pace.
+    - Simplify rephrases the current section in simpler terms; Explain Further adds detail and examples.
+    - Ask your own question about a section, or ask for an example.
+    - Knowledge Checks are multiple-choice questions during the explanation, with feedback; Retry lets you reattempt.
+    - Resume returns you to where you stopped.
+    - Explanations and questions are adapted to the learner's age.
+- key: visualize
+  name: Visualize (diagrams)
+  facts:
+    - Visualize generates a clean, labelled diagram of the current concept in Explain Mode.
+    - Labels are in the topic's language.
+- key: listen
+  name: Listen (audio narration)
+  facts:
+    - In Explain Mode, Listen reads the current explanation aloud.
+    - Useful for auditory learners and studying away from the screen.
+- key: podcasts
+  name: AI podcasts
+  facts:
+    - Turn a topic or a single subtopic into an AI-generated podcast episode: a two-voice conversation between a host and an expert guest.
+    - Choose from preset episode lengths; topic-level episodes can be longer than subtopic-level ones.
+    - The episode follows the topic's language; voices are optimised for English, other languages may carry a slight accent.
+    - Episodes are generated in the background; an "AI job complete" notification says when one is ready.
+- key: talk-to-this
+  name: Talk to This (live voice tutor)
+  facts:
+    - Opens a live voice conversation with an AI tutor about the material you are studying.
+    - Speak or type; the tutor always replies aloud. A transcript can be kept.
+    - Credits are based on conversation length; unused reserved credits are returned.
+    - Currently available on the web app; mobile support is planned. ALWAYS say this when featuring it.
+- key: quiz-mode
+  name: Quiz Mode
+  facts:
+    - Low-pressure practice: choose the subtopics and the question types.
+    - An "I don't know" option gives a more accurate picture than guessing.
+    - Ask why an answer is correct or incorrect.
+    - Results show a score, a breakdown of correct, incorrect and "I don't know" answers, and a mastery level.
+- key: exam-mode
+  name: Exam Mode
+  facts:
+    - A formal assessment on a single topic or a whole course.
+    - Settings - scope, question types, difficulty (Medium, Hard or Random), untimed or timed, number of questions.
+    - Results - score, full question review, an AI performance summary of strengths and areas to revisit, mastery level.
+- key: certificates
+  name: Certificates
+  facts:
+    - Qualifying exam results earn a certificate for the topic or course.
+    - A supervisor following the learner is notified when a certificate is earned.
+- key: streaks-achievements
+  name: Streaks and achievements
+  facts:
+    - Current streak counts consecutive days of learning activity; longest streak records the personal best; optional streak reminders.
+    - 16 achievements with rarity levels (Common to Legendary), six of them hidden.
+    - Examples - First Topic, Quiz Perfect (100% on a quiz), Exam Excellence (90%+ on an exam), 7-Day Streak, 30-Day Streak, Quiz Veteran (10 quizzes).
+- key: progress
+  name: Progress tracking and mastery
+  facts:
+    - Progress is tracked at every level - subtopics, topics, courses, plans, quiz and exam history, mastery levels.
+    - The three modes Explain, Quiz and Exam take you from first understanding to verified mastery; you can enter any mode directly.
+- key: sharing
+  name: Sharing topics, courses and plans
+  facts:
+    - Share any topic, course or plan you created with another LearningClarity user by email.
+    - The recipient previews it and accepts or declines; on accepting they get an independent copy and their own progress.
+    - You are notified when a share is accepted; pending shares can be cancelled.
+    - Only content you created can be shared; shared copies cannot be shared onward.
+- key: supervision
+  name: Supervision for parents and teachers
+  facts:
+    - A parent, teacher or mentor sends a request with the learner's account email; the learner must accept before anything is shared.
+    - Scheduled email progress reports - weekly, every two weeks or monthly, at a chosen day, hour and time zone; or sent immediately.
+    - Reports cover highlights, overview, topic, course and plan progress, recent quizzes and exams; written in the supervisor's app language (Arabic right-to-left).
+    - Supervisors are notified when the request is accepted, when the learner earns a certificate, and when the learner has been inactive.
+- key: languages
+  name: Languages
+  facts:
+    - The app language is the user interface language; 7 options - Arabic, English, French, German, Italian, Portuguese, Spanish; changed in the user profile.
+    - New topics, courses and plans default to the app language; you can change the learning language before creating them.
+    - Explanations, quizzes, exams, diagrams and podcasts are in the chosen learning language, always in its formal, standard form.
+    - Study one topic in Arabic and another in English.
+- key: credits
+  name: Free credits and pay-as-you-go
+  facts:
+    - No subscription for individuals; pay only for what you use with credits.
+    - 300 free welcome credits; 200 more when signing up with a referral code; 100 for completing the getting-started checklist.
+    - Buy credit packs by card on the web or through the App Store on iOS.
+- key: referral
+  name: Referral program
+  facts:
+    - Every user has a referral code; a friend who signs up with it gets 200 bonus credits (500 in total).
+    - The referrer earns a cash reward of 10% of every purchase the friend makes, paid in US dollars, after a 30-day holding period.
+    - A referral dashboard shows sign-ups, purchases and earnings.
+- key: multi-device
+  name: Web, iPhone and Android
+  facts:
+    - Available on the web, iOS and Android; sign in with Google, Microsoft, Apple or email.
+    - Library, progress and credits are shared across devices.
+- key: age-adapted
+  name: Age-adapted learning
+  facts:
+    - Onboarding collects date of birth; explanations, examples and questions are pitched at the learner's age.

@@ -1,0 +1,56 @@
+title: Learning Clarity Blog
+tagline: Clarity in Learning. Success in Every Step.
+description: Tips, guides and feature spotlights from LearningClarity, the AI learning platform that explains, quizzes and examines any subject in your language.
+url: https://blog.learningclarity.ai
+baseurl: ""
+lang: en
+timezone: Africa/Cairo
+markdown: kramdown
+future: false
+
+app:
+  web: https://www.learningclarity.ai
+  ios: https://apps.apple.com/app/learning-clarity/id6776674430
+  android: https://play.google.com/store/apps/details?id=ai.learningclarity.app
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+feed:
+  categories:
+    - en
+    - ar
+
+defaults:
+  - scope:
+      path: "_posts/en"
+      type: posts
+    values:
+      layout: post
+      lang: en
+      dir: ltr
+      categories: [en]
+      permalink: /en/:year/:month/:title/
+  - scope:
+      path: "_posts/ar"
+      type: posts
+    values:
+      layout: post
+      lang: ar
+      dir: rtl
+      categories: [ar]
+      permalink: /ar/:year/:month/:title/
+  - scope:
+      path: ""
+    values:
+      layout: default
+      image: /assets/img/lc-icon.png
+
+exclude:
+  - AGENT.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

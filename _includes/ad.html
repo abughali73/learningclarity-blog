@@ -1,0 +1,35 @@
+{%- assign ad = include.ad -%}
+{%- assign t = site.data.i18n[include.lang] -%}
+{%- assign colors = "blue,purple,pink,orange" | split: "," -%}
+<figure class="ad" dir="{% if include.lang == 'ar' %}rtl{% else %}ltr{% endif %}" aria-label="{{ ad.headline }} {{ ad.highlight }}">
+  <div class="ad-brand">
+    <img src="/assets/img/lc-icon.png" alt="" width="56" height="56">
+    <div>
+      <div class="ad-wordmark">Learning <span class="grad">Clarity</span></div>
+      <div class="ad-tagline">Clarity in Learning. Success in Every Step.</div>
+    </div>
+  </div>
+  <div class="ad-hero">
+    <span class="ad-eyebrow ad-eyebrow-{{ ad.color | default: 'blue' }}">{{ ad.eyebrow }}</span>
+    <div class="ad-headline">{{ ad.headline }} <span class="grad">{{ ad.highlight }}</span></div>
+    <p class="ad-sub">{{ ad.subtitle }}</p>
+  </div>
+  <ol class="ad-steps">
+    {%- for item in ad.items limit: 4 -%}
+    {%- assign c = colors[forloop.index0] -%}
+    <li class="ad-step ad-{{ c }}">
+      <span class="ad-icon">{% include icon.html name=item.icon size=40 %}</span>
+      <span class="ad-link" aria-hidden="true"></span>
+      <div class="ad-card">
+        <span class="ad-num">{{ forloop.index }}</span>
+        <div>
+          <div class="ad-title">{{ item.title }}</div>
+          <ul class="ad-bullets">{% for b in item.bullets limit: 2 %}<li>{{ b }}</li>{% endfor %}</ul>
+        </div>
+      </div>
+    </li>
+    {%- endfor -%}
+  </ol>
+  {% include stores.html lang=include.lang %}
+  {%- if ad.footnote -%}<figcaption class="ad-footnote">{{ ad.footnote }}</figcaption>{%- endif -%}
+</figure>

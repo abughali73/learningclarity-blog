@@ -1,0 +1,15 @@
+{%- assign t = site.data.i18n[include.lang] -%}
+<div class="stores">
+  <a class="store" href="{{ site.app.ios }}" rel="noopener">
+    <img src="/assets/img/qr-ios.png" alt="QR code: LearningClarity on the App Store" width="96" height="96">
+    <span><small>{{ t.ios_small }}</small><strong>{{ t.ios_big }}</strong><small>{{ t.ios_note }}</small></span>
+  </a>
+  <a class="store" href="{{ site.app.android }}" rel="noopener">
+    <img src="/assets/img/qr-android.png" alt="QR code: LearningClarity on Google Play" width="96" height="96">
+    <span><small>{{ t.android_small }}</small><strong>{{ t.android_big }}</strong><small>{{ t.android_note }}</small></span>
+  </a>
+  <a class="store" href="{{ site.app.web }}" rel="noopener">
+    <img src="/assets/img/qr-web.png" alt="QR code: www.learningclarity.ai" width="96" height="96">
+    <span><small>{{ t.web_small }}</small><strong class="web">{{ t.web_big }}</strong><small>{{ t.web_note }}</small></span>
+  </a>
+</div>

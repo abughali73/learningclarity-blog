@@ -1,0 +1,50 @@
+en:
+  blog: Blog
+  home_title: The Learning Clarity Blog
+  home_intro: Feature spotlights, study tips and guides for getting the most out of LearningClarity.
+  read_more: Read the post
+  other_lang: العربية
+  other_lang_url: /ar/
+  translation: اقرأ هذا المقال بالعربية
+  get_app: Get the app
+  cta_title: Try it free with 300 credits
+  cta_text: Sign up on the web, iPhone or Android and start learning in minutes.
+  cta_button: Start learning
+  qr_title: Scan to get LearningClarity
+  ios_small: Download on the
+  ios_big: App Store
+  ios_note: iPhone and iPad
+  android_small: Get it on
+  android_big: Google Play
+  android_note: Android
+  web_small: Learn on the web
+  web_big: learningclarity.ai
+  web_note: Any browser
+  back: All posts
+  published: Published
+  rights: LearningClarity is a product of intelliSYS s.r.o.
+ar:
+  blog: المدونة
+  home_title: مدونة Learning Clarity
+  home_intro: تعرّف على ميزات LearningClarity، ونصائح الدراسة، وأدلة تساعدك على تحقيق أقصى استفادة من المنصة.
+  read_more: اقرأ المقال
+  other_lang: English
+  other_lang_url: /
+  translation: Read this post in English
+  get_app: حمّل التطبيق
+  cta_title: جرّبه مجانًا مع 300 رصيد
+  cta_text: سجّل عبر الويب أو iPhone أو Android وابدأ التعلّم خلال دقائق.
+  cta_button: ابدأ التعلّم
+  qr_title: امسح الرمز للحصول على LearningClarity
+  ios_small: حمّله من
+  ios_big: App Store
+  ios_note: iPhone و iPad
+  android_small: احصل عليه من
+  android_big: Google Play
+  android_note: Android
+  web_small: تعلّم عبر الويب
+  web_big: learningclarity.ai
+  web_note: أي متصفح
+  back: كل المقالات
+  published: نُشر في
+  rights: LearningClarity منتج من intelliSYS s.r.o.

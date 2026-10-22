@@ -1,0 +1,40 @@
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+<!doctype html>
+<html lang="{{ lang }}" dir="{% if lang == 'ar' %}rtl{% else %}ltr{% endif %}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  {% feed_meta %}
+  <link rel="icon" href="/assets/img/lc-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body class="lang-{{ lang }}">
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="{% if lang == 'ar' %}/ar/{% else %}/{% endif %}">
+        <img src="/assets/img/lc-icon.png" alt="" width="44" height="44">
+        <span class="brand-text"><span class="wordmark">Learning <span class="grad">Clarity</span></span><span class="brand-sub">{{ t.blog }}</span></span>
+      </a>
+      <nav class="nav" aria-label="Site">
+        <a href="{% if page.translation %}{{ page.translation }}{% else %}{{ t.other_lang_url }}{% endif %}" lang="{% if lang == 'ar' %}en{% else %}ar{% endif %}">{{ t.other_lang }}</a>
+        <a class="btn btn-small" href="{{ site.app.web }}" rel="noopener">{{ t.get_app }}</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="footer-title">{{ t.qr_title }}</p>
+      {% include stores.html lang=lang %}
+      <p class="footer-legal">© {{ site.time | date: "%Y" }} intelliSYS s.r.o. · {{ t.rights }}</p>
+    </div>
+  </footer>
+</body>
+</html>
