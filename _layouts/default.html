@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% seo %}
+  {% include seo.html %}
   {%- if page.tags and page.tags.size > 0 %}
   <meta name="keywords" content="{% if page.keywords %}{{ page.keywords | join: ', ' }}, {% endif %}{{ page.tags | join: ', ' }}">
   {%- endif %}
@@ -17,6 +17,10 @@
   <link rel="alternate" hreflang="x-default" href="{{ alt.url | absolute_url }}">
   {%- endif %}
   {%- endfor %}
+  {%- elsif page.author_page %}
+  <link rel="alternate" hreflang="en" href="{{ site.data.authors[page.author].url | absolute_url }}">
+  <link rel="alternate" hreflang="ar" href="{{ site.data.authors[page.author].url_ar | absolute_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ site.data.authors[page.author].url | absolute_url }}">
   {%- elsif page.url == '/' or page.url == '/ar/' %}
   <link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
   <link rel="alternate" hreflang="ar" href="{{ '/ar/' | absolute_url }}">

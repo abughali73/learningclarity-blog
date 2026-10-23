@@ -5,6 +5,7 @@ date: 2026-10-22 09:00:00 +0300
 lang: en
 ref: meet-your-step-by-step-ai-tutor
 capability: explain-mode
+image: /assets/img/posts/en-meet-your-step-by-step-ai-tutor.png
 keywords: ["AI tutor", "step-by-step explanations", "AI study app", "learn at your own pace", "understand difficult topics"]
 tags: [LearningClarity, LearningClarityAI, ExplainMode, AITutor, AIinEducation, StudyTips, StudySmarter, OnlineLearning, EdTech, ExamPrep, Students, LifelongLearning, SelfStudy]
 ad:
@@ -68,4 +69,4 @@ Explain Mode is the first step in LearningClarity's learning path:
 
 You can go straight to any mode, but starting with Explain gives the quiz and exam something solid to build on.
 
-Pick a topic you've been putting off and [try your first section with the LearningClarity AI tutor](https://www.learningclarity.ai). Every new account starts with 300 free credits.
+Pick a topic you've been putting off and [try your first section with the LearningClarity AI tutor](https://www.learningclarity.ai). Every new account starts with 500 free credits.

@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{%- assign a = site.data.authors[page.author] -%}
+{%- assign posts = site.posts | where: "lang", page.lang -%}
+<article class="post author-page">
+  <p class="crumbs"><a href="{% if page.lang == 'ar' %}/ar/{% else %}/{% endif %}">← {{ site.data.i18n[page.lang].back }}</a></p>
+  <header class="post-head">
+    <h1>{% if page.lang == 'ar' %}{{ a.name_ar }}{% else %}{{ a.name }}{% endif %}</h1>
+    <p class="post-desc">{% if page.lang == 'ar' %}{{ a.job_title_ar }}{% else %}{{ a.job_title }}{% endif %}</p>
+    <p class="post-meta"><span dir="ltr">{{ a.credentials }}</span></p>
+  </header>
+  <div class="post-body">
+    {%- if page.lang == 'ar' %}{% for p in a.bio_ar %}<p>{{ p }}</p>{% endfor %}{% else %}{% for p in a.bio %}<p>{{ p }}</p>{% endfor %}{% endif %}
+    <h2>{% if page.lang == 'ar' %}مقالات بقلمه{% else %}Articles by {{ a.given_name }}{% endif %}</h2>
+    <ul>
+      {%- for p in posts %}{% assign pa = p.author | default: site.default_author %}{% if pa == page.author %}
+      <li><a href="{{ p.url }}">{{ p.title }}</a></li>{% endif %}{% endfor %}
+    </ul>
+  </div>
+  {% include social.html lang=page.lang %}
+</article>

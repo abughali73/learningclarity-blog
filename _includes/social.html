@@ -1,0 +1,8 @@
+<nav class="social" aria-label="{% if include.lang == 'ar' %}تابِع LearningClarity{% else %}Follow LearningClarity{% endif %}">
+  <p class="social-title">{% if include.lang == 'ar' %}تابِع LearningClarity على منصات التواصل{% else %}Follow LearningClarity{% endif %}</p>
+  <ul class="social-list" dir="ltr">
+    {%- for s in site.data.social %}
+    <li><a href="{{ s.url }}" rel="noopener me" target="_blank">{{ s.name }}</a></li>
+    {%- endfor %}
+  </ul>
+</nav>

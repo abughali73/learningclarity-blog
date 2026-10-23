@@ -1,0 +1,9 @@
+{%- assign author = site.data.authors[include.key] -%}
+{%- if author -%}
+<aside class="author-box" aria-label="{% if include.lang == 'ar' %}عن الكاتب{% else %}About the author{% endif %}">
+  <p class="author-kicker">{% if include.lang == 'ar' %}عن الكاتب{% else %}About the author{% endif %}</p>
+  <p class="author-name"><a href="{% if include.lang == 'ar' %}{{ author.url_ar }}{% else %}{{ author.url }}{% endif %}" rel="author">{% if include.lang == 'ar' %}{{ author.name_ar }}{% else %}{{ author.name }}{% endif %}</a></p>
+  <p class="author-role">{% if include.lang == 'ar' %}{{ author.job_title_ar }}{% else %}{{ author.job_title }}{% endif %} · <span dir="ltr">{{ author.credentials }}</span></p>
+  <p class="author-short">{% if include.lang == 'ar' %}{{ author.short_ar }}{% else %}{{ author.short }}{% endif %}</p>
+</aside>
+{%- endif -%}

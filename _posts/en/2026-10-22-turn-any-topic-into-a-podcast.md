@@ -5,6 +5,7 @@ date: 2026-10-22 10:00:00 +0300
 lang: en
 ref: turn-any-topic-into-a-podcast
 capability: podcasts
+image: /assets/img/posts/en-turn-any-topic-into-a-podcast.png
 keywords: ["AI podcast for studying", "learn on the go", "study podcast", "audio learning", "revise while commuting"]
 tags: [LearningClarity, LearningClarityAI, AIPodcast, StudyPodcast, LearnOnTheGo, AudioLearning, StudyTips, ExamPrep, RevisionTips, AIinEducation, EdTech, OnlineLearning, Students, LifelongLearning]
 ad:
@@ -60,4 +61,4 @@ Every episode follows the language of its topic. If you're studying a topic in A
 
 Podcasts work best alongside the rest of the learning path. Explain builds the understanding, the podcast keeps it fresh, and Quiz and Exam show you how much has stuck.
 
-[Create your first study podcast on LearningClarity](https://www.learningclarity.ai) from a topic you're working on. Every new account starts with 300 free credits.
+[Create your first study podcast on LearningClarity](https://www.learningclarity.ai) from a topic you're working on. Every new account starts with 500 free credits.

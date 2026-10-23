@@ -5,6 +5,7 @@ date: 2026-10-23 12:15:17 +0300
 lang: en
 ref: study-your-own-pdfs-with-ai
 capability: upload-material
+image: /assets/img/posts/en-study-your-own-pdfs-with-ai.png
 keywords: ["study your own PDFs with AI", "turn lecture slides into lessons", "AI study tool for your notes", "exam revision from course material", "learn from training documents"]
 tags: [LearningClarity, LearningClarityAI, StudyWithAI, AITutor, StudyTips, ExamPrep, RevisionTips, OnlineLearning, EdTech, AIinEducation, Students, Teachers, CorporateTraining, LifelongLearning]
 ad:
@@ -16,7 +17,7 @@ ad:
   items:
     - icon: upload
       title: "Upload what you have"
-      bullets: ["PDF, PPTX, DOCX or TXT files", "Slides, notes or handbooks"]
+      bullets: ["PDF, images or plain text files", "Export Word and slides to PDF first"]
     - icon: target
       title: "Study what's required"
       bullets: ["Exactly what your course covers", "Or what your employer requires"]
@@ -28,7 +29,7 @@ ad:
       bullets: ["Video and YouTube links aren't supported", "Uses more credits than describing a topic"]
   footnote: ""
 ---
-It's exam week, and your course lives in a folder: a stack of lecture slides, a PDF reader and a few pages of your own notes. Instead of rereading them for the fifth time, you can **study your own PDFs with AI** and turn those files into a topic you actually work through.
+It's exam week, and your course lives in a folder: a stack of lecture slides saved as PDF, a course reader and a few pages of your own notes. Instead of rereading them for the fifth time, you can **study your own PDFs with AI** and turn those files into a topic you actually work through.
 
 ## Why study from your own course material?
 
@@ -38,11 +39,11 @@ That matters for more than students. A new employee can upload an onboarding gui
 
 ## How to turn lecture slides into lessons
 
-1. **Upload a file.** LearningClarity accepts PDF, PPTX, DOCX and TXT files, so slide decks, Word documents, PDFs and plain notes all work.
+1. **Upload a file.** LearningClarity accepts PDFs, images (PNG, JPG or JPEG) and plain text files. Word documents and PowerPoint decks can't be uploaded directly, so export them to PDF first; every word processor and presentation tool can do this from its File menu.
 2. **Let it build the topic.** LearningClarity reads the content and builds a topic from it, with its own subtopics.
 3. **Choose what to focus on.** Pick the subtopics you need right now. Completion is tracked for each one, so you can see what's left before the exam.
 
-Two things to know before you start. Video files and YouTube links aren't supported as sources, so stick to documents. And building a topic from a document uses more credits than describing a topic in words, because LearningClarity analyses the whole document. If you only need a quick overview of a subject, typing a short description is the faster, cheaper route.
+Two things to know before you start. Video files, audio recordings and YouTube links aren't supported as sources, so stick to documents. And building a topic from a document uses more credits than describing a topic in words, because LearningClarity analyses the whole document: it needs a balance of at least 1,000 credits before it starts. If you only need a quick overview of a subject, typing a short description is the faster, cheaper route.
 
 ## From your notes to real understanding
 
@@ -56,4 +57,4 @@ When you think you've got it, switch to **Quiz Mode** for low-pressure practice.
 - **Days 2 to 4:** work through them in Explain Mode, a few each day.
 - **Day 5:** take a quiz on the weakest subtopics, then an exam on the full topic.
 
-Ready to try it with your own files? [Upload your first document to LearningClarity](https://www.learningclarity.ai) and start with 300 free welcome credits.
+Ready to try it with your own files? [Create your free LearningClarity account](https://www.learningclarity.ai). New accounts start with 500 free credits: describe your first topic with them, then top up when you are ready to upload your course files.

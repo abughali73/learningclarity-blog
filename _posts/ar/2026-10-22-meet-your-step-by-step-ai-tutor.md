@@ -5,6 +5,7 @@ date: 2026-10-22 09:00:00 +0300
 lang: ar
 ref: meet-your-step-by-step-ai-tutor
 capability: explain-mode
+image: /assets/img/posts/ar-meet-your-step-by-step-ai-tutor.png
 keywords: ["معلم ذكي", "شرح خطوة بخطوة", "تطبيق تعليمي بالذكاء الاصطناعي", "التعلم الذاتي", "فهم الدروس الصعبة"]
 tags: [LearningClarity, LearningClarityAI, الذكاء_الاصطناعي, التعليم_الإلكتروني, التعلم_الذاتي, معلم_ذكي, نصائح_دراسية, مذاكرة, طلاب, التعليم_عن_بعد, تطبيقات_تعليمية, AIinEducation, EdTech]
 ad:
@@ -68,4 +69,4 @@ ad:
 
 يمكنك الانتقال مباشرة إلى أي وضع، لكن البدء بالشرح يمنح الاختبار والامتحان أساسًا متينًا.
 
-اختر موضوعًا طالما أجّلته، و[جرّب أول جزء منه مع المعلّم الذكي في LearningClarity](https://www.learningclarity.ai) اليوم. كل حساب جديد يبدأ بـ 300 رصيد مجاني.
+اختر موضوعًا طالما أجّلته، و[جرّب أول جزء منه مع المعلّم الذكي في LearningClarity](https://www.learningclarity.ai) اليوم. كل حساب جديد يبدأ بـ 500 رصيد مجاني.

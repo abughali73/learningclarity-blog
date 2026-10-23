@@ -5,6 +5,7 @@ date: 2026-10-22 10:00:00 +0300
 lang: ar
 ref: turn-any-topic-into-a-podcast
 capability: podcasts
+image: /assets/img/posts/ar-turn-any-topic-into-a-podcast.png
 keywords: ["بودكاست تعليمي", "التعلم أثناء التنقل", "المذاكرة بالاستماع", "التعلم الصوتي", "مراجعة الدروس"]
 tags: [LearningClarity, LearningClarityAI, بودكاست_تعليمي, بودكاست, التعلم_الذاتي, نصائح_دراسية, مذاكرة, مراجعة, الذكاء_الاصطناعي, التعليم_الإلكتروني, طلاب, AIPodcast, EdTech]
 ad:
@@ -60,4 +61,4 @@ ad:
 
 يعمل البودكاست أفضل حين يُستخدم مع بقية مسار التعلّم: الشرح يبني الفهم، والبودكاست يحافظ عليه حيًّا، والاختبار القصير والامتحان يُظهران لك ما رسخ منه.
 
-[أنشئ أول بودكاست تعليمي لك على LearningClarity](https://www.learningclarity.ai) من موضوع تدرسه الآن. كل حساب جديد يبدأ بـ 300 رصيد مجاني.
+[أنشئ أول بودكاست تعليمي لك على LearningClarity](https://www.learningclarity.ai) من موضوع تدرسه الآن. كل حساب جديد يبدأ بـ 500 رصيد مجاني.

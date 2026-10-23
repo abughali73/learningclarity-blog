@@ -4,24 +4,35 @@ layout: default
 {%- assign t = site.data.i18n[page.lang] -%}
 {%- assign other = page.lang | replace: "en", "x" | replace: "ar", "en" | replace: "x", "ar" -%}
 {%- assign twin = site.posts | where: "ref", page.ref | where: "lang", other | first -%}
+{%- assign author_key = page.author | default: site.default_author -%}
+{%- assign author = site.data.authors[author_key] -%}
 <article class="post">
   <p class="crumbs"><a href="{% if page.lang == 'ar' %}/ar/{% else %}/{% endif %}">← {{ t.back }}</a></p>
   <header class="post-head">
     {% if page.ad.eyebrow %}<span class="ad-eyebrow ad-eyebrow-{{ page.ad.color | default: 'blue' }}">{{ page.ad.eyebrow }}</span>{% endif %}
     <h1>{{ page.title }}</h1>
     <p class="post-desc">{{ page.description }}</p>
-    <p class="post-meta">{{ t.published }} <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time>
+    <p class="post-meta">{% if author %}{% if page.lang == 'ar' %}بقلم{% else %}By{% endif %} <a href="{% if page.lang == 'ar' %}{{ author.url_ar }}{% else %}{{ author.url }}{% endif %}" rel="author">{% if page.lang == 'ar' %}{{ author.name_ar }}{% else %}{{ author.name }}{% endif %}</a> · {% endif %}{{ t.published }} <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time>
       {% if twin %} · <a href="{{ twin.url }}" lang="{{ other }}">{{ t.translation }}</a>{% endif %}</p>
   </header>
   {% if page.ad %}{% include ad.html ad=page.ad lang=page.lang %}{% endif %}
+  {%- if page.hero_image -%}
+  {%- assign hero_file = site.static_files | where: "path", page.hero_image.src | first -%}
+  {%- if hero_file %}
+  <figure class="hero-image"><img src="{{ page.hero_image.src }}" alt="{{ page.hero_image.alt | escape }}" width="1536" height="1024" loading="lazy"></figure>
+  {%- endif -%}
+  {%- endif %}
   <div class="post-body">
     {{ content }}
+    {%- if page.faq %}{% include faq.html items=page.faq heading=page.faq_heading lang=page.lang %}{% endif %}
   </div>
   {%- if page.tags and page.tags.size > 0 %}
   <p class="hashtags" aria-label="{% if page.lang == 'ar' %}الوسوم{% else %}Hashtags{% endif %}">
     {%- for tag in page.tags %}<span class="hashtag" dir="auto">#{{ tag | remove: " " | remove: "#" }}</span>{% endfor -%}
   </p>
   {%- endif %}
+  {% include author-box.html key=author_key lang=page.lang %}
+  {% include social.html lang=page.lang %}
   {%- assign same_lang = site.posts | where: "lang", page.lang -%}
   {%- assign shown = 0 -%}
   {%- capture related -%}

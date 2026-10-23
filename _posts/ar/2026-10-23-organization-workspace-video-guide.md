@@ -8,6 +8,44 @@ capability: organization-workspace
 image: /assets/img/organization-workspace-guide-ar.jpg
 keywords: ["منصة تدريب للمؤسسات", "حساب المؤسسة", "تدريب الموظفين بالذكاء الاصطناعي", "إدارة التعلّم في الشركات", "امتحانات وشهادات للموظفين"]
 tags: [LearningClarity, LearningClarityAI, تدريب_الموظفين, التعليم_الإلكتروني, الذكاء_الاصطناعي, التطوير_المهني, الموارد_البشرية, التعلم_المؤسسي, CorporateTraining, EdTech, AIinEducation]
+video:
+  name: "شرح حساب المؤسسة في LearningClarity بالفيديو خطوة بخطوة"
+  description: "فيديو بالعربية يشرح حساب المؤسسة في LearningClarity: إنشاء المؤسسة، وإضافة الفرق والأعضاء، وتعيين المحتوى والامتحانات، ومتابعة النتائج."
+  thumbnail: /assets/img/organization-workspace-guide-ar.jpg
+  content_url: /assets/video/organization-workspace-guide-ar.mp4
+  duration: PT7M10S
+  upload_date: 2026-10-23 00:39:25 +0300
+  chapters:
+    - name: "مقدمة"
+      start: 0
+      end: 23
+    - name: "إنشاء المؤسسة وتأكيد البريد"
+      start: 23
+      end: 62
+    - name: "المحتوى المجاني ورصيد التجربة"
+      start: 62
+      end: 111
+    - name: "إنشاء الفرق والأعضاء"
+      start: 111
+      end: 165
+    - name: "تعيين المحتوى"
+      start: 165
+      end: 209
+    - name: "تجهيز الامتحان"
+      start: 209
+      end: 259
+    - name: "تعيين الامتحان"
+      start: 259
+      end: 293
+    - name: "تجربة المتعلّم"
+      start: 293
+      end: 339
+    - name: "دخول الامتحان والنتيجة"
+      start: 339
+      end: 381
+    - name: "متابعة الأعضاء والنتائج"
+      start: 381
+      end: 430
 ad:
   color: orange
   eyebrow: "حساب المؤسسة (Organization Workspace)"

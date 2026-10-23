@@ -1,0 +1,27 @@
+# Post authors. Posts set `author: <key>` (the default is maher, set in _config.yml).
+# `name` must stay a plain string: jekyll-feed reads it for the feeds.
+maher:
+  name: "Dr. Maher Abu Ghali"
+  name_ar: "د. ماهر أبو غالي"
+  given_name: "Maher"
+  family_name: "Abu Ghali"
+  honorific: "Dr."
+  job_title: "Founder and CEO, intelliSYS Solutions and Consulting"
+  job_title_ar: "المؤسس والرئيس التنفيذي لشركة intelliSYS Solutions and Consulting"
+  credentials: "PhD in Artificial Intelligence and Robotics · MBCS CITP"
+  url: /author/maher-abu-ghali/
+  url_ar: /ar/author/maher-abu-ghali/
+  image: /assets/img/lc-icon.png
+  # Add personal profile links (LinkedIn, etc.) here; they are used in the author schema.
+  same_as: []
+  knows_about: ["Artificial intelligence", "Robotics", "Educational technology", "Software architecture", "AI in education"]
+  short: "Dr. Maher Abu Ghali holds a PhD in AI and Robotics and is the founder and CEO of intelliSYS Solutions and Consulting, the company behind LearningClarity.AI."
+  short_ar: "د. ماهر أبو غالي حاصل على الدكتوراه في الذكاء الاصطناعي والروبوتات، وهو المؤسس والرئيس التنفيذي لشركة intelliSYS Solutions and Consulting، الشركة المالكة لمنصة LearningClarity.AI."
+  bio:
+    - "Dr. Maher Abu Ghali holds a PhD in Artificial Intelligence and Robotics. He is the founder and CEO of intelliSYS Solutions and Consulting, the company that owns and builds the LearningClarity.AI learning platform."
+    - "He has more than 30 years of experience designing and delivering large software systems for governments and international organizations. For 18 years he worked at the United Nations Office on Drugs and Crime (UNODC), the last 14 as Chief Software Architect, where he led the design and development of goAML, the anti-money-laundering system used by financial intelligence units around the world."
+    - "He studied computer science at the American University in Cairo, where his graduation project in autonomous mobile robotics was a behaviour system that let a group of robots learn to coordinate tasks in a changing environment. He is a Chartered IT Professional (MBCS CITP) of BCS, The Chartered Institute for IT."
+  bio_ar:
+    - "د. ماهر أبو غالي حاصل على الدكتوراه في الذكاء الاصطناعي والروبوتات، وهو المؤسس والرئيس التنفيذي لشركة intelliSYS Solutions and Consulting، الشركة المالكة والمطوّرة لمنصة التعلّم LearningClarity.AI."
+    - "يمتلك أكثر من 30 عامًا من الخبرة في تصميم الأنظمة البرمجية الكبرى وتنفيذها لصالح الحكومات والمنظمات الدولية. عمل 18 عامًا في مكتب الأمم المتحدة المعني بالمخدرات والجريمة (UNODC)، منها 14 عامًا كبيرًا لمهندسي البرمجيات، وقاد خلالها تصميم وتطوير نظام goAML لمكافحة غسل الأموال الذي تستخدمه وحدات المعلومات المالية حول العالم."
+    - "درس علوم الحاسب في الجامعة الأمريكية بالقاهرة، وكان مشروع تخرّجه في الروبوتات المتنقلة الذاتية نظامًا سلوكيًا يتيح لمجموعة من الروبوتات أن تتعلّم تنسيق مهامها في بيئة متغيّرة. وهو حاصل على صفة المهني المعتمد في تقنية المعلومات (MBCS CITP) من BCS، المعهد المعتمد لتقنية المعلومات في المملكة المتحدة."

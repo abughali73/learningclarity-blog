@@ -1,0 +1,9 @@
+<section class="faq" id="faq" aria-label="FAQ">
+  <h2>{% if include.heading %}{{ include.heading }}{% elsif include.lang == 'ar' %}أسئلة شائعة{% else %}Frequently asked questions{% endif %}</h2>
+  {%- for item in include.items %}
+  <details class="faq-item"{% if forloop.first %} open{% endif %}>
+    <summary><h3>{{ item.q }}</h3></summary>
+    <div class="faq-answer">{{ item.a | markdownify }}</div>
+  </details>
+  {%- endfor %}
+</section>

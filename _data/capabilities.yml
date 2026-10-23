@@ -3,10 +3,12 @@
 - key: upload-material
   name: Learn from your own material
   facts:
-    - Upload PDF, PPTX, DOCX or TXT files and LearningClarity builds a topic from their content.
+    - Upload PDF files (up to 40 MB each), images in PNG, JPG or JPEG (up to 10 MB each, at most 7 per upload) or plain text .txt files (up to 5 MB); up to 50 MB in one upload. LearningClarity builds a topic and its subtopics from the content.
+    - Word documents and PowerPoint decks cannot be uploaded directly; export them to PDF first and they upload normally.
+    - Scanned PDFs without a text layer and password-protected PDFs cannot be read.
     - Lets learners study exactly what their course or employer requires.
-    - Video and YouTube links are not supported as sources.
-    - Building a topic from an uploaded document uses more credits than describing a topic, because the whole document is analysed.
+    - Audio and video files (including lecture recordings) and YouTube links are not supported as sources.
+    - Building a topic from uploaded files needs a balance of at least 1,000 credits before it starts, so it is not available on the free starting balance alone; describing a topic starts from 50 credits.
 - key: describe-topic
   name: Create a topic by describing it
   facts:
@@ -113,10 +115,13 @@
   name: Free credits and pay-as-you-go
   facts:
     - No subscription for individuals; pay only for what you use with credits.
-    - 300 free welcome credits; 200 more when signing up with a referral code; 100 for completing the getting-started checklist.
+    - 500 free credits when an account is created; no card is asked for and there is no trial that starts charging.
+    - Credit packs start at $1.99 for 1,000 credits; credits never expire.
+    - Running out of credits never removes topics, progress or certificates; it only stops new material being generated.
     - Buy credit packs by card on the web or through the App Store on iOS.
 - key: referral
   name: Referral program
+  hold: true   # facts below conflict with the help center (credits vs cash reward); do not feature until confirmed
   facts:
     - Every user has a referral code; a friend who signs up with it gets 200 bonus credits (500 in total).
     - The referrer earns a cash reward of 10% of every purchase the friend makes, paid in US dollars, after a 30-day holding period.
