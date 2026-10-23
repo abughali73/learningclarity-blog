@@ -69,4 +69,4 @@ Explain Mode is the first step in LearningClarity's learning path:
 
 You can go straight to any mode, but starting with Explain gives the quiz and exam something solid to build on.
 
-Pick a topic you've been putting off and [try your first section with the LearningClarity AI tutor](https://www.learningclarity.ai). Every new account starts with 500 free credits.
+Pick a topic you've been putting off and [try your first section with the LearningClarity AI tutor](https://www.learningclarity.ai). Every new account starts with 300 free credits.

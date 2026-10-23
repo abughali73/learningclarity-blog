@@ -13,7 +13,7 @@ maher:
   url_ar: /ar/author/maher-abu-ghali/
   image: /assets/img/lc-icon.png
   # Add personal profile links (LinkedIn, etc.) here; they are used in the author schema.
-  same_as: []
+  same_as: ["https://www.linkedin.com/in/maherabughali/"]
   knows_about: ["Artificial intelligence", "Robotics", "Educational technology", "Software architecture", "AI in education"]
   short: "Dr. Maher Abu Ghali holds a PhD in AI and Robotics and is the founder and CEO of intelliSYS Solutions and Consulting, the company behind LearningClarity.AI."
   short_ar: "د. ماهر أبو غالي حاصل على الدكتوراه في الذكاء الاصطناعي والروبوتات، وهو المؤسس والرئيس التنفيذي لشركة intelliSYS Solutions and Consulting، الشركة المالكة لمنصة LearningClarity.AI."

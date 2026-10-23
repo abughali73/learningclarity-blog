@@ -26,7 +26,7 @@ ad:
       bullets: ["Explain, Quiz and Exam modes", "Progress tracked for each subtopic"]
     - icon: bulb
       title: "Good to know"
-      bullets: ["Video and YouTube links aren't supported", "Uses more credits than describing a topic"]
+      bullets: ["Video and YouTube links aren't supported", "Scanned or locked PDFs can't be read"]
   footnote: ""
 ---
 It's exam week, and your course lives in a folder: a stack of lecture slides saved as PDF, a course reader and a few pages of your own notes. Instead of rereading them for the fifth time, you can **study your own PDFs with AI** and turn those files into a topic you actually work through.
@@ -43,7 +43,7 @@ That matters for more than students. A new employee can upload an onboarding gui
 2. **Let it build the topic.** LearningClarity reads the content and builds a topic from it, with its own subtopics.
 3. **Choose what to focus on.** Pick the subtopics you need right now. Completion is tracked for each one, so you can see what's left before the exam.
 
-Two things to know before you start. Video files, audio recordings and YouTube links aren't supported as sources, so stick to documents. And building a topic from a document uses more credits than describing a topic in words, because LearningClarity analyses the whole document: it needs a balance of at least 1,000 credits before it starts. If you only need a quick overview of a subject, typing a short description is the faster, cheaper route.
+Two things to know before you start. Video files, audio recordings and YouTube links aren't supported as sources, so stick to documents. And a PDF has to contain real text: a scanned page with no text layer, or a password-protected file, can't be read. If you only need a quick overview of a subject, typing a short description of the topic is the fastest route.
 
 ## From your notes to real understanding
 
@@ -57,4 +57,4 @@ When you think you've got it, switch to **Quiz Mode** for low-pressure practice.
 - **Days 2 to 4:** work through them in Explain Mode, a few each day.
 - **Day 5:** take a quiz on the weakest subtopics, then an exam on the full topic.
 
-Ready to try it with your own files? [Create your free LearningClarity account](https://www.learningclarity.ai). New accounts start with 500 free credits: describe your first topic with them, then top up when you are ready to upload your course files.
+Ready to try it with your own files? [Create your free LearningClarity account](https://www.learningclarity.ai). Every new account starts with 300 free credits, and 200 more when you sign up with a friend's referral code.

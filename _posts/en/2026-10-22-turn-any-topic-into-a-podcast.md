@@ -61,4 +61,4 @@ Every episode follows the language of its topic. If you're studying a topic in A
 
 Podcasts work best alongside the rest of the learning path. Explain builds the understanding, the podcast keeps it fresh, and Quiz and Exam show you how much has stuck.
 
-[Create your first study podcast on LearningClarity](https://www.learningclarity.ai) from a topic you're working on. Every new account starts with 500 free credits.
+[Create your first study podcast on LearningClarity](https://www.learningclarity.ai) from a topic you're working on. Every new account starts with 300 free credits.

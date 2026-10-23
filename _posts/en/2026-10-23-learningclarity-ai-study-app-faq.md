@@ -20,7 +20,7 @@ ad:
       bullets: ["Describe a topic or upload material", "On the web, iPhone and Android"]
     - icon: dollar
       title: "Credits, not subscriptions"
-      bullets: ["500 free credits, no card needed", "Credits never expire"]
+      bullets: ["300 free credits, no card needed", "Credits never expire"]
     - icon: globe
       title: "Learn in your language"
       bullets: ["7 interface languages", "Upload in one language, study in another"]
@@ -38,9 +38,9 @@ faq:
   - q: "How much does LearningClarity cost?"
     a: "LearningClarity uses a credit-based model, so you only pay for what you use. You receive free credits when you sign up, and additional credit packages start at $1.99 for 1,000 credits. There is no subscription, nothing renews, and credits never expire. [See all pricing tiers](https://www.learningclarity.ai/help/credits/)."
   - q: "How many free credits do I get, and do I need a card?"
-    a: "New accounts get 500 free credits the moment they are created. No card is asked for, there is no trial period, and nothing is charged automatically."
-  - q: "Can I upload my own files with the free credits?"
-    a: "Not on the free balance alone. Building a topic from uploaded files needs a balance of at least 1,000 credits, and you start with 500. Describing a topic in your own words starts from 50 credits, so that is the best place to begin. [What you get free](https://www.learningclarity.ai/help/free-start/)."
+    a: "New accounts get 300 free credits the moment they are created, and 200 more if you sign up with another user's referral code. No card is asked for, there is no trial period, and nothing is charged automatically."
+  - q: "Is there a referral program?"
+    a: "Yes. Every user has a referral code. A friend who signs up with it gets 200 bonus credits on top of the 300 welcome credits, 500 in total. When your friend buys credits, you receive a bonus of 10% of the credits they purchased, and you can ask for that bonus to be converted to cash. [Credits and referrals](https://www.learningclarity.ai/help/credits/)."
   - q: "What happens if I run out of credits?"
     a: "Nothing is taken away. Your topics, explanations, quiz and exam history, certificates and progress all stay where they are. A zero balance only stops new material from being generated."
   - q: "What languages are supported?"
