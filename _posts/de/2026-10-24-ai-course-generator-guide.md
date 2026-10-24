@@ -48,7 +48,7 @@ Ein **AI Course (KI-Kurs)** in LearningClarity fasst mehrere verwandte Themen in
 2. **Lassen Sie LearningClarity den Kurs erstellen.** Der Kurs und seine Themen werden für Sie erstellt, und jedes Thema hat eigene Unterthemen.
 3. **Folgen Sie der vorgeschlagenen Reihenfolge.** LearningClarity kann die beste Reihenfolge für die Themen vorschlagen. So wissen Sie immer, was als Nächstes kommt.
 
-Wenn Sie nur ein Fachgebiet brauchen, ist das Beschreiben eines einzelnen Themas der schnellste Einstieg. Ein Kurs ist die bessere Wahl, wenn Ihr Ziel mehrere Fachgebiete umfasst.
+Wenn Sie nur ein Fachgebiet brauchen, ist [das Beschreiben eines einzelnen Themas](/de/2026/10/learn-any-subject-with-ai/) der schnellste Einstieg. Ein Kurs ist die bessere Wahl, wenn Ihr Ziel mehrere Fachgebiete umfasst.
 
 ## Drei Situationen, in denen ein strukturierter Lernpfad hilft
 
@@ -60,7 +60,7 @@ Wenn Sie nur ein Fachgebiet brauchen, ist das Beschreiben eines einzelnen Themas
 
 ## Vom ersten Thema bis zum Zertifikat
 
-Im Kurs funktioniert jedes Thema wie jedes andere Thema in LearningClarity. Öffnen Sie ein Unterthema im **Explain Mode (Erklärmodus)**, dem KI-Tutor, der jeweils einen kurzen Abschnitt erklärt. Üben Sie mit dem **Quiz Mode (Quizmodus)**, wenn Sie sich ohne Druck testen möchten.
+Im Kurs funktioniert jedes Thema wie jedes andere Thema in LearningClarity. Öffnen Sie ein Unterthema im [Explain Mode (Erklärmodus), dem KI-Tutor für Schritt-für-Schritt-Erklärungen](/de/2026/10/meet-your-step-by-step-ai-tutor/), der jeweils einen kurzen Abschnitt erklärt. Üben Sie mit dem **Quiz Mode (Quizmodus)**, wenn Sie sich ohne Druck testen möchten.
 
 Wenn Sie so weit sind, kann der **Exam Mode (Prüfungsmodus)** ein einzelnes Thema oder den ganzen Kurs prüfen, mit dem Umfang, den Fragetypen, dem Schwierigkeitsgrad und der Zeitvorgabe Ihrer Wahl. Qualifizierende Prüfungsergebnisse bringen ein Zertifikat für das Thema oder den Kurs. Der Fortschritt wird auf allen Ebenen erfasst, sodass Sie sehen, wie weit Sie im Kurs sind.
 

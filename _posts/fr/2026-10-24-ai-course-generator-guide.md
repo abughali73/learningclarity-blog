@@ -48,7 +48,7 @@ Un **AI Course (cours IA)** dans LearningClarity regroupe plusieurs sujets liés
 2. **Laissez LearningClarity créer le cours.** Il génère le cours et ses sujets pour vous, et chaque sujet a ses propres sous-sujets.
 3. **Suivez l'ordre suggéré.** LearningClarity peut suggérer le meilleur ordre pour étudier les sujets : vous savez toujours ce qui vient ensuite.
 
-Si vous n'avez besoin que d'une matière, décrire un seul sujet reste le moyen le plus rapide de commencer. Le cours est le meilleur choix quand l'objectif couvre plusieurs matières.
+Si vous n'avez besoin que d'une matière, [décrire un seul sujet](/fr/2026/10/learn-any-subject-with-ai/) reste le moyen le plus rapide de commencer. Le cours est le meilleur choix quand l'objectif couvre plusieurs matières.
 
 ## Trois situations où un parcours d'apprentissage structuré aide
 
@@ -60,7 +60,7 @@ Si vous n'avez besoin que d'une matière, décrire un seul sujet reste le moyen 
 
 ## Du premier sujet au certificat
 
-Dans le cours, chaque sujet fonctionne comme n'importe quel autre sujet de LearningClarity. Ouvrez un sous-sujet en **Explain Mode (mode explication)**, le tuteur IA qui enseigne une courte section à la fois. Entraînez-vous avec **Quiz Mode (mode quiz)** quand vous voulez vous tester sans pression.
+Dans le cours, chaque sujet fonctionne comme n'importe quel autre sujet de LearningClarity. Ouvrez un sous-sujet en [Explain Mode (mode explication), le tuteur IA pas à pas](/fr/2026/10/meet-your-step-by-step-ai-tutor/) qui enseigne une courte section à la fois. Entraînez-vous avec **Quiz Mode (mode quiz)** quand vous voulez vous tester sans pression.
 
 Quand vous êtes prêt, **Exam Mode (mode examen)** peut évaluer un seul sujet ou le cours entier, avec le périmètre, les types de questions, la difficulté et la durée que vous choisissez. Les résultats qualifiants donnent droit à un certificat pour le sujet ou le cours. La progression est suivie à tous les niveaux : vous voyez où vous en êtes dans le cours.
 

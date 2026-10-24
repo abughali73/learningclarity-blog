@@ -48,7 +48,7 @@ Un **AI Course (curso con IA)** de LearningClarity agrupa varios temas relaciona
 2. **Deja que LearningClarity cree el curso.** Genera el curso y sus temas por ti, y cada tema tiene sus propios subtemas.
 3. **Sigue el orden sugerido.** LearningClarity puede sugerir el mejor orden para estudiar los temas, así que siempre sabes qué viene después.
 
-Si solo necesitas una materia, describir un único tema es la forma más rápida de empezar. Un curso es mejor opción cuando el objetivo abarca varias materias.
+Si solo necesitas una materia, [describir un único tema](/es/2026/10/learn-any-subject-with-ai/) es la forma más rápida de empezar. Un curso es mejor opción cuando el objetivo abarca varias materias.
 
 ## Tres situaciones en las que ayuda una ruta de aprendizaje estructurada
 
@@ -60,7 +60,7 @@ Si solo necesitas una materia, describir un único tema es la forma más rápida
 
 ## Del primer tema al certificado
 
-Dentro del curso, cada tema funciona como cualquier otro tema de LearningClarity. Abre un subtema en **Explain Mode (modo explicación)**, el tutor de IA que enseña una sección breve cada vez. Practica con **Quiz Mode (modo cuestionario)** cuando quieras comprobar lo que sabes sin presión.
+Dentro del curso, cada tema funciona como cualquier otro tema de LearningClarity. Abre un subtema en [Explain Mode (modo explicación), el tutor de IA paso a paso](/es/2026/10/meet-your-step-by-step-ai-tutor/) que enseña una sección breve cada vez. Practica con **Quiz Mode (modo cuestionario)** cuando quieras comprobar lo que sabes sin presión.
 
 Cuando estés listo, **Exam Mode (modo examen)** puede evaluar un solo tema o el curso completo, con el alcance, los tipos de pregunta, la dificultad y el tiempo que elijas. Los resultados que cumplen los requisitos dan derecho a un certificado del tema o del curso. El progreso se registra en todos los niveles, así que ves en qué punto del curso estás.
 
