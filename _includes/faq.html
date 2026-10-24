@@ -1,5 +1,5 @@
 <section class="faq" id="faq" aria-label="FAQ">
-  <h2>{% if include.heading %}{{ include.heading }}{% elsif include.lang == 'ar' %}أسئلة شائعة{% else %}Frequently asked questions{% endif %}</h2>
+  <h2>{% if include.heading %}{{ include.heading }}{% else %}{{ site.data.i18n[include.lang].faq_heading }}{% endif %}</h2>
   {%- for item in include.items %}
   <details class="faq-item"{% if forloop.first %} open{% endif %}>
     <summary><h3>{{ item.q }}</h3></summary>

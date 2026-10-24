@@ -11,7 +11,7 @@
       {% if post.ad.eyebrow %}<span class="ad-eyebrow ad-eyebrow-{{ post.ad.color | default: 'blue' }}">{{ post.ad.eyebrow }}</span>{% endif %}
       <h2>{{ post.title }}</h2>
       <p>{{ post.description }}</p>
-      <span class="card-foot"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time><span class="more">{{ t.read_more }} →</span></span>
+      <span class="card-foot"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: t.date_format }}</time><span class="more">{{ t.read_more }} →</span></span>
     </a>
   </li>
   {%- endfor -%}

@@ -158,3 +158,21 @@ a:hover { color: var(--blue); }
 .lang-ar .social-list { justify-content: flex-end; }
 .social-list a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px; border-radius: 999px; background: var(--card); border: 1px solid var(--line); color: var(--ink); font-weight: 600; text-decoration: none; }
 .social-list a:hover { border-color: var(--blue-line); color: var(--blue); }
+
+/* Language menu (header) */
+.lang-menu { position: relative; }
+.lang-menu summary { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 12px; border: 1px solid var(--line); border-radius: 999px; cursor: pointer; font-weight: 600; color: var(--link); list-style: none; }
+.lang-menu summary::-webkit-details-marker { display: none; }
+.lang-menu summary::after { content: ""; width: 7px; height: 7px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg) translateY(-2px); margin-inline-start: 2px; }
+.lang-menu[open] summary { border-color: var(--blue-line); background: var(--blue-tint); }
+.lang-menu ul { position: absolute; inset-inline-end: 0; top: calc(100% + 6px); z-index: 20; min-width: 170px; margin: 0; padding: 6px; list-style: none; background: #fff; border: 1px solid var(--line); border-radius: 14px; box-shadow: 0 10px 30px rgba(30, 41, 90, .12); }
+.lang-menu li a { display: block; padding: 10px 12px; border-radius: 10px; color: var(--ink); text-decoration: none; font-weight: 500; }
+.lang-menu li a:hover { background: var(--blue-tint); color: var(--link); }
+.lang-menu li a[aria-current] { color: var(--link); font-weight: 700; }
+.lang-menu li a[dir="rtl"] { text-align: right; font-family: "IBM Plex Sans Arabic", system-ui, sans-serif; }
+
+/* Links to the same post in the other languages */
+.translations { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: -16px 0 28px; font-size: 15px; color: var(--muted); }
+.translations ul { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.translations a { display: inline-block; padding: 4px 12px; border-radius: 999px; border: 1px solid var(--line); background: #fff; text-decoration: none; font-weight: 600; }
+.translations a:hover { border-color: var(--blue-line); background: var(--blue-tint); }

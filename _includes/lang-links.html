@@ -1,0 +1,25 @@
+{%- comment -%}
+  Resolves the URL of the current page in every blog language and stores it in `lang_links`:
+  a list of "code|url|exists" strings, in the order of site.languages.
+  Posts link to the post with the same `ref`; author pages to the author page; anything else to the language home.
+  exists is "1" when that language has a real counterpart and "0" when the link falls back to the home page.
+{%- endcomment -%}
+{%- assign lang_links = "" | split: "" -%}
+{%- assign author_data = site.data.authors[page.author] -%}
+{%- for l in site.languages -%}
+  {%- assign target = l.home -%}
+  {%- assign exists = "0" -%}
+  {%- if page.ref -%}
+    {%- assign twin = site.posts | where: "ref", page.ref | where: "lang", l.code | first -%}
+    {%- if twin -%}{%- assign target = twin.url -%}{%- assign exists = "1" -%}{%- endif -%}
+  {%- elsif page.author_page and author_data -%}
+    {%- if l.code == "en" -%}{%- assign target = author_data.url -%}{%- else -%}{%- assign k = "url_" | append: l.code -%}{%- assign target = author_data[k] | default: author_data.url -%}{%- endif -%}
+    {%- assign exists = "1" -%}
+  {%- elsif page.url == l.home -%}
+    {%- assign exists = "1" -%}
+  {%- else -%}
+    {%- for h in site.languages -%}{%- if page.url == h.home -%}{%- assign exists = "1" -%}{%- endif -%}{%- endfor -%}
+  {%- endif -%}
+  {%- assign entry = l.code | append: "|" | append: target | append: "|" | append: exists -%}
+  {%- assign lang_links = lang_links | push: entry -%}
+{%- endfor -%}

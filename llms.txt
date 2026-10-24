@@ -6,23 +6,21 @@ permalink: /llms.txt
 {%- assign a = site.data.authors[site.default_author] -%}
 # LearningClarity Blog
 
-> The official blog of LearningClarity (https://www.learningclarity.ai), an AI study app for the web, iPhone and Android that turns your own notes, PDFs and documents, or any topic you describe, into step-by-step lessons, quizzes, timed exams and podcasts. Posts are published in English and Arabic.
+> The official blog of LearningClarity (https://www.learningclarity.ai), an AI study app for the web, iPhone and Android that turns your own notes, PDFs and documents, or any topic you describe, into step-by-step lessons, quizzes, timed exams and podcasts. Posts are published in English, Arabic, Spanish, French and German.
 
 - Author: {{ a.name }} ({{ a.credentials }}), {{ a.job_title }}. Profile: {{ a.url | absolute_url }}
 - Publisher: LearningClarity, a product of {{ site.organization.parent }}.
 - Product facts in these posts come from the LearningClarity feature guide. For pricing and current details, see the help center: https://www.learningclarity.ai/help/
-- Each English post has an Arabic version with the same slug under /ar/.
+- Each post is published in every blog language with the same slug: English at /en/, Arabic at /ar/, Spanish at /es/, French at /fr/ and German at /de/ (older posts may exist only in English and Arabic).
 
-## English posts
-{% assign en = site.posts | where: "lang", "en" -%}
-{%- for p in en %}
+{% for l in site.languages -%}
+{%- assign lp = site.posts | where: "lang", l.code -%}
+{%- if lp.size > 0 %}
+## {{ site.data.i18n[l.code].home_title }} ({{ l.name }})
+{% for p in lp %}
 - [{{ p.title }}]({{ p.url | absolute_url }}): {{ p.description }}
 {%- endfor %}
-
-## Arabic posts (المقالات العربية)
-{% assign ar = site.posts | where: "lang", "ar" -%}
-{%- for p in ar %}
-- [{{ p.title }}]({{ p.url | absolute_url }}): {{ p.description }}
+{% endif -%}
 {%- endfor %}
 
 ## Product
@@ -33,5 +31,6 @@ permalink: /llms.txt
 
 ## Optional
 - [Sitemap]({{ '/sitemap.xml' | absolute_url }})
-- [English feed]({{ '/feed/en.xml' | absolute_url }})
-- [Arabic feed]({{ '/feed/ar.xml' | absolute_url }})
+{%- for l in site.languages %}
+- [{{ l.name }} feed]({{ '/feed/' | append: l.code | append: '.xml' | absolute_url }})
+{%- endfor %}

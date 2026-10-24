@@ -25,6 +25,35 @@ social:
     - https://www.learningclarity.ai
     - https://apps.apple.com/app/learning-clarity/id6776674430
     - https://play.google.com/store/apps/details?id=ai.learningclarity.app
+# Blog languages, in display order. Every post is published in all of them with the same `ref`.
+# home: the language's post list. dir: text direction. Posts live in _posts/<code>/.
+languages:
+  - code: en
+    name: English
+    locale: en_US
+    dir: ltr
+    home: /
+  - code: ar
+    name: العربية
+    locale: ar_AR
+    dir: rtl
+    home: /ar/
+  - code: es
+    name: Español
+    locale: es_ES
+    dir: ltr
+    home: /es/
+  - code: fr
+    name: Français
+    locale: fr_FR
+    dir: ltr
+    home: /fr/
+  - code: de
+    name: Deutsch
+    locale: de_DE
+    dir: ltr
+    home: /de/
+
 markdown: kramdown
 future: false
 
@@ -41,6 +70,9 @@ feed:
   categories:
     - en
     - ar
+    - es
+    - fr
+    - de
 
 defaults:
   - scope:
@@ -65,6 +97,39 @@ defaults:
       categories: [ar]
       author: maher
       permalink: /ar/:year/:month/:title/
+  - scope:
+      path: "_posts/es"
+      type: posts
+    values:
+      layout: post
+      lang: es
+      locale: es_ES
+      dir: ltr
+      categories: [es]
+      author: maher
+      permalink: /es/:year/:month/:title/
+  - scope:
+      path: "_posts/fr"
+      type: posts
+    values:
+      layout: post
+      lang: fr
+      locale: fr_FR
+      dir: ltr
+      categories: [fr]
+      author: maher
+      permalink: /fr/:year/:month/:title/
+  - scope:
+      path: "_posts/de"
+      type: posts
+    values:
+      layout: post
+      lang: de
+      locale: de_DE
+      dir: ltr
+      categories: [de]
+      author: maher
+      permalink: /de/:year/:month/:title/
   - scope:
       path: ""
     values:

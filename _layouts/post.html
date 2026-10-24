@@ -2,18 +2,36 @@
 layout: default
 ---
 {%- assign t = site.data.i18n[page.lang] -%}
-{%- assign other = page.lang | replace: "en", "x" | replace: "ar", "en" | replace: "x", "ar" -%}
-{%- assign twin = site.posts | where: "ref", page.ref | where: "lang", other | first -%}
+{%- assign lang_home = "/" -%}{%- for l in site.languages -%}{%- if l.code == page.lang -%}{%- assign lang_home = l.home -%}{%- endif -%}{%- endfor -%}
+{%- assign twins = site.posts | where: "ref", page.ref -%}
 {%- assign author_key = page.author | default: site.default_author -%}
 {%- assign author = site.data.authors[author_key] -%}
+{%- if author -%}
+  {%- assign k = "name_" | append: page.lang -%}{%- assign author_name = author[k] | default: author.name -%}
+  {%- if page.lang == "en" -%}{%- assign author_url = author.url -%}{%- else -%}{%- assign k = "url_" | append: page.lang -%}{%- assign author_url = author[k] | default: author.url -%}{%- endif -%}
+{%- endif -%}
 <article class="post">
-  <p class="crumbs"><a href="{% if page.lang == 'ar' %}/ar/{% else %}/{% endif %}">← {{ t.back }}</a></p>
+  <p class="crumbs"><a href="{{ lang_home }}">← {{ t.back }}</a></p>
   <header class="post-head">
     {% if page.ad.eyebrow %}<span class="ad-eyebrow ad-eyebrow-{{ page.ad.color | default: 'blue' }}">{{ page.ad.eyebrow }}</span>{% endif %}
     <h1>{{ page.title }}</h1>
     <p class="post-desc">{{ page.description }}</p>
-    <p class="post-meta">{% if author %}{% if page.lang == 'ar' %}بقلم{% else %}By{% endif %} <a href="{% if page.lang == 'ar' %}{{ author.url_ar }}{% else %}{{ author.url }}{% endif %}" rel="author">{% if page.lang == 'ar' %}{{ author.name_ar }}{% else %}{{ author.name }}{% endif %}</a> · {% endif %}{{ t.published }} <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time>
-      {% if twin %} · <a href="{{ twin.url }}" lang="{{ other }}">{{ t.translation }}</a>{% endif %}</p>
+    <p class="post-meta">{% if author %}{{ t.by }} <a href="{{ author_url }}" rel="author">{{ author_name }}</a> · {% endif %}{{ t.published }} <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: t.date_format }}</time></p>
+    {%- if twins.size > 1 %}
+    <nav class="translations" aria-label="{{ t.available_in }}">
+      <span class="translations-label">{{ t.available_in }}:</span>
+      <ul>
+        {%- for l in site.languages -%}
+        {%- if l.code != page.lang -%}
+        {%- assign twin = twins | where: "lang", l.code | first -%}
+        {%- if twin %}
+        <li><a href="{{ twin.url }}" hreflang="{{ l.code }}" lang="{{ l.code }}" dir="{{ l.dir }}" rel="alternate">{{ l.name }}</a></li>
+        {%- endif -%}
+        {%- endif -%}
+        {%- endfor %}
+      </ul>
+    </nav>
+    {%- endif %}
   </header>
   {% if page.ad %}{% include ad.html ad=page.ad lang=page.lang %}{% endif %}
   {%- if page.hero_image -%}
@@ -27,7 +45,7 @@ layout: default
     {%- if page.faq %}{% include faq.html items=page.faq heading=page.faq_heading lang=page.lang %}{% endif %}
   </div>
   {%- if page.tags and page.tags.size > 0 %}
-  <p class="hashtags" aria-label="{% if page.lang == 'ar' %}الوسوم{% else %}Hashtags{% endif %}">
+  <p class="hashtags" aria-label="{{ t.hashtags_label }}">
     {%- for tag in page.tags %}<span class="hashtag" dir="auto">#{{ tag | remove: " " | remove: "#" }}</span>{% endfor -%}
   </p>
   {%- endif %}
@@ -44,8 +62,8 @@ layout: default
     {%- endfor -%}
   {%- endcapture -%}
   {%- if shown > 0 %}
-  <nav class="related" aria-label="{% if page.lang == 'ar' %}مقالات ذات صلة{% else %}Related posts{% endif %}">
-    <h2>{% if page.lang == 'ar' %}اقرأ أيضًا{% else %}Keep reading{% endif %}</h2>
+  <nav class="related" aria-label="{{ t.related_label }}">
+    <h2>{{ t.keep_reading }}</h2>
     <ul>{{ related }}</ul>
   </nav>
   {%- endif %}

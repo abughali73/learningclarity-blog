@@ -1,7 +1,8 @@
 {%- assign lang = page.lang | default: site.lang -%}
 {%- assign t = site.data.i18n[lang] -%}
 <!doctype html>
-<html lang="{{ lang }}" dir="{% if lang == 'ar' %}rtl{% else %}ltr{% endif %}">
+{%- assign dir = "ltr" -%}{%- for l in site.languages -%}{%- if l.code == lang -%}{%- assign dir = l.dir -%}{%- assign lang_home = l.home -%}{%- endif -%}{%- endfor %}
+<html lang="{{ lang }}" dir="{{ dir }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,29 +10,19 @@
   {%- if page.tags and page.tags.size > 0 %}
   <meta name="keywords" content="{% if page.keywords %}{{ page.keywords | join: ', ' }}, {% endif %}{{ page.tags | join: ', ' }}">
   {%- endif %}
-  {%- if page.ref %}
-  {%- assign alts = site.posts | where: "ref", page.ref -%}
-  {%- for alt in alts %}
-  <link rel="alternate" hreflang="{{ alt.lang }}" href="{{ alt.url | absolute_url }}">
-  {%- if alt.lang == 'en' %}
-  <link rel="alternate" hreflang="x-default" href="{{ alt.url | absolute_url }}">
-  {%- endif %}
+  {%- include lang-links.html -%}
+  {%- assign hreflang_count = 0 -%}
+  {%- for entry in lang_links -%}{%- assign parts = entry | split: "|" -%}{%- if parts[2] == "1" -%}{%- assign hreflang_count = hreflang_count | plus: 1 -%}{%- endif -%}{%- endfor -%}
+  {%- if hreflang_count > 1 %}
+  {%- for entry in lang_links %}{% assign parts = entry | split: "|" %}{% if parts[2] == "1" %}
+  <link rel="alternate" hreflang="{{ parts[0] }}" href="{{ parts[1] | absolute_url }}">
+  {%- if parts[0] == "en" %}
+  <link rel="alternate" hreflang="x-default" href="{{ parts[1] | absolute_url }}">
+  {%- endif %}{% endif %}
   {%- endfor %}
-  {%- elsif page.author_page %}
-  <link rel="alternate" hreflang="en" href="{{ site.data.authors[page.author].url | absolute_url }}">
-  <link rel="alternate" hreflang="ar" href="{{ site.data.authors[page.author].url_ar | absolute_url }}">
-  <link rel="alternate" hreflang="x-default" href="{{ site.data.authors[page.author].url | absolute_url }}">
-  {%- elsif page.url == '/' or page.url == '/ar/' %}
-  <link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
-  <link rel="alternate" hreflang="ar" href="{{ '/ar/' | absolute_url }}">
-  <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
   {%- endif %}
   {% feed_meta %}
-  {%- if lang == 'ar' %}
-  <link rel="alternate" type="application/atom+xml" title="مدونة Learning Clarity" href="{{ '/feed/ar.xml' | absolute_url }}">
-  {%- else %}
-  <link rel="alternate" type="application/atom+xml" title="Learning Clarity Blog (English)" href="{{ '/feed/en.xml' | absolute_url }}">
-  {%- endif %}
+  <link rel="alternate" type="application/atom+xml" title="{{ t.feed_title }}" href="{{ '/feed/' | append: lang | append: '.xml' | absolute_url }}">
   <link rel="icon" href="/assets/img/lc-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,12 +32,12 @@
 <body class="lang-{{ lang }}">
   <header class="site-header">
     <div class="wrap header-row">
-      <a class="brand" href="{% if lang == 'ar' %}/ar/{% else %}/{% endif %}">
+      <a class="brand" href="{{ lang_home | default: '/' }}">
         <img src="/assets/img/lc-icon.png" alt="" width="44" height="44">
         <span class="brand-text"><span class="wordmark">Learning <span class="grad">Clarity</span></span><span class="brand-sub">{{ t.blog }}</span></span>
       </a>
       <nav class="nav" aria-label="Site">
-        <a href="{% if page.translation %}{{ page.translation }}{% else %}{{ t.other_lang_url }}{% endif %}" lang="{% if lang == 'ar' %}en{% else %}ar{% endif %}">{{ t.other_lang }}</a>
+        {% include lang-switcher.html lang=lang %}
         <a class="btn btn-small" href="{{ site.app.web }}" rel="noopener">{{ t.get_app }}</a>
       </nav>
     </div>

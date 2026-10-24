@@ -1,0 +1,15 @@
+{%- comment -%} Language menu in the header. Needs lang_links from lang-links.html. {%- endcomment -%}
+{%- assign cur = include.lang -%}
+{%- assign t = site.data.i18n[cur] -%}
+<details class="lang-menu">
+  <summary aria-label="{{ t.language_label }}">{% include icon.html name="globe" size=20 %}<span>{% for l in site.languages %}{% if l.code == cur %}{{ l.name }}{% endif %}{% endfor %}</span></summary>
+  <ul>
+    {%- for entry in lang_links -%}
+    {%- assign parts = entry | split: "|" -%}
+    {%- assign code = parts[0] -%}
+    {%- assign lname = "" -%}{%- assign ldir = "ltr" -%}
+    {%- for l in site.languages -%}{%- if l.code == code -%}{%- assign lname = l.name -%}{%- assign ldir = l.dir -%}{%- endif -%}{%- endfor %}
+    <li><a href="{{ parts[1] }}" hreflang="{{ code }}" lang="{{ code }}" dir="{{ ldir }}"{% if code == cur %} aria-current="true"{% endif %}>{{ lname }}</a></li>
+    {%- endfor %}
+  </ul>
+</details>

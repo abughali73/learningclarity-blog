@@ -1,9 +1,14 @@
 {%- assign author = site.data.authors[include.key] -%}
 {%- if author -%}
-<aside class="author-box" aria-label="{% if include.lang == 'ar' %}عن الكاتب{% else %}About the author{% endif %}">
-  <p class="author-kicker">{% if include.lang == 'ar' %}عن الكاتب{% else %}About the author{% endif %}</p>
-  <p class="author-name"><a href="{% if include.lang == 'ar' %}{{ author.url_ar }}{% else %}{{ author.url }}{% endif %}" rel="author">{% if include.lang == 'ar' %}{{ author.name_ar }}{% else %}{{ author.name }}{% endif %}</a></p>
-  <p class="author-role">{% if include.lang == 'ar' %}{{ author.job_title_ar }}{% else %}{{ author.job_title }}{% endif %} · <span dir="ltr">{{ author.credentials }}</span></p>
-  <p class="author-short">{% if include.lang == 'ar' %}{{ author.short_ar }}{% else %}{{ author.short }}{% endif %}</p>
+{%- assign t = site.data.i18n[include.lang] -%}
+{%- assign k = "name_" | append: include.lang -%}{%- assign ab_name = author[k] | default: author.name -%}
+{%- assign k = "job_title_" | append: include.lang -%}{%- assign ab_job = author[k] | default: author.job_title -%}
+{%- assign k = "short_" | append: include.lang -%}{%- assign ab_short = author[k] | default: author.short -%}
+{%- if include.lang == "en" -%}{%- assign ab_url = author.url -%}{%- else -%}{%- assign k = "url_" | append: include.lang -%}{%- assign ab_url = author[k] | default: author.url -%}{%- endif -%}
+<aside class="author-box" aria-label="{{ t.about_author }}">
+  <p class="author-kicker">{{ t.about_author }}</p>
+  <p class="author-name"><a href="{{ ab_url }}" rel="author">{{ ab_name }}</a></p>
+  <p class="author-role">{{ ab_job }} · <span dir="ltr">{{ author.credentials }}</span></p>
+  <p class="author-short">{{ ab_short }}</p>
 </aside>
 {%- endif -%}

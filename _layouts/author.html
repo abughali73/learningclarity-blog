@@ -2,17 +2,22 @@
 layout: default
 ---
 {%- assign a = site.data.authors[page.author] -%}
+{%- assign t = site.data.i18n[page.lang] -%}
 {%- assign posts = site.posts | where: "lang", page.lang -%}
+{%- assign lang_home = "/" -%}{%- for l in site.languages -%}{%- if l.code == page.lang -%}{%- assign lang_home = l.home -%}{%- endif -%}{%- endfor -%}
+{%- assign k = "name_" | append: page.lang -%}{%- assign a_name = a[k] | default: a.name -%}
+{%- assign k = "job_title_" | append: page.lang -%}{%- assign a_job = a[k] | default: a.job_title -%}
+{%- assign k = "bio_" | append: page.lang -%}{%- assign a_bio = a[k] | default: a.bio -%}
 <article class="post author-page">
-  <p class="crumbs"><a href="{% if page.lang == 'ar' %}/ar/{% else %}/{% endif %}">← {{ site.data.i18n[page.lang].back }}</a></p>
+  <p class="crumbs"><a href="{{ lang_home }}">← {{ t.back }}</a></p>
   <header class="post-head">
-    <h1>{% if page.lang == 'ar' %}{{ a.name_ar }}{% else %}{{ a.name }}{% endif %}</h1>
-    <p class="post-desc">{% if page.lang == 'ar' %}{{ a.job_title_ar }}{% else %}{{ a.job_title }}{% endif %}</p>
+    <h1>{{ a_name }}</h1>
+    <p class="post-desc">{{ a_job }}</p>
     <p class="post-meta"><span dir="ltr">{{ a.credentials }}</span></p>
   </header>
   <div class="post-body">
-    {%- if page.lang == 'ar' %}{% for p in a.bio_ar %}<p>{{ p }}</p>{% endfor %}{% else %}{% for p in a.bio %}<p>{{ p }}</p>{% endfor %}{% endif %}
-    <h2>{% if page.lang == 'ar' %}مقالات بقلمه{% else %}Articles by {{ a.given_name }}{% endif %}</h2>
+    {%- for p in a_bio %}<p>{{ p }}</p>{% endfor %}
+    <h2>{{ t.articles_by }} {% if page.lang == 'ar' %}{{ a_name }}{% else %}{{ a.given_name }}{% endif %}</h2>
     <ul>
       {%- for p in posts %}{% assign pa = p.author | default: site.default_author %}{% if pa == page.author %}
       <li><a href="{{ p.url }}">{{ p.title }}</a></li>{% endif %}{% endfor %}
