@@ -5,7 +5,7 @@ date: 2026-10-23 00:39:25 +0300
 lang: ar
 ref: organization-workspace-video-guide
 capability: organization-workspace
-image: /assets/img/organization-workspace-guide-ar.jpg
+image: /assets/img/posts/ar-organization-workspace-video-guide.png
 keywords: ["منصة تدريب للمؤسسات", "حساب المؤسسة", "تدريب الموظفين بالذكاء الاصطناعي", "إدارة التعلّم في الشركات", "امتحانات وشهادات للموظفين"]
 tags: [LearningClarity, LearningClarityAI, تدريب_الموظفين, التعليم_الإلكتروني, الذكاء_الاصطناعي, التطوير_المهني, الموارد_البشرية, التعلم_المؤسسي, CorporateTraining, EdTech, AIinEducation]
 video:
