@@ -11,5 +11,5 @@ Source for https://blog.learningclarity.ai, a Jekyll site published with GitHub 
 - Author: `_data/authors.yml` (default author for every post). Social links: `_data/social.yml`.
 - SEO tags and schema: `_includes/seo.html` (BlogPosting, Person, Organization, FAQPage, VideoObject). `llms.txt` lists every post for AI search tools.
 - Preview images: `python3 tools/render_previews.py` renders each post's infographic to `assets/img/posts/`.
-- AI illustrations: posts with a `hero_image.prompt` get an image from `.github/workflows/generate-images.yml` (needs the Gemini API key in the `OPENAI_API_KEY` secret; the model comes from the `OPENAI_MODEL` variable, default `gemini-flash-latest`).
+- AI illustrations: posts with a `hero_image.prompt` get an image from `.github/workflows/generate-images.yml` (needs the Gemini API key in the `OPENAI_API_KEY` secret; the model comes from the `OPENAI_IMAGE_MODEL` variable, default `gemini-flash-latest`).
 - Search engine verification codes go in `_config.yml` under `verification:`.

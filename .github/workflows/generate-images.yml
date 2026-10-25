@@ -26,7 +26,7 @@ jobs:
       - name: Generate missing images
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          OPENAI_IMAGE_MODEL: ${{ vars.OPENAI_IMAGE_MODEL }}
           GEMINI_ASPECT_RATIO: ${{ vars.GEMINI_ASPECT_RATIO }}
         run: python tools/generate_images.py
       - name: Commit images and rebuild the site

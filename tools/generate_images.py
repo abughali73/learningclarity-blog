@@ -15,7 +15,7 @@ The post layout shows the picture only once the file exists, so a post never sho
 
 Environment:
   OPENAI_API_KEY       (repository secret, required: the Gemini API key)
-  OPENAI_MODEL         (repository variable, optional: the Gemini model, default gemini-flash-latest)
+  OPENAI_IMAGE_MODEL   (repository variable, optional: the Gemini model, default gemini-flash-latest)
   GEMINI_ASPECT_RATIO  (repository variable, optional, default 3:2)
 """
 import base64
@@ -72,12 +72,12 @@ def generate(prompt, key, model, aspect):
     reason = (resp.get("candidates") or [{}])[0].get("finishReason") or resp.get("promptFeedback")
     raise RuntimeError(f"Model {model} returned no image (finish reason: {reason}). "
                        f"Text returned: {' '.join(texts)[:300] or 'none'}. "
-                       "If this model cannot output images, set the OPENAI_MODEL variable to an image model.")
+                       "If this model cannot output images, set the OPENAI_IMAGE_MODEL variable to an image model.")
 
 
 def main():
     key = os.environ.get("OPENAI_API_KEY", "").strip()
-    model = os.environ.get("OPENAI_MODEL", "").strip() or DEFAULT_MODEL
+    model = os.environ.get("OPENAI_IMAGE_MODEL", "").strip() or DEFAULT_MODEL
     aspect = os.environ.get("GEMINI_ASPECT_RATIO", "").strip() or "3:2"
     todo = {}
     for path in sorted((ROOT / "_posts").glob("*/*.md")):
