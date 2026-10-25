@@ -22,13 +22,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install pyyaml
+      - run: pip install pyyaml pillow
       - name: Generate missing images
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_IMAGE_MODEL: ${{ vars.OPENAI_IMAGE_MODEL }}
-          OPENAI_IMAGE_SIZE: ${{ vars.OPENAI_IMAGE_SIZE }}
-          OPENAI_IMAGE_QUALITY: ${{ vars.OPENAI_IMAGE_QUALITY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_IMAGE_MODEL: ${{ vars.GEMINI_IMAGE_MODEL }}
+          GEMINI_ASPECT_RATIO: ${{ vars.GEMINI_ASPECT_RATIO }}
         run: python tools/generate_images.py
       - name: Commit images and rebuild the site
         if: always()
