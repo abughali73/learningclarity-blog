@@ -25,8 +25,8 @@ jobs:
       - run: pip install pyyaml pillow
       - name: Generate missing images
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_IMAGE_MODEL: ${{ vars.GEMINI_IMAGE_MODEL }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
           GEMINI_ASPECT_RATIO: ${{ vars.GEMINI_ASPECT_RATIO }}
         run: python tools/generate_images.py
       - name: Commit images and rebuild the site
