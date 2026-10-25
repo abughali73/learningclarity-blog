@@ -71,8 +71,9 @@ def main():
         print("No images to generate.")
         return 0
     if not key:
-        print("::warning::Set the OPENAI_API_KEY repository secret to generate images.")
-        return 0
+        print(f"::error::{len(todo)} image(s) are waiting, but the OPENAI_API_KEY repository secret is missing "
+              "or empty. Add it under Settings > Secrets and variables > Actions > Repository secrets.")
+        return 1
     print(f"Generating {len(todo)} image(s) with {model}.")
     failed = 0
     for src, (path, prompt) in todo.items():
