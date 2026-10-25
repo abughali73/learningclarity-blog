@@ -6,8 +6,8 @@ maher:
   given_name: "Maher"
   family_name: "Abu Ghali"
   honorific: "Dr."
-  job_title: "Founder and CEO, intelliSYS Solutions and Consulting"
-  job_title_ar: "المؤسس والرئيس التنفيذي لشركة intelliSYS Solutions and Consulting"
+  job_title: "Founder and CEO, intelliSYS Solutions & Consulting DWC LLC"
+  job_title_ar: "المؤسس والرئيس التنفيذي لشركة intelliSYS Solutions & Consulting DWC LLC"
   credentials: "PhD in Artificial Intelligence and Robotics · MBCS CITP"
   url: /author/maher-abu-ghali/
   url_ar: /ar/author/maher-abu-ghali/
@@ -15,35 +15,35 @@ maher:
   # Add personal profile links (LinkedIn, etc.) here; they are used in the author schema.
   same_as: ["https://www.linkedin.com/in/maherabughali/"]
   knows_about: ["Artificial intelligence", "Robotics", "Educational technology", "Software architecture", "AI in education"]
-  short: "Dr. Maher Abu Ghali holds a PhD in AI and Robotics and is the founder and CEO of intelliSYS Solutions and Consulting, the company behind LearningClarity.AI."
-  short_ar: "د. ماهر أبو غالي حاصل على الدكتوراه في الذكاء الاصطناعي والروبوتات، وهو المؤسس والرئيس التنفيذي لشركة intelliSYS Solutions and Consulting، الشركة المالكة لمنصة LearningClarity.AI."
+  short: "Dr. Maher Abu Ghali holds a PhD in AI and Robotics and is the founder and CEO of intelliSYS Solutions & Consulting DWC LLC, the company behind LearningClarity.AI."
+  short_ar: "د. ماهر أبو غالي حاصل على الدكتوراه في الذكاء الاصطناعي والروبوتات، وهو المؤسس والرئيس التنفيذي لشركة intelliSYS Solutions & Consulting DWC LLC، الشركة المالكة لمنصة LearningClarity.AI."
   bio:
-    - "Dr. Maher Abu Ghali holds a PhD in Artificial Intelligence and Robotics. He is the founder and CEO of intelliSYS Solutions and Consulting, the company that owns and builds the LearningClarity.AI learning platform."
+    - "Dr. Maher Abu Ghali holds a PhD in Artificial Intelligence and Robotics. He is the founder and CEO of intelliSYS Solutions & Consulting DWC LLC, the company that owns and builds the LearningClarity.AI learning platform."
     - "He has more than 30 years of experience designing and delivering large software systems for governments and international organizations. For 18 years he worked at the United Nations Office on Drugs and Crime (UNODC), the last 14 as Chief Software Architect, where he led the design and development of goAML, the anti-money-laundering system used by financial intelligence units around the world."
     - "He studied computer science at the American University in Cairo, where his graduation project in autonomous mobile robotics was a behaviour system that let a group of robots learn to coordinate tasks in a changing environment. He is a Chartered IT Professional (MBCS CITP) of BCS, The Chartered Institute for IT."
   bio_ar:
-    - "د. ماهر أبو غالي حاصل على الدكتوراه في الذكاء الاصطناعي والروبوتات، وهو المؤسس والرئيس التنفيذي لشركة intelliSYS Solutions and Consulting، الشركة المالكة والمطوّرة لمنصة التعلّم LearningClarity.AI."
+    - "د. ماهر أبو غالي حاصل على الدكتوراه في الذكاء الاصطناعي والروبوتات، وهو المؤسس والرئيس التنفيذي لشركة intelliSYS Solutions & Consulting DWC LLC، الشركة المالكة والمطوّرة لمنصة التعلّم LearningClarity.AI."
     - "يمتلك أكثر من 30 عامًا من الخبرة في تصميم الأنظمة البرمجية الكبرى وتنفيذها لصالح الحكومات والمنظمات الدولية. عمل 18 عامًا في مكتب الأمم المتحدة المعني بالمخدرات والجريمة (UNODC)، منها 14 عامًا كبيرًا لمهندسي البرمجيات، وقاد خلالها تصميم وتطوير نظام goAML لمكافحة غسل الأموال الذي تستخدمه وحدات المعلومات المالية حول العالم."
     - "درس علوم الحاسب في الجامعة الأمريكية بالقاهرة، وكان مشروع تخرّجه في الروبوتات المتنقلة الذاتية نظامًا سلوكيًا يتيح لمجموعة من الروبوتات أن تتعلّم تنسيق مهامها في بيئة متغيّرة. وهو حاصل على صفة المهني المعتمد في تقنية المعلومات (MBCS CITP) من BCS، المعهد المعتمد لتقنية المعلومات في المملكة المتحدة."
   # Spanish, French and German versions (keys end in _es, _fr, _de; the layouts fall back to English).
   url_es: /es/author/maher-abu-ghali/
   url_fr: /fr/author/maher-abu-ghali/
   url_de: /de/author/maher-abu-ghali/
-  job_title_es: "Fundador y CEO de intelliSYS Solutions and Consulting"
-  job_title_fr: "Fondateur et PDG d'intelliSYS Solutions and Consulting"
-  job_title_de: "Gründer und CEO von intelliSYS Solutions and Consulting"
-  short_es: "El Dr. Maher Abu Ghali es doctor en Inteligencia Artificial y Robótica, y fundador y CEO de intelliSYS Solutions and Consulting, la empresa que desarrolla LearningClarity.AI."
-  short_fr: "Le Dr Maher Abu Ghali est docteur en intelligence artificielle et robotique, et fondateur et PDG d'intelliSYS Solutions and Consulting, l'entreprise qui développe LearningClarity.AI."
-  short_de: "Dr. Maher Abu Ghali ist promoviert in Künstlicher Intelligenz und Robotik sowie Gründer und CEO von intelliSYS Solutions and Consulting, dem Unternehmen hinter LearningClarity.AI."
+  job_title_es: "Fundador y CEO de intelliSYS Solutions & Consulting DWC LLC"
+  job_title_fr: "Fondateur et PDG d'intelliSYS Solutions & Consulting DWC LLC"
+  job_title_de: "Gründer und CEO von intelliSYS Solutions & Consulting DWC LLC"
+  short_es: "El Dr. Maher Abu Ghali es doctor en Inteligencia Artificial y Robótica, y fundador y CEO de intelliSYS Solutions & Consulting DWC LLC, la empresa que desarrolla LearningClarity.AI."
+  short_fr: "Le Dr Maher Abu Ghali est docteur en intelligence artificielle et robotique, et fondateur et PDG d'intelliSYS Solutions & Consulting DWC LLC, l'entreprise qui développe LearningClarity.AI."
+  short_de: "Dr. Maher Abu Ghali ist promoviert in Künstlicher Intelligenz und Robotik sowie Gründer und CEO von intelliSYS Solutions & Consulting DWC LLC, dem Unternehmen hinter LearningClarity.AI."
   bio_es:
-    - "El Dr. Maher Abu Ghali es doctor en Inteligencia Artificial y Robótica. Es fundador y CEO de intelliSYS Solutions and Consulting, la empresa propietaria y desarrolladora de la plataforma de aprendizaje LearningClarity.AI."
+    - "El Dr. Maher Abu Ghali es doctor en Inteligencia Artificial y Robótica. Es fundador y CEO de intelliSYS Solutions & Consulting DWC LLC, la empresa propietaria y desarrolladora de la plataforma de aprendizaje LearningClarity.AI."
     - "Cuenta con más de 30 años de experiencia en el diseño y la implantación de grandes sistemas de software para gobiernos y organizaciones internacionales. Durante 18 años trabajó en la Oficina de las Naciones Unidas contra la Droga y el Delito (UNODC), los últimos 14 como Arquitecto Jefe de Software, donde dirigió el diseño y el desarrollo de goAML, el sistema contra el blanqueo de capitales que utilizan las unidades de inteligencia financiera de todo el mundo."
     - "Estudió informática en la Universidad Americana de El Cairo, donde su proyecto de fin de carrera en robótica móvil autónoma fue un sistema de comportamiento que permitía a un grupo de robots aprender a coordinar tareas en un entorno cambiante. Es Chartered IT Professional (MBCS CITP) de BCS, The Chartered Institute for IT."
   bio_fr:
-    - "Le Dr Maher Abu Ghali est docteur en intelligence artificielle et robotique. Il est le fondateur et PDG d'intelliSYS Solutions and Consulting, l'entreprise qui possède et développe la plateforme d'apprentissage LearningClarity.AI."
+    - "Le Dr Maher Abu Ghali est docteur en intelligence artificielle et robotique. Il est le fondateur et PDG d'intelliSYS Solutions & Consulting DWC LLC, l'entreprise qui possède et développe la plateforme d'apprentissage LearningClarity.AI."
     - "Il compte plus de 30 ans d'expérience dans la conception et la mise en œuvre de grands systèmes logiciels pour des gouvernements et des organisations internationales. Pendant 18 ans, il a travaillé à l'Office des Nations Unies contre la drogue et le crime (ONUDC), dont les 14 dernières années comme architecte logiciel en chef, où il a dirigé la conception et le développement de goAML, le système de lutte contre le blanchiment d'argent utilisé par les cellules de renseignement financier du monde entier."
     - "Il a étudié l'informatique à l'Université américaine du Caire, où son projet de fin d'études en robotique mobile autonome était un système comportemental permettant à un groupe de robots d'apprendre à coordonner leurs tâches dans un environnement changeant. Il est Chartered IT Professional (MBCS CITP) de BCS, The Chartered Institute for IT."
   bio_de:
-    - "Dr. Maher Abu Ghali ist promoviert in Künstlicher Intelligenz und Robotik. Er ist Gründer und CEO von intelliSYS Solutions and Consulting, dem Unternehmen, dem die Lernplattform LearningClarity.AI gehört und das sie entwickelt."
+    - "Dr. Maher Abu Ghali ist promoviert in Künstlicher Intelligenz und Robotik. Er ist Gründer und CEO von intelliSYS Solutions & Consulting DWC LLC, dem Unternehmen, dem die Lernplattform LearningClarity.AI gehört und das sie entwickelt."
     - "Er verfügt über mehr als 30 Jahre Erfahrung in der Konzeption und Umsetzung großer Softwaresysteme für Regierungen und internationale Organisationen. 18 Jahre lang arbeitete er beim Büro der Vereinten Nationen für Drogen- und Verbrechensbekämpfung (UNODC), die letzten 14 davon als Chief Software Architect. Dort leitete er Konzeption und Entwicklung von goAML, dem System zur Bekämpfung der Geldwäsche, das Financial Intelligence Units weltweit einsetzen."
     - "Er studierte Informatik an der American University in Cairo. Sein Abschlussprojekt in autonomer mobiler Robotik war ein Verhaltenssystem, mit dem eine Gruppe von Robotern lernte, ihre Aufgaben in einer sich verändernden Umgebung zu koordinieren. Er ist Chartered IT Professional (MBCS CITP) von BCS, The Chartered Institute for IT."
