@@ -158,6 +158,14 @@ a:hover { color: var(--blue); }
 .lang-ar .social-list { justify-content: flex-end; }
 .social-list a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px; border-radius: 999px; background: var(--card); border: 1px solid var(--line); color: var(--ink); font-weight: 600; text-decoration: none; }
 .social-list a:hover { border-color: var(--blue-line); color: var(--blue); }
+.social-list a { gap: 8px; padding: 0 16px 0 12px; }
+.social-icon { flex: none; width: 20px; height: 20px; }
+.social-facebook .social-icon { color: #0866ff; }
+.social-instagram .social-icon { color: #e4405f; }
+.social-tiktok .social-icon { color: #000; }
+.social-youtube .social-icon { color: #ff0000; }
+.social-linkedin .social-icon { color: #0a66c2; }
+.social-upscrolled .social-icon { color: var(--blue); }
 
 /* Language menu (header) */
 .lang-menu { position: relative; }

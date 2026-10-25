@@ -3,7 +3,7 @@
   <p class="social-title">{{ st.follow_title }}</p>
   <ul class="social-list" dir="ltr">
     {%- for s in site.data.social %}
-    <li><a href="{{ s.url }}" rel="noopener me" target="_blank">{{ s.name }}</a></li>
+    <li><a class="social-{{ s.icon }}" href="{{ s.url }}" rel="noopener me" target="_blank">{% include social-icon.html icon=s.icon %}<span>{{ s.name }}</span></a></li>
     {%- endfor %}
   </ul>
 </nav>

@@ -1,11 +1,20 @@
-# LearningClarity social profiles, shown at the end of every post and used as sameAs in the schema.
+# LearningClarity social profiles, shown with their icons at the end of every post and author page,
+# and used as sameAs in the schema. `icon` must match a case in _includes/social-icon.html.
+- name: Facebook
+  icon: facebook
+  url: https://www.facebook.com/profile.php?id=61595465687363
 - name: Instagram
+  icon: instagram
   url: https://www.instagram.com/learningclarity.ai/
 - name: TikTok
+  icon: tiktok
   url: https://www.tiktok.com/@learningclarity
 - name: YouTube
+  icon: youtube
   url: https://www.youtube.com/channel/UCUont8dHKW9lJnw0BgzykyQ
 - name: LinkedIn
+  icon: linkedin
   url: https://www.linkedin.com/showcase/learning-clarity/
 - name: UpScrolled
+  icon: upscrolled
   url: https://share.upscrolled.com/en/user/7bbc185a-71d2-4d20-8f69-2e732ab8f638/
