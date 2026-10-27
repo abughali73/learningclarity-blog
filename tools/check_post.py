@@ -73,6 +73,12 @@ def main(name):
             bullets = item.get("bullets") or []
             if len(bullets) != 2 or any(len(b) >= 60 for b in bullets):
                 p(f"ad item {item.get('title')!r}: needs 2 bullets under 60 characters")
+        if not ad.get("eyebrow") or len(ad.get("eyebrow", "")) > 36:
+            p("ad.eyebrow is needed and must be 36 characters or fewer (it is the card label on the home and search pages)")
+        if re.search(r"(?i)\bAI study app\b", (fm.get("title", "") + " " + fm.get("description", "") + " " + body)):
+            p('say "study platform", not "AI study app"')
+        if re.search(r"adsbygoogle|googlesyndication", body):
+            p("remove the ad code from the body; the layouts place ads")
         if ad.get("color") not in ("blue", "purple", "pink", "orange"):
             p("ad.color must be blue, purple, pink or orange")
         for f in fm.get("faq") or []:
