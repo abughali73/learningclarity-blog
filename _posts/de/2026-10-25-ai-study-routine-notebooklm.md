@@ -32,7 +32,7 @@ ad:
   headline: Wählen Sie einen klaren Weg
   highlight: vom Verstehen zum Üben
   subtitle: Verstehen Sie einen Begriff, prüfen Sie Ihr Wissen und planen Sie weiter.
-  footnote: Live-Sprachgespräche sind derzeit in der Web-App verfügbar; mobile Unterstützung ist geplant.
+  footnote: "Live-Sprachgespräche funktionieren in der Web-App, auf dem iPhone und unter Android."
   color: purple
   items:
   - icon: bulb
@@ -113,7 +113,7 @@ Das nützliche Ergebnis ist eine nächste Handlung. Zeigt eine Frage eine Lücke
 
 {% include scene.html n=3 %}
 
-Manche Ideen werden durch einen anderen Zugang greifbarer. **Listen** liest eine Erklärung vor, und ein Thema oder Unterthema lässt sich in einen KI-Podcast verwandeln. **Talk About This** ermöglicht ein Live-Sprachgespräch mit einem KI-Tutor in der Web-App; mobile Unterstützung ist geplant.
+Manche Ideen werden durch einen anderen Zugang greifbarer. **Listen** liest eine Erklärung vor, und ein Thema oder Unterthema lässt sich in einen KI-Podcast verwandeln. **Talk About This** ermöglicht ein Live-Sprachgespräch mit einem KI-Tutor in der Web-App, auf dem iPhone und unter Android.
 
 Auch NotebookLM bietet interaktives Audio. Der Reiz von LearningClarity liegt darin, wie diese Aktivitäten die Lektionen, Übungen und den Fortschritt desselben Themas ergänzen.
 

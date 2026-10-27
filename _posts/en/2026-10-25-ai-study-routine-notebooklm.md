@@ -32,7 +32,7 @@ ad:
   headline: Choose a clear path
   highlight: from learning to practice
   subtitle: Understand one concept, test your recall and choose your next step.
-  footnote: Live voice conversations are currently on the web app; mobile support is planned.
+  footnote: "Live voice conversations work on the web app, iPhone and Android."
   color: purple
   items:
   - icon: bulb
@@ -113,7 +113,7 @@ The useful result is a next action. If a question reveals a gap, return to the r
 
 {% include scene.html n=3 %}
 
-Some ideas benefit from another way of approaching them. Listen reads an explanation aloud, and a topic or subtopic can become an AI podcast. **Talk About This** offers a live voice conversation with an AI tutor on the web app; mobile support is planned.
+Some ideas benefit from another way of approaching them. Listen reads an explanation aloud, and a topic or subtopic can become an AI podcast. **Talk About This** offers a live voice conversation with an AI tutor on the web app, iPhone and Android.
 
 NotebookLM also offers interactive audio. LearningClarity's appeal is how these activities fit alongside lessons, practice and progress for the topic you are studying.
 

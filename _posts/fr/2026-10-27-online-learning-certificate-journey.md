@@ -24,11 +24,11 @@ ad:
       bullets: ["Explain Mode, Simplify et Visualize", "Écoutez, ou faites-en un podcast"]
     - icon: question
       title: "Entraînez-vous sincèrement"
-      bullets: ["Quiz Mode avec l'option Je ne sais pas", "Tuteur vocal Talk to This sur le web"]
+      bullets: ["Quiz Mode avec l'option Je ne sais pas", "Tuteur vocal Talk to This sur tous vos appareils"]
     - icon: award
       title: "Réussissez et prouvez-le"
       bullets: ["70 % ou plus à un examen de 30+ questions", "Certificat avec QR code et identifiant"]
-  footnote: "Lena est une apprenante fictive. Talk to This est sur l'application web ; le mobile est prévu."
+  footnote: "Lena est une apprenante fictive."
 hero_image:
   src: /assets/img/posts/online-learning-certificate-journey-story.webp
   alt: "Lena à la table de sa cuisine dans la lumière dorée de l'après-midi, les poings levés de joie, un certificat à sceau posé près de son ordinateur"
@@ -102,7 +102,7 @@ En chemin, les Knowledge Checks (questions de vérification) l'ont gardée honn�
 
 Lena se sentait prête. Elle voulait savoir si elle l'était. Dans **Quiz Mode (mode quiz)**, elle a choisi les sous-sujets et les types de questions et, en cas de doute, elle a choisi « Je ne sais pas » plutôt que de deviner.
 
-Deux questions sur la communication avec les parties prenantes l'ont piégée, et ça a piqué. Elle a demandé pourquoi les bonnes réponses étaient bonnes, puis ouvert son ordinateur pour en parler avec **Talk to This**, un tuteur vocal en direct (pour l'instant sur l'application web, le mobile est prévu). Dire la réponse à voix haute, c'est ce qui l'a ancrée.
+Deux questions sur la communication avec les parties prenantes l'ont piégée, et ça a piqué. Elle a demandé pourquoi les bonnes réponses étaient bonnes, puis ouvert son ordinateur pour en parler avec **Talk to This**, un tuteur vocal en direct. Dire la réponse à voix haute, c'est ce qui l'a ancrée.
 
 {% include scene.html n=5 %}
 

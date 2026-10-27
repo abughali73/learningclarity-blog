@@ -32,7 +32,7 @@ ad:
   headline: Choisissez un parcours clair
   highlight: du savoir à la pratique
   subtitle: Comprenez une notion, testez votre rappel et choisissez la suite.
-  footnote: La conversation vocale en direct est disponible sur le web ; le mobile est prévu.
+  footnote: "La conversation vocale en direct fonctionne sur l’application web, iPhone et Android."
   color: purple
   items:
   - icon: bulb
@@ -113,7 +113,7 @@ Le résultat utile est une prochaine action. Si une question révèle une lacune
 
 {% include scene.html n=3 %}
 
-Certaines idées gagnent à être abordées autrement. **Listen** lit une explication à voix haute, et un sujet ou sous-thème peut devenir un podcast généré par IA. **Talk About This** permet une conversation vocale en direct avec un tuteur dans l’application web ; la prise en charge mobile est prévue.
+Certaines idées gagnent à être abordées autrement. **Listen** lit une explication à voix haute, et un sujet ou sous-thème peut devenir un podcast généré par IA. **Talk About This** permet une conversation vocale en direct avec un tuteur sur l’application web, iPhone et Android.
 
 NotebookLM propose lui aussi de l’audio interactif. L’intérêt de LearningClarity tient à la façon dont ces activités accompagnent les leçons, l’entraînement et les progrès du sujet étudié.
 

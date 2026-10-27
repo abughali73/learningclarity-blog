@@ -59,7 +59,7 @@
     - Opens a live voice conversation with an AI tutor about the material you are studying.
     - Speak or type; the tutor always replies aloud. A transcript can be kept.
     - Credits are based on conversation length; unused reserved credits are returned.
-    - Currently available on the web app; mobile support is planned. ALWAYS say this when featuring it.
+    - Available on all platforms - the web app, iPhone and Android.
 - key: quiz-mode
   name: Quiz Mode
   facts:
@@ -99,7 +99,7 @@
 - key: supervision
   name: Supervision for parents and teachers
   facts:
-    - A parent, teacher or mentor sends a request with the learner's account email; the learner must accept before anything is shared.
+    - Supervision can start from either side - a parent, teacher or mentor sends a request to the learner's account email, or the learner invites a supervisor by email; nothing is shared until the other side accepts.
     - Scheduled email progress reports - weekly, every two weeks or monthly, at a chosen day, hour and time zone; or sent immediately.
     - Reports cover highlights, overview, topic, course and plan progress, recent quizzes and exams; written in the supervisor's app language (Arabic right-to-left).
     - Supervisors are notified when the request is accepted, when the learner earns a certificate, and when the learner has been inactive.
@@ -122,7 +122,7 @@
   name: Referral program
   facts:
     - Every user has a referral code; a friend who signs up with it gets 200 bonus credits on top of the 300 welcome credits (500 in total).
-    - When a referred friend buys credits, the referrer receives a bonus of 10% of the credits purchased.
+    - When a referred friend makes their first credit purchase, the referrer receives a bonus of 10% of the credits purchased (first purchase only).
     - The referral bonus can be converted to cash on request.
     - A referral dashboard shows sign-ups, purchases and earnings.
 - key: multi-device

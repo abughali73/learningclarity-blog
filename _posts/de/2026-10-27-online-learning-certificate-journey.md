@@ -24,11 +24,11 @@ ad:
       bullets: ["Explain Mode, Simplify und Visualize", "Anhören oder als Podcast erstellen"]
     - icon: question
       title: "Ehrlich üben"
-      bullets: ["Quiz Mode mit der Option Weiß ich nicht", "Sprach-Tutor Talk to This im Web"]
+      bullets: ["Quiz Mode mit der Option Weiß ich nicht", "Sprach-Tutor Talk to This auf allen Geräten"]
     - icon: award
       title: "Bestehen und belegen"
       bullets: ["70 %+ in einer Prüfung mit 30+ Fragen", "Zertifikat mit QR-Code und ID"]
-  footnote: "Lena ist eine fiktive Lernende. Talk to This gibt es in der Web-App; die mobile Version ist geplant."
+  footnote: "Lena ist eine fiktive Lernende."
 hero_image:
   src: /assets/img/posts/online-learning-certificate-journey-story.webp
   alt: "Lena am Küchentisch im goldenen Nachmittagslicht, die Fäuste still jubelnd erhoben, neben dem Laptop eine Urkunde mit Siegel"
@@ -102,7 +102,7 @@ Unterwegs hielten Knowledge Checks (Verständnisfragen) sie ehrlich, und wenn si
 
 Lena fühlte sich bereit. Sie wollte wissen, ob sie es war. Im **Quiz Mode (Quizmodus)** wählte sie Unterthemen und Fragetypen und tippte bei Unsicherheit auf „Weiß ich nicht“, statt zu raten.
 
-Zwei Fragen zur Stakeholder-Kommunikation erwischten sie, und das tat weh. Dann fragte sie, warum die richtigen Antworten richtig waren, klappte den Laptop auf und sprach es mit **Talk to This** durch, einem Live-Sprach-Tutor (derzeit in der Web-App, die mobile Version ist geplant). Die Antwort laut auszusprechen, ließ sie hängen bleiben.
+Zwei Fragen zur Stakeholder-Kommunikation erwischten sie, und das tat weh. Dann fragte sie, warum die richtigen Antworten richtig waren, klappte den Laptop auf und sprach es mit **Talk to This** durch, einem Live-Sprach-Tutor. Die Antwort laut auszusprechen, ließ sie hängen bleiben.
 
 {% include scene.html n=5 %}
 

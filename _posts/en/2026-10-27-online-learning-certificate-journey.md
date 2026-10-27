@@ -24,11 +24,11 @@ ad:
       bullets: ["Explain Mode, Simplify and Visualize", "Listen, or turn it into a podcast"]
     - icon: question
       title: "Practise honestly"
-      bullets: ["Quiz Mode with an I don't know option", "Talk to This voice tutor on the web"]
+      bullets: ["Quiz Mode with an I don't know option", "Talk to This voice tutor, on every device"]
     - icon: award
       title: "Pass and prove it"
       bullets: ["70%+ on a 30+ question exam", "Certificate with a QR code and ID"]
-  footnote: "Lena is a fictional learner. Talk to This is on the web app; mobile is planned."
+  footnote: "Lena is a fictional learner."
 hero_image:
   src: /assets/img/posts/online-learning-certificate-journey-story.webp
   alt: "Lena at her kitchen table in golden afternoon light, fists raised in quiet celebration, a certificate with a ribbon seal beside her laptop"
@@ -102,7 +102,7 @@ Knowledge Checks kept her honest along the way, and when she missed one, Retry g
 
 Lena felt ready. She wanted to know if she was. In **Quiz Mode** she chose the subtopics and question types, and when she wasn't sure, she pressed "I don't know" instead of guessing.
 
-Two questions on stakeholder communication caught her out, and it stung. Then she asked why the right answers were right, opened her laptop and talked it through with **Talk to This**, a live voice tutor (on the web app for now, with mobile planned). Saying the answer out loud was what made it stick.
+Two questions on stakeholder communication caught her out, and it stung. Then she asked why the right answers were right, opened her laptop and talked it through with **Talk to This**, a live voice tutor. Saying the answer out loud was what made it stick.
 
 {% include scene.html n=5 %}
 

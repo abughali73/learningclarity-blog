@@ -24,11 +24,11 @@ ad:
       bullets: ["Explain Mode, Simplify y Visualize", "Escúchalo o conviértelo en pódcast"]
     - icon: question
       title: "Practica con honestidad"
-      bullets: ["Quiz Mode con la opción No lo sé", "Tutor de voz Talk to This en la web"]
+      bullets: ["Quiz Mode con la opción No lo sé", "Tutor de voz Talk to This en todos tus dispositivos"]
     - icon: award
       title: "Aprueba y demuéstralo"
       bullets: ["70% o más en un examen de 30+ preguntas", "Certificado con código QR e ID"]
-  footnote: "Lena es una estudiante ficticia. Talk to This está en la app web; la versión móvil está prevista."
+  footnote: "Lena es una estudiante ficticia."
 hero_image:
   src: /assets/img/posts/online-learning-certificate-journey-story.webp
   alt: "Lena en la mesa de su cocina con luz dorada de la tarde, celebrando en silencio con los puños en alto, con un certificado con sello junto al portátil"
@@ -102,7 +102,7 @@ Los Knowledge Checks (preguntas de comprobación) la mantuvieron honesta por el 
 
 Lena se sentía preparada. Quería saber si lo estaba. En **Quiz Mode (modo cuestionario)** eligió los subtemas y los tipos de pregunta y, cuando dudaba, pulsaba «No lo sé» en lugar de adivinar.
 
-Dos preguntas sobre comunicación con las partes interesadas la pillaron, y dolió. Luego preguntó por qué las respuestas correctas eran correctas, abrió el portátil y lo habló con **Talk to This**, un tutor de voz en directo (por ahora en la app web, con la versión móvil prevista). Decir la respuesta en voz alta fue lo que hizo que se le quedara.
+Dos preguntas sobre comunicación con las partes interesadas la pillaron, y dolió. Luego preguntó por qué las respuestas correctas eran correctas, abrió el portátil y lo habló con **Talk to This**, un tutor de voz en directo. Decir la respuesta en voz alta fue lo que hizo que se le quedara.
 
 {% include scene.html n=5 %}
 

@@ -32,7 +32,7 @@ ad:
   headline: Elige un camino claro
   highlight: del aprendizaje a la práctica
   subtitle: Comprende una idea, comprueba qué recuerdas y elige el siguiente paso.
-  footnote: La conversación de voz en directo está en la web; el soporte móvil está previsto.
+  footnote: "La conversación de voz en directo funciona en la app web, iPhone y Android."
   color: purple
   items:
   - icon: bulb
@@ -113,7 +113,7 @@ El resultado útil es una acción siguiente. Si una pregunta revela una laguna, 
 
 {% include scene.html n=3 %}
 
-Algunas ideas agradecen otra forma de abordarlas. **Listen** lee una explicación en voz alta, y un tema o subtema puede convertirse en un pódcast generado con IA. **Talk About This** permite conversar en directo con un tutor de voz en la aplicación web; el soporte móvil está previsto.
+Algunas ideas agradecen otra forma de abordarlas. **Listen** lee una explicación en voz alta, y un tema o subtema puede convertirse en un pódcast generado con IA. **Talk About This** permite conversar en directo con un tutor de voz en la app web, iPhone y Android.
 
 NotebookLM también ofrece audio interactivo. El atractivo de LearningClarity es cómo estas actividades acompañan las lecciones, la práctica y el progreso del tema que estás estudiando.
 
