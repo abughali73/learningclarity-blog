@@ -242,3 +242,11 @@ a:hover { color: var(--blue); }
   .search-row { flex-wrap: wrap; }
   .search-form-big .btn { width: 100%; }
 }
+
+/* Grouped FAQ */
+.faq-nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 8px; }
+.faq-nav a { display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 0 14px; border-radius: 999px; background: var(--blue-tint); border: 1px solid var(--blue-line); color: var(--link); font-weight: 600; font-size: 15px; text-decoration: none; }
+.faq-nav a:hover { background: #fff; }
+.faq-nav a span { min-width: 22px; padding: 0 6px; border-radius: 999px; background: #fff; font-size: 13px; text-align: center; }
+.faq-group { margin: 26px 0 4px; font: 700 22px/1.3 var(--display); color: var(--ink); scroll-margin-top: 16px; }
+.faq-item summary h4 { display: inline; margin: 0; font: 700 18px/1.4 var(--display); color: var(--ink); }

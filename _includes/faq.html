@@ -1,9 +1,33 @@
+{%- comment -%}
+  FAQ list: {% include faq.html items=page.faq heading=page.faq_heading lang=page.lang %}
+  Items may carry a `group`; then the FAQ is shown in groups, with a menu of the groups at the top.
+{%- endcomment -%}
+{%- assign faq_groups = include.items | map: "group" | compact | uniq -%}
 <section class="faq" id="faq" aria-label="FAQ">
   <h2>{% if include.heading %}{{ include.heading }}{% else %}{{ site.data.i18n[include.lang].faq_heading }}{% endif %}</h2>
+  {%- if faq_groups.size > 0 %}
+  <nav class="faq-nav" aria-label="{{ site.data.i18n[include.lang].faq_heading }}">
+    {%- for g in faq_groups %}
+    {%- assign n = include.items | where: "group", g | size %}
+    <a href="#faq-g{{ forloop.index }}">{{ g }} <span>{{ n }}</span></a>
+    {%- endfor %}
+  </nav>
+  {%- for g in faq_groups %}
+  <h3 class="faq-group" id="faq-g{{ forloop.index }}">{{ g }}</h3>
+  {%- assign group_items = include.items | where: "group", g %}
+  {%- for item in group_items %}
+  <details class="faq-item">
+    <summary><h4>{{ item.q }}</h4></summary>
+    <div class="faq-answer">{{ item.a | markdownify }}</div>
+  </details>
+  {%- endfor %}
+  {%- endfor %}
+  {%- else %}
   {%- for item in include.items %}
   <details class="faq-item"{% if forloop.first %} open{% endif %}>
     <summary><h3>{{ item.q }}</h3></summary>
     <div class="faq-answer">{{ item.a | markdownify }}</div>
   </details>
   {%- endfor %}
+  {%- endif %}
 </section>
