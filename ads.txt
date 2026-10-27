@@ -1,0 +1,11 @@
+---
+layout: null
+sitemap: false
+permalink: /ads.txt
+---
+{%- assign ads_client = site.adsense.client | strip -%}
+{%- if ads_client != "" -%}
+google.com, {{ ads_client | remove_first: "ca-" }}, DIRECT, f08c47fec0942fa0
+{%- else -%}
+# Google AdSense is not set up yet (set adsense.client in _config.yml).
+{%- endif %}

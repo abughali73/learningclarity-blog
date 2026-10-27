@@ -1,0 +1,6 @@
+{%- comment -%} Google AdSense: loads only when site.adsense.client is set in _config.yml. {%- endcomment -%}
+{%- assign ads_client = site.adsense.client | strip -%}
+{%- if ads_client != "" %}
+  <meta name="google-adsense-account" content="{{ ads_client }}">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ ads_client }}" crossorigin="anonymous"></script>
+{%- endif -%}

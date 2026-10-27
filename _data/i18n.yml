@@ -34,6 +34,20 @@ en:
   available_in: Also available in
   feed_title: Learning Clarity Blog (English)
   date_format: "%d %b %Y"
+  search_nav: "Search"
+  search_title: "Search the blog"
+  search_intro: "Find any guide, story or study tip, or browse every post below."
+  search_label: "Search posts"
+  search_placeholder: "Try “podcast”, “exam” or “PDF”"
+  search_button: "Search"
+  search_count_one: "1 post"
+  search_count_many: "{n} posts"
+  search_none: "No posts match “{q}”. Try another word, or browse all posts."
+  search_clear: "Clear search"
+  browse_all: "Browse all posts"
+  ad_label: "Advertisement"
+  privacy: "Privacy policy"
+  terms: "Terms of service"
 ar:
   blog: المدونة
   home_title: مدونة Learning Clarity
@@ -69,6 +83,20 @@ ar:
   available_in: متوفر أيضًا باللغات
   feed_title: مدونة Learning Clarity
   date_format: "%d/%m/%Y"
+  search_nav: "بحث"
+  search_title: "ابحث في المدونة"
+  search_intro: "اعثر على أي دليل أو قصة أو نصيحة دراسية، أو تصفّح كل المقالات أدناه."
+  search_label: "ابحث في المقالات"
+  search_placeholder: "جرّب «بودكاست» أو «امتحان» أو «PDF»"
+  search_button: "بحث"
+  search_count_one: "مقال واحد"
+  search_count_many: "{n} مقالات"
+  search_none: "لا توجد مقالات تطابق «{q}». جرّب كلمة أخرى أو تصفّح كل المقالات."
+  search_clear: "مسح البحث"
+  browse_all: "تصفّح كل المقالات"
+  ad_label: "إعلان"
+  privacy: "سياسة الخصوصية"
+  terms: "شروط الخدمة"
 es:
   blog: Blog
   home_title: El blog de Learning Clarity
@@ -104,6 +132,20 @@ es:
   available_in: También disponible en
   feed_title: El blog de Learning Clarity (Español)
   date_format: "%d/%m/%Y"
+  search_nav: "Buscar"
+  search_title: "Buscar en el blog"
+  search_intro: "Encuentra cualquier guía, historia o consejo de estudio, o explora todos los artículos."
+  search_label: "Buscar artículos"
+  search_placeholder: "Prueba «pódcast», «examen» o «PDF»"
+  search_button: "Buscar"
+  search_count_one: "1 artículo"
+  search_count_many: "{n} artículos"
+  search_none: "Ningún artículo coincide con «{q}». Prueba otra palabra o explora todos los artículos."
+  search_clear: "Borrar búsqueda"
+  browse_all: "Ver todos los artículos"
+  ad_label: "Publicidad"
+  privacy: "Política de privacidad"
+  terms: "Condiciones del servicio"
 fr:
   blog: Blog
   home_title: Le blog Learning Clarity
@@ -139,6 +181,20 @@ fr:
   available_in: Également disponible en
   feed_title: Le blog Learning Clarity (Français)
   date_format: "%d/%m/%Y"
+  search_nav: "Rechercher"
+  search_title: "Rechercher dans le blog"
+  search_intro: "Trouvez un guide, une histoire ou un conseil d’étude, ou parcourez tous les articles."
+  search_label: "Rechercher des articles"
+  search_placeholder: "Essayez « podcast », « examen » ou « PDF »"
+  search_button: "Rechercher"
+  search_count_one: "1 article"
+  search_count_many: "{n} articles"
+  search_none: "Aucun article ne correspond à « {q} ». Essayez un autre mot ou parcourez tous les articles."
+  search_clear: "Effacer la recherche"
+  browse_all: "Voir tous les articles"
+  ad_label: "Publicité"
+  privacy: "Politique de confidentialité"
+  terms: "Conditions d’utilisation"
 de:
   blog: Blog
   home_title: Der Learning Clarity Blog
@@ -174,3 +230,17 @@ de:
   available_in: Auch verfügbar auf
   feed_title: Der Learning Clarity Blog (Deutsch)
   date_format: "%d.%m.%Y"
+  search_nav: "Suche"
+  search_title: "Blog durchsuchen"
+  search_intro: "Finden Sie jeden Leitfaden, jede Geschichte und jeden Lerntipp, oder stöbern Sie in allen Beiträgen."
+  search_label: "Beiträge durchsuchen"
+  search_placeholder: "Zum Beispiel „Podcast“, „Prüfung“ oder „PDF“"
+  search_button: "Suchen"
+  search_count_one: "1 Beitrag"
+  search_count_many: "{n} Beiträge"
+  search_none: "Keine Beiträge passen zu „{q}“. Versuchen Sie ein anderes Wort oder sehen Sie sich alle Beiträge an."
+  search_clear: "Suche löschen"
+  browse_all: "Alle Beiträge ansehen"
+  ad_label: "Anzeige"
+  privacy: "Datenschutzerklärung"
+  terms: "Nutzungsbedingungen"

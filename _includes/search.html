@@ -1,0 +1,95 @@
+{%- comment -%}
+  Search and index page for one language: {% include search.html lang="en" %}
+  Every post is listed in the HTML (newest first), so the page works as a full index without JavaScript.
+  The script filters and ranks those cards as the reader types, and keeps the query in the URL (?q=).
+{%- endcomment -%}
+{%- assign t = site.data.i18n[include.lang] -%}
+{%- assign posts = site.posts | where: "lang", include.lang -%}
+<section class="hero search-hero">
+  <h1>{{ t.search_title }}</h1>
+  <p>{{ t.search_intro }}</p>
+  <form class="search-form" action="" method="get" role="search" id="search-form">
+    <label class="sr-only" for="q">{{ t.search_label }}</label>
+    <span class="search-input">
+      {% include icon.html name="search" size=20 %}
+      <input id="q" type="search" name="q" placeholder="{{ t.search_placeholder }}" autocomplete="off" enterkeyhint="search">
+    </span>
+    <button class="btn btn-small" type="submit">{{ t.search_button }}</button>
+  </form>
+  <p class="search-status" id="search-status" role="status" aria-live="polite"
+     data-one="{{ t.search_count_one | escape }}" data-many="{{ t.search_count_many | escape }}"
+     data-none="{{ t.search_none | escape }}">{% if posts.size == 1 %}{{ t.search_count_one }}{% else %}{{ t.search_count_many | replace: "{n}", posts.size }}{% endif %}</p>
+</section>
+<ul class="search-results" id="search-results">
+  {%- for post in posts -%}
+  <li class="search-card" data-i="{{ forloop.index0 }}">
+    <a href="{{ post.url }}">
+      {%- if post.image and post.image != "/assets/img/og-default.png" -%}
+      {%- assign thumb = site.static_files | where: "path", post.image | first -%}
+      {%- if thumb %}<img src="{{ post.image }}" alt="" width="1536" height="1024" loading="lazy">{% endif -%}
+      {%- endif %}
+      <div class="search-card-text">
+        {% if post.ad.eyebrow %}<span class="ad-eyebrow ad-eyebrow-{{ post.ad.color | default: 'blue' }}">{{ post.ad.eyebrow }}</span>{% endif %}
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.description }}</p>
+        <span class="card-foot"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: t.date_format }}</time><span class="more">{{ t.read_more }} →</span></span>
+      </div>
+    </a>
+  </li>
+  {%- endfor -%}
+</ul>
+{% include ad-slot.html name="list" lang=include.lang %}
+<p class="search-empty" id="search-empty" hidden><a href="?" id="search-clear">{{ t.search_clear }}</a></p>
+<script type="application/json" id="search-index">[
+{%- for post in posts -%}
+{%- capture k %}{{ post.keywords | join: " " }} {{ post.tags | join: " " }} {{ post.capability }}{% endcapture -%}
+{%- capture e %}{{ post.ad.eyebrow }} {{ post.ad.headline }} {{ post.ad.highlight }} {{ post.ad.subtitle }}{% for f in post.faq %} {{ f.q }} {{ f.a }}{% endfor %}{% endcapture -%}
+{"t":{{ post.title | jsonify }},"d":{{ post.description | jsonify }},"k":{{ k | strip | jsonify }},"e":{{ e | strip | jsonify }},"b":{{ post.content | strip_html | strip_newlines | jsonify }}}{% unless forloop.last %},{% endunless %}
+{%- endfor -%}
+]</script>
+<script>
+(function () {
+  var form = document.getElementById("search-form"), input = document.getElementById("q");
+  var list = document.getElementById("search-results"), status = document.getElementById("search-status");
+  var empty = document.getElementById("search-empty"), cards = Array.prototype.slice.call(list.children);
+  var data;
+  try { data = JSON.parse(document.getElementById("search-index").textContent); } catch (e) { return; }
+  // Lower-case, drop accents and Arabic diacritics, and unify Arabic letter variants, so "examen" finds "Examen" and "أمتحان" finds "امتحان".
+  function norm(s) {
+    return (s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "")
+      .replace(/[ً-ْٰـ]/g, "").replace(/[أإآٱ]/g, "ا").replace(/ى/g, "ي").replace(/ة/g, "ه")
+      .replace(/ß/g, "ss");
+  }
+  var fields = data.map(function (p) { return { t: norm(p.t), d: norm(p.d), k: norm(p.k), e: norm(p.e), b: norm(p.b) }; });
+  function count(hay, term) { var n = 0, i = hay.indexOf(term); while (i !== -1 && n < 20) { n++; i = hay.indexOf(term, i + term.length); } return n; }
+  function fmt(tpl, q, n) { return tpl.replace("{n}", n).replace("{q}", q); }
+  function run(q, push) {
+    var terms = norm(q).split(/[\s,.;:!?«»“”„"'()]+/).filter(function (w) { return w.length > 0; });
+    var shown = 0, ranked = [];
+    cards.forEach(function (card) {
+      var f = fields[+card.getAttribute("data-i")], score = 0, ok = true;
+      terms.forEach(function (w) {
+        var s = count(f.t, w) * 8 + count(f.k, w) * 4 + count(f.e, w) * 3 + count(f.d, w) * 3 + count(f.b, w);
+        if (!s) { ok = false; } score += s;
+      });
+      card.hidden = !ok;
+      if (ok) { shown++; ranked.push({ card: card, score: terms.length ? score : -(+card.getAttribute("data-i")) }); }
+    });
+    ranked.sort(function (a, b) { return b.score - a.score; }).forEach(function (r) { list.appendChild(r.card); });
+    status.textContent = shown === 0 ? fmt(status.dataset.none, q.trim(), 0)
+      : fmt(shown === 1 ? status.dataset.one : status.dataset.many, q.trim(), shown);
+    empty.hidden = shown !== 0;
+    if (push !== false) {
+      var url = new URL(location.href);
+      if (q.trim()) { url.searchParams.set("q", q.trim()); } else { url.searchParams.delete("q"); }
+      history.replaceState(null, "", url);
+    }
+  }
+  var timer;
+  input.addEventListener("input", function () { clearTimeout(timer); timer = setTimeout(function () { run(input.value); }, 120); });
+  form.addEventListener("submit", function (e) { e.preventDefault(); run(input.value); input.blur(); });
+  document.getElementById("search-clear").addEventListener("click", function (e) { e.preventDefault(); input.value = ""; run(""); input.focus(); });
+  var initial = new URLSearchParams(location.search).get("q") || "";
+  if (initial) { input.value = initial; run(initial, false); }
+})();
+</script>

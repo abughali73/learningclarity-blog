@@ -3,6 +3,12 @@
 <section class="hero">
   <h1>{{ t.home_title }}</h1>
   <p>{{ t.home_intro }}</p>
+  {%- assign search_url = "/" -%}{%- for l in site.languages -%}{%- if l.code == include.lang -%}{%- assign search_url = l.home | append: "search/" -%}{%- endif -%}{%- endfor %}
+  <form class="search-form search-form-home" action="{{ search_url }}" method="get" role="search">
+    <label class="sr-only" for="home-q">{{ t.search_label }}</label>
+    <input id="home-q" type="search" name="q" placeholder="{{ t.search_placeholder }}" autocomplete="off" enterkeyhint="search">
+    <button class="btn btn-small" type="submit">{{ t.search_button }}</button>
+  </form>
 </section>
 <ul class="post-grid">
   {%- for post in posts -%}
@@ -16,3 +22,4 @@
   </li>
   {%- endfor -%}
 </ul>
+{% include ad-slot.html name="list" lang=include.lang %}

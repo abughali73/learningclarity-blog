@@ -44,6 +44,7 @@ layout: default
     {{ content }}
     {%- if page.faq %}{% include faq.html items=page.faq heading=page.faq_heading lang=page.lang %}{% endif %}
   </div>
+  {% include ad-slot.html name="post_bottom" lang=page.lang %}
   {%- if page.tags and page.tags.size > 0 %}
   <p class="hashtags" aria-label="{{ t.hashtags_label }}">
     {%- for tag in page.tags %}<span class="hashtag" dir="auto">#{{ tag | remove: " " | remove: "#" }}</span>{% endfor -%}

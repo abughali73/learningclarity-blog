@@ -57,6 +57,18 @@ languages:
 markdown: kramdown
 future: false
 
+# Google AdSense. Ads stay switched off until `client` is set to the AdSense publisher ID.
+adsense:
+  client: ""          # e.g. "ca-pub-1234567890123456" (AdSense > Account > Settings > Account information)
+  slots:              # optional manual ad units (AdSense > Ads > By ad unit > Display ads > the data-ad-slot number)
+    post_bottom: ""   # shown after each post's text
+    list: ""          # shown after the post lists on the home and search pages
+  # Auto ads need only `client`; turn them on and choose formats in AdSense > Ads > By site.
+
+legal:
+  privacy: https://www.learningclarity.ai/privacypolicy/
+  terms: https://www.learningclarity.ai/termsofservice/
+
 app:
   web: https://www.learningclarity.ai
   ios: https://apps.apple.com/app/learning-clarity/id6776674430

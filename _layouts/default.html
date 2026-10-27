@@ -28,6 +28,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="/assets/css/style.css">
+  {%- include adsense-head.html %}
 </head>
 <body class="lang-{{ lang }}">
   <header class="site-header">
@@ -37,6 +38,7 @@
         <span class="brand-text"><span class="wordmark">Learning <span class="grad">Clarity</span></span><span class="brand-sub">{{ t.blog }}</span></span>
       </a>
       <nav class="nav" aria-label="Site">
+        <a class="nav-search" href="{{ lang_home | default: '/' }}search/" aria-label="{{ t.search_nav }}">{% include icon.html name="search" size=20 %}<span>{{ t.search_nav }}</span></a>
         {% include lang-switcher.html lang=lang %}
         <a class="btn btn-small" href="{{ site.app.web }}" rel="noopener">{{ t.get_app }}</a>
       </nav>
@@ -49,6 +51,10 @@
     <div class="wrap">
       <p class="footer-title">{{ t.qr_title }}</p>
       {% include stores.html lang=lang %}
+      <ul class="footer-links">
+        <li><a href="{{ site.legal.privacy }}" rel="noopener">{{ t.privacy }}</a></li>
+        <li><a href="{{ site.legal.terms }}" rel="noopener">{{ t.terms }}</a></li>
+      </ul>
       <p class="footer-legal">© {{ site.time | date: "%Y" }} intelliSYS Solutions &amp; Consulting DWC LLC · {{ t.rights }}</p>
     </div>
   </footer>

@@ -1,7 +1,7 @@
 {%- comment -%}
   Resolves the URL of the current page in every blog language and stores it in `lang_links`:
   a list of "code|url|exists" strings, in the order of site.languages.
-  Posts link to the post with the same `ref`; author pages to the author page; anything else to the language home.
+  Posts link to the post with the same `ref`; author and search pages to their counterparts; anything else to the language home.
   exists is "1" when that language has a real counterpart and "0" when the link falls back to the home page.
 {%- endcomment -%}
 {%- assign lang_links = "" | split: "" -%}
@@ -12,6 +12,9 @@
   {%- if page.ref -%}
     {%- assign twin = site.posts | where: "ref", page.ref | where: "lang", l.code | first -%}
     {%- if twin -%}{%- assign target = twin.url -%}{%- assign exists = "1" -%}{%- endif -%}
+  {%- elsif page.search_page -%}
+    {%- assign target = l.home | append: "search/" -%}
+    {%- assign exists = "1" -%}
   {%- elsif page.author_page and author_data -%}
     {%- if l.code == "en" -%}{%- assign target = author_data.url -%}{%- else -%}{%- assign k = "url_" | append: l.code -%}{%- assign target = author_data[k] | default: author_data.url -%}{%- endif -%}
     {%- assign exists = "1" -%}

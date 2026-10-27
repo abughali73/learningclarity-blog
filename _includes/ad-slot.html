@@ -1,0 +1,13 @@
+{%- comment -%}
+  A manual Google AdSense unit: {% include ad-slot.html name="post_bottom" lang=page.lang %}
+  Renders nothing unless site.adsense.client and site.adsense.slots[name] are both set.
+{%- endcomment -%}
+{%- assign ads_client = site.adsense.client | strip -%}
+{%- assign ads_slot = site.adsense.slots[include.name] | strip -%}
+{%- if ads_client != "" and ads_slot != "" -%}
+<aside class="sponsor-slot" aria-label="{{ site.data.i18n[include.lang].ad_label }}">
+  <span class="sponsor-slot-label">{{ site.data.i18n[include.lang].ad_label }}</span>
+  <ins class="adsbygoogle" data-ad-client="{{ ads_client }}" data-ad-slot="{{ ads_slot }}" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</aside>
+{%- endif -%}
