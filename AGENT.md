@@ -7,9 +7,10 @@ Every post is published in **five languages**: English (`en`), Arabic (`ar`), Sp
 ## Each run
 
 1. **Pick the capability.** Read `_data/capabilities.yml`. Look at the `capability:` field of every file in `_posts/en/`. Skip capabilities marked `hold: true`, and ignore posts whose `capability:` is not in the file (such as `faq`). Choose the capability used least often; break ties by the one used longest ago, then by the order in the file. Never feature the same capability as the two most recent posts.
-2. **Pick an angle.** Look at the titles of earlier posts on that capability and choose a different angle, for example: a how-to, a study scenario (exam week, a new job, a parent helping a child), a myth versus fact, or a "3 ways to" list. Write for individual learners, parents and teachers, and training teams in Europe and English-speaking markets.
+2. **Pick an angle, and tell it as a story.** Look at the titles of earlier posts on that capability and choose a different angle. By default, write the post as a short story about one fictional learner (a student before an exam, a parent helping a child, a teacher, a professional starting a new job, a team lead training staff): a real situation with something at stake, a few moments over days or a week, a setback, and an ending where the learning pays off. Weave the product into the story as things the character does (for example tapping Simplify when a term is confusing, or turning a subtopic into a podcast for the train), not as a feature list; show the featured capability in depth and 2 to 4 related capabilities along the way. Write for individual learners, parents and teachers, and training teams in Europe and English-speaking markets.
+   - **Character.** Give the character a first name not used in any earlier post: check the names in earlier posts and in their `scenes` prompts (`grep -ohE "[A-Z][a-z]+, a (fictional|[0-9])" -r _posts/en | sort -u` lists most of them; also read the recent posts). Vary age, background and situation from the last few posts. Say once in the body that the person is fictional, and set `ad.footnote` to say so too.
 3. **Write the English post** at `_posts/en/YYYY-MM-DD-<slug>.md`, using the current Cairo date. The slug is short, in English, lowercase and hyphenated, and not used by any earlier post. Set `date:` in the front matter to the current Cairo time minus 5 minutes, with Cairo's current UTC offset. Get both from `TZ=Africa/Cairo date -d '-5 min' '+%Y-%m-%d %H:%M:%S %z'`, because the offset changes with daylight saving. Jekyll skips future-dated posts, so the date must not be later than now.
-   - 400 to 700 words, plain and friendly, short paragraphs, 2 to 4 `##` sections, and a short closing line. No title heading in the body; the layout shows the title.
+   - 550 to 800 words, plain and friendly, short paragraphs, 3 to 6 `##` sections (for a story, one per moment, for example "Sunday: ..."), and a short closing line that invites the reader to start. No title heading in the body; the layout shows the title. Don't add app-store links or QR codes; the layout shows them at the end of every page.
    - Every product claim must come from that capability's `facts` (or another capability's facts). Never invent features, numbers, prices, testimonials, statistics or study results.
    - If the capability is `talk-to-this`, say that it is currently on the web app with mobile planned, and set `ad.footnote` to say the same.
 4. **Write the Arabic post** at `_posts/ar/` with the same file name. Write it in natural Modern Standard Arabic; don't translate word for word. Keep the product name "LearningClarity" and the feature names in English the first time they appear, with an Arabic explanation (for example "وضع الشرح (Explain Mode)"). Use the same Arabic feature names as earlier Arabic posts (for example وضع الاختبار القصير (Quiz Mode), وضع الامتحان (Exam Mode)). Use Western digits.
@@ -24,6 +25,7 @@ date: 2026-10-22 09:00:00 +0300   # from the command in step 3
 lang: en            # ar for the Arabic file
 ref: same-slug-in-both-files
 capability: explain-mode
+image: /assets/img/posts/<slug>-cinematic.png   # always the hero_image src (step 7)
 keywords: ["AI study tutor", "step-by-step explanations", "learn at your own pace"]
 tags: [LearningClarity, LearningClarityAI, ExplainMode, AITutor, StudyTips, OnlineLearning, EdTech, AIinEducation, Students, LifelongLearning]
 ad:
@@ -36,9 +38,9 @@ ad:
     - icon: bulb
       title: "Simplify or go deeper"
       bullets: ["First bullet", "Second bullet"]
-  footnote: ""                   # optional
+  footnote: "Lena is a fictional learner."   # name the fictional character; add any required note (e.g. Talk to This is web-only)
 hero_image:                      # required AI illustration, generated after you push (see step 5b)
-  src: /assets/img/posts/<slug>-hero.png    # same src in all five language files
+  src: /assets/img/posts/<slug>-cinematic.png    # same src in all five language files
   alt: "Describe the picture in this post's language"
   prompt: "In English: what to draw. A scene, not a diagram. No text, logos or real people."
 scenes:                          # required: 4 to 7 in-post scene images, generated after you push (see step 5b)
@@ -52,7 +54,7 @@ faq:                             # 2 or 3 short questions a reader would search 
 ---
 ```
 
-   The author (Dr. Maher Abu Ghali) is set automatically for every post; do not add an `author:` field. Set the `image:` field as described in step 7.
+   The author (Dr. Maher Abu Ghali) is set automatically for every post; do not add an `author:` field. Set the `image:` field as described in step 7. Look at `_posts/en/2026-10-27-online-learning-certificate-journey.md` for a complete example of a story post with its hero image and scenes.
 
 5b. **Images (required): cinematic, and plenty of them.** Every post is visual. It has one `hero_image` (shown at the top, and used as the preview image) and 4 to 7 `scenes` (shown inside the post). All of them are generated with OpenAI's image model (the model behind ChatGPT image generation) in a cinematic film-still style. You cannot call the image API from your sandbox, and you must never draw, render or commit images yourself. After you push, a GitHub Actions workflow (`.github/workflows/generate-images.yml`) generates every missing picture and commits it; each picture appears once its file exists.
    - Use the same `src` and `prompt` for each image in all five language files, so one image serves every language. Write `alt` and `caption` in each post's own language. Name scene files `<slug>-scene-1.png`, `<slug>-scene-2.png` and so on.
@@ -80,6 +82,6 @@ faq:                             # 2 or 3 short questions a reader would search 
 
      Arabic posts mix Arabic hashtags (use `_` between words, for example تعلم_ذاتي, الذكاء_الاصطناعي, نصائح_دراسية, التعليم_الإلكتروني) with the 2 brand hashtags and 2 or 3 English ones. Use only real, commonly used hashtags. Never repeat a hashtag within one post.
 7. **Preview image.** Set `image:` in the front matter of all five files to the `hero_image.src`, so search results and social shares use the illustration. Do not run `tools/render_previews.py` and do not create infographic PNGs; that script is retired.
-8. **Check before publishing.** The YAML must parse (quote strings that contain a colon or a quote). All five files must exist with the same `ref`. Each must have `keywords` and 10 to 15 `tags` with no `#` and no spaces, and each `faq` item must have `q` and `a`. The date must not be in the future. If a local Jekyll build is available, run `bundle exec jekyll build` or `jekyll build`; otherwise parse the front matter with Python's `yaml` module.
+8. **Check before publishing.** Run `python3 tools/check_post.py YYYY-MM-DD-<slug>.md`. It checks all five files against these rules (YAML parses, titles and descriptions, tags, the `ad` block, the FAQ, the date, the hero image and scenes, that every scene is included once, that shared values match across languages, and that nothing under `assets/img/` changed). Fix every problem it lists and run it again until it prints OK. Quote strings that contain a colon or a quote.
 9. **Publish.** Commit the five post files (and nothing in `assets/img/`) to `main` with the message `post: <slug>`, then push. Never edit the layouts, includes, CSS, `_config.yml`, `_data/`, `CNAME`, `tools/`, `.github/` or this file during a scheduled run.
-10. **Report.** End with the post title and the five live URLs: `https://blog.learningclarity.ai/<code>/YYYY/MM/<slug>/` for `en`, `ar`, `es`, `fr` and `de`. GitHub Pages takes about a minute to update.
+10. **Report.** End with the post title, the character, and the five live URLs: `https://blog.learningclarity.ai/<code>/YYYY/MM/<slug>/` for `en`, `ar`, `es`, `fr` and `de`. GitHub Pages takes about a minute to update; the images appear after the image workflow finishes, a few minutes later.

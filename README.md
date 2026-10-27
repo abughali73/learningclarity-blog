@@ -10,6 +10,7 @@ Source for https://blog.learningclarity.ai, a Jekyll site published with GitHub 
 - `AGENT.md` holds the instructions for the scheduled task that publishes one post every two days.
 - Author: `_data/authors.yml` (default author for every post). Social links: `_data/social.yml`.
 - SEO tags and schema: `_includes/seo.html` (BlogPosting, Person, Organization, FAQPage, VideoObject). `llms.txt` lists every post for AI search tools.
+- Checks: `python3 tools/check_post.py <file name>` validates a post in all five languages before publishing.
 - Images: each post has one AI illustration (`hero_image`), generated with OpenAI by `.github/workflows/generate-images.yml` after a push; it is also the preview image (`image:`).
 - AI illustrations: posts with a `hero_image.prompt` get an image from `.github/workflows/generate-images.yml` (needs the `OPENAI_API_KEY` secret; the model comes from the `OPENAI_IMAGE_MODEL` variable, default `gpt-image-2.5-flare`).
 - Search engine verification codes go in `_config.yml` under `verification:`.
