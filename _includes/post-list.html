@@ -1,18 +1,31 @@
 {%- assign t = site.data.i18n[include.lang] -%}
 {%- assign posts = site.posts | where: "lang", include.lang -%}
+{%- assign search_url = "/" -%}{%- for l in site.languages -%}{%- if l.code == include.lang -%}{%- assign search_url = l.home | append: "search/" -%}{%- endif -%}{%- endfor -%}
 <section class="hero">
   <h1>{{ t.home_title }}</h1>
   <p>{{ t.home_intro }}</p>
-  {%- assign search_url = "/" -%}{%- for l in site.languages -%}{%- if l.code == include.lang -%}{%- assign search_url = l.home | append: "search/" -%}{%- endif -%}{%- endfor %}
-  <form class="search-form search-form-home" action="{{ search_url }}" method="get" role="search">
-    <label class="sr-only" for="home-q">{{ t.search_label }}</label>
-    <input id="home-q" type="search" name="q" placeholder="{{ t.search_placeholder }}" autocomplete="off" enterkeyhint="search">
-    <button class="btn btn-small" type="submit">{{ t.search_button }}</button>
-  </form>
 </section>
-<ul class="post-grid">
+<section class="search-panel" aria-labelledby="search-panel-title">
+  <form class="search-form search-form-big" action="{{ search_url }}" method="get" role="search" id="search-form">
+    <label class="search-panel-title" id="search-panel-title" for="q">{% include icon.html name="search" size=22 %}<span>{{ t.search_label }}</span></label>
+    <div class="search-row">
+      <span class="search-input">
+        {% include icon.html name="search" size=22 %}
+        <input id="q" type="search" name="q" placeholder="{{ t.search_placeholder }}" autocomplete="off" enterkeyhint="search">
+      </span>
+      <button class="btn" type="submit">{{ t.search_button }}</button>
+    </div>
+  </form>
+  <div class="search-panel-foot">
+    <p class="search-status" id="search-status" role="status" aria-live="polite" data-quiet="1"
+       data-one="{{ t.search_count_one | escape }}" data-many="{{ t.search_count_many | escape }}"
+       data-none="{{ t.search_none | escape }}"></p>
+    <a class="search-panel-link" href="{{ search_url }}">{{ t.browse_all }} →</a>
+  </div>
+</section>
+<ul class="post-grid" id="search-results">
   {%- for post in posts -%}
-  <li class="post-card">
+  <li class="post-card" data-i="{{ forloop.index0 }}">
     <a href="{{ post.url }}">
       {% if post.ad.eyebrow %}<span class="ad-eyebrow ad-eyebrow-{{ post.ad.color | default: 'blue' }}">{{ post.ad.eyebrow }}</span>{% endif %}
       <h2>{{ post.title }}</h2>
@@ -22,4 +35,6 @@
   </li>
   {%- endfor -%}
 </ul>
+<p class="search-empty" id="search-empty" hidden><a href="?" id="search-clear">{{ t.search_clear }}</a></p>
 {% include ad-slot.html name="list" lang=include.lang %}
+{% include search-engine.html lang=include.lang %}
