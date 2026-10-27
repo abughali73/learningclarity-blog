@@ -108,6 +108,27 @@ def main(name):
                 p(f"{src} must be under /assets/img/posts/")
             if src and not src.endswith(".webp"):
                 p(f"{src} must end in .webp")
+    # story library: the idea must exist, be writable, and not be used by another post
+    lib_path = ROOT / "_data" / "story_library.yml"
+    en = posts.get("en", ({}, ""))[0]
+    story = en.get("story")
+    if story and lib_path.exists():
+        lib = yaml.safe_load(lib_path.read_text(encoding="utf-8")) or {}
+        ideas = {i.get("id"): i for i in lib.get("ideas") or []}
+        if story not in ideas:
+            problems.append(f"story {story!r} is not an idea in _data/story_library.yml")
+        elif ideas[story].get("status") != "idea":
+            problems.append(f"story {story!r} has status {ideas[story].get('status')!r}; only 'idea' entries may be written")
+        for other in (ROOT / "_posts" / "en").glob("*.md"):
+            if other.name != name:
+                try:
+                    if load(other)[0].get("story") == story:
+                        problems.append(f"story {story!r} is already used by {other.name}")
+                except Exception:
+                    pass
+        for lang, (fm, _) in posts.items():
+            if fm.get("story") != story:
+                problems.append(f"{lang}: story must be {story!r} in all five files")
     # values shared by all five languages
     if len(posts) == len(LANGS):
         def shared(fm):

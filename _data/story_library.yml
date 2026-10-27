@@ -1,0 +1,511 @@
+# Story library for blog posts. Read with STORY_GUIDE.md and AGENT.md.
+#
+# Every idea is a HYPOTHETICAL scenario: the people, companies and results are fictional and must be labelled as such
+# in the post. Product claims must come only from _data/capabilities.yml. Character names are suggestions; check
+# they are not used by an earlier post (AGENT.md step 2) and replace them if they are.
+#
+# status:   idea      = ready to write
+#           flagged   = needs product information or evidence first (see needs_info); do not write until resolved
+#           scheduled = owner's story queued as a one-time scheduled task; do not write
+#           published = already on the blog; do not repeat this angle
+# A post written from an idea sets `story: <id>` in its front matter, which marks the idea as used.
+
+covered:
+  # Stories and angles already on the blog or scheduled. Keep new stories clearly different from these.
+  - {id: lena-certificate-week, status: published, capability: certificates, angle: "First-time project lead goes from sign-up to a verifiable certificate in one week (countdown)"}
+  - {id: clara-teacher-class, status: published, capability: supervision, angle: "Teacher shares a topic with her class, uses supervision reports to coach each student, class earns certificates"}
+  - {id: joseph-sales-manager, status: published, capability: describe-topic, angle: "Top account executive promoted to sales manager with six days to prepare (owner's story)"}
+  - {id: sarah-call-center-nps, status: published, capability: talk-to-this, angle: "Call-center agent prepares for an NPS contest and rehearses hard calls out loud (owner's story)"}
+  - {id: nevine-mass-recruitment, status: scheduled, capability: describe-topic, angle: "HR recruiter staffs 50 vetted guards in six days (owner's story, 28 Oct 2026)"}
+  - {id: tarek-currency-crisis, status: scheduled, capability: describe-topic, angle: "Plant accountant defends a cost-control plan during a currency crisis (owner's story, 30 Oct 2026)"}
+  - {id: maya-mental-block, status: published, capability: explain-mode, angle: "Student stuck on a hard idea uses Simplify, then Visualize (owner's post)"}
+  - {id: karim-career-change-plan, status: published, capability: learning-plans, angle: "Retail worker plans a move into data analysis with an AI Learning Plan"}
+  - {id: notebooklm-study-routine, status: published, capability: progress, angle: "Daily study routine compared with NotebookLM (owner's post)"}
+  - {id: explain-mode-intro, status: published, capability: explain-mode, angle: "Feature introduction: the step-by-step AI tutor"}
+  - {id: podcast-intro, status: published, capability: podcasts, angle: "Feature introduction: turn any topic into a podcast"}
+  - {id: own-pdfs-intro, status: published, capability: upload-material, angle: "Feature introduction: study your own PDFs"}
+  - {id: ai-course-generator, status: published, capability: ai-courses, angle: "Guide: three situations for the AI course generator (parent, team, self-learner)"}
+  - {id: describe-any-subject, status: published, capability: describe-topic, angle: "Guide: learn any subject by describing it"}
+  - {id: visual-learning-diagrams, status: published, capability: visualize, angle: "Guide: three ways to study with diagrams"}
+  - {id: learn-by-listening, status: published, capability: listen, angle: "Guide: study away from the screen with Listen"}
+  - {id: organization-workspace-video, status: published, capability: organization-workspace, angle: "Video guide to the organization workspace for employee training"}
+  - {id: study-platform-faq, status: published, capability: faq, angle: "Learning Clarity Study Platform FAQ (68 questions)"}
+
+ideas:
+  - id: law-student-scanned-reader
+    status: idea
+    capability: upload-material
+    approach: countdown (three weeks)
+    audience: University students with a heavy course reader
+    challenge: "Hannah, a second-year law student, has a 300-page reader and an exam in three weeks; her first upload fails because the PDF is a scan."
+    hook: "The upload bar stopped at zero, and the error was polite: the file had no text to read."
+    features:
+      - {name: Upload Resources, helps: "Builds a topic and subtopics from her own reader once she uses a text-based PDF (scanned PDFs without a text layer can't be read)."}
+      - {name: Explain Mode, helps: "Teaches her reader one short section at a time, using the cases her lecturer chose."}
+      - {name: Quiz Mode, helps: "\"I don't know\" shows which cases she only recognises rather than understands."}
+    outline:
+      challenge: "Three weeks, one reader, and a scan that won't upload."
+      action: "She finds the text version from the library portal, splits it by module, and studies one subtopic a night, quizzing herself at the end."
+      outcome: "On exam day she can explain the key cases in her own words; she knows exactly which two she reread the night before."
+    takeaway: "Study the material you'll be examined on, and check that your PDF has selectable text before you upload."
+    cta: "Upload one chapter of your own reader and take a five-question quiz before rereading it."
+
+  - id: parent-fractions-two-voices
+    status: idea
+    capability: age-adapted
+    approach: two perspectives (parent and child)
+    audience: Parents helping a child with school maths
+    challenge: "Rania wants to help her 11-year-old son Adam with fractions, but she learned them differently and he shuts down when she explains."
+    hook: "Adam pushed the worksheet away. 'That's not how Ms Haddad does it.'"
+    features:
+      - {name: Age-adapted explanations, helps: "Adam's account pitches explanations, examples and questions at his age; Rania's pitches them at hers."}
+      - {name: Visualize, helps: "A clean, labelled diagram makes 'three quarters of a half' something Adam can see."}
+      - {name: Knowledge Checks, helps: "Short questions with feedback inside Explain Mode, so Adam can be wrong without an audience."}
+    outline:
+      challenge: "Homework fights every evening over fractions."
+      action: "Rania and Adam each create the same topic on their own accounts; she learns the method his class uses, he works through sections alone, then they compare diagrams."
+      outcome: "Adam explains equivalent fractions to his mum at dinner; homework takes twenty minutes instead of an evening."
+    takeaway: "You don't have to be the expert; learn the method alongside your child and let them explain it back to you."
+    cta: "Describe the topic your child is stuck on and work through the first section side by side."
+
+  - id: bakery-bookkeeping-course
+    status: idea
+    capability: ai-courses
+    approach: small habit, big change (one month)
+    audience: Small business owners
+    challenge: "Marco runs a two-person bakery and has handed his bookkeeping to an accountant he can't afford to keep asking basic questions."
+    hook: "The receipts lived in a biscuit tin, and the biscuit tin was winning."
+    features:
+      - {name: AI Courses, helps: "Describing 'bookkeeping basics for a small food business' generates a course of related topics and suggests the order to study them."}
+      - {name: Listen, helps: "Reads explanations aloud during the quiet hour after the morning bake."}
+      - {name: Quiz Mode, helps: "A short quiz after each topic shows what stuck."}
+    outline:
+      challenge: "He doesn't understand his own numbers and feels embarrassed asking."
+      action: "One topic a week in the suggested order, 20 minutes a day, with a quiz each Friday."
+      outcome: "At the next meeting with his accountant he asks better questions and sorts his receipts himself; the biscuit tin is retired."
+    takeaway: "A course in the right order turns a vague worry into four manageable topics."
+    cta: "Describe the business skill you keep postponing and let LearningClarity suggest the order."
+
+  - id: return-to-work-learning-plan
+    status: idea
+    capability: learning-plans
+    approach: before and after
+    audience: People returning to work after a career break
+    challenge: "Ines spent six years caring for her family and wants to return to office administration, but the tools and terms have changed."
+    hook: "The job advert listed seven skills. She recognised the names of three."
+    features:
+      - {name: AI Learning Plans, helps: "Her goal ('return to office administration') becomes a full curriculum: Learning Plan > Course > Topic > Subtopic."}
+      - {name: Progress tracking, helps: "Shows completion at every level, so she can see the plan moving."}
+      - {name: Exam Mode, helps: "A course exam tells her when a block is really done."}
+    outline:
+      challenge: "Feeling out of date and unsure where to start."
+      action: "She follows the plan course by course over two months, testing herself at the end of each course."
+      outcome: "She walks into her first interview able to talk through the skills on the advert; the plan's progress bar is the proof she shows herself."
+    takeaway: "A big goal becomes doable when it's broken into courses you can finish."
+    cta: "Write down the role you want and let LearningClarity turn it into a plan."
+
+  - id: apprentice-electrician-diagrams
+    status: idea
+    capability: visualize
+    approach: the one hard question
+    audience: Apprentices and vocational learners
+    challenge: "Daniel, an electrician apprentice, keeps mixing up series and parallel circuits on site and dreads being asked about it."
+    hook: "'So which one trips first?' his supervisor asked, and Daniel's mind went blank."
+    features:
+      - {name: Visualize, helps: "A clean, labelled diagram of the current concept turns the circuit description into a picture he can redraw."}
+      - {name: Explain Further, helps: "Adds detail and examples until the difference clicks."}
+      - {name: Quiz Mode, helps: "Checks him on the exact distinction he kept getting wrong."}
+    outline:
+      challenge: "One question he can't answer, asked by the person he wants to impress."
+      action: "Three evenings with one subtopic, redrawing each diagram from memory in his notebook."
+      outcome: "When the question comes again, he sketches the answer on the back of a delivery note."
+    takeaway: "If you can redraw it, you understand it; if you can't, ask for a diagram and try again."
+    cta: "Open the concept that confuses you and tap Visualize before you reread anything."
+
+  - id: bus-driver-supervisor-listen
+    status: idea
+    capability: listen
+    approach: small habit, big change
+    audience: Shift workers who can't sit at a desk
+    challenge: "Malik, a city bus driver, wants to apply for a depot supervisor role but only has short breaks between routes."
+    hook: "Twelve minutes at the terminus, engine off, the same view of the same roundabout."
+    features:
+      - {name: Listen, helps: "Reads the current explanation aloud during breaks (always parked, never while driving)."}
+      - {name: Resume, helps: "Picks up exactly where he stopped, on his phone or at home on the laptop."}
+      - {name: Streaks, helps: "Counting consecutive days of learning keeps the habit going."}
+    outline:
+      challenge: "No time to study in a job built around a timetable."
+      action: "One section per break, a short quiz on his day off, for five weeks."
+      outcome: "He walks into the supervisor interview able to explain rota planning and safety reporting; his 30-Day Streak achievement is a quiet personal win."
+    takeaway: "Small, regular sessions add up, especially when they fit the gaps you already have."
+    cta: "Pick a topic and listen to one section on your next break."
+
+  - id: retiree-museum-podcast
+    status: idea
+    capability: podcasts
+    approach: diary
+    audience: Retirees and lifelong learners
+    challenge: "Margit, 67, has signed up as a volunteer guide at her town museum and must learn a gallery of 19th-century painting in a month."
+    hook: "'You'll be fine,' the coordinator said, handing her a laminated floor plan and a date."
+    features:
+      - {name: AI podcasts, helps: "Turns each subtopic into a two-voice conversation between a host and an expert guest to listen to on her morning walks."}
+      - {name: Explain Mode, helps: "One short section at a time, at her own pace."}
+      - {name: Talk to This, helps: "She explains each painting out loud to the voice tutor before her first tour."}
+    outline:
+      challenge: "A lot to learn and a fear of being asked something she can't answer."
+      action: "A diary month: walk with an episode, read a section, explain it aloud."
+      outcome: "Her first tour runs ten minutes over because the visitors keep asking questions she can answer."
+    takeaway: "Hearing ideas discussed, then saying them yourself, is how they become yours."
+    cta: "Turn the subtopic you're learning into a podcast for your next walk."
+
+  - id: graduate-interview-rehearsal
+    status: idea
+    capability: talk-to-this
+    approach: countdown (three days)
+    audience: Graduates preparing for job interviews
+    challenge: "Elif has her first graduate-scheme interview on Friday and freezes when she has to explain her final-year project out loud."
+    hook: "In her head the answer was perfect. Out loud it came out as three unfinished sentences."
+    features:
+      - {name: Talk to This, helps: "A live voice tutor about her material: she speaks or types, it always answers aloud, and she keeps a transcript."}
+      - {name: Describe Topic, helps: "Turns the role and the skills in the job advert into a topic to study."}
+      - {name: Quiz Mode, helps: "Shows which technical areas are shaky before the interviewers do."}
+    outline:
+      challenge: "Knowing the material but not being able to say it."
+      action: "Several short voice sessions a day, rereading the transcript each night to tighten her answers."
+      outcome: "On Friday she explains her project in two calm minutes; the result of the interview is still pending, but she's proud of how she answered."
+    takeaway: "Rehearse out loud; speaking is a different skill from knowing."
+    cta: "Describe the role you're interviewing for and practise your first answer out loud today."
+
+  - id: quiz-guessing-myth
+    status: idea
+    capability: quiz-mode
+    approach: myth versus reality
+    audience: Secondary-school and university students
+    challenge: "Sofia always guesses on practice quizzes and is shocked when her real test score is far lower."
+    hook: "Her practice scores said 85%. The real test said 61%."
+    features:
+      - {name: "\"I don't know\" option", helps: "Records an honest answer instead of a lucky guess, giving a more accurate picture."}
+      - {name: Quiz results, helps: "Show score, correct, incorrect and \"I don't know\" answers, and a mastery level."}
+      - {name: Explain Mode, helps: "She goes back to exactly the subtopics her \"I don't know\" answers point to."}
+    outline:
+      challenge: "Practice scores that lied to her."
+      action: "For the next unit she presses \"I don't know\" whenever she isn't sure, then studies only those areas."
+      outcome: "Her practice scores drop at first, then climb; her next test matches what she expected."
+    takeaway: "An honest \"I don't know\" today is worth more than a lucky guess."
+    cta: "Take a quiz on your current topic and promise yourself not to guess."
+
+  - id: accounting-student-hard-timed-exam
+    status: idea
+    capability: exam-mode
+    approach: before and after
+    audience: Students facing timed exams
+    challenge: "Youssef, an accounting student, knows the material but runs out of time in exams."
+    hook: "Question 27 of 40, and the invigilator said 'ten minutes left'."
+    features:
+      - {name: Exam Mode, helps: "Lets him set scope, question types, difficulty (Medium, Hard or Random), a timer and the number of questions."}
+      - {name: Exam results, helps: "A full question review and an AI summary of strengths and areas to revisit."}
+    outline:
+      challenge: "Understanding without speed."
+      action: "Weekly timed mock exams on Hard, reviewing every wrong answer before the next one."
+      outcome: "In the real exam he finishes with time to check two answers; his mock reviews told him which question types to tackle first."
+    takeaway: "Practise under the conditions you'll be tested in."
+    cta: "Set up a timed exam on your topic this week and review every question afterwards."
+
+  - id: freelancer-certificate-proposal
+    status: idea
+    capability: certificates
+    approach: the one hard question
+    audience: Freelancers and consultants
+    challenge: "Grace, a freelance copywriter, is pitching to a client in a new field (sustainability reporting) and is asked how she knows the subject."
+    hook: "'What makes you qualified to write about this?' the client asked, kindly but directly."
+    features:
+      - {name: Exam Mode, helps: "An exam covering every subtopic of her topic, with at least 30 questions."}
+      - {name: Certificates, helps: "A certificate for the topic with a credential ID and QR code that anyone can verify without an account."}
+    outline:
+      challenge: "Credibility in a new field without a formal qualification."
+      action: "Two weeks studying the topic, then the exam; she adds the verification link to her proposal and is clear that it isn't an accredited qualification."
+      outcome: "The client appreciates the honesty and the evidence; she gets a trial project."
+    takeaway: "Show what you learned and how it was assessed; be honest about what a certificate is and isn't."
+    cta: "Pick the subject clients ask you about and aim for a certificate in it."
+    notes: "Must state that certificates are not accredited qualifications."
+
+  - id: excel-streak-busy-parent
+    status: idea
+    capability: streaks-achievements
+    approach: small habit, big change (30 days)
+    audience: Busy working parents
+    challenge: "Aisha wants to get better at spreadsheets for work but only has 15 minutes after the children are asleep."
+    hook: "Fifteen minutes. That was the deal she made with herself on the first of the month."
+    features:
+      - {name: Streaks, helps: "Counts consecutive days of learning; her longest streak records her best."}
+      - {name: Achievements, helps: "Badges such as 7-Day Streak and 30-Day Streak mark the milestones."}
+      - {name: Explain Mode, helps: "Short sections fit a 15-minute window."}
+    outline:
+      challenge: "Motivation that never survives a busy week."
+      action: "One section a night; on a bad day, just one Knowledge Check to keep the streak alive."
+      outcome: "On day 30 she builds the monthly report her manager used to do for her."
+    takeaway: "Consistency beats intensity; make the daily step small enough to keep."
+    cta: "Choose a topic and do one section tonight. Then do one tomorrow."
+
+  - id: finals-triage-mastery
+    status: idea
+    capability: progress
+    approach: countdown (two weeks)
+    audience: University students in exam season
+    challenge: "Leo has four finals in two weeks and no idea which subjects need the most time."
+    hook: "Four exams, fourteen days, and a revision timetable that looked fair and felt useless."
+    features:
+      - {name: Progress tracking, helps: "Shows progress at every level plus quiz and exam history and mastery levels."}
+      - {name: Quiz Mode, helps: "A quick quiz in each subject gives a starting picture."}
+    outline:
+      challenge: "Spreading time evenly across subjects that aren't equally weak."
+      action: "A day of quizzes across all four subjects, then time allocated by mastery level, rechecked every three days."
+      outcome: "He spends most of his time on the two weakest subjects and walks into each exam knowing where he stands."
+    takeaway: "Measure first, then plan; your weakest subject deserves the most time."
+    cta: "Take one short quiz in every subject you're revising before you plan your week."
+
+  - id: study-group-sharing
+    status: idea
+    capability: sharing
+    approach: two perspectives (group chat)
+    audience: Students who study in groups
+    challenge: "Four engineering friends want to revise the same module but are at very different levels."
+    hook: "The group chat had 214 unread messages and not one useful summary."
+    features:
+      - {name: Sharing, helps: "One student shares the topic by email; each friend previews it, accepts and gets an independent copy with their own progress."}
+      - {name: Quiz Mode, helps: "Each of them quizzes alone, then they compare which subtopics were hardest."}
+    outline:
+      challenge: "Group study that turns into chatting."
+      action: "One shared topic, individual progress, and a weekly call where each person explains the subtopic they found hardest."
+      outcome: "The group meets for one focused hour a week instead of four unfocused ones."
+    takeaway: "Learn alone, then teach each other; sharing the same material keeps everyone on the same page."
+    cta: "Share a topic you've built with one study partner this week."
+
+  - id: shift-parent-supervision
+    status: idea
+    capability: supervision
+    approach: two perspectives (parent and teenager)
+    audience: Working parents of teenagers
+    challenge: "Pieter works night shifts and can't sit with his 15-year-old daughter Lotte as she prepares for her end-of-year exams."
+    hook: "Their only overlap was breakfast, and breakfast was not the moment to ask about chemistry."
+    features:
+      - {name: Supervision, helps: "Set up from either side with the learner's account email; nothing is shared until the other person accepts."}
+      - {name: Email progress reports, helps: "Weekly reports on topic progress and recent quizzes and exams, in his app language; he's notified if she has been inactive or earns a certificate."}
+    outline:
+      challenge: "Wanting to support without hovering."
+      action: "Lotte invites her dad as a supervisor; his Sunday report becomes the start of a five-minute breakfast conversation about one weak subtopic."
+      outcome: "She feels trusted, he feels involved, and the inactivity notification never needs to arrive."
+    takeaway: "Support works best when it's agreed, light-touch and based on the same information."
+    cta: "Talk with your teenager about setting up supervision together."
+
+  - id: cross-language-engineering-slides
+    status: idea
+    capability: languages
+    approach: the one hard question
+    audience: Students studying in a second language
+    challenge: "Zainab studies engineering in English, but complex ideas only really land for her in Arabic."
+    hook: "She understood every word on the slide and still didn't understand the slide."
+    features:
+      - {name: Learning language, helps: "Upload the English slides and choose Arabic as the learning language before creating the topic."}
+      - {name: Explain Mode, helps: "Explanations, quizzes and diagrams arrive in Arabic, while her source stays in English."}
+      - {name: Exam Mode, helps: "A second topic in English lets her practise in the language of her exam."}
+    outline:
+      challenge: "Language getting in the way of understanding."
+      action: "Concepts first in Arabic, then a quiz in English to practise the exam's language."
+      outcome: "She answers the lecturer's question in English, in her own words, for the first time."
+    takeaway: "Learn concepts in your strongest language, practise in the language of your exam."
+    cta: "Upload one lecture's slides and choose the language you think best in."
+
+  - id: father-daughter-solar-system
+    status: idea
+    capability: age-adapted
+    approach: two perspectives
+    audience: Families learning together
+    challenge: "Tom wants to share his 9-year-old daughter Hana's sudden obsession with space but finds children's books too simple for him and adult articles too hard for her."
+    hook: "'Why doesn't the Moon fall down?' Hana asked, and Tom realised he didn't actually know."
+    features:
+      - {name: Age-adapted explanations, helps: "The same topic is pitched differently on each account, using the date of birth from onboarding."}
+      - {name: AI podcasts, helps: "They listen to an episode together in the car."}
+    outline:
+      challenge: "One question, two very different levels."
+      action: "Each creates 'how gravity holds the solar system together' on their own account; they compare what they learned over dinner."
+      outcome: "Hana explains orbits to her class; Tom finally knows the answer to her question."
+    takeaway: "Learning the same thing at your own level makes it something to share."
+    cta: "Ask your child what they're curious about and learn it together."
+
+  - id: warehouse-lead-multi-device
+    status: idea
+    capability: multi-device
+    approach: diary (one day)
+    audience: Frontline workers moving into leadership
+    challenge: "Chloé, a warehouse team lead, is studying logistics planning but her day is split between the floor, the bus and the kitchen table."
+    hook: "06:12, bus stop. 12:40, loading bay. 21:30, kitchen table. Same lesson, three screens."
+    features:
+      - {name: Web, iPhone and Android, helps: "Library, progress and credits are shared across devices."}
+      - {name: Resume, helps: "Takes her back to exactly where she stopped on any device."}
+      - {name: Listen, helps: "Reads a section aloud when reading isn't possible."}
+    outline:
+      challenge: "Learning that keeps getting interrupted."
+      action: "A one-day diary following the same topic across her phone, the depot computer and her laptop."
+      outcome: "By the end of the month she leads the weekly planning meeting her manager used to run."
+    takeaway: "You don't need a long session, you need to pick up where you left off."
+    cta: "Install the app on your phone and continue today's lesson on your way home."
+
+  - id: student-budget-credits
+    status: idea
+    capability: credits
+    approach: myth versus reality
+    audience: Students on a tight budget
+    challenge: "Rui assumes study tools mean another monthly subscription he can't afford."
+    hook: "His bank app had a whole category called 'subscriptions I forgot about'."
+    features:
+      - {name: Credits, helps: "300 free credits on sign-up with no card asked for; no subscription for individuals; packs from $1.99 for 1,000 credits; credits never expire."}
+      - {name: Running out, helps: "Running out never removes topics, progress or certificates; it only stops new material being generated."}
+    outline:
+      challenge: "Wanting help without another recurring payment."
+      action: "He starts with the free credits, studies one module, and buys a small pack only before his exam."
+      outcome: "He pays once, for the month that mattered, and nothing renews."
+    takeaway: "Pay for what you use, when you need it."
+    cta: "Start with the free credits on one topic and see how far they take you."
+    notes: "Do not quote credit costs per action; they are not in capabilities.yml."
+
+  - id: solar-panels-before-deciding
+    status: idea
+    capability: explain-mode
+    approach: the one hard question
+    audience: Adults learning about everyday decisions
+    challenge: "Bernd, 58, is considering solar panels for his house and doesn't want to nod along to a salesperson's jargon."
+    hook: "The quote was four pages long, and he understood the first line: the price."
+    features:
+      - {name: Explain Mode, helps: "One short section at a time on how home solar systems work."}
+      - {name: Simplify and Explain Further, helps: "Plain words when it's technical, more detail and examples when he's curious."}
+      - {name: Ask your own question, helps: "He asks about the terms on his quote."}
+    outline:
+      challenge: "A big decision based on words he doesn't understand."
+      action: "Two evenings of learning before the second meeting, with his own questions written down."
+      outcome: "He asks three questions that change the quote; the decision is still his, but now he understands it."
+    takeaway: "Understanding the basics lets you ask better questions; it doesn't replace professional advice."
+    cta: "Describe the decision you're facing and learn the basics before your next meeting."
+    notes: "Must not give financial or technical advice; the character still consults professionals."
+
+  - id: real-estate-agent-licence-prep
+    status: idea
+    capability: exam-mode
+    approach: countdown (four weeks)
+    audience: Adults preparing for professional exams
+    challenge: "Fatima is changing careers into real estate and has a licensing exam in four weeks."
+    hook: "The study guide was 420 pages and smelled faintly of the last person who gave up on it."
+    features:
+      - {name: Upload Resources, helps: "Builds a topic from the official study guide she already has (as a text PDF)."}
+      - {name: Exam Mode, helps: "Timed mock exams across every subtopic, with a review of every answer."}
+      - {name: Quiz Mode, helps: "Short quizzes on the subtopics her mocks flag as weak."}
+    outline:
+      challenge: "Too much material and one chance to pass."
+      action: "Upload the guide chapter by chapter, weekly mock exams, quizzes on weak areas."
+      outcome: "She sits the official exam feeling prepared; LearningClarity helped her practise, while the licence comes from the official exam."
+    takeaway: "Use your official material and practise under exam conditions; a LearningClarity certificate doesn't replace the official exam."
+    cta: "Upload the first chapter of your study guide and take a timed mock this weekend."
+    notes: "Must say LearningClarity does not replace the official exam or past papers."
+
+  - id: explain-back-not-reread
+    status: idea
+    capability: talk-to-this
+    approach: myth versus reality
+    audience: Students who reread instead of practising
+    challenge: "Nils highlights everything and remembers nothing; he believes rereading is studying."
+    hook: "His textbook was so yellow it looked like a lemon."
+    features:
+      - {name: Talk to This, helps: "Explaining a subtopic out loud to the voice tutor shows him what he can't yet say."}
+      - {name: Quiz Mode, helps: "Retrieval practice that replaces rereading."}
+    outline:
+      challenge: "The illusion of knowing."
+      action: "For one week he swaps rereading for explaining aloud and quizzing."
+      outcome: "Less time studying, a better result on his next class test."
+    takeaway: "If you can explain it, you know it; if you can only recognise it, you don't yet."
+    cta: "Close your notes and explain your last lesson out loud for two minutes."
+
+  - id: team-onboarding-course
+    status: flagged
+    capability: organization-workspace
+    approach: two perspectives (manager and new hire)
+    audience: Small company managers onboarding new staff
+    challenge: "A 12-person logistics firm onboards three new coordinators at once."
+    hook: "Three new starters, one trainer, and a binder last updated in 2019."
+    features:
+      - {name: Organization workspace, helps: "Needs facts: what the organization workspace offers (assigning content, tracking members) is not in capabilities.yml."}
+    outline:
+      challenge: "Consistent onboarding without a training department."
+      action: "To be written once the organization workspace facts are confirmed."
+      outcome: "To be written."
+    takeaway: "To be written."
+    cta: "To be written."
+    needs_info: "Add the organization workspace (B2B) capability and its facts to capabilities.yml."
+
+  - id: chef-french-kitchen-language
+    status: flagged
+    capability: languages
+    approach: countdown (one month)
+    audience: Professionals learning a language for a new job
+    challenge: "Diego, a chef, starts a job in a French-speaking kitchen next month and needs kitchen French fast."
+    hook: "'Oui, chef' was the only phrase he was sure of."
+    features:
+      - {name: Learning language, helps: "A topic about kitchen French with French as the learning language."}
+      - {name: Talk to This, helps: "Speaking practice with the voice tutor."}
+    outline:
+      challenge: "A new language under time pressure."
+      action: "Daily sections and short voice sessions in French."
+      outcome: "He follows the first service's orders."
+    takeaway: "Practise speaking from day one."
+    cta: "Create a topic about the language you need and set it as the learning language."
+    needs_info: "capabilities.yml doesn't say which language Talk to This replies in or whether it corrects language mistakes (the help center says it replies in the topic language and corrects one error at a time); confirm and add before writing."
+
+  - id: arabic-podcast-commute
+    status: flagged
+    capability: podcasts
+    approach: diary
+    audience: Arabic-speaking commuters
+    challenge: "A Cairo commuter studies for a banking certification in Arabic on long daily journeys."
+    hook: "Ninety minutes each way, and the radio had run out of new songs."
+    features:
+      - {name: AI podcasts, helps: "Podcast episodes in the topic's language."}
+    outline:
+      challenge: "Long commutes, no time at home."
+      action: "One episode each way."
+      outcome: "Exam passed."
+    takeaway: "Turn dead time into learning time."
+    cta: "Turn your first subtopic into a podcast for tomorrow's commute."
+    needs_info: "capabilities.yml says voices are optimised for English and other languages may carry an accent; the help center says Arabic uses Arabic voices. Confirm Arabic voice support before promising it."
+
+  - id: accessibility-screen-reader
+    status: flagged
+    capability: listen
+    approach: before and after
+    audience: Learners with visual impairments
+    challenge: "A learner who uses a screen reader studies independently."
+    hook: "To be written."
+    features:
+      - {name: Listen, helps: "Reads explanations aloud."}
+    outline:
+      challenge: "To be written."
+      action: "To be written."
+      outcome: "To be written."
+    takeaway: "To be written."
+    cta: "To be written."
+    needs_info: "Needs verified accessibility facts (screen-reader support, keyboard navigation, any conformance standard). The help center only says it follows web accessibility best practices; don't write until confirmed."
+
+  - id: class-dashboard-teacher
+    status: flagged
+    capability: supervision
+    approach: n/a
+    audience: Teachers with large classes
+    challenge: "A teacher wants to see a whole class's results on one screen."
+    hook: "To be written."
+    features:
+      - {name: Supervision, helps: "Per-student email reports exist; a class-wide dashboard is not in capabilities.yml."}
+    outline:
+      challenge: "To be written."
+      action: "To be written."
+      outcome: "To be written."
+    takeaway: "To be written."
+    cta: "To be written."
+    needs_info: "Only write if a class-wide view is added to capabilities.yml; otherwise use clara-teacher-class style per-student reports."

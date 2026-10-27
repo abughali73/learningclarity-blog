@@ -150,6 +150,7 @@ defaults:
 
 exclude:
   - AGENT.md
+  - STORY_GUIDE.md
   - README.md
   - Gemfile
   - Gemfile.lock
