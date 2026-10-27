@@ -7,7 +7,7 @@ lang: fr
 ref: meet-your-step-by-step-ai-tutor
 capability: explain-mode
 image: /assets/img/posts/meet-your-step-by-step-ai-tutor-cinematic.webp
-keywords: ["tuteur IA", "explications pas à pas", "application de révision IA", "apprendre à son rythme", "comprendre une notion difficile"]
+keywords: ["tuteur IA", "explications pas à pas", "plateforme d'étude IA", "apprendre à son rythme", "comprendre une notion difficile"]
 tags: [LearningClarity, LearningClarityAI, ExplainMode, TuteurIA, IntelligenceArtificielle, ConseilsEtudes, ApprentissageEnLigne, EducationNumerique, Etudiants, Apprendre, EdTech, AIinEducation, LifelongLearning]
 ad:
   color: purple

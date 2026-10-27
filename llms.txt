@@ -6,7 +6,7 @@ permalink: /llms.txt
 {%- assign a = site.data.authors[site.default_author] -%}
 # LearningClarity Blog
 
-> The official blog of LearningClarity (https://www.learningclarity.ai), an AI study app for the web, iPhone and Android that turns your own notes, PDFs and documents, or any topic you describe, into step-by-step lessons, quizzes, timed exams and podcasts. Posts are published in English, Arabic, Spanish, French and German.
+> The official blog of LearningClarity (https://www.learningclarity.ai), an AI-powered study platform for the web, iPhone and Android that turns your own notes, PDFs and documents, or any topic you describe, into step-by-step lessons, quizzes, timed exams and podcasts. Posts are published in English, Arabic, Spanish, French and German.
 
 - Author: {{ a.name }} ({{ a.credentials }}), {{ a.job_title }}. Profile: {{ a.url | absolute_url }}
 - Publisher: LearningClarity, a product of {{ site.organization.parent }}.

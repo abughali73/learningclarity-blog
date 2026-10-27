@@ -61,7 +61,7 @@ It's exam week, and your course lives in a folder: a stack of lecture slides sav
 
 ## Why study from your own course material?
 
-General study apps teach a subject in general. Your exam, though, tests *your* course: the definitions your lecturer used, the cases in your reader, the procedures in your company's handbook. When you learn from your own material, you study exactly what your course or employer requires, and nothing you'll never be asked about.
+General study platforms teach a subject in general. Your exam, though, tests *your* course: the definitions your lecturer used, the cases in your reader, the procedures in your company's handbook. When you learn from your own material, you study exactly what your course or employer requires, and nothing you'll never be asked about.
 
 That matters for more than students. A new employee can upload an onboarding guide. A training team can start from the manual they already wrote. A parent can upload a worksheet or a set of class notes a child brought home.
 
