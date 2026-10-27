@@ -56,8 +56,8 @@
   try { data = JSON.parse(document.getElementById("search-index").textContent); } catch (e) { return; }
   // Lower-case, drop accents and Arabic diacritics, and unify Arabic letter variants, so "examen" finds "Examen" and "أمتحان" finds "امتحان".
   function norm(s) {
-    return (s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "")
-      .replace(/[ً-ْٰـ]/g, "").replace(/[أإآٱ]/g, "ا").replace(/ى/g, "ي").replace(/ة/g, "ه")
+    return (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+      .replace(/[\u064B-\u065F\u0670\u0640]/g, "").replace(/[\u0623\u0625\u0622\u0671]/g, "\u0627").replace(/\u0649/g, "\u064A").replace(/\u0629/g, "\u0647")
       .replace(/ß/g, "ss");
   }
   var fields = data.map(function (p) { return { t: norm(p.t), d: norm(p.d), k: norm(p.k), e: norm(p.e), b: norm(p.b) }; });
