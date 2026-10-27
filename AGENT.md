@@ -14,7 +14,7 @@ Every post is published in **five languages**: English (`en`), Arabic (`ar`), Sp
    - If the capability is `talk-to-this`, say that it is currently on the web app with mobile planned, and set `ad.footnote` to say the same.
 4. **Write the Arabic post** at `_posts/ar/` with the same file name. Write it in natural Modern Standard Arabic; don't translate word for word. Keep the product name "LearningClarity" and the feature names in English the first time they appear, with an Arabic explanation (for example "وضع الشرح (Explain Mode)"). Use the same Arabic feature names as earlier Arabic posts (for example وضع الاختبار القصير (Quiz Mode), وضع الامتحان (Exam Mode)). Use Western digits.
 4b. **Write the Spanish, French and German posts** at `_posts/es/`, `_posts/fr/` and `_posts/de/`, again with the same file name. Write each one natively for readers in Spain and Latin America, France, Belgium and Switzerland, and Germany, Austria and Switzerland; don't translate word for word. Keep "LearningClarity" and the feature names in English the first time they appear, followed by a short explanation in brackets (for example "Explain Mode (modo explicación)", "Explain Mode (mode explication)", "Explain Mode (Erklärmodus)"). Use the polite form in German (Sie) and French (vous), and "tú" in Spanish. Use correct typography: French puts a space before `:`, `?` and `!` and uses « guillemets »; German uses „Anführungszeichen“. Every claim must still come from `_data/capabilities.yml`.
-5. **Front matter.** All five files use the same `ref` (the slug), `capability`, `ad.color`, `ad.items[].icon` and `hero_image` `src` and `prompt`. Use the `ad` block shape exactly as below. Write all text in that post's own language. Use exactly 4 `items`, each with 2 short `bullets` of under 60 characters. Choose `color` from blue, purple, pink or orange, and use a different one from the last post. Choose each `icon` from: upload, pencil, hierarchy, route, bulb, diagram, question, check, headphones, mic, people, bell, clipboard, chat, clock, award, globe, translate, swap, mail, user-plus, chart, gift, list, dollar, share, flame, star, device, layers, target.
+5. **Front matter.** All five files use the same `ref` (the slug), `capability`, `ad.color`, `ad.items[].icon`, `hero_image` `src` and `prompt`, and `scenes` `src` and `prompt`. Use the `ad` block shape exactly as below. Write all text in that post's own language. Use exactly 4 `items`, each with 2 short `bullets` of under 60 characters. Choose `color` from blue, purple, pink or orange, and use a different one from the last post. Choose each `icon` from: upload, pencil, hierarchy, route, bulb, diagram, question, check, headphones, mic, people, bell, clipboard, chat, clock, award, globe, translate, swap, mail, user-plus, chart, gift, list, dollar, share, flame, star, device, layers, target.
 
 ```yaml
 ---
@@ -37,19 +37,28 @@ ad:
       title: "Simplify or go deeper"
       bullets: ["First bullet", "Second bullet"]
   footnote: ""                   # optional
-hero_image:                      # optional AI illustration, generated after you push (see step 5b)
-  src: /assets/img/posts/<slug>-hero.png    # same src in both language files
+hero_image:                      # required AI illustration, generated after you push (see step 5b)
+  src: /assets/img/posts/<slug>-hero.png    # same src in all five language files
   alt: "Describe the picture in this post's language"
   prompt: "In English: what to draw. A scene, not a diagram. No text, logos or real people."
+scenes:                          # required: 4 to 7 in-post scene images, generated after you push (see step 5b)
+  - src: /assets/img/posts/<slug>-scene-1.png  # same src and prompt in all five language files
+    alt: "Describe the picture in this post's language"
+    caption: "A short caption in this post's language"
+    prompt: "In English: one story moment, staged like a film shot. No text, logos or real people."
 faq:                             # 2 or 3 short questions a reader would search for
   - q: "A question in this post's language?"
     a: "A 1 to 3 sentence answer that uses only facts from capabilities.yml."
 ---
 ```
 
-   The author (Dr. Maher Abu Ghali) is set automatically for every post; do not add an `author:` field. Do not add an `image:` field by hand; step 7 sets it.
+   The author (Dr. Maher Abu Ghali) is set automatically for every post; do not add an `author:` field. Set the `image:` field as described in step 7.
 
-5b. **AI illustration (optional, recommended).** Add the `hero_image` block above. Use the same `src` and `prompt` in all five language files, so one image serves every language. Write `alt` in each post's own language. You cannot call the image API from your sandbox. After you push, a GitHub Actions workflow (`.github/workflows/generate-images.yml`) generates the picture with OpenAI and commits it. The post shows the picture once the file exists. Keep prompts generic and safe: no text in the image, no logos, no real or recognisable people, nothing that looks like a screenshot of the product.
+5b. **Images (required): cinematic, and plenty of them.** Every post is visual. It has one `hero_image` (shown at the top, and used as the preview image) and 4 to 7 `scenes` (shown inside the post). All of them are generated with OpenAI's image model (the model behind ChatGPT image generation) in a cinematic film-still style. You cannot call the image API from your sandbox, and you must never draw, render or commit images yourself. After you push, a GitHub Actions workflow (`.github/workflows/generate-images.yml`) generates every missing picture and commits it; each picture appears once its file exists.
+   - Use the same `src` and `prompt` for each image in all five language files, so one image serves every language. Write `alt` and `caption` in each post's own language. Name scene files `<slug>-scene-1.png`, `<slug>-scene-2.png` and so on.
+   - Place each scene in the body with `{% include scene.html n=1 %}` (n is its position in `scenes:`), on its own line, usually right after a `##` heading or between paragraphs, so a picture appears every few paragraphs. Put the includes at the same places in all five languages.
+   - Write every `prompt` in English as a shot description for a film: who (a fictional person, age, clothing), the exact moment and action, the place, the time of day and the light (for example golden hour through a window, a cool blue train interior at dawn), the mood, and the framing (wide, mid-shot, close-up, over-the-shoulder, eye level or low angle). Vary the framing and light across the scenes, keep the same character consistent (repeat their description in every prompt) and make each scene a different moment. The workflow adds the cinematic house style, so don't describe the art style.
+   - Keep prompts safe: no text in the image, no readable screens, no logos, no real or recognisable people, nothing that looks like a screenshot of the product.
 
 6. **SEO and hashtags.** Apply these to all five languages. Research the primary phrase separately for each language (what a Spanish, French or German learner would actually type), rather than translating the English one.
    - **Keyword:** pick one primary search phrase a learner would type, such as "AI study tutor", "how to revise for exams", or "تطبيق تعليمي بالذكاء الاصطناعي" for Arabic. Add 3 to 5 related phrases. Put them in `keywords:`, primary first, written in that post's language.
@@ -70,7 +79,7 @@ faq:                             # 2 or 3 short questions a reader would search 
      Spanish, French and German posts mix hashtags in that language (written without accents where that is the common usage, for example AprendizajeOnline, ApprentissageEnLigne; German keeps umlauts, for example KünstlicheIntelligenz) with the 2 brand hashtags and 2 or 3 English ones (EdTech, AIinEducation, LifelongLearning).
 
      Arabic posts mix Arabic hashtags (use `_` between words, for example تعلم_ذاتي, الذكاء_الاصطناعي, نصائح_دراسية, التعليم_الإلكتروني) with the 2 brand hashtags and 2 or 3 English ones. Use only real, commonly used hashtags. Never repeat a hashtag within one post.
-7. **Preview images.** Run `python3 tools/render_previews.py _posts/en/<file> _posts/ar/<file> _posts/es/<file> _posts/fr/<file> _posts/de/<file>`. It renders each post's infographic to `assets/img/posts/<lang>-<slug>.png` (the preview image for search results and social shares) and sets `image:` in the front matter. Open the Arabic PNG and one of the others to check they rendered correctly.
+7. **Preview image.** Set `image:` in the front matter of all five files to the `hero_image.src`, so search results and social shares use the illustration. Do not run `tools/render_previews.py` and do not create infographic PNGs; that script is retired.
 8. **Check before publishing.** The YAML must parse (quote strings that contain a colon or a quote). All five files must exist with the same `ref`. Each must have `keywords` and 10 to 15 `tags` with no `#` and no spaces, and each `faq` item must have `q` and `a`. The date must not be in the future. If a local Jekyll build is available, run `bundle exec jekyll build` or `jekyll build`; otherwise parse the front matter with Python's `yaml` module.
-9. **Publish.** Commit the five post files and their five preview PNGs to `main` with the message `post: <slug>`, then push. Never edit the layouts, includes, CSS, `_config.yml`, `_data/`, `CNAME`, `tools/`, `.github/` or this file during a scheduled run.
+9. **Publish.** Commit the five post files (and nothing in `assets/img/`) to `main` with the message `post: <slug>`, then push. Never edit the layouts, includes, CSS, `_config.yml`, `_data/`, `CNAME`, `tools/`, `.github/` or this file during a scheduled run.
 10. **Report.** End with the post title and the five live URLs: `https://blog.learningclarity.ai/<code>/YYYY/MM/<slug>/` for `en`, `ar`, `es`, `fr` and `de`. GitHub Pages takes about a minute to update.

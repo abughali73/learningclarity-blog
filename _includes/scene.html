@@ -1,0 +1,13 @@
+{%- comment -%}
+  Shows one AI scene image from the post's `scenes:` front matter, by its 1-based position:
+  {% include scene.html n=2 %}
+  Nothing is shown until the image file exists (the image workflow generates it after a push).
+{%- endcomment -%}
+{%- assign i = include.n | minus: 1 -%}
+{%- assign scene = page.scenes[i] -%}
+{%- if scene and scene.src -%}
+{%- assign scene_file = site.static_files | where: "path", scene.src | first -%}
+{%- if scene_file -%}
+<figure class="scene-image"><img src="{{ scene.src }}" alt="{{ scene.alt | escape }}" width="1536" height="1024" loading="lazy">{% if scene.caption %}<figcaption>{{ scene.caption }}</figcaption>{% endif %}</figure>
+{%- endif -%}
+{%- endif -%}

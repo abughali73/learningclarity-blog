@@ -1,75 +1,125 @@
 ---
-title: "Cursos online con certificado: la semana de Lena, paso a paso"
-description: "Acompaña a Lena del registro a un certificado verificable: cursos online con certificado, un tema, lecciones breves, cuestionarios honestos y un examen."
+title: "Cursos online con certificado: la semana en que Lena se preparó"
+description: "Lena tenía seis días para aprender gestión de proyectos. Una historia de cursos online con certificado: lecciones, un pódcast, un quiz duro y un examen real."
 date: 2026-10-27 08:11:38 +0300
+last_modified_at: 2026-10-27 10:40:00 +0300
 lang: es
 ref: online-learning-certificate-journey
 capability: certificates
-image: /assets/img/posts/es-online-learning-certificate-journey.png
+image: /assets/img/posts/online-learning-certificate-journey-story.png
 keywords: ["cursos online con certificado", "certificado verificable", "app de aprendizaje con IA", "aprender online a tu ritmo", "examen online con certificado"]
-tags: [LearningClarity, LearningClarityAI, AprendizajeOnline, CursosOnline, Certificado, Estudiantes, TecnicasDeEstudio, FormacionContinua, DesarrolloProfesional, InteligenciaArtificial, EdTech, AIinEducation, LifelongLearning]
+tags: [LearningClarity, LearningClarityAI, AprendizajeOnline, CursosOnline, Certificado, TecnicasDeEstudio, GestionDeProyectos, FormacionContinua, DesarrolloProfesional, InteligenciaArtificial, EdTech, AIinEducation, LifelongLearning]
 ad:
   color: orange
   eyebrow: "Del registro al certificado"
-  headline: "Un tema, una semana,"
+  headline: "Seis días, un tema,"
   highlight: "un certificado que cualquiera verifica"
-  subtitle: "El recorrido de Lena en LearningClarity, paso a paso."
+  subtitle: "La semana de Lena en LearningClarity, contada como historia."
   items:
     - icon: user-plus
-      title: "Regístrate gratis"
-      bullets: ["300 créditos gratis, sin tarjeta", "Google, Microsoft, Apple o correo"]
-    - icon: pencil
-      title: "Describe el tema"
-      bullets: ["Los subtemas se generan solos", "Elige en qué partes centrarte"]
+      title: "Regístrate y descríbelo"
+      bullets: ["300 créditos gratis, sin tarjeta", "Escribe un tema y obtén sus subtemas"]
+    - icon: bulb
+      title: "Aprende a tu manera"
+      bullets: ["Explain Mode, Simplify y Visualize", "Escúchalo o conviértelo en pódcast"]
     - icon: question
-      title: "Aprende y practica"
-      bullets: ["Explain Mode, una sección cada vez", "Quiz Mode con la opción No lo sé"]
+      title: "Practica con honestidad"
+      bullets: ["Quiz Mode con la opción No lo sé", "Tutor de voz Talk to This en la web"]
     - icon: award
-      title: "Aprueba el examen"
-      bullets: ["70% o más, 30+ preguntas, todos los subtemas", "Certificado con código QR e ID"]
-  footnote: "Lena es una estudiante ficticia. Obtener y verificar certificados es gratis."
+      title: "Aprueba y demuéstralo"
+      bullets: ["70% o más en un examen de 30+ preguntas", "Certificado con código QR e ID"]
+  footnote: "Lena es una estudiante ficticia. Talk to This está en la app web; la versión móvil está prevista."
 hero_image:
-  src: /assets/img/posts/online-learning-certificate-journey-hero.png
-  alt: "Una joven en su escritorio al atardecer con un portátil, un cuaderno y un certificado con sello de cinta"
-  prompt: "Warm flat editorial illustration of a young woman at a home desk by a window at dusk, smiling at a laptop, an open notebook and a cup of tea beside her, a blank certificate with a round ribbon seal lying on the desk, a small plant, soft orange and purple palette, calm and hopeful mood. No text, no letters, no logos, no real people, not a screenshot."
+  src: /assets/img/posts/online-learning-certificate-journey-story.png
+  alt: "Lena en la mesa de su cocina con luz dorada de la tarde, celebrando en silencio con los puños en alto, con un certificado con sello junto al portátil"
+  prompt: "Lena, a fictional woman in her late twenties with shoulder-length dark brown hair, wearing a mustard-yellow knit sweater, sits at a small wooden kitchen table in her apartment on a Saturday afternoon, leaning back in her chair with both fists raised in quiet, relieved celebration, eyes closed and smiling. On the table: an open laptop seen from the side so the screen is not visible, a paper notebook with a hand-drawn sketch of boxes and arrows, wireless earbuds, a half-finished coffee, and a printed certificate with a round ribbon seal lying flat. Golden late-afternoon sunlight streams through a tall window behind her, rim-lighting her hair and throwing long warm shadows across the table, dust motes in the light, houseplants and a softly blurred city skyline outside. Mid-shot at eye level. Mood: relief and pride after a hard week."
+scenes:
+  - src: /assets/img/posts/online-learning-certificate-journey-scene-1.png
+    alt: "Lena en el tren de la tarde, con la cabeza apoyada en la ventana, pensativa"
+    caption: "Viernes por la tarde: un proyecto nuevo y seis días para prepararse."
+    prompt: "Lena, a fictional woman in her late twenties with shoulder-length dark brown hair, wearing a mustard-yellow knit sweater and a dark coat, sits by the window of a commuter train at dusk, head resting against the glass, phone face-down in her lap, worried and lost in thought. City lights streak past outside in long blurred lines, her faint reflection in the window. Cool blue train interior light against a warm orange sunset. Mid close-up, slightly off-centre, shot from the seat opposite."
+  - src: /assets/img/posts/online-learning-certificate-journey-scene-2.png
+    alt: "Lena escribiendo en su escritorio de noche, a la luz de una lámpara"
+    caption: "Domingo por la noche: una frase y el tema toma forma."
+    prompt: "Lena, a fictional woman in her late twenties with shoulder-length dark brown hair, wearing a mustard-yellow knit sweater, sits at a home desk late on a Sunday evening, typing on a laptop with quiet determination. The only light is a warm desk lamp and the soft glow of the laptop, whose screen faces away from the camera. A mug of tea, an open paper notebook and a pen beside her, a dark window behind. Over-the-shoulder side angle, shallow depth of field, intimate and focused mood."
+  - src: /assets/img/posts/online-learning-certificate-journey-scene-3.png
+    alt: "Una mano dibuja un diagrama de cajas y flechas en un cuaderno"
+    caption: "El diagrama de Visualize, copiado en su cuaderno."
+    prompt: "Close-up from above of a woman's hand, in a mustard-yellow knit sleeve, drawing a simple diagram of boxes connected by arrows in a paper notebook with a black pen, late at night. No letters or words anywhere, only shapes and arrows. A warm desk lamp pools light on the page, a laptop edge and a mug blurred at the frame edge. Very shallow depth of field, calm and satisfying mood."
+  - src: /assets/img/posts/online-learning-certificate-journey-scene-4.png
+    alt: "Lena sonríe en un tren soleado por la mañana, con un auricular puesto"
+    caption: "Miércoles por la mañana: el pódcast camino del trabajo."
+    prompt: "Lena, a fictional woman in her late twenties with shoulder-length dark brown hair, wearing a mustard-yellow knit sweater and a dark coat, stands in a morning commuter train holding a rail, one wireless earbud in, a takeaway coffee in her other hand, smiling to herself as if something just made sense. Low pale sunrise light floods through the windows, other commuters softly blurred around her. Medium shot at eye level, warm golden light, hopeful mood."
+  - src: /assets/img/posts/online-learning-certificate-journey-scene-5.png
+    alt: "Lena en el sofá de noche, hablando en voz alta frente a su portátil"
+    caption: "Jueves por la noche: explicarlo en voz alta hasta que se queda."
+    prompt: "Lena, a fictional woman in her late twenties with shoulder-length dark brown hair, wearing a mustard-yellow knit sweater, sits cross-legged on a sofa at night with a laptop on her knees, its screen facing away from the camera, speaking out loud mid-sentence and gesturing with one hand as if explaining something to a tutor. A floor lamp casts warm light, the rest of the room in deep blue shadow, a notebook open beside her. Low angle, mid-shot, energetic and focused mood."
+  - src: /assets/img/posts/online-learning-certificate-journey-scene-6.png
+    alt: "Primer plano de Lena muy concentrada en su examen"
+    caption: "Sábado: treinta preguntas, todos los subtemas."
+    prompt: "Tight close-up of Lena, a fictional woman in her late twenties with shoulder-length dark brown hair, wearing a mustard-yellow knit sweater, focused intently on a laptop screen that is out of frame, biting her lower lip, fingertips hovering over a trackpad. Soft daylight from a window on one side of her face, the other side in gentle shadow. Extremely shallow depth of field, tense, quiet, high-stakes mood."
+  - src: /assets/img/posts/online-learning-certificate-journey-scene-7.png
+    alt: "Lena presenta un diagrama en una pizarra a sus compañeros"
+    caption: "Lunes: la reunión de arranque."
+    prompt: "Wide shot of a bright, glass-walled office meeting room on a Monday morning. Lena, a fictional woman in her late twenties with shoulder-length dark brown hair, wearing a mustard-yellow knit sweater and a navy blazer, stands confidently at a whiteboard covered with a hand-drawn diagram of boxes and arrows (no words), explaining to four colleagues seated around a table who are listening and nodding. Cool morning daylight, city view behind the glass. Low angle, she is the clear focal point. Mood: confident and composed."
 faq:
   - q: "¿Cómo obtengo un certificado en LearningClarity?"
     a: "Aprueba con un 70% o más un examen que cubra todos los subtemas de un tema y tenga al menos 30 preguntas. Terminar todos los subtemas de un curso, o todos los cursos de un plan de aprendizaje, también da un certificado."
   - q: "¿Puede alguien verificar mi certificado?"
     a: "Sí. Cada certificado tiene un ID de credencial y un código QR. Cualquiera puede abrir el enlace de verificación sin cuenta y ver que es válido, por qué se otorgó, a quién y cuándo."
-  - q: "¿Tengo que pagar para empezar?"
-    a: "No. Una cuenta nueva empieza con 300 créditos gratis y no se pide tarjeta. Obtener, descargar y verificar certificados es gratis."
+  - q: "¿Puedo aprender sin leer en la pantalla todo el tiempo?"
+    a: "Sí. Listen lee en voz alta la explicación actual, y puedes convertir un tema o subtema en un episodio de pódcast con IA entre un presentador y un invitado experto."
 ---
-Lena buscaba cursos online con certificado al final, no otra carpeta llena de artículos guardados. Acababan de pedirle que liderara su primer proyecto en el trabajo, y quería entender bien lo básico y tener algo que enseñar a su responsable.
+Lena necesitaba cursos online con certificado al final, y solo tenía seis días para conseguirlo. El viernes por la tarde su jefe le pidió que liderara el nuevo proyecto de un cliente, con la reunión de arranque el lunes. Ella asintió, sonrió y pasó el viaje en tren pensando cómo disimular que nunca había gestionado un proyecto.
 
-Esta es la historia de cómo esta estudiante ficticia pasó de una pantalla en blanco a un certificado verificable en una sola semana con LearningClarity.
+{% include scene.html n=1 %}
 
-## Domingo por la noche: registrarse y describir el tema
+No quería cuarenta pestañas abiertas. Quería que le enseñaran bien y tener algo que lo demostrara. Esta es la semana de una estudiante ficticia, tarde a tarde.
 
-Lena abrió [LearningClarity, la app de aprendizaje con IA](https://www.learningclarity.ai) en su portátil y entró con su cuenta de Microsoft; también sirven Google, Apple o el correo electrónico. Su cuenta empezó con 300 créditos gratis y nadie le pidió una tarjeta.
+## Domingo: una página en blanco que se llena sola
 
-No necesitó ningún manual para empezar. Escribió lo que quería aprender: «Fundamentos de gestión de proyectos para alguien que lidera su primer proyecto: planificación, alcance, riesgos y cómo mantener informadas a las partes interesadas». LearningClarity creó el tema, le asignó una categoría y generó sus subtemas. Lena eligió en qué subtemas centrarse, sabiendo que el avance se registra en cada uno. (Aquí tienes más sobre cómo [aprender cualquier materia con solo describirla](/es/2026/10/learn-any-subject-with-ai/).)
+{% include scene.html n=2 %}
 
-## De lunes a miércoles: una sección breve cada vez
+Lena entró en [LearningClarity, la app de aprendizaje con IA](https://www.learningclarity.ai), con su cuenta de Microsoft. La cuenta empezó con 300 créditos gratis y nadie le pidió tarjeta.
 
-Cada tarde Lena abría **Explain Mode (modo explicación)**, el tutor de IA paso a paso. Le enseñaba una sección breve cada vez y ella pulsaba Siguiente cuando estaba lista. Cuando la parte sobre el alcance le pareció demasiado abstracta, tocó **Simplify (simplificar)** para leerla con palabras más sencillas. En la planificación de riesgos eligió **Explain Further (explicar más)** para ver más detalles y ejemplos, y luego hizo su propia pregunta sobre cómo priorizar riesgos.
+No tenía ningún libro que subir, así que escribió lo que le quitaba el sueño: «Gestión de proyectos para alguien que lidera su primer proyecto: planificación, alcance, riesgos y mantener informadas a las partes interesadas». Un momento después, la preocupación tenía forma: un tema con sus propios subtemas. Eligió los que más importaban para el lunes. (Aquí tienes más sobre cómo [aprender cualquier tema con solo describirlo](/es/2026/10/learn-any-subject-with-ai/).)
 
-Por el camino aparecían los **Knowledge Checks (comprobaciones de conocimiento)**: preguntas de opción múltiple con feedback y la opción de reintentar cuando fallaba. El martes siguió desde el móvil en el tren. Su biblioteca y su progreso ya estaban allí, y Resume la llevó justo adonde lo había dejado.
+## De lunes a miércoles: aprender en los huecos del día
 
-## Jueves: un cuestionario sincero
+Las tardes eran cortas, así que las lecciones también. **Explain Mode (modo explicación)** le enseñaba una sección breve cada vez, y Lena solo avanzaba cuando estaba lista. Cuando «scope creep» le sonó a jerga, **Simplify** lo dijo con palabras sencillas. Cuando quiso profundizar, **Explain Further** añadió detalles y ejemplos, y ella hizo su propia pregunta: ¿cómo decides qué riesgo te debe preocupar primero?
 
-Antes de nada formal, Lena probó **Quiz Mode (modo cuestionario)**. Eligió los subtemas y los tipos de pregunta y, cuando no estaba segura, marcó «No lo sé» en lugar de adivinar. Los resultados mostraron su puntuación, el desglose de respuestas correctas, incorrectas y «No lo sé», y su nivel de dominio.
+El lunes por la noche, las fases de un proyecto aún se le mezclaban. Pulsó **Visualize** y un diagrama claro y rotulado las puso en orden. Lo copió en su cuaderno antes de dormir.
 
-Dos preguntas sobre la comunicación con las partes interesadas la pillaron desprevenida. Preguntó por qué la respuesta correcta era la correcta y volvió a ese subtema en Explain Mode para repasarlo una vez más.
+{% include scene.html n=3 %}
 
-## Sábado: cursos online con certificado que demuestran lo aprendido
+El martes estaba demasiado cansada para leer, así que **Listen** le leyó la sección en voz alta mientras cocinaba. Antes de acostarse convirtió el subtema de partes interesadas en un **pódcast con IA**, una conversación a dos voces entre un presentador y un invitado experto. Se generó en segundo plano y una notificación de «tarea de IA completada» le avisó de que estaba listo para el tren de la mañana.
 
-Ya estaba lista para **Exam Mode (modo examen)**. Fijó como alcance el tema completo para cubrir todos los subtemas, eligió dificultad media, lo dejó sin tiempo límite y pidió 30 preguntas. Eso importaba: para el certificado hace falta un 70% o más en un examen de al menos 30 preguntas que cubra todos los subtemas.
+{% include scene.html n=4 %}
 
-Sus resultados llegaron con la revisión completa de las preguntas y un resumen de rendimiento hecho con IA, con sus puntos fuertes y lo que convenía repasar. Su nota superó el 70% y apareció el botón **View Certificate (ver certificado)**.
+Los Knowledge Checks (preguntas de comprobación) la mantuvieron honesta por el camino y, cuando fallaba una, **Retry** le daba otra oportunidad. En el móvil o en el portátil, **Resume** la devolvía justo donde lo había dejado.
 
-El certificado muestra su nombre, el tema, la fecha de emisión y su resultado, junto con un ID de credencial y un código QR. Lena lo descargó en PDF y envió el enlace de verificación a su responsable, que lo abrió sin iniciar sesión y vio que era válido, por qué se otorgó, a quién y cuándo. Obtener y verificar certificados no cuesta nada.
+## Jueves: el quiz que dolió
 
-El lunes, Lena llegó a la reunión de arranque dominando el tema y con la prueba ya en el correo de su responsable.
+Lena se sentía preparada. Quería saber si lo estaba. En **Quiz Mode (modo cuestionario)** eligió los subtemas y los tipos de pregunta y, cuando dudaba, pulsaba «No lo sé» en lugar de adivinar.
 
-Tu semana puede empezar igual: describe el primer tema que quieres aprender y descubre adónde te lleva.
+Dos preguntas sobre comunicación con las partes interesadas la pillaron, y dolió. Luego preguntó por qué las respuestas correctas eran correctas, abrió el portátil y lo habló con **Talk to This**, un tutor de voz en directo (por ahora en la app web, con la versión móvil prevista). Decir la respuesta en voz alta fue lo que hizo que se le quedara.
+
+{% include scene.html n=5 %}
+
+## Sábado: el examen, y cursos online con certificado de verdad
+
+{% include scene.html n=6 %}
+
+**Exam Mode (modo examen)** se sentía formal, y de eso se trataba. Lena eligió todo el tema como alcance para cubrir cada subtema, dificultad media, sin límite de tiempo y 30 preguntas. Un certificado exige un 70% o más en un examen de al menos 30 preguntas que cubra todos los subtemas.
+
+Tenía las manos frías sobre el trackpad. Luego, los resultados: revisión completa de las preguntas, un resumen con IA de sus puntos fuertes y de lo que debía repasar, y una nota por encima del límite. Apareció el botón **View Certificate**.
+
+El certificado mostraba su nombre, el tema, la fecha y su resultado, con un ID de credencial y un código QR. Lo descargó en PDF y envió el enlace de verificación a su jefe, que lo abrió sin iniciar sesión y vio que era válido, por qué se otorgó, a quién y cuándo. Obtenerlo y verificarlo no le costó nada. Siete días seguidos de aprendizaje le dieron, sin buscarlo, el logro **7-Day Streak** (racha de 7 días).
+
+## Lunes: la reunión de arranque
+
+{% include scene.html n=7 %}
+
+Lena entró con un diagrama en el cuaderno, un pódcast en la cabeza y un certificado ya en el correo de su jefe. Cuando el cliente le preguntó cómo gestionaría los riesgos, no improvisó. Respondió.
+
+Tu semana puede empezar igual: describe lo único que necesitas aprender y mira adónde te lleva.

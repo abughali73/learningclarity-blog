@@ -184,3 +184,6 @@ a:hover { color: var(--blue); }
 .translations ul { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
 .translations a { display: inline-block; padding: 4px 12px; border-radius: 999px; border: 1px solid var(--line); background: #fff; text-decoration: none; font-weight: 600; }
 .translations a:hover { border-color: var(--blue-line); background: var(--blue-tint); }
+.scene-image { margin: 28px 0; }
+.scene-image img { display: block; width: 100%; height: auto; border-radius: 18px; border: 1px solid var(--line); }
+.scene-image figcaption { margin-top: 8px; font-size: 14px; color: var(--muted); text-align: center; }

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate AI illustrations for posts with the OpenAI Images API.
+"""Generate AI images (the hero image and the in-post `scenes:`) for posts with the OpenAI Images API.
 
 Runs in GitHub Actions (.github/workflows/generate-images.yml), never in the blog agent's sandbox.
 A post asks for an illustration with this front matter:
@@ -17,7 +17,7 @@ Environment:
   OPENAI_API_KEY      (repository secret, required)
   OPENAI_IMAGE_MODEL  (repository variable, optional: the exact model ID, default gpt-image-2.5-flare)
   OPENAI_IMAGE_SIZE   (optional, default 1536x1024)
-  OPENAI_IMAGE_QUALITY (optional, e.g. medium; omitted when empty)
+  OPENAI_IMAGE_QUALITY (optional, default high)
 """
 import base64
 import json
@@ -31,9 +31,13 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_MODEL = "gpt-image-2.5-flare"
-STYLE = ("Clean, friendly flat illustration for an education technology blog. Soft blue, purple and pink "
-         "palette on a light background, simple shapes, plenty of white space. Absolutely no text, letters, "
-         "numbers, logos, watermarks or brand marks, and no real or recognisable people.")
+STYLE = ("Cinematic film still, as if from a high-end feature film: photorealistic, shot on a full-frame cinema "
+         "camera with a 35mm or 50mm prime lens, shallow depth of field with soft bokeh, motivated natural light "
+         "with deliberate contrast and gentle haze, rich but natural colour grading with warm highlights and teal "
+         "shadows, subtle film grain, thoughtful composition with a clear focal point and real depth. Believable "
+         "fictional people with natural, expressive faces and hands. Not a stock photo, not an illustration, not "
+         "cartoonish, no oversaturation. Absolutely no text, letters, numbers, logos, watermarks or brand marks, "
+         "no readable screens or app interfaces, and no real or recognisable people.")
 
 
 def front_matter(path):
@@ -60,13 +64,14 @@ def main():
     key = os.environ.get("OPENAI_API_KEY", "").strip()
     model = os.environ.get("OPENAI_IMAGE_MODEL", "").strip() or DEFAULT_MODEL
     size = os.environ.get("OPENAI_IMAGE_SIZE", "").strip() or "1536x1024"
-    quality = os.environ.get("OPENAI_IMAGE_QUALITY", "").strip()
+    quality = os.environ.get("OPENAI_IMAGE_QUALITY", "").strip() or "high"
     todo = {}
     for path in sorted((ROOT / "_posts").glob("*/*.md")):
-        hero = front_matter(path).get("hero_image") or {}
-        src, prompt = hero.get("src"), hero.get("prompt")
-        if src and prompt and src not in todo and not (ROOT / src.lstrip("/")).exists():
-            todo[src] = (path, prompt)
+        fm = front_matter(path)
+        for item in [fm.get("hero_image") or {}] + list(fm.get("scenes") or []):
+            src, prompt = item.get("src"), item.get("prompt")
+            if src and prompt and src not in todo and not (ROOT / src.lstrip("/")).exists():
+                todo[src] = (path, prompt)
     if not todo:
         print("No images to generate.")
         return 0
