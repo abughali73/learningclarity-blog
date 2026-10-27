@@ -1,0 +1,22 @@
+{%- comment -%}
+  One post in the picture-left list used on the home and search pages:
+  {% include post-card.html post=post i=forloop.index0 %}   (i = position, used by the search script)
+  The first two cards load their picture right away; the rest load as the reader scrolls.
+{%- endcomment -%}
+{%- assign p = include.post -%}
+{%- assign ct = site.data.i18n[p.lang] -%}
+{%- if include.i < 2 -%}{%- assign img_loading = "eager" -%}{%- else -%}{%- assign img_loading = "lazy" -%}{%- endif -%}
+<li class="search-card" data-i="{{ include.i }}">
+  <a href="{{ p.url }}">
+    {%- if p.image and p.image != "/assets/img/og-default.png" -%}
+    {%- assign thumb = site.static_files | where: "path", p.image | first -%}
+    {%- if thumb %}{% if p.image contains ".webp" %}<img src="{{ p.image | replace: ".webp", "-640.webp" }}" alt="" width="640" height="427" loading="{{ img_loading }}" decoding="async">{% else %}<img src="{{ p.image }}" alt="" width="1536" height="1024" loading="{{ img_loading }}">{% endif %}{% endif -%}
+    {%- endif %}
+    <div class="search-card-text">
+      {% if p.ad.eyebrow %}<span class="ad-eyebrow ad-eyebrow-{{ p.ad.color | default: 'blue' }}">{{ p.ad.eyebrow }}</span>{% endif %}
+      <h2>{{ p.title }}</h2>
+      <p>{{ p.description }}</p>
+      <span class="card-foot"><time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: ct.date_format }}</time><span class="more">{{ ct.read_more }} →</span></span>
+    </div>
+  </a>
+</li>

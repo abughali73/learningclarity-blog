@@ -22,20 +22,7 @@
 </section>
 <ul class="search-results" id="search-results">
   {%- for post in posts -%}
-  <li class="search-card" data-i="{{ forloop.index0 }}">
-    <a href="{{ post.url }}">
-      {%- if post.image and post.image != "/assets/img/og-default.png" -%}
-      {%- assign thumb = site.static_files | where: "path", post.image | first -%}
-      {%- if thumb %}{% if post.image contains ".webp" %}<img src="{{ post.image | replace: ".webp", "-640.webp" }}" alt="" width="640" height="427" loading="lazy" decoding="async">{% else %}<img src="{{ post.image }}" alt="" width="1536" height="1024" loading="lazy">{% endif %}{% endif -%}
-      {%- endif %}
-      <div class="search-card-text">
-        {% if post.ad.eyebrow %}<span class="ad-eyebrow ad-eyebrow-{{ post.ad.color | default: 'blue' }}">{{ post.ad.eyebrow }}</span>{% endif %}
-        <h2>{{ post.title }}</h2>
-        <p>{{ post.description }}</p>
-        <span class="card-foot"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: t.date_format }}</time><span class="more">{{ t.read_more }} →</span></span>
-      </div>
-    </a>
-  </li>
+  {% include post-card.html post=post i=forloop.index0 %}
   {%- endfor -%}
 </ul>
 {% include ad-slot.html name="list" lang=include.lang %}
