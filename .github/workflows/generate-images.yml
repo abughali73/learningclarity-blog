@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths: ["_posts/**"]
   workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"   # hourly safety net: generates any image that is still missing
 
 permissions:
   contents: write
@@ -19,6 +21,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -38,7 +42,13 @@ jobs:
           git add assets/img/posts
           if git diff --cached --quiet; then echo "Nothing new."; exit 0; fi
           git -c user.name="LearningClarity Image Bot" -c user.email="actions@users.noreply.github.com" commit -m "images: generate post illustrations"
-          git pull --rebase origin main
-          git push origin HEAD:main
+          # Posts can be pushed while images are generating: rebase onto the latest main and retry.
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then break; fi
+            if [ "$attempt" = 5 ]; then echo "::error::Could not push the images after 5 attempts."; exit 1; fi
+            sleep $((attempt * 10))
+          done
           # Pushes made with the workflow token do not start a Pages build on their own.
           gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
