@@ -2,10 +2,11 @@
 title: "الأسئلة الشائعة عن LearningClarity: تطبيق الدراسة بالذكاء الاصطناعي"
 description: "أسئلة شائعة عن تطبيق الدراسة بالذكاء الاصطناعي LearningClarity: التكلفة، والملفات التي يمكنك رفعها، والرصيد المجاني، واللغات، والأمان، والشهادات."
 date: 2026-10-23 18:06:25 +0300
+last_modified_at: 2026-10-27 11:00:00 +0300
 lang: ar
 ref: learningclarity-ai-study-app-faq
 capability: faq
-image: /assets/img/posts/ar-learningclarity-ai-study-app-faq.png
+image: "/assets/img/posts/learningclarity-ai-study-app-faq-cinematic.png"
 keywords: ["تطبيق الدراسة بالذكاء الاصطناعي", "أسئلة شائعة عن LearningClarity", "تكلفة LearningClarity", "رفع ملفات PDF للمذاكرة", "رصيد مجاني لتطبيق تعليمي"]
 tags: [LearningClarity, LearningClarityAI, أسئلة_شائعة, الذكاء_الاصطناعي, التعليم_الإلكتروني, نصائح_دراسية, مذاكرة, التعلم_الذاتي, طلاب, تعليم, FAQ, EdTech, StudyTips]
 ad:
@@ -27,6 +28,19 @@ ad:
     - icon: award
       title: "أثبت ما تعلّمته"
       bullets: ["شهادات مجانية يمكن لأي أحد التحقق منها", "اجتز امتحانًا بنسبة 70% أو أكثر"]
+hero_image:
+  src: "/assets/img/posts/learningclarity-ai-study-app-faq-cinematic.png"
+  alt: "أميرة على الأريكة في ضوء المصباح الدافئ عند الغروب، وهاتفها في يدها، تبتسم وقد وجدت الإجابات التي تبحث عنها"
+  prompt: "Amira, a fictional woman in her early forties with curly black hair tied in a loose bun, wearing a rust-coloured cardigan over a cream blouse and thin round reading glasses, sits curled up on a sofa in her living room on a quiet weekday evening, holding a smartphone whose screen faces away from the camera, her head tilted with a curious, hopeful half-smile as if a question has just been answered. A cup of mint tea steams on a low wooden table beside a small stack of printed notes and a pencil. Warm amber light from a floor lamp mixes with the cool blue dusk coming through a large window behind her, city lights beginning to glow outside. Mid-shot at eye level, shallow depth of field. Mood: calm curiosity and the relief of finally getting clear answers."
+scenes:
+  - src: "/assets/img/posts/learningclarity-ai-study-app-faq-scene-1.png"
+    alt: "أميرة إلى طاولة المطبخ المشمسة، ترتّب كومة من الملاحظات المطبوعة وتختار ما سترفعه"
+    caption: "ملاحظاتك وملفات PDF ومستنداتك نقطة انطلاق مثالية."
+    prompt: "Amira, a fictional woman in her early forties with curly black hair tied in a loose bun, wearing a rust-coloured cardigan over a cream blouse and thin round reading glasses, stands at a kitchen table on a bright Saturday morning, spreading out a loose pile of printed lecture notes and a stapled document, one sheet lifted in her hand as she weighs which pages to study first, a smartphone lying face down next to a coffee mug. Soft white morning daylight floods in from a side window, a few houseplants on the sill, crisp shadows on the papers, no readable writing anywhere. Wide shot from a slightly low angle across the table. Mood: practical, deciding and getting organised."
+  - src: "/assets/img/posts/learningclarity-ai-study-app-faq-scene-2.png"
+    alt: "أميرة إلى مكتبها ليلًا، تميل نحو حاسوبها تحت ضوء المصباح وقد اتضحت لها الفكرة"
+    caption: "خطوة بخطوة، حتى تتضح الفكرة أخيرًا."
+    prompt: "Amira, a fictional woman in her early forties with curly black hair tied in a loose bun, wearing a rust-coloured cardigan over a cream blouse and thin round reading glasses, sits at a small home desk late in the evening, leaning towards an open laptop whose screen faces away from the camera, one hand on her chin, nodding slowly as an idea finally clicks, a pen resting on an open paper notebook beside her. The only light is a warm desk lamp and the soft glow of the laptop on her face, a dark window with faint reflections behind her. Over-the-shoulder close-up from the side, shallow depth of field. Mood: focused, quiet understanding."
 faq_heading: "أسئلة شائعة عن تطبيق الدراسة بالذكاء الاصطناعي"
 faq:
   - q: "ما هو LearningClarity؟"
@@ -60,4 +74,8 @@ faq:
 ---
 هل أنت جديد على LearningClarity، أو تريد أن تعرف إن كان يناسب طريقتك في الدراسة؟ جمعنا في هذه الصفحة أكثر الأسئلة شيوعًا عن **تطبيق الدراسة بالذكاء الاصطناعي** LearningClarity، من التكلفة إلى الملفات التي يمكنك رفعها وطريقة الحصول على الشهادات. الإجابات مأخوذة من الصفحة الرئيسية للمنصة ومن [مركز المساعدة في LearningClarity](https://www.learningclarity.ai/help/)، حيث تجد دليلًا كاملًا لكل موضوع.
 
+{% include scene.html n=1 %}
+
 وإذا أردت أن ترى ميزة واحدة عمليًا أولًا، فابدأ بـ [وضع الشرح، معلّمك الذكي خطوة بخطوة](/ar/2026/10/meet-your-step-by-step-ai-tutor/)، فمنه تبدأ معظم رحلة التعلّم في التطبيق.
+
+{% include scene.html n=2 %}

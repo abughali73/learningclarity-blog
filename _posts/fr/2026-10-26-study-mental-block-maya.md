@@ -3,10 +3,11 @@ title: 'Blocage en révisant : Simplify puis Visualize avec Maya'
 description: 'Un blocage en révisant ? Suivez Maya : Simplify puis Visualize dans LearningClarity l’aident
   à revoir une notion, la vérifier et l’expliquer avec ses mots.'
 date: 2026-10-26 12:22:12 +0300
+last_modified_at: 2026-10-27 11:00:00 +0300
 lang: fr
 ref: study-mental-block-maya
 capability: explain-mode
-image: /assets/img/posts/fr-study-mental-block-maya.png
+image: "/assets/img/posts/study-mental-block-maya-cinematic.png"
 keywords:
 - blocage en révisant
 - comprendre une notion difficile
@@ -54,6 +55,23 @@ ad:
     - Reprenez le raisonnement après le retour
     - Utilisez vos propres mots
   footnote: ''
+hero_image:
+  src: "/assets/img/posts/study-mental-block-maya-cinematic.png"
+  alt: "Maya à son bureau sous la lampe, souriant doucement quand une idée difficile devient enfin claire"
+  prompt: "Maya, a fictional university student in her early twenties with warm olive-brown skin and shoulder-length, dark brown wavy hair, wearing a light-blue chambray button-up shirt with the sleeves rolled up over a plain white T-shirt and small stud earrings, sits at a wooden desk in her student room late in the evening, leaning back slightly from a printed seminar passage and an open paper notebook, a pen in one hand, a small, quiet smile of realisation spreading across her face as an idea finally clicks. A closed laptop lid edge and a mug of tea sit at the side of the desk, no screen visible. A warm desk lamp pools amber light on the papers and her face, the window behind her deep blue with night, a houseplant softly blurred in the corner. Mid-shot at eye level, shallow depth of field. Mood: calm relief after a long struggle with one difficult idea."
+scenes:
+  - src: "/assets/img/posts/study-mental-block-maya-scene-1.png"
+    alt: "Maya à son bureau le soir, le stylo au-dessus d’une page blanche de son carnet"
+    caption: "Un passage déroutant, une question précise."
+    prompt: "Over-the-shoulder shot of Maya, a fictional university student in her early twenties with warm olive-brown skin and shoulder-length, dark brown wavy hair, wearing a light-blue chambray button-up shirt with the sleeves rolled up over a plain white T-shirt and small stud earrings, sitting at her desk at night, a printed seminar passage beside her, pen poised over a blank notebook page as she pauses to frame one precise question, brow slightly furrowed, the tip of the pen touching her lip. A single warm desk lamp lights the page, the rest of the small room in soft blue shadow. Shallow depth of field, the paper's printed lines blurred and unreadable. Quiet, thoughtful, focused mood."
+  - src: "/assets/img/posts/study-mental-block-maya-scene-2.png"
+    alt: "Maya à la terrasse d’un café, observant d’autres étudiants qui révisent avec un café ou une boisson fraîche"
+    caption: "Des choses qui arrivent ensemble : que prouvent-elles vraiment ?"
+    prompt: "Wide shot of a sunny outdoor café terrace on a university street in the early afternoon. Maya, a fictional university student in her early twenties with warm olive-brown skin and shoulder-length, dark brown wavy hair, wearing a light-blue chambray button-up shirt with the sleeves rolled up over a plain white T-shirt and small stud earrings, sits alone at a small round table with a cup of coffee and a tall iced drink, an open notebook and a laptop whose screen faces away from the camera, looking up and watching other students nearby who are studying outdoors with coffees and cold drinks, her chin resting on one hand as she quietly weighs what these things occurring together really show. Dappled sunlight through trees, warm light, students softly blurred in the background. Eye level, curious and reflective mood."
+  - src: "/assets/img/posts/study-mental-block-maya-scene-3.png"
+    alt: "Maya près de la fenêtre au crépuscule, carnet fermé, expliquant l’idée à voix haute"
+    caption: "Notes fermées : une définition, un exemple et une question encore ouverte."
+    prompt: "Low-angle mid-shot of Maya, a fictional university student in her early twenties with warm olive-brown skin and shoulder-length, dark brown wavy hair, wearing a light-blue chambray button-up shirt with the sleeves rolled up over a plain white T-shirt and small stud earrings, standing by the window of her student room at dusk, her notebook closed and held against her chest, speaking out loud mid-sentence and counting points on the fingers of her free hand as she explains the idea to herself without looking at any notes. Purple and orange twilight glows through the window behind her, a warm lamp lights the room from one side, the desk with its papers softly blurred in the background. Determined, confident mood."
 faq:
 - q: À quoi sert Simplify ?
   a: Simplify reformule la section actuelle d’Explain Mode dans des termes plus simples.
@@ -81,6 +99,8 @@ Notre court-métrage suit cette étudiante fictive autour d’une seule notion, 
 
 Maya ne demande pas d’emblée qu’on lui explique toute une matière. Elle revient à une phrase de son document de séminaire et interroge son sens. La tâche devient plus précise : identifier la relation qu’elle ne sait pas encore expliquer.
 
+{% include scene.html n=1 %}
+
 Dans **Explain Mode (mode explication)**, LearningClarity présente un sous-sujet en courtes sections et vous laisse avancer à votre rythme. Vous pouvez poser votre propre question sur une section ou demander un exemple. Plutôt que « je ne comprends pas », essayez : « Qu’affirme cette phrase, et quelle partie de cette affirmation me pose problème ? ».
 
 Notez la question avant de poursuivre. Lorsque vous reviendrez au texte source, vous aurez un point précis à vérifier, au-delà de l’impression de reconnaître les mots.
@@ -93,6 +113,8 @@ Elle choisit alors **Visualize (visualiser)**, qui génère un schéma clair et 
 
 L’exemple du café demande ce que permettent de conclure des observations sur le café, les boissons fraîches et le travail en plein air. Le fait que des choses se produisent ensemble ne prouve pas, sur cette seule base, que l’une cause l’autre. Maya formule une question plus précise : quelles preuves faudrait-il pour soutenir une conclusion plus forte ?
 
+{% include scene.html n=2 %}
+
 Essayez d’énoncer l’explication simple, puis de montrer les parties pertinentes du schéma et de les relier à la phrase d’origine. Consultez aussi notre [guide pour étudier avec des schémas légendés](/fr/2026/10/visual-learning-with-ai-diagrams/).
 
 ## 3. Mettez votre explication à l’épreuve
@@ -102,6 +124,8 @@ Un schéma qui semble clair est un nouveau point de départ, pas une raison d’
 Les **Knowledge Checks (vérifications de compréhension)** sont des questions à choix multiple pendant l’explication, avec un retour et **Retry (réessayer)**. **Quiz Mode (mode entraînement)** permet de choisir les sous-sujets et les types de questions. Dans l’histoire, Maya consigne aussi une note avec ses mots et tente d’expliquer la notion loin de l’écran.
 
 Fermez vos notes : donnez une définition, ajoutez un exemple et nommez une question encore sans réponse. Revenez à ce point plutôt que de tout relire depuis le début.
+
+{% include scene.html n=3 %}
 
 Maya termine avec une explication plus claire et une question pour le séminaire. Le film propose une démarche à essayer, sans résultat garanti. Les chaînes universitaires, les enseignants et les associations étudiantes peuvent partager la vidéo et utiliser la question finale pour ouvrir la discussion.
 

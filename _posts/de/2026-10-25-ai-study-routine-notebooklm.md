@@ -3,10 +3,11 @@ title: 'Lernen mit KI: Learning Clarity im NotebookLM-Vergleich'
 description: 'Gestalten Sie Lernen mit KI als klare Routine. Vergleichen Sie Learning Clarity und NotebookLM: Erklärungen,
   Quizze, Prüfungen und Fortschritt im Video.'
 date: 2026-10-25 00:37:50 +0300
+last_modified_at: 2026-10-27 11:00:00 +0300
 lang: de
 ref: ai-study-routine-notebooklm
 capability: progress
-image: /assets/img/posts/de-ai-study-routine-notebooklm.png
+image: "/assets/img/posts/ai-study-routine-notebooklm-cinematic.png"
 keywords:
 - Lernen mit KI
 - Learning Clarity und NotebookLM
@@ -54,6 +55,23 @@ ad:
     bullets:
     - Fortschritt verfolgen
     - Nächste Lerneinheit gezielt planen
+hero_image:
+  src: "/assets/img/posts/ai-study-routine-notebooklm-cinematic.png"
+  alt: "Amara in der Abenddämmerung am Schreibtisch, die Lampe an, Notizbuch und Lehrbuch bereit, während sie überlegt, womit sie anfängt"
+  prompt: "Amara, a fictional 21-year-old university student with short black natural hair in a small puff, round tortoiseshell glasses, small silver hoop earrings, wearing an olive-green hooded sweatshirt over a white T-shirt, sits down at a cluttered desk in a small student flat at the start of an evening study session, one hand resting on a closed textbook, the other on a paper notebook, glancing calmly at her laptop as she decides where to begin. The laptop is seen from behind so its screen is not visible; a stack of handwritten notes, a highlighter and a mug of tea sit beside her. Warm amber light from a desk lamp mixes with cool blue dusk coming through the window behind her, a few houseplants on the sill. Wide mid-shot at eye level, slightly off-centre. Mood: a quiet, focused fresh start."
+scenes:
+  - src: "/assets/img/posts/ai-study-routine-notebooklm-scene-1.png"
+    alt: "Amara zeichnet in einer sonnigen Bibliothek ein einfaches Diagramm in ihr Notizbuch"
+    caption: "Ein Begriff nach dem anderen, bis es klick macht."
+    prompt: "Amara, a fictional 21-year-old university student with short black natural hair in a small puff, round tortoiseshell glasses, small silver hoop earrings, wearing an olive-green hooded sweatshirt over a white T-shirt, leans over an open paper notebook at a library study table in the late afternoon, pen in hand, sketching a simple chain of boxes and arrows with no letters or words, a small smile as a difficult idea finally clicks. A laptop sits at the edge of the table with its screen turned away from the camera. Soft golden sunlight slants through tall library windows, rows of bookshelves softly blurred behind her. Over-the-shoulder close-up, shallow depth of field. Mood: calm concentration and a quiet moment of understanding."
+  - src: "/assets/img/posts/ai-study-routine-notebooklm-scene-2.png"
+    alt: "Amara sitzt nachts auf dem Bett und denkt über eine Übungsfrage nach"
+    caption: "Lieber ein ehrliches „Ich weiß es nicht“ als ein Glückstreffer."
+    prompt: "Amara, a fictional 21-year-old university student with short black natural hair in a small puff, round tortoiseshell glasses, small silver hoop earrings, wearing an olive-green hooded sweatshirt over a white T-shirt, sits cross-legged on her bed late at night with a laptop on her knees, its screen facing away from the camera, pausing on a practice question with her chin resting on one hand and a thoughtful, honest frown, deciding to admit she is not sure rather than guess. A paper notebook with a short handwritten list of crossed-out marks lies beside her, no readable text. Lit by the cool glow of the laptop on her face and a single warm bedside lamp, the rest of the room in deep blue shadow. Low-angle mid-shot from the foot of the bed. Mood: reflective, honest, determined."
+  - src: "/assets/img/posts/ai-study-routine-notebooklm-scene-3.png"
+    alt: "Amara geht bei Sonnenaufgang mit Kopfhörern über den Campus"
+    caption: "Dasselbe Thema, jetzt auf dem Weg zur Vorlesung."
+    prompt: "Amara, a fictional 21-year-old university student with short black natural hair in a small puff, round tortoiseshell glasses, small silver hoop earrings, wearing an olive-green hooded sweatshirt over a white T-shirt, with a canvas backpack over one shoulder, walks along a tree-lined campus path in the early morning, wireless earbuds in, listening intently to a lesson and mouthing a word to herself as she remembers it, a phone held loosely at her side with the screen not visible. Low, pale sunrise light filters through autumn leaves, long soft shadows on the path, a few blurred students in the distance. Wide tracking shot at eye level, shallow depth of field. Mood: hopeful, energised, learning on the move."
 faq:
 - q: Warum LearningClarity für eine tägliche Lernroutine wählen?
   a: LearningClarity verbindet geführte Erklärungen, gezielte Quizze, konfigurierbare Prüfungen und Fortschrittsverfolgung.
@@ -75,11 +93,15 @@ Das ist ein hilfreicher Ausgangspunkt für den Vergleich von LearningClarity mit
 
 Wählen Sie ein Thema, das Sie tatsächlich lernen müssen. Im **Explain Mode (Erklärmodus)** vermittelt LearningClarity ein Unterthema in kurzen, gezielten Abschnitten mit Wissensfragen. Sie bestimmen Ihr Tempo, anstatt eine lange Antwort nach dem Lesen als abgeschlossene Lektion zu behandeln.
 
+{% include scene.html n=1 %}
+
 Wenn ein Begriff zu dicht erklärt ist, formuliert **Simplify** ihn verständlicher. **Explain Further** ergänzt Einzelheiten und Beispiele. **Visualize** kann ein beschriftetes Diagramm zum aktuellen Konzept erzeugen. Sie können eine Frage zum Abschnitt stellen und später an der Stelle fortfahren, an der Sie aufgehört haben.
 
 Nehmen Sie etwa einen Ablauf aus einem schwierigen Kapitel, den Sie noch nicht klar erklären können. Bearbeiten Sie einen Abschnitt, bitten Sie bei Bedarf um eine einfachere Erklärung und beantworten Sie dann die Wissensfrage. So schenken Sie diesem Konzept Aufmerksamkeit, bevor Sie zum nächsten wechseln.
 
 ## Vom Wiedererkennen zum Abrufen und Überprüfen
+
+{% include scene.html n=2 %}
 
 Einen Satz wiederzuerkennen ist etwas anderes, als einen Gedanken ohne Notizen abzurufen. Im **Quiz Mode (Quizmodus)** wählen Sie Unterthemen und Fragetypen für gezieltes Üben. Nutzen Sie **I don't know („Ich weiß es nicht“)**, wenn Sie unsicher sind. Dadurch wird Unsicherheit sichtbar, statt hinter einer geratenen Antwort zu verschwinden.
 
@@ -88,6 +110,8 @@ Für eine breitere Überprüfung können Sie im **Exam Mode (Prüfungsmodus)** U
 Das nützliche Ergebnis ist eine nächste Handlung. Zeigt eine Frage eine Lücke, kehren Sie zur passenden Erklärung zurück oder üben Sie dieses Unterthema erneut. Umfasst Ihr Ziel mehrere Themen, können Sie [einen strukturierten Kurs für ein größeres Lernziel erstellen](/de/2026/10/ai-course-generator-guide/).
 
 ## Audio und Fortschritt mit dem Thema verbinden
+
+{% include scene.html n=3 %}
 
 Manche Ideen werden durch einen anderen Zugang greifbarer. **Listen** liest eine Erklärung vor, und ein Thema oder Unterthema lässt sich in einen KI-Podcast verwandeln. **Talk About This** ermöglicht ein Live-Sprachgespräch mit einem KI-Tutor in der Web-App; mobile Unterstützung ist geplant.
 

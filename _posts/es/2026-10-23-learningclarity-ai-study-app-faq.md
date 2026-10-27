@@ -2,10 +2,11 @@
 title: "App para estudiar con IA: preguntas frecuentes de LearningClarity"
 description: "Preguntas frecuentes sobre la app para estudiar con IA: precio, archivos que puedes subir, créditos gratis, idiomas, seguridad, podcasts y certificados."
 date: 2026-10-23 18:06:25 +0300
+last_modified_at: 2026-10-27 11:00:00 +0300
 lang: es
 ref: learningclarity-ai-study-app-faq
 capability: faq
-image: /assets/img/posts/es-learningclarity-ai-study-app-faq.png
+image: "/assets/img/posts/learningclarity-ai-study-app-faq-cinematic.png"
 keywords: ["app para estudiar con IA", "preguntas frecuentes LearningClarity", "cuánto cuesta LearningClarity", "subir apuntes en PDF para estudiar", "créditos gratis app de estudio"]
 tags: [LearningClarity, LearningClarityAI, PreguntasFrecuentes, AppEducativa, ConsejosDeEstudio, AprendizajeOnline, EducacionDigital, InteligenciaArtificial, Estudiantes, Docentes, Padres, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -27,6 +28,19 @@ ad:
     - icon: award
       title: "Demuestra lo que aprendiste"
       bullets: ["Certificados gratis que cualquiera verifica", "Aprueba un examen con un 70 % o más"]
+hero_image:
+  src: "/assets/img/posts/learningclarity-ai-study-app-faq-cinematic.png"
+  alt: "Amira acurrucada en el sofá a la luz cálida de una lámpara al atardecer, con el móvil en la mano, sonriendo al encontrar las respuestas que buscaba"
+  prompt: "Amira, a fictional woman in her early forties with curly black hair tied in a loose bun, wearing a rust-coloured cardigan over a cream blouse and thin round reading glasses, sits curled up on a sofa in her living room on a quiet weekday evening, holding a smartphone whose screen faces away from the camera, her head tilted with a curious, hopeful half-smile as if a question has just been answered. A cup of mint tea steams on a low wooden table beside a small stack of printed notes and a pencil. Warm amber light from a floor lamp mixes with the cool blue dusk coming through a large window behind her, city lights beginning to glow outside. Mid-shot at eye level, shallow depth of field. Mood: calm curiosity and the relief of finally getting clear answers."
+scenes:
+  - src: "/assets/img/posts/learningclarity-ai-study-app-faq-scene-1.png"
+    alt: "Amira en una mesa de cocina soleada, ordenando un montón de apuntes impresos y decidiendo qué subir"
+    caption: "Tus apuntes, PDF y documentos son un buen punto de partida."
+    prompt: "Amira, a fictional woman in her early forties with curly black hair tied in a loose bun, wearing a rust-coloured cardigan over a cream blouse and thin round reading glasses, stands at a kitchen table on a bright Saturday morning, spreading out a loose pile of printed lecture notes and a stapled document, one sheet lifted in her hand as she weighs which pages to study first, a smartphone lying face down next to a coffee mug. Soft white morning daylight floods in from a side window, a few houseplants on the sill, crisp shadows on the papers, no readable writing anywhere. Wide shot from a slightly low angle across the table. Mood: practical, deciding and getting organised."
+  - src: "/assets/img/posts/learningclarity-ai-study-app-faq-scene-2.png"
+    alt: "Amira en su escritorio por la noche, inclinada hacia el portátil bajo una lámpara cuando por fin entiende la explicación"
+    caption: "Paso a paso, hasta que la idea por fin cobra sentido."
+    prompt: "Amira, a fictional woman in her early forties with curly black hair tied in a loose bun, wearing a rust-coloured cardigan over a cream blouse and thin round reading glasses, sits at a small home desk late in the evening, leaning towards an open laptop whose screen faces away from the camera, one hand on her chin, nodding slowly as an idea finally clicks, a pen resting on an open paper notebook beside her. The only light is a warm desk lamp and the soft glow of the laptop on her face, a dark window with faint reflections behind her. Over-the-shoulder close-up from the side, shallow depth of field. Mood: focused, quiet understanding."
 faq_heading: "Preguntas frecuentes sobre la app para estudiar con IA"
 faq:
   - q: "¿Qué es LearningClarity?"
@@ -60,4 +74,8 @@ faq:
 ---
 ¿Acabas de llegar a LearningClarity o estás decidiendo si encaja con tu forma de estudiar? Estas **preguntas frecuentes sobre la app para estudiar con IA** reúnen lo que más nos pregunta la gente, desde cuánto cuesta hasta qué archivos puedes subir y cómo funcionan los certificados. Las respuestas proceden de la página principal de LearningClarity y del [centro de ayuda de LearningClarity](https://www.learningclarity.ai/help/), donde cada tema tiene una guía completa.
 
+{% include scene.html n=1 %}
+
 Si antes prefieres ver una función en acción, empieza por [Explain Mode (modo explicación), el tutor de IA paso a paso](/es/2026/10/meet-your-step-by-step-ai-tutor/), que es donde empieza la mayor parte del aprendizaje en la app.
+
+{% include scene.html n=2 %}

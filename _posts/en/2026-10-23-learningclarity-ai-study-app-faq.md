@@ -2,10 +2,11 @@
 title: "LearningClarity FAQ: your AI study app questions answered"
 description: "AI study app FAQ: what LearningClarity costs, which files you can upload, free credits, languages, data safety, podcasts and how to earn a certificate."
 date: 2026-10-23 18:06:25 +0300
+last_modified_at: 2026-10-27 11:00:00 +0300
 lang: en
 ref: learningclarity-ai-study-app-faq
 capability: faq
-image: /assets/img/posts/en-learningclarity-ai-study-app-faq.png
+image: "/assets/img/posts/learningclarity-ai-study-app-faq-cinematic.png"
 keywords: ["AI study app FAQ", "LearningClarity questions", "how much does LearningClarity cost", "upload PDF notes to study", "AI study app free credits"]
 tags: [LearningClarity, LearningClarityAI, FAQ, AIStudyApp, StudyTips, ExamPrep, OnlineLearning, EdTech, AIinEducation, Students, Teachers, Parents, LifelongLearning]
 ad:
@@ -27,6 +28,19 @@ ad:
     - icon: award
       title: "Prove what you learned"
       bullets: ["Free certificates anyone can verify", "Pass an exam with 70% or higher"]
+hero_image:
+  src: "/assets/img/posts/learningclarity-ai-study-app-faq-cinematic.png"
+  alt: "Amira curled up on her sofa in warm lamplight at dusk, phone in hand, smiling as she finds the answers she was looking for"
+  prompt: "Amira, a fictional woman in her early forties with curly black hair tied in a loose bun, wearing a rust-coloured cardigan over a cream blouse and thin round reading glasses, sits curled up on a sofa in her living room on a quiet weekday evening, holding a smartphone whose screen faces away from the camera, her head tilted with a curious, hopeful half-smile as if a question has just been answered. A cup of mint tea steams on a low wooden table beside a small stack of printed notes and a pencil. Warm amber light from a floor lamp mixes with the cool blue dusk coming through a large window behind her, city lights beginning to glow outside. Mid-shot at eye level, shallow depth of field. Mood: calm curiosity and the relief of finally getting clear answers."
+scenes:
+  - src: "/assets/img/posts/learningclarity-ai-study-app-faq-scene-1.png"
+    alt: "Amira at a sunlit kitchen table, sorting a pile of printed notes and deciding what to upload"
+    caption: "Your notes, PDFs and documents are a good place to start."
+    prompt: "Amira, a fictional woman in her early forties with curly black hair tied in a loose bun, wearing a rust-coloured cardigan over a cream blouse and thin round reading glasses, stands at a kitchen table on a bright Saturday morning, spreading out a loose pile of printed lecture notes and a stapled document, one sheet lifted in her hand as she weighs which pages to study first, a smartphone lying face down next to a coffee mug. Soft white morning daylight floods in from a side window, a few houseplants on the sill, crisp shadows on the papers, no readable writing anywhere. Wide shot from a slightly low angle across the table. Mood: practical, deciding and getting organised."
+  - src: "/assets/img/posts/learningclarity-ai-study-app-faq-scene-2.png"
+    alt: "Amira at her desk at night, leaning towards her laptop under a desk lamp as an explanation clicks"
+    caption: "Step by step, until the idea finally makes sense."
+    prompt: "Amira, a fictional woman in her early forties with curly black hair tied in a loose bun, wearing a rust-coloured cardigan over a cream blouse and thin round reading glasses, sits at a small home desk late in the evening, leaning towards an open laptop whose screen faces away from the camera, one hand on her chin, nodding slowly as an idea finally clicks, a pen resting on an open paper notebook beside her. The only light is a warm desk lamp and the soft glow of the laptop on her face, a dark window with faint reflections behind her. Over-the-shoulder close-up from the side, shallow depth of field. Mood: focused, quiet understanding."
 faq_heading: "AI study app FAQ: the questions we hear most"
 faq:
   - q: "What is LearningClarity?"
@@ -60,4 +74,8 @@ faq:
 ---
 New to LearningClarity, or deciding whether it fits the way you study? This **AI study app FAQ** collects the questions people ask most, from what it costs to which files you can upload and how certificates work. The answers come from the LearningClarity landing page and the [LearningClarity help center](https://www.learningclarity.ai/help/), where each topic has a full guide.
 
+{% include scene.html n=1 %}
+
 If you'd like to see one feature in action first, start with [Explain Mode, the step-by-step AI tutor](/en/2026/10/meet-your-step-by-step-ai-tutor/), which is where most learning in the app begins.
+
+{% include scene.html n=2 %}
