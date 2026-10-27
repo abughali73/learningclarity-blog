@@ -60,6 +60,7 @@
     - Speak or type; the tutor always replies aloud. A transcript can be kept.
     - Credits are based on conversation length; unused reserved credits are returned.
     - Available on all platforms - the web app, iPhone and Android.
+    - The tutor replies in the topic's language.
 - key: quiz-mode
   name: Quiz Mode
   facts:
@@ -110,6 +111,14 @@
     - New topics, courses and plans default to the app language; you can change the learning language before creating them.
     - Explanations, quizzes, exams, diagrams and podcasts are in the chosen learning language, always in its formal, standard form.
     - Study one topic in Arabic and another in English.
+- key: accessibility
+  name: Accessibility
+  facts:
+    - Built to follow web accessibility best practices.
+    - The app can be navigated with the keyboard.
+    - Interactive elements are labelled, and the design uses strong contrast.
+    - Listen reads explanations aloud, for studying away from the screen.
+    - Do not claim compliance with a named standard (such as WCAG) or a certification.
 - key: credits
   name: Free credits and pay-as-you-go
   facts:

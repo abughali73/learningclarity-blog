@@ -2,7 +2,7 @@
 title: "Preguntas frecuentes de la plataforma de estudio Learning Clarity"
 description: "Preguntas frecuentes de la plataforma de estudio Learning Clarity: precio, archivos, créditos gratis, idiomas, seguridad, podcasts, certificados y más."
 date: 2026-10-23 18:06:25 +0300
-last_modified_at: 2026-10-27 13:40:00 +0300
+last_modified_at: 2026-10-28 01:40:00 +0300
 lang: es
 ref: learningclarity-ai-study-app-faq
 capability: faq
@@ -132,10 +132,10 @@ faq:
     a: "Sí, como archivos MP3. El reproductor también permite ajustar la velocidad y sigue sonando mientras te mueves por la app."
   - group: "Escuchar, podcasts y conversación"
     q: "¿En qué idiomas están los podcasts?"
-    a: "Los episodios siguen el idioma del tema. Las voces están optimizadas para el inglés, así que en otros idiomas puede notarse un ligero acento; los temas en árabe usan voces árabes."
+    a: "Los episodios siguen el idioma del tema. Las voces están optimizadas para el inglés, así que en otros idiomas, incluido el árabe, puede notarse un ligero acento."
   - group: "Escuchar, podcasts y conversación"
     q: "¿Qué es Talk to This?"
-    a: "**Talk to This** (habla con este contenido) es un tutor de voz en directo para el material que estás estudiando. Hablas o escribes, el tutor siempre responde en voz alta y puedes guardar una transcripción. Funciona en todas las plataformas: la app web, iPhone y Android. [Estudiar en voz alta](https://www.learningclarity.ai/help/out-loud/)."
+    a: "**Talk to This** (habla con este contenido) es un tutor de voz en directo para el material que estás estudiando. Hablas o escribes, el tutor siempre responde en voz alta y puedes guardar una transcripción. Responde en el idioma del tema y funciona en todas las plataformas: la app web, iPhone y Android. [Estudiar en voz alta](https://www.learningclarity.ai/help/out-loud/)."
   - group: "Escuchar, podcasts y conversación"
     q: "¿Cómo se cobra Talk to This?"
     a: "Según la duración de la conversación. Los créditos se reservan al empezar una llamada y los créditos reservados que no se usan se devuelven al terminar, así que solo pagas el tiempo que usas."
@@ -210,7 +210,7 @@ faq:
     a: "Sí. El idioma de la app, el idioma de aprendizaje de cada tema y el idioma de tus archivos son independientes. Por ejemplo, puedes subir diapositivas en inglés y estudiarlas en alemán eligiendo el alemán al crear el tema. [Estudiar en varios idiomas](https://www.learningclarity.ai/help/cross-language/)."
   - group: "Idiomas, dispositivos y accesibilidad"
     q: "¿Funciona bien en árabe?"
-    a: "Sí. Toda la interfaz se invierte para leerse de derecha a izquierda, las explicaciones usan árabe estándar moderno, y Listen (escuchar) y los podcasts usan voces árabes."
+    a: "Sí. Toda la interfaz se invierte para leerse de derecha a izquierda, las explicaciones usan árabe estándar moderno, y los podcasts también se generan en árabe (las voces están optimizadas para el inglés, así que puede notarse un ligero acento)."
   - group: "Idiomas, dispositivos y accesibilidad"
     q: "¿Puedo usar LearningClarity para aprender un idioma extranjero?"
     a: "Puedes crear un tema sobre un idioma y fijar ese idioma como idioma de aprendizaje, y el tutor de voz hablará contigo en él y te corregirá los errores importantes de uno en uno. No es un curso de idiomas completo con niveles ni puntuación de la pronunciación. [Aprender un idioma](https://www.learningclarity.ai/help/languages/)."
@@ -220,6 +220,9 @@ faq:
   - group: "Idiomas, dispositivos y accesibilidad"
     q: "¿Es LearningClarity adecuado para niños?"
     a: "Sí. Las explicaciones, los ejemplos y las preguntas se adaptan a la edad de quien aprende, y madres, padres, docentes o mentores pueden seguir su progreso mediante la supervisión, que solo empieza cuando ambas partes están de acuerdo."
+  - group: "Idiomas, dispositivos y accesibilidad"
+    q: "¿Es LearningClarity accesible?"
+    a: "Está diseñada siguiendo las buenas prácticas de accesibilidad web. Puedes moverte por la app con el teclado, los elementos interactivos están etiquetados y el diseño usa un contraste alto. Además, **Listen** (escuchar) puede leer las explicaciones en voz alta cuando prefieras no leer en pantalla."
   - group: "Familias, docentes y supervisión"
     q: "¿Cómo funciona la supervisión?"
     a: "La supervisión puede empezar desde cualquiera de los dos lados: una madre, un padre, un docente o un mentor envía una solicitud al correo de la cuenta de quien aprende, o quien aprende le invita por correo. No se comparte nada hasta que la otra persona acepta. A partir de entonces, los supervisores reciben informes de progreso programados por correo electrónico. [Supervisión y herramientas para familias](https://www.learningclarity.ai/help/supervision/)."

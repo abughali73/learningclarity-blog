@@ -64,6 +64,9 @@ competent, never hopeless. Emotional arc: pressure and self-doubt, then focus, a
 - **Certificates:** named after the topic (never "official" or a made-up title); not accredited; anyone can verify
   them without an account. A certificate needs an exam with 70% or more, at least 30 questions, covering every subtopic.
 - **Talk to This sessions are short.** Describe several short calls, not an hour-long session.
+- **Teachers see students one by one.** There is no class-wide dashboard: a teacher follows each student through
+  Supervision email reports. Talk to This replies in the topic's language. Podcast voices are optimised for English,
+  so other languages, Arabic included, may carry a slight accent.
 - **Avoid sensitive territory.** No medical, legal or financial advice presented as fact, no real people or brands,
   no claims that the product replaces a teacher, doctor or official training.
 

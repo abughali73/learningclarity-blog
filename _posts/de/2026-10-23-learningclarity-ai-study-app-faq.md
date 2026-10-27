@@ -2,7 +2,7 @@
 title: "FAQ zur Lernplattform Learning Clarity: Ihre Fragen beantwortet"
 description: "FAQ zur Lernplattform Learning Clarity: Kosten, Datei-Uploads, Gratis-Credits, Sprachen, Datenschutz, Podcasts, Zertifikate und über 60 weitere Antworten."
 date: 2026-10-23 18:06:25 +0300
-last_modified_at: 2026-10-27 13:40:00 +0300
+last_modified_at: 2026-10-28 01:40:00 +0300
 lang: de
 ref: learningclarity-ai-study-app-faq
 capability: faq
@@ -132,10 +132,10 @@ faq:
     a: "Ja, als MP3-Dateien. Der Player bietet außerdem eine Geschwindigkeitsregelung und spielt weiter, während Sie sich in der App bewegen."
   - group: "Anhören, Podcasts und Sprechen"
     q: "In welchen Sprachen sind die Podcasts?"
-    a: "Die Folgen richten sich nach der Sprache des Themas. Die Stimmen sind für Englisch optimiert, in anderen Sprachen kann daher ein leichter Akzent zu hören sein; arabische Themen nutzen arabische Stimmen."
+    a: "Die Folgen richten sich nach der Sprache des Themas. Die Stimmen sind für Englisch optimiert, in anderen Sprachen, auch auf Arabisch, kann daher ein leichter Akzent zu hören sein."
   - group: "Anhören, Podcasts und Sprechen"
     q: "Was ist Talk to This?"
-    a: "**Talk to This** ist ein Live-Sprach-Tutor für das Material, mit dem Sie gerade lernen. Sie sprechen oder tippen, der Tutor antwortet immer laut, und Sie können ein Transkript behalten. Die Funktion gibt es auf allen Plattformen: in der Web-App, auf dem iPhone und unter Android. [Laut lernen](https://www.learningclarity.ai/help/out-loud/)."
+    a: "**Talk to This** ist ein Live-Sprach-Tutor für das Material, mit dem Sie gerade lernen. Sie sprechen oder tippen, der Tutor antwortet immer laut, und Sie können ein Transkript behalten. Er antwortet in der Sprache des Themas, und die Funktion gibt es auf allen Plattformen: in der Web-App, auf dem iPhone und unter Android. [Laut lernen](https://www.learningclarity.ai/help/out-loud/)."
   - group: "Anhören, Podcasts und Sprechen"
     q: "Wie wird Talk to This abgerechnet?"
     a: "Nach der Länge des Gesprächs. Beim Start eines Gesprächs werden Credits reserviert, und nicht genutzte reservierte Credits werden am Ende zurückgebucht. Sie zahlen also nur für die Zeit, die Sie tatsächlich nutzen."
@@ -210,7 +210,7 @@ faq:
     a: "Ja. Die Sprache der App, die Lernsprache jedes Themas und die Sprache Ihrer Dateien sind unabhängig voneinander. Laden Sie zum Beispiel englische Folien hoch und lernen Sie auf Deutsch, indem Sie beim Erstellen des Themas Deutsch wählen. [Sprachübergreifend lernen](https://www.learningclarity.ai/help/cross-language/)."
   - group: "Sprachen, Geräte und Barrierefreiheit"
     q: "Wird Arabisch richtig unterstützt?"
-    a: "Ja. Das gesamte Layout wird von rechts nach links gespiegelt, Erklärungen sind in modernem Hocharabisch, und Listen (Vorlesen) sowie Podcasts nutzen arabische Stimmen."
+    a: "Ja. Das gesamte Layout wird von rechts nach links gespiegelt, Erklärungen sind in modernem Hocharabisch, und auch Podcasts entstehen auf Arabisch (die Stimmen sind für Englisch optimiert, daher ist ein leichter Akzent möglich)."
   - group: "Sprachen, Geräte und Barrierefreiheit"
     q: "Kann ich mit LearningClarity eine Fremdsprache lernen?"
     a: "Sie können ein Thema über eine Sprache erstellen und diese Sprache als Lernsprache festlegen. Der Sprach-Tutor spricht dann in dieser Sprache mit Ihnen und korrigiert jeweils einen wichtigen Fehler. Ein vollständiger Sprachkurs mit Niveaustufen oder Aussprachebewertung ist es nicht. [Eine Sprache lernen](https://www.learningclarity.ai/help/languages/)."
@@ -220,6 +220,9 @@ faq:
   - group: "Sprachen, Geräte und Barrierefreiheit"
     q: "Ist LearningClarity für Kinder geeignet?"
     a: "Ja. Erklärungen, Beispiele und Fragen werden an das Alter der lernenden Person angepasst, und Eltern, Lehrkräfte oder Mentoren können den Fortschritt über **Supervision (Begleitung)** verfolgen, die erst beginnt, wenn beide Seiten zugestimmt haben."
+  - group: "Sprachen, Geräte und Barrierefreiheit"
+    q: "Ist LearningClarity barrierearm?"
+    a: "Die Plattform folgt bewährten Praktiken der Web-Barrierefreiheit. Sie lässt sich per Tastatur bedienen, interaktive Elemente sind beschriftet, und das Design setzt auf starke Kontraste. Außerdem kann **Listen** (Vorlesen) Erklärungen laut vorlesen, wenn Sie nicht am Bildschirm lesen möchten."
   - group: "Eltern, Lehrkräfte und Begleitung"
     q: "Wie funktioniert Supervision?"
     a: "Bei **Supervision (Begleitung)** kann die Verbindung von beiden Seiten ausgehen: Ein Elternteil, eine Lehrkraft oder ein Mentor sendet eine Anfrage an die E-Mail-Adresse des Kontos der lernenden Person, oder die lernende Person lädt sie per E-Mail ein. Geteilt wird erst etwas, wenn die andere Seite annimmt. Danach erhalten die Begleitpersonen regelmäßig Fortschrittsberichte per E-Mail. [Begleitung und Werkzeuge für Eltern](https://www.learningclarity.ai/help/supervision/)."

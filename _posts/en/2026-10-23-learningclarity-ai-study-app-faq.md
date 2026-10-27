@@ -2,7 +2,7 @@
 title: "Learning Clarity Study Platform FAQ: your questions answered"
 description: "Learning Clarity Study Platform FAQ: costs, file uploads, free credits, languages, data safety, podcasts, certificates and more than 60 answers."
 date: 2026-10-23 18:06:25 +0300
-last_modified_at: 2026-10-27 13:40:00 +0300
+last_modified_at: 2026-10-28 01:40:00 +0300
 lang: en
 ref: learningclarity-ai-study-app-faq
 capability: faq
@@ -132,10 +132,10 @@ faq:
     a: "Yes, as MP3 files. The player also has speed control and keeps playing while you move around the app."
   - group: "Listening, podcasts and speaking"
     q: "Which languages do podcasts use?"
-    a: "Episodes follow the topic's language. Voices are optimised for English, so other languages may carry a slight accent; Arabic topics use Arabic voices."
+    a: "Episodes follow the topic's language. Voices are optimised for English, so other languages, including Arabic, may carry a slight accent."
   - group: "Listening, podcasts and speaking"
     q: "What is Talk to This?"
-    a: "A live voice tutor for the material you're studying. You speak or type, the tutor always answers aloud, and you can keep a transcript. It works on every platform: the web app, iPhone and Android. [Studying out loud](https://www.learningclarity.ai/help/out-loud/)."
+    a: "A live voice tutor for the material you're studying. You speak or type, the tutor always answers aloud, and you can keep a transcript. It replies in the topic's language and works on every platform: the web app, iPhone and Android. [Studying out loud](https://www.learningclarity.ai/help/out-loud/)."
   - group: "Listening, podcasts and speaking"
     q: "How is Talk to This charged?"
     a: "By conversation length. Credits are reserved when a call starts and any unused reserved credits are returned when it ends, so you only pay for the time you use."
@@ -210,7 +210,7 @@ faq:
     a: "Yes. The app language, the learning language of each topic and the language of your files are separate. Upload English slides and study them in German, for example, by choosing German when you create the topic. [Studying across languages](https://www.learningclarity.ai/help/cross-language/)."
   - group: "Languages, devices and accessibility"
     q: "Does it support Arabic properly?"
-    a: "Yes. The whole layout mirrors right-to-left, explanations use Modern Standard Arabic, and Listen and podcasts use Arabic voices."
+    a: "Yes. The whole layout mirrors right-to-left, explanations use Modern Standard Arabic, and podcasts are made in Arabic too (the voices are optimised for English, so they may carry a slight accent)."
   - group: "Languages, devices and accessibility"
     q: "Can I use LearningClarity to learn a foreign language?"
     a: "You can create a topic about a language with that language set as the learning language, and the spoken tutor will talk with you in it and correct one important mistake at a time. It isn't a full language course with levels or pronunciation scoring. [Learning a language](https://www.learningclarity.ai/help/languages/)."
@@ -220,6 +220,9 @@ faq:
   - group: "Languages, devices and accessibility"
     q: "Is LearningClarity suitable for children?"
     a: "Yes. Explanations, examples and questions are adapted to the learner's age, and parents, teachers or mentors can follow progress through Supervision, which only starts once both sides have agreed."
+  - group: "Languages, devices and accessibility"
+    q: "Is LearningClarity accessible?"
+    a: "It's built to follow web accessibility best practices. You can move through the app with the keyboard, interactive elements are labelled, and the design uses strong contrast. **Listen** can also read explanations aloud when you'd rather not read on screen."
   - group: "Parents, teachers and supervision"
     q: "How does Supervision work?"
     a: "Supervision can start from either side: a parent, teacher or mentor sends a request to the learner's account email, or the learner invites them by email. Nothing is shared until the other person accepts. Supervisors then get scheduled email progress reports. [Supervision and parental tools](https://www.learningclarity.ai/help/supervision/)."

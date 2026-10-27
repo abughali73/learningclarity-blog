@@ -432,80 +432,70 @@ ideas:
     challenge: "A 12-person logistics firm onboards three new coordinators at once."
     hook: "Three new starters, one trainer, and a binder last updated in 2019."
     features:
-      - {name: Organization workspace, helps: "Needs facts: what the organization workspace offers (assigning content, tracking members) is not in capabilities.yml."}
+      - {name: Organization workspace, helps: "To be written from the organization workspace facts once they are in capabilities.yml."}
     outline:
       challenge: "Consistent onboarding without a training department."
       action: "To be written once the organization workspace facts are confirmed."
       outcome: "To be written."
     takeaway: "To be written."
     cta: "To be written."
-    needs_info: "Add the organization workspace (B2B) capability and its facts to capabilities.yml."
+    needs_info: "The owner is creating the organization workspace facts. Write this story only after an organization-workspace capability with facts exists in capabilities.yml."
 
   - id: chef-french-kitchen-language
-    status: flagged
-    capability: languages
+    status: idea
+    capability: talk-to-this
     approach: countdown (one month)
     audience: Professionals learning a language for a new job
-    challenge: "Diego, a chef, starts a job in a French-speaking kitchen next month and needs kitchen French fast."
-    hook: "'Oui, chef' was the only phrase he was sure of."
+    challenge: "Diego, a chef from Valencia, starts at a restaurant in Lyon next month and only knows a handful of words of French."
+    hook: "'Oui, chef' was the only phrase he was sure of, and he wasn't sure when to say it."
     features:
-      - {name: Learning language, helps: "A topic about kitchen French with French as the learning language."}
-      - {name: Talk to This, helps: "Speaking practice with the voice tutor."}
+      - {name: Learning language, helps: "He creates a topic on kitchen French and sets French as its learning language, so explanations, quizzes and podcasts are in French."}
+      - {name: Talk to This, helps: "The live voice tutor replies in the topic's language, so every short call is spoken French; he can speak or type, and keep the transcript to reread."}
+      - {name: Simplify, helps: "Rephrases a French section in simpler words when it is too fast for him."}
+      - {name: Listen, helps: "Reads each section aloud on his way to his last shifts in Spain."}
     outline:
-      challenge: "A new language under time pressure."
-      action: "Daily sections and short voice sessions in French."
-      outcome: "He follows the first service's orders."
-    takeaway: "Practise speaking from day one."
-    cta: "Create a topic about the language you need and set it as the learning language."
-    needs_info: "capabilities.yml doesn't say which language Talk to This replies in or whether it corrects language mistakes (the help center says it replies in the topic language and corrects one error at a time); confirm and add before writing."
+      challenge: "A new kitchen, a new language and orders shouted across a busy pass."
+      action: "A section a day on ingredients, stations and service calls, then a few short spoken calls in French each evening, rereading the transcripts for phrases to reuse."
+      outcome: "On his first service he follows the orders and answers his sous-chef in French; his accent is still Spanish, and nobody minds."
+    takeaway: "Hearing and speaking the language from the first week matters more than perfect grammar."
+    cta: "Create a topic about the language you need for work, set that language as its learning language, and have your first short spoken conversation tonight."
+    notes: "Talk to This replies in the topic's language. Do not claim it corrects language mistakes, teaches pronunciation or replaces a language course."
 
   - id: arabic-podcast-commute
-    status: flagged
+    status: idea
     capability: podcasts
-    approach: diary
-    audience: Arabic-speaking commuters
-    challenge: "A Cairo commuter studies for a banking certification in Arabic on long daily journeys."
-    hook: "Ninety minutes each way, and the radio had run out of new songs."
+    approach: diary (two weeks of commutes)
+    audience: Arabic-speaking commuters studying for work
+    challenge: "Omnia, a bank teller in Cairo, wants to understand anti-money-laundering basics before her branch's internal training, but she commutes ninety minutes each way."
+    hook: "Ninety minutes each way on the Ring Road, and the radio had run out of new songs."
     features:
-      - {name: AI podcasts, helps: "Podcast episodes in the topic's language."}
+      - {name: Describe Topic, helps: "She describes the topic and chooses Arabic as the learning language."}
+      - {name: AI podcasts, helps: "Each subtopic becomes a two-voice conversation between a host and an expert guest, in the topic's language; it is generated in the background with an \"AI job complete\" notification."}
+      - {name: Quiz Mode, helps: "A short quiz at home checks what she took in on the bus."}
     outline:
-      challenge: "Long commutes, no time at home."
-      action: "One episode each way."
-      outcome: "Exam passed."
-    takeaway: "Turn dead time into learning time."
+      challenge: "No time at home, a lot of dead time on the road."
+      action: "One episode each way for two weeks, and a five-question quiz each evening."
+      outcome: "At the internal training she recognises the terms and asks the trainer a question about a case she heard discussed on Tuesday."
+    takeaway: "Commutes can be study time when the material comes to you as a conversation."
     cta: "Turn your first subtopic into a podcast for tomorrow's commute."
-    needs_info: "capabilities.yml says voices are optimised for English and other languages may carry an accent; the help center says Arabic uses Arabic voices. Confirm Arabic voice support before promising it."
+    notes: "Voices are optimised for English, so Arabic episodes may carry a slight accent; say so honestly if voices come up. Do not present AML content as legal or compliance advice, and do not say it replaces the bank's official training."
 
-  - id: accessibility-screen-reader
-    status: flagged
-    capability: listen
+  - id: low-vision-keyboard-learning
+    status: idea
+    capability: accessibility
     approach: before and after
-    audience: Learners with visual impairments
-    challenge: "A learner who uses a screen reader studies independently."
-    hook: "To be written."
+    audience: Learners with low vision or who prefer the keyboard
+    challenge: "Helena, a 34-year-old translator with low vision, is retraining in project coordination and finds most online courses tiring to navigate."
+    hook: "She zoomed the course page to 300%, and the Next button disappeared off the edge of the screen."
     features:
-      - {name: Listen, helps: "Reads explanations aloud."}
+      - {name: Keyboard navigation, helps: "She moves through lessons, quizzes and menus with the keyboard."}
+      - {name: Labelled elements and strong contrast, helps: "Interactive elements are labelled and the design uses strong contrast, following web accessibility best practices."}
+      - {name: Listen, helps: "Reads each Explain Mode section aloud when her eyes are tired."}
+      - {name: Explain Mode, helps: "One short section at a time keeps each screen manageable."}
     outline:
-      challenge: "To be written."
-      action: "To be written."
-      outcome: "To be written."
-    takeaway: "To be written."
-    cta: "To be written."
-    needs_info: "Needs verified accessibility facts (screen-reader support, keyboard navigation, any conformance standard). The help center only says it follows web accessibility best practices; don't write until confirmed."
-
-  - id: class-dashboard-teacher
-    status: flagged
-    capability: supervision
-    approach: n/a
-    audience: Teachers with large classes
-    challenge: "A teacher wants to see a whole class's results on one screen."
-    hook: "To be written."
-    features:
-      - {name: Supervision, helps: "Per-student email reports exist; a class-wide dashboard is not in capabilities.yml."}
-    outline:
-      challenge: "To be written."
-      action: "To be written."
-      outcome: "To be written."
-    takeaway: "To be written."
-    cta: "To be written."
-    needs_info: "Only write if a class-wide view is added to capabilities.yml; otherwise use clara-teacher-class style per-student reports."
+      challenge: "Learning that is exhausting before it even starts."
+      action: "Short sections navigated by keyboard, Listen in the evenings, and a quiz at the end of each subtopic."
+      outcome: "She finishes her first topic in two weeks without the headaches; studying is about the content again, not about the screen."
+    takeaway: "The right tools let you spend your energy on learning, not on getting around the page."
+    cta: "Open your first topic and try a whole section using only your keyboard and Listen."
+    notes: "Say only what the facts state (keyboard navigation, labelled interactive elements, strong contrast, web accessibility best practices, Listen). Do not claim compliance with a named standard such as WCAG or certification."
