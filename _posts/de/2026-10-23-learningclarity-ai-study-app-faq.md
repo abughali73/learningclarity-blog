@@ -6,7 +6,7 @@ last_modified_at: 2026-10-27 11:00:00 +0300
 lang: de
 ref: learningclarity-ai-study-app-faq
 capability: faq
-image: "/assets/img/posts/learningclarity-ai-study-app-faq-cinematic.png"
+image: "/assets/img/posts/learningclarity-ai-study-app-faq-cinematic.webp"
 keywords: ["KI-Lern-App", "LearningClarity Fragen", "was kostet LearningClarity", "PDF-Skripte hochladen und lernen", "KI-Lern-App kostenlose Credits"]
 tags: [LearningClarity, LearningClarityAI, FAQ, KünstlicheIntelligenz, LernApp, Lerntipps, Prüfungsvorbereitung, OnlineLernen, Studium, Lernen, Weiterbildung, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -29,15 +29,15 @@ ad:
       title: "Gelerntes nachweisen"
       bullets: ["Kostenlose, überprüfbare Zertifikate", "Prüfung mit 70 % oder mehr bestehen"]
 hero_image:
-  src: "/assets/img/posts/learningclarity-ai-study-app-faq-cinematic.png"
+  src: "/assets/img/posts/learningclarity-ai-study-app-faq-cinematic.webp"
   alt: "Amira auf dem Sofa im warmen Lampenlicht der Abenddämmerung, das Handy in der Hand, lächelnd, weil sie die gesuchten Antworten gefunden hat"
   prompt: "Amira, a fictional woman in her early forties with curly black hair tied in a loose bun, wearing a rust-coloured cardigan over a cream blouse and thin round reading glasses, sits curled up on a sofa in her living room on a quiet weekday evening, holding a smartphone whose screen faces away from the camera, her head tilted with a curious, hopeful half-smile as if a question has just been answered. A cup of mint tea steams on a low wooden table beside a small stack of printed notes and a pencil. Warm amber light from a floor lamp mixes with the cool blue dusk coming through a large window behind her, city lights beginning to glow outside. Mid-shot at eye level, shallow depth of field. Mood: calm curiosity and the relief of finally getting clear answers."
 scenes:
-  - src: "/assets/img/posts/learningclarity-ai-study-app-faq-scene-1.png"
+  - src: "/assets/img/posts/learningclarity-ai-study-app-faq-scene-1.webp"
     alt: "Amira an einem sonnigen Küchentisch, sortiert einen Stapel ausgedruckter Notizen und überlegt, was sie hochlädt"
     caption: "Ihre Notizen, PDFs und Dokumente sind ein guter Ausgangspunkt."
     prompt: "Amira, a fictional woman in her early forties with curly black hair tied in a loose bun, wearing a rust-coloured cardigan over a cream blouse and thin round reading glasses, stands at a kitchen table on a bright Saturday morning, spreading out a loose pile of printed lecture notes and a stapled document, one sheet lifted in her hand as she weighs which pages to study first, a smartphone lying face down next to a coffee mug. Soft white morning daylight floods in from a side window, a few houseplants on the sill, crisp shadows on the papers, no readable writing anywhere. Wide shot from a slightly low angle across the table. Mood: practical, deciding and getting organised."
-  - src: "/assets/img/posts/learningclarity-ai-study-app-faq-scene-2.png"
+  - src: "/assets/img/posts/learningclarity-ai-study-app-faq-scene-2.webp"
     alt: "Amira abends am Schreibtisch, unter der Schreibtischlampe zum Laptop gebeugt, als die Erklärung endlich sitzt"
     caption: "Schritt für Schritt, bis die Idee endlich klar ist."
     prompt: "Amira, a fictional woman in her early forties with curly black hair tied in a loose bun, wearing a rust-coloured cardigan over a cream blouse and thin round reading glasses, sits at a small home desk late in the evening, leaning towards an open laptop whose screen faces away from the camera, one hand on her chin, nodding slowly as an idea finally clicks, a pen resting on an open paper notebook beside her. The only light is a warm desk lamp and the soft glow of the laptop on her face, a dark window with faint reflections behind her. Over-the-shoulder close-up from the side, shallow depth of field. Mood: focused, quiet understanding."

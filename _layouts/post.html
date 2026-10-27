@@ -36,7 +36,8 @@ layout: default
   {%- if page.hero_image -%}
   {%- assign hero_file = site.static_files | where: "path", page.hero_image.src | first -%}
   {%- if hero_file %}
-  <figure class="hero-image"><img src="{{ page.hero_image.src }}" alt="{{ page.hero_image.alt | escape }}" width="1536" height="1024" fetchpriority="high"></figure>
+  {%- assign hero_src = page.hero_image.src -%}
+  <figure class="hero-image">{% if hero_src contains ".webp" %}{% assign hero_small = hero_src | replace: ".webp", "-640.webp" %}<img src="{{ hero_src }}" srcset="{{ hero_small }} 640w, {{ hero_src }} 1280w" sizes="(max-width: 1080px) 100vw, 1048px" alt="{{ page.hero_image.alt | escape }}" width="1280" height="853" fetchpriority="high" decoding="async">{% else %}<img src="{{ hero_src }}" alt="{{ page.hero_image.alt | escape }}" width="1536" height="1024" fetchpriority="high">{% endif %}</figure>
   {%- endif -%}
   {%- endif %}
   {% if page.ad %}{% include ad.html ad=page.ad lang=page.lang %}{% endif %}

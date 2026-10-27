@@ -6,7 +6,7 @@ last_modified_at: 2026-10-27 11:00:00 +0300
 lang: en
 ref: organization-workspace-video-guide
 capability: organization-workspace
-image: /assets/img/posts/organization-workspace-video-guide-cinematic.png
+image: /assets/img/posts/organization-workspace-video-guide-cinematic.webp
 keywords: ["employee training platform", "organization account", "AI employee training", "corporate learning management", "employee exams and certificates"]
 tags: [LearningClarity, LearningClarityAI, EmployeeTraining, CorporateTraining, LearningAndDevelopment, HR, ProfessionalDevelopment, Upskilling, OnlineLearning, EdTech, AIinEducation]
 video:
@@ -69,23 +69,23 @@ ad:
       bullets: ["Each member's progress and content", "Averages and pass rates by unit"]
   footnote: "Credits are shared across the organization; members' usage is deducted according to permissions and limits."
 hero_image:
-  src: /assets/img/posts/organization-workspace-video-guide-cinematic.png
+  src: /assets/img/posts/organization-workspace-video-guide-cinematic.webp
   alt: "Karim, a training manager, smiles at the head of a meeting table as his team sits around it in bright morning light, one colleague holding a certificate"
   prompt: "Karim, a fictional training manager in his early forties with short black hair greying at the temples and a neatly trimmed beard, wearing a light blue shirt with rolled-up sleeves and charcoal trousers, stands at the head of a long table in a bright glass-walled company meeting room on a weekday morning, smiling as he looks across at a small team of colleagues of different ages who are seated around the table, some with closed laptops whose screens are not visible, one holding a printed certificate with a round ribbon seal. A large window behind him shows a softly blurred city skyline; clear morning daylight fills the room and reflects off the glass walls, with plants and coffee cups on the table. Wide shot at eye level, Karim as the clear focal point. Mood: a team that is organised, confident and ready."
 scenes:
-  - src: /assets/img/posts/organization-workspace-video-guide-scene-1.png
+  - src: /assets/img/posts/organization-workspace-video-guide-scene-1.webp
     alt: "Karim alone in an empty office at dawn, beside a glass wall of blank sticky notes laid out like an org chart"
     caption: "Early morning: the organization takes shape, unit by unit."
     prompt: "Karim, a fictional training manager in his early forties with short black hair greying at the temples and a neatly trimmed beard, wearing a light blue shirt with rolled-up sleeves and charcoal trousers, sits alone at his desk in an empty open-plan office at dawn, the first one in, setting up the organization: an open laptop angled so its screen faces away from the camera, a printed staff list turned face-down beside a coffee mug, and a glass wall behind him covered with rows of blank coloured sticky notes arranged like an organisation chart, with no writing on them. Cool blue early-morning light from the windows mixes with the warm glow of a single desk lamp. Medium-wide shot from a low angle, calm and purposeful mood."
-  - src: /assets/img/posts/organization-workspace-video-guide-scene-2.png
+  - src: /assets/img/posts/organization-workspace-video-guide-scene-2.webp
     alt: "Over the shoulder of Karim at a standing desk as he assigns a course and prepares an exam"
     caption: "Choosing the audience, then building the exam."
     prompt: "Over-the-shoulder shot from behind Karim, a fictional training manager in his early forties with short black hair greying at the temples and a neatly trimmed beard, wearing a light blue shirt with rolled-up sleeves and charcoal trousers, as he works at a standing desk in the early afternoon, one hand on the laptop trackpad, the laptop screen out of focus and not readable, choosing who receives a course and preparing an exam. Beside the laptop lies a paper notebook with a simple hand-drawn checklist of tick marks and empty boxes, no letters or words. Soft diffused daylight through vertical blinds casts gentle stripes across the desk. Shallow depth of field, focused and deliberate mood."
-  - src: /assets/img/posts/organization-workspace-video-guide-scene-3.png
+  - src: /assets/img/posts/organization-workspace-video-guide-scene-3.webp
     alt: "Nadia in the office break area, wearing one earbud and answering an exam question with a small smile"
     caption: "The learner's side: one question at a time."
     prompt: "Close-up at eye level of Nadia, a fictional sales team member in her mid-twenties with curly auburn hair tied back in a low bun, wearing a forest-green cardigan over a white top, sitting in a quiet corner of the office break area in the late afternoon, wearing one wireless earbud, leaning towards a laptop whose screen faces away from the camera as she answers an exam question, her face caught between concentration and a small, relieved smile. Warm golden light from a nearby window falls across one side of her face, a cup of tea and a closed paper notebook on the table, colleagues softly blurred in the background. Very shallow depth of field, quiet and hopeful mood."
-  - src: /assets/img/posts/organization-workspace-video-guide-scene-4.png
+  - src: /assets/img/posts/organization-workspace-video-guide-scene-4.webp
     alt: "Karim and two unit leads reviewing their team's progress around a table at dusk"
     caption: "End of the day: a clear picture of who is ready."
     prompt: "Karim, a fictional training manager in his early forties with short black hair greying at the temples and a neatly trimmed beard, wearing a light blue shirt with rolled-up sleeves and charcoal trousers, sits at a small round table in a meeting room in the early evening with two unit leads, a woman in her fifties with short silver hair and a younger man in a navy sweater, reviewing their team's progress together; Karim points thoughtfully at a laptop whose screen faces away from the camera while the others lean in and nod. Outside the window the city turns blue at dusk, and a warm pendant lamp lights the table. Mid-shot from a slightly low angle, mood: clarity and shared decisions about who needs support and who is ready."

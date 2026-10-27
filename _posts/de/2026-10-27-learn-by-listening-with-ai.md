@@ -6,7 +6,7 @@ last_modified_at: 2026-10-27 11:00:00 +0300
 lang: de
 ref: learn-by-listening-with-ai
 capability: listen
-image: /assets/img/posts/learn-by-listening-with-ai-cinematic.png
+image: /assets/img/posts/learn-by-listening-with-ai-cinematic.webp
 keywords: ["Lernen durch Zuhören", "auditives Lernen mit KI", "Lerntipps für auditive Lerntypen", "KI-Tutor zum Vorlesen", "lernen ohne Bildschirm"]
 tags: [LearningClarity, LearningClarityAI, AuditivesLernen, KünstlicheIntelligenz, Lernmethoden, Lerntipps, Prüfungsvorbereitung, Schule, Eltern, OnlineLernen, ExplainMode, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -30,27 +30,27 @@ ad:
       bullets: ["Ein Thema als KI-Podcast", "Moderation und Fachgast im Gespräch"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/learn-by-listening-with-ai-cinematic.png
+  src: /assets/img/posts/learn-by-listening-with-ai-cinematic.webp
   alt: "Amira im Sessel am Fenster in der Abenddämmerung, mit Kopfhörern und geschlossenen Augen, ein offenes Notizbuch auf dem Schoß"
   prompt: "Amira, a fictional woman in her late thirties with dark curly hair tied back in a low bun, warm brown skin, wearing a soft grey knit cardigan over a teal top, sits curled up in a worn armchair by a tall living-room window at dusk, wearing over-ear headphones, eyes gently closed, a calm half-smile, an open paper notebook and a pencil resting on her lap. A closed laptop and a cup of tea sit on a small side table beside her. Deep blue twilight outside the window, a warm floor lamp casting a soft amber glow over her face and hands, houseplants in silhouette. Mid-shot at eye level, shallow depth of field. Mood: rest and quiet focus after a long day."
 scenes:
-  - src: /assets/img/posts/learn-by-listening-with-ai-scene-1.png
+  - src: /assets/img/posts/learn-by-listening-with-ai-scene-1.webp
     alt: "Amira nach einer langen Schicht am Küchentisch, sie reibt sich die müden Augen"
     caption: "Nach einer langen Schicht ist jede weitere Seite zu viel."
     prompt: "Amira, a fictional woman in her late thirties with dark curly hair tied back in a low bun, warm brown skin, wearing a soft grey knit cardigan over a teal top, sits alone at a small kitchen table in the evening just after coming home from a long hospital shift, a hospital lanyard still around her neck, elbows on the table, rubbing her tired eyes with one hand. A closed laptop and an open textbook she has pushed away lie in front of her. Single warm pendant light above the table, the rest of the kitchen in cool blue shadow, rain on the dark window behind her. Wide shot at eye level, slightly off-centre. Mood: exhaustion and quiet frustration."
-  - src: /assets/img/posts/learn-by-listening-with-ai-scene-2.png
+  - src: /assets/img/posts/learn-by-listening-with-ai-scene-2.webp
     alt: "Amira abends auf dem Sofa, sie setzt einen Ohrhörer ein, das Handy in der Hand"
     caption: "Auf Listen tippen, und die Lektion wird vorgelesen."
     prompt: "Amira, a fictional woman in her late thirties with dark curly hair tied back in a low bun, warm brown skin, wearing a soft grey knit cardigan over a teal top, sits on a sofa in a cosy living room at night, putting one wireless earbud into her ear with one hand while holding a phone in the other, its screen turned away from the camera, about to press play. A paper notebook and a pen wait on the cushion beside her. Warm table-lamp light from the side, soft shadows, a knitted blanket over the armrest. Over-the-shoulder angle from behind her shoulder, the phone screen hidden by her hand. Mood: relief, a small fresh start."
-  - src: /assets/img/posts/learn-by-listening-with-ai-scene-3.png
+  - src: /assets/img/posts/learn-by-listening-with-ai-scene-3.webp
     alt: "Nahaufnahme von Amira mit Kopfhörern und geschlossenen Augen beim Zuhören"
     caption: "Augen zu, und die Erklärung kommt zu ihr."
     prompt: "Tight close-up of Amira, a fictional woman in her late thirties with dark curly hair tied back in a low bun, warm brown skin, wearing a soft grey knit cardigan over a teal top, leaning her head back against a sofa cushion with her eyes closed and over-ear headphones on, listening intently, the faint beginning of an understanding smile on her lips. Cool blue twilight from a window falls on one side of her face, a warm lamp glow on the other. Very shallow depth of field, the room behind softly blurred. Slightly low angle. Mood: calm, absorbed, eyes finally resting."
-  - src: /assets/img/posts/learn-by-listening-with-ai-scene-4.png
+  - src: /assets/img/posts/learn-by-listening-with-ai-scene-4.webp
     alt: "Amira und ihre Tochter Noor am Küchentisch, sie hören zu und reden miteinander"
     caption: "Gemeinsam zuhören und danach darüber reden."
     prompt: "Amira, a fictional woman in her late thirties with dark curly hair tied back in a low bun, warm brown skin, wearing a soft grey knit cardigan over a teal top, sits at a wooden kitchen table on a weekend afternoon next to her daughter Noor, a fictional ten-year-old girl with two long black braids, wearing a yellow hoodie. A phone lies face down between them on the table, playing audio. Noor is speaking animatedly and gesturing with both hands while Amira listens and nods, a paper notebook with simple hand-drawn shapes and arrows (no letters or words) open in front of them, two mugs of cocoa nearby. Soft natural daylight from a large window, warm and bright. Wide shot at eye level. Mood: warm, curious, shared learning."
-  - src: /assets/img/posts/learn-by-listening-with-ai-scene-5.png
+  - src: /assets/img/posts/learn-by-listening-with-ai-scene-5.webp
     alt: "Amira im Morgenlicht am Schreibtisch, sie denkt über eine Antwort nach"
     caption: "Dann kurz prüfen, was hängen geblieben ist."
     prompt: "Amira, a fictional woman in her late thirties with dark curly hair tied back in a low bun, warm brown skin, wearing a soft grey knit cardigan over a teal top, sits at a small home desk early in the morning, a laptop open in front of her with its screen facing away from the camera, a takeaway coffee and a handwritten notebook beside it. She taps a pen against her chin, thinking about an answer, then begins to smile as if she remembers it. Pale golden sunrise light streams through a window behind her, dust motes in the air. Mid-shot from the side at eye level, laptop screen not visible. Mood: quiet confidence."

@@ -7,7 +7,7 @@ last_modified_at: 2026-10-27 11:00:00 +0300
 lang: de
 ref: study-mental-block-maya
 capability: explain-mode
-image: "/assets/img/posts/study-mental-block-maya-cinematic.png"
+image: "/assets/img/posts/study-mental-block-maya-cinematic.webp"
 keywords:
 - Lernblockade beim Lesen
 - schwierige Zusammenhänge verstehen
@@ -56,19 +56,19 @@ ad:
     - Eigene Worte verwenden
   footnote: ''
 hero_image:
-  src: "/assets/img/posts/study-mental-block-maya-cinematic.png"
+  src: "/assets/img/posts/study-mental-block-maya-cinematic.webp"
   alt: "Maya am Schreibtisch im Lampenlicht, leise lächelnd, als eine schwierige Idee endlich Sinn ergibt"
   prompt: "Maya, a fictional university student in her early twenties with warm olive-brown skin and shoulder-length, dark brown wavy hair, wearing a light-blue chambray button-up shirt with the sleeves rolled up over a plain white T-shirt and small stud earrings, sits at a wooden desk in her student room late in the evening, leaning back slightly from a printed seminar passage and an open paper notebook, a pen in one hand, a small, quiet smile of realisation spreading across her face as an idea finally clicks. A closed laptop lid edge and a mug of tea sit at the side of the desk, no screen visible. A warm desk lamp pools amber light on the papers and her face, the window behind her deep blue with night, a houseplant softly blurred in the corner. Mid-shot at eye level, shallow depth of field. Mood: calm relief after a long struggle with one difficult idea."
 scenes:
-  - src: "/assets/img/posts/study-mental-block-maya-scene-1.png"
+  - src: "/assets/img/posts/study-mental-block-maya-scene-1.webp"
     alt: "Maya am Abend an ihrem Schreibtisch, den Stift über einer leeren Notizbuchseite"
     caption: "Ein verwirrender Abschnitt, eine genaue Frage."
     prompt: "Over-the-shoulder shot of Maya, a fictional university student in her early twenties with warm olive-brown skin and shoulder-length, dark brown wavy hair, wearing a light-blue chambray button-up shirt with the sleeves rolled up over a plain white T-shirt and small stud earrings, sitting at her desk at night, a printed seminar passage beside her, pen poised over a blank notebook page as she pauses to frame one precise question, brow slightly furrowed, the tip of the pen touching her lip. A single warm desk lamp lights the page, the rest of the small room in soft blue shadow. Shallow depth of field, the paper's printed lines blurred and unreadable. Quiet, thoughtful, focused mood."
-  - src: "/assets/img/posts/study-mental-block-maya-scene-2.png"
+  - src: "/assets/img/posts/study-mental-block-maya-scene-2.webp"
     alt: "Maya an einem Tisch vor einem Café, sie beobachtet andere Studierende, die mit Kaffee und kalten Getränken lernen"
     caption: "Dinge, die zusammen auftreten: Was zeigen sie wirklich?"
     prompt: "Wide shot of a sunny outdoor café terrace on a university street in the early afternoon. Maya, a fictional university student in her early twenties with warm olive-brown skin and shoulder-length, dark brown wavy hair, wearing a light-blue chambray button-up shirt with the sleeves rolled up over a plain white T-shirt and small stud earrings, sits alone at a small round table with a cup of coffee and a tall iced drink, an open notebook and a laptop whose screen faces away from the camera, looking up and watching other students nearby who are studying outdoors with coffees and cold drinks, her chin resting on one hand as she quietly weighs what these things occurring together really show. Dappled sunlight through trees, warm light, students softly blurred in the background. Eye level, curious and reflective mood."
-  - src: "/assets/img/posts/study-mental-block-maya-scene-3.png"
+  - src: "/assets/img/posts/study-mental-block-maya-scene-3.webp"
     alt: "Maya in der Abenddämmerung am Fenster, das Notizbuch geschlossen, sie erklärt die Idee laut"
     caption: "Unterlagen geschlossen: eine Definition, ein Beispiel und eine offene Frage."
     prompt: "Low-angle mid-shot of Maya, a fictional university student in her early twenties with warm olive-brown skin and shoulder-length, dark brown wavy hair, wearing a light-blue chambray button-up shirt with the sleeves rolled up over a plain white T-shirt and small stud earrings, standing by the window of her student room at dusk, her notebook closed and held against her chest, speaking out loud mid-sentence and counting points on the fingers of her free hand as she explains the idea to herself without looking at any notes. Purple and orange twilight glows through the window behind her, a warm lamp lights the room from one side, the desk with its papers softly blurred in the background. Determined, confident mood."

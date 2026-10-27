@@ -8,6 +8,6 @@
 {%- if scene and scene.src -%}
 {%- assign scene_file = site.static_files | where: "path", scene.src | first -%}
 {%- if scene_file -%}
-<figure class="scene-image"><img src="{{ scene.src }}" alt="{{ scene.alt | escape }}" width="1536" height="1024" loading="lazy">{% if scene.caption %}<figcaption>{{ scene.caption }}</figcaption>{% endif %}</figure>
+<figure class="scene-image">{% if scene.src contains ".webp" %}{% assign scene_small = scene.src | replace: ".webp", "-640.webp" %}<img src="{{ scene.src }}" srcset="{{ scene_small }} 640w, {{ scene.src }} 1280w" sizes="(max-width: 760px) 100vw, 760px" alt="{{ scene.alt | escape }}" width="1280" height="853" loading="lazy" decoding="async">{% else %}<img src="{{ scene.src }}" alt="{{ scene.alt | escape }}" width="1536" height="1024" loading="lazy">{% endif %}{% if scene.caption %}<figcaption>{{ scene.caption }}</figcaption>{% endif %}</figure>
 {%- endif -%}
 {%- endif -%}

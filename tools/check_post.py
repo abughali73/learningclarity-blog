@@ -100,6 +100,8 @@ def main(name):
         for src in [hero.get("src")] + [s.get("src") for s in scenes]:
             if src and not src.startswith("/assets/img/posts/"):
                 p(f"{src} must be under /assets/img/posts/")
+            if src and not src.endswith(".webp"):
+                p(f"{src} must end in .webp")
     # values shared by all five languages
     if len(posts) == len(LANGS):
         def shared(fm):

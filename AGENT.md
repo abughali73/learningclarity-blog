@@ -25,7 +25,7 @@ date: 2026-10-22 09:00:00 +0300   # from the command in step 3
 lang: en            # ar for the Arabic file
 ref: same-slug-in-both-files
 capability: explain-mode
-image: /assets/img/posts/<slug>-cinematic.png   # always the hero_image src (step 7)
+image: /assets/img/posts/<slug>-cinematic.webp   # always the hero_image src (step 7)
 keywords: ["AI study tutor", "step-by-step explanations", "learn at your own pace"]
 tags: [LearningClarity, LearningClarityAI, ExplainMode, AITutor, StudyTips, OnlineLearning, EdTech, AIinEducation, Students, LifelongLearning]
 ad:
@@ -40,11 +40,11 @@ ad:
       bullets: ["First bullet", "Second bullet"]
   footnote: "Lena is a fictional learner."   # name the fictional character; add any required note (e.g. Talk to This is web-only)
 hero_image:                      # required AI illustration, generated after you push (see step 5b)
-  src: /assets/img/posts/<slug>-cinematic.png    # same src in all five language files
+  src: /assets/img/posts/<slug>-cinematic.webp    # same src in all five language files
   alt: "Describe the picture in this post's language"
   prompt: "In English: what to draw. A scene, not a diagram. No text, logos or real people."
 scenes:                          # required: 4 to 7 in-post scene images, generated after you push (see step 5b)
-  - src: /assets/img/posts/<slug>-scene-1.png  # same src and prompt in all five language files
+  - src: /assets/img/posts/<slug>-scene-1.webp  # same src and prompt in all five language files
     alt: "Describe the picture in this post's language"
     caption: "A short caption in this post's language"
     prompt: "In English: one story moment, staged like a film shot. No text, logos or real people."
@@ -57,7 +57,8 @@ faq:                             # 2 or 3 short questions a reader would search 
    The author (Dr. Maher Abu Ghali) is set automatically for every post; do not add an `author:` field. Set the `image:` field as described in step 7. Look at `_posts/en/2026-10-27-online-learning-certificate-journey.md` for a complete example of a story post with its hero image and scenes.
 
 5b. **Images (required): cinematic, and plenty of them.** Every post is visual. It has one `hero_image` (shown at the top, and used as the preview image) and 4 to 7 `scenes` (shown inside the post). All of them are generated with OpenAI's image model (the model behind ChatGPT image generation) in a cinematic film-still style. You cannot call the image API from your sandbox, and you must never draw, render or commit images yourself. After you push, a GitHub Actions workflow (`.github/workflows/generate-images.yml`) generates every missing picture and commits it; each picture appears once its file exists.
-   - Use the same `src` and `prompt` for each image in all five language files, so one image serves every language. Write `alt` and `caption` in each post's own language. Name scene files `<slug>-scene-1.png`, `<slug>-scene-2.png` and so on.
+   - Every image `src` ends in `.webp`. The workflow saves each picture as a compressed WebP in two sizes (1280 and 640 pixels wide, so pages load fast) and the hero also as a JPEG for social-media previews; the layouts pick the right file automatically.
+   - Use the same `src` and `prompt` for each image in all five language files, so one image serves every language. Write `alt` and `caption` in each post's own language. Name scene files `<slug>-scene-1.webp`, `<slug>-scene-2.webp` and so on.
    - Place each scene in the body with `{% include scene.html n=1 %}` (n is its position in `scenes:`), on its own line, usually right after a `##` heading or between paragraphs, so a picture appears every few paragraphs. Put the includes at the same places in all five languages.
    - Write every `prompt` in English as a shot description for a film: who (a fictional person, age, clothing), the exact moment and action, the place, the time of day and the light (for example golden hour through a window, a cool blue train interior at dawn), the mood, and the framing (wide, mid-shot, close-up, over-the-shoulder, eye level or low angle). Vary the framing and light across the scenes, keep the same character consistent (repeat their description in every prompt) and make each scene a different moment. The workflow adds the cinematic house style, so don't describe the art style.
    - Keep prompts safe: no text in the image, no readable screens, no logos, no real or recognisable people, nothing that looks like a screenshot of the product.

@@ -6,7 +6,7 @@ last_modified_at: 2026-10-27 11:00:00 +0300
 lang: de
 ref: ai-course-generator-guide
 capability: ai-courses
-image: "/assets/img/posts/ai-course-generator-guide-cinematic.png"
+image: "/assets/img/posts/ai-course-generator-guide-cinematic.webp"
 keywords: ["KI-Kursgenerator", "Onlinekurs mit KI erstellen", "strukturierter Lernpfad", "Onlinekurs im eigenen Tempo", "neue Fähigkeiten Schritt für Schritt lernen"]
 tags: [LearningClarity, LearningClarityAI, KünstlicheIntelligenz, Onlinekurs, OnlineLernen, Lerntipps, Weiterbildung, Studium, Lernen, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -30,27 +30,27 @@ ad:
       bullets: ["Exam Mode für den ganzen Kurs", "Zertifikat bei bestandener Prüfung"]
   footnote: ""
 hero_image:
-  src: "/assets/img/posts/ai-course-generator-guide-cinematic.png"
+  src: "/assets/img/posts/ai-course-generator-guide-cinematic.webp"
   alt: "Omar im Morgenlicht am Fenster, lächelnd über einem Notizbuch mit einer handgezeichneten Kette aus Kreisen"
   prompt: "Omar, a fictional man in his early forties with short black hair greying at the temples, a neatly trimmed beard and dark-rimmed glasses, wearing a navy-blue crew-neck sweater over a white collared shirt, stands by a tall window in his apartment at sunrise, holding an open paper notebook in one hand and a pen in the other, looking up from the page with a quiet, confident smile as if a plan has just come together. On the page, only a hand-drawn chain of small circles linked by a winding line, no letters or words. Warm golden sunrise light pours in from the side, mixing with the last cool blue of dawn, rim-lighting his profile, a softly blurred city of rooftops outside. Medium-wide shot from a slightly low angle. Mood: clarity and calm resolve."
 scenes:
-  - src: "/assets/img/posts/ai-course-generator-guide-scene-1.png"
+  - src: "/assets/img/posts/ai-course-generator-guide-scene-1.webp"
     alt: "Omar im Morgengrauen am Küchentisch, tippend am Laptop neben einer Tasse Kaffee"
     caption: "Ein Satz im Morgengrauen: Aus dem Ziel wird ein Kurs."
     prompt: "Omar, a fictional man in his early forties with short black hair greying at the temples, a neatly trimmed beard and dark-rimmed glasses, wearing a navy-blue crew-neck sweater over a white collared shirt, sits at a small kitchen table at dawn, typing a single sentence on a laptop with calm concentration, the laptop screen facing away from the camera. A steaming mug of coffee and an open paper notebook beside him, a pale grey-blue light from the window mixing with the warm glow of a pendant lamp above. Mid-shot in side profile at eye level, shallow depth of field, quiet and hopeful mood."
-  - src: "/assets/img/posts/ai-course-generator-guide-scene-2.png"
+  - src: "/assets/img/posts/ai-course-generator-guide-scene-2.webp"
     alt: "Omar betritt an seinem ersten Morgen in der neuen Rolle ein helles Großraumbüro"
     caption: "Eine neue Stelle und vieles, das man gleichzeitig lernen muss."
     prompt: "Omar, a fictional man in his early forties with short black hair greying at the temples, a neatly trimmed beard and dark-rimmed glasses, wearing a navy-blue crew-neck sweater over a white collared shirt, and a canvas messenger bag over his shoulder, walks into a bright open-plan office on his first morning in a new role, pausing to take it all in, a little nervous but curious. Rows of desks, plants and softly blurred fictional colleagues in the background, computer screens not visible. Cool clear morning daylight through large windows, long soft shadows on the floor. Wide shot at eye level, fresh-start mood."
-  - src: "/assets/img/posts/ai-course-generator-guide-scene-3.png"
+  - src: "/assets/img/posts/ai-course-generator-guide-scene-3.webp"
     alt: "Omar mit seiner Tochter Yasmin auf dem Sofa, er zeigt auf eine Skizze in ihrem Heft"
     caption: "Hausaufgaben am Abend, ein Thema nach dem anderen."
     prompt: "Omar, a fictional man in his early forties with short black hair greying at the temples, a neatly trimmed beard and dark-rimmed glasses, wearing a navy-blue crew-neck sweater over a white collared shirt, sits on a living-room sofa in the evening next to his daughter Yasmin, a fictional girl of about twelve with long curly dark hair tied back, wearing a green hoodie. She holds a school notebook on her knees while he points at a simple hand-drawn diagram of shapes and arrows on the page, no letters or words anywhere; she is grinning as it clicks. A warm floor lamp lights them, the rest of the room in soft amber shadow. Mid-shot at eye level, gentle and affectionate mood."
-  - src: "/assets/img/posts/ai-course-generator-guide-scene-4.png"
+  - src: "/assets/img/posts/ai-course-generator-guide-scene-4.webp"
     alt: "Omar erklärt drei Kolleginnen und Kollegen in einem sonnigen Besprechungsraum einen Plan"
     caption: "Ein Kurs, geteilt mit dem ganzen Team."
     prompt: "Over-the-shoulder shot from behind a seated colleague of Omar, a fictional man in his early forties with short black hair greying at the temples, a neatly trimmed beard and dark-rimmed glasses, wearing a navy-blue crew-neck sweater over a white collared shirt, who stands at the head of a glass-walled meeting room, gesturing with an open hand as he explains a plan to three fictional colleagues of mixed ages and backgrounds seated around the table, their laptops facing away from the camera. Late-afternoon sunlight slants through window blinds in warm stripes across the table. Shallow depth of field, engaged and collaborative mood."
-  - src: "/assets/img/posts/ai-course-generator-guide-scene-5.png"
+  - src: "/assets/img/posts/ai-course-generator-guide-scene-5.webp"
     alt: "Omar nachts am Schreibtisch, lächelnd, mit einem Zertifikat mit Bandsiegel in der Hand"
     caption: "Der ganze Kurs geschafft, mit Zertifikat als Nachweis."
     prompt: "Close-up of Omar, a fictional man in his early forties with short black hair greying at the temples, a neatly trimmed beard and dark-rimmed glasses, wearing a navy-blue crew-neck sweater over a white collared shirt, sitting at a home desk late at night, leaning back in his chair with a relieved, proud smile, holding a printed certificate with a round ribbon seal, its wording not readable and turned partly away. A warm desk lamp lights his face, a deep blue night window behind him, a closed laptop at the edge of the frame. Low angle close-up, very shallow depth of field, mood of quiet accomplishment."

@@ -7,7 +7,7 @@ last_modified_at: 2026-10-27 11:00:00 +0300
 lang: ar
 ref: ai-study-routine-notebooklm
 capability: progress
-image: "/assets/img/posts/ai-study-routine-notebooklm-cinematic.png"
+image: "/assets/img/posts/ai-study-routine-notebooklm-cinematic.webp"
 keywords:
 - الدراسة بالذكاء الاصطناعي
 - Learning Clarity وNotebookLM
@@ -56,19 +56,19 @@ ad:
     - تابع تقدّمك
     - ركّز جلستك التالية
 hero_image:
-  src: "/assets/img/posts/ai-study-routine-notebooklm-cinematic.png"
+  src: "/assets/img/posts/ai-study-routine-notebooklm-cinematic.webp"
   alt: "أمارا إلى مكتبها عند الغسق تحت ضوء المصباح، ودفترها وكتابها جاهزان وهي تقرر من أين تبدأ جلسة الدراسة"
   prompt: "Amara, a fictional 21-year-old university student with short black natural hair in a small puff, round tortoiseshell glasses, small silver hoop earrings, wearing an olive-green hooded sweatshirt over a white T-shirt, sits down at a cluttered desk in a small student flat at the start of an evening study session, one hand resting on a closed textbook, the other on a paper notebook, glancing calmly at her laptop as she decides where to begin. The laptop is seen from behind so its screen is not visible; a stack of handwritten notes, a highlighter and a mug of tea sit beside her. Warm amber light from a desk lamp mixes with cool blue dusk coming through the window behind her, a few houseplants on the sill. Wide mid-shot at eye level, slightly off-centre. Mood: a quiet, focused fresh start."
 scenes:
-  - src: "/assets/img/posts/ai-study-routine-notebooklm-scene-1.png"
+  - src: "/assets/img/posts/ai-study-routine-notebooklm-scene-1.webp"
     alt: "أمارا ترسم مخططًا بسيطًا في دفترها داخل مكتبة يغمرها ضوء الشمس"
     caption: "فكرة واحدة في كل مرة، حتى تتضح تمامًا."
     prompt: "Amara, a fictional 21-year-old university student with short black natural hair in a small puff, round tortoiseshell glasses, small silver hoop earrings, wearing an olive-green hooded sweatshirt over a white T-shirt, leans over an open paper notebook at a library study table in the late afternoon, pen in hand, sketching a simple chain of boxes and arrows with no letters or words, a small smile as a difficult idea finally clicks. A laptop sits at the edge of the table with its screen turned away from the camera. Soft golden sunlight slants through tall library windows, rows of bookshelves softly blurred behind her. Over-the-shoulder close-up, shallow depth of field. Mood: calm concentration and a quiet moment of understanding."
-  - src: "/assets/img/posts/ai-study-routine-notebooklm-scene-2.png"
+  - src: "/assets/img/posts/ai-study-routine-notebooklm-scene-2.webp"
     alt: "أمارا على سريرها ليلًا تتأمل سؤالًا تدريبيًا قبل أن تجيب"
     caption: "«لا أعرف» الصادقة خير من تخمين محظوظ."
     prompt: "Amara, a fictional 21-year-old university student with short black natural hair in a small puff, round tortoiseshell glasses, small silver hoop earrings, wearing an olive-green hooded sweatshirt over a white T-shirt, sits cross-legged on her bed late at night with a laptop on her knees, its screen facing away from the camera, pausing on a practice question with her chin resting on one hand and a thoughtful, honest frown, deciding to admit she is not sure rather than guess. A paper notebook with a short handwritten list of crossed-out marks lies beside her, no readable text. Lit by the cool glow of the laptop on her face and a single warm bedside lamp, the rest of the room in deep blue shadow. Low-angle mid-shot from the foot of the bed. Mood: reflective, honest, determined."
-  - src: "/assets/img/posts/ai-study-routine-notebooklm-scene-3.png"
+  - src: "/assets/img/posts/ai-study-routine-notebooklm-scene-3.webp"
     alt: "أمارا تمشي في الحرم الجامعي عند الشروق وسماعتاها في أذنيها"
     caption: "الموضوع نفسه، في الطريق إلى المحاضرة."
     prompt: "Amara, a fictional 21-year-old university student with short black natural hair in a small puff, round tortoiseshell glasses, small silver hoop earrings, wearing an olive-green hooded sweatshirt over a white T-shirt, with a canvas backpack over one shoulder, walks along a tree-lined campus path in the early morning, wireless earbuds in, listening intently to a lesson and mouthing a word to herself as she remembers it, a phone held loosely at her side with the screen not visible. Low, pale sunrise light filters through autumn leaves, long soft shadows on the path, a few blurred students in the distance. Wide tracking shot at eye level, shallow depth of field. Mood: hopeful, energised, learning on the move."

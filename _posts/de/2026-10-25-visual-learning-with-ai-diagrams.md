@@ -6,7 +6,7 @@ last_modified_at: 2026-10-27 11:00:00 +0300
 lang: de
 ref: visual-learning-with-ai-diagrams
 capability: visualize
-image: /assets/img/posts/visual-learning-with-ai-diagrams-cinematic.png
+image: /assets/img/posts/visual-learning-with-ai-diagrams-cinematic.webp
 keywords: ["visuell lernen mit KI", "Diagramme zum Lernen", "Lernmethoden für visuelle Lerntypen", "schwierige Konzepte verstehen", "KI-Tutor"]
 tags: [LearningClarity, LearningClarityAI, VisuellLernen, KünstlicheIntelligenz, Lernmethoden, Lerntipps, Prüfungsvorbereitung, Studium, Schule, Lehrkräfte, OnlineLernen, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -30,27 +30,27 @@ ad:
       bullets: ["Knowledge Checks in der Lektion", "Feedback zu jeder Antwort, mit Retry"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/visual-learning-with-ai-diagrams-cinematic.png
+  src: /assets/img/posts/visual-learning-with-ai-diagrams-cinematic.webp
   alt: "Amira am Schreibtisch im goldenen Nachmittagslicht, lächelnd, mit einem handgezeichneten Diagramm aus Kreisen und Pfeilen in der Hand"
   prompt: "Amira, a fictional 17-year-old high-school student with long dark wavy hair tied in a low ponytail, wearing a teal hoodie over a white T-shirt, sits at a wooden desk by a large window in her bedroom in the late afternoon, leaning back in her chair with a relieved, satisfied smile, holding up a sheet of paper with a hand-drawn diagram of circles connected by arrows (only shapes and arrows, no words or letters). On the desk: an open paper notebook, coloured pens, a laptop seen from the side so its screen is not visible, and a mug of tea. Warm golden-hour sunlight streams through the window, rim-lighting her hair and casting long soft shadows, houseplants on the sill. Mid-shot at eye level. Mood: the moment a difficult idea finally makes sense."
 scenes:
-  - src: /assets/img/posts/visual-learning-with-ai-diagrams-scene-1.png
+  - src: /assets/img/posts/visual-learning-with-ai-diagrams-scene-1.webp
     alt: "Amira brütet spätabends am Küchentisch stirnrunzelnd über einem dicken Schulbuch"
     caption: "Jedes Wort ergibt Sinn, aber das Gesamtbild entsteht nicht."
     prompt: "Amira, a fictional 17-year-old high-school student with long dark wavy hair tied in a low ponytail, wearing a teal hoodie over a white T-shirt, sits hunched at a kitchen table late in the evening, chin resting on one hand, frowning at a thick open biology textbook full of dense paragraphs that are too small to read, a highlighter uncapped beside it. A single warm pendant lamp overhead, the rest of the kitchen in cool blue shadow, a dark window behind her. Close-up, slightly high angle. Mood: tired frustration, the words not adding up."
-  - src: /assets/img/posts/visual-learning-with-ai-diagrams-scene-2.png
+  - src: /assets/img/posts/visual-learning-with-ai-diagrams-scene-2.webp
     alt: "Amira beugt sich zu ihrem Laptop, die Augen weit, im Moment des Verstehens"
     caption: "Erst das Bild, dann findet der Text seinen Halt."
     prompt: "Amira, a fictional 17-year-old high-school student with long dark wavy hair tied in a low ponytail, wearing a teal hoodie over a white T-shirt, sits at her desk in the afternoon, leaning towards a laptop whose back faces the camera so the screen is not visible, her eyebrows raised and lips parted in a sudden moment of understanding, the soft cool glow of the screen on her face. Diffused grey daylight from a window to one side, an open notebook and a pen beside the laptop. Low angle from across the desk, mid close-up. Mood: surprise and clarity."
-  - src: /assets/img/posts/visual-learning-with-ai-diagrams-scene-3.png
+  - src: /assets/img/posts/visual-learning-with-ai-diagrams-scene-3.webp
     alt: "Amiras Hände zeichnen aus dem Gedächtnis ein Diagramm aus Kreisen und Pfeilen"
     caption: "Prüfungswoche: aus dem Gedächtnis zeichnen, dann vergleichen."
     prompt: "Overhead close-up of the hands of Amira, a fictional 17-year-old high-school student with long dark wavy hair tied in a low ponytail, wearing a teal hoodie over a white T-shirt, sketching a diagram of circles, boxes and arrows from memory on a blank sheet of paper with a black pen, no letters or words anywhere, only shapes and arrows. A closed laptop and a stack of revision papers at the edge of the frame, a cup of coffee. Bright cool morning daylight falling across the desk. Very shallow depth of field. Mood: calm concentration during exam week."
-  - src: /assets/img/posts/visual-learning-with-ai-diagrams-scene-4.png
+  - src: /assets/img/posts/visual-learning-with-ai-diagrams-scene-4.webp
     alt: "Amira erklärt ihrem Mitschüler in der Schulbibliothek ein handgezeichnetes Diagramm"
     caption: "Einem Freund erklären, mit einem gemeinsamen Bild zum Zeigen."
     prompt: "Wide shot of a quiet school library in the late morning. Amira, a fictional 17-year-old high-school student with long dark wavy hair tied in a low ponytail, wearing a teal hoodie over a white T-shirt, stands beside a reading table and points at a hand-drawn diagram of circles and arrows on a large sheet of paper (no words), explaining it to her classmate Jonas, a fictional 17-year-old with short sandy-blond hair wearing a grey crewneck sweater, who sits and leans in, nodding. Tall bookshelves, soft daylight from high windows, dust in the light. Eye level, both clearly in frame. Mood: friendly, engaged teaching."
-  - src: /assets/img/posts/visual-learning-with-ai-diagrams-scene-5.png
+  - src: /assets/img/posts/visual-learning-with-ai-diagrams-scene-5.webp
     alt: "Amira geht in der Abenddämmerung mit Ohrhörern nach Hause und hört zu"
     caption: "Fern vom Bildschirm läuft die Lektion mit Listen weiter."
     prompt: "Amira, a fictional 17-year-old high-school student with long dark wavy hair tied in a low ponytail, wearing a teal hoodie over a white T-shirt, with a dark backpack over one shoulder and wireless earbuds in, walks home along a tree-lined street at dusk in autumn, her phone in her coat pocket, looking up thoughtfully as she listens. Fallen leaves on the pavement, warm streetlights coming on against a deep blue sky. Wide shot from a low angle, slightly behind and to the side. Mood: peaceful, learning on the move."

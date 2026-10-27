@@ -6,7 +6,7 @@ last_modified_at: 2026-10-27 10:40:00 +0300
 lang: ar
 ref: online-learning-certificate-journey
 capability: certificates
-image: /assets/img/posts/online-learning-certificate-journey-story.png
+image: /assets/img/posts/online-learning-certificate-journey-story.webp
 keywords: ["تعلم أونلاين بشهادة", "شهادة قابلة للتحقق", "تطبيق تعليمي بالذكاء الاصطناعي", "التعلم الذاتي عبر الإنترنت", "امتحان أونلاين بشهادة"]
 tags: [LearningClarity, LearningClarityAI, تعلم_ذاتي, التعليم_الإلكتروني, الذكاء_الاصطناعي, نصائح_دراسية, شهادات, تطوير_الذات, إدارة_المشاريع, التعلم_مدى_الحياة, EdTech, AIinEducation, OnlineLearning]
 ad:
@@ -30,35 +30,35 @@ ad:
       bullets: ["70% أو أكثر في امتحان من 30 سؤالًا+", "شهادة برمز QR ومعرّف خاص"]
   footnote: "لينا شخصية خيالية. ميزة Talk to This متاحة على تطبيق الويب، ودعم الجوال مخطط له."
 hero_image:
-  src: /assets/img/posts/online-learning-certificate-journey-story.png
+  src: /assets/img/posts/online-learning-certificate-journey-story.webp
   alt: "لينا على طاولة المطبخ في ضوء العصر الذهبي ترفع يديها احتفالًا هادئًا، وبجانب حاسوبها شهادة بختم وشريط"
   prompt: "Lena, a fictional woman in her late twenties with shoulder-length dark brown hair, wearing a mustard-yellow knit sweater, sits at a small wooden kitchen table in her apartment on a Saturday afternoon, leaning back in her chair with both fists raised in quiet, relieved celebration, eyes closed and smiling. On the table: an open laptop seen from the side so the screen is not visible, a paper notebook with a hand-drawn sketch of boxes and arrows, wireless earbuds, a half-finished coffee, and a printed certificate with a round ribbon seal lying flat. Golden late-afternoon sunlight streams through a tall window behind her, rim-lighting her hair and throwing long warm shadows across the table, dust motes in the light, houseplants and a softly blurred city skyline outside. Mid-shot at eye level. Mood: relief and pride after a hard week."
 scenes:
-  - src: /assets/img/posts/online-learning-certificate-journey-scene-1.png
+  - src: /assets/img/posts/online-learning-certificate-journey-scene-1.webp
     alt: "لينا في قطار المساء، رأسها على النافذة، غارقة في التفكير"
     caption: "مساء الجمعة: مشروع جديد وستة أيام للاستعداد."
     prompt: "Lena, a fictional woman in her late twenties with shoulder-length dark brown hair, wearing a mustard-yellow knit sweater and a dark coat, sits by the window of a commuter train at dusk, head resting against the glass, phone face-down in her lap, worried and lost in thought. City lights streak past outside in long blurred lines, her faint reflection in the window. Cool blue train interior light against a warm orange sunset. Mid close-up, slightly off-centre, shot from the seat opposite."
-  - src: /assets/img/posts/online-learning-certificate-journey-scene-2.png
+  - src: /assets/img/posts/online-learning-certificate-journey-scene-2.webp
     alt: "لينا تكتب على حاسوبها ليلًا تحت ضوء مصباح المكتب"
     caption: "ليلة الأحد: جملة واحدة، فيتشكّل الموضوع."
     prompt: "Lena, a fictional woman in her late twenties with shoulder-length dark brown hair, wearing a mustard-yellow knit sweater, sits at a home desk late on a Sunday evening, typing on a laptop with quiet determination. The only light is a warm desk lamp and the soft glow of the laptop, whose screen faces away from the camera. A mug of tea, an open paper notebook and a pen beside her, a dark window behind. Over-the-shoulder side angle, shallow depth of field, intimate and focused mood."
-  - src: /assets/img/posts/online-learning-certificate-journey-scene-3.png
+  - src: /assets/img/posts/online-learning-certificate-journey-scene-3.webp
     alt: "يد ترسم مخططًا من مربعات وأسهم في دفتر"
     caption: "المخطط الذي صنعته ميزة Visualize، منقولًا إلى دفترها."
     prompt: "Close-up from above of a woman's hand, in a mustard-yellow knit sleeve, drawing a simple diagram of boxes connected by arrows in a paper notebook with a black pen, late at night. No letters or words anywhere, only shapes and arrows. A warm desk lamp pools light on the page, a laptop edge and a mug blurred at the frame edge. Very shallow depth of field, calm and satisfying mood."
-  - src: /assets/img/posts/online-learning-certificate-journey-scene-4.png
+  - src: /assets/img/posts/online-learning-certificate-journey-scene-4.webp
     alt: "لينا تبتسم في قطار الصباح المشمس وفي أذنها سماعة"
     caption: "صباح الأربعاء: البودكاست في الطريق إلى العمل."
     prompt: "Lena, a fictional woman in her late twenties with shoulder-length dark brown hair, wearing a mustard-yellow knit sweater and a dark coat, stands in a morning commuter train holding a rail, one wireless earbud in, a takeaway coffee in her other hand, smiling to herself as if something just made sense. Low pale sunrise light floods through the windows, other commuters softly blurred around her. Medium shot at eye level, warm golden light, hopeful mood."
-  - src: /assets/img/posts/online-learning-certificate-journey-scene-5.png
+  - src: /assets/img/posts/online-learning-certificate-journey-scene-5.webp
     alt: "لينا على الأريكة ليلًا تتحدث بصوت عالٍ أمام حاسوبها"
     caption: "ليلة الخميس: تشرح بصوتها حتى يرسخ الفهم."
     prompt: "Lena, a fictional woman in her late twenties with shoulder-length dark brown hair, wearing a mustard-yellow knit sweater, sits cross-legged on a sofa at night with a laptop on her knees, its screen facing away from the camera, speaking out loud mid-sentence and gesturing with one hand as if explaining something to a tutor. A floor lamp casts warm light, the rest of the room in deep blue shadow, a notebook open beside her. Low angle, mid-shot, energetic and focused mood."
-  - src: /assets/img/posts/online-learning-certificate-journey-scene-6.png
+  - src: /assets/img/posts/online-learning-certificate-journey-scene-6.webp
     alt: "لقطة قريبة للينا وهي تركّز بشدة في امتحانها"
     caption: "السبت: ثلاثون سؤالًا تغطي كل الموضوعات الفرعية."
     prompt: "Tight close-up of Lena, a fictional woman in her late twenties with shoulder-length dark brown hair, wearing a mustard-yellow knit sweater, focused intently on a laptop screen that is out of frame, biting her lower lip, fingertips hovering over a trackpad. Soft daylight from a window on one side of her face, the other side in gentle shadow. Extremely shallow depth of field, tense, quiet, high-stakes mood."
-  - src: /assets/img/posts/online-learning-certificate-journey-scene-7.png
+  - src: /assets/img/posts/online-learning-certificate-journey-scene-7.webp
     alt: "لينا تعرض مخططًا على السبورة أمام زملائها"
     caption: "الاثنين: اجتماع الانطلاق."
     prompt: "Wide shot of a bright, glass-walled office meeting room on a Monday morning. Lena, a fictional woman in her late twenties with shoulder-length dark brown hair, wearing a mustard-yellow knit sweater and a navy blazer, stands confidently at a whiteboard covered with a hand-drawn diagram of boxes and arrows (no words), explaining to four colleagues seated around a table who are listening and nodding. Cool morning daylight, city view behind the glass. Low angle, she is the clear focal point. Mood: confident and composed."
