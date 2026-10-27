@@ -59,7 +59,7 @@ future: false
 
 # Google AdSense. Ads stay switched off until `client` is set to the AdSense publisher ID.
 adsense:
-  client: ""          # e.g. "ca-pub-1234567890123456" (AdSense > Account > Settings > Account information)
+  client: "ca-pub-2304641874318438"   # AdSense publisher ID (AdSense > Account > Settings > Account information)
   slots:              # optional manual ad units (AdSense > Ads > By ad unit > Display ads > the data-ad-slot number)
     post_bottom: ""   # shown after each post's text
     list: ""          # shown after the post lists on the home and search pages

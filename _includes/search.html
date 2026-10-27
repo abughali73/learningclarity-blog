@@ -18,7 +18,7 @@
   </form>
   <p class="search-status" id="search-status" role="status" aria-live="polite"
      data-one="{{ t.search_count_one | escape }}" data-many="{{ t.search_count_many | escape }}"
-     data-none="{{ t.search_none | escape }}">{% if posts.size == 1 %}{{ t.search_count_one }}{% else %}{{ t.search_count_many | replace: "{n}", posts.size }}{% endif %}</p>
+     data-none="{{ t.search_none | escape }}">{% if posts.size == 1 %}{{ t.search_count_one }}{% else %}{{ t.search_count_many | replace: "[n]", posts.size }}{% endif %}</p>
 </section>
 <ul class="search-results" id="search-results">
   {%- for post in posts -%}
@@ -62,7 +62,7 @@
   }
   var fields = data.map(function (p) { return { t: norm(p.t), d: norm(p.d), k: norm(p.k), e: norm(p.e), b: norm(p.b) }; });
   function count(hay, term) { var n = 0, i = hay.indexOf(term); while (i !== -1 && n < 20) { n++; i = hay.indexOf(term, i + term.length); } return n; }
-  function fmt(tpl, q, n) { return tpl.replace("{n}", n).replace("{q}", q); }
+  function fmt(tpl, q, n) { return tpl.replace("[n]", n).replace("[q]", q); }
   function run(q, push) {
     var terms = norm(q).split(/[\s,.;:!?«»“”„"'()]+/).filter(function (w) { return w.length > 0; });
     var shown = 0, ranked = [];
