@@ -1,13 +1,13 @@
 ---
-title: "الأسئلة الشائعة عن LearningClarity: تطبيق الدراسة بالذكاء الاصطناعي"
-description: "أسئلة شائعة عن تطبيق الدراسة بالذكاء الاصطناعي LearningClarity: التكلفة، والملفات التي يمكنك رفعها، والرصيد المجاني، واللغات، والأمان، والشهادات."
+title: "الأسئلة الشائعة عن منصة Learning Clarity للدراسة: كل الإجابات"
+description: "الأسئلة الشائعة عن منصة Learning Clarity للدراسة: التكلفة، ورفع الملفات، والرصيد المجاني، واللغات، والخصوصية، والبودكاست، والشهادات وأكثر من 60 إجابة."
 date: 2026-10-23 18:06:25 +0300
 last_modified_at: 2026-10-27 13:40:00 +0300
 lang: ar
 ref: learningclarity-ai-study-app-faq
 capability: faq
 image: "/assets/img/posts/learningclarity-ai-study-app-faq-cinematic.webp"
-keywords: ["تطبيق الدراسة بالذكاء الاصطناعي", "أسئلة شائعة عن LearningClarity", "تكلفة LearningClarity", "رفع ملفات PDF للمذاكرة", "رصيد مجاني لتطبيق تعليمي"]
+keywords: ["الأسئلة الشائعة عن منصة Learning Clarity للدراسة", "أسئلة شائعة عن LearningClarity", "تكلفة LearningClarity", "رفع ملفات PDF للمذاكرة", "رصيد مجاني لتطبيق تعليمي"]
 tags: [LearningClarity, LearningClarityAI, أسئلة_شائعة, الذكاء_الاصطناعي, التعليم_الإلكتروني, نصائح_دراسية, مذاكرة, التعلم_الذاتي, طلاب, تعليم, FAQ, EdTech, StudyTips]
 ad:
   color: purple
@@ -41,11 +41,11 @@ scenes:
     alt: "أميرة إلى مكتبها ليلًا، تميل نحو حاسوبها تحت ضوء المصباح وقد اتضحت لها الفكرة"
     caption: "خطوة بخطوة، حتى تتضح الفكرة أخيرًا."
     prompt: "Amira, a fictional woman in her early forties with curly black hair tied in a loose bun, wearing a rust-coloured cardigan over a cream blouse and thin round reading glasses, sits at a small home desk late in the evening, leaning towards an open laptop whose screen faces away from the camera, one hand on her chin, nodding slowly as an idea finally clicks, a pen resting on an open paper notebook beside her. The only light is a warm desk lamp and the soft glow of the laptop on her face, a dark window with faint reflections behind her. Over-the-shoulder close-up from the side, shallow depth of field. Mood: focused, quiet understanding."
-faq_heading: "أسئلة شائعة عن تطبيق الدراسة بالذكاء الاصطناعي"
+faq_heading: "الأسئلة الشائعة عن منصة Learning Clarity للدراسة"
 faq:
   - group: "البداية"
     q: "ما هو LearningClarity؟"
-    a: "LearningClarity تطبيق للدراسة بالذكاء الاصطناعي يعمل على الويب وiPhone وAndroid. يحوّل أي موضوع تصفه، أو ملاحظاتك وملفات PDF الخاصة بك، إلى دروس خطوة بخطوة واختبارات قصيرة وامتحانات بوقت محدد وحلقات بودكاست ودروس صوتية مع معلّم يحاورك، ويمكن أن تنتهي رحلتك بشهادة يستطيع أي أحد التحقق منها."
+    a: "LearningClarity منصة للدراسة بالذكاء الاصطناعي تعمل على الويب وiPhone وAndroid. يحوّل أي موضوع تصفه، أو ملاحظاتك وملفات PDF الخاصة بك، إلى دروس خطوة بخطوة واختبارات قصيرة وامتحانات بوقت محدد وحلقات بودكاست ودروس صوتية مع معلّم يحاورك، ويمكن أن تنتهي رحلتك بشهادة يستطيع أي أحد التحقق منها."
   - group: "البداية"
     q: "لمن صُمّم LearningClarity؟"
     a: "للمتعلّمين الأفراد، والطلاب الذين يستعدّون للامتحانات، والآباء والأمهات الذين يساعدون أبناءهم، والمعلّمين، وفرق العمل التي تدرّب موظفيها. وتُصاغ الشروح والأسئلة بما يناسب عمر المتعلّم، المأخوذ من تاريخ الميلاد المُدخل عند التسجيل."
@@ -249,7 +249,7 @@ faq:
     a: "في تطبيق الجوال: افتح ملفك الشخصي، وانتقل إلى **إجراءات الحساب (Account Actions)**، واختر **حذف الحساب (Delete Account)**، ثم أكّد بكتابة DELETE. الحذف فوري ونهائي، ويزيل محتواك ورصيدك غير المستخدم وشهاداتك، لذلك نزّل ملفات PDF لشهاداتك أولًا. [احذف حسابك](https://www.learningclarity.ai/help/delete-account/)."
 ---
 
-هل أنت جديد على LearningClarity، أو تريد أن تعرف إن كان يناسب طريقتك في الدراسة؟ جمعنا في هذه الصفحة أكثر الأسئلة شيوعًا عن **تطبيق الدراسة بالذكاء الاصطناعي** LearningClarity، من التكلفة إلى الملفات التي يمكنك رفعها وطريقة الحصول على الشهادات. الإجابات مأخوذة من الصفحة الرئيسية للمنصة ومن [مركز المساعدة في LearningClarity](https://www.learningclarity.ai/help/)، حيث تجد دليلًا كاملًا لكل موضوع.
+هل أنت جديد على LearningClarity، أو تريد أن تعرف إن كان يناسب طريقتك في الدراسة؟ جمعنا في هذه الصفحة أكثر الأسئلة شيوعًا عن **منصة Learning Clarity للدراسة**، من التكلفة إلى الملفات التي يمكنك رفعها وطريقة الحصول على الشهادات. الإجابات مأخوذة من الصفحة الرئيسية للمنصة ومن [مركز المساعدة في LearningClarity](https://www.learningclarity.ai/help/)، حيث تجد دليلًا كاملًا لكل موضوع.
 
 تجيب صفحة الأسئلة الشائعة هذه عن أكثر من 60 سؤالًا شائعًا عن LearningClarity، مرتّبة حسب الموضوع. وحيثما يوجد دليل كامل في مركز المساعدة، تجد رابطه في نهاية الإجابة.
 

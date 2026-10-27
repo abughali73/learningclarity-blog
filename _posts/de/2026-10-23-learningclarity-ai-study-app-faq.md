@@ -1,13 +1,13 @@
 ---
-title: "KI-Lern-App LearningClarity: Antworten auf die häufigsten Fragen"
-description: "FAQ zur KI-Lern-App: Was LearningClarity kostet, welche Dateien Sie hochladen können, Gratis-Credits, Sprachen, Datenschutz, Podcasts und Zertifikate."
+title: "FAQ zur Lernplattform Learning Clarity: Ihre Fragen beantwortet"
+description: "FAQ zur Lernplattform Learning Clarity: Kosten, Datei-Uploads, Gratis-Credits, Sprachen, Datenschutz, Podcasts, Zertifikate und über 60 weitere Antworten."
 date: 2026-10-23 18:06:25 +0300
 last_modified_at: 2026-10-27 13:40:00 +0300
 lang: de
 ref: learningclarity-ai-study-app-faq
 capability: faq
 image: "/assets/img/posts/learningclarity-ai-study-app-faq-cinematic.webp"
-keywords: ["KI-Lern-App", "LearningClarity Fragen", "was kostet LearningClarity", "PDF-Skripte hochladen und lernen", "KI-Lern-App kostenlose Credits"]
+keywords: ["FAQ zur Lernplattform Learning Clarity", "LearningClarity Fragen", "was kostet LearningClarity", "PDF-Skripte hochladen und lernen", "KI-Lern-App kostenlose Credits"]
 tags: [LearningClarity, LearningClarityAI, FAQ, KünstlicheIntelligenz, LernApp, Lerntipps, Prüfungsvorbereitung, OnlineLernen, Studium, Lernen, Weiterbildung, EdTech, AIinEducation, LifelongLearning]
 ad:
   color: purple
@@ -41,11 +41,11 @@ scenes:
     alt: "Amira abends am Schreibtisch, unter der Schreibtischlampe zum Laptop gebeugt, als die Erklärung endlich sitzt"
     caption: "Schritt für Schritt, bis die Idee endlich klar ist."
     prompt: "Amira, a fictional woman in her early forties with curly black hair tied in a loose bun, wearing a rust-coloured cardigan over a cream blouse and thin round reading glasses, sits at a small home desk late in the evening, leaning towards an open laptop whose screen faces away from the camera, one hand on her chin, nodding slowly as an idea finally clicks, a pen resting on an open paper notebook beside her. The only light is a warm desk lamp and the soft glow of the laptop on her face, a dark window with faint reflections behind her. Over-the-shoulder close-up from the side, shallow depth of field. Mood: focused, quiet understanding."
-faq_heading: "FAQ zur KI-Lern-App: die häufigsten Fragen"
+faq_heading: "FAQ zur Lernplattform Learning Clarity: die häufigsten Fragen"
 faq:
   - group: "Erste Schritte"
     q: "Was ist LearningClarity?"
-    a: "LearningClarity ist eine KI-Lern-App für Web, iPhone und Android. Sie macht aus jedem Thema, das Sie beschreiben, oder aus Ihren eigenen Notizen und PDF-Dateien Schritt-für-Schritt-Lektionen, Quizze, Prüfungen mit Zeitvorgabe, Podcasts und gesprochene Nachhilfe, und am Ende kann ein Zertifikat stehen, das jeder überprüfen kann."
+    a: "LearningClarity ist eine KI-gestützte Lernplattform für Web, iPhone und Android. Sie macht aus jedem Thema, das Sie beschreiben, oder aus Ihren eigenen Notizen und PDF-Dateien Schritt-für-Schritt-Lektionen, Quizze, Prüfungen mit Zeitvorgabe, Podcasts und gesprochene Nachhilfe, und am Ende kann ein Zertifikat stehen, das jeder überprüfen kann."
   - group: "Erste Schritte"
     q: "Für wen ist LearningClarity gedacht?"
     a: "Für alle, die allein lernen, für Studierende und Schüler vor Prüfungen, für Eltern, die ihr Kind unterstützen, für Lehrkräfte und für Teams, die Mitarbeitende schulen. Erklärungen und Fragen sind auf das Alter der lernenden Person abgestimmt, das sich aus dem bei der Registrierung angegebenen Geburtsdatum ergibt."
@@ -249,7 +249,7 @@ faq:
     a: "In der mobilen App: Öffnen Sie Ihr Profil, gehen Sie zu **Account Actions (Kontoaktionen)**, wählen Sie **Delete Account (Konto löschen)** und bestätigen Sie durch Eintippen von DELETE. Die Löschung erfolgt sofort und endgültig und entfernt Ihre Inhalte, nicht genutzte Credits und Zertifikate. Laden Sie deshalb vorher alle Zertifikate als PDF herunter. [Konto löschen](https://www.learningclarity.ai/help/delete-account/)."
 ---
 
-Sie sind neu bei LearningClarity oder überlegen noch, ob es zu Ihrer Art zu lernen passt? Diese **FAQ zur KI-Lern-App** sammelt die Fragen, die am häufigsten gestellt werden – von den Kosten über die Dateien, die Sie hochladen können, bis zur Frage, wie Zertifikate funktionieren. Die Antworten stammen von der Startseite von LearningClarity und aus dem [Hilfe-Center von LearningClarity](https://www.learningclarity.ai/help/), in dem es zu jedem Thema eine ausführliche Anleitung gibt.
+Sie sind neu bei LearningClarity oder überlegen noch, ob es zu Ihrer Art zu lernen passt? Diese **FAQ zur Lernplattform Learning Clarity** sammelt die Fragen, die am häufigsten gestellt werden – von den Kosten über die Dateien, die Sie hochladen können, bis zur Frage, wie Zertifikate funktionieren. Die Antworten stammen von der Startseite von LearningClarity und aus dem [Hilfe-Center von LearningClarity](https://www.learningclarity.ai/help/), in dem es zu jedem Thema eine ausführliche Anleitung gibt.
 
 Diese FAQ beantwortet mehr als 60 häufige Fragen zu LearningClarity, nach Themen geordnet. Wo es eine ausführliche Anleitung im Hilfe-Center gibt, ist sie bei der jeweiligen Antwort verlinkt.
 

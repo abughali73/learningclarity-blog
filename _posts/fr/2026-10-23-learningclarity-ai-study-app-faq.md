@@ -1,13 +1,13 @@
 ---
-title: "Application de révision IA : toutes les réponses de la FAQ"
-description: "FAQ de l'application de révision IA LearningClarity : prix, fichiers acceptés, crédits gratuits, langues, sécurité des données, podcasts et certificats."
+title: "FAQ de la plateforme d'étude Learning Clarity : vos réponses"
+description: "FAQ de la plateforme d'étude Learning Clarity : prix, fichiers acceptés, crédits gratuits, langues, sécurité, podcasts, certificats et plus de 60 réponses."
 date: 2026-10-23 18:06:25 +0300
 last_modified_at: 2026-10-27 13:40:00 +0300
 lang: fr
 ref: learningclarity-ai-study-app-faq
 capability: faq
 image: "/assets/img/posts/learningclarity-ai-study-app-faq-cinematic.webp"
-keywords: ["application de révision IA", "questions sur LearningClarity", "prix de LearningClarity", "réviser ses PDF avec l'IA", "crédits gratuits application IA"]
+keywords: ["FAQ de la plateforme d'étude Learning Clarity", "questions sur LearningClarity", "prix de LearningClarity", "réviser ses PDF avec l'IA", "crédits gratuits application IA"]
 tags: [LearningClarity, LearningClarityAI, FAQ, IntelligenceArtificielle, ApprentissageEnLigne, EducationNumerique, ConseilsEtudes, Etudiants, Enseignants, Parents, Apprendre, EdTech, AIinEducation, LifelongLearning]
 ad:
   color: purple
@@ -41,11 +41,11 @@ scenes:
     alt: "Amira à son bureau le soir, penchée vers son ordinateur sous une lampe, au moment où l'explication devient claire"
     caption: "Pas à pas, jusqu'à ce que l'idée devienne enfin claire."
     prompt: "Amira, a fictional woman in her early forties with curly black hair tied in a loose bun, wearing a rust-coloured cardigan over a cream blouse and thin round reading glasses, sits at a small home desk late in the evening, leaning towards an open laptop whose screen faces away from the camera, one hand on her chin, nodding slowly as an idea finally clicks, a pen resting on an open paper notebook beside her. The only light is a warm desk lamp and the soft glow of the laptop on her face, a dark window with faint reflections behind her. Over-the-shoulder close-up from the side, shallow depth of field. Mood: focused, quiet understanding."
-faq_heading: "Application de révision IA : les questions les plus fréquentes"
+faq_heading: "FAQ de la plateforme d'étude Learning Clarity : les questions les plus fréquentes"
 faq:
   - group: "Bien démarrer"
     q: "Qu'est-ce que LearningClarity ?"
-    a: "LearningClarity est une application de révision IA pour le web, l'iPhone et Android. Elle transforme n'importe quel sujet que vous décrivez, ou vos propres notes et PDF, en leçons pas à pas, quiz, examens chronométrés, podcasts et tutorat vocal, et peut se conclure par un certificat que tout le monde peut vérifier."
+    a: "LearningClarity est une plateforme d'étude avec IA pour le web, l'iPhone et Android. Elle transforme n'importe quel sujet que vous décrivez, ou vos propres notes et PDF, en leçons pas à pas, quiz, examens chronométrés, podcasts et tutorat vocal, et peut se conclure par un certificat que tout le monde peut vérifier."
   - group: "Bien démarrer"
     q: "À qui s'adresse LearningClarity ?"
     a: "Aux apprenants individuels, aux étudiants qui préparent un examen, aux parents qui aident leur enfant, aux enseignants et aux équipes qui forment leur personnel. Les explications et les questions sont adaptées à l'âge de l'apprenant, déterminé à partir de la date de naissance indiquée à l'inscription."
@@ -249,7 +249,7 @@ faq:
     a: "Dans l'application mobile : ouvrez votre profil, allez dans **Account Actions (actions sur le compte)**, choisissez **Delete Account (supprimer le compte)** et confirmez en tapant DELETE. La suppression est immédiate et définitive, et efface vos contenus, vos crédits non utilisés et vos certificats : téléchargez donc d'abord les PDF de vos certificats. [Supprimer votre compte](https://www.learningclarity.ai/help/delete-account/)."
 ---
 
-Vous découvrez LearningClarity, ou vous vous demandez s'il correspond à votre façon d'étudier ? Cette FAQ sur notre **application de révision IA** rassemble les questions les plus fréquentes, du prix aux fichiers que vous pouvez importer, en passant par le fonctionnement des certificats. Les réponses proviennent de la page d'accueil de LearningClarity et du [centre d'aide LearningClarity](https://www.learningclarity.ai/help/), où chaque thème dispose d'un guide complet.
+Vous découvrez LearningClarity, ou vous vous demandez s'il correspond à votre façon d'étudier ? Cette **FAQ de la plateforme d'étude Learning Clarity** rassemble les questions les plus fréquentes, du prix aux fichiers que vous pouvez importer, en passant par le fonctionnement des certificats. Les réponses proviennent de la page d'accueil de LearningClarity et du [centre d'aide LearningClarity](https://www.learningclarity.ai/help/), où chaque thème dispose d'un guide complet.
 
 Cette FAQ répond à plus de 60 questions fréquentes sur LearningClarity, regroupées par thème. Chaque réponse renvoie, lorsqu'il en existe un, au guide complet du centre d'aide.
 
