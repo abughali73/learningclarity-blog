@@ -33,6 +33,10 @@ hero_image:
   alt: "Alicia, étudiante en médecine, révise l'embryologie à son bureau tard le soir à côté de notes imprimées"
   prompt: "Mid-shot at a cluttered wooden desk in a small student flat late at night. Alicia, a fictional 22-year-old medical student with shoulder-length wavy chestnut-brown hair clipped back, light freckled skin and thin gold-rimmed glasses, wearing a dark green hoodie over a white T-shirt, leans over a printed, stapled notes document with no readable text, a yellow highlighter in her hand, a calm, focused half-smile. An open anatomy textbook with soft drawings of cells and no readable text lies beside her, and a laptop sits at the edge of the desk with its screen facing away from the camera. A single warm desk lamp pools golden light over the pages; deep blue night in the window behind her. Eye level, shallow depth of field. No text, logos or real people. Mood: quiet focus, things finally making sense."
 scenes:
+  - src: /assets/img/posts/embryology-study-notes-medical-student-scene-8.webp
+    alt: "Alicia en blouse lisant un message sur son téléphone dans un couloir d'hôpital, la nuit"
+    caption: "Lundi, 21 h 40 : l'oral, c'est vendredi."
+    prompt: "Monday 21:40 in a quiet hospital teaching corridor. Alicia, a fictional 22-year-old medical student with shoulder-length wavy chestnut-brown hair clipped back, light freckled skin and thin gold-rimmed glasses, wearing a white lab coat over a dark green hoodie, stops beside a tall window and reads a message on her phone, the screen turned away from the camera, her eyebrows lifting as the deadline sinks in. Cool fluorescent light above, the city's blue night outside the window, an empty bench and a stethoscope hanging from her coat pocket. Medium close-up from a low angle, the corridor receding behind her. No text, logos or real people. Mood: a jolt, the week has just changed."
   - src: /assets/img/posts/embryology-study-notes-medical-student-scene-1.webp
     alt: "Schéma légendé : le zygote se divise en deux, quatre puis huit blastomères ou plus à l'intérieur de la zone pellucide"
     caption: "Lundi : Visualize résume la segmentation en une image claire."
@@ -41,14 +45,10 @@ scenes:
     alt: "Encadré « Show me a video » avec trois vidéos suggérées sur la fécondation, la segmentation et la blastulation, et une note clinique"
     caption: "Show me a video : des vidéos suggérées pour chaque notion."
     prompt: "Existing image: a Show me a video box listing three suggested YouTube videos on fertilization, cleavage and blastulation, with a clinical-anchor callout."
-  - src: /assets/img/posts/embryology-study-notes-medical-student-scene-3.webp
-    alt: "Schéma légendé : du liquide entre dans la morula, une cavité se forme, trophoblaste et embryoblaste se séparent, puis le blastocyste éclot"
-    caption: "Mardi : de la morula au blastocyste, étape par étape."
-    prompt: "Existing image: a labelled Visualize diagram titled From Morula to Blastocyst, showing fluid entering, the cavity forming, trophoblast, embryoblast and hatching."
-  - src: /assets/img/posts/embryology-study-notes-medical-student-scene-4.webp
-    alt: "Schéma de la nidation en trois étapes : apposition, adhésion et invasion"
-    caption: "La nidation en trois étapes : apposition, adhésion, invasion."
-    prompt: "Existing image: a diagram titled Positive pregnancy test, but no pregnancy yet visible on ultrasound, showing implantation in three steps: apposition, adhesion and invasion."
+  - src: /assets/img/posts/embryology-study-notes-medical-student-scene-9.webp
+    alt: "Alicia dans le bus à l'aube, écoutant avec un écouteur"
+    caption: "Mardi, 7 h 15 : Listen dans le bus."
+    prompt: "Tuesday 07:15 on a city bus at dawn. Alicia, a fictional 22-year-old medical student with shoulder-length wavy chestnut-brown hair clipped back, light freckled skin and thin gold-rimmed glasses, wearing a navy wool coat over a dark green hoodie and a grey scarf, sits by the window with one wireless earbud in, eyes half-closed as she listens, a phone resting face-down on her knee and a small backpack on her lap. Soft pink-orange sunrise light through the fogged bus window, streetlights blurring past, a few sleepy commuters out of focus. Side-on mid-shot at eye level, shallow depth of field. No text, logos or real people. Mood: calm, learning on the move."
   - src: /assets/img/posts/embryology-study-notes-medical-student-scene-5.webp
     alt: "La note jaune d'Alicia sous les étapes de l'hCG : les étapes sont importantes pour distinguer les stades"
     caption: "Mercredi : la note personnelle d'Alicia sur l'étape de l'hCG."
@@ -57,10 +57,10 @@ scenes:
     alt: "Schéma : le trophoblaste se différencie et le syncytiotrophoblaste envahit la muqueuse et sécrète l'hCG"
     caption: "Pourquoi un test de grossesse devient positif : l'hCG du syncytiotrophoblaste."
     prompt: "Existing image: a diagram titled Missed period + positive urine pregnancy test, showing the trophoblast differentiating and the syncytiotrophoblast invading and secreting hCG."
-  - src: /assets/img/posts/embryology-study-notes-medical-student-scene-7.webp
-    alt: "Surlignage jaune sur le passage « La localisation compte en clinique » sur l'implantation ectopique, avec des vidéos suggérées"
-    caption: "Jeudi : le passage sur l'implantation ectopique, surligné."
-    prompt: "Existing image: yellow highlighting on the Location Matters Clinically passage about ectopic implantation, with suggested ectopic-pregnancy videos."
+  - src: /assets/img/posts/embryology-study-notes-medical-student-scene-10.webp
+    alt: "Alicia expliquant calmement à son examinateur dans une salle lambrissée"
+    caption: "Vendredi : du zygote à l'implantation, dans l'ordre."
+    prompt: "Friday afternoon in a small wood-panelled university examination room. Alicia, a fictional 22-year-old medical student with shoulder-length wavy chestnut-brown hair clipped back, light freckled skin and thin gold-rimmed glasses, wearing a crisp white blouse under a white lab coat, sits upright at a table and explains with one hand open mid-gesture, calm and confident. Across the table a fictional examiner, a man in his late fifties with grey hair, a trimmed grey beard and a tweed jacket, leans back with his arms folded and a small approving nod; a closed anatomy model of a uterus and a glass of water sit on the table. Warm late-afternoon light slanting through a tall window, dust in the air. Over-the-shoulder shot from behind the examiner, Alicia in focus. No text, logos or real people. Mood: quiet pride, the payoff."
 faq:
   - q: "LearningClarity peut-il m'expliquer l'embryologie pas à pas ?"
     a: "Oui. Explain Mode (mode explication) enseigne un sous-thème en courtes sections, une à la fois, et vous passez à la suivante avec « Suivant » quand vous êtes prêt. Simplify (simplifier) reformule la section plus simplement, et vous pouvez poser votre propre question ou demander un exemple."
@@ -73,29 +73,29 @@ faq:
 
 ## Lundi soir : des fiches d'embryologie, section par section
 
+{% include scene.html n=1 %}
+
 « Relire le manuel ne m'emmènera pas jusqu'à vendredi. Il me faut des fiches d'embryologie que je comprends vraiment, pas davantage de pages surlignées.
 
 J'ai ouvert [la plateforme d'étude LearningClarity](https://www.learningclarity.ai) et j'ai tapé mon cours : "Embryologie humaine et développement fœtal pour étudiants en deuxième année de médecine". Elle a créé le sujet et ses sous-thèmes. J'en ai choisi un : segmentation, formation du blastocyste et nidation.
 
 Explain Mode (mode explication) me l'enseigne en courtes sections, une à la fois, et chacune s'ouvre sur un bref cas clinique. D'abord la segmentation : le zygote se divise en deux, quatre, huit blastomères et plus, chacun plus petit que le précédent, tous encore dans la zone pellucide. J'ai appuyé sur Visualize (visualiser). »
 
-{% include scene.html n=1 %}
+{% include scene.html n=2 %}
 
 « "Help me remember" (aide-moi à retenir) m'a donné : *Un, deux, plein, emballés.* Puis "Show me a video" (montre-moi une vidéo) m'a proposé des explications sur YouTube : une sur la fécondation, la segmentation et la blastulation, et une vidéo de Khan Academy sur l'embryogenèse précoce. J'en ai regardé deux avant de dormir. »
 
-{% include scene.html n=2 %}
+{% include scene.html n=3 %}
 
 ## Mardi : morula, blastocyste et badge à scratch
+
+{% include scene.html n=4 %}
 
 « **7 h 15, dans le bus.** J'ai appuyé sur Listen (écouter) pour qu'il me lise la section sur la morula : une boule d'environ 16 cellules, puis la compaction, quand les cellules se serrent les unes contre les autres. Pour retenir : *petit tas de mûres.*
 
 **Le soir.** Du liquide entre, une cavité se forme et les cellules se séparent en un trophoblaste externe et un embryoblaste interne. Puis le blastocyste éclot hors de la zone pellucide. *Un kyste avec un nid de cellules.* Un encadré "Common mistake" (erreur fréquente) m'a arrêtée : le trophoblaste n'est pas l'embryon lui-même. »
 
-{% include scene.html n=3 %}
-
 « Apposition, adhésion, invasion : là, j'ai décroché. J'ai appuyé sur "Explain simpler" (explique plus simplement), puis sur "Give me an example" (donne-moi un exemple) : un badge à scratch. D'abord il se pose sans tenir sur la veste, puis il accroche, puis les crochets s'enfoncent. *A, puis A, puis I.* »
-
-{% include scene.html n=4 %}
 
 ## Mercredi : le quiz qui m'a piégée
 
@@ -113,11 +113,11 @@ De retour dans Explain Mode, l'encadré erreur fréquente était net : c'est le 
 
 « Dernière section : la localisation compte en clinique. Une implantation hors de la cavité utérine est une grossesse extra-utérine, le plus souvent dans la trompe, et le cours la signale comme un signe d'alerte. J'ai surligné le passage et regardé une des vidéos suggérées. »
 
-{% include scene.html n=7 %}
-
 « Puis le résumé de la séquence et le dernier moyen mnémotechnique : *Couper, compacter, creuser, éclore, s'accrocher.* Tout se trouve maintenant dans un seul PDF, "Cleavage, Blastocyst Formation, and Implantation - My Notes" : les sections, les schémas, ma note, mon surlignage, les liens vidéo, les exemples et les aide-mémoire. »
 
 ## Vendredi : l'oral
+
+{% include scene.html n=7 %}
 
 « Le Dr Haddad s'est adossé. "Emmenez-moi du zygote à la nidation." Je ne me suis pas précipitée : segmentation, morula et compaction, blastocyste, éclosion, puis apposition, adhésion, invasion. "Et qui produit l'hCG ?" Le syncytiotrophoblaste. Il a hoché la tête une fois. "Clair, et dans le bon ordre. C'est ce que je voulais entendre." »
 

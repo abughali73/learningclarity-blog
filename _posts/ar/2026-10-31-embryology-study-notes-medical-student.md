@@ -33,6 +33,10 @@ hero_image:
   alt: "أليسيا، طالبة الطب، تذاكر علم الأجنة على مكتبها في وقت متأخر من الليل بجانب ملف ملاحظات مطبوع"
   prompt: "Mid-shot at a cluttered wooden desk in a small student flat late at night. Alicia, a fictional 22-year-old medical student with shoulder-length wavy chestnut-brown hair clipped back, light freckled skin and thin gold-rimmed glasses, wearing a dark green hoodie over a white T-shirt, leans over a printed, stapled notes document with no readable text, a yellow highlighter in her hand, a calm, focused half-smile. An open anatomy textbook with soft drawings of cells and no readable text lies beside her, and a laptop sits at the edge of the desk with its screen facing away from the camera. A single warm desk lamp pools golden light over the pages; deep blue night in the window behind her. Eye level, shallow depth of field. No text, logos or real people. Mood: quiet focus, things finally making sense."
 scenes:
+  - src: /assets/img/posts/embryology-study-notes-medical-student-scene-8.webp
+    alt: "أليسيا بمعطف المختبر تقرأ رسالة على هاتفها في ممر المستشفى ليلًا"
+    caption: "الاثنين، 21:40: الامتحان الشفهي يوم الجمعة."
+    prompt: "Monday 21:40 in a quiet hospital teaching corridor. Alicia, a fictional 22-year-old medical student with shoulder-length wavy chestnut-brown hair clipped back, light freckled skin and thin gold-rimmed glasses, wearing a white lab coat over a dark green hoodie, stops beside a tall window and reads a message on her phone, the screen turned away from the camera, her eyebrows lifting as the deadline sinks in. Cool fluorescent light above, the city's blue night outside the window, an empty bench and a stethoscope hanging from her coat pocket. Medium close-up from a low angle, the corridor receding behind her. No text, logos or real people. Mood: a jolt, the week has just changed."
   - src: /assets/img/posts/embryology-study-notes-medical-student-scene-1.webp
     alt: "مخطط موسوم: البيضة الملقّحة تنقسم إلى خليتين ثم أربع ثم ثماني قسيمات أريمية أو أكثر داخل المنطقة الشفافة"
     caption: "الاثنين: التصوير (Visualize) يجعل التفلّج صورة واحدة واضحة."
@@ -41,14 +45,10 @@ scenes:
     alt: "مربع \"أرني فيديو\" يقترح ثلاثة مقاطع عن الإخصاب والتفلّج وتكوّن الأريمة، مع ملاحظة سريرية"
     caption: "أرني فيديو: مقاطع مقترحة تشرح كل مفهوم."
     prompt: "Existing image: a Show me a video box listing three suggested YouTube videos on fertilization, cleavage and blastulation, with a clinical-anchor callout."
-  - src: /assets/img/posts/embryology-study-notes-medical-student-scene-3.webp
-    alt: "مخطط موسوم: يدخل السائل إلى التوتة، فيتكوّن تجويف، وتنفصل الأرومة الغاذية عن الأرومة المضغية، ثم تفقس الكيسة الأريمية"
-    caption: "الثلاثاء: من التوتة إلى الكيسة الأريمية خطوة بخطوة."
-    prompt: "Existing image: a labelled Visualize diagram titled From Morula to Blastocyst, showing fluid entering, the cavity forming, trophoblast, embryoblast and hatching."
-  - src: /assets/img/posts/embryology-study-notes-medical-student-scene-4.webp
-    alt: "مخطط للانغراس في ثلاث خطوات: التقارب ثم الالتصاق ثم الغزو"
-    caption: "الانغراس في ثلاث خطوات: تقارب، التصاق، غزو."
-    prompt: "Existing image: a diagram titled Positive pregnancy test, but no pregnancy yet visible on ultrasound, showing implantation in three steps: apposition, adhesion and invasion."
+  - src: /assets/img/posts/embryology-study-notes-medical-student-scene-9.webp
+    alt: "أليسيا في الحافلة عند الفجر تستمع بسماعة واحدة"
+    caption: "الثلاثاء، 07:15: الاستماع (Listen) في الحافلة."
+    prompt: "Tuesday 07:15 on a city bus at dawn. Alicia, a fictional 22-year-old medical student with shoulder-length wavy chestnut-brown hair clipped back, light freckled skin and thin gold-rimmed glasses, wearing a navy wool coat over a dark green hoodie and a grey scarf, sits by the window with one wireless earbud in, eyes half-closed as she listens, a phone resting face-down on her knee and a small backpack on her lap. Soft pink-orange sunrise light through the fogged bus window, streetlights blurring past, a few sleepy commuters out of focus. Side-on mid-shot at eye level, shallow depth of field. No text, logos or real people. Mood: calm, learning on the move."
   - src: /assets/img/posts/embryology-study-notes-medical-student-scene-5.webp
     alt: "ملاحظة أليسيا الصفراء تحت خطوات هرمون hCG: الخطوات مهمة للتمييز بين المراحل"
     caption: "الأربعاء: ملاحظة أليسيا الخاصة على خطوة hCG."
@@ -57,10 +57,10 @@ scenes:
     alt: "مخطط: تتمايز الأرومة الغاذية، فتغزو الأرومة الغاذية المخلوية جدار الرحم ويفرز هرمون hCG"
     caption: "لماذا يصبح اختبار الحمل المنزلي إيجابيًا: hCG من الأرومة الغاذية المخلوية."
     prompt: "Existing image: a diagram titled Missed period + positive urine pregnancy test, showing the trophoblast differentiating and the syncytiotrophoblast invading and secreting hCG."
-  - src: /assets/img/posts/embryology-study-notes-medical-student-scene-7.webp
-    alt: "تظليل أصفر على فقرة \"الموضع مهم سريريًا\" عن الانغراس خارج الرحم، مع مقاطع فيديو مقترحة"
-    caption: "الخميس: فقرة الانغراس خارج الرحم، مظلّلة."
-    prompt: "Existing image: yellow highlighting on the Location Matters Clinically passage about ectopic implantation, with suggested ectopic-pregnancy videos."
+  - src: /assets/img/posts/embryology-study-notes-medical-student-scene-10.webp
+    alt: "أليسيا تشرح بهدوء للممتحن في قاعة امتحان خشبية الجدران"
+    caption: "الجمعة: من البيضة المخصبة إلى الانغراس، بالترتيب الصحيح."
+    prompt: "Friday afternoon in a small wood-panelled university examination room. Alicia, a fictional 22-year-old medical student with shoulder-length wavy chestnut-brown hair clipped back, light freckled skin and thin gold-rimmed glasses, wearing a crisp white blouse under a white lab coat, sits upright at a table and explains with one hand open mid-gesture, calm and confident. Across the table a fictional examiner, a man in his late fifties with grey hair, a trimmed grey beard and a tweed jacket, leans back with his arms folded and a small approving nod; a closed anatomy model of a uterus and a glass of water sit on the table. Warm late-afternoon light slanting through a tall window, dust in the air. Over-the-shoulder shot from behind the examiner, Alicia in focus. No text, logos or real people. Mood: quiet pride, the payoff."
 faq:
   - q: "هل تستطيع LearningClarity شرح علم الأجنة خطوة بخطوة؟"
     a: "نعم. يعلّمك وضع الشرح (Explain Mode) الموضوع الفرعي قسمًا قصيرًا في كل مرة، وتنتقل بالضغط على \"التالي\" حين تكون مستعدًا. ويعيد التبسيط (Simplify) صياغة القسم بكلمات أبسط، ويمكنك طرح سؤالك أو طلب مثال."
@@ -73,29 +73,29 @@ faq:
 
 ## ليلة الاثنين: ملخص علم الأجنة قسمًا بعد قسم
 
+{% include scene.html n=1 %}
+
 "إعادة قراءة الكتاب لن توصلني إلى الجمعة. أحتاج إلى ملخص علم الأجنة أفهمه فعلًا، لا إلى مزيد من الصفحات المظلّلة.
 
 فتحتُ [منصة LearningClarity للدراسة](https://www.learningclarity.ai) وكتبتُ اسم مقرري: 'علم الأجنة البشري ونمو الجنين لطلاب السنة الثانية في كلية الطب'. فأنشأت الموضوع ومواضيعه الفرعية، واخترتُ واحدًا منها: التفلّج وتكوّن الكيسة الأريمية والانغراس.
 
 يعلّمني وضع الشرح (Explain Mode) الموضوع قسمًا قصيرًا في كل مرة، ويبدأ كل قسم بحالة سريرية قصيرة. البداية مع التفلّج: تنقسم البيضة الملقّحة إلى خليتين ثم أربع ثم ثمانٍ وأكثر، وكل قسيمة أريمية أصغر من سابقتها، وكلها ما زالت داخل المنطقة الشفافة. ضغطتُ زر التصوير (Visualize)."
 
-{% include scene.html n=1 %}
+{% include scene.html n=2 %}
 
 "أعطاني زر 'ساعدني على التذكّر' (Help me remember) عبارة: *واحدة، اثنتان، كثيرة، مغلّفة.* ثم اقترح زر 'أرني فيديو' (Show me a video) مقاطع على يوتيوب: واحدًا عن الإخصاب والتفلّج وتكوّن الأريمة، ومقطعًا من Khan Academy عن المراحل الأولى لتكوّن الجنين. شاهدتُ اثنين قبل النوم."
 
-{% include scene.html n=2 %}
+{% include scene.html n=3 %}
 
 ## الثلاثاء: التوتة والكيسة الأريمية وبطاقة الاسم
+
+{% include scene.html n=4 %}
 
 "**07:15، في الحافلة.** ضغطتُ زر الاستماع (Listen) فقرأ لي قسم التوتة بصوت عالٍ: كرة من نحو 16 خلية، ثم الانضغاط حين تتلاصق الخلايا بإحكام. للتذكّر: *تلّة التوت.*
 
 **في المساء.** يتسرّب السائل إلى الداخل، فيتكوّن تجويف، وتنفصل الخلايا إلى أرومة غاذية في الخارج وأرومة مضغية في الداخل. ثم تفقس الكيسة الأريمية من المنطقة الشفافة. *كيسة فيها عشّ من الخلايا.* وأوقفني تنبيه 'خطأ شائع' (Common mistake): الأرومة الغاذية ليست الجنين نفسه."
 
-{% include scene.html n=3 %}
-
 "ضعتُ عند التقارب والالتصاق والغزو، فضغطتُ 'اشرح بشكل أبسط' (Explain simpler)، ثم 'أعطني مثالًا' (Give me an example): بطاقة اسم بشريط لاصق خشن. في البداية تستقر على السترة بخفة، ثم تتشبّث بها، ثم تنغرز خطافاتها. *تقارب، فالتصاق، فغزو.*"
-
-{% include scene.html n=4 %}
 
 ## الأربعاء: الاختبار الذي كشفني
 
@@ -113,11 +113,11 @@ faq:
 
 "القسم الأخير: الموضع مهم سريريًا. الانغراس خارج تجويف الرحم حمل خارج الرحم، وأكثر ما يحدث في قناة فالوب، والمقرر يعدّه علامة إنذار. ظلّلتُ الفقرة وشاهدتُ أحد المقاطع المقترحة."
 
-{% include scene.html n=7 %}
-
 "ثم جاء ملخص التسلسل وآخر عبارة للتذكّر: *اقسم، اضغط، جوّف، افقس، اغرس.* كل شيء صار الآن في ملف PDF واحد عنوانه 'Cleavage, Blastocyst Formation, and Implantation - My Notes': الأقسام والمخططات وملاحظتي وتظليلي وروابط الفيديو والأمثلة وعبارات التذكّر. قرأته مرتين ثم نمت."
 
 ## الجمعة: الامتحان الشفهي
+
+{% include scene.html n=7 %}
 
 "اتكأ الدكتور حداد إلى الخلف وقال: 'خذيني من البيضة الملقّحة إلى الانغراس.' لم أستعجل: التفلّج، ثم التوتة والانضغاط، ثم الكيسة الأريمية والفقس، ثم التقارب والالتصاق والغزو. 'ومن يفرز hCG؟' الأرومة الغاذية المخلوية. أومأ مرة واحدة: 'واضح، وبالترتيب الصحيح. هذا ما أردتُ سماعه.'"
 
