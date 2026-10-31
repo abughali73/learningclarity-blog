@@ -106,6 +106,8 @@ Tres semanas antes del examen, Ingrid mira el medidor un domingo por la noche: 7
 
 En todos los planes, pagar al año cuesta menos que doce pagos mensuales.
 
+**¿Ya compraste créditos?** No pierdes nada. Los créditos que ya compraste siguen funcionando como siempre hasta que se agoten.
+
 {% include scene.html n=4 %}
 
 Ingrid termina su semana de examen sin preguntarse ni una vez si puede permitirse otro cuestionario de práctica. Esa es la idea de los nuevos planes: tú te centras en aprender y el coste sigue siendo sencillo.

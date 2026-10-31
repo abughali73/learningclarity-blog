@@ -106,6 +106,8 @@ Three weeks before her exam, Ingrid checks the meter on a Sunday night: 70% used
 
 For every plan, paying yearly costs less than twelve monthly payments.
 
+**Already bought credits?** Nothing is lost. Credits you have already purchased keep working as before until they are used up.
+
 {% include scene.html n=4 %}
 
 Ingrid finishes her exam week without once wondering whether she can afford another practice quiz. That is the point of the new plans: you focus on learning, and the cost stays simple.

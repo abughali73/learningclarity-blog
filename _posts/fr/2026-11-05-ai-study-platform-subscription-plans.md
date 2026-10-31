@@ -106,6 +106,8 @@ Trois semaines avant l'examen, Ingrid consulte le compteur un dimanche soir : 70
 
 Pour chaque offre, le paiement annuel coûte moins cher que douze paiements mensuels.
 
+**Vous avez déjà acheté des crédits ?** Vous ne perdez rien. Les crédits déjà achetés continuent de fonctionner comme avant, jusqu'à épuisement.
+
 {% include scene.html n=4 %}
 
 Ingrid termine sa semaine d'examen sans s'être demandé une seule fois si elle pouvait s'offrir un quiz d'entraînement de plus. C'est tout l'esprit des nouvelles offres : vous vous concentrez sur l'apprentissage, et le coût reste simple.

@@ -106,6 +106,8 @@ Drei Wochen vor der Prüfung schaut Ingrid an einem Sonntagabend auf die Anzeige
 
 Bei jedem Tarif ist die jährliche Zahlung günstiger als zwölf Monatszahlungen.
 
+**Sie haben bereits Credits gekauft?** Es geht nichts verloren. Bereits gekaufte Credits funktionieren weiter wie bisher, bis sie aufgebraucht sind.
+
 {% include scene.html n=4 %}
 
 Ingrid beendet ihre Prüfungswoche, ohne sich ein einziges Mal zu fragen, ob sie sich noch ein Übungsquiz leisten kann. Darum geht es bei den neuen Tarifen: Sie konzentrieren sich aufs Lernen, und die Kosten bleiben einfach.
