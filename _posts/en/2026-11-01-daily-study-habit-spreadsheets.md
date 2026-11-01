@@ -1,5 +1,5 @@
 ---
-title: "Daily study habit: how Aisha learned spreadsheets in 15 minutes"
+title: "Daily study habit: how Aisha learned spreadsheets in 15 minutes a day"
 description: "A daily study habit of 15 minutes, a streak that broke on day 9 and a report due in 30 days: how a busy parent learned spreadsheets after bedtime."
 date: 2026-11-01 08:29:46 +0200
 lang: en
