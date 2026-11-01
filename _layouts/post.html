@@ -53,22 +53,7 @@ layout: default
   {%- endif %}
   {% include author-box.html key=author_key lang=page.lang %}
   {% include social.html lang=page.lang %}
-  {%- assign same_lang = site.posts | where: "lang", page.lang -%}
-  {%- assign shown = 0 -%}
-  {%- capture related -%}
-    {%- for p in same_lang -%}
-      {%- if p.url != page.url and shown < 3 -%}
-      {%- assign shown = shown | plus: 1 -%}
-      <li><a href="{{ p.url }}">{{ p.title }}</a></li>
-      {%- endif -%}
-    {%- endfor -%}
-  {%- endcapture -%}
-  {%- if shown > 0 %}
-  <nav class="related" aria-label="{{ t.related_label }}">
-    <h2>{{ t.keep_reading }}</h2>
-    <ul>{{ related }}</ul>
-  </nav>
-  {%- endif %}
+  {% include continue-reading.html %}
   <aside class="cta">
     <h2>{{ t.cta_title }}</h2>
     <p>{{ t.cta_text }}</p>

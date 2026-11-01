@@ -268,3 +268,20 @@ a:hover { color: var(--blue); }
   .nav-app img, .web-badge-sm { height: 32px; }
   .web-badge-sm strong { font-size: 13px; }
 }
+
+/* Continue reading cards at the end of each post */
+.related .cr-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.related .cr-list li { margin: 0; }
+.cr-card a { display: flex; flex-direction: column; height: 100%; border-radius: 18px; overflow: hidden; background: var(--card); border: 1px solid var(--line); text-decoration: none; color: var(--ink); }
+.cr-card a:hover { border-color: var(--blue-line); box-shadow: 0 8px 24px rgba(30, 41, 90, .08); }
+.cr-card img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.cr-text { display: flex; flex-direction: column; gap: 8px; padding: 14px 16px 16px; flex: 1; }
+.cr-text .ad-eyebrow { align-self: flex-start; }
+.cr-text strong { font: 700 17px/1.35 var(--display); }
+.cr-text .more { margin-top: auto; font-weight: 600; font-size: 14px; color: var(--link); }
+@media (max-width: 720px) {
+  .cr-list { grid-template-columns: 1fr; }
+  .cr-card a { flex-direction: row; align-items: center; }
+  .cr-card img { width: 120px; flex-shrink: 0; align-self: stretch; aspect-ratio: auto; }
+  .cr-text { padding: 12px 14px; }
+}

@@ -1,0 +1,65 @@
+{%- comment -%}
+  "Continue reading": the three posts most related to this one, shown as cards at the end of every post.
+  Relatedness is worked out on the English version of each post (matched by `ref`), so every language
+  shows the same three stories:
+    +6  same capability
+    +2  each shared hashtag (brand and generic hashtags don't count)
+    +1  each LearningClarity feature that both posts mention
+  Ties go to the newer post. A post without a translation in this language is skipped.
+  Usage: {% include continue-reading.html %}
+{%- endcomment -%}
+{%- assign cr_t = site.data.i18n[page.lang] -%}
+{%- assign cr_same = site.posts | where: "lang", page.lang -%}
+{%- assign cr_en = site.posts | where: "lang", "en" -%}
+{%- assign cr_me = cr_en | where: "ref", page.ref | first -%}
+{%- if cr_me -%}{%- assign cr_pool = cr_en -%}{%- else -%}{%- assign cr_me = page -%}{%- assign cr_pool = cr_same -%}{%- endif -%}
+{%- assign cr_generic = "LearningClarity,LearningClarityAI,EdTech,AIinEducation,LifelongLearning,StudyTips,OnlineLearning,Students,AITutor" | split: "," -%}
+{%- assign cr_features = "Explain Mode,Simplify,Explain Further,Knowledge Check,Visualize,Listen,podcast,Talk to This,Quiz Mode,Exam Mode,certificate,streak,Supervision,AI Course,Learning Plan" | split: "," -%}
+{%- assign cr_my_features = "" | split: "" -%}
+{%- for f in cr_features -%}{%- if cr_me.content contains f -%}{%- assign cr_my_features = cr_my_features | push: f -%}{%- endif -%}{%- endfor -%}
+{%- assign cr_keys = "" -%}
+{%- for p in cr_pool -%}
+  {%- if p.ref != page.ref -%}
+    {%- assign s = 0 -%}
+    {%- if p.capability and p.capability == cr_me.capability -%}{%- assign s = s | plus: 6 -%}{%- endif -%}
+    {%- for tg in p.tags -%}
+      {%- if cr_me.tags contains tg -%}{%- unless cr_generic contains tg -%}{%- assign s = s | plus: 2 -%}{%- endunless -%}{%- endif -%}
+    {%- endfor -%}
+    {%- for f in cr_my_features -%}{%- if p.content contains f -%}{%- assign s = s | plus: 1 -%}{%- endif -%}{%- endfor -%}
+    {%- assign recency = 9000 | minus: forloop.index -%}
+    {%- assign score_key = s | plus: 1000 -%}
+    {%- assign cr_keys = cr_keys | append: "," | append: score_key | append: "~" | append: recency | append: "~" | append: p.ref -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign cr_ranked = cr_keys | split: "," | sort | reverse -%}
+{%- assign cr_shown = 0 -%}
+{%- capture cr_cards -%}
+{%- for k in cr_ranked -%}
+  {%- if cr_shown < 3 and k != "" -%}
+    {%- assign cr_ref = k | split: "~" | last -%}
+    {%- assign q = cr_same | where: "ref", cr_ref | first -%}
+    {%- if q -%}
+    {%- assign cr_shown = cr_shown | plus: 1 -%}
+    <li class="cr-card">
+      <a href="{{ q.url }}">
+        {%- if q.image and q.image != "/assets/img/og-default.png" -%}
+        {%- assign thumb = site.static_files | where: "path", q.image | first -%}
+        {%- if thumb %}{% if q.image contains ".webp" %}<img src="{{ q.image | replace: ".webp", "-640.webp" }}" alt="" width="640" height="427" loading="lazy" decoding="async">{% else %}<img src="{{ q.image }}" alt="" width="1536" height="1024" loading="lazy" decoding="async">{% endif %}{% endif -%}
+        {%- endif %}
+        <span class="cr-text">
+          {% if q.ad.eyebrow %}<span class="ad-eyebrow ad-eyebrow-{{ q.ad.color | default: 'blue' }}">{{ q.ad.eyebrow }}</span>{% endif %}
+          <strong>{{ q.title }}</strong>
+          <span class="more">{{ cr_t.read_more }} →</span>
+        </span>
+      </a>
+    </li>
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- endcapture -%}
+{%- if cr_shown > 0 %}
+<nav class="related continue-reading" aria-label="{{ cr_t.related_label }}">
+  <h2>{{ cr_t.keep_reading }}</h2>
+  <ul class="cr-list">{{ cr_cards }}</ul>
+</nav>
+{%- endif %}
