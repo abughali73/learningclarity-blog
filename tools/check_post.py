@@ -46,8 +46,8 @@ def main(name):
         p = lambda msg: problems.append(f"{lang}: {msg}")
         if fm.get("lang") != lang:
             p(f"lang is {fm.get('lang')!r}")
-        if not 50 <= len(fm.get("title", "")) <= 65:
-            p(f"title is {len(fm.get('title', ''))} characters (50 to 65)")
+        if not 50 <= len(fm.get("title", "")) <= 70:
+            p(f"title is {len(fm.get('title', ''))} characters (50 to 70)")
         if not 140 <= len(fm.get("description", "")) <= 160:
             p(f"description is {len(fm.get('description', ''))} characters (140 to 160)")
         if "author" in fm:

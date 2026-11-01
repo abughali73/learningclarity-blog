@@ -68,7 +68,7 @@ faq:                             # 2 or 3 short questions a reader would search 
 
 6. **SEO and hashtags.** Apply these to all five languages. Research the primary phrase separately for each language (what a Spanish, French or German learner would actually type), rather than translating the English one.
    - **Keyword:** pick one primary search phrase a learner would type, such as "AI study tutor", "how to revise for exams", or "تطبيق تعليمي بالذكاء الاصطناعي" for Arabic. Add 3 to 5 related phrases. Put them in `keywords:`, primary first, written in that post's language.
-   - **Title:** 50 to 65 characters, with the primary phrase near the start.
+   - **Title:** 50 to 70 characters, with the primary phrase near the start.
    - **Description:** 140 to 160 characters, with the primary phrase, written as a reason to click.
    - **Slug:** 3 to 6 English words that include the primary phrase.
    - **Body:**

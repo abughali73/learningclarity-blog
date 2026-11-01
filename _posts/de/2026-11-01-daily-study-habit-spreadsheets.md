@@ -1,5 +1,5 @@
 ---
-title: "Tägliche Lernroutine: Wie Aisha Tabellenkalkulation lernte"
+title: "Tägliche Lernroutine: Wie Aisha in 15 Minuten am Tag Tabellen lernte"
 description: "Eine tägliche Lernroutine von 15 Minuten, eine Serie, die an Tag 9 riss, und ein Bericht in 30 Tagen: Wie eine berufstätige Mutter Tabellen lernte."
 date: 2026-11-01 08:29:46 +0200
 lang: de

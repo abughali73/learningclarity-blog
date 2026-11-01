@@ -1,5 +1,5 @@
 ---
-title: "Hábito de estudio diario: cómo Aisha dominó las hojas de cálculo"
+title: "Hábito de estudio diario: Aisha y las hojas de cálculo, 15 min al día"
 description: "Un hábito de estudio diario de 15 minutos, una racha rota el día 9 y un informe en 30 días: así aprendió hojas de cálculo una madre muy ocupada."
 date: 2026-11-01 08:29:46 +0200
 lang: es

@@ -1,5 +1,5 @@
 ---
-title: "Habitude d'apprentissage quotidienne : 15 minutes pour Aisha"
+title: "Habitude d'apprentissage quotidienne : le tableur en 15 min par jour"
 description: "Une habitude d'apprentissage quotidienne de 15 minutes, une série brisée au 9e jour et un rapport dans 30 jours : comment Aisha a appris le tableur."
 date: 2026-11-01 08:29:46 +0200
 lang: fr
