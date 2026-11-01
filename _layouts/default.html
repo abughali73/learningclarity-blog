@@ -40,7 +40,11 @@
       <nav class="nav" aria-label="Site">
         <a class="nav-search" href="{{ lang_home | default: '/' }}search/" aria-label="{{ t.search_nav }}">{% include icon.html name="search" size=20 %}<span>{{ t.search_nav }}</span></a>
         {% include lang-switcher.html lang=lang %}
-        <a class="btn btn-small" href="{{ site.app.web }}" rel="noopener">{{ t.get_app }}</a>
+        <span class="nav-apps" aria-label="{{ t.get_app }}">
+          <a class="nav-app" href="{{ site.app.web }}" rel="noopener"><span class="web-badge web-badge-sm"><svg class="web-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c2.6 2.6 3.9 5.8 3.9 9.5s-1.3 6.9-3.9 9.5M12 2.5C9.4 5.1 8.1 8.3 8.1 12s1.3 6.9 3.9 9.5"/></svg><strong>{{ t.web_big }}</strong></span></a>
+          <a class="nav-app" href="{{ site.app.android }}" rel="noopener"><img src="/assets/img/badges/google-play-{{ lang }}.svg" alt="{{ t.android_small }} {{ t.android_big }}" width="122" height="36"></a>
+          <a class="nav-app" href="{{ site.app.ios }}" rel="noopener"><img src="/assets/img/badges/app-store-{{ lang }}.svg" alt="{{ t.ios_small }} {{ t.ios_big }}" width="108" height="36"></a>
+        </span>
       </nav>
     </div>
   </header>

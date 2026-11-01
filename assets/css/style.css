@@ -254,3 +254,17 @@ a:hover { color: var(--blue); }
 .faq-nav a span { min-width: 22px; padding: 0 6px; border-radius: 999px; background: #fff; font-size: 13px; text-align: center; }
 .faq-group { margin: 26px 0 4px; font: 700 22px/1.3 var(--display); color: var(--ink); scroll-margin-top: 16px; }
 .faq-item summary h4 { display: inline; margin: 0; font: 700 18px/1.4 var(--display); color: var(--ink); }
+
+/* App badges in the header */
+.nav-apps { display: inline-flex; align-items: center; gap: 8px; }
+.nav-app { display: inline-flex; border-radius: 8px; }
+.nav-app img { display: block; height: 36px; width: auto; }
+.nav-app:hover { opacity: .85; }
+.web-badge-sm { height: 36px; gap: 6px; padding: 0 12px 0 10px; border-radius: 7px; }
+.web-badge-sm strong { font: 600 15px/1 "Poppins", sans-serif; white-space: nowrap; }
+@media (max-width: 640px) {
+  .nav { flex-wrap: wrap; gap: 10px; }
+  .nav-apps { order: 3; width: 100%; gap: 6px; }
+  .nav-app img, .web-badge-sm { height: 32px; }
+  .web-badge-sm strong { font-size: 13px; }
+}
