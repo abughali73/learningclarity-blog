@@ -1,15 +1,15 @@
 {%- assign t = site.data.i18n[include.lang] -%}
 <div class="stores">
   <a class="store" href="{{ site.app.ios }}" rel="noopener">
-    <img src="/assets/img/qr-ios.png" alt="QR code: LearningClarity on the App Store" width="96" height="96">
-    <span><small>{{ t.ios_small }}</small><strong>{{ t.ios_big }}</strong><small>{{ t.ios_note }}</small></span>
+    <img class="qr" src="/assets/img/qr-ios.png" alt="QR code: LearningClarity on the App Store" width="96" height="96">
+    <span><img class="badge" src="/assets/img/badge-app-store.png" alt="{{ t.ios_small }} {{ t.ios_big }}" width="139" height="48"><small>{{ t.ios_note }}</small></span>
   </a>
   <a class="store" href="{{ site.app.android }}" rel="noopener">
-    <img src="/assets/img/qr-android.png" alt="QR code: LearningClarity on Google Play" width="96" height="96">
-    <span><small>{{ t.android_small }}</small><strong>{{ t.android_big }}</strong><small>{{ t.android_note }}</small></span>
+    <img class="qr" src="/assets/img/qr-android.png" alt="QR code: LearningClarity on Google Play" width="96" height="96">
+    <span><img class="badge" src="/assets/img/badge-google-play.png" alt="{{ t.android_small }} {{ t.android_big }}" width="154" height="48"><small>{{ t.android_note }}</small></span>
   </a>
   <a class="store" href="{{ site.app.web }}" rel="noopener">
-    <img src="/assets/img/qr-web.png" alt="QR code: www.learningclarity.ai" width="96" height="96">
-    <span><small>{{ t.web_small }}</small><strong class="web">{{ t.web_big }}</strong><small>{{ t.web_note }}</small></span>
+    <img class="qr" src="/assets/img/qr-web.png" alt="QR code: www.learningclarity.ai" width="96" height="96">
+    <span><span class="web-badge"><svg class="web-icon" viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c2.6 2.6 3.9 5.8 3.9 9.5s-1.3 6.9-3.9 9.5M12 2.5C9.4 5.1 8.1 8.3 8.1 12s1.3 6.9 3.9 9.5"/></svg><span><small>{{ t.web_small }}</small><strong>{{ t.web_big }}</strong></span></span><small>{{ t.web_note }}</small></span>
   </a>
 </div>

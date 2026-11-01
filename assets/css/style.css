@@ -108,11 +108,15 @@ a:hover { color: var(--blue); }
 .stores { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; padding: 14px; border-radius: 18px; background: #fff; border: 1px solid var(--line); }
 .store { display: flex; align-items: center; gap: 12px; min-width: 0; text-decoration: none; color: var(--ink); }
 .store + .store { padding-inline-start: 12px; border-inline-start: 1px solid var(--line); }
-.store img { width: 88px; height: 88px; flex-shrink: 0; border-radius: 8px; }
-.store span { display: flex; flex-direction: column; min-width: 0; }
+.store .qr { width: 88px; height: 88px; flex-shrink: 0; border-radius: 8px; }
+.store > span { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; min-width: 0; }
 .store small { font-size: 13px; color: var(--muted); }
-.store strong { font: 700 18px/1.25 "Poppins", sans-serif; }
-.store strong.web { color: var(--link); }
+.store .badge { display: block; width: auto; height: 48px; max-width: 100%; }
+.web-badge { display: inline-flex; align-items: center; gap: 8px; height: 48px; padding: 0 14px 0 11px; border-radius: 9px; background: #000; color: #fff; }
+.web-badge .web-icon { flex-shrink: 0; }
+.web-badge span { display: flex; flex-direction: column; line-height: 1.1; }
+.web-badge small { font-size: 11px; color: #fff; }
+.web-badge strong { font: 600 19px/1.15 "Poppins", sans-serif; color: #fff; }
 
 /* Footer */
 .site-footer { background: #fff; border-top: 1px solid var(--line); padding: 32px 0; }
