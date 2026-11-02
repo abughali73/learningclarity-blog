@@ -1,6 +1,6 @@
 ---
 title: "Wann ist eine Schulung wirklich abgeschlossen? Bereitschaft belegen"
-description: "Geteilte Inhalte sind noch kein Abschluss. So kannst du Schulungserfolg messen – mit Erklärung, Übung, Prüfung und Fortschrittsverfolgung als klaren Belegen."
+description: "Geteilte Inhalte sind noch kein Abschluss. So können Sie Schulungserfolg messen – mit Erklärung, Übung, Prüfung und Fortschrittsverfolgung als klaren Belegen."
 date: 2026-11-02 23:10:00 +0200
 lang: de
 ref: when-is-training-really-complete
@@ -74,7 +74,7 @@ Der [SHRM-Leitfaden zum Onboarding](https://www.shrm.org/topics-tools/news/techn
 
 ## Praxisbeispiel: die Einführung einer Produktschulung
 
-Stell dir ein Unternehmen vor, das ein neues Produkt auf den Markt bringt. Statt eine Präsentation per E-Mail zu verschicken und sich den Erhalt bestätigen zu lassen, erstellt das L&D-Team ein Thema zu Positionierung, Funktionen, häufigen Fragen und Eskalationsregeln. Die Mitarbeitenden arbeiten die Erklärungen durch, machen Quizze und legen eine Prüfung ab, bevor sie Aufgaben mit Kundenkontakt übernehmen.
+Stellen Sie sich ein Unternehmen vor, das ein neues Produkt auf den Markt bringt. Statt eine Präsentation per E-Mail zu verschicken und sich den Erhalt bestätigen zu lassen, erstellt das L&D-Team ein Thema zu Positionierung, Funktionen, häufigen Fragen und Eskalationsregeln. Die Mitarbeitenden arbeiten die Erklärungen durch, machen Quizze und legen eine Prüfung ab, bevor sie Aufgaben mit Kundenkontakt übernehmen.
 
 Die Prüfung beweist nicht, dass alle Mitarbeitenden im echten Kundengespräch perfekt agieren werden. Sie liefert aber Belege dafür, dass das erforderliche Wissen vermittelt wurde, und zeigt, wer vor der Einführung möglicherweise Coaching braucht.
 
@@ -92,17 +92,17 @@ Schulungsdesign funktioniert besser, wenn jede Kennzahl einen Zweck hat. Wenn ei
 
 ## „Abgeschlossen“ für jedes Schulungsthema definieren
 
-Ein einfacher Weg, Verteilung nicht länger mit Abschluss zu verwechseln, ist, den Abschluss zu definieren, bevor die Schulung zugewiesen wird. Halte für jedes Thema drei Dinge fest: welche Unterthemen abgeschlossen sein müssen, welches Prüfungsergebnis nötig ist und was passiert, wenn jemand es nicht erreicht – eine Wiederholung, ein Coaching-Gespräch oder ein zweiter Versuch.
+Ein einfacher Weg, Verteilung nicht länger mit Abschluss zu verwechseln, ist, den Abschluss zu definieren, bevor die Schulung zugewiesen wird. Halten Sie für jedes Thema drei Dinge fest: welche Unterthemen abgeschlossen sein müssen, welches Prüfungsergebnis nötig ist und was passiert, wenn jemand es nicht erreicht – eine Wiederholung, ein Coaching-Gespräch oder ein zweiter Versuch.
 
 Die Definition sollte zum Risiko des Materials passen. Ein kurzes Produktupdate kann abgeschlossen sein, sobald die lernende Person den Inhalt durchgearbeitet und ein Quiz bestanden hat. Ein sicherheitskritisches Verfahren braucht vielleicht eine formelle Prüfung und eine praktische Kontrolle durch Vorgesetzte, die keine Online-Prüfung ersetzen kann. Diesen Unterschied klar zu benennen hilft Führungskräften, einfache Inhalte nicht zu übertesten und kritische nicht zu untertesten.
 
-Überprüfe die Definition, nachdem die erste Gruppe fertig ist. Wenn fast alle beim ersten Versuch bestehen, ist die Prüfung vielleicht zu leicht, um etwas zu zeigen. Wenn die meisten dieselben Fragen falsch beantworten, müssen wahrscheinlich die Erklärung oder die Fragen überarbeitet werden, bevor die nächste Gruppe beginnt.
+Überprüfen Sie die Definition, nachdem die erste Gruppe fertig ist. Wenn fast alle beim ersten Versuch bestehen, ist die Prüfung vielleicht zu leicht, um etwas zu zeigen. Wenn die meisten dieselben Fragen falsch beantworten, müssen wahrscheinlich die Erklärung oder die Fragen überarbeitet werden, bevor die nächste Gruppe beginnt.
 
 ## Fazit
 
 Eine Schulung ist nicht schon deshalb abgeschlossen, weil Inhalte bereitgestellt wurden. Die sinnvollere Ziellinie sind klarere Belege dafür, dass die lernende Person das Material verstanden und geübt hat und bereit für den nächsten Schritt ist.
 
-Um zu sehen, wie dieser Ablauf mit deinen eigenen Schulungsinhalten funktioniert, [teste Learning Clarity](https://www.learningclarity.ai/auth/signup?utm_source=blog&utm_medium=cta&utm_campaign=when-is-training-really-complete) und erstelle ein Thema aus einer vorhandenen Richtlinie, einem Leitfaden oder einem Schulungsdokument.
+Um zu sehen, wie dieser Ablauf mit Ihren eigenen Schulungsinhalten funktioniert, [testen Sie Learning Clarity](https://www.learningclarity.ai/auth/signup?utm_source=blog&utm_medium=cta&utm_campaign=when-is-training-really-complete) und erstellen Sie ein Thema aus einer vorhandenen Richtlinie, einem Leitfaden oder einem Schulungsdokument.
 
 ## Quellen
 

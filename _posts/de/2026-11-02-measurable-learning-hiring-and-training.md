@@ -80,19 +80,19 @@ Im Onboarding gilt dasselbe Prinzip, sobald jemand angefangen hat. Richtlinien, 
 
 ## Praxisbeispiel: ein Thema, mehrere Entscheidungen
 
-Nimm ein Thema zur Sensibilisierung für Cybersicherheit. Eine Einzelperson nutzt es vielleicht, um zu lernen und eine Prüfung abzulegen. Eine Dozentin an der Uni weist es zur Wiederholung zu. Ein Unternehmen setzt es als Onboarding- oder Compliance-Inhalt ein. Eine Führungskraft prüft Abschluss und Prüfungsleistung, bevor sie bestätigt, dass keine zusätzliche Unterstützung nötig ist.
+Nehmen Sie ein Thema zur Sensibilisierung für Cybersicherheit. Eine Einzelperson nutzt es vielleicht, um zu lernen und eine Prüfung abzulegen. Eine Dozentin an der Uni weist es zur Wiederholung zu. Ein Unternehmen setzt es als Onboarding- oder Compliance-Inhalt ein. Eine Führungskraft prüft Abschluss und Prüfungsleistung, bevor sie bestätigt, dass keine zusätzliche Unterstützung nötig ist.
 
 Der Inhalt ist ähnlich, aber die Entscheidung ändert sich. Die Einzelperson fragt: „Bin ich bereit?“ Die Lehrkraft fragt: „Wer braucht Hilfe?“ Das Unternehmen fragt: „Wurde das erforderliche Wissen vermittelt?“ Messung ist nützlich, weil sie allen Beteiligten hilft, die Frage zu beantworten, die für sie zählt.
 
 ## Best Practices: Lernen messen, ohne es zu stark zu vereinfachen
 
-Lege das Ergebnis fest, bevor du die Kennzahl wählst. Nutze Quizze zum Üben und zur Diagnose, Prüfungen für formellere Bereitschaftschecks und Abschlussdaten für die Teilnahme. Behandle eine einzelne Punktzahl nicht als Beweis für Beherrschung, wenn das Thema praktische Leistung oder Urteilsvermögen erfordert.
+Legen Sie das Ergebnis fest, bevor Sie die Kennzahl wählen. Nutzen Sie Quizze zum Üben und zur Diagnose, Prüfungen für formellere Bereitschaftschecks und Abschlussdaten für die Teilnahme. Behandeln Sie eine einzelne Punktzahl nicht als Beweis für Beherrschung, wenn das Thema praktische Leistung oder Urteilsvermögen erfordert.
 
-Verbinde Daten mit Kontext. Eine Führungskraft sollte Ergebnisse sehen können und trotzdem mit der lernenden Person sprechen. Eine Lehrkraft sollte Prüfungsbelege nutzen und trotzdem unterrichten. HR sollte Testergebnisse von Bewerbenden nutzen und trotzdem den ganzen Menschen beurteilen. Messung soll Entscheidungen verbessern, nicht ersetzen.
+Verbinden Sie Daten mit Kontext. Eine Führungskraft sollte Ergebnisse sehen können und trotzdem mit der lernenden Person sprechen. Eine Lehrkraft sollte Prüfungsbelege nutzen und trotzdem unterrichten. HR sollte Testergebnisse von Bewerbenden nutzen und trotzdem den ganzen Menschen beurteilen. Messung soll Entscheidungen verbessern, nicht ersetzen.
 
 ## Das richtige Signal für jede Entscheidung wählen
 
-Messung wird einfacher, wenn jede Kennzahl an die Entscheidung gebunden ist, die sie stützt. Schreib die Entscheidung in einem Satz auf, bevor du Daten sammelst: „Soll diese Person zum nächsten Unterthema übergehen?“, „Versteht diese Bewerberin die Richtlinien, auf die es in der Rolle ankommt?“, „Kann dieser neue Kollege ohne Unterstützung arbeiten?“ Jede Frage verweist auf ein anderes Signal.
+Messung wird einfacher, wenn jede Kennzahl an die Entscheidung gebunden ist, die sie stützt. Schreiben Sie die Entscheidung in einem Satz auf, bevor Sie Daten sammeln: „Soll diese Person zum nächsten Unterthema übergehen?“, „Versteht diese Bewerberin die Richtlinien, auf die es in der Rolle ankommt?“, „Kann dieser neue Kollege ohne Unterstützung arbeiten?“ Jede Frage verweist auf ein anderes Signal.
 
 Für eine Lernentscheidung reicht meist ein kurzes Quiz zum betreffenden Unterthema. Für eine Entscheidung über die Bereitschaft sagt eine breitere Prüfung über das ganze Thema mehr aus als jedes einzelne Quiz. Bei einer Einstellungsentscheidung ist das Testergebnis ein Baustein, der zusammen mit Interviews und praktischen Aufgaben betrachtet wird. Abschlussdaten beantworten eine noch engere Frage: ob das zugewiesene Material überhaupt bearbeitet wurde.
 
@@ -102,7 +102,7 @@ Wenn Signal und Entscheidung zusammenpassen, wird auch klar, was man nicht messe
 
 Messbares Lernen ist am nützlichsten, wenn es hilft zu beantworten, was als Nächstes passieren soll. Ziel sind nicht mehr Daten, sondern klarere Belege, die Entscheidungen über Lernen, Unterstützung, Einstellung, Onboarding und Schulung leiten können.
 
-Um diesen Ablauf auszuprobieren, [teste Learning Clarity](https://www.learningclarity.ai/auth/signup?utm_source=blog&utm_medium=cta&utm_campaign=measurable-learning-hiring-and-training) mit deinem eigenen Thema oder Material und sieh dir an, wie Erklärung, Übung, Prüfung und Fortschrittsverfolgung zusammenspielen.
+Um diesen Ablauf auszuprobieren, [testen Sie Learning Clarity](https://www.learningclarity.ai/auth/signup?utm_source=blog&utm_medium=cta&utm_campaign=measurable-learning-hiring-and-training) mit Ihrem eigenen Thema oder Material und sehen Sie sich an, wie Erklärung, Übung, Prüfung und Fortschrittsverfolgung zusammenspielen.
 
 ## Quellen
 

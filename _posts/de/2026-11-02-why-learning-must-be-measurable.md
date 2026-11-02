@@ -80,29 +80,29 @@ Der [OECD-Bericht „Trends in Adult Learning“](https://www.oecd.org/en/public
 
 ## Praxisbeispiel: vom Richtliniendokument zum Bereitschaftscheck
 
-Stell dir ein Unternehmen vor, das eine neue Richtlinie zum Umgang mit Daten einführt. Das PDF zu verschicken bestätigt die Verteilung, aber nicht das Verständnis. Ein stärkerer Ablauf macht aus der Richtlinie ein strukturiertes Thema, erklärt die Hauptkonzepte, gibt Mitarbeitenden Übungsfragen und prüft das erforderliche Wissen mit einer kurzen Prüfung.
+Stellen Sie sich ein Unternehmen vor, das eine neue Richtlinie zum Umgang mit Daten einführt. Das PDF zu verschicken bestätigt die Verteilung, aber nicht das Verständnis. Ein stärkerer Ablauf macht aus der Richtlinie ein strukturiertes Thema, erklärt die Hauptkonzepte, gibt Mitarbeitenden Übungsfragen und prüft das erforderliche Wissen mit einer kurzen Prüfung.
 
 Wer Schwierigkeiten hat, kann die entsprechenden Unterthemen wiederholen. Führungskräfte sehen Abschluss und Ergebnisse. Die Organisation braucht weiterhin betriebliche Kontrollen und menschliche Überprüfung, aber der Lernanteil wird viel sichtbarer als ein bloßer Status „Dokument verschickt“.
 
 ## Best Practices, um Lernen gut zu messen
 
-Nutze Messgrößen, die zum Ziel passen. Ein kurzes Quiz eignet sich ideal zum Üben, während eine Prüfung mit Zeitlimit zur Bereitschaftskontrolle oder Zertifizierungsvorbereitung passt. Teste einfaches Material nicht übermäßig, und nutze eine Wissenspunktzahl nicht als Ersatz für praktische Beobachtung, wenn die Fähigkeit in echter Arbeit gezeigt werden muss.
+Nutzen Sie Messgrößen, die zum Ziel passen. Ein kurzes Quiz eignet sich ideal zum Üben, während eine Prüfung mit Zeitlimit zur Bereitschaftskontrolle oder Zertifizierungsvorbereitung passt. Testen Sie einfaches Material nicht übermäßig, und nutzen Sie eine Wissenspunktzahl nicht als Ersatz für praktische Beobachtung, wenn die Fähigkeit in echter Arbeit gezeigt werden muss.
 
-Mach die Messung transparent. Lernende sollten verstehen, was geprüft wird und warum. Organisationen sollten festlegen, wie Ergebnisse verwendet werden. Gute Messung schafft Klarheit; schlecht gestaltete Messung kann Angst erzeugen, ohne das Lernen zu verbessern.
+Machen Sie die Messung transparent. Lernende sollten verstehen, was geprüft wird und warum. Organisationen sollten festlegen, wie Ergebnisse verwendet werden. Gute Messung schafft Klarheit; schlecht gestaltete Messung kann Angst erzeugen, ohne das Lernen zu verbessern.
 
 ## Aus einem geteilten Dokument etwas Überprüfbares machen
 
-Die meisten Organisationen und Lernenden können mit Material beginnen, das sie ohnehin verteilen. Nimm ein Dokument, das Menschen kennen sollen – eine Richtlinie, einen Produktleitfaden, Vorlesungsnotizen – und frag dich, was jemand nach dem Lesen können sollte. Drei bis fünf konkrete Lernziele reichen meist, etwa „erklären, wann ein Problem eskaliert werden muss“ oder „die drei Stufen des Genehmigungsprozesses nennen“.
+Die meisten Organisationen und Lernenden können mit Material beginnen, das sie ohnehin verteilen. Nehmen Sie ein Dokument, das Menschen kennen sollen – eine Richtlinie, einen Produktleitfaden, Vorlesungsnotizen – und fragen Sie sich, was jemand nach dem Lesen können sollte. Drei bis fünf konkrete Lernziele reichen meist, etwa „erklären, wann ein Problem eskaliert werden muss“ oder „die drei Stufen des Genehmigungsprozesses nennen“.
 
 Jedes Lernziel wird dann zu etwas, das sich mit einer Frage prüfen lässt. Wenn das Material zu einem Thema wird, sollten die Unterthemen diesen Lernzielen entsprechen, sodass ein Quiz-Ergebnis auf einen bestimmten Teil des Inhalts verweist statt auf „das Dokument“ als Ganzes. Falsche Antworten zeigen, welches Lernziel noch nicht sitzt.
 
-Halte die erste Version klein. Ein Dokument, ein paar Lernziele und ein kurzes Quiz verraten schon mehr als eine Lesebestätigung. Sobald die Ergebnisse zeigen, welche Lernziele regelmäßig verfehlt werden, weißt du, wo Erklärung oder Übung fehlt – und ob das Dokument selbst überarbeitet werden muss.
+Halten Sie die erste Version klein. Ein Dokument, ein paar Lernziele und ein kurzes Quiz verraten schon mehr als eine Lesebestätigung. Sobald die Ergebnisse zeigen, welche Lernziele regelmäßig verfehlt werden, wissen Sie, wo Erklärung oder Übung fehlt – und ob das Dokument selbst überarbeitet werden muss.
 
 ## Fazit
 
 Lernen wird nützlicher, wenn es über den bloßen Zugang hinausgeht und Belege liefert, die den nächsten Schritt leiten können. Messbare Lernergebnisse ersetzen weder Unterricht noch Coaching oder praktische Leistung; sie machen Verständnis und Fortschritt leichter sichtbar.
 
-Wenn du diesen Ansatz mit deinem eigenen Material testen willst, [erstelle ein kostenloses Konto bei Learning Clarity](https://www.learningclarity.ai/auth/signup?utm_source=blog&utm_medium=cta&utm_campaign=why-learning-must-be-measurable) und baue ein Thema, das Lernen mit Übung und Prüfung verbindet.
+Wenn Sie diesen Ansatz mit Ihrem eigenen Material testen wollen, [erstellen Sie ein kostenloses Konto bei Learning Clarity](https://www.learningclarity.ai/auth/signup?utm_source=blog&utm_medium=cta&utm_campaign=why-learning-must-be-measurable) und bauen Sie ein Thema, das Lernen mit Übung und Prüfung verbindet.
 
 ## Quellen
 

@@ -26,7 +26,7 @@ ad:
       bullets: ["Schwachstellen führen zum Inhalt zurück", "Keine unerklärten Punktzahlen"]
     - icon: chart
       title: "Erklären, Quiz, Prüfung"
-      bullets: ["Fortschritt zeigt deinen Lernverlauf", "Wissen, was als Nächstes kommt"]
+      bullets: ["Fortschritt zeigt Ihren Lernverlauf", "Wissen, was als Nächstes kommt"]
   footnote: ""
 hero_image:
   src: /assets/img/posts/why-more-content-does-not-solve-learning-problems-hero.webp
@@ -86,23 +86,23 @@ Der [OECD-Bericht „Trends in Adult Learning“](https://www.oecd.org/en/public
 
 ## Best Practices, um aus Inhalten Lernen zu machen
 
-Wähle das Minimum an Inhalten, das für das Ziel nötig ist, gliedere es in sinnvolle Unterthemen und ergänze Übungen, die zu den Entscheidungen oder dem Wissen passen, das Lernende brauchen werden. Nutze Prüfungen, um Prioritäten zu erkennen, nicht bloß, um Punktzahlen zu erzeugen.
+Wählen Sie das Minimum an Inhalten, das für das Ziel nötig ist, gliedern Sie es in sinnvolle Unterthemen und ergänzen Sie Übungen, die zu den Entscheidungen oder dem Wissen passen, das Lernende brauchen werden. Nutzen Sie Prüfungen, um Prioritäten zu erkennen, nicht bloß, um Punktzahlen zu erzeugen.
 
-Wenn Lernende immer wieder dasselbe Konzept verfehlen, sieh dir die Erklärung genauso an wie die Lernenden. Manchmal ist ein Muster schwacher Ergebnisse ein Beleg dafür, dass der Inhalt selbst geklärt oder neu strukturiert werden muss.
+Wenn Lernende immer wieder dasselbe Konzept verfehlen, sehen Sie sich die Erklärung genauso an wie die Lernenden. Manchmal ist ein Muster schwacher Ergebnisse ein Beleg dafür, dass der Inhalt selbst geklärt oder neu strukturiert werden muss.
 
-## Ein einfacher Test, bevor du mehr Material hinzufügst
+## Ein einfacher Test, bevor Sie mehr Material hinzufügen
 
-Bevor du eine weitere Ressource hinzufügst, frag dich, was die lernende Person damit tun würde. Lautet die Antwort „sie auch noch lesen“, bringt das neue Material wahrscheinlich eher Umfang als Verständnis. Lautet sie „damit das Unterthema verstehen, bei dem sie immer wieder falschliegt“, ist es vielleicht genau das Richtige.
+Bevor Sie eine weitere Ressource hinzufügen, fragen Sie sich, was die lernende Person damit tun würde. Lautet die Antwort „sie auch noch lesen“, bringt das neue Material wahrscheinlich eher Umfang als Verständnis. Lautet sie „damit das Unterthema verstehen, bei dem sie immer wieder falschliegt“, ist es vielleicht genau das Richtige.
 
-Quiz- und Prüfungsergebnisse machen diese Frage beantwortbar. Wenn die Ergebnisse eine bestimmte Schwachstelle zeigen, schau dir zuerst die Erklärung an, die es dafür schon gibt. Eine andere Erklärung, ein durchgerechnetes Beispiel oder ein paar zusätzliche Übungsfragen zu diesem Unterthema helfen oft mehr als ein neues Dokument, das das ganze Fach noch einmal abdeckt.
+Quiz- und Prüfungsergebnisse machen diese Frage beantwortbar. Wenn die Ergebnisse eine bestimmte Schwachstelle zeigen, sehen Sie sich zuerst die Erklärung an, die es dafür schon gibt. Eine andere Erklärung, ein durchgerechnetes Beispiel oder ein paar zusätzliche Übungsfragen zu diesem Unterthema helfen oft mehr als ein neues Dokument, das das ganze Fach noch einmal abdeckt.
 
-Derselbe Test funktioniert für Organisationen, die Aktualisierungen ihrer Schulungen planen. Statt nach einem schwachen Ergebnis eine längere Version des Materials zu verschicken, finde heraus, welche Konzepte verfehlt wurden, und überarbeite diese Teile. Die Inhaltsbibliothek bleibt kleiner, und jede Ergänzung hat einen Grund, der sich auf Belege zurückführen lässt.
+Derselbe Test funktioniert für Organisationen, die Aktualisierungen ihrer Schulungen planen. Statt nach einem schwachen Ergebnis eine längere Version des Materials zu verschicken, finden Sie heraus, welche Konzepte verfehlt wurden, und überarbeiten Sie diese Teile. Die Inhaltsbibliothek bleibt kleiner, und jede Ergänzung hat einen Grund, der sich auf Belege zurückführen lässt.
 
 ## Fazit
 
 Lernprobleme sind nicht immer Informationsprobleme. Oft fehlt ein Prozess, der aus Informationen Verständnis, Übung, Belege und nächste Schritte macht.
 
-Wenn du das Material schon hast, aber mehr Struktur brauchst, [probier Learning Clarity](https://www.learningclarity.ai/auth/signup?utm_source=blog&utm_medium=cta&utm_campaign=why-more-content-does-not-solve-learning-problems) mit einem Thema aus und bau einen Lernweg rund um das auf, was du bereits nutzt.
+Wenn Sie das Material schon haben, aber mehr Struktur brauchen, [probieren Sie Learning Clarity](https://www.learningclarity.ai/auth/signup?utm_source=blog&utm_medium=cta&utm_campaign=why-more-content-does-not-solve-learning-problems) mit einem Thema aus und bauen Sie einen Lernweg rund um das auf, was Sie bereits nutzen.
 
 ## Quellen
 

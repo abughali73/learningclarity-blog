@@ -82,7 +82,7 @@ Nach der Einstellung liefert der [SHRM-Leitfaden zum Onboarding neuer Mitarbeite
 
 ## Praxisbeispiel: eine Plattform, verschiedene Wege
 
-Stell dir drei Personen vor, die in derselben Woche mit der Plattform arbeiten. Eine Studentin lädt ihre Vorlesungsnotizen hoch und nutzt den Erklär-Modus, um ein schwieriges Konzept zu verstehen, bevor sie eine Probeprüfung ablegt. Eine Lehrkraft teilt strukturierte Wiederholungsinhalte und sieht sich den Fortschritt an. Ein HR-Team erstellt einen rollenbezogenen Wissenstest und macht später aus den Onboarding-Richtlinien Lernthemen für die Person, die eingestellt wird.
+Stellen Sie sich drei Personen vor, die in derselben Woche mit der Plattform arbeiten. Eine Studentin lädt ihre Vorlesungsnotizen hoch und nutzt den Erklär-Modus, um ein schwieriges Konzept zu verstehen, bevor sie eine Probeprüfung ablegt. Eine Lehrkraft teilt strukturierte Wiederholungsinhalte und sieht sich den Fortschritt an. Ein HR-Team erstellt einen rollenbezogenen Wissenstest und macht später aus den Onboarding-Richtlinien Lernthemen für die Person, die eingestellt wird.
 
 Die Plattform ist dieselbe, aber das Ziel ändert sich. Die Studentin bereitet sich auf eine Prüfung vor. Die Lehrkraft begleitet den Lernfortschritt. Das HR-Team sammelt Belege aus dem Test und unterstützt dann das Onboarding. Ein gemeinsamer Ablauf verringert die Zersplitterung und erlaubt es trotzdem jeder Zielgruppe, die Funktionen zu nutzen, die zu ihrem eigenen Ziel passen.
 
@@ -94,23 +94,23 @@ Ziel ist nicht, Lernen auf eine einzige Punktzahl zu reduzieren. Gute Lerndaten 
 
 ## Best Practices für eine gemeinsam genutzte Lernplattform
 
-Beginne mit einem klaren Lernziel, schneide Themen auf sinnvolle Ergebnisse zu und nutze Prüfungen, die widerspiegeln, was Lernende tatsächlich wissen müssen. Füge keine Quizze hinzu, nur weil das Tool sie erzeugen kann. Jede Überprüfung sollte eine nützliche Frage zu Verständnis oder Bereitschaft beantworten.
+Beginnen Sie mit einem klaren Lernziel, schneiden Sie Themen auf sinnvolle Ergebnisse zu und nutzen Sie Prüfungen, die widerspiegeln, was Lernende tatsächlich wissen müssen. Fügen Sie keine Quizze hinzu, nur weil das Tool sie erzeugen kann. Jede Überprüfung sollte eine nützliche Frage zu Verständnis oder Bereitschaft beantworten.
 
-Für Organisationen gilt: Zuständigkeiten klar regeln – wer Inhalte erstellt, wer sie zuweist, wer die Ergebnisse prüft und welche Nachweise nötig sind, bevor jemand weitermacht. Für Einzelne gilt: Nutze die Plattform als Lernsystem, nicht als einmaligen Antwortgenerator. Wiederhole Schwachstellen, übe erneut und setze Prüfungen als Kontrollpunkte ein.
+Für Organisationen gilt: Zuständigkeiten klar regeln – wer Inhalte erstellt, wer sie zuweist, wer die Ergebnisse prüft und welche Nachweise nötig sind, bevor jemand weitermacht. Für Einzelne gilt: Nutzen Sie die Plattform als Lernsystem, nicht als einmaligen Antwortgenerator. Wiederholen Sie Schwachstellen, üben Sie erneut und setzen Sie Prüfungen als Kontrollpunkte ein.
 
 ## Die erste Woche auf einer gemeinsamen Lernplattform
 
-Nimm dir ein echtes Stück Material vor, statt gleich einen ganzen Lehrplan zu planen. Studierende wählen vielleicht die Vorlesungsnotizen für die nächste Prüfung, Lehrkräfte die Wiederholungseinheit für eine Klasse, ein HR-Team die Stellenbeschreibung für eine offene Position oder die Onboarding-Richtlinie, die neue Mitarbeitende als Erstes lesen. Erstelle daraus ein Thema und prüfe, ob die Unterthemen dazu passen, wie das Material tatsächlich aufgebaut ist.
+Nehmen Sie sich ein echtes Stück Material vor, statt gleich einen ganzen Lehrplan zu planen. Studierende wählen vielleicht die Vorlesungsnotizen für die nächste Prüfung, Lehrkräfte die Wiederholungseinheit für eine Klasse, ein HR-Team die Stellenbeschreibung für eine offene Position oder die Onboarding-Richtlinie, die neue Mitarbeitende als Erstes lesen. Erstellen Sie daraus ein Thema und prüfen Sie, ob die Unterthemen dazu passen, wie das Material tatsächlich aufgebaut ist.
 
-Gib dann jeder Zielgruppe einen Kontrollpunkt, der zu ihrem Ziel passt. Studierende arbeiten den Erklär-Modus durch und schließen jedes Unterthema mit einem kurzen Quiz ab. Lehrkräfte schauen vor der nächsten Stunde nach, bei welchen Unterthemen die meisten falschen Antworten anfallen. HR-Teams gehen die Fragen mit jemandem durch, der die Rolle kennt, bevor Bewerbende sie zu sehen bekommen, und Onboarding-Teams legen fest, welches Prüfungsergebnis bedeutet, dass neue Mitarbeitende bereit für den nächsten Schritt sind.
+Geben Sie dann jeder Zielgruppe einen Kontrollpunkt, der zu ihrem Ziel passt. Studierende arbeiten den Erklär-Modus durch und schließen jedes Unterthema mit einem kurzen Quiz ab. Lehrkräfte schauen vor der nächsten Stunde nach, bei welchen Unterthemen die meisten falschen Antworten anfallen. HR-Teams gehen die Fragen mit jemandem durch, der die Rolle kennt, bevor Bewerbende sie zu sehen bekommen, und Onboarding-Teams legen fest, welches Prüfungsergebnis bedeutet, dass neue Mitarbeitende bereit für den nächsten Schritt sind.
 
-Vergleiche am Ende der Woche, was die Ergebnisse gezeigt haben, mit dem, was du erwartet hattest. Sind die Schwachstellen die, die du vorhergesagt hast, erfüllt das Thema seinen Zweck. Sind sie überraschend, ist das ebenfalls nützlich: Sie weisen auf ein Konzept hin, das eine klarere Erklärung, ein Beispiel oder mehr Übung braucht. Ein gut abgegrenztes Thema zeigt dir mehr darüber, wie die Plattform in deinen Kontext passt, als ein groß angelegter, im Voraus geplanter Rollout.
+Vergleichen Sie am Ende der Woche, was die Ergebnisse gezeigt haben, mit dem, was Sie erwartet hatten. Sind die Schwachstellen die, die Sie vorhergesagt haben, erfüllt das Thema seinen Zweck. Sind sie überraschend, ist das ebenfalls nützlich: Sie weisen auf ein Konzept hin, das eine klarere Erklärung, ein Beispiel oder mehr Übung braucht. Ein gut abgegrenztes Thema zeigt Ihnen mehr darüber, wie die Plattform in Ihren Kontext passt, als ein groß angelegter, im Voraus geplanter Rollout.
 
 ## Fazit
 
 Eine Lernplattform wird nützlicher, wenn sie Inhalte mit Erklärung, Übung, Prüfung und Fortschritt verbindet, statt diese Aktivitäten als getrennte Tools zu behandeln. Das ist der rote Faden, der Studierende, Lehrkräfte, HR-Teams, Unternehmen, Führungskräfte und Selbstlernende verbindet.
 
-Wenn du sehen willst, wie dieser Ablauf zu deinem eigenen Anwendungsfall passt, [teste Learning Clarity](https://www.learningclarity.ai/auth/signup?utm_source=blog&utm_medium=cta&utm_campaign=one-learning-platform-for-students-and-organizations) und entdecke, wie aus Material ein Thema mit strukturiertem Lernen und messbarem Fortschritt wird.
+Wenn Sie sehen wollen, wie dieser Ablauf zu Ihrem eigenen Anwendungsfall passt, [testen Sie Learning Clarity](https://www.learningclarity.ai/auth/signup?utm_source=blog&utm_medium=cta&utm_campaign=one-learning-platform-for-students-and-organizations) und entdecken Sie, wie aus Material ein Thema mit strukturiertem Lernen und messbarem Fortschritt wird.
 
 ## Quellen
 

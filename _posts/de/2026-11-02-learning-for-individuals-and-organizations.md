@@ -80,7 +80,7 @@ Der [CIPD-Leitfaden zu Auswahlverfahren](https://www.cipd.org/uk/knowledge/facts
 
 ## Praxisbeispiel: eine Fähigkeit, zwei Kontexte
 
-Nimm Projektmanagement. Eine Fachkraft erstellt vielleicht ein Thema, um sich auf eine Zertifizierung vorzubereiten oder ihr Wissen über Terminplanung, Risiko- oder Stakeholder-Management zu vertiefen. Sie lernt selbstständig und nutzt Prüfungen, um zu kontrollieren, ob sie bereit ist.
+Nehmen Sie Projektmanagement. Eine Fachkraft erstellt vielleicht ein Thema, um sich auf eine Zertifizierung vorzubereiten oder ihr Wissen über Terminplanung, Risiko- oder Stakeholder-Management zu vertiefen. Sie lernt selbstständig und nutzt Prüfungen, um zu kontrollieren, ob sie bereit ist.
 
 Ein Unternehmen nutzt ähnliche Konzepte vielleicht in einem internen Lernprogramm für frisch beförderte Projektkoordinatorinnen und -koordinatoren. Die Organisation weist Themen zu, verfolgt den Fortschritt und wertet Prüfungsergebnisse aus. Das Fachgebiet überschneidet sich, doch der eine Weg ist selbstgesteuertes, der andere gesteuertes Lernen.
 
@@ -102,7 +102,7 @@ Für Organisationen, die ein Pilotprojekt erwägen, ist der individuelle Weg ein
 
 Einzelpersonen und Organisationen brauchen unterschiedliche Steuerungsmöglichkeiten, teilen aber dieselben Grundlagen des Lernens. Struktur, Erklärung, Übung, Prüfung und sichtbarer Fortschritt zählen – ob jemand allein lernt oder eine zugewiesene Schulung absolviert.
 
-Entdecke beide Wege, indem du [ein kostenloses Konto bei Learning Clarity erstellst](https://www.learningclarity.ai/auth/signup?utm_source=blog&utm_medium=cta&utm_campaign=learning-for-individuals-and-organizations) und mit einem Thema beginnst, das dein eigenes Lern- oder Schulungsziel widerspiegelt.
+Entdecken Sie beide Wege, indem Sie [ein kostenloses Konto bei Learning Clarity erstellen](https://www.learningclarity.ai/auth/signup?utm_source=blog&utm_medium=cta&utm_campaign=learning-for-individuals-and-organizations) und mit einem Thema beginnen, das Ihr eigenes Lern- oder Schulungsziel widerspiegelt.
 
 ## Quellen
 

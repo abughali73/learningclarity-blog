@@ -86,23 +86,23 @@ Der [OECD-Bericht zur Nutzung von Kompetenzen am Arbeitsplatz](https://www.oecd.
 
 ## Best Practices für bessere Entscheidungen über Bereitschaft
 
-Lege fest, was Bereitschaft bedeutet, bevor du die Prüfung gestaltest. Setze mehrere kleine Kontrollpunkte ein, statt dich nur auf eine einzige Abschlusspunktzahl zu verlassen. Mach Schwachstellen sichtbar und gib Lernenden einen Weg, sich zu verbessern. Halte die Prüfungsinhalte im Einklang mit dem Material, das tatsächlich vermittelt oder zugewiesen wurde.
+Legen Sie fest, was Bereitschaft bedeutet, bevor Sie die Prüfung gestalten. Setzen Sie mehrere kleine Kontrollpunkte ein, statt sich nur auf eine einzige Abschlusspunktzahl zu verlassen. Machen Sie Schwachstellen sichtbar und geben Sie Lernenden einen Weg, sich zu verbessern. Halten Sie die Prüfungsinhalte im Einklang mit dem Material, das tatsächlich vermittelt oder zugewiesen wurde.
 
-Ergänze bei folgenreichen Entscheidungen eine Prüfung durch Menschen. Lerndaten sind nützlich, weil sie Rätselraten verringern, nicht weil sie Urteilsvermögen überflüssig machen.
+Ergänzen Sie bei folgenreichen Entscheidungen eine Prüfung durch Menschen. Lerndaten sind nützlich, weil sie Rätselraten verringern, nicht weil sie Urteilsvermögen überflüssig machen.
 
 ## Einen einfachen Bereitschaftsnachweis aufbauen
 
 Bereitschaft lässt sich leichter beurteilen, wenn die Belege jedes Mal auf dieselbe Weise gesammelt werden. Ein einfacher Nachweis pro lernender Person und Thema kann vier Teile haben: welche Unterthemen abgeschlossen wurden, wie sich die Quiz-Ergebnisse über die Versuche verändert haben, das Ergebnis einer breiteren Prüfung und welche Schwachstellen danach wiederholt wurden.
 
-Lies den Nachweis als Trend, nicht als Momentaufnahme. Wer im ersten Quiz schlecht abgeschnitten, sich aber nach der Wiederholung eines Unterthemas verbessert hat, zeigt genau das Muster, das der Prozess hervorbringen soll. Wer mit einer hohen ersten Punktzahl startet und danach keine weitere Aktivität zeigt, ist vielleicht bereit – oder ist einfach auf Stoff gestoßen, den die Person schon kannte. Der Nachweis hilft Aufsichtspersonen, die richtige Nachfrage zu stellen, statt zu raten.
+Lesen Sie den Nachweis als Trend, nicht als Momentaufnahme. Wer im ersten Quiz schlecht abgeschnitten, sich aber nach der Wiederholung eines Unterthemas verbessert hat, zeigt genau das Muster, das der Prozess hervorbringen soll. Wer mit einer hohen ersten Punktzahl startet und danach keine weitere Aktivität zeigt, ist vielleicht bereit – oder ist einfach auf Stoff gestoßen, den die Person schon kannte. Der Nachweis hilft Aufsichtspersonen, die richtige Nachfrage zu stellen, statt zu raten.
 
-Vereinbare im Voraus, was „bereit“ für das Thema bedeutet, zum Beispiel eine bestandene Prüfung, ohne dass ein Unterthema unter einem vereinbarten Niveau liegt. Die Regel schriftlich festzuhalten sorgt für einheitliche Entscheidungen zwischen Lernenden und macht klar, welche Belege weiterhin menschliches Urteil brauchen, etwa praktische Aufgaben, die keine Online-Prüfung beobachten kann.
+Vereinbaren Sie im Voraus, was „bereit“ für das Thema bedeutet, zum Beispiel eine bestandene Prüfung, ohne dass ein Unterthema unter einem vereinbarten Niveau liegt. Die Regel schriftlich festzuhalten sorgt für einheitliche Entscheidungen zwischen Lernenden und macht klar, welche Belege weiterhin menschliches Urteil brauchen, etwa praktische Aufgaben, die keine Online-Prüfung beobachten kann.
 
 ## Fazit
 
 Bereitschaft ist belastbarer, wenn sie auf Belegen beruht statt auf Annahmen. Ziel ist nicht, Lerndaten um ihrer selbst willen zu sammeln, sondern die nächste Lern- oder Managemententscheidung klarer zu machen.
 
-Du kannst [Learning Clarity testen](https://www.learningclarity.ai/auth/signup?utm_source=blog&utm_medium=cta&utm_campaign=learning-activity-to-readiness) – mit einem vorhandenen Thema – und sehen, wie Erklärungen, Übung, Prüfung und Fortschritt zusammenwirken.
+Sie können [Learning Clarity testen](https://www.learningclarity.ai/auth/signup?utm_source=blog&utm_medium=cta&utm_campaign=learning-activity-to-readiness) – mit einem vorhandenen Thema – und sehen, wie Erklärungen, Übung, Prüfung und Fortschritt zusammenwirken.
 
 ## Quellen
 

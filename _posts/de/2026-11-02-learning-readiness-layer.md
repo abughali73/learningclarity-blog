@@ -13,7 +13,7 @@ ad:
   eyebrow: "Schulung & Recruiting"
   headline: "Von verfügbaren Inhalten zu"
   highlight: "bereiten Menschen"
-  subtitle: "Mach vorhandenes Material zu Belegen für Verständnis."
+  subtitle: "Machen Sie vorhandenes Material zu Belegen für Verständnis."
   items:
     - icon: upload
       title: "Mit eigenen Inhalten starten"
@@ -80,29 +80,29 @@ So entsteht ein wiederverwendbares Betriebsmodell: das erforderliche Wissen defi
 
 ## Praxisbeispiel: eine Richtlinienänderung über mehrere Teams
 
-Stell dir ein Unternehmen vor, das einen internen Genehmigungsprozess ändert. Das Richtliniendokument wird zentral aktualisiert, doch die Änderung betrifft Finanzen, Betrieb, Einkauf und Führungskräfte auf unterschiedliche Weise. Mit einer Readiness-Ebene kann die Organisation rollenrelevante Themen erstellen, sie den richtigen Gruppen zuweisen und das Wissen prüfen, das jede Gruppe braucht.
+Stellen Sie sich ein Unternehmen vor, das einen internen Genehmigungsprozess ändert. Das Richtliniendokument wird zentral aktualisiert, doch die Änderung betrifft Finanzen, Betrieb, Einkauf und Führungskräfte auf unterschiedliche Weise. Mit einer Readiness-Ebene kann die Organisation rollenrelevante Themen erstellen, sie den richtigen Gruppen zuweisen und das Wissen prüfen, das jede Gruppe braucht.
 
 Das Lernteam sieht, ob die erforderlichen Inhalte abgeschlossen wurden und wo Prüfungsergebnisse auf Unklarheiten hindeuten. Führungskräfte können ihre Folgegespräche dann auf die konkreten Teile des Prozesses konzentrieren, die Aufmerksamkeit brauchen.
 
 ## Best Practices für den Aufbau einer Readiness-Ebene
 
-Beginne mit dem Wissen, das für die Rolle oder Aufgabe wirklich zählt. Mach nicht aus jedem Dokument einen Kurs. Halte Lernpfade fokussiert, prüfe generierte Prüfungen und lege fest, welches Ergebnis für den nächsten Schritt ausreicht.
+Beginnen Sie mit dem Wissen, das für die Rolle oder Aufgabe wirklich zählt. Machen Sie nicht aus jedem Dokument einen Kurs. Halten Sie Lernpfade fokussiert, prüfen Sie generierte Prüfungen und legen Sie fest, welches Ergebnis für den nächsten Schritt ausreicht.
 
-Nutze die Daten, um Unterstützung auszulösen, nicht nur für Berichte. Eine schwache Punktzahl sollte zu Wiederholung, Erklärung, Coaching oder einem weiteren Versuch führen. Eine starke Punktzahl sollte trotzdem im Kontext gelesen werden, wenn die echte Arbeit praktisches Können erfordert.
+Nutzen Sie die Daten, um Unterstützung auszulösen, nicht nur für Berichte. Eine schwache Punktzahl sollte zu Wiederholung, Erklärung, Coaching oder einem weiteren Versuch führen. Eine starke Punktzahl sollte trotzdem im Kontext gelesen werden, wenn die echte Arbeit praktisches Können erfordert.
 
 ## Eine Readiness-Ebene mit einem einzigen Prozess starten
 
-Eine Readiness-Ebene muss nicht in der ganzen Organisation auf einmal eingeführt werden. Wähle einen Prozess, bei dem Missverständnisse teuer sind und das Wissen gut dokumentiert ist – einen Genehmigungsablauf, ein Verfahren zur Kundeneskalation oder eine Richtlinie zum Umgang mit Daten –, und erstelle das erste Thema aus dem vorhandenen Quellmaterial.
+Eine Readiness-Ebene muss nicht in der ganzen Organisation auf einmal eingeführt werden. Wählen Sie einen Prozess, bei dem Missverständnisse teuer sind und das Wissen gut dokumentiert ist – einen Genehmigungsablauf, ein Verfahren zur Kundeneskalation oder eine Richtlinie zum Umgang mit Daten –, und erstellen Sie das erste Thema aus dem vorhandenen Quellmaterial.
 
-Lege klare Zuständigkeiten fest, bevor etwas veröffentlicht wird: jemanden, der für den Quellinhalt verantwortlich ist, jemanden, der die Fragen prüft, und eine Führungskraft, die auf die Ergebnisse reagiert. Vereinbare, welches Ergebnis als „bereit“ gilt und welche Unterstützung auf ein schwaches Ergebnis folgt. Weise das Thema dann einem Team zu und werte Abschluss und Prüfungsbelege nach dem ersten Durchlauf aus.
+Legen Sie klare Zuständigkeiten fest, bevor etwas veröffentlicht wird: jemanden, der für den Quellinhalt verantwortlich ist, jemanden, der die Fragen prüft, und eine Führungskraft, die auf die Ergebnisse reagiert. Vereinbaren Sie, welches Ergebnis als „bereit“ gilt und welche Unterstützung auf ein schwaches Ergebnis folgt. Weisen Sie das Thema dann einem Team zu und werten Sie Abschluss und Prüfungsbelege nach dem ersten Durchlauf aus.
 
-Das Pilotprojekt sollte praktische Fragen beantworten: Hat die Prüfung Lücken aufgedeckt, von denen das Team nichts wusste? Haben Führungskräfte auf die Ergebnisse reagiert? Fanden Lernende die Erklärungen hilfreich? Wenn die Antworten positiv ausfallen, wiederhole dasselbe Muster für den nächsten Prozess und nutze das Zuständigkeitsmodell erneut, statt es neu zu entwerfen.
+Das Pilotprojekt sollte praktische Fragen beantworten: Hat die Prüfung Lücken aufgedeckt, von denen das Team nichts wusste? Haben Führungskräfte auf die Ergebnisse reagiert? Fanden Lernende die Erklärungen hilfreich? Wenn die Antworten positiv ausfallen, wiederholen Sie dasselbe Muster für den nächsten Prozess und nutzen Sie das Zuständigkeitsmodell erneut, statt es neu zu entwerfen.
 
 ## Fazit
 
 Organisationen brauchen selten mehr Orte, um Inhalte abzulegen. Sie brauchen eine klarere Brücke zwischen Inhalt und Bereitschaft. Diese Brücke entsteht durch Struktur, Übung, Prüfung und sichtbaren Fortschritt.
 
-Um den Ansatz einer Readiness-Ebene mit deinem eigenen Material zu testen, [starte mit Learning Clarity](https://www.learningclarity.ai/auth/signup?utm_source=blog&utm_medium=cta&utm_campaign=learning-readiness-layer) und mach aus einer vorhandenen Richtlinie, einem Onboarding-Dokument oder einem Schulungsleitfaden ein strukturiertes Thema.
+Um den Ansatz einer Readiness-Ebene mit Ihrem eigenen Material zu testen, [starten Sie mit Learning Clarity](https://www.learningclarity.ai/auth/signup?utm_source=blog&utm_medium=cta&utm_campaign=learning-readiness-layer) und machen Sie aus einer vorhandenen Richtlinie, einem Onboarding-Dokument oder einem Schulungsleitfaden ein strukturiertes Thema.
 
 ## Quellen
 

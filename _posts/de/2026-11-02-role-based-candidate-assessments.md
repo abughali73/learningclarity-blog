@@ -13,7 +13,7 @@ ad:
   eyebrow: "Schulung & Recruiting"
   headline: "Einstellen nach Belegen, nicht"
   highlight: "nur nach Lebenslauf"
-  subtitle: "Prüfe Rollenwissen vor dem letzten Gespräch."
+  subtitle: "Prüfen Sie Rollenwissen vor dem letzten Gespräch."
   items:
     - icon: target
       title: "Bei der Rolle ansetzen"
@@ -76,7 +76,7 @@ Nicht jede Fähigkeit gehört in eine Online-Prüfung. Kommunikation, Zusammenar
 
 ## Praxisbeispiel: Vorauswahl vor dem letzten Gespräch
 
-Stell dir ein Unternehmen vor, das eine Stelle im Bereich Customer Operations besetzt. Das Team hat klar definierte Richtlinien, Produktregeln und Eskalationsverfahren. Nach einer ersten Sichtung der Bewerbungen erhalten die Bewerbenden einen kurzen rollenbezogenen Test zu diesen Bereichen. Das HR-Team wertet die Ergebnisse aus und entscheidet zusammen mit Interviews und praktischen Übungen, wer in die nächste Runde kommt.
+Stellen Sie sich ein Unternehmen vor, das eine Stelle im Bereich Customer Operations besetzt. Das Team hat klar definierte Richtlinien, Produktregeln und Eskalationsverfahren. Nach einer ersten Sichtung der Bewerbungen erhalten die Bewerbenden einen kurzen rollenbezogenen Test zu diesen Bereichen. Das HR-Team wertet die Ergebnisse aus und entscheidet zusammen mit Interviews und praktischen Übungen, wer in die nächste Runde kommt.
 
 Die Prüfung sagt dem Unternehmen nicht, wen es einstellen soll. Sie gibt dem Team einen weiteren strukturierten Datenpunkt. Wer stark abschneidet, muss vielleicht trotzdem noch Kommunikation und Urteilsvermögen unter Beweis stellen. Wer bei einem Thema Schwierigkeiten hat, kann dennoch eine gute Wahl sein, wenn sich die Lücke durch Schulung schließen lässt und die übrigen Belege überzeugen.
 
@@ -88,23 +88,23 @@ Der [SHRM-Leitfaden zum Onboarding](https://www.shrm.org/topics-tools/news/techn
 
 ## Best Practices für fairere, aussagekräftigere Eignungstests
 
-Halte Tests eng an der Rolle, gib Bewerbenden klare Anweisungen und vermeide unnötige Komplexität. Nutze einheitliche Fragensätze oder einen vergleichbaren Schwierigkeitsgrad für alle Bewerbenden, wo Fairness zählt. Prüfe generierte Fragen vor dem Einsatz, besonders bei folgenreichen Einstellungsentscheidungen.
+Halten Sie Tests eng an der Rolle, geben Sie Bewerbenden klare Anweisungen und vermeiden Sie unnötige Komplexität. Nutzen Sie einheitliche Fragensätze oder einen vergleichbaren Schwierigkeitsgrad für alle Bewerbenden, wo Fairness zählt. Prüfen Sie generierte Fragen vor dem Einsatz, besonders bei folgenreichen Einstellungsentscheidungen.
 
-Nutze den Test als Beleg, nicht als unanfechtbares Urteil. Berücksichtige Barrierefreiheit, Sprache, Zeitlimits und die Frage, ob der Test Bewerbende aus Gründen benachteiligt, die nichts mit der Arbeitsleistung zu tun haben. Kombiniere Wissenschecks nach Möglichkeit mit strukturierten Interviews und realistischen Arbeitsproben.
+Nutzen Sie den Test als Beleg, nicht als unanfechtbares Urteil. Berücksichtigen Sie Barrierefreiheit, Sprache, Zeitlimits und die Frage, ob der Test Bewerbende aus Gründen benachteiligt, die nichts mit der Arbeitsleistung zu tun haben. Kombinieren Sie Wissenschecks nach Möglichkeit mit strukturierten Interviews und realistischen Arbeitsproben.
 
 ## Einen fairen Eignungstest Schritt für Schritt gestalten
 
-Beginne bei der Rolle, nicht bei einem Fragenkatalog. Liste das Wissen auf, das neue Mitarbeitende wirklich ab dem ersten Tag brauchen – die Richtlinien, Produktregeln oder technischen Konzepte, die man sich im Job nicht schnell aneignen kann –, und lass alles weg, was das Onboarding ohnehin vermittelt. Erstelle das Thema aus genau diesem Umfang, damit die Fragen nicht in Trivialwissen abdriften.
+Beginnen Sie bei der Rolle, nicht bei einem Fragenkatalog. Listen Sie das Wissen auf, das neue Mitarbeitende wirklich ab dem ersten Tag brauchen – die Richtlinien, Produktregeln oder technischen Konzepte, die man sich im Job nicht schnell aneignen kann –, und lassen Sie alles weg, was das Onboarding ohnehin vermittelt. Erstellen Sie das Thema aus genau diesem Umfang, damit die Fragen nicht in Trivialwissen abdriften.
 
-Lass jede Frage vor dem Einsatz von jemandem prüfen, der die Tätigkeit selbst ausübt. Jede Frage sollte genau eine eindeutig richtige Antwort haben, eine Sprache verwenden, die der Bewerberkreis versteht, und auf internen Fachjargon verzichten. Halte Fragensatz und Zeitlimit für alle gleich, die sich auf dieselbe Stelle bewerben, damit sich die Ergebnisse fair vergleichen lassen, und berücksichtige Anforderungen an die Barrierefreiheit, bevor der Test verschickt wird.
+Lassen Sie jede Frage vor dem Einsatz von jemandem prüfen, der die Tätigkeit selbst ausübt. Jede Frage sollte genau eine eindeutig richtige Antwort haben, eine Sprache verwenden, die der Bewerberkreis versteht, und auf internen Fachjargon verzichten. Halten Sie Fragensatz und Zeitlimit für alle gleich, die sich auf dieselbe Stelle bewerben, damit sich die Ergebnisse fair vergleichen lassen, und berücksichtigen Sie Anforderungen an die Barrierefreiheit, bevor der Test verschickt wird.
 
-Lege im Voraus fest, wie das Ergebnis genutzt wird – zum Beispiel als ein Baustein der Vorauswahl neben der Sichtung des Lebenslaufs und den Interviews –, und sag den Bewerbenden, was der Test abdeckt. Sieh dir nach jeder Einstellungsrunde die Fragen an, die starke Neueinstellungen falsch beantwortet haben. Eine Frage, an der gute Bewerbende scheitern, ist eher fehlerhaft als aufschlussreich – sie zu streichen macht die nächste Runde fairer.
+Legen Sie im Voraus fest, wie das Ergebnis genutzt wird – zum Beispiel als ein Baustein der Vorauswahl neben der Sichtung des Lebenslaufs und den Interviews –, und sagen Sie den Bewerbenden, was der Test abdeckt. Sehen Sie sich nach jeder Einstellungsrunde die Fragen an, die starke Neueinstellungen falsch beantwortet haben. Eine Frage, an der gute Bewerbende scheitern, ist eher fehlerhaft als aufschlussreich – sie zu streichen macht die nächste Runde fairer.
 
 ## Fazit
 
 Besser einzustellen heißt nicht, menschliches Urteil durch eine Punktzahl zu ersetzen. Es heißt, denen, die entscheiden, klarere Belege an die Hand zu geben, bevor sie eine Entscheidung treffen.
 
-Wenn dein Recruiting-Prozess von einer strukturierten Ebene für Rollenwissen profitieren würde, [erstelle ein kostenloses Konto bei Learning Clarity](https://www.learningclarity.ai/auth/signup?utm_source=blog&utm_medium=cta&utm_campaign=role-based-candidate-assessments) und teste, wie sich ein rollenbezogenes Thema in ein Quiz oder eine Prüfung verwandeln lässt.
+Wenn Ihr Recruiting-Prozess von einer strukturierten Ebene für Rollenwissen profitieren würde, [erstellen Sie ein kostenloses Konto bei Learning Clarity](https://www.learningclarity.ai/auth/signup?utm_source=blog&utm_medium=cta&utm_campaign=role-based-candidate-assessments) und testen Sie, wie sich ein rollenbezogenes Thema in ein Quiz oder eine Prüfung verwandeln lässt.
 
 ## Quellen
 
