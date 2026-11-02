@@ -1,0 +1,46 @@
+# One-off corrections of existing images with the OpenAI image edit API (tools/edit_images.py).
+# An entry runs once; it is skipped when its output file exists. To redo one, give it a new output name.
+- source: tools/edit-src/learning-activity-to-readiness.png
+  output: /assets/img/posts/learning-activity-to-readiness-hero-v2.webp
+  prompt: >-
+    Edit this marketing infographic. Make only these changes and keep everything else exactly as it is
+    (the smiling woman, her hair and sweater, the Learning Clarity logo, the Explain, Quiz, Exam and Track Progress
+    cards on the right, the Learning Progress panel, the four cards along the bottom, the website address,
+    the store badges, the colours, the lighting and the layout).
+    1) Replace the large headline "Why Learning Must Be Measurable, Not Just Available." with the new headline
+    "From Learning Activity to Readiness." set on three lines exactly like this: line 1 "From Learning",
+    line 2 "Activity", line 3 "to Readiness." Use the same heavy geometric sans-serif font, size and left alignment
+    as the old headline; "From Learning" and "to Readiness." in black, and "Activity" in the same blue-to-purple-to-pink
+    gradient that "Measurable," used. Spell every word exactly.
+    2) Replace the grey paragraph under the headline with this text, in the same grey font, size and position:
+    "Activity alone does not prove readiness. Practice, assessment, feedback and progress tracking give stronger
+    evidence of learning." Spell every word exactly.
+    3) In the group of floating file icons at the top, remove the blue Word icon with the letter W and the orange
+    PowerPoint icon with the letter P. Put in their place one white rounded tile with a simple blue text-document
+    icon labelled "TXT", in the same 3D tile style. Keep the red PDF tile and the image tile.
+    Do not add any other text, logos or icons.
+- source: tools/edit-src/learning-readiness-layer.png
+  output: /assets/img/posts/learning-readiness-layer-hero-v2.webp
+  prompt: >-
+    Edit this marketing infographic. Make only one change and keep everything else exactly as it is (all text,
+    the headline, the laptop and its dashboard, the flow of cards at the top, the certificate, the four cards along
+    the bottom, the logo, the website address, the store badges, the colours, the lighting and the layout).
+    Next to the laptop on the left there is a stack of three file tiles: a red PDF tile, a blue Word tile with the
+    letter W and an orange PowerPoint tile with the letter P. Keep the red PDF tile. Replace the Word tile with a
+    white rounded tile showing a simple blue image icon (a picture of mountains and a sun), and replace the
+    PowerPoint tile with a white rounded tile showing a simple blue text-document icon labelled "TXT", both in the
+    same 3D tile style, size and position. Do not add any other text, logos or icons.
+- source: tools/edit-src/measurable-learning-hiring-and-training.png
+  output: /assets/img/posts/measurable-learning-hiring-and-training-hero-v2.webp
+  prompt: >-
+    Edit this marketing infographic. Make only these changes and keep everything else exactly as it is (the
+    smiling young man in the blue hoodie, the headline, the paragraph, the Explain, Quiz, Exam and Learning Plan
+    cards on the right, the four cards along the bottom, the books, the logo, the website address, the store badges,
+    the colours, the lighting and the layout).
+    1) In the "Upload Your Material" card, change the small grey line "Upload your notes, PDFs, or slides" to
+    "Upload your notes, PDFs, or images". Spell it exactly.
+    2) In the same card there are three file tiles: a red PDF tile, a blue Word tile with the letter W and an orange
+    PowerPoint tile with the letter P. Keep the red PDF tile. Replace the Word tile with a white rounded tile showing
+    a simple blue image icon (a picture of mountains and a sun), and replace the PowerPoint tile with a white rounded
+    tile showing a simple blue text-document icon labelled "TXT", both in the same style, size and position.
+    Do not add any other text, logos or icons.
