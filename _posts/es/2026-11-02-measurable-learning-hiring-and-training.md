@@ -5,7 +5,7 @@ date: 2026-11-02 23:00:00 +0200
 lang: es
 ref: measurable-learning-hiring-and-training
 capability: learning-insights
-image: /assets/img/posts/measurable-learning-hiring-and-training-hero.webp
+image: /assets/img/posts/measurable-learning-hiring-and-training-hero-v2.webp
 keywords: ["aprendizaje medible", "medir resultados de aprendizaje", "evaluación en la incorporación de empleados", "seguimiento del progreso", "evaluación de candidatos"]
 tags: [LearningClarity, LearningClarityAI, AprendizajeMedible, FormacionCorporativa, RecursosHumanos, Onboarding, Evaluacion, SeguimientoDelProgreso, AprendizajeOnline, Educacion, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -29,7 +29,7 @@ ad:
       bullets: ["Sigue temas, cuestionarios y exámenes", "Detecta puntos débiles y siguientes pasos"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/measurable-learning-hiring-and-training-hero.webp
+  src: /assets/img/posts/measurable-learning-hiring-and-training-hero-v2.webp
   alt: "Infografía de portada: Del contenido al aprendizaje, la contratación y la formación medibles"
   prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
 faq:

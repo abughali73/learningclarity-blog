@@ -5,7 +5,7 @@ date: 2026-11-02 23:00:00 +0200
 lang: de
 ref: measurable-learning-hiring-and-training
 capability: learning-insights
-image: /assets/img/posts/measurable-learning-hiring-and-training-hero.webp
+image: /assets/img/posts/measurable-learning-hiring-and-training-hero-v2.webp
 keywords: ["messbares Lernen", "Lernerfolg messen", "Onboarding neuer Mitarbeitender", "Lernfortschritt verfolgen", "Eignungstest im Recruiting"]
 tags: [LearningClarity, LearningClarityAI, MessbaresLernen, Weiterbildung, BetrieblicheWeiterbildung, Personalentwicklung, Recruiting, Onboarding, Lernfortschritt, OnlineLernen, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -29,7 +29,7 @@ ad:
       bullets: ["Themen, Quizze und Prüfungen verfolgen", "Schwachstellen und nächste Schritte sehen"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/measurable-learning-hiring-and-training-hero.webp
+  src: /assets/img/posts/measurable-learning-hiring-and-training-hero-v2.webp
   alt: "Infografik-Titelkarte: Von Inhalten zu messbarem Lernen, Recruiting und Training"
   prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
 faq:

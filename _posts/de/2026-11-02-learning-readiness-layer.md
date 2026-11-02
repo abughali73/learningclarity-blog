@@ -5,7 +5,7 @@ date: 2026-11-02 23:25:00 +0200
 lang: de
 ref: learning-readiness-layer
 capability: learning-insights
-image: /assets/img/posts/learning-readiness-layer-hero.webp
+image: /assets/img/posts/learning-readiness-layer-hero-v2.webp
 keywords: ["Readiness-Ebene im Lernen", "Onboarding neuer Mitarbeitender", "Schulungserfolg prüfen", "Wissenstest im Recruiting", "Belege für Verständnis"]
 tags: [LearningClarity, LearningClarityAI, Mitarbeiterschulung, Onboarding, Personalentwicklung, Recruiting, Weiterbildung, OnlineLernen, Kompetenzentwicklung, ExamMode, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -29,7 +29,7 @@ ad:
       bullets: ["Fortschritt auf jeder Ebene", "Aufsicht und Fortschrittsberichte"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/learning-readiness-layer-hero.webp
+  src: /assets/img/posts/learning-readiness-layer-hero-v2.webp
   alt: "Infografische Titelkarte: Warum jede Organisation eine Readiness-Ebene für das Lernen braucht"
   prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
 faq:

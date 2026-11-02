@@ -5,7 +5,7 @@ date: 2026-11-02 23:15:00 +0200
 lang: es
 ref: learning-activity-to-readiness
 capability: learning-insights
-image: /assets/img/posts/learning-activity-to-readiness-hero.webp
+image: /assets/img/posts/learning-activity-to-readiness-hero-v2.webp
 keywords: ["evidencias de preparación", "actividad frente a preparación", "evaluación como evidencia", "registro de preparación", "seguimiento del progreso"]
 tags: [LearningClarity, LearningClarityAI, AprendizajeMedible, EvaluacionFormativa, SeguimientoDelProgreso, Retroalimentacion, Certificacion, FormacionCorporativa, AprendizajeOnline, InteligenciaArtificial, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -29,7 +29,7 @@ ad:
       bullets: ["Una visión más clara para supervisores", "Revisión humana si hay mucho en juego"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/learning-activity-to-readiness-hero.webp
+  src: /assets/img/posts/learning-activity-to-readiness-hero-v2.webp
   alt: "Tarjeta de título infográfica: de la actividad de aprendizaje a la preparación, por qué el progreso necesita evidencias"
   prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
 faq:

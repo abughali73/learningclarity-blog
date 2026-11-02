@@ -5,7 +5,7 @@ date: 2026-11-02 23:25:00 +0200
 lang: es
 ref: learning-readiness-layer
 capability: learning-insights
-image: /assets/img/posts/learning-readiness-layer-hero.webp
+image: /assets/img/posts/learning-readiness-layer-hero-v2.webp
 keywords: ["capa de preparación para el aprendizaje", "incorporación de empleados", "evaluación de la formación", "evaluación de candidatos", "evidencias de comprensión"]
 tags: [LearningClarity, LearningClarityAI, FormacionCorporativa, OnboardingDeEmpleados, RecursosHumanos, SeleccionDePersonal, AprendizajeOnline, EvaluacionDeCompetencias, DesarrolloProfesional, ExamMode, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -29,7 +29,7 @@ ad:
       bullets: ["Seguimiento del progreso en cada nivel", "Supervisión e informes de progreso"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/learning-readiness-layer-hero.webp
+  src: /assets/img/posts/learning-readiness-layer-hero-v2.webp
   alt: "Tarjeta de título infográfica: por qué toda organización necesita una capa de preparación para el aprendizaje"
   prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
 faq:

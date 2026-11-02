@@ -5,7 +5,7 @@ date: 2026-11-02 23:25:00 +0200
 lang: fr
 ref: learning-readiness-layer
 capability: learning-insights
-image: /assets/img/posts/learning-readiness-layer-hero.webp
+image: /assets/img/posts/learning-readiness-layer-hero-v2.webp
 keywords: ["couche de préparation des apprenants", "intégration des nouveaux salariés", "évaluation de la formation", "évaluation des candidats", "preuves de compréhension"]
 tags: [LearningClarity, LearningClarityAI, FormationProfessionnelle, Onboarding, RessourcesHumaines, Recrutement, ApprentissageEnLigne, EvaluationDesCompetences, DeveloppementDesCompetences, ExamMode, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -29,7 +29,7 @@ ad:
       bullets: ["Suivi de la progression à chaque niveau", "Supervision et rapports de progression"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/learning-readiness-layer-hero.webp
+  src: /assets/img/posts/learning-readiness-layer-hero-v2.webp
   alt: "Carte titre infographique : pourquoi chaque organisation a besoin d’une couche de préparation des apprenants"
   prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
 faq:

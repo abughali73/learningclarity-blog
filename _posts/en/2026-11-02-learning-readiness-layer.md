@@ -5,7 +5,7 @@ date: 2026-11-02 23:25:00 +0200
 lang: en
 ref: learning-readiness-layer
 capability: learning-insights
-image: /assets/img/posts/learning-readiness-layer-hero.webp
+image: /assets/img/posts/learning-readiness-layer-hero-v2.webp
 keywords: ["learning readiness layer", "employee onboarding readiness", "training assessment", "pre-hire knowledge assessment", "evidence of understanding"]
 tags: [LearningClarity, LearningClarityAI, LearningReadiness, EmployeeOnboarding, CorporateTraining, ExamMode, QuizMode, TrainingAssessment, Hiring, HRTech, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -29,7 +29,7 @@ ad:
       bullets: ["Progress tracking at every level", "Supervision and progress reports"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/learning-readiness-layer-hero.webp
+  src: /assets/img/posts/learning-readiness-layer-hero-v2.webp
   alt: "Infographic title card: Why Every Organization Needs a Learning Readiness Layer"
   prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
 faq:

@@ -5,7 +5,7 @@ date: 2026-11-02 23:00:00 +0200
 lang: ar
 ref: measurable-learning-hiring-and-training
 capability: learning-insights
-image: /assets/img/posts/measurable-learning-hiring-and-training-hero.webp
+image: /assets/img/posts/measurable-learning-hiring-and-training-hero-v2.webp
 keywords: ["التعلم القابل للقياس", "قياس نتائج التعلم", "تقييم الموظفين الجدد", "تتبع التقدم في التعلم", "تقييم المرشحين للتوظيف"]
 tags: [LearningClarity, LearningClarityAI, التعليم_الإلكتروني, التدريب, التوظيف, الموارد_البشرية, تقييم_الأداء, تطوير_المهارات, التعلم_الذاتي, الذكاء_الاصطناعي, EdTech, AIinEducation, CorporateTraining]
 ad:
@@ -29,7 +29,7 @@ ad:
       bullets: ["تتبع المواضيع والاختبارات والامتحانات", "اكتشف نقاط الضعف والخطوة التالية"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/measurable-learning-hiring-and-training-hero.webp
+  src: /assets/img/posts/measurable-learning-hiring-and-training-hero-v2.webp
   alt: "بطاقة عنوان إنفوغرافيك: من المحتوى إلى تعلم وتوظيف وتدريب قابلة للقياس"
   prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
 faq:

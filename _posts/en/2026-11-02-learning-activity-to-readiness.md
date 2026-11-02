@@ -5,7 +5,7 @@ date: 2026-11-02 23:15:00 +0200
 lang: en
 ref: learning-activity-to-readiness
 capability: learning-insights
-image: /assets/img/posts/learning-activity-to-readiness-hero.webp
+image: /assets/img/posts/learning-activity-to-readiness-hero-v2.webp
 keywords: ["learning readiness evidence", "activity vs readiness", "assessment as evidence", "readiness record", "progress tracking"]
 tags: [LearningClarity, LearningClarityAI, LearningReadiness, LearningAnalytics, ProgressTracking, Assessment, QuizMode, ExamMode, Certification, CorporateTraining, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -29,7 +29,7 @@ ad:
       bullets: ["Supervisors get a clearer picture", "Add human review for high stakes"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/learning-activity-to-readiness-hero.webp
+  src: /assets/img/posts/learning-activity-to-readiness-hero-v2.webp
   alt: "Infographic title card: From Learning Activity to Readiness, why progress needs evidence"
   prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
 faq:

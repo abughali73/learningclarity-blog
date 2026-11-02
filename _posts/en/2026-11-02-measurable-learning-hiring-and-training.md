@@ -5,7 +5,7 @@ date: 2026-11-02 23:00:00 +0200
 lang: en
 ref: measurable-learning-hiring-and-training
 capability: learning-insights
-image: /assets/img/posts/measurable-learning-hiring-and-training-hero.webp
+image: /assets/img/posts/measurable-learning-hiring-and-training-hero-v2.webp
 keywords: ["measurable learning", "measuring learning outcomes", "employee onboarding assessment", "progress tracking", "skills assessment for hiring"]
 tags: [LearningClarity, LearningClarityAI, MeasurableLearning, LearningAnalytics, ProgressTracking, ExamMode, QuizMode, CorporateTraining, EmployeeOnboarding, Hiring, EdTech, AIinEducation, Students, Teachers, LifelongLearning]
 ad:
@@ -29,7 +29,7 @@ ad:
       bullets: ["Track Topics, quizzes and exams", "Spot weak areas and next steps"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/measurable-learning-hiring-and-training-hero.webp
+  src: /assets/img/posts/measurable-learning-hiring-and-training-hero-v2.webp
   alt: "Infographic title card: From Content to Measurable Learning, Hiring, and Training"
   prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
 faq:

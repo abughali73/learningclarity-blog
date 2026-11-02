@@ -5,7 +5,7 @@ date: 2026-11-02 23:25:00 +0200
 lang: ar
 ref: learning-readiness-layer
 capability: learning-insights
-image: /assets/img/posts/learning-readiness-layer-hero.webp
+image: /assets/img/posts/learning-readiness-layer-hero-v2.webp
 keywords: ["طبقة الجاهزية للتعلم", "جاهزية الموظفين الجدد", "تقييم التدريب", "تقييم المعرفة قبل التوظيف", "أدلة الفهم"]
 tags: [LearningClarity, LearningClarityAI, تدريب_الموظفين, الموارد_البشرية, التوظيف, التعلم_المؤسسي, التعليم_الإلكتروني, الذكاء_الاصطناعي, تطوير_المهارات, ExamMode, CorporateTraining, EdTech, AIinEducation]
 ad:
@@ -29,7 +29,7 @@ ad:
       bullets: ["تتبع التقدم على كل المستويات", "الإشراف وتقارير التقدم"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/learning-readiness-layer-hero.webp
+  src: /assets/img/posts/learning-readiness-layer-hero-v2.webp
   alt: "بطاقة عنوان إنفوغرافية: لماذا تحتاج كل مؤسسة إلى طبقة الجاهزية للتعلم"
   prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
 faq:

@@ -5,7 +5,7 @@ date: 2026-11-02 23:15:00 +0200
 lang: de
 ref: learning-activity-to-readiness
 capability: learning-insights
-image: /assets/img/posts/learning-activity-to-readiness-hero.webp
+image: /assets/img/posts/learning-activity-to-readiness-hero-v2.webp
 keywords: ["Lernerfolg nachweisen", "Aktivität vs. Bereitschaft", "Prüfung als Beleg", "Bereitschaftsnachweis", "Fortschrittsverfolgung"]
 tags: [LearningClarity, LearningClarityAI, MessbaresLernen, Lernerfolg, Fortschrittsverfolgung, Feedback, Zertifizierung, Weiterbildung, BetrieblicheWeiterbildung, OnlineLernen, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -29,7 +29,7 @@ ad:
       bullets: ["Klareres Bild für Aufsichtspersonen", "Menschliche Prüfung bei hohem Einsatz"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/learning-activity-to-readiness-hero.webp
+  src: /assets/img/posts/learning-activity-to-readiness-hero-v2.webp
   alt: "Infografik-Titelkarte: Von Lernaktivität zu Bereitschaft – warum Fortschritt Belege braucht"
   prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
 faq:

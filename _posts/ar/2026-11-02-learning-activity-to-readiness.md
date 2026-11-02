@@ -5,7 +5,7 @@ date: 2026-11-02 23:15:00 +0200
 lang: ar
 ref: learning-activity-to-readiness
 capability: learning-insights
-image: /assets/img/posts/learning-activity-to-readiness-hero.webp
+image: /assets/img/posts/learning-activity-to-readiness-hero-v2.webp
 keywords: ["أدلة الجاهزية في التعلم", "النشاط مقابل الجاهزية", "التقييم بوصفه دليلاً", "سجل الجاهزية", "تتبع التقدم في التعلم"]
 tags: [LearningClarity, LearningClarityAI, التعلم_الذاتي, التعليم_الإلكتروني, الذكاء_الاصطناعي, التقييم, الاختبارات, التدريب_المهني, تطوير_الموظفين, الشهادات_المهنية, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -29,7 +29,7 @@ ad:
       bullets: ["صورة أوضح لدى المشرفين", "مراجعة بشرية للقرارات المهمة"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/learning-activity-to-readiness-hero.webp
+  src: /assets/img/posts/learning-activity-to-readiness-hero-v2.webp
   alt: "بطاقة عنوان إنفوغرافيك: من نشاط التعلم إلى الجاهزية، لماذا يحتاج التقدم إلى أدلة"
   prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
 faq:

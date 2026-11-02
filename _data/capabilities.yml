@@ -53,6 +53,8 @@
     - Choose from preset episode lengths; topic-level episodes can be longer than subtopic-level ones.
     - The episode follows the topic's language; voices are optimised for English, other languages may carry a slight accent.
     - Episodes are generated in the background; an "AI job complete" notification says when one is ready.
+    - An episode is generated once and saved, so it can be replayed later without generating it again.
+    - Episodes play in a small docked player that keeps playing while you move to other parts of the app.
 - key: talk-to-this
   name: Talk to This (live voice tutor)
   facts:
