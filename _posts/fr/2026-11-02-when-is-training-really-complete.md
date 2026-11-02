@@ -5,7 +5,7 @@ date: 2026-11-02 23:10:00 +0200
 lang: fr
 ref: when-is-training-really-complete
 capability: learning-insights
-image: /assets/img/posts/when-is-training-really-complete-hero.webp
+image: /assets/img/posts/when-is-training-really-complete-cinematic.webp
 keywords: ["évaluation des acquis de formation", "mesurer l’efficacité d’une formation", "intégration des nouveaux salariés", "formation des salariés", "état de préparation après une formation"]
 tags: [LearningClarity, LearningClarityAI, FormationProfessionnelle, FormationEntreprise, Onboarding, RessourcesHumaines, ApprentissageEnLigne, DeveloppementDesCompetences, Evaluation, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -29,9 +29,30 @@ ad:
       bullets: ["Suivre la progression par sujet", "Repérer qui a besoin d’aide"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/when-is-training-really-complete-hero.webp
-  alt: "Infographie de titre : Quand une formation est-elle vraiment terminée ? Du support partagé à une préparation démontrée"
-  prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
+  src: /assets/img/posts/when-is-training-really-complete-cinematic.webp
+  alt: "Marco, responsable formation, seul dans une salle vide après une session, des documents oubliés sur les chaises"
+  prompt: "Marco, a fictional learning-and-development lead in his mid-thirties with light olive skin, short dark wavy hair, a neatly trimmed short beard and rectangular tortoiseshell glasses, wearing a navy blazer over a plain white crew-neck T-shirt and dark chinos, stands alone in an empty company training room in the late afternoon just after a session has ended, leaning back against the front table with his arms folded, looking thoughtfully toward the open door. Rows of chairs are pushed back at odd angles and stapled paper handouts with blank covers are left behind on several seats and tables. A projector screen behind him is blank and switched off. Warm low golden light slants through tall windows across the empty chairs, long soft shadows on the floor. Wide shot at eye level, Marco slightly off-centre, shallow depth of field on the handouts in the foreground. Mood: quiet doubt, the material was shared but is anyone ready?"
+scenes:
+  - src: /assets/img/posts/when-is-training-really-complete-scene-1.webp
+    alt: "Marco observe une nouvelle employée du support qui hésite pendant un appel client"
+    caption: "Module terminé, mais encore des hésitations en appel."
+    prompt: "Marco, a fictional learning-and-development lead in his mid-thirties with light olive skin, short dark wavy hair, a neatly trimmed short beard and rectangular tortoiseshell glasses, wearing a navy blazer over a plain white crew-neck T-shirt and dark chinos, stands a few steps behind a new customer-support employee, a fictional woman in her mid-twenties with light brown skin, shoulder-length black braids pulled back, wearing a mustard-yellow sweater and a slim headset, who sits at a support desk mid-call, pausing with her hand hovering uncertainly over the keyboard and her brow slightly furrowed. Her monitor faces away from the camera. Marco watches her with a concerned, attentive expression, holding a coffee cup. Busy open-plan office in the morning, cool white daylight from large windows, colleagues softly blurred in the background. Over-the-shoulder mid-shot from behind Marco, eye level. Mood: the module is marked done, yet she still hesitates."
+  - src: /assets/img/posts/when-is-training-really-complete-scene-2.webp
+    alt: "Les mains de Marco classent des documents épars en piles ordonnées à l’aube"
+    caption: "D’une pile de fichiers à un parcours clair."
+    prompt: "Close-up of the hands of Marco, a fictional learning-and-development lead in his mid-thirties with light olive skin, short dark wavy hair, a neatly trimmed short beard and rectangular tortoiseshell glasses, wearing a navy blazer over a plain white crew-neck T-shirt and dark chinos, at a wooden desk early in the morning as he sorts a loose, messy pile of printed documents with blank pages into neat, ordered stacks, placing plain coloured sticky notes with nothing written on them on top of each stack. His glasses and part of his face are visible at the top of the frame, focused and calm. A closed laptop and a mug of tea sit to one side. Soft pale-gold sunrise light from a side window, gentle shadows across the paper. High angle looking down at the desk, shallow depth of field. Mood: order emerging from clutter, a clear path taking shape."
+  - src: /assets/img/posts/when-is-training-really-complete-scene-3.webp
+    alt: "Marco marche entre des employés travaillant sur leurs ordinateurs en salle de formation"
+    caption: "Expliquer, s’entraîner, puis un examen avant les clients."
+    prompt: "Marco, a fictional learning-and-development lead in his mid-thirties with light olive skin, short dark wavy hair, a neatly trimmed short beard and rectangular tortoiseshell glasses, wearing a navy blazer over a plain white crew-neck T-shirt and dark chinos, walks slowly between two rows of desks in a bright company training room on a weekday morning, where a diverse group of fictional employees in their twenties to fifties, in smart-casual clothes, work quietly on laptops whose screens face away from the camera. One older man with grey hair raises a hand with a question and Marco leans in toward him, smiling, one hand on the back of a chair. Large windows with cool, even overcast daylight, a few plants, no posters or writing on the walls. Wide shot from a slightly low angle at the end of the row. Mood: focused preparation before facing customers."
+  - src: /assets/img/posts/when-is-training-really-complete-scene-4.webp
+    alt: "Marco et une responsable commerciale examinent des résultats à une table au crépuscule"
+    caption: "Les résultats montrent qui a besoin d’un accompagnement."
+    prompt: "Marco, a fictional learning-and-development lead in his mid-thirties with light olive skin, short dark wavy hair, a neatly trimmed short beard and rectangular tortoiseshell glasses, wearing a navy blazer over a plain white crew-neck T-shirt and dark chinos, sits side by side with a sales team manager, a fictional woman in her early fifties with short silver hair, fair freckled skin and a dark green blouse, at a small round table in a glass-walled meeting room in the early evening. A laptop sits between them with its screen turned away from the camera. She points toward the laptop while Marco leans forward, nodding thoughtfully, a pen and a blank notepad in front of him. City lights beginning to glow in deep blue dusk through the glass behind them, warm overhead pendant light on the table. Mid-shot at eye level from across the table. Mood: calm, practical decision-making about who needs support."
+  - src: /assets/img/posts/when-is-training-really-complete-scene-5.webp
+    alt: "Marco en entretien de coaching individuel avec un jeune commercial"
+    caption: "Pas encore prêt ? Un coaching, puis un nouvel essai."
+    prompt: "Marco, a fictional learning-and-development lead in his mid-thirties with light olive skin, short dark wavy hair, a neatly trimmed short beard and rectangular tortoiseshell glasses, wearing a navy blazer over a plain white crew-neck T-shirt and dark chinos, sits in a small, quiet office booth across from a young sales representative, a fictional man in his early twenties with dark brown skin, a short fade haircut and a light-blue button-down shirt, during a one-to-one coaching conversation late in the afternoon. Marco gestures openly with one hand as he explains, while the young man listens, then starts to nod with growing confidence. Two cups of coffee and a closed notebook on the low table between them. Warm amber light from a desk lamp and the setting sun through a narrow window, soft bokeh behind. Close two-shot from a slight angle, eye level. Mood: supportive, encouraging, a second chance to get it right."
 faq:
   - q: "Qu’est-ce que l’état de préparation à l’issue d’une formation ?"
     a: "C’est le moment où l’on dispose de suffisamment de preuves pertinentes qu’un apprenant maîtrise les connaissances requises pour passer à l’étape suivante, tout en reconnaissant que certaines compétences exigent aussi une observation en situation."
@@ -50,6 +71,8 @@ L’état de préparation à l’issue d’une formation correspond au moment o�
 
 ## Pourquoi terminer une formation n’est pas la même chose qu’être prêt
 
+{% include scene.html n=1 %}
+
 L’achèvement est un indicateur d’activité. Il indique si quelqu’un est allé au bout d’une tâche assignée. Être prêt relève de l’apprentissage : la personne a-t-elle assez bien compris les connaissances requises pour passer à l’étape suivante ?
 
 Un indicateur d’achèvement reste utile pour l’administration, mais il ne doit pas porter plus de sens qu’il ne le peut. Un salarié qui a terminé un module sur une politique interne peut encore avoir besoin d’éclaircissements. Une nouvelle recrue qui a ouvert tous les fichiers d’intégration peut encore avoir des doutes sur un processus critique.
@@ -61,6 +84,8 @@ Un parcours plus solide donne aux apprenants l’occasion d’assimiler le conte
 Les [données de l’EEF sur le feedback](https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/feedback) confirment l’importance de relier les informations sur la performance aux objectifs d’apprentissage et aux prochaines étapes. Dans la formation professionnelle, cela signifie que les résultats doivent aider un manager ou un apprenant à décider où un entraînement ou une explication supplémentaire est nécessaire.
 
 ## Comment Learning Clarity crée un parcours de formation
+
+{% include scene.html n=2 %}
 
 Les organisations peuvent partir de leurs politiques, modes opératoires, documents d’intégration, guides produit ou supports de formation existants. Learning Clarity peut organiser ce contenu en sujets et sous-thèmes, de sorte que l’apprenant suive un parcours défini plutôt qu’un ensemble épars de fichiers.
 
@@ -74,11 +99,15 @@ Le [guide de la SHRM sur l’intégration](https://www.shrm.org/topics-tools/new
 
 ## Scénario pratique : le déploiement d’une formation produit
 
+{% include scene.html n=3 %}
+
 Imaginez une entreprise qui lance un nouveau produit. Au lieu d’envoyer une présentation par e-mail et de demander aux salariés d’en accuser réception, l’équipe formation crée un sujet couvrant le positionnement, les fonctionnalités, les questions fréquentes et les règles d’escalade. Les salariés parcourent les explications, font des quiz et passent un examen avant de prendre en charge des missions au contact des clients.
 
 L’évaluation ne prouve pas que chaque salarié sera parfait lors d’une vraie conversation avec un client. Elle apporte toutefois la preuve que les connaissances requises ont été couvertes et met en évidence qui pourrait avoir besoin d’un accompagnement avant le déploiement.
 
 ## Ce que les équipes formation doivent mesurer
+
+{% include scene.html n=4 %}
 
 Parmi les indicateurs utiles figurent l’achèvement des contenus assignés, les tentatives aux quiz, les notes aux examens, les points faibles récurrents et la progression dans les sujets obligatoires. Les équipes doivent aussi repérer les endroits où les apprenants ont régulièrement besoin d’éclaircissements, car cela peut signaler un problème de conception du contenu plutôt qu’un problème de performance individuelle.
 
@@ -91,6 +120,8 @@ Une première erreur consiste à assimiler achèvement et compétence. Une autre
 La conception d’une formation fonctionne mieux lorsque chaque indicateur a une raison d’être. Si un score ne change aucune décision ni aucune action d’accompagnement, il ne vaut peut-être pas la peine d’être collecté. Si une notion critique est importante, l’évaluation doit la rendre visible.
 
 ## Définir ce que « terminé » veut dire pour chaque sujet de formation
+
+{% include scene.html n=5 %}
 
 Une façon simple de cesser de confondre diffusion et achèvement consiste à définir l’achèvement avant d’assigner la formation. Pour chaque sujet, notez trois choses : quels sous-thèmes doivent être terminés, quel résultat d’évaluation est exigé et ce qui se passe lorsqu’un apprenant ne l’atteint pas — une révision, un entretien d’accompagnement ou une deuxième tentative.
 

@@ -5,7 +5,7 @@ date: 2026-11-02 22:50:00 +0200
 lang: fr
 ref: one-learning-platform-for-students-and-organizations
 capability: learning-insights
-image: /assets/img/posts/one-learning-platform-for-students-and-organizations-hero.webp
+image: /assets/img/posts/one-learning-platform-for-students-and-organizations-cinematic.webp
 keywords: ["plateforme d’apprentissage pour étudiants et organisations", "plateforme de formation pour écoles et entreprises", "intégration des nouveaux salariés", "évaluation des candidats liée au poste", "étude autonome structurée"]
 tags: [LearningClarity, LearningClarityAI, PlateformeApprentissage, ApprentissageEnLigne, FormationProfessionnelle, IntelligenceArtificielle, RessourcesHumaines, Onboarding, Etudiants, Enseignants, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -29,9 +29,30 @@ ad:
       bullets: ["Suivi de progression et supervision", "Certificats pour les bons résultats"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/one-learning-platform-for-students-and-organizations-hero.webp
-  alt: "Learning Clarity : une plateforme d’apprentissage pour élèves, enseignants, équipes RH et entreprises, qui transforme tout sujet ou document en explications, quiz, examens et plan d’apprentissage."
-  prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
+  src: /assets/img/posts/one-learning-platform-for-students-and-organizations-cinematic.webp
+  alt: "Un étudiant révise, carnet ouvert, près d’une fenêtre de bibliothèque au crépuscule"
+  prompt: "The main character, a fictional university student, 22, a young man of South Asian heritage with short wavy black hair and light stubble, wearing a mustard-yellow crewneck sweater over a white T-shirt and dark jeans, sits at a long wooden table by a tall arched window in a quiet university library at dusk, chin resting on one hand, writing in an open paper notebook with a pencil while a laptop beside him faces away from the camera. Rows of bookshelves fade into soft shadow behind him. Deep blue twilight through the window on one side, a warm brass reading lamp lighting his face and hands on the other. Mid-shot at eye level, shallow depth of field. Mood: calm, focused, a learner who finally has a plan. No text, letters or numbers anywhere, no logos."
+scenes:
+  - src: /assets/img/posts/one-learning-platform-for-students-and-organizations-scene-1.webp
+    alt: "L’étudiant à son bureau tard le soir, entouré de piles de notes de cours"
+    caption: "Beaucoup de contenu, mais aucun chemin clair."
+    prompt: "The main character, a fictional university student, 22, a young man of South Asian heritage with short wavy black hair and light stubble, wearing a mustard-yellow crewneck sweater over a white T-shirt and dark jeans, sits at a cluttered desk in a small student flat late at night, surrounded by tall uneven stacks of printed lecture notes, handouts and highlighted pages (no legible writing), a cold mug of coffee and a closed laptop. He leans back in his chair, both hands pushed through his hair, staring at the piles. A single cool-white desk lamp, the rest of the room in deep blue darkness, a rain-streaked window behind him. Wide shot at eye level, slightly off-centre. Mood: overwhelmed by material with no clear way through it. No text, letters or numbers anywhere, no logos."
+  - src: /assets/img/posts/one-learning-platform-for-students-and-organizations-scene-2.webp
+    alt: "Une enseignante dans une salle de classe vide l’après-midi, qui suit la progression de sa classe sur un ordinateur portable"
+    caption: "Après le cours, l’enseignante repère où ses élèves bloquent."
+    prompt: "A fictional secondary-school teacher in her early fifties, a white woman with a silver-grey bob and round tortoiseshell glasses, wearing a forest-green cardigan over a cream blouse, sits alone at the front desk of an empty classroom in the late afternoon after the students have left, chairs pushed in behind her, looking thoughtfully at a laptop whose screen faces away from the camera, a red pen in one hand and a stack of exercise books (closed) at her elbow. Soft, low-angled afternoon sunlight falls across the rows of desks, dust drifting in the beams, a plain wall with no posters or charts. Mid-shot from a slightly low angle. Mood: attentive, caring, planning the next lesson. No text, letters or numbers anywhere, no logos."
+  - src: /assets/img/posts/one-learning-platform-for-students-and-organizations-scene-3.webp
+    alt: "Une responsable RH et un responsable du recrutement discutent d’une évaluation liée au poste dans une salle de réunion vitrée"
+    caption: "Relire les questions avec quelqu’un qui connaît le poste."
+    prompt: "A fictional HR lead in her mid-forties, a Black woman with short natural hair and small gold hoop earrings, wearing a charcoal blazer over a rust-coloured top, sits in a glass-walled meeting room at midday beside a fictional hiring manager in his late thirties, a white man with a sandy-brown beard and a light-blue shirt with rolled-up sleeves. He points at a laptop turned away from the camera while she listens, pen raised, mid-discussion; a few blank sheets with pencil ticks and no legible writing lie on the table. Cool, even daylight from floor-to-ceiling windows, a blurred open-plan office beyond the glass. Over-the-shoulder shot from behind the hiring manager at eye level, the laptop screen hidden. Mood: careful, collaborative, getting the assessment right. No text, letters or numbers anywhere, no logos."
+  - src: /assets/img/posts/one-learning-platform-for-students-and-organizations-scene-4.webp
+    alt: "La responsable RH accueille une nouvelle employée à son bureau, par une matinée lumineuse de sa première semaine"
+    caption: "La première semaine d’une recrue, avec un parcours clair."
+    prompt: "A fictional HR lead in her mid-forties, a Black woman with short natural hair and small gold hoop earrings, wearing a charcoal blazer over a rust-coloured top, leans in warmly beside the desk of a fictional new employee in her mid-twenties, a white woman with long straight auburn hair wearing a navy knit jumper, on a bright morning in the new starter's first week. The new employee wears a fresh visitor-style lanyard with a blank card and smiles as she looks up from a laptop whose screen faces away from the camera; a welcome plant and a notebook sit on the tidy desk. Fresh morning sunlight floods through large office windows, light and airy colours. Wide shot at eye level. Mood: welcoming, reassuring, a clear path ahead. No text, letters or numbers anywhere, no logos."
+  - src: /assets/img/posts/one-learning-platform-for-students-and-organizations-scene-5.webp
+    alt: "L’étudiant sort de la salle d’examen à l’heure dorée, souriant et soulagé"
+    caption: "Examen terminé, et il savait à quoi s’attendre."
+    prompt: "The main character, a fictional university student, 22, a young man of South Asian heritage with short wavy black hair and light stubble, wearing a mustard-yellow crewneck sweater over a white T-shirt and dark jeans, walks out through the open doors of a historic university exam hall at golden hour, a navy canvas backpack over one shoulder, exhaling with a relieved, quietly proud smile, other blurred students spilling onto the stone steps behind him. Warm low sunlight flares from the side and lights up his face, long shadows across the courtyard. Close-up to medium close-up from a low angle. Mood: relief and confidence after an exam he was ready for. No text, letters or numbers anywhere, no logos."
 faq:
   - q: "Learning Clarity peut-il être utilisé à la fois par des particuliers et par des organisations ?"
     a: "Oui. Les particuliers peuvent utiliser Learning Clarity pour étudier seuls de manière structurée, tandis que les organisations peuvent s’appuyer sur les sujets, les évaluations, le suivi de la progression, la supervision et les certificats pour la formation, l’intégration et l’évaluation des connaissances."
@@ -56,6 +77,8 @@ Ces besoins rejoignent des constats plus larges sur la formation des adultes et 
 
 ## Le problème d’un apprentissage réduit au contenu
 
+{% include scene.html n=1 %}
+
 L’accès au contenu n’est plus le principal goulot d’étranglement. Les apprenants disposent de documents, de vidéos, de présentations, de cours en ligne et de bases de connaissances internes. Le plus difficile est de transformer cet accès en compréhension. Assigner un support ne permet pas, à lui seul, de savoir si l’apprenant peut s’en souvenir, l’appliquer ou repérer ce qui reste à travailler.
 
 C’est l’une des raisons pour lesquelles la pratique active et le feedback comptent. Les recherches synthétisées dans les [données de l’Education Endowment Foundation sur le feedback](https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/feedback) décrivent le feedback comme une information sur la performance par rapport à un objectif et soulignent l’importance de conseils précis et exploitables. Une plateforme structurée peut faire place à ce cycle en associant le contenu d’apprentissage à des questions, des examens, des résultats et des données de progression.
@@ -67,6 +90,8 @@ Un étudiant peut créer un sujet à partir d’un support importé ou d’une d
 Les tests ne servent pas seulement à évaluer. Les [recherches sur l’effet de test](https://pubmed.ncbi.nlm.nih.gov/26151629/) passent en revue des travaux montrant que récupérer des informations au moyen de tests peut renforcer la rétention ultérieure, davantage qu’une simple relecture. Learning Clarity utilise les quiz et les examens comme partie intégrante d’une démarche d’étude plus large, au lieu de réserver l’évaluation à la toute fin.
 
 ## Comment les enseignants et les établissements peuvent utiliser la même structure
+
+{% include scene.html n=2 %}
 
 Les enseignants et les établissements d’enseignement peuvent s’appuyer sur la même structure de sujets pour accompagner les révisions, le travail après les cours et le suivi de la progression. La plateforme ne remplace pas l’enseignement. Elle peut servir de couche de soutien autour de l’enseignement existant, en offrant aux apprenants des explications structurées, des occasions de s’entraîner et des résultats d’évaluation qui peuvent orienter un accompagnement supplémentaire.
 
@@ -82,6 +107,8 @@ Après l’embauche, le [guide de la SHRM sur l’intégration des nouveaux sala
 
 ## Scénario pratique : une plateforme, des parcours différents
 
+{% include scene.html n=3 %}
+
 Imaginez trois utilisateurs au cours de la même semaine. Un étudiant importe ses notes de cours et utilise le mode Explication pour comprendre une notion difficile avant de passer un examen blanc. Un enseignant partage des contenus de révision structurés et suit la progression. Une équipe RH crée une évaluation des connaissances liées au poste, puis transforme plus tard les politiques d’intégration en sujets d’apprentissage pour la personne recrutée.
 
 La plateforme est la même, mais l’objectif change. L’étudiant prépare un examen. L’enseignant accompagne la progression. L’équipe RH recueille des éléments d’évaluation, puis soutient l’intégration. Un parcours commun réduit la fragmentation tout en permettant à chaque public d’utiliser les fonctionnalités adaptées à son propre objectif.
@@ -93,6 +120,8 @@ La mesure doit découler de l’objectif de l’activité d’apprentissage. Pou
 Le but n’est pas de réduire l’apprentissage à un score unique. De bonnes données d’apprentissage doivent aider l’apprenant ou le superviseur à décider de la suite : revoir une notion, s’entraîner à nouveau, proposer un accompagnement, passer au module suivant ou confirmer que les contenus obligatoires ont été suivis.
 
 ## Bonnes pratiques pour utiliser une plateforme d’apprentissage partagée
+
+{% include scene.html n=4 %}
 
 Partez d’un objectif d’apprentissage clair, délimitez vos sujets autour de résultats qui ont du sens et utilisez des évaluations qui reflètent ce que l’apprenant a réellement besoin de savoir. Évitez d’ajouter des quiz simplement parce que l’outil sait les générer. Chaque évaluation doit répondre à une question utile sur la compréhension ou le niveau de préparation.
 
@@ -107,6 +136,8 @@ Donnez ensuite à chaque public un point de contrôle adapté à son objectif. L
 À la fin de la semaine, comparez ce que les résultats ont montré avec ce que vous attendiez. Si les points faibles sont ceux que vous aviez prévus, le sujet remplit son rôle. S’ils vous surprennent, c’est tout aussi utile : ils signalent une notion qui a besoin d’une explication plus claire, d’un exemple ou de davantage d’entraînement. Un seul sujet bien délimité vous en apprend davantage sur la place de la plateforme dans votre contexte qu’un déploiement d’envergure planifié à l’avance.
 
 ## Conclusion
+
+{% include scene.html n=5 %}
 
 Une plateforme d’apprentissage devient plus utile lorsqu’elle relie le contenu à l’explication, à l’entraînement, à l’évaluation et à la progression, au lieu de traiter ces activités comme des outils séparés. C’est le fil conducteur commun aux étudiants, aux enseignants, aux équipes RH, aux entreprises, aux managers et aux autodidactes.
 

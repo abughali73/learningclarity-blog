@@ -5,7 +5,7 @@ date: 2026-11-02 22:50:00 +0200
 lang: es
 ref: one-learning-platform-for-students-and-organizations
 capability: learning-insights
-image: /assets/img/posts/one-learning-platform-for-students-and-organizations-hero.webp
+image: /assets/img/posts/one-learning-platform-for-students-and-organizations-cinematic.webp
 keywords: ["plataforma de aprendizaje para estudiantes y empresas", "plataforma educativa para centros y empresas", "incorporación de nuevos empleados", "evaluación de candidatos por puesto", "autoestudio estructurado"]
 tags: [LearningClarity, LearningClarityAI, PlataformaDeAprendizaje, AprendizajeOnline, EducacionDigital, InteligenciaArtificial, FormacionCorporativa, RecursosHumanos, Estudiantes, Docentes, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -29,9 +29,30 @@ ad:
       bullets: ["Seguimiento del progreso y supervisión", "Certificados por resultados válidos"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/one-learning-platform-for-students-and-organizations-hero.webp
-  alt: "Learning Clarity: una plataforma de aprendizaje para estudiantes, docentes, equipos de RR. HH. y empresas que convierte cualquier tema o documento en explicaciones, cuestionarios, exámenes y un plan de aprendizaje."
-  prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
+  src: /assets/img/posts/one-learning-platform-for-students-and-organizations-cinematic.webp
+  alt: "Un estudiante universitario repasa con un cuaderno abierto junto a la ventana de una biblioteca al atardecer"
+  prompt: "The main character, a fictional university student, 22, a young man of South Asian heritage with short wavy black hair and light stubble, wearing a mustard-yellow crewneck sweater over a white T-shirt and dark jeans, sits at a long wooden table by a tall arched window in a quiet university library at dusk, chin resting on one hand, writing in an open paper notebook with a pencil while a laptop beside him faces away from the camera. Rows of bookshelves fade into soft shadow behind him. Deep blue twilight through the window on one side, a warm brass reading lamp lighting his face and hands on the other. Mid-shot at eye level, shallow depth of field. Mood: calm, focused, a learner who finally has a plan. No text, letters or numbers anywhere, no logos."
+scenes:
+  - src: /assets/img/posts/one-learning-platform-for-students-and-organizations-scene-1.webp
+    alt: "El estudiante en su escritorio de noche, rodeado de montones de apuntes"
+    caption: "Mucho material, pero ningún camino claro."
+    prompt: "The main character, a fictional university student, 22, a young man of South Asian heritage with short wavy black hair and light stubble, wearing a mustard-yellow crewneck sweater over a white T-shirt and dark jeans, sits at a cluttered desk in a small student flat late at night, surrounded by tall uneven stacks of printed lecture notes, handouts and highlighted pages (no legible writing), a cold mug of coffee and a closed laptop. He leans back in his chair, both hands pushed through his hair, staring at the piles. A single cool-white desk lamp, the rest of the room in deep blue darkness, a rain-streaked window behind him. Wide shot at eye level, slightly off-centre. Mood: overwhelmed by material with no clear way through it. No text, letters or numbers anywhere, no logos."
+  - src: /assets/img/posts/one-learning-platform-for-students-and-organizations-scene-2.webp
+    alt: "Una profesora en un aula vacía por la tarde revisa el progreso de su clase en un portátil"
+    caption: "Tras la clase, la profesora ve dónde tropiezan sus alumnos."
+    prompt: "A fictional secondary-school teacher in her early fifties, a white woman with a silver-grey bob and round tortoiseshell glasses, wearing a forest-green cardigan over a cream blouse, sits alone at the front desk of an empty classroom in the late afternoon after the students have left, chairs pushed in behind her, looking thoughtfully at a laptop whose screen faces away from the camera, a red pen in one hand and a stack of exercise books (closed) at her elbow. Soft, low-angled afternoon sunlight falls across the rows of desks, dust drifting in the beams, a plain wall with no posters or charts. Mid-shot from a slightly low angle. Mood: attentive, caring, planning the next lesson. No text, letters or numbers anywhere, no logos."
+  - src: /assets/img/posts/one-learning-platform-for-students-and-organizations-scene-3.webp
+    alt: "Una responsable de RR. HH. y un responsable de contratación comentan una evaluación para el puesto en una sala de reuniones acristalada"
+    caption: "Revisar las preguntas con quien conoce el puesto."
+    prompt: "A fictional HR lead in her mid-forties, a Black woman with short natural hair and small gold hoop earrings, wearing a charcoal blazer over a rust-coloured top, sits in a glass-walled meeting room at midday beside a fictional hiring manager in his late thirties, a white man with a sandy-brown beard and a light-blue shirt with rolled-up sleeves. He points at a laptop turned away from the camera while she listens, pen raised, mid-discussion; a few blank sheets with pencil ticks and no legible writing lie on the table. Cool, even daylight from floor-to-ceiling windows, a blurred open-plan office beyond the glass. Over-the-shoulder shot from behind the hiring manager at eye level, the laptop screen hidden. Mood: careful, collaborative, getting the assessment right. No text, letters or numbers anywhere, no logos."
+  - src: /assets/img/posts/one-learning-platform-for-students-and-organizations-scene-4.webp
+    alt: "La responsable de RR. HH. da la bienvenida a una nueva empleada en su escritorio una mañana luminosa de su primera semana"
+    caption: "La primera semana de una nueva empleada, con un camino claro."
+    prompt: "A fictional HR lead in her mid-forties, a Black woman with short natural hair and small gold hoop earrings, wearing a charcoal blazer over a rust-coloured top, leans in warmly beside the desk of a fictional new employee in her mid-twenties, a white woman with long straight auburn hair wearing a navy knit jumper, on a bright morning in the new starter's first week. The new employee wears a fresh visitor-style lanyard with a blank card and smiles as she looks up from a laptop whose screen faces away from the camera; a welcome plant and a notebook sit on the tidy desk. Fresh morning sunlight floods through large office windows, light and airy colours. Wide shot at eye level. Mood: welcoming, reassuring, a clear path ahead. No text, letters or numbers anywhere, no logos."
+  - src: /assets/img/posts/one-learning-platform-for-students-and-organizations-scene-5.webp
+    alt: "El estudiante sale del aula de examen en la hora dorada, sonriendo aliviado"
+    caption: "Examen terminado, y sabía qué esperar."
+    prompt: "The main character, a fictional university student, 22, a young man of South Asian heritage with short wavy black hair and light stubble, wearing a mustard-yellow crewneck sweater over a white T-shirt and dark jeans, walks out through the open doors of a historic university exam hall at golden hour, a navy canvas backpack over one shoulder, exhaling with a relieved, quietly proud smile, other blurred students spilling onto the stone steps behind him. Warm low sunlight flares from the side and lights up his face, long shadows across the courtyard. Close-up to medium close-up from a low angle. Mood: relief and confidence after an exam he was ready for. No text, letters or numbers anywhere, no logos."
 faq:
   - q: "¿Pueden usar Learning Clarity tanto particulares como organizaciones?"
     a: "Sí. Los particulares pueden usar Learning Clarity para el autoestudio estructurado, mientras que las organizaciones pueden usar temas, evaluaciones, seguimiento del progreso, supervisión y certificados para la formación, la incorporación y la evaluación de conocimientos."
@@ -56,6 +77,8 @@ Estas necesidades coinciden con la evidencia más amplia sobre el aprendizaje de
 
 ## El problema del aprendizaje basado solo en contenido
 
+{% include scene.html n=1 %}
+
 La disponibilidad de contenido ya no es el principal cuello de botella. Los alumnos pueden acceder a documentos, vídeos, presentaciones, cursos en línea y bases de conocimiento internas. Lo difícil es convertir ese acceso en comprensión. Asignar material, sin más, no revela si quien aprende puede recordarlo, aplicarlo o identificar lo que aún necesita trabajar.
 
 Esta es una de las razones por las que la práctica activa y la retroalimentación importan. La investigación resumida en la [evidencia de la Education Endowment Foundation sobre la retroalimentación](https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/feedback) describe la retroalimentación como información sobre el rendimiento en relación con un objetivo y subraya la importancia de unas orientaciones concretas y accionables. Una plataforma estructurada puede dar cabida a ese ciclo al combinar el contenido de aprendizaje con preguntas, exámenes, resultados y datos de progreso.
@@ -67,6 +90,8 @@ Los estudiantes pueden crear un tema a partir de material subido o de una descri
 Los exámenes no solo sirven como paso de evaluación. La [investigación sobre el efecto test](https://pubmed.ncbi.nlm.nih.gov/26151629/) revisa la evidencia de que recuperar información mediante pruebas puede reforzar la retención posterior en comparación con volver a estudiar sin más. Learning Clarity utiliza los cuestionarios y los exámenes como parte de un flujo de estudio más amplio, en lugar de tratar la evaluación como algo que solo ocurre al final.
 
 ## Cómo pueden usar la misma estructura docentes e instituciones
+
+{% include scene.html n=2 %}
 
 Los docentes y los centros educativos pueden usar la misma estructura de temas para apoyar el repaso, el estudio después de clase y la visibilidad del progreso. La plataforma no sustituye a la enseñanza. Puede actuar como una capa de apoyo en torno a la docencia existente, ofreciendo a los alumnos explicaciones estructuradas, oportunidades de práctica y resultados de evaluación que pueden orientar un apoyo adicional.
 
@@ -82,6 +107,8 @@ Tras la contratación, la [guía de la SHRM sobre la incorporación de nuevos em
 
 ## Escenario práctico: una plataforma, distintos caminos
 
+{% include scene.html n=3 %}
+
 Imagina a tres usuarios trabajando en la misma semana. Una estudiante universitaria sube sus apuntes de clase y usa el Modo Explicación para entender un concepto difícil antes de hacer un examen de práctica. Un docente comparte contenido de repaso estructurado y revisa el progreso. Un equipo de RR. HH. crea una evaluación de conocimientos relacionados con el puesto y, más adelante, convierte las políticas de incorporación en temas de aprendizaje para la persona contratada.
 
 La plataforma es la misma, pero el objetivo cambia. La estudiante se prepara para un examen. El docente apoya el progreso. El equipo de RR. HH. reúne pruebas de evaluación y después apoya la incorporación. Un flujo compartido reduce la fragmentación y, al mismo tiempo, permite que cada público use las funciones que se ajustan a su propio objetivo.
@@ -93,6 +120,8 @@ La medición debe seguir el propósito de la actividad de aprendizaje. Para una 
 El objetivo no es reducir el aprendizaje a una sola puntuación. Unos buenos datos de aprendizaje deberían ayudar al alumno o al supervisor a decidir qué hacer a continuación: repasar un concepto, volver a practicar, ofrecer coaching, pasar al siguiente módulo o confirmar que se ha completado el material obligatorio.
 
 ## Buenas prácticas para usar una plataforma de aprendizaje compartida
+
+{% include scene.html n=4 %}
 
 Empieza con un objetivo de aprendizaje claro, mantén los temas acotados a resultados significativos y usa evaluaciones que reflejen lo que el alumno necesita saber de verdad. Evita añadir cuestionarios solo porque la herramienta puede generarlos. Cada evaluación debería responder a una pregunta útil sobre la comprensión o la preparación.
 
@@ -107,6 +136,8 @@ Después, da a cada público un punto de control que encaje con su objetivo. Los
 Al final de la semana, compara lo que mostraron los resultados con lo que esperabas. Si los puntos débiles son los que habías previsto, el tema está cumpliendo su función. Si te sorprenden, también es útil: señalan un concepto que necesita una explicación más clara, un ejemplo o más práctica. Un solo tema bien acotado te enseña más sobre cómo encaja la plataforma en tu contexto que un gran despliegue planificado de antemano.
 
 ## Conclusión
+
+{% include scene.html n=5 %}
 
 Una plataforma de aprendizaje resulta más útil cuando conecta el contenido con la explicación, la práctica, la evaluación y el progreso, en lugar de tratar esas actividades como herramientas separadas. Ese es el hilo común entre estudiantes, docentes, equipos de RR. HH., empresas, responsables y autodidactas.
 

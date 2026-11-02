@@ -5,7 +5,7 @@ date: 2026-11-02 23:00:00 +0200
 lang: ar
 ref: measurable-learning-hiring-and-training
 capability: learning-insights
-image: /assets/img/posts/measurable-learning-hiring-and-training-hero-v2.webp
+image: /assets/img/posts/measurable-learning-hiring-and-training-cinematic.webp
 keywords: ["التعلم القابل للقياس", "قياس نتائج التعلم", "تقييم الموظفين الجدد", "تتبع التقدم في التعلم", "تقييم المرشحين للتوظيف"]
 tags: [LearningClarity, LearningClarityAI, التعليم_الإلكتروني, التدريب, التوظيف, الموارد_البشرية, تقييم_الأداء, تطوير_المهارات, التعلم_الذاتي, الذكاء_الاصطناعي, EdTech, AIinEducation, CorporateTraining]
 ad:
@@ -29,9 +29,30 @@ ad:
       bullets: ["تتبع المواضيع والاختبارات والامتحانات", "اكتشف نقاط الضعف والخطوة التالية"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/measurable-learning-hiring-and-training-hero-v2.webp
-  alt: "بطاقة عنوان إنفوغرافيك: من المحتوى إلى تعلم وتوظيف وتدريب قابلة للقياس"
-  prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
+  src: /assets/img/posts/measurable-learning-hiring-and-training-cinematic.webp
+  alt: "ماريك، مدير التعلم والتطوير، يقف عند الجدار الزجاجي لغرفة اجتماعات حاملاً كوب قهوة، ويتأمل مكتباً مفتوحاً في الصباح"
+  prompt: "Marek, a fictional L&D manager in his mid-forties with short salt-and-pepper hair, a neatly trimmed greying beard, light olive skin and thin rimless glasses, wearing a navy merino crew-neck sweater over a white collared shirt, stands just inside the glass wall of a small meeting room on a weekday morning, a coffee mug in one hand, looking out thoughtfully over an open-plan office where a few colleagues work at desks with laptops, all screens turned away or softly blurred. On the meeting table beside him lie a closed laptop and a blank paper notepad with a pen. Cool clear morning daylight from tall windows, soft reflections on the glass. Mid-shot at eye level, shallow depth of field, the office behind him gently out of focus. Mood: calm, thoughtful, a manager weighing what his team has really learned."
+scenes:
+  - src: /assets/img/posts/measurable-learning-hiring-and-training-scene-1.webp
+    alt: "ماريك وحيداً في قاعة تدريب فارغة بعد انتهاء الجلسة، يحمل مطبوعات لم يلمسها أحد"
+    caption: "حساب الحضور سهل، أما الفهم فلا."
+    prompt: "Marek, a fictional L&D manager in his mid-forties with short salt-and-pepper hair, a neatly trimmed greying beard, light olive skin and thin rimless glasses, wearing a navy merino crew-neck sweater over a white collared shirt, stands alone at the back of an empty training room in the early evening just after a session has ended, holding a stack of untouched printed handouts he has collected from the chairs, looking at the rows of empty seats. A projector screen at the front is blank and switched off. Low cool blue light from the windows, a single warm ceiling light near the door, long shadows across the chairs. Wide shot at eye level, Marek small in the frame. Mood: quiet doubt, wondering what actually stayed with people."
+  - src: /assets/img/posts/measurable-learning-hiring-and-training-scene-2.webp
+    alt: "محاضرة جامعية تشير إلى رسم تخطيطي في دفتر طالبة أثناء تقديم الملاحظات"
+    caption: "الملاحظة الجيدة تدلّ على الخطوة التالية."
+    prompt: "A fictional university instructor, a woman in her late fifties with a short grey bob and dark brown skin, wearing a mustard cardigan over a black top, leans over the desk of a fictional student, a young woman around twenty with long auburn hair, wearing a green hoodie, in a small university seminar room in the late afternoon. The instructor points to a hand-drawn diagram of simple boxes and arrows (no letters or words) in the student's paper notebook while the student listens and nods; a laptop beside them is closed. Warm golden light slants through a tall window, dust in the air, bookshelves softly blurred behind. Over-the-shoulder shot from behind the student, slightly high angle. Mood: encouraging, focused, a clear next step."
+  - src: /assets/img/posts/measurable-learning-hiring-and-training-scene-3.webp
+    alt: "ماريك يرحّب بموظف جديد عند مكتبه في صباحه الأول"
+    caption: "الأسبوع الأول: معرفة يتدرّب عليها ويثبتها."
+    prompt: "Marek, a fictional L&D manager in his mid-forties with short salt-and-pepper hair, a neatly trimmed greying beard, light olive skin and thin rimless glasses, wearing a navy merino crew-neck sweater over a white collared shirt, welcomes a fictional new employee, a man in his mid-twenties with short black hair and light brown skin, wearing a light blue oxford shirt, at his new desk on his first morning in a bright open-plan office. Marek rests one hand on the back of the chair and gestures towards a laptop whose screen faces away from the camera, while the new employee, a lanyard with a blank badge around his neck, looks up with an eager, slightly nervous smile. A potted plant and a fresh notebook sit on the desk. Soft bright morning daylight from a large window, airy and clean. Mid-shot at eye level, both faces visible. Mood: welcoming, supportive, a fresh start."
+  - src: /assets/img/posts/measurable-learning-hiring-and-training-scene-4.webp
+    alt: "ماريك في حديث فردي هادئ مع الموظف الجديد والحاسوب مغلق"
+    caption: "النتائج تفتح الحوار ولا تُنهيه."
+    prompt: "Marek, a fictional L&D manager in his mid-forties with short salt-and-pepper hair, a neatly trimmed greying beard, light olive skin and thin rimless glasses, wearing a navy merino crew-neck sweater over a white collared shirt, sits in a relaxed one-to-one conversation with a fictional new employee, a man in his mid-twenties with short black hair and light brown skin, wearing a light blue oxford shirt, in two armchairs by a window in a quiet corner of the office a few weeks later. Marek's laptop is closed on a low table between them next to two mugs of coffee; he leans forward listening, while the younger man explains something with open hands. Overcast afternoon light, soft and even, muted greens of indoor plants. Close two-shot from the side at eye level, shallow depth of field. Mood: honest conversation, trust, data giving way to talk."
+  - src: /assets/img/posts/measurable-learning-hiring-and-training-scene-5.webp
+    alt: "ماريك جالساً إلى مكتبه عند الغسق يحمل بطاقة فارغة وقلماً، يقرّر ما الذي يقيسه"
+    caption: "قرّر أولاً، ثم اختر ما تقيسه."
+    prompt: "Marek, a fictional L&D manager in his mid-forties with short salt-and-pepper hair, a neatly trimmed greying beard, light olive skin and thin rimless glasses, wearing a navy merino crew-neck sweater over a white collared shirt, sits alone at his desk at dusk, glasses pushed up on his forehead, holding a blank index card and a pen, pausing before he writes as he looks out of the window at the city lights coming on. A closed laptop and an empty coffee cup sit beside a small neat stack of blank cards. Deep blue twilight outside, a warm desk lamp lighting one side of his face. Close-up from a slightly low angle. Mood: clarity, deciding what really matters next."
 faq:
   - q: "ما التعلم القابل للقياس؟"
     a: "يربط التعلم القابل للقياس نشاط التعلم بأدلة مثل الإكمال ونتائج الاختبارات والأداء في الامتحانات ونقاط الضعف والتقدم بمرور الوقت، حتى يتمكن المتعلمون والمشرفون من اتخاذ قرارات أفضل بشأن الخطوة التالية."
@@ -56,6 +77,8 @@ faq:
 
 ## لماذا يترك تقديم المحتوى التقليدي نقاطاً عمياء
 
+{% include scene.html n=1 %}
+
 يمكن فتح مستند من دون فهمه، وإكمال مقطع فيديو من دون تذكّره، وحضور جلسة تدريبية من دون أن تخلّف معرفة راسخة. لذا فإن الإكمال يخبرنا بشيء ما، لكنه لا يخبرنا بكل شيء.
 
 والاسترجاع النشط إحدى الطرق لتوليد أدلة أقوى على الفهم. إذ تستعرض [أبحاث أثر الاختبار](https://pubmed.ncbi.nlm.nih.gov/26151629/) دراسات تُظهر أن استرجاع المعلومات عبر الاختبارات يمكن أن يدعم الاحتفاظ بها لاحقاً. وعملياً، يمكن أن تؤدي الاختبارات والامتحانات دور محطات التحقق وأنشطة التعلم في آن واحد، حين تقترن بتغذية راجعة مناسبة.
@@ -68,11 +91,15 @@ faq:
 
 ## كيف ينطبق التعلم القابل للقياس على الطلاب
 
+{% include scene.html n=2 %}
+
 بالنسبة للطلاب، غالباً ما يكون القياس الأكثر قيمة قياساً تشخيصياً. فالدرجة المنخفضة وحدها ليست مفيدة؛ والجزء المفيد هو معرفة المفاهيم التي سبّبت الصعوبة وما ينبغي دراسته بعد ذلك. وهنا يمكن لوضوح نقاط الضعف أن يحوّل التقييم إلى خطة دراسة.
 
 وتؤكد [إرشادات مؤسسة EEF حول التغذية الراجعة](https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/feedback) أن التغذية الراجعة ينبغي أن تساعد المتعلمين على فهم أدائهم قياساً بالأهداف، وتحديد خطوات تالية قابلة للتنفيذ. لذا ينبغي لأدوات التعلم أن تربط النتائج بالتحسين، بدلاً من الاكتفاء بعرض نسبة مئوية نهائية.
 
 ## كيف ينطبق على التوظيف والتهيئة
+
+{% include scene.html n=3 %}
 
 في التوظيف، يصبح التعلم القابل للقياس فهماً قابلاً للقياس للدور الوظيفي. إذ يمكن لتقييم المرشحين أن يختبر معرفة محددة قبل إعداد القائمة المختصرة، بينما تقيّم المقابلات والتمارين العملية قدرات أخرى. والهدف إضافة أدلة، لا أتمتة قرار التوظيف.
 
@@ -85,6 +112,8 @@ faq:
 المحتوى متشابه، لكن القرار يتغير. فالمتعلم الفرد يسأل: «هل أنا مستعد؟» والمعلم يسأل: «من يحتاج إلى مساعدة؟» والشركة تسأل: «هل تمت تغطية المعرفة المطلوبة؟» ويكون القياس مفيداً لأنه يساعد كل طرف على الإجابة عن السؤال الذي يهمّه.
 
 ## أفضل الممارسات لقياس التعلم من دون تبسيطه أكثر من اللازم
+
+{% include scene.html n=4 %}
 
 حدّد النتيجة المطلوبة قبل اختيار المقياس. استخدم الاختبارات للتدرّب والتشخيص، والامتحانات لفحوص الجاهزية الأكثر رسمية، وبيانات الإكمال لقياس المشاركة. وتجنّب اعتبار درجة واحدة دليلاً على الإتقان حين يتطلب الموضوع أداءً عملياً أو تقديراً.
 
@@ -99,6 +128,8 @@ faq:
 كما أن مواءمة المؤشر مع القرار تكشف ما لا ينبغي قياسه. فإذا كان رقم ما لن يغيّر أبداً ما يفعله أي شخص بعد ذلك، فإنه يضيف ضجيجاً إلى التقرير وجهداً على المتعلم. ومجموعة صغيرة من المؤشرات يجيب كل منها عن سؤال حقيقي أسهل في العمل بها من تقرير ضخم لا يقرؤه أحد.
 
 ## الخلاصة
+
+{% include scene.html n=5 %}
 
 يكون التعلم القابل للقياس أكثر فائدة حين يساعد على الإجابة عمّا ينبغي أن يحدث بعد ذلك. فالهدف ليس المزيد من البيانات، بل أدلة أوضح يمكن أن توجّه قرارات الدراسة والدعم والتوظيف والتهيئة والتدريب.
 

@@ -5,7 +5,7 @@ date: 2026-11-02 23:30:00 +0200
 lang: en
 ref: why-more-content-does-not-solve-learning-problems
 capability: learning-insights
-image: /assets/img/posts/why-more-content-does-not-solve-learning-problems-hero.webp
+image: /assets/img/posts/why-more-content-does-not-solve-learning-problems-cinematic.webp
 keywords: ["more content does not improve learning", "retrieval practice", "content overload in learning", "testing effect", "structured learning workflow"]
 tags: [LearningClarity, LearningClarityAI, RetrievalPractice, LearningScience, StudyTips, ExamPrep, ExplainMode, QuizMode, ExamMode, Onboarding, OnlineLearning, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -29,9 +29,30 @@ ad:
       bullets: ["Progress tracking shows your history", "Know what to do next"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/why-more-content-does-not-solve-learning-problems-hero.webp
-  alt: "Title card infographic: Why More Content Does Not Solve Learning Problems"
-  prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
+  src: /assets/img/posts/why-more-content-does-not-solve-learning-problems-cinematic.webp
+  alt: "A university student sits on her bedroom floor at night, surrounded by piles of slides, textbooks and loose notes"
+  prompt: "Maya, a fictional 20-year-old university student, a young woman with light-brown skin and dark curly hair pulled up into a high puff, small gold hoop earrings, wearing an oversized mustard-yellow hoodie over a white T-shirt and grey joggers, sits cross-legged on the floor of her small student bedroom late at night, completely surrounded by spread-out printed lecture slides, three open textbooks, loose handwritten notes, scattered sticky notes and a laptop whose screen faces away from the camera. She holds a single sheet in each hand, looking from one to the other, lost about where to start. All pages are blank-looking or blurred, nothing legible. A single desk lamp casts a warm pool of amber light over the papers while the rest of the room falls into deep blue shadow, a dark window with city lights behind her. Wide high-angle shot looking down at her in the middle of the mess. Mood: overwhelmed, stuck, too much at once."
+scenes:
+  - src: /assets/img/posts/why-more-content-does-not-solve-learning-problems-scene-1.webp
+    alt: "Close-up of the student's hand highlighting a page that is already almost entirely marked"
+    caption: "Busy all evening, but is any of it sticking?"
+    prompt: "Close-up of the hand of Maya, a fictional 20-year-old university student, a young woman with light-brown skin and dark curly hair pulled up into a high puff, small gold hoop earrings, wearing an oversized mustard-yellow hoodie over a white T-shirt and grey joggers, sliding a yellow highlighter across a printed page that is already almost entirely highlighted, more highlighted pages fanned out beneath it, the lines of type blurred and unreadable. In the soft background, out of focus, her face rests on her other hand, eyes glazed. Late-afternoon light from a university library window falls low and orange across the desk. Very shallow depth of field, slightly low angle at desk level. Mood: busy but empty, activity without progress."
+  - src: /assets/img/posts/why-more-content-does-not-solve-learning-problems-scene-2.webp
+    alt: "The student in a library with her textbook closed, looking up as she writes on a blank sheet from memory"
+    caption: "Book closed: what can she recall on her own?"
+    prompt: "Maya, a fictional 20-year-old university student, a young woman with light-brown skin and dark curly hair pulled up into a high puff, small gold hoop earrings, wearing an oversized mustard-yellow hoodie over a white T-shirt and grey joggers, sits at a long wooden table in a quiet university library on a bright morning, her textbook firmly closed and pushed to one side with her palm resting on its cover. With her other hand she writes from memory on a blank sheet of paper (marks too small to read), pausing to look up and to the side as she tries to recall something. Cool, clear daylight from tall windows, rows of bookshelves softly blurred behind her. Mid-shot from the side at eye level. Mood: effortful concentration, the first sparks of recall."
+  - src: /assets/img/posts/why-more-content-does-not-solve-learning-problems-scene-3.webp
+    alt: "Over the student's shoulder at a tidy desk at sunset, one notebook open and the extra material stacked aside"
+    caption: "One topic, one sequence, and the rest can wait."
+    prompt: "Over-the-shoulder view from behind Maya, a fictional 20-year-old university student, a young woman with light-brown skin and dark curly hair pulled up into a high puff, small gold hoop earrings, wearing an oversized mustard-yellow hoodie over a white T-shirt and grey joggers, seated at a now tidy desk by a window at sunset. Only one paper notebook lies open in front of her with simple hand-drawn boxes and arrows (no letters or words), next to a laptop turned away from the camera; the earlier piles of slides, textbooks and notes are neatly stacked and pushed to the far corner of the desk. She is ticking a box in the notebook with a pen. Warm golden-hour sunlight floods through the window, long soft shadows. Over-the-shoulder framing at eye level. Mood: calm, ordered, a clear next step."
+  - src: /assets/img/posts/why-more-content-does-not-solve-learning-problems-scene-4.webp
+    alt: "A new employee at his first-week desk, facing tall stacks of binders and folders"
+    caption: "First week, and dozens of files to read."
+    prompt: "Daniel, a fictional new employee, a man in his early thirties with pale freckled skin, short ginger hair and a neat short beard, wearing a light-blue oxford shirt with the sleeves rolled up, sits at a desk in a bright open-plan office on a Monday morning during his first week, a lanyard with a blank badge around his neck, facing tall stacks of ring binders, paper folders and printed handbooks piled on both sides of the desk, a monitor angled away from the camera. He leans back with one hand on the back of his neck, exhaling, looking at the piles. Cool white morning daylight from large windows, colleagues softly blurred in the background. Wide shot at eye level from the front, the stacks framing him. Mood: well-meaning but overwhelmed newcomer."
+  - src: /assets/img/posts/why-more-content-does-not-solve-learning-problems-scene-5.webp
+    alt: "A team lead points to one page in a thin folder while talking with the new employee, the big stack pushed aside"
+    caption: "Fix the part that was missed, not the whole pile."
+    prompt: "In a small glass-walled meeting room on a quiet afternoon, Daniel, a fictional new employee, a man in his early thirties with pale freckled skin, short ginger hair and a neat short beard, wearing a light-blue oxford shirt with the sleeves rolled up, sits across a round table from Grace, a fictional team lead, a woman in her mid-fifties with dark brown skin and close-cropped silver hair, thin-framed glasses, wearing a charcoal cardigan over a black top. Grace leans forward and points to a single page in a thin open folder between them (page blank or blurred, nothing legible), while a tall stack of binders has been pushed to the edge of the table. Daniel nods, relieved, beginning to smile. Soft diffused afternoon light through blinds, warm wood tones, a potted plant in the corner. Mid-shot at eye level, slightly favouring Daniel's face. Mood: focused, supportive, the problem shrinks to something specific."
 faq:
   - q: "Why does more content not always improve learning?"
     a: "Because access and exposure do not guarantee retrieval, understanding, or application. Learners need structure, practice, assessment, and feedback."
@@ -50,11 +71,15 @@ Good learning requires the learner to identify what matters, understand it, retr
 
 ## Why Content Volume Can Become a Distraction
 
+{% include scene.html n=1 %}
+
 More material can create a false sense of productivity. Learners may spend time organizing resources, highlighting documents, or watching explanations without ever checking whether the knowledge can be recalled. The result is high activity with uncertain learning.
 
 The solution is not to make content scarce. It is to make the path through the content clearer. A Topic should define what the learner is trying to understand, what practice will help, and what evidence will indicate readiness.
 
 ## Retrieval Practice Changes the Learning Dynamic
+
+{% include scene.html n=2 %}
 
 Reading is useful for exposure and understanding, but retrieval asks the learner to produce an answer without simply looking at the source. That process creates information about what is actually available from memory.
 
@@ -74,11 +99,15 @@ Explain Mode supports understanding, Quiz Mode creates practice, Exam Mode provi
 
 ## Practical Scenario: The Overloaded Student
 
+{% include scene.html n=3 %}
+
 A student preparing for a difficult exam may have lecture slides, a textbook, several online videos, and classmates sharing additional notes. The volume of material makes it harder to decide what to study first. By creating a Topic from the core material, the student can work through a defined sequence and use quizzes to identify weak areas before taking a practice exam.
 
 The benefit comes from prioritization. The platform does not make the source material disappear; it gives the learner a way to convert it into a study process.
 
 ## Practical Scenario: The Overloaded New Hire
+
+{% include scene.html n=4 %}
 
 The same problem appears in onboarding. A new employee may receive dozens of files during the first week. Instead of relying on the employee to decide what is important, the company can create structured Topics around policies, systems, product knowledge, and role procedures.
 
@@ -91,6 +120,8 @@ Select the minimum content needed for the objective, organize it around meaningf
 If learners repeatedly miss the same concept, examine the explanation as well as the learner. Sometimes a pattern of weak results is evidence that the content itself needs to be clarified or restructured.
 
 ## A Simple Test Before Adding More Material
+
+{% include scene.html n=5 %}
 
 Before adding another resource, ask what the learner would do with it. If the answer is “read it as well”, the new material is likely to add volume rather than understanding. If the answer is “use it to understand the Subtopic they keep getting wrong”, it may be exactly what is needed.
 

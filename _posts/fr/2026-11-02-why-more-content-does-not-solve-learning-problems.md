@@ -5,7 +5,7 @@ date: 2026-11-02 23:30:00 +0200
 lang: fr
 ref: why-more-content-does-not-solve-learning-problems
 capability: learning-insights
-image: /assets/img/posts/why-more-content-does-not-solve-learning-problems-hero.webp
+image: /assets/img/posts/why-more-content-does-not-solve-learning-problems-cinematic.webp
 keywords: ["plus de contenu ne suffit pas pour apprendre", "pratique de la récupération", "surcharge de contenus", "effet de test", "feedback et apprentissage"]
 tags: [LearningClarity, LearningClarityAI, ApprentissageEnLigne, MethodeDeTravail, ConseilsEtude, Etudiants, Education, IntelligenceArtificielle, Examens, Formation, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -29,9 +29,30 @@ ad:
       bullets: ["Le suivi montre votre historique", "Savoir quoi faire ensuite"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/why-more-content-does-not-solve-learning-problems-hero.webp
-  alt: "Infographie de titre : Pourquoi plus de contenu ne résout pas les problèmes d’apprentissage"
-  prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
+  src: /assets/img/posts/why-more-content-does-not-solve-learning-problems-cinematic.webp
+  alt: "Une étudiante assise par terre dans sa chambre, la nuit, entourée de piles de diapositives, de manuels et de notes éparses"
+  prompt: "Maya, a fictional 20-year-old university student, a young woman with light-brown skin and dark curly hair pulled up into a high puff, small gold hoop earrings, wearing an oversized mustard-yellow hoodie over a white T-shirt and grey joggers, sits cross-legged on the floor of her small student bedroom late at night, completely surrounded by spread-out printed lecture slides, three open textbooks, loose handwritten notes, scattered sticky notes and a laptop whose screen faces away from the camera. She holds a single sheet in each hand, looking from one to the other, lost about where to start. All pages are blank-looking or blurred, nothing legible. A single desk lamp casts a warm pool of amber light over the papers while the rest of the room falls into deep blue shadow, a dark window with city lights behind her. Wide high-angle shot looking down at her in the middle of the mess. Mood: overwhelmed, stuck, too much at once."
+scenes:
+  - src: /assets/img/posts/why-more-content-does-not-solve-learning-problems-scene-1.webp
+    alt: "Gros plan sur la main de l’étudiante qui surligne une page déjà presque entièrement marquée"
+    caption: "Occupée toute la soirée, mais qu’en reste-t-il ?"
+    prompt: "Close-up of the hand of Maya, a fictional 20-year-old university student, a young woman with light-brown skin and dark curly hair pulled up into a high puff, small gold hoop earrings, wearing an oversized mustard-yellow hoodie over a white T-shirt and grey joggers, sliding a yellow highlighter across a printed page that is already almost entirely highlighted, more highlighted pages fanned out beneath it, the lines of type blurred and unreadable. In the soft background, out of focus, her face rests on her other hand, eyes glazed. Late-afternoon light from a university library window falls low and orange across the desk. Very shallow depth of field, slightly low angle at desk level. Mood: busy but empty, activity without progress."
+  - src: /assets/img/posts/why-more-content-does-not-solve-learning-problems-scene-2.webp
+    alt: "L’étudiante à la bibliothèque, manuel fermé, lève les yeux en écrivant de mémoire sur une feuille blanche"
+    caption: "Manuel fermé : que retient-elle vraiment ?"
+    prompt: "Maya, a fictional 20-year-old university student, a young woman with light-brown skin and dark curly hair pulled up into a high puff, small gold hoop earrings, wearing an oversized mustard-yellow hoodie over a white T-shirt and grey joggers, sits at a long wooden table in a quiet university library on a bright morning, her textbook firmly closed and pushed to one side with her palm resting on its cover. With her other hand she writes from memory on a blank sheet of paper (marks too small to read), pausing to look up and to the side as she tries to recall something. Cool, clear daylight from tall windows, rows of bookshelves softly blurred behind her. Mid-shot from the side at eye level. Mood: effortful concentration, the first sparks of recall."
+  - src: /assets/img/posts/why-more-content-does-not-solve-learning-problems-scene-3.webp
+    alt: "Par-dessus l’épaule de l’étudiante, à un bureau rangé au coucher du soleil, un seul cahier ouvert et le reste mis de côté"
+    caption: "Un sujet, un ordre clair ; le reste peut attendre."
+    prompt: "Over-the-shoulder view from behind Maya, a fictional 20-year-old university student, a young woman with light-brown skin and dark curly hair pulled up into a high puff, small gold hoop earrings, wearing an oversized mustard-yellow hoodie over a white T-shirt and grey joggers, seated at a now tidy desk by a window at sunset. Only one paper notebook lies open in front of her with simple hand-drawn boxes and arrows (no letters or words), next to a laptop turned away from the camera; the earlier piles of slides, textbooks and notes are neatly stacked and pushed to the far corner of the desk. She is ticking a box in the notebook with a pen. Warm golden-hour sunlight floods through the window, long soft shadows. Over-the-shoulder framing at eye level. Mood: calm, ordered, a clear next step."
+  - src: /assets/img/posts/why-more-content-does-not-solve-learning-problems-scene-4.webp
+    alt: "Un nouvel employé à son bureau pendant sa première semaine, face à de hautes piles de classeurs et de dossiers"
+    caption: "Première semaine, et des dizaines de fichiers à lire."
+    prompt: "Daniel, a fictional new employee, a man in his early thirties with pale freckled skin, short ginger hair and a neat short beard, wearing a light-blue oxford shirt with the sleeves rolled up, sits at a desk in a bright open-plan office on a Monday morning during his first week, a lanyard with a blank badge around his neck, facing tall stacks of ring binders, paper folders and printed handbooks piled on both sides of the desk, a monitor angled away from the camera. He leans back with one hand on the back of his neck, exhaling, looking at the piles. Cool white morning daylight from large windows, colleagues softly blurred in the background. Wide shot at eye level from the front, the stacks framing him. Mood: well-meaning but overwhelmed newcomer."
+  - src: /assets/img/posts/why-more-content-does-not-solve-learning-problems-scene-5.webp
+    alt: "Une responsable d’équipe montre une page d’un dossier mince au nouvel employé, la grosse pile poussée sur le côté"
+    caption: "Reprendre ce qui a été manqué, pas toute la pile."
+    prompt: "In a small glass-walled meeting room on a quiet afternoon, Daniel, a fictional new employee, a man in his early thirties with pale freckled skin, short ginger hair and a neat short beard, wearing a light-blue oxford shirt with the sleeves rolled up, sits across a round table from Grace, a fictional team lead, a woman in her mid-fifties with dark brown skin and close-cropped silver hair, thin-framed glasses, wearing a charcoal cardigan over a black top. Grace leans forward and points to a single page in a thin open folder between them (page blank or blurred, nothing legible), while a tall stack of binders has been pushed to the edge of the table. Daniel nods, relieved, beginning to smile. Soft diffused afternoon light through blinds, warm wood tones, a potted plant in the corner. Mid-shot at eye level, slightly favouring Daniel's face. Mood: focused, supportive, the problem shrinks to something specific."
 faq:
   - q: "Pourquoi plus de contenu n’améliore-t-il pas toujours l’apprentissage ?"
     a: "Parce que l’accès et l’exposition ne garantissent ni la récupération en mémoire, ni la compréhension, ni l’application. Les apprenants ont besoin de structure, d’entraînement, d’évaluation et de feedback."
@@ -50,11 +71,15 @@ Bien apprendre exige de repérer ce qui compte, de le comprendre, de le retrouve
 
 ## Pourquoi le volume de contenu peut devenir une distraction
 
+{% include scene.html n=1 %}
+
 Davantage de supports peut créer un faux sentiment de productivité. Les apprenants passent parfois du temps à organiser leurs ressources, à surligner des documents ou à regarder des explications sans jamais vérifier qu’ils peuvent se souvenir des connaissances. Résultat : beaucoup d’activité, pour un apprentissage incertain.
 
 La solution n’est pas de rationner le contenu, mais de rendre plus clair le chemin qui le traverse. Un sujet doit définir ce que l’apprenant cherche à comprendre, quel entraînement l’y aidera et quelles preuves indiqueront qu’il est prêt.
 
 ## La pratique de la récupération change la dynamique d’apprentissage
+
+{% include scene.html n=2 %}
 
 La lecture est utile pour découvrir et comprendre, mais la récupération en mémoire demande à l’apprenant de produire une réponse sans simplement regarder la source. Ce processus révèle ce qui est réellement disponible en mémoire.
 
@@ -74,11 +99,15 @@ Le mode Explication favorise la compréhension, le mode Quiz crée de l’entra�
 
 ## Scénario pratique : l’étudiant débordé
 
+{% include scene.html n=3 %}
+
 Un étudiant qui prépare un examen difficile peut avoir des diapositives de cours, un manuel, plusieurs vidéos en ligne et des notes supplémentaires partagées par ses camarades. Ce volume rend plus difficile de décider par quoi commencer. En créant un sujet à partir des supports essentiels, l’étudiant peut suivre une séquence définie et utiliser des quiz pour repérer ses points faibles avant de passer un examen blanc.
 
 Le bénéfice vient de la priorisation. La plateforme ne fait pas disparaître les supports sources ; elle donne à l’apprenant un moyen de les transformer en processus d’étude.
 
 ## Scénario pratique : la nouvelle recrue débordée
+
+{% include scene.html n=4 %}
 
 Le même problème apparaît lors de l’intégration. Un nouveau collaborateur peut recevoir des dizaines de fichiers dès la première semaine. Au lieu de compter sur lui pour décider de ce qui est important, l’entreprise peut créer des sujets structurés autour des politiques, des systèmes, des connaissances produit et des procédures du poste.
 
@@ -91,6 +120,8 @@ Sélectionnez le minimum de contenu nécessaire à l’objectif, organisez-le au
 Si les apprenants ratent régulièrement la même notion, examinez l’explication autant que l’apprenant. Une série de résultats faibles montre parfois que le contenu lui-même doit être clarifié ou restructuré.
 
 ## Un test simple avant d’ajouter des supports
+
+{% include scene.html n=5 %}
 
 Avant d’ajouter une ressource, demandez-vous ce que l’apprenant en ferait. Si la réponse est « la lire en plus », le nouveau support risque d’ajouter du volume plutôt que de la compréhension. Si la réponse est « s’en servir pour comprendre le sous-thème sur lequel il se trompe sans cesse », c’est peut-être exactement ce qu’il faut.
 

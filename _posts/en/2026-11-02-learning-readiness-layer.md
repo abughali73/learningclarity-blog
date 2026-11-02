@@ -5,7 +5,7 @@ date: 2026-11-02 23:25:00 +0200
 lang: en
 ref: learning-readiness-layer
 capability: learning-insights
-image: /assets/img/posts/learning-readiness-layer-hero-v2.webp
+image: /assets/img/posts/learning-readiness-layer-cinematic.webp
 keywords: ["learning readiness layer", "employee onboarding readiness", "training assessment", "pre-hire knowledge assessment", "evidence of understanding"]
 tags: [LearningClarity, LearningClarityAI, LearningReadiness, EmployeeOnboarding, CorporateTraining, ExamMode, QuizMode, TrainingAssessment, Hiring, HRTech, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -29,9 +29,30 @@ ad:
       bullets: ["Progress tracking at every level", "Supervision and progress reports"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/learning-readiness-layer-hero-v2.webp
-  alt: "Infographic title card: Why Every Organization Needs a Learning Readiness Layer"
-  prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
+  src: /assets/img/posts/learning-readiness-layer-cinematic.webp
+  alt: "Helena, an operations director, holds a printed policy and looks across an open-plan office in morning light"
+  prompt: "Helena, a fictional operations director in her mid-forties with shoulder-length auburn hair lightly streaked with grey, light freckled skin and rectangular tortoiseshell glasses, wearing a navy blazer over a cream blouse and a slim silver watch, stands at the glass wall of a meeting room early on a weekday morning, holding a printed policy document folded against her chest, looking out thoughtfully across a wide open-plan office where colleagues from finance, operations and procurement are arriving, hanging up coats and switching on desk lamps. Cool pale morning daylight floods in through tall windows, small warm pools of lamp light on the desks, all monitors turned away or softly blurred. Mid-shot at eye level from a slight three-quarter angle, shallow depth of field, the office behind her softly out of focus. Mood: calm resolve before a change."
+scenes:
+  - src: /assets/img/posts/learning-readiness-layer-scene-1.webp
+    alt: "Helena at her desk in late-afternoon light, frowning at a stack of returned approval forms"
+    caption: "The policy was shared, yet approvals still came back wrong."
+    prompt: "Close-up of Helena, a fictional operations director in her mid-forties with shoulder-length auburn hair lightly streaked with grey, light freckled skin and rectangular tortoiseshell glasses, wearing a navy blazer over a cream blouse and a slim silver watch, sitting at her desk late in the afternoon, frowning as she leafs through a small stack of returned paper approval forms, one held up in her hand with pen circles and crossed-out signature boxes, no legible writing. Her laptop sits open beside her with its screen facing away from the camera, a cold cup of coffee nearby. Low amber sunlight slants through half-closed blinds, casting warm stripes across her face and the papers. Slightly over-the-shoulder framing, very shallow depth of field. Mood: puzzled frustration."
+  - src: /assets/img/posts/learning-readiness-layer-scene-2.webp
+    alt: "Helena sitting beside a new procurement coordinator, pointing at a hand-drawn process sketch"
+    caption: "First week: the approval process, explained one step at a time."
+    prompt: "Helena, a fictional operations director in her mid-forties with shoulder-length auburn hair lightly streaked with grey, light freckled skin and rectangular tortoiseshell glasses, wearing a navy blazer over a cream blouse and a slim silver watch, sits beside Tomasz, a fictional new procurement coordinator in his mid-twenties with short dark hair, a neatly trimmed beard and a light blue shirt, in his first week at work. At a shared desk she points with a pen to a hand-drawn process sketch of simple boxes and arrows on a sheet of paper (no letters or words), while he leans in, nodding, a tablet resting face down by his elbow. Bright, even midday daylight from a large window, green plants on the windowsill. Wide shot at eye level. Mood: patient, encouraging, a good first week."
+  - src: /assets/img/posts/learning-readiness-layer-scene-3.webp
+    alt: "Helena briefing the finance, operations and procurement leads around a meeting table"
+    caption: "One policy change, three teams, three different things to learn."
+    prompt: "Helena, a fictional operations director in her mid-forties with shoulder-length auburn hair lightly streaked with grey, light freckled skin and rectangular tortoiseshell glasses, wearing a navy blazer over a cream blouse and a slim silver watch, stands at the head of a long meeting table, gesturing with an open hand as she briefs three department leads: a fictional finance manager in her fifties, a Black woman with short natural grey hair in a burgundy cardigan; a fictional operations supervisor in his thirties, a South Asian man in a high-visibility vest over a dark polo shirt; and a fictional procurement lead in her early thirties, an East Asian woman with a sleek bob in an olive jacket. Notebooks and water glasses on the table, a blank wiped whiteboard behind her. Soft, diffuse overcast daylight from the side. Wide shot from a slightly low angle at the end of the table. Mood: focused, collaborative, a little uncertain."
+  - src: /assets/img/posts/learning-readiness-layer-scene-4.webp
+    alt: "Helena in a one-to-one with an operations supervisor at a small table by a window"
+    caption: "A weak result starts a conversation, not a reprimand."
+    prompt: "Helena, a fictional operations director in her mid-forties with shoulder-length auburn hair lightly streaked with grey, light freckled skin and rectangular tortoiseshell glasses, wearing a navy blazer over a cream blouse and a slim silver watch, sits in a one-to-one conversation with Ravi, a fictional operations supervisor in his thirties, a South Asian man in a high-visibility vest over a dark polo shirt, at a small round table by the window of a warehouse office. He explains something with both hands while she listens closely and nods, two mugs of coffee between them, his phone face down on the table. Through the window behind, shelving and a forklift are softly blurred. Warm late-afternoon light, golden rim light on their shoulders. Over-the-shoulder shot from behind Ravi, focused on Helena's attentive face. Mood: supportive, honest, constructive."
+  - src: /assets/img/posts/learning-readiness-layer-scene-5.webp
+    alt: "Helena alone in her office at dusk, leaning back with a quiet smile beside her laptop"
+    caption: "After the first pilot cycle, the gaps are finally visible."
+    prompt: "Helena, a fictional operations director in her mid-forties with shoulder-length auburn hair lightly streaked with grey, light freckled skin and rectangular tortoiseshell glasses, wearing a navy blazer over a cream blouse and a slim silver watch, alone in her glass-walled office at dusk, leaning back in her chair with a quiet, satisfied smile, her glasses pushed up into her hair, a laptop open on the desk with its screen facing away from the camera. Outside the window the city turns deep blue with the first lights coming on, a warm desk lamp lights one side of her face. Mid-shot from the side at eye level, gentle contrast between blue window light and amber lamp light. Mood: relief and quiet confidence after the first pilot cycle."
 faq:
   - q: "What is a learning readiness layer?"
     a: "It is a structured learning and assessment layer that connects organizational content with explanation, practice, assessment, progress visibility, and readiness decisions."
@@ -56,11 +77,15 @@ The term is useful because it separates two problems. Content management answers
 
 ## Why Content Repositories Are Not Enough
 
+{% include scene.html n=1 %}
+
 A content repository is essential for control, versioning, and access. But it is not designed to reveal learning. Sending a link, recording an acknowledgment, or tracking page views does not necessarily show whether the learner understands a critical procedure.
 
 The [OECD report on workplace skills use](https://www.oecd.org/en/publications/how-workers-use-or-don-t-use-their-skills-in-the-workplace_0e7c6dc9-en/full-report.html) highlights the importance of not only developing skills but using them effectively at work. A readiness layer helps organizations connect training activity with a clearer view of knowledge before the learner is expected to apply it.
 
 ## How the Readiness Layer Supports Onboarding
+
+{% include scene.html n=2 %}
 
 New employees face a dense mix of information during onboarding. A readiness layer can break the knowledge component into Topics and Subtopics, give the learner explanations and practice, and use exams as checkpoints before the employee takes on responsibilities that depend on that knowledge.
 
@@ -80,17 +105,23 @@ This creates a reusable operating model: define the required knowledge, publish 
 
 ## Practical Scenario: A Policy Change Across Teams
 
+{% include scene.html n=3 %}
+
 Imagine a company changing an internal approval process. The policy document is updated centrally, but the change affects finance, operations, procurement, and managers differently. A readiness layer allows the organization to create role-relevant Topics, assign them to the right groups, and assess the knowledge that each group needs.
 
 The learning team can see whether required content was completed and where assessment results suggest confusion. Managers can then focus follow-up conversations on the specific parts of the process that need attention.
 
 ## Best Practices for Building a Readiness Layer
 
+{% include scene.html n=4 %}
+
 Start with the knowledge that genuinely matters to the role or task. Do not turn every document into a course. Keep learning paths focused, review generated assessments, and define what result is sufficient for the next step.
 
 Use the data to trigger support, not just reporting. A weak score should lead to review, explanation, coaching, or another attempt. A strong score should still be interpreted in context when the real job requires practical demonstration.
 
 ## Starting a Readiness Layer With One Process
+
+{% include scene.html n=5 %}
 
 A readiness layer does not have to be introduced across the whole organization at once. Choose one process where misunderstanding is costly and the knowledge is well documented — an approval workflow, a customer escalation procedure or a data-handling policy — and build the first Topic from the existing source material.
 

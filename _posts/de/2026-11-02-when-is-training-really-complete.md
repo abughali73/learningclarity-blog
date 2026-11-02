@@ -5,7 +5,7 @@ date: 2026-11-02 23:10:00 +0200
 lang: de
 ref: when-is-training-really-complete
 capability: learning-insights
-image: /assets/img/posts/when-is-training-really-complete-hero.webp
+image: /assets/img/posts/when-is-training-really-complete-cinematic.webp
 keywords: ["Schulungserfolg messen", "Einsatzbereitschaft nach Schulung", "Onboarding neuer Mitarbeitender", "Mitarbeiterschulung", "Lernerfolgskontrolle im Unternehmen"]
 tags: [LearningClarity, LearningClarityAI, Mitarbeiterschulung, Weiterbildung, Onboarding, Personalentwicklung, BetrieblicheWeiterbildung, DigitalesLernen, Lernerfolg, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -29,9 +29,30 @@ ad:
       bullets: ["Fortschritt in jedem Thema verfolgen", "Erkennen, wer Coaching braucht"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/when-is-training-really-complete-hero.webp
-  alt: "Titelgrafik: Wann ist eine Schulung wirklich abgeschlossen? Vom geteilten Material zur nachgewiesenen Einsatzbereitschaft"
-  prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
+  src: /assets/img/posts/when-is-training-really-complete-cinematic.webp
+  alt: "Marco, L&D-Verantwortlicher, allein in einem leeren Schulungsraum nach einer Sitzung, Unterlagen liegen auf den Stühlen"
+  prompt: "Marco, a fictional learning-and-development lead in his mid-thirties with light olive skin, short dark wavy hair, a neatly trimmed short beard and rectangular tortoiseshell glasses, wearing a navy blazer over a plain white crew-neck T-shirt and dark chinos, stands alone in an empty company training room in the late afternoon just after a session has ended, leaning back against the front table with his arms folded, looking thoughtfully toward the open door. Rows of chairs are pushed back at odd angles and stapled paper handouts with blank covers are left behind on several seats and tables. A projector screen behind him is blank and switched off. Warm low golden light slants through tall windows across the empty chairs, long soft shadows on the floor. Wide shot at eye level, Marco slightly off-centre, shallow depth of field on the handouts in the foreground. Mood: quiet doubt, the material was shared but is anyone ready?"
+scenes:
+  - src: /assets/img/posts/when-is-training-really-complete-scene-1.webp
+    alt: "Marco beobachtet eine neue Support-Mitarbeiterin, die bei einem Kundengespräch zögert"
+    caption: "Modul abgeschlossen, im Kundengespräch trotzdem unsicher."
+    prompt: "Marco, a fictional learning-and-development lead in his mid-thirties with light olive skin, short dark wavy hair, a neatly trimmed short beard and rectangular tortoiseshell glasses, wearing a navy blazer over a plain white crew-neck T-shirt and dark chinos, stands a few steps behind a new customer-support employee, a fictional woman in her mid-twenties with light brown skin, shoulder-length black braids pulled back, wearing a mustard-yellow sweater and a slim headset, who sits at a support desk mid-call, pausing with her hand hovering uncertainly over the keyboard and her brow slightly furrowed. Her monitor faces away from the camera. Marco watches her with a concerned, attentive expression, holding a coffee cup. Busy open-plan office in the morning, cool white daylight from large windows, colleagues softly blurred in the background. Over-the-shoulder mid-shot from behind Marco, eye level. Mood: the module is marked done, yet she still hesitates."
+  - src: /assets/img/posts/when-is-training-really-complete-scene-2.webp
+    alt: "Marcos Hände sortieren lose Dokumente bei Sonnenaufgang zu geordneten Stapeln"
+    caption: "Aus einem Stapel Dateien wird ein klarer Lernpfad."
+    prompt: "Close-up of the hands of Marco, a fictional learning-and-development lead in his mid-thirties with light olive skin, short dark wavy hair, a neatly trimmed short beard and rectangular tortoiseshell glasses, wearing a navy blazer over a plain white crew-neck T-shirt and dark chinos, at a wooden desk early in the morning as he sorts a loose, messy pile of printed documents with blank pages into neat, ordered stacks, placing plain coloured sticky notes with nothing written on them on top of each stack. His glasses and part of his face are visible at the top of the frame, focused and calm. A closed laptop and a mug of tea sit to one side. Soft pale-gold sunrise light from a side window, gentle shadows across the paper. High angle looking down at the desk, shallow depth of field. Mood: order emerging from clutter, a clear path taking shape."
+  - src: /assets/img/posts/when-is-training-really-complete-scene-3.webp
+    alt: "Marco geht zwischen Mitarbeitenden an Laptops durch einen Schulungsraum"
+    caption: "Erklären, üben, dann eine Prüfung vor dem Kundenkontakt."
+    prompt: "Marco, a fictional learning-and-development lead in his mid-thirties with light olive skin, short dark wavy hair, a neatly trimmed short beard and rectangular tortoiseshell glasses, wearing a navy blazer over a plain white crew-neck T-shirt and dark chinos, walks slowly between two rows of desks in a bright company training room on a weekday morning, where a diverse group of fictional employees in their twenties to fifties, in smart-casual clothes, work quietly on laptops whose screens face away from the camera. One older man with grey hair raises a hand with a question and Marco leans in toward him, smiling, one hand on the back of a chair. Large windows with cool, even overcast daylight, a few plants, no posters or writing on the walls. Wide shot from a slightly low angle at the end of the row. Mood: focused preparation before facing customers."
+  - src: /assets/img/posts/when-is-training-really-complete-scene-4.webp
+    alt: "Marco und eine Vertriebsleiterin besprechen in der Abenddämmerung Ergebnisse"
+    caption: "Ergebnisse zeigen, wer vor dem Start Coaching braucht."
+    prompt: "Marco, a fictional learning-and-development lead in his mid-thirties with light olive skin, short dark wavy hair, a neatly trimmed short beard and rectangular tortoiseshell glasses, wearing a navy blazer over a plain white crew-neck T-shirt and dark chinos, sits side by side with a sales team manager, a fictional woman in her early fifties with short silver hair, fair freckled skin and a dark green blouse, at a small round table in a glass-walled meeting room in the early evening. A laptop sits between them with its screen turned away from the camera. She points toward the laptop while Marco leans forward, nodding thoughtfully, a pen and a blank notepad in front of him. City lights beginning to glow in deep blue dusk through the glass behind them, warm overhead pendant light on the table. Mid-shot at eye level from across the table. Mood: calm, practical decision-making about who needs support."
+  - src: /assets/img/posts/when-is-training-really-complete-scene-5.webp
+    alt: "Marco im Coaching-Gespräch unter vier Augen mit einem jungen Vertriebler"
+    caption: "Noch nicht so weit? Ein Coaching, dann ein neuer Versuch."
+    prompt: "Marco, a fictional learning-and-development lead in his mid-thirties with light olive skin, short dark wavy hair, a neatly trimmed short beard and rectangular tortoiseshell glasses, wearing a navy blazer over a plain white crew-neck T-shirt and dark chinos, sits in a small, quiet office booth across from a young sales representative, a fictional man in his early twenties with dark brown skin, a short fade haircut and a light-blue button-down shirt, during a one-to-one coaching conversation late in the afternoon. Marco gestures openly with one hand as he explains, while the young man listens, then starts to nod with growing confidence. Two cups of coffee and a closed notebook on the low table between them. Warm amber light from a desk lamp and the setting sun through a narrow window, soft bokeh behind. Close two-shot from a slight angle, eye level. Mood: supportive, encouraging, a second chance to get it right."
 faq:
   - q: "Was bedeutet Einsatzbereitschaft nach einer Schulung?"
     a: "Es ist der Punkt, an dem es genug relevante Belege dafür gibt, dass eine lernende Person das erforderliche Wissen versteht, um den nächsten Schritt zu gehen – im Bewusstsein, dass manche Fähigkeiten auch praktische Beobachtung erfordern."
@@ -50,6 +71,8 @@ Einsatzbereitschaft nach einer Schulung ist der Punkt, an dem eine Organisation 
 
 ## Warum ein Schulungsabschluss nicht dasselbe ist wie Einsatzbereitschaft
 
+{% include scene.html n=1 %}
+
 Abschluss ist eine Aktivitätskennzahl. Sie beantwortet, ob jemand das Ende einer zugewiesenen Aufgabe erreicht hat. Einsatzbereitschaft ist eine Lernfrage. Sie fragt, ob die Person das erforderliche Wissen gut genug für den nächsten Schritt verstanden hat.
 
 Eine Abschlusskennzahl bleibt für die Verwaltung nützlich, sollte aber nicht mehr Bedeutung tragen, als sie hergibt. Mitarbeitende, die ein Modul zu einer Richtlinie abgeschlossen haben, brauchen vielleicht trotzdem noch eine Klärung. Neue Mitarbeitende, die jede Onboarding-Datei geöffnet haben, können bei einem kritischen Prozess dennoch unsicher sein.
@@ -61,6 +84,8 @@ Ein stärkerer Ablauf gibt Lernenden die Chance, das Material zu verarbeiten, um
 Die [EEF-Evidenz zu Feedback](https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/feedback) bekräftigt, wie wichtig es ist, Leistungsinformationen mit Lernzielen und nächsten Schritten zu verknüpfen. Beim Lernen am Arbeitsplatz heißt das: Ergebnisse sollten Führungskräften oder Lernenden helfen zu entscheiden, wo zusätzliche Übung oder Erklärung nötig ist.
 
 ## Wie Learning Clarity einen Schulungsablauf schafft
+
+{% include scene.html n=2 %}
 
 Organisationen können mit vorhandenen Richtlinien, SOPs, Onboarding-Dokumenten, Produktleitfäden oder Schulungsmaterial beginnen. Learning Clarity kann diese Inhalte in Themen und Unterthemen gliedern, sodass Lernende einen klaren Weg haben statt einer losen Sammlung von Dateien.
 
@@ -74,11 +99,15 @@ Der [SHRM-Leitfaden zum Onboarding](https://www.shrm.org/topics-tools/news/techn
 
 ## Praxisbeispiel: die Einführung einer Produktschulung
 
+{% include scene.html n=3 %}
+
 Stellen Sie sich ein Unternehmen vor, das ein neues Produkt auf den Markt bringt. Statt eine Präsentation per E-Mail zu verschicken und sich den Erhalt bestätigen zu lassen, erstellt das L&D-Team ein Thema zu Positionierung, Funktionen, häufigen Fragen und Eskalationsregeln. Die Mitarbeitenden arbeiten die Erklärungen durch, machen Quizze und legen eine Prüfung ab, bevor sie Aufgaben mit Kundenkontakt übernehmen.
 
 Die Prüfung beweist nicht, dass alle Mitarbeitenden im echten Kundengespräch perfekt agieren werden. Sie liefert aber Belege dafür, dass das erforderliche Wissen vermittelt wurde, und zeigt, wer vor der Einführung möglicherweise Coaching braucht.
 
 ## Was Schulungsteams messen sollten
+
+{% include scene.html n=4 %}
 
 Nützliche Messgrößen sind abgeschlossene Zuweisungen, Quiz-Versuche, Prüfungsergebnisse, wiederkehrende Schwachstellen und der Fortschritt in den vorgeschriebenen Themen. Teams sollten auch darauf achten, wo Lernende immer wieder Klärung brauchen, denn das kann auf ein Problem in der Gestaltung der Inhalte hindeuten statt auf ein individuelles Leistungsproblem.
 
@@ -91,6 +120,8 @@ Ein Fehler ist, Abschluss mit Kompetenz gleichzusetzen. Ein anderer ist, eine ei
 Schulungsdesign funktioniert besser, wenn jede Kennzahl einen Zweck hat. Wenn eine Punktzahl keine Entscheidung und keine Unterstützungsmaßnahme verändert, lohnt es sich vielleicht nicht, sie zu erheben. Wenn ein kritisches Konzept wichtig ist, sollte die Prüfung genau dieses Konzept sichtbar machen.
 
 ## „Abgeschlossen“ für jedes Schulungsthema definieren
+
+{% include scene.html n=5 %}
 
 Ein einfacher Weg, Verteilung nicht länger mit Abschluss zu verwechseln, ist, den Abschluss zu definieren, bevor die Schulung zugewiesen wird. Halten Sie für jedes Thema drei Dinge fest: welche Unterthemen abgeschlossen sein müssen, welches Prüfungsergebnis nötig ist und was passiert, wenn jemand es nicht erreicht – eine Wiederholung, ein Coaching-Gespräch oder ein zweiter Versuch.
 

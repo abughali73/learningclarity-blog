@@ -5,7 +5,7 @@ date: 2026-11-02 23:25:00 +0200
 lang: es
 ref: learning-readiness-layer
 capability: learning-insights
-image: /assets/img/posts/learning-readiness-layer-hero-v2.webp
+image: /assets/img/posts/learning-readiness-layer-cinematic.webp
 keywords: ["capa de preparación para el aprendizaje", "incorporación de empleados", "evaluación de la formación", "evaluación de candidatos", "evidencias de comprensión"]
 tags: [LearningClarity, LearningClarityAI, FormacionCorporativa, OnboardingDeEmpleados, RecursosHumanos, SeleccionDePersonal, AprendizajeOnline, EvaluacionDeCompetencias, DesarrolloProfesional, ExamMode, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -29,9 +29,30 @@ ad:
       bullets: ["Seguimiento del progreso en cada nivel", "Supervisión e informes de progreso"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/learning-readiness-layer-hero-v2.webp
-  alt: "Tarjeta de título infográfica: por qué toda organización necesita una capa de preparación para el aprendizaje"
-  prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
+  src: /assets/img/posts/learning-readiness-layer-cinematic.webp
+  alt: "Helena, directora de operaciones, sostiene una política impresa y observa una oficina diáfana con la luz de la mañana"
+  prompt: "Helena, a fictional operations director in her mid-forties with shoulder-length auburn hair lightly streaked with grey, light freckled skin and rectangular tortoiseshell glasses, wearing a navy blazer over a cream blouse and a slim silver watch, stands at the glass wall of a meeting room early on a weekday morning, holding a printed policy document folded against her chest, looking out thoughtfully across a wide open-plan office where colleagues from finance, operations and procurement are arriving, hanging up coats and switching on desk lamps. Cool pale morning daylight floods in through tall windows, small warm pools of lamp light on the desks, all monitors turned away or softly blurred. Mid-shot at eye level from a slight three-quarter angle, shallow depth of field, the office behind her softly out of focus. Mood: calm resolve before a change."
+scenes:
+  - src: /assets/img/posts/learning-readiness-layer-scene-1.webp
+    alt: "Helena en su escritorio con la luz de última hora de la tarde, frunciendo el ceño ante un montón de formularios de aprobación devueltos"
+    caption: "La política se compartió, pero las aprobaciones seguían fallando."
+    prompt: "Close-up of Helena, a fictional operations director in her mid-forties with shoulder-length auburn hair lightly streaked with grey, light freckled skin and rectangular tortoiseshell glasses, wearing a navy blazer over a cream blouse and a slim silver watch, sitting at her desk late in the afternoon, frowning as she leafs through a small stack of returned paper approval forms, one held up in her hand with pen circles and crossed-out signature boxes, no legible writing. Her laptop sits open beside her with its screen facing away from the camera, a cold cup of coffee nearby. Low amber sunlight slants through half-closed blinds, casting warm stripes across her face and the papers. Slightly over-the-shoulder framing, very shallow depth of field. Mood: puzzled frustration."
+  - src: /assets/img/posts/learning-readiness-layer-scene-2.webp
+    alt: "Helena sentada junto a un nuevo coordinador de compras, señalando un esquema del proceso dibujado a mano"
+    caption: "Primera semana: el proceso de aprobación, paso a paso."
+    prompt: "Helena, a fictional operations director in her mid-forties with shoulder-length auburn hair lightly streaked with grey, light freckled skin and rectangular tortoiseshell glasses, wearing a navy blazer over a cream blouse and a slim silver watch, sits beside Tomasz, a fictional new procurement coordinator in his mid-twenties with short dark hair, a neatly trimmed beard and a light blue shirt, in his first week at work. At a shared desk she points with a pen to a hand-drawn process sketch of simple boxes and arrows on a sheet of paper (no letters or words), while he leans in, nodding, a tablet resting face down by his elbow. Bright, even midday daylight from a large window, green plants on the windowsill. Wide shot at eye level. Mood: patient, encouraging, a good first week."
+  - src: /assets/img/posts/learning-readiness-layer-scene-3.webp
+    alt: "Helena informando a los responsables de finanzas, operaciones y compras alrededor de una mesa de reuniones"
+    caption: "Un cambio, tres equipos y tres cosas distintas que aprender."
+    prompt: "Helena, a fictional operations director in her mid-forties with shoulder-length auburn hair lightly streaked with grey, light freckled skin and rectangular tortoiseshell glasses, wearing a navy blazer over a cream blouse and a slim silver watch, stands at the head of a long meeting table, gesturing with an open hand as she briefs three department leads: a fictional finance manager in her fifties, a Black woman with short natural grey hair in a burgundy cardigan; a fictional operations supervisor in his thirties, a South Asian man in a high-visibility vest over a dark polo shirt; and a fictional procurement lead in her early thirties, an East Asian woman with a sleek bob in an olive jacket. Notebooks and water glasses on the table, a blank wiped whiteboard behind her. Soft, diffuse overcast daylight from the side. Wide shot from a slightly low angle at the end of the table. Mood: focused, collaborative, a little uncertain."
+  - src: /assets/img/posts/learning-readiness-layer-scene-4.webp
+    alt: "Helena en una reunión individual con un supervisor de operaciones en una mesa pequeña junto a una ventana"
+    caption: "Un resultado flojo abre una conversación, no una reprimenda."
+    prompt: "Helena, a fictional operations director in her mid-forties with shoulder-length auburn hair lightly streaked with grey, light freckled skin and rectangular tortoiseshell glasses, wearing a navy blazer over a cream blouse and a slim silver watch, sits in a one-to-one conversation with Ravi, a fictional operations supervisor in his thirties, a South Asian man in a high-visibility vest over a dark polo shirt, at a small round table by the window of a warehouse office. He explains something with both hands while she listens closely and nods, two mugs of coffee between them, his phone face down on the table. Through the window behind, shelving and a forklift are softly blurred. Warm late-afternoon light, golden rim light on their shoulders. Over-the-shoulder shot from behind Ravi, focused on Helena's attentive face. Mood: supportive, honest, constructive."
+  - src: /assets/img/posts/learning-readiness-layer-scene-5.webp
+    alt: "Helena sola en su despacho al anochecer, recostada con una sonrisa tranquila junto a su portátil"
+    caption: "Tras el primer ciclo piloto, por fin se ven las lagunas."
+    prompt: "Helena, a fictional operations director in her mid-forties with shoulder-length auburn hair lightly streaked with grey, light freckled skin and rectangular tortoiseshell glasses, wearing a navy blazer over a cream blouse and a slim silver watch, alone in her glass-walled office at dusk, leaning back in her chair with a quiet, satisfied smile, her glasses pushed up into her hair, a laptop open on the desk with its screen facing away from the camera. Outside the window the city turns deep blue with the first lights coming on, a warm desk lamp lights one side of her face. Mid-shot from the side at eye level, gentle contrast between blue window light and amber lamp light. Mood: relief and quiet confidence after the first pilot cycle."
 faq:
   - q: "¿Qué es una capa de preparación para el aprendizaje?"
     a: "Es una capa estructurada de aprendizaje y evaluación que conecta el contenido de la organización con la explicación, la práctica, la evaluación, la visibilidad del progreso y las decisiones sobre la preparación."
@@ -56,11 +77,15 @@ El término es útil porque separa dos problemas. La gestión de contenidos resp
 
 ## Por qué los repositorios de contenido no bastan
 
+{% include scene.html n=1 %}
+
 Un repositorio de contenido es esencial para el control, el versionado y el acceso. Pero no está diseñado para revelar el aprendizaje. Enviar un enlace, registrar un acuse de recibo o contar las visitas a una página no demuestra necesariamente que la persona entienda un procedimiento crítico.
 
 El [informe de la OCDE sobre el uso de las competencias en el trabajo](https://www.oecd.org/en/publications/how-workers-use-or-don-t-use-their-skills-in-the-workplace_0e7c6dc9-en/full-report.html) destaca la importancia no solo de desarrollar competencias, sino de usarlas eficazmente en el trabajo. Una capa de preparación ayuda a las organizaciones a conectar la actividad formativa con una visión más clara de los conocimientos antes de que se espere que la persona los aplique.
 
 ## Cómo apoya la capa de preparación la incorporación
+
+{% include scene.html n=2 %}
 
 Los nuevos empleados se enfrentan a una mezcla densa de información durante la incorporación. Una capa de preparación puede dividir el componente de conocimientos en temas y subtemas, dar a la persona explicaciones y práctica, y usar exámenes como puntos de control antes de que asuma responsabilidades que dependen de esos conocimientos.
 
@@ -80,17 +105,23 @@ Esto crea un modelo operativo reutilizable: definir los conocimientos necesarios
 
 ## Escenario práctico: un cambio de política que afecta a varios equipos
 
+{% include scene.html n=3 %}
+
 Imagina una empresa que cambia un proceso interno de aprobación. El documento de la política se actualiza de forma centralizada, pero el cambio afecta de manera distinta a finanzas, operaciones, compras y responsables. Una capa de preparación permite a la organización crear temas adaptados a cada puesto, asignarlos a los grupos adecuados y evaluar los conocimientos que necesita cada grupo.
 
 El equipo de formación puede ver si se completó el contenido obligatorio y dónde los resultados de la evaluación apuntan a confusión. Así, los responsables pueden centrar las conversaciones de seguimiento en las partes concretas del proceso que necesitan atención.
 
 ## Buenas prácticas para construir una capa de preparación
 
+{% include scene.html n=4 %}
+
 Empieza por los conocimientos que realmente importan para el puesto o la tarea. No conviertas cada documento en un curso. Mantén las rutas de aprendizaje acotadas, revisa las evaluaciones generadas y define qué resultado es suficiente para el siguiente paso.
 
 Usa los datos para activar el apoyo, no solo para generar informes. Una nota baja debería llevar a un repaso, una explicación, coaching u otro intento. Una nota alta debe seguir interpretándose en contexto cuando el trabajo real exige una demostración práctica.
 
 ## Empezar una capa de preparación con un solo proceso
+
+{% include scene.html n=5 %}
 
 No hace falta introducir una capa de preparación en toda la organización a la vez. Elige un proceso en el que los malentendidos salgan caros y los conocimientos estén bien documentados —un flujo de aprobación, un procedimiento de escalado de clientes o una política de tratamiento de datos— y crea el primer tema a partir del material de origen existente.
 

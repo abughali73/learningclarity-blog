@@ -5,7 +5,7 @@ date: 2026-11-02 22:55:00 +0200
 lang: ar
 ref: role-based-candidate-assessments
 capability: learning-insights
-image: /assets/img/posts/role-based-candidate-assessments-hero.webp
+image: /assets/img/posts/role-based-candidate-assessments-cinematic.webp
 keywords: ["تقييم المرشحين حسب الدور الوظيفي", "تقييم المرشحين", "اختبار معرفي قبل التوظيف", "التوظيف القائم على المهارات", "تقييم منصف للمرشحين"]
 tags: [LearningClarity, LearningClarityAI, الموارد_البشرية, التوظيف, توظيف, تقييم_المرشحين, التدريب, التطوير_المهني, الذكاء_الاصطناعي, التعليم_الإلكتروني, EdTech, AIinEducation, CorporateTraining]
 ad:
@@ -29,9 +29,30 @@ ad:
       bullets: ["أعد استخدام مجالات المواضيع نفسها", "شروحات واختبارات وامتحانات"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/role-based-candidate-assessments-hero.webp
-  alt: "بطاقة عنوان إنفوغرافيك: تقييم المرشحين حسب الدور الوظيفي، ما هو أبعد من السيرة الذاتية والمقابلات"
-  prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
+  src: /assets/img/posts/role-based-candidate-assessments-cinematic.webp
+  alt: "إنغريد، مسؤولة الموارد البشرية، تراجع ملفات المرشحين على طاولة في غرفة اجتماعات تحت ضوء النهار الهادئ"
+  prompt: "Ingrid, a fictional HR lead in her mid-fifties with a chin-length silver-blonde bob, fair skin, fine laugh lines and tortoiseshell reading glasses, wearing a navy blazer over a cream silk blouse and small silver earrings, sits alone at a long oak table in a glass-walled meeting room of a modern office in the late morning, leaning forward with her glasses pushed up on her head, a thoughtful half-smile, one hand resting on a neat stack of plain paper folders while the other holds a pen above an open notebook with no visible writing. A closed laptop and a cup of coffee sit beside her. Soft daylight pours through tall windows on the left, a blurred open-plan office with plants behind the glass. Mid-shot at eye level, shallow depth of field. Mood: calm, careful judgement before a hiring decision."
+scenes:
+  - src: /assets/img/posts/role-based-candidate-assessments-scene-1.webp
+    alt: "إنغريد وقائد فريق يتصفحان ملف السياسات في قسم عمليات العملاء"
+    caption: "ابدأ بما يحتاجه الدور الوظيفي فعلاً."
+    prompt: "Ingrid, a fictional HR lead in her mid-fifties with a chin-length silver-blonde bob, fair skin, fine laugh lines and tortoiseshell reading glasses, wearing a navy blazer over a cream silk blouse and small silver earrings, stands beside a fictional customer operations team lead, a man in his early thirties of South Asian heritage with short black hair and a neat beard, wearing a light blue open-collar shirt, in a quiet corner of a busy customer contact floor in the early morning. They are leaning over a high table together, Ingrid pointing at a thick printed policy binder whose pages show no readable writing while he explains with an open hand. Rows of empty desks with headsets hanging on hooks stretch out behind them, cool blue morning light from wide windows mixed with warm ceiling lights. Wide shot at eye level. Mood: focused, practical, deciding what the role really needs."
+  - src: /assets/img/posts/role-based-candidate-assessments-scene-2.webp
+    alt: "إنغريد تراجع أسئلة التقييم مع موظفة خدمة عملاء متمرسة"
+    caption: "شخص يؤدي هذا العمل يراجع كل سؤال."
+    prompt: "Ingrid, a fictional HR lead in her mid-fifties with a chin-length silver-blonde bob, fair skin, fine laugh lines and tortoiseshell reading glasses, wearing a navy blazer over a cream silk blouse and small silver earrings, sits side by side at a small round table in a cosy break-out area with a fictional senior customer service agent, a Black woman in her forties with short natural hair, wearing a mustard cardigan and a lanyard, in the early afternoon. The agent points at a laptop whose screen faces away from the camera and Ingrid listens with her glasses on, nodding, a pencil in hand. Warm side light from a window, a potted fig tree and two mugs of tea on the table. Over-the-shoulder shot from behind the laptop, screen not visible. Mood: collaborative, careful review."
+  - src: /assets/img/posts/role-based-candidate-assessments-scene-3.webp
+    alt: "مرشح يفكر في سؤال داخل غرفة اجتماعات هادئة بينما تمر إنغريد"
+    caption: "اختبار قصير مرتبط بالدور قبل المقابلة النهائية."
+    prompt: "A fictional job candidate, a young man in his mid-twenties with light brown skin, curly dark hair and a neatly pressed white shirt, sits alone at a table in a quiet, bright meeting room in the late morning, chin resting on one hand as he thinks about a question, a laptop open in front of him with its screen turned away from the camera, a glass of water beside it. Through the glass wall behind him, slightly out of focus, Ingrid, a fictional HR lead in her mid-fifties with a chin-length silver-blonde bob, fair skin, fine laugh lines and tortoiseshell reading glasses, wearing a navy blazer over a cream silk blouse and small silver earrings, walks past carrying a folder and glances in with a reassuring smile. Soft overcast daylight, muted tones. Mid-shot at a slightly low angle. Mood: concentration, quiet nerves, fairness."
+  - src: /assets/img/posts/role-based-candidate-assessments-scene-4.webp
+    alt: "إنغريد تقدم فنجان قهوة للموظف الجديد في صباحه الأول"
+    caption: "الموضوعات نفسها تستمر في مرحلة التهيئة."
+    prompt: "Ingrid, a fictional HR lead in her mid-fifties with a chin-length silver-blonde bob, fair skin, fine laugh lines and tortoiseshell reading glasses, wearing a navy blazer over a cream silk blouse and small silver earrings, welcomes the same fictional new employee, a young man in his mid-twenties with light brown skin and curly dark hair, now wearing a casual grey sweater and a new lanyard, on his first morning at his desk on the customer operations floor. She hands him a mug of coffee while he laughs, a headset and a closed laptop waiting on the desk, colleagues blurred in the background. Bright golden early-morning sunlight streams through the windows behind them, lens flare. Wide shot at eye level. Mood: warm, welcoming, a fresh start."
+  - src: /assets/img/posts/role-based-candidate-assessments-scene-5.webp
+    alt: "إنغريد وقائد الفريق يتأملان جولة التوظيف عند الغروب"
+    caption: "السؤال الذي يخطئ فيه المرشحون الأقوياء يستحق المراجعة."
+    prompt: "Ingrid, a fictional HR lead in her mid-fifties with a chin-length silver-blonde bob, fair skin, fine laugh lines and tortoiseshell reading glasses, wearing a navy blazer over a cream silk blouse and small silver earrings, sits across a desk from the fictional customer operations team lead, a man in his early thirties of South Asian heritage with short black hair and a neat beard, wearing a light blue open-collar shirt, in a small office at dusk at the end of a hiring round. Ingrid has taken her glasses off and taps them against a plain paper folder as she makes a point, he leans back thinking. A single warm desk lamp lights their faces, the city outside the window turning deep blue. Close-up on Ingrid in the foreground, him softly blurred. Mood: reflective, honest, improving the process."
 faq:
   - q: "ما المقصود بتقييم المرشحين المبني على الدور الوظيفي؟"
     a: "تقييم المرشحين المبني على الدور الوظيفي اختبار منظّم يركّز على المعارف أو المهارات المرتبطة بوظيفة محددة. ويمكن أن يكمّل مراجعة السيرة الذاتية والمقابلات ونماذج العمل خلال عملية الاختيار."
@@ -50,6 +71,8 @@ faq:
 
 ## لماذا ينبغي أن يرتبط تقييم المرشحين بالدور الوظيفي
 
+{% include scene.html n=1 %}
+
 لا يكون التقييم مفيداً إلا حين يختبر شيئاً مهماً للوظيفة. فاختبارات المعرفة العامة قد تكون سهلة التطبيق، لكنها قد تنتج درجات يصعب تفسيرها. والنهج الأفضل أن تبدأ بمسؤوليات الدور الوظيفي، ثم تحدد المعارف أو المهارات التي يمكن تقييمها بشكل معقول قبل التوظيف.
 
 تميّز [نشرة معهد CIPD حول أساليب الاختيار](https://www.cipd.org/uk/knowledge/factsheets/selection-factsheet/) بين المقابلات والاختبارات النفسية القياسية والمهام القائمة على المهارات ومراكز التقييم، وتشير إلى أن التقييمات القائمة على المهارات ينبغي أن تشبه مهام العمل الحقيقية قدر الإمكان. وبالنسبة للوظائف التي تركّز على المعرفة، يمكن لامتحان منظّم أن يكمّل هذه الأساليب عبر التحقق من فهم المرشح لمادة محددة.
@@ -61,6 +84,8 @@ faq:
 ولا يعني ذلك أن السير الذاتية أو المقابلات قد عفا عليها الزمن، بل يعني أنها تعمل بشكل أفضل ضمن مجموعة أوسع من الأدلة. وتتحسن جودة التوظيف حين يكون لكل أسلوب غرض واضح: فرز الخلفية، والأسئلة المنظّمة، والمهام العملية، والتحقق من المعرفة المرتبطة بالوظيفة، والمراجع، والتقدير البشري.
 
 ## كيف يعمل مسار التقييم المبني على الدور الوظيفي
+
+{% include scene.html n=2 %}
 
 يبدأ المسار العملي بتحديد الدور الوظيفي، وتعيين مجالات المعرفة التي يمكن اختبارها بإنصاف، وتقرير نوع الأسئلة الذي يلائم الوظيفة. ثم ينبغي أن يراجع التقييمَ شخصٌ يفهم الدور قبل أن يصل إلى المرشحين.
 
@@ -76,11 +101,15 @@ faq:
 
 ## سيناريو عملي: الفرز قبل المقابلة النهائية
 
+{% include scene.html n=3 %}
+
 لنتخيّل شركة توظّف لوظيفة في عمليات العملاء. لدى الفريق مجموعة محددة من السياسات وقواعد المنتج وإجراءات التصعيد. وبعد مراجعة أولية للطلبات، يتلقى المرشحون تقييماً قصيراً مرتبطاً بالوظيفة يغطي هذه المجالات. ثم يراجع فريق الموارد البشرية النتائج ويستخدمها مع المقابلات والتمارين العملية لتحديد من ينتقل إلى المرحلة التالية.
 
 الامتحان لا يخبر الشركة بمن توظّف، بل يمنح الفريق نقطة بيانات منظّمة إضافية. فالمرشح الذي يحقق أداءً قوياً قد يظل بحاجة إلى إثبات مهاراته في التواصل والتقدير. والمرشح الذي يتعثر في موضوع ما قد يظل خياراً مناسباً للتوظيف إذا كانت الفجوة قابلة للتدريب وكانت الأدلة الأخرى قوية.
 
 ## كيف تدعم Learning Clarity الانتقال إلى مرحلة التهيئة
+
+{% include scene.html n=4 %}
 
 من مزايا استخدام نموذج معرفي منظّم في التوظيف أن مجالات المواضيع نفسها يمكن أن يُسترشد بها في التهيئة بعد انضمام الشخص. إذ تستطيع المؤسسة أخذ السياسات وأدلة المنتجات وإجراءات التشغيل القياسية أو غيرها من المواد التدريبية وتحويلها إلى مواضيع تعلم تتضمن شروحات واختبارات وامتحانات.
 
@@ -93,6 +122,8 @@ faq:
 استخدم التقييم دليلاً، لا حكماً لا يقبل النقاش. وراعِ إمكانية الوصول واللغة والحدود الزمنية، وما إذا كان التقييم يضع المرشحين في موقف غير مواتٍ لأسباب لا علاقة لها بالأداء الوظيفي. وحيثما أمكن، اجمع بين التحقق من المعرفة والمقابلات المنظّمة ونماذج العمل الواقعية.
 
 ## تصميم تقييم منصف للمرشحين خطوة بخطوة
+
+{% include scene.html n=5 %}
 
 ابدأ من الدور الوظيفي، لا من بنك أسئلة. اكتب قائمة بالمعرفة التي يحتاجها الموظف الجديد فعلاً من اليوم الأول — السياسات أو قواعد المنتج أو المفاهيم التقنية التي لا يمكن اكتسابها بسرعة أثناء العمل — واستبعد كل ما ستعلّمه التهيئة على أي حال. ثم أنشئ الموضوع من هذا النطاق حتى لا تنحرف الأسئلة نحو التفاصيل الهامشية.
 

@@ -5,7 +5,7 @@ date: 2026-11-02 23:10:00 +0200
 lang: ar
 ref: when-is-training-really-complete
 capability: learning-insights
-image: /assets/img/posts/when-is-training-really-complete-hero.webp
+image: /assets/img/posts/when-is-training-really-complete-cinematic.webp
 keywords: ["الجاهزية التدريبية", "قياس فعالية التدريب", "تهيئة الموظفين الجدد", "تدريب الموظفين", "تقييم التعلم في مكان العمل"]
 tags: [LearningClarity, LearningClarityAI, التدريب_المؤسسي, تهيئة_الموظفين, التعلم_والتطوير, تطوير_الموظفين, الموارد_البشرية, التعليم_الإلكتروني, الذكاء_الاصطناعي, EdTech, AIinEducation, CorporateTraining]
 ad:
@@ -29,9 +29,30 @@ ad:
       bullets: ["تتبّع التقدم عبر المواضيع", "اعرف من يحتاج إلى توجيه"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/when-is-training-really-complete-hero.webp
-  alt: "بطاقة عنوان إنفوغرافيك: متى يكتمل التدريب فعلاً؟ من مشاركة المواد إلى جاهزية مُثبتة"
-  prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
+  src: /assets/img/posts/when-is-training-really-complete-cinematic.webp
+  alt: "ماركو، مسؤول التعلّم والتطوير، وحيداً في قاعة تدريب فارغة بعد انتهاء الجلسة، والأوراق متروكة على الكراسي"
+  prompt: "Marco, a fictional learning-and-development lead in his mid-thirties with light olive skin, short dark wavy hair, a neatly trimmed short beard and rectangular tortoiseshell glasses, wearing a navy blazer over a plain white crew-neck T-shirt and dark chinos, stands alone in an empty company training room in the late afternoon just after a session has ended, leaning back against the front table with his arms folded, looking thoughtfully toward the open door. Rows of chairs are pushed back at odd angles and stapled paper handouts with blank covers are left behind on several seats and tables. A projector screen behind him is blank and switched off. Warm low golden light slants through tall windows across the empty chairs, long soft shadows on the floor. Wide shot at eye level, Marco slightly off-centre, shallow depth of field on the handouts in the foreground. Mood: quiet doubt, the material was shared but is anyone ready?"
+scenes:
+  - src: /assets/img/posts/when-is-training-really-complete-scene-1.webp
+    alt: "ماركو يراقب موظفة دعم جديدة تتردّد أثناء مكالمة مع عميل"
+    caption: "الوحدة مكتملة، لكن التردّد باقٍ في المكالمة."
+    prompt: "Marco, a fictional learning-and-development lead in his mid-thirties with light olive skin, short dark wavy hair, a neatly trimmed short beard and rectangular tortoiseshell glasses, wearing a navy blazer over a plain white crew-neck T-shirt and dark chinos, stands a few steps behind a new customer-support employee, a fictional woman in her mid-twenties with light brown skin, shoulder-length black braids pulled back, wearing a mustard-yellow sweater and a slim headset, who sits at a support desk mid-call, pausing with her hand hovering uncertainly over the keyboard and her brow slightly furrowed. Her monitor faces away from the camera. Marco watches her with a concerned, attentive expression, holding a coffee cup. Busy open-plan office in the morning, cool white daylight from large windows, colleagues softly blurred in the background. Over-the-shoulder mid-shot from behind Marco, eye level. Mood: the module is marked done, yet she still hesitates."
+  - src: /assets/img/posts/when-is-training-really-complete-scene-2.webp
+    alt: "يدا ماركو ترتّبان أوراقاً متفرّقة في رزم منظّمة عند الفجر"
+    caption: "من كومة ملفات إلى مسار تعلّم واضح."
+    prompt: "Close-up of the hands of Marco, a fictional learning-and-development lead in his mid-thirties with light olive skin, short dark wavy hair, a neatly trimmed short beard and rectangular tortoiseshell glasses, wearing a navy blazer over a plain white crew-neck T-shirt and dark chinos, at a wooden desk early in the morning as he sorts a loose, messy pile of printed documents with blank pages into neat, ordered stacks, placing plain coloured sticky notes with nothing written on them on top of each stack. His glasses and part of his face are visible at the top of the frame, focused and calm. A closed laptop and a mug of tea sit to one side. Soft pale-gold sunrise light from a side window, gentle shadows across the paper. High angle looking down at the desk, shallow depth of field. Mood: order emerging from clutter, a clear path taking shape."
+  - src: /assets/img/posts/when-is-training-really-complete-scene-3.webp
+    alt: "ماركو يمشي بين موظفين يعملون على حواسيبهم في قاعة تدريب"
+    caption: "شرح وتدريب ثم اختبار قبل لقاء العملاء."
+    prompt: "Marco, a fictional learning-and-development lead in his mid-thirties with light olive skin, short dark wavy hair, a neatly trimmed short beard and rectangular tortoiseshell glasses, wearing a navy blazer over a plain white crew-neck T-shirt and dark chinos, walks slowly between two rows of desks in a bright company training room on a weekday morning, where a diverse group of fictional employees in their twenties to fifties, in smart-casual clothes, work quietly on laptops whose screens face away from the camera. One older man with grey hair raises a hand with a question and Marco leans in toward him, smiling, one hand on the back of a chair. Large windows with cool, even overcast daylight, a few plants, no posters or writing on the walls. Wide shot from a slightly low angle at the end of the row. Mood: focused preparation before facing customers."
+  - src: /assets/img/posts/when-is-training-really-complete-scene-4.webp
+    alt: "ماركو ومديرة مبيعات يراجعان النتائج حول طاولة عند الغروب"
+    caption: "النتائج تكشف من يحتاج إلى توجيه قبل الإطلاق."
+    prompt: "Marco, a fictional learning-and-development lead in his mid-thirties with light olive skin, short dark wavy hair, a neatly trimmed short beard and rectangular tortoiseshell glasses, wearing a navy blazer over a plain white crew-neck T-shirt and dark chinos, sits side by side with a sales team manager, a fictional woman in her early fifties with short silver hair, fair freckled skin and a dark green blouse, at a small round table in a glass-walled meeting room in the early evening. A laptop sits between them with its screen turned away from the camera. She points toward the laptop while Marco leans forward, nodding thoughtfully, a pen and a blank notepad in front of him. City lights beginning to glow in deep blue dusk through the glass behind them, warm overhead pendant light on the table. Mid-shot at eye level from across the table. Mood: calm, practical decision-making about who needs support."
+  - src: /assets/img/posts/when-is-training-really-complete-scene-5.webp
+    alt: "ماركو في جلسة توجيه فردية مع مندوب مبيعات شاب"
+    caption: "لم يصل بعد؟ جلسة توجيه ثم محاولة جديدة."
+    prompt: "Marco, a fictional learning-and-development lead in his mid-thirties with light olive skin, short dark wavy hair, a neatly trimmed short beard and rectangular tortoiseshell glasses, wearing a navy blazer over a plain white crew-neck T-shirt and dark chinos, sits in a small, quiet office booth across from a young sales representative, a fictional man in his early twenties with dark brown skin, a short fade haircut and a light-blue button-down shirt, during a one-to-one coaching conversation late in the afternoon. Marco gestures openly with one hand as he explains, while the young man listens, then starts to nod with growing confidence. Two cups of coffee and a closed notebook on the low table between them. Warm amber light from a desk lamp and the setting sun through a narrow window, soft bokeh behind. Close two-shot from a slight angle, eye level. Mood: supportive, encouraging, a second chance to get it right."
 faq:
   - q: "ما الجاهزية التدريبية؟"
     a: "الجاهزية التدريبية هي النقطة التي تتوفر عندها أدلة كافية وذات صلة على أن المتعلم يفهم المعرفة المطلوبة للانتقال إلى الخطوة التالية، مع الإقرار بأن بعض المهارات تتطلب أيضاً ملاحظة عملية."
@@ -50,6 +71,8 @@ faq:
 
 ## لماذا لا يعني إكمال التدريب الجاهزية
 
+{% include scene.html n=1 %}
+
 الإكمال مقياس للنشاط، فهو يجيب عمّا إذا كان شخص ما قد وصل إلى نهاية مهمة مُسندة إليه. أما الجاهزية فهي مسألة تعلّم، إذ تسأل عمّا إذا كان الشخص قد فهم المعرفة المطلوبة بما يكفي للخطوة التالية.
 
 ولا يزال مقياس الإكمال مفيداً للأغراض الإدارية، لكن لا ينبغي تحميله معنى أكبر مما يحتمل. فالموظف الذي أكمل وحدة عن سياسة ما قد يظل بحاجة إلى توضيح. والموظف الجديد الذي فتح كل ملفات التهيئة قد يظل غير متأكد من إجراء بالغ الأهمية.
@@ -61,6 +84,8 @@ faq:
 وتعزّز [أدلة مؤسسة EEF حول التغذية الراجعة](https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/feedback) أهمية ربط معلومات الأداء بأهداف التعلم والخطوات التالية. وفي التعلم بمكان العمل، يعني ذلك أن النتائج ينبغي أن تساعد المدير أو المتعلم على تحديد مواضع الحاجة إلى مزيد من التدرّب أو الشرح.
 
 ## كيف تُنشئ Learning Clarity مساراً تدريبياً
+
+{% include scene.html n=2 %}
 
 يمكن للمؤسسات البدء بالسياسات أو إجراءات التشغيل القياسية أو مستندات التهيئة أو أدلة المنتجات أو المواد التدريبية الموجودة. ويمكن لمنصة Learning Clarity تنظيم هذا المحتوى في مواضيع ومواضيع فرعية، بحيث يكون أمام المتعلم مسار محدد بدلاً من مجموعة متفرقة من الملفات.
 
@@ -74,11 +99,15 @@ faq:
 
 ## سيناريو عملي: إطلاق تدريب على منتج جديد
 
+{% include scene.html n=3 %}
+
 لنتخيّل شركة تطلق منتجاً جديداً. فبدلاً من إرسال عرض تقديمي بالبريد الإلكتروني ومطالبة الموظفين بتأكيد استلامه، يُنشئ فريق التعلم والتطوير موضوعاً يغطي تموضع المنتج وميزاته والأسئلة الشائعة وقواعد التصعيد. ويعمل الموظفون على الشروحات، ويخوضون الاختبارات، ويُكملون امتحاناً قبل أن يبدؤوا مهامهم التي تتضمن التعامل المباشر مع العملاء.
 
 لا يُثبت التقييم أن كل موظف سيؤدي أداءً مثالياً في محادثة حقيقية مع عميل، لكنه يقدّم دليلاً على أن المعرفة المطلوبة قد غُطّيت، ويبرز من قد يحتاج إلى توجيه قبل الإطلاق.
 
 ## ما الذي ينبغي أن تقيسه فرق التدريب
+
+{% include scene.html n=4 %}
 
 تشمل المقاييس المفيدة إكمال المهام المُسندة، ومحاولات الاختبارات، ودرجات الامتحانات، ونقاط الضعف المتكررة، والتقدم عبر المواضيع المطلوبة. وينبغي للفرق أيضاً الانتباه إلى المواضع التي يحتاج فيها المتعلمون إلى التوضيح مراراً، لأن ذلك قد يشير إلى مشكلة في تصميم المحتوى لا إلى مشكلة في أداء الفرد.
 
@@ -91,6 +120,8 @@ faq:
 ويكون تصميم التدريب أفضل حين يكون لكل مقياس غرض. فإذا كانت درجة ما لن تغيّر أي قرار أو إجراء دعم، فقد لا تستحق الجمع. وإذا كان مفهوم ما بالغ الأهمية، فينبغي أن يجعله التقييم ظاهراً.
 
 ## تحديد معنى «مكتمل» لكل موضوع تدريبي
+
+{% include scene.html n=5 %}
 
 من الطرق البسيطة للتوقف عن اعتبار التوزيع إكمالاً أن تحدد معنى الإكمال قبل إسناد التدريب. فلكل موضوع، اكتب ثلاثة أمور: أي المواضيع الفرعية يجب إنهاؤها، وما نتيجة التقييم المطلوبة، وما الذي يحدث حين لا يبلغها المتعلم — مراجعة، أو جلسة توجيه، أو محاولة ثانية.
 

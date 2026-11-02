@@ -5,7 +5,7 @@ date: 2026-11-02 23:10:00 +0200
 lang: es
 ref: when-is-training-really-complete
 capability: learning-insights
-image: /assets/img/posts/when-is-training-really-complete-hero.webp
+image: /assets/img/posts/when-is-training-really-complete-cinematic.webp
 keywords: ["preparación tras la formación", "medir la eficacia de la formación", "incorporación de empleados", "formación de empleados", "evaluación del aprendizaje en el trabajo"]
 tags: [LearningClarity, LearningClarityAI, FormacionCorporativa, FormacionEmpresarial, Onboarding, RecursosHumanos, AprendizajeOnline, DesarrolloProfesional, EvaluacionDelAprendizaje, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -29,9 +29,30 @@ ad:
       bullets: ["Sigue el progreso en cada tema", "Detecta quién necesita coaching"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/when-is-training-really-complete-hero.webp
-  alt: "Infografía de portada: ¿Cuándo termina de verdad una formación? Del material compartido a la preparación demostrada"
-  prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
+  src: /assets/img/posts/when-is-training-really-complete-cinematic.webp
+  alt: "Marco, responsable de formación, solo en un aula vacía tras una sesión, con los folletos olvidados en las sillas"
+  prompt: "Marco, a fictional learning-and-development lead in his mid-thirties with light olive skin, short dark wavy hair, a neatly trimmed short beard and rectangular tortoiseshell glasses, wearing a navy blazer over a plain white crew-neck T-shirt and dark chinos, stands alone in an empty company training room in the late afternoon just after a session has ended, leaning back against the front table with his arms folded, looking thoughtfully toward the open door. Rows of chairs are pushed back at odd angles and stapled paper handouts with blank covers are left behind on several seats and tables. A projector screen behind him is blank and switched off. Warm low golden light slants through tall windows across the empty chairs, long soft shadows on the floor. Wide shot at eye level, Marco slightly off-centre, shallow depth of field on the handouts in the foreground. Mood: quiet doubt, the material was shared but is anyone ready?"
+scenes:
+  - src: /assets/img/posts/when-is-training-really-complete-scene-1.webp
+    alt: "Marco observa a una nueva empleada de soporte que duda durante una llamada"
+    caption: "Módulo completado, pero aún con dudas en la llamada."
+    prompt: "Marco, a fictional learning-and-development lead in his mid-thirties with light olive skin, short dark wavy hair, a neatly trimmed short beard and rectangular tortoiseshell glasses, wearing a navy blazer over a plain white crew-neck T-shirt and dark chinos, stands a few steps behind a new customer-support employee, a fictional woman in her mid-twenties with light brown skin, shoulder-length black braids pulled back, wearing a mustard-yellow sweater and a slim headset, who sits at a support desk mid-call, pausing with her hand hovering uncertainly over the keyboard and her brow slightly furrowed. Her monitor faces away from the camera. Marco watches her with a concerned, attentive expression, holding a coffee cup. Busy open-plan office in the morning, cool white daylight from large windows, colleagues softly blurred in the background. Over-the-shoulder mid-shot from behind Marco, eye level. Mood: the module is marked done, yet she still hesitates."
+  - src: /assets/img/posts/when-is-training-really-complete-scene-2.webp
+    alt: "Las manos de Marco ordenan documentos sueltos en pilas al amanecer"
+    caption: "De un montón de archivos a un itinerario claro."
+    prompt: "Close-up of the hands of Marco, a fictional learning-and-development lead in his mid-thirties with light olive skin, short dark wavy hair, a neatly trimmed short beard and rectangular tortoiseshell glasses, wearing a navy blazer over a plain white crew-neck T-shirt and dark chinos, at a wooden desk early in the morning as he sorts a loose, messy pile of printed documents with blank pages into neat, ordered stacks, placing plain coloured sticky notes with nothing written on them on top of each stack. His glasses and part of his face are visible at the top of the frame, focused and calm. A closed laptop and a mug of tea sit to one side. Soft pale-gold sunrise light from a side window, gentle shadows across the paper. High angle looking down at the desk, shallow depth of field. Mood: order emerging from clutter, a clear path taking shape."
+  - src: /assets/img/posts/when-is-training-really-complete-scene-3.webp
+    alt: "Marco camina entre empleados que trabajan con portátiles en un aula"
+    caption: "Explicar, practicar y un examen antes de los clientes."
+    prompt: "Marco, a fictional learning-and-development lead in his mid-thirties with light olive skin, short dark wavy hair, a neatly trimmed short beard and rectangular tortoiseshell glasses, wearing a navy blazer over a plain white crew-neck T-shirt and dark chinos, walks slowly between two rows of desks in a bright company training room on a weekday morning, where a diverse group of fictional employees in their twenties to fifties, in smart-casual clothes, work quietly on laptops whose screens face away from the camera. One older man with grey hair raises a hand with a question and Marco leans in toward him, smiling, one hand on the back of a chair. Large windows with cool, even overcast daylight, a few plants, no posters or writing on the walls. Wide shot from a slightly low angle at the end of the row. Mood: focused preparation before facing customers."
+  - src: /assets/img/posts/when-is-training-really-complete-scene-4.webp
+    alt: "Marco y una jefa de ventas revisan resultados en una mesa al anochecer"
+    caption: "Los resultados muestran quién necesita apoyo."
+    prompt: "Marco, a fictional learning-and-development lead in his mid-thirties with light olive skin, short dark wavy hair, a neatly trimmed short beard and rectangular tortoiseshell glasses, wearing a navy blazer over a plain white crew-neck T-shirt and dark chinos, sits side by side with a sales team manager, a fictional woman in her early fifties with short silver hair, fair freckled skin and a dark green blouse, at a small round table in a glass-walled meeting room in the early evening. A laptop sits between them with its screen turned away from the camera. She points toward the laptop while Marco leans forward, nodding thoughtfully, a pen and a blank notepad in front of him. City lights beginning to glow in deep blue dusk through the glass behind them, warm overhead pendant light on the table. Mid-shot at eye level from across the table. Mood: calm, practical decision-making about who needs support."
+  - src: /assets/img/posts/when-is-training-really-complete-scene-5.webp
+    alt: "Marco en una conversación de coaching individual con un joven comercial"
+    caption: "¿Aún no está listo? Coaching y otro intento."
+    prompt: "Marco, a fictional learning-and-development lead in his mid-thirties with light olive skin, short dark wavy hair, a neatly trimmed short beard and rectangular tortoiseshell glasses, wearing a navy blazer over a plain white crew-neck T-shirt and dark chinos, sits in a small, quiet office booth across from a young sales representative, a fictional man in his early twenties with dark brown skin, a short fade haircut and a light-blue button-down shirt, during a one-to-one coaching conversation late in the afternoon. Marco gestures openly with one hand as he explains, while the young man listens, then starts to nod with growing confidence. Two cups of coffee and a closed notebook on the low table between them. Warm amber light from a desk lamp and the setting sun through a narrow window, soft bokeh behind. Close two-shot from a slight angle, eye level. Mood: supportive, encouraging, a second chance to get it right."
 faq:
   - q: "¿Qué es la preparación tras la formación?"
     a: "Es el punto en el que hay evidencias relevantes suficientes de que una persona entiende los conocimientos necesarios para pasar al siguiente paso, sin olvidar que algunas habilidades también requieren observación práctica."
@@ -50,6 +71,8 @@ La preparación tras la formación es el punto en el que una organización tiene
 
 ## Por qué completar una formación no es lo mismo que estar preparado
 
+{% include scene.html n=1 %}
+
 La finalización es una métrica de actividad. Responde a si alguien ha llegado al final de una tarea asignada. La preparación es una cuestión de aprendizaje. Pregunta si la persona ha entendido los conocimientos necesarios lo bastante bien para dar el siguiente paso.
 
 Una métrica de finalización sigue siendo útil para la gestión, pero no debería cargar con más significado del que puede sostener. Un empleado que ha completado un módulo sobre una política puede seguir necesitando aclaraciones. Una nueva incorporación que ha abierto todos los archivos de bienvenida puede seguir teniendo dudas sobre un proceso crítico.
@@ -61,6 +84,8 @@ Un flujo más sólido da a las personas la oportunidad de procesar el material, 
 La [evidencia de la EEF sobre la retroalimentación](https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/feedback) refuerza la importancia de vincular la información sobre el rendimiento con los objetivos de aprendizaje y los pasos siguientes. En el aprendizaje en el trabajo, eso significa que los resultados deberían ayudar a un responsable o a la propia persona a decidir dónde hace falta más práctica o explicación.
 
 ## Cómo crea Learning Clarity un flujo de formación
+
+{% include scene.html n=2 %}
 
 Las organizaciones pueden empezar con las políticas, los procedimientos operativos, los documentos de incorporación, las guías de producto o el material formativo que ya tengan. Learning Clarity puede organizar ese contenido en temas y subtemas para que la persona tenga un camino definido en lugar de una colección suelta de archivos.
 
@@ -74,11 +99,15 @@ La [guía de la SHRM sobre incorporación](https://www.shrm.org/topics-tools/new
 
 ## Escenario práctico: el lanzamiento de una formación de producto
 
+{% include scene.html n=3 %}
+
 Imagina una empresa que lanza un nuevo producto. En lugar de enviar por correo una presentación y pedir a los empleados que confirmen su recepción, el equipo de formación y desarrollo crea un tema que cubre el posicionamiento, las funciones, las preguntas frecuentes y las reglas de escalado. Los empleados trabajan las explicaciones, hacen cuestionarios y completan un examen antes de empezar con sus responsabilidades de cara al cliente.
 
 La evaluación no demuestra que todos los empleados vayan a desenvolverse a la perfección en una conversación real con un cliente. Sí aporta evidencias de que se han cubierto los conocimientos necesarios y señala quién puede necesitar coaching antes del lanzamiento.
 
 ## Qué deberían medir los equipos de formación
+
+{% include scene.html n=4 %}
 
 Entre las medidas útiles están la finalización de las tareas asignadas, los intentos de cuestionario, las notas de los exámenes, los puntos débiles recurrentes y el avance en los temas obligatorios. Los equipos también deberían fijarse en dónde necesitan aclaraciones las personas una y otra vez, porque eso puede indicar un problema de diseño del contenido y no de rendimiento individual.
 
@@ -91,6 +120,8 @@ Un error es equiparar finalización con competencia. Otro es usar un único exam
 El diseño de la formación funciona mejor cuando cada métrica tiene un propósito. Si una puntuación no va a cambiar ninguna decisión ni acción de apoyo, puede que no merezca la pena recogerla. Si un concepto crítico importa, la evaluación debería hacerlo visible.
 
 ## Definir qué es «completado» en cada tema de formación
+
+{% include scene.html n=5 %}
 
 Una forma sencilla de dejar de tratar la distribución como finalización es definir qué significa completar antes de asignar la formación. Para cada tema, anota tres cosas: qué subtemas deben terminarse, qué resultado de evaluación se exige y qué ocurre cuando alguien no lo alcanza: un repaso, una conversación de coaching o un segundo intento.
 

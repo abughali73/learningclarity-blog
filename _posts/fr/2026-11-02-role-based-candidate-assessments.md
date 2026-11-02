@@ -5,7 +5,7 @@ date: 2026-11-02 22:55:00 +0200
 lang: fr
 ref: role-based-candidate-assessments
 capability: learning-insights
-image: /assets/img/posts/role-based-candidate-assessments-hero.webp
+image: /assets/img/posts/role-based-candidate-assessments-cinematic.webp
 keywords: ["évaluation des candidats liée au poste", "évaluation des candidats", "test de connaissances avant embauche", "recrutement par compétences", "recrutement équitable"]
 tags: [LearningClarity, LearningClarityAI, ModeExamen, ModeQuiz, EvaluationDesCandidats, Recrutement, RessourcesHumaines, RH, Onboarding, FormationProfessionnelle, EdTech, AIinEducation, CorporateTraining]
 ad:
@@ -29,9 +29,30 @@ ad:
       bullets: ["Réutiliser les mêmes domaines", "Explications, quiz et examens"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/role-based-candidate-assessments-hero.webp
-  alt: "Infographie de titre : évaluations des candidats liées au poste, aller au-delà du CV et de l’entretien"
-  prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
+  src: /assets/img/posts/role-based-candidate-assessments-cinematic.webp
+  alt: "Ingrid, responsable RH, examine des dossiers de candidats dans une salle de réunion baignée de lumière douce"
+  prompt: "Ingrid, a fictional HR lead in her mid-fifties with a chin-length silver-blonde bob, fair skin, fine laugh lines and tortoiseshell reading glasses, wearing a navy blazer over a cream silk blouse and small silver earrings, sits alone at a long oak table in a glass-walled meeting room of a modern office in the late morning, leaning forward with her glasses pushed up on her head, a thoughtful half-smile, one hand resting on a neat stack of plain paper folders while the other holds a pen above an open notebook with no visible writing. A closed laptop and a cup of coffee sit beside her. Soft daylight pours through tall windows on the left, a blurred open-plan office with plants behind the glass. Mid-shot at eye level, shallow depth of field. Mood: calm, careful judgement before a hiring decision."
+scenes:
+  - src: /assets/img/posts/role-based-candidate-assessments-scene-1.webp
+    alt: "Ingrid et un chef d’équipe consultent un classeur de procédures sur le plateau des opérations clients"
+    caption: "Partir de ce dont le poste a vraiment besoin."
+    prompt: "Ingrid, a fictional HR lead in her mid-fifties with a chin-length silver-blonde bob, fair skin, fine laugh lines and tortoiseshell reading glasses, wearing a navy blazer over a cream silk blouse and small silver earrings, stands beside a fictional customer operations team lead, a man in his early thirties of South Asian heritage with short black hair and a neat beard, wearing a light blue open-collar shirt, in a quiet corner of a busy customer contact floor in the early morning. They are leaning over a high table together, Ingrid pointing at a thick printed policy binder whose pages show no readable writing while he explains with an open hand. Rows of empty desks with headsets hanging on hooks stretch out behind them, cool blue morning light from wide windows mixed with warm ceiling lights. Wide shot at eye level. Mood: focused, practical, deciding what the role really needs."
+  - src: /assets/img/posts/role-based-candidate-assessments-scene-2.webp
+    alt: "Ingrid relit les questions de l’évaluation avec une conseillère clientèle expérimentée"
+    caption: "Quelqu’un qui fait le métier relit chaque question."
+    prompt: "Ingrid, a fictional HR lead in her mid-fifties with a chin-length silver-blonde bob, fair skin, fine laugh lines and tortoiseshell reading glasses, wearing a navy blazer over a cream silk blouse and small silver earrings, sits side by side at a small round table in a cosy break-out area with a fictional senior customer service agent, a Black woman in her forties with short natural hair, wearing a mustard cardigan and a lanyard, in the early afternoon. The agent points at a laptop whose screen faces away from the camera and Ingrid listens with her glasses on, nodding, a pencil in hand. Warm side light from a window, a potted fig tree and two mugs of tea on the table. Over-the-shoulder shot from behind the laptop, screen not visible. Mood: collaborative, careful review."
+  - src: /assets/img/posts/role-based-candidate-assessments-scene-3.webp
+    alt: "Un candidat réfléchit à une question dans une salle calme pendant qu’Ingrid passe"
+    caption: "Un court test lié au poste avant l’entretien final."
+    prompt: "A fictional job candidate, a young man in his mid-twenties with light brown skin, curly dark hair and a neatly pressed white shirt, sits alone at a table in a quiet, bright meeting room in the late morning, chin resting on one hand as he thinks about a question, a laptop open in front of him with its screen turned away from the camera, a glass of water beside it. Through the glass wall behind him, slightly out of focus, Ingrid, a fictional HR lead in her mid-fifties with a chin-length silver-blonde bob, fair skin, fine laugh lines and tortoiseshell reading glasses, wearing a navy blazer over a cream silk blouse and small silver earrings, walks past carrying a folder and glances in with a reassuring smile. Soft overcast daylight, muted tones. Mid-shot at a slightly low angle. Mood: concentration, quiet nerves, fairness."
+  - src: /assets/img/posts/role-based-candidate-assessments-scene-4.webp
+    alt: "Ingrid tend un café au nouvel employé lors de son premier matin"
+    caption: "Les mêmes thèmes se prolongent dans l’intégration."
+    prompt: "Ingrid, a fictional HR lead in her mid-fifties with a chin-length silver-blonde bob, fair skin, fine laugh lines and tortoiseshell reading glasses, wearing a navy blazer over a cream silk blouse and small silver earrings, welcomes the same fictional new employee, a young man in his mid-twenties with light brown skin and curly dark hair, now wearing a casual grey sweater and a new lanyard, on his first morning at his desk on the customer operations floor. She hands him a mug of coffee while he laughs, a headset and a closed laptop waiting on the desk, colleagues blurred in the background. Bright golden early-morning sunlight streams through the windows behind them, lens flare. Wide shot at eye level. Mood: warm, welcoming, a fresh start."
+  - src: /assets/img/posts/role-based-candidate-assessments-scene-5.webp
+    alt: "Ingrid et le chef d’équipe font le bilan du recrutement au crépuscule"
+    caption: "Une question ratée par de bons candidats mérite un regard."
+    prompt: "Ingrid, a fictional HR lead in her mid-fifties with a chin-length silver-blonde bob, fair skin, fine laugh lines and tortoiseshell reading glasses, wearing a navy blazer over a cream silk blouse and small silver earrings, sits across a desk from the fictional customer operations team lead, a man in his early thirties of South Asian heritage with short black hair and a neat beard, wearing a light blue open-collar shirt, in a small office at dusk at the end of a hiring round. Ingrid has taken her glasses off and taps them against a plain paper folder as she makes a point, he leans back thinking. A single warm desk lamp lights their faces, the city outside the window turning deep blue. Close-up on Ingrid in the foreground, him softly blurred. Mood: reflective, honest, improving the process."
 faq:
   - q: "Qu’est-ce qu’une évaluation des candidats liée au poste ?"
     a: "Une évaluation des candidats liée au poste est un test structuré centré sur les connaissances ou les compétences utiles pour un emploi précis. Elle peut compléter l’examen du CV, les entretiens et les mises en situation lors de la sélection."
@@ -50,6 +71,8 @@ Avec [Learning Clarity](https://www.learningclarity.ai/), une équipe RH peut cr
 
 ## Pourquoi l’évaluation des candidats doit être liée au poste
 
+{% include scene.html n=1 %}
+
 Une évaluation n’est utile que si elle teste quelque chose qui compte pour le poste. Les tests de connaissances génériques sont peut-être faciles à administrer, mais ils peuvent produire des scores difficiles à interpréter. Mieux vaut partir des responsabilités du poste et identifier les connaissances ou les compétences qui peuvent raisonnablement être évaluées avant l’embauche.
 
 La [fiche du CIPD sur les méthodes de sélection](https://www.cipd.org/uk/knowledge/factsheets/selection-factsheet/) distingue les entretiens, les tests psychométriques, les exercices fondés sur les compétences et les centres d’évaluation, et souligne que les évaluations de compétences doivent, dans la mesure du possible, ressembler aux tâches réelles du poste. Pour les postes centrés sur les connaissances, un examen structuré peut compléter ces méthodes en vérifiant qu’un candidat maîtrise un domaine défini.
@@ -61,6 +84,8 @@ Les CV sont utiles pour examiner le parcours et l’expérience, mais ils repose
 Cela ne rend ni les CV ni les entretiens obsolètes. Cela signifie qu’ils fonctionnent mieux au sein d’un ensemble de preuves plus large. La qualité du recrutement s’améliore lorsque chaque méthode a un objectif clair : examen du parcours, questions structurées, exercices pratiques, vérification des connaissances liées au poste, références et jugement humain.
 
 ## Comment fonctionne une évaluation liée au poste
+
+{% include scene.html n=2 %}
 
 Une démarche pratique commence par définir le poste, identifier les domaines de connaissances qui peuvent être testés équitablement et choisir le type de questions adapté à l’emploi. L’évaluation doit ensuite être relue par une personne qui connaît bien le poste avant d’être envoyée aux candidats.
 
@@ -76,11 +101,15 @@ Toutes les capacités n’ont pas leur place dans un examen en ligne. La communi
 
 ## Scénario pratique : présélectionner avant l’entretien final
 
+{% include scene.html n=3 %}
+
 Imaginez une entreprise qui recrute pour un poste d’opérations client. L’équipe dispose d’un ensemble défini de politiques, de règles produit et de procédures d’escalade. Après un premier examen des candidatures, les candidats reçoivent une courte évaluation liée au poste qui couvre ces domaines. L’équipe RH examine les résultats et les utilise, avec les entretiens et les exercices pratiques, pour décider qui passe à l’étape suivante.
 
 L’examen ne dit pas à l’entreprise qui embaucher. Il donne à l’équipe un élément structuré de plus. Un candidat qui obtient de très bons résultats peut encore devoir faire ses preuves en matière de communication et de jugement. Un candidat en difficulté sur un sujet peut tout de même être une bonne recrue si la lacune peut être comblée par la formation et que les autres éléments sont solides.
 
 ## Comment Learning Clarity peut faciliter le passage à l’intégration
+
+{% include scene.html n=4 %}
 
 L’un des avantages d’un modèle de connaissances structuré dans le recrutement est que les mêmes domaines peuvent nourrir l’intégration une fois la personne arrivée. L’organisation peut reprendre ses politiques, ses guides produit, ses modes opératoires ou d’autres supports de formation et les transformer en sujets d’apprentissage avec des explications, des quiz et des examens.
 
@@ -93,6 +122,8 @@ Reliez directement les évaluations au poste, donnez aux candidats des consignes
 Utilisez l’évaluation comme un élément de preuve, pas comme un verdict incontestable. Tenez compte de l’accessibilité, de la langue, des limites de temps et du risque que le test désavantage des candidats pour des raisons sans rapport avec la performance au travail. Dans la mesure du possible, associez les vérifications de connaissances à des entretiens structurés et à des mises en situation réalistes.
 
 ## Concevoir une évaluation de candidats équitable, étape par étape
+
+{% include scene.html n=5 %}
 
 Partez du poste, pas d’une banque de questions. Listez les connaissances dont une nouvelle recrue a réellement besoin dès le premier jour — les politiques, les règles produit ou les notions techniques qui ne s’acquièrent pas rapidement sur le terrain — et laissez de côté tout ce que l’intégration enseignera de toute façon. Créez le sujet à partir de ce périmètre pour que les questions ne dérivent pas vers l’anecdotique.
 

@@ -5,7 +5,7 @@ date: 2026-11-02 23:00:00 +0200
 lang: es
 ref: measurable-learning-hiring-and-training
 capability: learning-insights
-image: /assets/img/posts/measurable-learning-hiring-and-training-hero-v2.webp
+image: /assets/img/posts/measurable-learning-hiring-and-training-cinematic.webp
 keywords: ["aprendizaje medible", "medir resultados de aprendizaje", "evaluación en la incorporación de empleados", "seguimiento del progreso", "evaluación de candidatos"]
 tags: [LearningClarity, LearningClarityAI, AprendizajeMedible, FormacionCorporativa, RecursosHumanos, Onboarding, Evaluacion, SeguimientoDelProgreso, AprendizajeOnline, Educacion, EdTech, AIinEducation, LifelongLearning]
 ad:
@@ -29,9 +29,30 @@ ad:
       bullets: ["Sigue temas, cuestionarios y exámenes", "Detecta puntos débiles y siguientes pasos"]
   footnote: ""
 hero_image:
-  src: /assets/img/posts/measurable-learning-hiring-and-training-hero-v2.webp
-  alt: "Infografía de portada: Del contenido al aprendizaje, la contratación y la formación medibles"
-  prompt: "Infographic title card from the original www.learningclarity.ai article (supplied image, not generated)."
+  src: /assets/img/posts/measurable-learning-hiring-and-training-cinematic.webp
+  alt: "Marek, responsable de formación, junto a la pared de cristal de una sala de reuniones con un café, mirando una oficina abierta por la mañana"
+  prompt: "Marek, a fictional L&D manager in his mid-forties with short salt-and-pepper hair, a neatly trimmed greying beard, light olive skin and thin rimless glasses, wearing a navy merino crew-neck sweater over a white collared shirt, stands just inside the glass wall of a small meeting room on a weekday morning, a coffee mug in one hand, looking out thoughtfully over an open-plan office where a few colleagues work at desks with laptops, all screens turned away or softly blurred. On the meeting table beside him lie a closed laptop and a blank paper notepad with a pen. Cool clear morning daylight from tall windows, soft reflections on the glass. Mid-shot at eye level, shallow depth of field, the office behind him gently out of focus. Mood: calm, thoughtful, a manager weighing what his team has really learned."
+scenes:
+  - src: /assets/img/posts/measurable-learning-hiring-and-training-scene-1.webp
+    alt: "Marek solo en una sala de formación vacía tras una sesión, con folletos sin tocar en la mano"
+    caption: "Contar asistentes es fácil. Medir la comprensión, no."
+    prompt: "Marek, a fictional L&D manager in his mid-forties with short salt-and-pepper hair, a neatly trimmed greying beard, light olive skin and thin rimless glasses, wearing a navy merino crew-neck sweater over a white collared shirt, stands alone at the back of an empty training room in the early evening just after a session has ended, holding a stack of untouched printed handouts he has collected from the chairs, looking at the rows of empty seats. A projector screen at the front is blank and switched off. Low cool blue light from the windows, a single warm ceiling light near the door, long shadows across the chairs. Wide shot at eye level, Marek small in the frame. Mood: quiet doubt, wondering what actually stayed with people."
+  - src: /assets/img/posts/measurable-learning-hiring-and-training-scene-2.webp
+    alt: "Una profesora universitaria señala un diagrama en el cuaderno de una estudiante mientras le da feedback"
+    caption: "Un buen feedback señala el siguiente paso."
+    prompt: "A fictional university instructor, a woman in her late fifties with a short grey bob and dark brown skin, wearing a mustard cardigan over a black top, leans over the desk of a fictional student, a young woman around twenty with long auburn hair, wearing a green hoodie, in a small university seminar room in the late afternoon. The instructor points to a hand-drawn diagram of simple boxes and arrows (no letters or words) in the student's paper notebook while the student listens and nods; a laptop beside them is closed. Warm golden light slants through a tall window, dust in the air, bookshelves softly blurred behind. Over-the-shoulder shot from behind the student, slightly high angle. Mood: encouraging, focused, a clear next step."
+  - src: /assets/img/posts/measurable-learning-hiring-and-training-scene-3.webp
+    alt: "Marek da la bienvenida a un nuevo empleado en su mesa en su primera mañana"
+    caption: "Primera semana: conocimiento que puede practicar y demostrar."
+    prompt: "Marek, a fictional L&D manager in his mid-forties with short salt-and-pepper hair, a neatly trimmed greying beard, light olive skin and thin rimless glasses, wearing a navy merino crew-neck sweater over a white collared shirt, welcomes a fictional new employee, a man in his mid-twenties with short black hair and light brown skin, wearing a light blue oxford shirt, at his new desk on his first morning in a bright open-plan office. Marek rests one hand on the back of the chair and gestures towards a laptop whose screen faces away from the camera, while the new employee, a lanyard with a blank badge around his neck, looks up with an eager, slightly nervous smile. A potted plant and a fresh notebook sit on the desk. Soft bright morning daylight from a large window, airy and clean. Mid-shot at eye level, both faces visible. Mood: welcoming, supportive, a fresh start."
+  - src: /assets/img/posts/measurable-learning-hiring-and-training-scene-4.webp
+    alt: "Marek en una conversación individual relajada con el nuevo empleado, con el portátil cerrado"
+    caption: "Los resultados abren la conversación, no la cierran."
+    prompt: "Marek, a fictional L&D manager in his mid-forties with short salt-and-pepper hair, a neatly trimmed greying beard, light olive skin and thin rimless glasses, wearing a navy merino crew-neck sweater over a white collared shirt, sits in a relaxed one-to-one conversation with a fictional new employee, a man in his mid-twenties with short black hair and light brown skin, wearing a light blue oxford shirt, in two armchairs by a window in a quiet corner of the office a few weeks later. Marek's laptop is closed on a low table between them next to two mugs of coffee; he leans forward listening, while the younger man explains something with open hands. Overcast afternoon light, soft and even, muted greens of indoor plants. Close two-shot from the side at eye level, shallow depth of field. Mood: honest conversation, trust, data giving way to talk."
+  - src: /assets/img/posts/measurable-learning-hiring-and-training-scene-5.webp
+    alt: "Marek en su mesa al anochecer, con una tarjeta en blanco y un bolígrafo, decidiendo qué medir"
+    caption: "Primero la decisión, luego qué medir."
+    prompt: "Marek, a fictional L&D manager in his mid-forties with short salt-and-pepper hair, a neatly trimmed greying beard, light olive skin and thin rimless glasses, wearing a navy merino crew-neck sweater over a white collared shirt, sits alone at his desk at dusk, glasses pushed up on his forehead, holding a blank index card and a pen, pausing before he writes as he looks out of the window at the city lights coming on. A closed laptop and an empty coffee cup sit beside a small neat stack of blank cards. Deep blue twilight outside, a warm desk lamp lighting one side of his face. Close-up from a slightly low angle. Mood: clarity, deciding what really matters next."
 faq:
   - q: "¿Qué es el aprendizaje medible?"
     a: "El aprendizaje medible conecta la actividad de aprendizaje con evidencias como la finalización, los resultados de los cuestionarios, el rendimiento en los exámenes, los puntos débiles y el progreso a lo largo del tiempo, para que alumnos y supervisores tomen mejores decisiones sobre el siguiente paso."
@@ -56,6 +77,8 @@ El [informe de la OCDE sobre cómo usan sus competencias los trabajadores](https
 
 ## Por qué la distribución tradicional de contenido deja puntos ciegos
 
+{% include scene.html n=1 %}
+
 Un documento puede abrirse sin entenderse. Un vídeo puede verse entero sin recordarse. Se puede asistir a una sesión de formación sin que deje un conocimiento duradero. Por tanto, la finalización nos dice algo, pero no todo.
 
 La recuperación activa es una forma de generar evidencias más sólidas de comprensión. La [investigación sobre el efecto test](https://pubmed.ncbi.nlm.nih.gov/26151629/) revisa estudios que muestran que recuperar información mediante pruebas puede favorecer la retención posterior. En la práctica, los cuestionarios y los exámenes pueden servir a la vez como puntos de control y como actividades de aprendizaje cuando van acompañados de una retroalimentación adecuada.
@@ -68,11 +91,15 @@ Learning Clarity apoya este ciclo mediante temas y subtemas estructurados. El Mo
 
 ## Cómo se aplica el aprendizaje medible a los estudiantes
 
+{% include scene.html n=2 %}
+
 Para los estudiantes, la medición más valiosa suele ser diagnóstica. Una nota baja no es útil por sí sola; lo útil es ver qué conceptos causaron dificultades y qué estudiar a continuación. Aquí es donde la visibilidad de los puntos débiles puede convertir la evaluación en un plan de estudio.
 
 La [guía de la EEF sobre la retroalimentación](https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/feedback) subraya que la retroalimentación debe ayudar a los alumnos a entender su rendimiento en relación con los objetivos y a identificar pasos siguientes accionables. Por eso, las herramientas de aprendizaje deberían conectar los resultados con la mejora, en lugar de limitarse a mostrar un porcentaje final.
 
 ## Cómo se aplica a la contratación y la incorporación
+
+{% include scene.html n=3 %}
 
 En la contratación, el aprendizaje medible se convierte en una comprensión medible del puesto. Una evaluación de candidatos puede comprobar conocimientos definidos antes de la preselección, mientras que las entrevistas y los ejercicios prácticos evalúan otras capacidades. El objetivo es añadir evidencias, no automatizar la decisión de contratación.
 
@@ -85,6 +112,8 @@ Piensa en un tema de concienciación sobre ciberseguridad. Una persona puede usa
 El contenido es parecido, pero la decisión cambia. La persona se pregunta: «¿Estoy preparado?». El profesor se pregunta: «¿Quién necesita ayuda?». La empresa se pregunta: «¿Se han cubierto los conocimientos obligatorios?». La medición es útil porque ayuda a cada parte a responder la pregunta que le importa.
 
 ## Buenas prácticas para medir el aprendizaje sin simplificarlo en exceso
+
+{% include scene.html n=4 %}
 
 Define el resultado antes de elegir la métrica. Usa los cuestionarios para practicar y diagnosticar, los exámenes para comprobaciones de preparación más formales y los datos de finalización para la participación. Evita tratar una sola puntuación como prueba de dominio cuando el tema requiere desempeño práctico o criterio.
 
@@ -99,6 +128,8 @@ Para una decisión de estudio, suele bastar con un cuestionario breve sobre el s
 Relacionar la señal con la decisión también muestra qué no hay que medir. Si una cifra nunca va a cambiar lo que alguien hace a continuación, añade ruido al informe y esfuerzo para quien aprende. Un pequeño conjunto de señales que respondan a preguntas reales es más fácil de aprovechar que un informe enorme que nadie lee.
 
 ## Conclusión
+
+{% include scene.html n=5 %}
 
 El aprendizaje medible es más útil cuando ayuda a responder qué debería pasar a continuación. El objetivo no son más datos, sino unas evidencias más claras que orienten las decisiones de estudio, apoyo, contratación, incorporación y formación.
 
