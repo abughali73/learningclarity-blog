@@ -85,4 +85,4 @@ competent, never hopeless. Emotional arc: pressure and self-doubt, then focus, a
 End with one concrete, low-effort step tied to the story, for example:
 "Describe the one thing you need to learn by Friday, and start with the first subtopic tonight."
 "Upload the notes you already have and take a five-question quiz before you reread them."
-Mention the 300 free credits only where it fits naturally, and link to https://www.learningclarity.ai with descriptive text.
+Mention the free first week only where it fits naturally (never free credits, credit packs or "no subscription"; individuals now use monthly plans), and link to https://www.learningclarity.ai with descriptive text.

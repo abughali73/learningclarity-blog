@@ -62,8 +62,8 @@ faq:
     a: "Ja. Laden Sie PDF-Dateien (bis 40 MB pro Datei), Bilder oder Textdateien hoch, und LearningClarity erstellt daraus ein Thema mit Unterthemen. PowerPoint-Präsentationen und Word-Dokumente müssen vorher als PDF exportiert werden."
   - q: "Warum lässt sich mein gescanntes PDF nicht hochladen?"
     a: "Gescannte PDFs ohne Textebene und passwortgeschützte PDFs können nicht gelesen werden. Verwenden Sie eine Version mit echtem Text, oder laden Sie scharfe Bilder oder eine .txt-Datei hoch."
-  - q: "Brauche ich ein Abo?"
-    a: "Nein. Sie zahlen nur, was Sie nutzen, mit Credits. Bei der Kontoerstellung erhalten Sie 300 kostenlose Credits, Pakete beginnen bei 1,99 $ für 1.000 Credits, und Credits verfallen nicht."
+  - q: "Was kostet das?"
+    a: "Jedes neue Konto startet mit einer kostenlosen ersten Woche. Danach beginnen die Tarife bei 2,99 $ im Monat für Bronze, und jährliche Zahlung kostet weniger als zwölf Monatszahlungen."
 ---
 Am ersten Sonntag des Semesters verschwand der Küchentisch unter Papier. Elif hatte 400 Folien Embryologie. Mateo ein Modul Datenstrukturen mit Zwischenklausur in sieben Wochen. Hannah einen Reader zum Vertragsrecht, dick wie ein Ziegelstein. Drei Mitbewohner, drei Fächer, ein gemeinsames Problem: Sie brauchten eine Lernstrategie fürs Studium, die nicht mit wochenlangem Karteikartenschreiben beginnt. Elif, Mateo, Hannah und ihre Universität sind fiktiv.
 
@@ -97,7 +97,7 @@ Ihre Strategie war Zeit. In der Straßenbahn ließ sie sich mit Listen (Vorlesen
 
 {% include scene.html n=5 %}
 
-Keiner von ihnen wollte noch ein Abo. Jeder startete mit den 300 kostenlosen Credits, die es bei der Kontoerstellung gab, und kaufte ein Credit-Paket, als es nötig wurde. Pakete beginnen bei 1,99 $ für 1.000 Credits, und Credits verfallen nicht, also ging zwischen zwei Prüfungsphasen nichts verloren.
+Keiner von ihnen wollte eine hohe Rechnung. Jeder startete mit der kostenlosen ersten Woche, die zu einem neuen Konto gehört, und wählte dann Bronze für 2,99 $ im Monat. Vor Prüfungswochen warfen sie einen Blick auf die Nutzungsanzeige, und ein einmaliges Top-up für 3,99 $ deckte die intensivste Phase ab, ohne dass sie den Tarif wechseln mussten.
 
 Mateo teilte sein Rekursionsthema per E-Mail mit Elif, nachdem sie zugegeben hatte, es nie verstanden zu haben. Sie nahm an und bekam ihre eigene, unabhängige Kopie mit eigenem Fortschritt.
 

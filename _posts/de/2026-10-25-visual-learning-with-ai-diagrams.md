@@ -105,4 +105,4 @@ Da Erklärungen und Fragen in LearningClarity an das Alter der Lernenden angepas
 
 Visualize wirkt am besten als ein Werkzeug unter mehreren. Hören Sie lieber zu, liest **Listen** den aktuellen Abschnitt laut vor, praktisch, wenn Sie nicht vor dem Bildschirm sitzen. Und wenn Sie den Tutor noch nicht kennen, beginnen Sie mit diesem [Leitfaden zu Explain Mode, Ihrem KI-Tutor Schritt für Schritt](/de/2026/10/meet-your-step-by-step-ai-tutor/).
 
-Wählen Sie das Konzept, das Ihnen immer wieder entgleitet, und [sehen Sie es mit LearningClarity als Diagramm](https://www.learningclarity.ai). Jedes neue Konto startet mit 300 kostenlosen Credits.
+Wählen Sie das Konzept, das Ihnen immer wieder entgleitet, und [sehen Sie es mit LearningClarity als Diagramm](https://www.learningclarity.ai). Jedes neue Konto startet mit einer kostenlosen ersten Woche.

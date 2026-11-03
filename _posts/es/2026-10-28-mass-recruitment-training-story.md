@@ -95,7 +95,7 @@ Esa mañana había convertido el subtema de canales de captación en un **pódca
 
 En **Quiz Mode** (modo quiz) eligió los subtemas de filtrado y cumplimiento y pulsó «No lo sé» cada vez que dudaba. Los resultados le mostraron dónde flojeaban sus conocimientos de selección, y preguntó por qué cada respuesta correcta lo era.
 
-Luego abrió **Talk to This**, un tutor de voz en vivo sobre su propio material. En varias llamadas cortas, porque los créditos dependen de la duración, repasó cómo haría llamadas de filtro rápidas, cómo explicaría los turnos y los protocolos del complejo y cómo respondería a las objeciones sobre turnos de noche y sueldo. Ella hablaba, el tutor siempre respondía en voz alta, y guardó las transcripciones.
+Luego abrió **Talk to This**, un tutor de voz en vivo sobre su propio material. En varias llamadas cortas, porque el uso depende de la duración, repasó cómo haría llamadas de filtro rápidas, cómo explicaría los turnos y los protocolos del complejo y cómo respondería a las objeciones sobre turnos de noche y sueldo. Ella hablaba, el tutor siempre respondía en voz alta, y guardó las transcripciones.
 
 {% include scene.html n=5 %}
 

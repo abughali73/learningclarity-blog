@@ -65,7 +65,7 @@ faq:
   - q: "What is Talk to This in LearningClarity?"
     a: "Talk to This opens a live voice conversation with an AI tutor about the material you are studying. You speak or type, the tutor always replies aloud, and you can keep a transcript. It works on the web, iPhone and Android."
   - q: "How much does a Talk to This conversation cost?"
-    a: "Credits are based on conversation length, and unused reserved credits are returned. New accounts start with 300 free credits and no card is asked for."
+    a: "Usage is based on conversation length, so you only use your allowance for the time you talk. Every new account starts with a free first week."
   - q: "How do I earn a certificate for a topic?"
     a: "Pass an Exam Mode exam that covers every subtopic of the topic, has at least 30 questions and gives you 70% or higher. The certificate has a credential ID and a QR code, and anyone can verify it without an account."
 ---
@@ -99,7 +99,7 @@ On Monday night she turned the subtopic on winning back unhappy customers into a
 
 In **Quiz Mode** she chose the subtopics on telecom policy and customer psychology and pressed "I don't know" instead of guessing. The results stung: billing objections were weaker than she thought. She asked why each right answer was right.
 
-Then she opened **Talk to This**, a live voice tutor about her own material, and talked through her three hardest scenarios out loud: a customer yelling about a $150 roaming charge, explaining a network outage to a caller who isn't technical, and a 10-year subscriber threatening to cancel. She spoke, the tutor always answered aloud, and together they discussed what to say first, where to slow down and how to pivot from an objection to a solution. Credits are based on conversation length, so she made several short calls instead of one long one and kept the transcripts to reread.
+Then she opened **Talk to This**, a live voice tutor about her own material, and talked through her three hardest scenarios out loud: a customer yelling about a $150 roaming charge, explaining a network outage to a caller who isn't technical, and a 10-year subscriber threatening to cancel. She spoke, the tutor always answered aloud, and together they discussed what to say first, where to slow down and how to pivot from an objection to a solution. Usage is based on conversation length, so she made several short calls instead of one long one and kept the transcripts to reread.
 
 {% include scene.html n=5 %}
 

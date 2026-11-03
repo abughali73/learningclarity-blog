@@ -105,4 +105,4 @@ Como en LearningClarity las explicaciones y preguntas se adaptan a la edad de qu
 
 Visualize funciona mejor como una herramienta más entre varias. Si prefieres escuchar, **Listen** lee en voz alta la sección actual, algo muy útil cuando estás lejos de la pantalla. Y si aún no conoces el tutor, empieza por esta [guía de Explain Mode, tu tutor de IA paso a paso](/es/2026/10/meet-your-step-by-step-ai-tutor/).
 
-Elige ese concepto que siempre se te escapa y [míralo como diagrama con LearningClarity](https://www.learningclarity.ai). Cada cuenta nueva empieza con 300 créditos gratis.
+Elige ese concepto que siempre se te escapa y [míralo como diagrama con LearningClarity](https://www.learningclarity.ai). Cada cuenta nueva empieza con una primera semana gratis.

@@ -105,4 +105,4 @@ Because explanations and questions in LearningClarity are adapted to the learner
 
 Visualize works best as one tool among several. If you'd rather hear the explanation, **Listen** reads the current section aloud, which helps when you're away from the screen. If you're new to the tutor itself, start with this [guide to Explain Mode, the step-by-step AI tutor](/en/2026/10/meet-your-step-by-step-ai-tutor/).
 
-Pick the concept that keeps slipping away and [see it as a diagram with LearningClarity](https://www.learningclarity.ai). Every new account starts with 300 free credits.
+Pick the concept that keeps slipping away and [see it as a diagram with LearningClarity](https://www.learningclarity.ai). Every new account starts with a free first week.

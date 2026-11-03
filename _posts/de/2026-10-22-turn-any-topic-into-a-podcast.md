@@ -97,4 +97,4 @@ Podcasts wirken am besten zusammen mit dem restlichen Lernpfad. Das Erklären ba
 
 {% include scene.html n=5 %}
 
-[Erstellen Sie Ihren ersten Lernpodcast bei LearningClarity](https://www.learningclarity.ai) aus einem Thema, an dem Sie gerade arbeiten. Jedes neue Konto startet mit 300 kostenlosen Credits.
+[Erstellen Sie Ihren ersten Lernpodcast bei LearningClarity](https://www.learningclarity.ai) aus einem Thema, an dem Sie gerade arbeiten. Jedes neue Konto startet mit einer kostenlosen ersten Woche.

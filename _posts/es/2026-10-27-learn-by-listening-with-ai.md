@@ -102,4 +102,4 @@ Oír una explicación no es lo mismo que recordarla. Por eso Explain Mode incluy
 
 Cuando una sección cada vez se te quede corta, puedes ir más allá: [convierte un tema completo en un pódcast de IA](/es/2026/10/turn-any-topic-into-a-podcast/), una conversación a dos voces entre un presentador y un invitado experto.
 
-Dale un respiro a tus ojos esta noche y [prueba a aprender de oído con LearningClarity](https://www.learningclarity.ai). Cada cuenta nueva empieza con 300 créditos gratis.
+Dale un respiro a tus ojos esta noche y [prueba a aprender de oído con LearningClarity](https://www.learningclarity.ai). Cada cuenta nueva empieza con una primera semana gratis.

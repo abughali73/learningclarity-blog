@@ -105,4 +105,4 @@ Der Explain Mode ist der erste Schritt im Lernpfad von LearningClarity:
 
 Sie können direkt in jeden Modus einsteigen, aber wer mit dem Erklären beginnt, gibt Quiz und Prüfung eine solide Grundlage.
 
-Wählen Sie ein Thema, das Sie schon lange vor sich herschieben, und [probieren Sie Ihren ersten Abschnitt mit dem KI-Tutor von LearningClarity aus](https://www.learningclarity.ai). Jedes neue Konto startet mit 300 kostenlosen Credits.
+Wählen Sie ein Thema, das Sie schon lange vor sich herschieben, und [probieren Sie Ihren ersten Abschnitt mit dem KI-Tutor von LearningClarity aus](https://www.learningclarity.ai). Jedes neue Konto startet mit einer kostenlosen ersten Woche.

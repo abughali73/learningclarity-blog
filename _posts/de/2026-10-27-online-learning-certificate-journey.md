@@ -18,7 +18,7 @@ ad:
   items:
     - icon: user-plus
       title: "Anmelden und beschreiben"
-      bullets: ["300 Gratis-Credits, keine Karte nötig", "Thema eintippen, Unterthemen erhalten"]
+      bullets: ["Eine Gratiswoche zum Ausprobieren", "Thema eintippen, Unterthemen erhalten"]
     - icon: bulb
       title: "Auf Ihre Art lernen"
       bullets: ["Explain Mode, Simplify und Visualize", "Anhören oder als Podcast erstellen"]
@@ -80,7 +80,7 @@ Vierzig offene Browser-Tabs wollte sie nicht. Sie wollte richtig lernen und etwa
 
 {% include scene.html n=2 %}
 
-Lena meldete sich bei [LearningClarity, der KI-Lern-App](https://www.learningclarity.ai), mit ihrem Microsoft-Konto an. Das Konto startete mit 300 kostenlosen Credits, und niemand fragte nach einer Karte.
+Lena meldete sich bei [LearningClarity, der KI-Lern-App](https://www.learningclarity.ai), mit ihrem Microsoft-Konto an. Ihre erste Woche war kostenlos, sodass sie alles ausprobieren konnte, bevor sie sich für einen Tarif entschied.
 
 Ein Lehrbuch zum Hochladen hatte sie nicht, also tippte sie, was ihr den Schlaf raubte: „Projektmanagement für eine erstmalige Projektleiterin: Planung, Umfang, Risiken und Stakeholder auf dem Laufenden halten.“ Einen Moment später hatte die Sorge eine Form: ein Thema mit eigenen Unterthemen. Sie wählte die aus, die für Montag am wichtigsten waren. (Mehr dazu, wie Sie [jedes Thema lernen, indem Sie es beschreiben](/de/2026/10/learn-any-subject-with-ai/).)
 

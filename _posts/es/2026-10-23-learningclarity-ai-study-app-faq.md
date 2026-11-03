@@ -1,13 +1,13 @@
 ---
 title: "Preguntas frecuentes de la plataforma de estudio Learning Clarity"
-description: "Preguntas frecuentes de la plataforma de estudio Learning Clarity: precio, archivos, créditos gratis, idiomas, seguridad, podcasts, certificados y más."
+description: "Preguntas frecuentes de la plataforma de estudio Learning Clarity: precio y planes, archivos, idiomas, seguridad, podcasts, certificados y más."
 date: 2026-10-23 18:06:25 +0300
 last_modified_at: 2026-10-28 01:40:00 +0300
 lang: es
 ref: learningclarity-ai-study-app-faq
 capability: faq
 image: "/assets/img/posts/learningclarity-ai-study-app-faq-cinematic.webp"
-keywords: ["preguntas frecuentes plataforma de estudio Learning Clarity", "preguntas frecuentes LearningClarity", "cuánto cuesta LearningClarity", "subir apuntes en PDF para estudiar", "créditos gratis app de estudio"]
+keywords: ["preguntas frecuentes plataforma de estudio Learning Clarity", "preguntas frecuentes LearningClarity", "cuánto cuesta LearningClarity", "subir apuntes en PDF para estudiar", "semana gratis app de estudio"]
 tags: [LearningClarity, LearningClarityAI, PreguntasFrecuentes, AppEducativa, ConsejosDeEstudio, AprendizajeOnline, EducacionDigital, InteligenciaArtificial, Estudiantes, Docentes, Padres, EdTech, AIinEducation, LifelongLearning]
 ad:
   color: purple
@@ -20,8 +20,8 @@ ad:
       title: "Primeros pasos"
       bullets: ["Describe un tema o sube tu material", "En la web, iPhone y Android"]
     - icon: dollar
-      title: "Créditos, no suscripciones"
-      bullets: ["300 créditos gratis, sin tarjeta", "Los créditos nunca caducan"]
+      title: "Una semana gratis y planes sencillos"
+      bullets: ["Una semana gratis para probarlo todo", "Planes desde 2,99 $ al mes"]
     - icon: globe
       title: "Aprende en tu idioma"
       bullets: ["7 idiomas de interfaz", "Sube en un idioma y estudia en otro"]
@@ -54,7 +54,7 @@ faq:
     a: "Regístrate en la web, en la app para iPhone o en la app para Android con tu cuenta de Google, Microsoft o Apple, o con un correo electrónico y una contraseña. Durante el proceso de bienvenida indicas tu fecha de nacimiento y eliges tu idioma. [Guía de inicio rápido](https://www.learningclarity.ai/help/quick-start/)."
   - group: "Primeros pasos"
     q: "¿Puedo probar LearningClarity gratis?"
-    a: "Sí. Toda cuenta nueva empieza con 300 créditos gratis, no se pide tarjeta y no hay ningún periodo de prueba que luego empiece a cobrarte. Solo compras créditos si necesitas más y cuando los necesites."
+    a: "Sí. Toda cuenta nueva recibe una semana de uso gratuito con un uso razonable, para que pruebes la plataforma antes de elegir un plan."
   - group: "Primeros pasos"
     q: "¿Cuál es la forma más rápida de empezar a aprender?"
     a: "Elige **Describe Topic** (describir un tema), escribe lo que quieres aprender y LearningClarity crea en segundos una hoja de ruta de subtemas. Después abre el primer subtema en Explain Mode (modo explicación). Describir un tema es también la forma más barata de empezar."
@@ -138,7 +138,7 @@ faq:
     a: "**Talk to This** (habla con este contenido) es un tutor de voz en directo para el material que estás estudiando. Hablas o escribes, el tutor siempre responde en voz alta y puedes guardar una transcripción. Responde en el idioma del tema y funciona en todas las plataformas: la app web, iPhone y Android. [Estudiar en voz alta](https://www.learningclarity.ai/help/out-loud/)."
   - group: "Escuchar, podcasts y conversación"
     q: "¿Cómo se cobra Talk to This?"
-    a: "Según la duración de la conversación. Los créditos se reservan al empezar una llamada y los créditos reservados que no se usan se devuelven al terminar, así que solo pagas el tiempo que usas."
+    a: "Según la duración de la conversación, así que solo consume tu uso durante el tiempo que hablas de verdad."
   - group: "Cursos, planes de aprendizaje y compartir"
     q: "¿Qué es un curso con IA?"
     a: "Una secuencia estructurada de temas relacionados. Describe lo que quieres aprender y LearningClarity genera el curso y sus temas, y puede sugerirte el mejor orden para estudiarlos. [Creación de cursos con IA](https://www.learningclarity.ai/help/create-ai-course/)."
@@ -178,30 +178,24 @@ faq:
   - group: "Progreso, certificados y logros"
     q: "¿Qué son las rachas y los logros?"
     a: "Tu racha cuenta los días seguidos con actividad de aprendizaje, y tu racha más larga registra tu mejor marca. Hay 16 logros con niveles de rareza que van de Común a Legendario, seis de ellos ocultos, como First Topic (primer tema), Quiz Perfect (cuestionario perfecto), Exam Excellence (excelencia en examen) y 30-Day Streak (racha de 30 días). [Rachas y logros](https://www.learningclarity.ai/help/streaks-achievements/)."
-  - group: "Créditos y pagos"
+  - group: "Planes y pagos"
     q: "¿Cuánto cuesta LearningClarity?"
-    a: "No hay suscripción para particulares. Solo pagas lo que usas mediante créditos, y los paquetes de créditos empiezan en 1,99 $ por 1000 créditos. Los créditos nunca caducan. [Créditos y pagos](https://www.learningclarity.ai/help/credits/)."
-  - group: "Créditos y pagos"
-    q: "¿Qué paquetes de créditos hay?"
-    a: "Mini Starter: 1000 créditos por 1,99 $. Starter: 4500 créditos por 7,99 $. Advanced: 21 500 créditos por 29,99 $. Ultimate: 45 000 créditos por 59,99 $. Cuanto mayor es el paquete, más barato sale cada crédito."
-  - group: "Créditos y pagos"
-    q: "¿Qué consume créditos?"
-    a: "Generar material nuevo: crear temas, explicaciones, cuestionarios y exámenes, Listen (escuchar), Visualize (visualizar), podcasts y Talk to This (habla con este contenido). Las tareas más complejas cuestan más, y los episodios de podcast muestran una estimación antes de empezar. Leer, repasar y verificar lo que ya tienes es gratis."
-  - group: "Créditos y pagos"
-    q: "¿Por qué subir material necesita más créditos que describir un tema?"
-    a: "Crear un tema a partir de tus propios archivos supone mucho más trabajo para la IA. Describir un tema cuesta desde unos 50 créditos, mientras que crearlo a partir de archivos subidos requiere un saldo de al menos 1000 créditos."
-  - group: "Créditos y pagos"
-    q: "¿Qué pasa si me quedo sin créditos?"
-    a: "No pierdes nada. Tus temas, tu progreso, tu historial de cuestionarios y exámenes y tus certificados se conservan. Un saldo a cero solo impide generar material nuevo hasta que recargues."
-  - group: "Créditos y pagos"
-    q: "¿Cómo pago y es seguro?"
-    a: "Compra paquetes de créditos con tarjeta en la web, o a través de la App Store en iPhone. Los pagos con tarjeta los procesa Stripe, y LearningClarity nunca guarda el número de tu tarjeta."
-  - group: "Créditos y pagos"
+    a: "Tu primera semana es gratis. Después, los particulares eligen un plan: Bronze cuesta 2,99 $ al mes o 32,99 $ al año; Silver ofrece 5 veces el uso de Bronze por 11,99 $ al mes o 139,99 $ al año, y Gold ofrece 20 veces el uso de Bronze por 31,99 $ al mes o 370,99 $ al año. Los precios están en dólares estadounidenses. [Descubre los nuevos planes](/es/2026/11/ai-study-platform-subscription-plans/)."
+  - group: "Planes y pagos"
+    q: "¿Sale más barato pagar al año?"
+    a: "Sí. En todos los planes, el pago anual cuesta menos que doce pagos mensuales."
+  - group: "Planes y pagos"
+    q: "¿Cómo sé cuánto de mi plan he usado?"
+    a: "La plataforma muestra siempre el porcentaje de tu uso consumido, y cada función indica claramente cuándo consume parte de tu uso, así que lo sabes antes de pulsar."
+  - group: "Planes y pagos"
+    q: "¿Y si necesito más en un mes?"
+    a: "Pasa a un plan mayor o compra una recarga puntual de 3,99 $ que añade un uso equivalente a Bronze. Puedes comprar varias recargas, y cada una se cobra una sola vez, no cada mes."
+  - group: "Planes y pagos"
+    q: "Compré créditos antes. ¿Siguen funcionando?"
+    a: "Sí. Los créditos que ya compraste siguen funcionando como antes hasta que se agoten."
+  - group: "Planes y pagos"
     q: "La página de pago no carga. ¿Qué puedo hacer?"
     a: "A veces las extensiones antivirus del navegador bloquean la página de pago segura. Pausa la extensión o prueba con una ventana privada, y vuelve a cargar la página. Si la página de pago no llegó a cargarse, no se ha cobrado nada. [Solución de problemas con el pago](https://www.learningclarity.ai/help/payment-troubleshooting/)."
-  - group: "Créditos y pagos"
-    q: "¿Cómo funciona el programa de recomendaciones?"
-    a: "Cada usuario tiene un código de recomendación. Un amigo que se registra con él recibe 200 créditos extra además de los 300 de bienvenida, 500 en total. Cuando tu amigo hace su primera compra de créditos, recibes una bonificación del 10 % de los créditos que compra, que puedes pedir que se convierta en dinero. Un panel de recomendaciones muestra los registros, las compras y tus ganancias."
   - group: "Idiomas, dispositivos y accesibilidad"
     q: "¿Qué idiomas admite LearningClarity?"
     a: "La app puede usarse en 7 idiomas: árabe, inglés, francés, alemán, italiano, portugués y español. Las explicaciones, los cuestionarios, los exámenes, los diagramas y los podcasts se generan en el idioma de aprendizaje que elijas, sin traducción automática. [Idiomas y accesibilidad](https://www.learningclarity.ai/help/language-faq/)."
@@ -216,7 +210,7 @@ faq:
     a: "Puedes crear un tema sobre un idioma y fijar ese idioma como idioma de aprendizaje, y el tutor de voz hablará contigo en él y te corregirá los errores importantes de uno en uno. No es un curso de idiomas completo con niveles ni puntuación de la pronunciación. [Aprender un idioma](https://www.learningclarity.ai/help/languages/)."
   - group: "Idiomas, dispositivos y accesibilidad"
     q: "¿Funciona en el móvil?"
-    a: "Sí. Hay apps para iPhone y Android, y la versión web funciona en cualquier navegador actualizado. Tu biblioteca, tu progreso y tus créditos se comparten entre todos tus dispositivos. [Dispositivos, navegadores y la app](https://www.learningclarity.ai/help/devices/)."
+    a: "Sí. Hay apps para iPhone y Android, y la versión web funciona en cualquier navegador actualizado. Tu biblioteca, tu progreso y tu plan se comparten entre todos tus dispositivos. [Dispositivos, navegadores y la app](https://www.learningclarity.ai/help/devices/)."
   - group: "Idiomas, dispositivos y accesibilidad"
     q: "¿Es LearningClarity adecuado para niños?"
     a: "Sí. Las explicaciones, los ejemplos y las preguntas se adaptan a la edad de quien aprende, y madres, padres, docentes o mentores pueden seguir su progreso mediante la supervisión, que solo empieza cuando ambas partes están de acuerdo."
@@ -249,7 +243,7 @@ faq:
     a: "Abre tu perfil desde el avatar de la esquina superior derecha. Ahí puedes actualizar tus datos, cambiar la contraseña y cambiar el idioma de la app, que se aplica al instante. [Ajustes del perfil](https://www.learningclarity.ai/help/profile/)."
   - group: "Privacidad, fiabilidad y tu cuenta"
     q: "¿Cómo elimino mi cuenta?"
-    a: "En la app móvil: abre tu perfil, ve a Account Actions (acciones de la cuenta), elige Delete Account (eliminar cuenta) y confirma escribiendo DELETE. La eliminación es inmediata y permanente, y borra tu contenido, los créditos sin usar y los certificados, así que descarga antes los PDF de tus certificados. [Elimina tu cuenta](https://www.learningclarity.ai/help/delete-account/)."
+    a: "En la app móvil: abre tu perfil, ve a Account Actions (acciones de la cuenta), elige Delete Account (eliminar cuenta) y confirma escribiendo DELETE. La eliminación es inmediata y permanente, y borra tu contenido y los certificados, así que descarga antes los PDF de tus certificados. [Elimina tu cuenta](https://www.learningclarity.ai/help/delete-account/)."
 ---
 
 ¿Acabas de llegar a LearningClarity o estás decidiendo si encaja con tu forma de estudiar? Estas **preguntas frecuentes de la plataforma de estudio Learning Clarity** reúnen lo que más nos pregunta la gente, desde cuánto cuesta hasta qué archivos puedes subir y cómo funcionan los certificados. Las respuestas proceden de la página principal de LearningClarity y del [centro de ayuda de LearningClarity](https://www.learningclarity.ai/help/), donde cada tema tiene una guía completa.

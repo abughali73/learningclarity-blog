@@ -18,7 +18,7 @@ ad:
   items:
     - icon: user-plus
       title: "Sign up and describe it"
-      bullets: ["300 free credits, no card needed", "Type a topic, get its subtopics"]
+      bullets: ["A free first week to try it all", "Type a topic, get its subtopics"]
     - icon: bulb
       title: "Learn your way"
       bullets: ["Explain Mode, Simplify and Visualize", "Listen, or turn it into a podcast"]
@@ -80,7 +80,7 @@ She didn't want forty open browser tabs. She wanted to be taught properly, and t
 
 {% include scene.html n=2 %}
 
-Lena signed in to [LearningClarity, the AI learning app](https://www.learningclarity.ai) with her Microsoft account. The account opened with 300 free credits, and nobody asked for a card.
+Lena signed in to [LearningClarity, the AI learning app](https://www.learningclarity.ai) with her Microsoft account. Her first week was free, so she could try everything before choosing a plan.
 
 She had no textbook to upload, so she typed what was keeping her awake: "Project management for a first-time project lead: planning, scope, risks and keeping stakeholders informed." A moment later the worry had a shape: a topic with its own subtopics. She picked the ones that mattered most for Monday. (Here is more on how to [learn any subject by describing it](/en/2026/10/learn-any-subject-with-ai/).)
 

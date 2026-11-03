@@ -98,4 +98,4 @@ Wenn Sie so weit sind, kann der **Exam Mode (Prüfungsmodus)** ein einzelnes The
 
 Sie möchten noch weiter gehen? Ein **AI Learning Plan (KI-Lernplan)** verbindet mehrere Kurse zu einem größeren Ziel, nach der Struktur Lernplan, Kurs, Thema, Unterthema.
 
-Haben Sie ein Ziel, das mehr als ein Thema braucht? [Erstellen Sie Ihren ersten KI-Kurs in LearningClarity](https://www.learningclarity.ai) und starten Sie mit 300 kostenlosen Credits.
+Haben Sie ein Ziel, das mehr als ein Thema braucht? [Erstellen Sie Ihren ersten KI-Kurs in LearningClarity](https://www.learningclarity.ai) und starten Sie mit einer kostenlosen ersten Woche.

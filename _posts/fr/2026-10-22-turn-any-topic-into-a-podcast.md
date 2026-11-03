@@ -97,4 +97,4 @@ Les podcasts donnent le meilleur d'eux-mêmes avec le reste du parcours d'appren
 
 {% include scene.html n=5 %}
 
-[Créez votre premier podcast de révision sur LearningClarity](https://www.learningclarity.ai) à partir d'un sujet que vous travaillez. Chaque nouveau compte commence avec 300 crédits gratuits.
+[Créez votre premier podcast de révision sur LearningClarity](https://www.learningclarity.ai) à partir d'un sujet que vous travaillez. Chaque nouveau compte commence avec une première semaine gratuite.

@@ -18,7 +18,7 @@ ad:
   items:
     - icon: user-plus
       title: "Regístrate y descríbelo"
-      bullets: ["300 créditos gratis, sin tarjeta", "Escribe un tema y obtén sus subtemas"]
+      bullets: ["Una primera semana gratis para probarlo todo", "Escribe un tema y obtén sus subtemas"]
     - icon: bulb
       title: "Aprende a tu manera"
       bullets: ["Explain Mode, Simplify y Visualize", "Escúchalo o conviértelo en pódcast"]
@@ -80,7 +80,7 @@ No quería cuarenta pestañas abiertas. Quería que le enseñaran bien y tener a
 
 {% include scene.html n=2 %}
 
-Lena entró en [LearningClarity, la app de aprendizaje con IA](https://www.learningclarity.ai), con su cuenta de Microsoft. La cuenta empezó con 300 créditos gratis y nadie le pidió tarjeta.
+Lena entró en [LearningClarity, la app de aprendizaje con IA](https://www.learningclarity.ai), con su cuenta de Microsoft. Su primera semana era gratis, así que pudo probarlo todo antes de elegir un plan.
 
 No tenía ningún libro que subir, así que escribió lo que le quitaba el sueño: «Gestión de proyectos para alguien que lidera su primer proyecto: planificación, alcance, riesgos y mantener informadas a las partes interesadas». Un momento después, la preocupación tenía forma: un tema con sus propios subtemas. Eligió los que más importaban para el lunes. (Aquí tienes más sobre cómo [aprender cualquier tema con solo describirlo](/es/2026/10/learn-any-subject-with-ai/).)
 

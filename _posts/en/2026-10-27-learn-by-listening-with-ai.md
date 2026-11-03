@@ -102,4 +102,4 @@ Hearing an explanation is not the same as remembering it. That is why Explain Mo
 
 When one section at a time is not enough, you can go bigger: [turn a whole topic into an AI podcast](/en/2026/10/turn-any-topic-into-a-podcast/), a two-voice conversation between a host and an expert guest.
 
-Give your eyes a rest tonight and [try learning by ear with LearningClarity](https://www.learningclarity.ai). Every new account starts with 300 free credits.
+Give your eyes a rest tonight and [try learning by ear with LearningClarity](https://www.learningclarity.ai). Every new account starts with a free first week.

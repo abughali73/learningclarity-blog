@@ -97,4 +97,4 @@ Podcasts work best alongside the rest of the learning path. Explain builds the u
 
 {% include scene.html n=5 %}
 
-[Create your first study podcast on LearningClarity](https://www.learningclarity.ai) from a topic you're working on. Every new account starts with 300 free credits.
+[Create your first study podcast on LearningClarity](https://www.learningclarity.ai) from a topic you're working on. Every new account starts with a free first week.

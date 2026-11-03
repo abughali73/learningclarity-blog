@@ -95,7 +95,7 @@ Le matin, elle avait transformé le sous-sujet sur les canaux de sourcing en **p
 
 Dans **Quiz Mode** (mode quiz), elle a choisi les sous-sujets de présélection et de conformité et répondu « Je ne sais pas » à chaque doute. Les résultats ont montré où ses connaissances étaient fragiles, et elle a demandé pourquoi chaque bonne réponse était la bonne.
 
-Elle a ensuite ouvert **Talk to This**, un tuteur vocal en direct sur son propre contenu. En plusieurs appels courts, puisque les crédits dépendent de la durée, elle a passé en revue ses appels de présélection rapides, l'explication des rotations et des protocoles de la résidence, et ses réponses aux objections sur les horaires de nuit et le salaire. Elle parlait, le tuteur répondait toujours à voix haute, et elle a gardé les transcriptions.
+Elle a ensuite ouvert **Talk to This**, un tuteur vocal en direct sur son propre contenu. En plusieurs appels courts, puisque l'utilisation dépend de la durée, elle a passé en revue ses appels de présélection rapides, l'explication des rotations et des protocoles de la résidence, et ses réponses aux objections sur les horaires de nuit et le salaire. Elle parlait, le tuteur répondait toujours à voix haute, et elle a gardé les transcriptions.
 
 {% include scene.html n=5 %}
 

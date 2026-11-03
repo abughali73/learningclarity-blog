@@ -62,8 +62,8 @@ faq:
     a: "Oui. Importez des fichiers PDF (jusqu'à 40 Mo chacun), des images ou des fichiers texte, et LearningClarity crée un sujet et ses sous-thèmes à partir du contenu. Les présentations PowerPoint et les documents Word doivent d'abord être exportés en PDF."
   - q: "Pourquoi mon PDF scanné ne s'importe-t-il pas ?"
     a: "Les PDF scannés sans couche de texte et les PDF protégés par un mot de passe ne peuvent pas être lus. Utilisez une version du document contenant du vrai texte, ou importez des images nettes ou un fichier .txt."
-  - q: "Faut-il un abonnement ?"
-    a: "Non. Vous payez seulement ce que vous utilisez, avec des crédits. Vous recevez 300 crédits gratuits à la création du compte, les packs commencent à 1,99 $ pour 1 000 crédits et les crédits n'expirent jamais."
+  - q: "Combien ça coûte ?"
+    a: "Chaque nouveau compte commence avec une première semaine gratuite. Ensuite, les formules commencent à 2,99 $ par mois avec Bronze, et le paiement annuel coûte moins cher que douze paiements mensuels."
 ---
 Le premier dimanche du semestre, la table de la cuisine a disparu sous le papier. Elif avait 400 diapositives d'embryologie. Mateo, un cours de structures de données avec un partiel dans sept semaines. Hannah, un recueil de droit des contrats épais comme une brique. Trois colocataires, trois filières, un même problème : trouver une méthode de révision à l'université qui ne commence pas par des semaines à recopier des fiches. Elif, Mateo, Hannah et leur université sont fictifs.
 
@@ -97,7 +97,7 @@ Sa stratégie, c'était le temps. Dans le tram, elle utilisait Listen (écouter)
 
 {% include scene.html n=5 %}
 
-Aucun d'eux ne voulait d'un abonnement de plus. Chacun a commencé avec les 300 crédits gratuits reçus à la création de son compte, puis ils ont acheté un pack de crédits quand il le fallait. Les packs commencent à 1,99 $ pour 1 000 crédits et les crédits n'expirent jamais : rien n'est perdu d'une session d'examens à l'autre.
+Aucun d'eux ne voulait d'une grosse facture. Chacun a commencé avec la première semaine gratuite offerte à la création du compte, puis a choisi Bronze à 2,99 $ par mois. Avant les semaines d'examens, ils consultaient le compteur d'utilisation, et une recharge ponctuelle à 3,99 $ couvrait la période la plus chargée sans changer de formule.
 
 Mateo a partagé son sujet sur la récursivité avec Elif par e-mail, après qu'elle a avoué ne l'avoir jamais comprise. Elle a accepté et obtenu sa propre copie indépendante, avec sa propre progression.
 

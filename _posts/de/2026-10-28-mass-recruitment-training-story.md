@@ -95,7 +95,7 @@ Am Morgen hatte sie außerdem das Unterthema zu Recruiting-Kanälen in einen **K
 
 Am Donnerstagabend öffnete sie **Quiz Mode** (Quizmodus) mit den Unterthemen zu Vorauswahl und Compliance. Statt zu raten, wählte sie „Weiß ich nicht“, wann immer sie unsicher war, und die Ergebnisse zeigten genau, wo ihr Wissen über die Vorauswahl dünn war. Sie fragte nach, warum jede richtige Antwort richtig war, und ging zurück zu diesen Abschnitten.
 
-Dann öffnete sie **Talk to This**, einen Live-Sprachtutor zu ihrem eigenen Lernstoff. In mehreren kurzen Gesprächen (die Credits richten sich nach der Gesprächsdauer) sprach sie durch, wie sie schnelle Screening-Telefonate führen, Schichtregeln und Protokolle der Wohnanlage erklären und auf Einwände von Bewerbern zu Nachtschichten und Bezahlung antworten würde. Sie sprach, der Tutor antwortete immer hörbar, und sie bewahrte die Transkripte auf, um sie am Freitag noch einmal zu lesen.
+Dann öffnete sie **Talk to This**, einen Live-Sprachtutor zu ihrem eigenen Lernstoff. In mehreren kurzen Gesprächen (die Nutzung richtet sich nach der Gesprächsdauer) sprach sie durch, wie sie schnelle Screening-Telefonate führen, Schichtregeln und Protokolle der Wohnanlage erklären und auf Einwände von Bewerbern zu Nachtschichten und Bezahlung antworten würde. Sie sprach, der Tutor antwortete immer hörbar, und sie bewahrte die Transkripte auf, um sie am Freitag noch einmal zu lesen.
 
 {% include scene.html n=5 %}
 

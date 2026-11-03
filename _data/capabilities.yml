@@ -121,16 +121,19 @@
     - Interactive elements are labelled, and the design uses strong contrast.
     - Listen reads explanations aloud, for studying away from the screen.
     - Do not claim compliance with a named standard (such as WCAG) or a certification.
-- key: credits
-  name: Free credits and pay-as-you-go
+- key: subscription
+  name: Free first week and monthly plans
   facts:
-    - No subscription for individuals; pay only for what you use with credits.
-    - 300 free credits when an account is created; a user who signs up with another user's referral code gets 200 more (500 in total). No card is asked for and there is no trial that starts charging.
-    - Credit packs start at $1.99 for 1,000 credits; credits never expire.
-    - Running out of credits never removes topics, progress or certificates; it only stops new material being generated.
-    - Buy credit packs by card on the web or through the App Store on iOS.
+    - Every new account gets one week of free use with a fair usage allowance, to try the platform before choosing a plan.
+    - "After the free week, individuals choose a monthly or yearly plan: Bronze $2.99 a month or $32.99 a year; Silver (5x the Bronze allowance) $11.99 a month or $139.99 a year; Gold (20x the Bronze allowance) $31.99 a month or $370.99 a year. Prices are in US dollars."
+    - For every plan, paying yearly costs less than twelve monthly payments.
+    - The platform always shows the percentage of your allowance used, and every feature is clearly labelled when it uses your allowance.
+    - "Need more in a month? Upgrade to a larger plan, or buy a one-off top-up for $3.99 that adds one Bronze-sized allowance; top-ups can be bought in multiples and are charged once, not every month."
+    - Credits that existing users already bought keep working as before until they are used up.
+    - Do not mention free credits, credit packs, "no subscription" or "credits never expire"; that pricing model was retired on 5 November 2026.
 - key: referral
   name: Referral program
+  hold: true   # referral rewards were credit-based; on hold until the subscription-era terms are confirmed
   facts:
     - Every user has a referral code; a friend who signs up with it gets 200 bonus credits on top of the 300 welcome credits (500 in total).
     - When a referred friend makes their first credit purchase, the referrer receives a bonus of 10% of the credits purchased (first purchase only).
@@ -140,7 +143,7 @@
   name: Web, iPhone and Android
   facts:
     - Available on the web, iOS and Android; sign in with Google, Microsoft, Apple or email.
-    - Library, progress and credits are shared across devices.
+    - Library, progress and your plan are shared across devices.
 - key: age-adapted
   name: Age-adapted learning
   facts:

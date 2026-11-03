@@ -65,7 +65,7 @@ faq:
   - q: "Qu'est-ce que Talk to This dans LearningClarity ?"
     a: "Talk to This ouvre une conversation vocale en direct avec un tuteur IA sur le contenu que vous étudiez. Vous parlez ou écrivez, le tuteur répond toujours à voix haute et vous pouvez garder la transcription. Disponible sur le web, iPhone et Android."
   - q: "Combien coûte une conversation avec Talk to This ?"
-    a: "Les crédits dépendent de la durée de la conversation, et les crédits réservés non utilisés sont restitués. Un nouveau compte commence avec 300 crédits gratuits, sans carte bancaire."
+    a: "L'utilisation dépend de la durée de la conversation : votre forfait n'est utilisé que pour le temps où vous parlez. Chaque nouveau compte commence avec une première semaine gratuite."
   - q: "Comment obtenir un certificat pour un sujet ?"
     a: "Réussissez un examen en Exam Mode qui couvre tous les sous-sujets, compte au moins 30 questions, avec un score de 70 % ou plus. Le certificat porte un identifiant et un QR code, et chacun peut le vérifier sans compte."
 ---
@@ -99,7 +99,7 @@ Lundi soir, elle a transformé le sous-sujet sur la reconquête des clients méc
 
 En **Quiz Mode (mode quiz)**, elle a choisi les sous-sujets sur la politique télécom et la psychologie client, et répondu « Je ne sais pas » au lieu de deviner. Ça a piqué : les objections sur la facture étaient son point faible.
 
-Puis elle a ouvert **Talk to This**, un tuteur vocal en direct sur son propre contenu, et a parlé de ses trois scénarios les plus durs : un client qui crie à cause d'un frais d'itinérance de 150 dollars, une panne réseau à expliquer à un non-technicien, et un abonné de dix ans qui menace de résilier. Le tuteur répondait toujours à voix haute ; ensemble, ils ont discuté de quoi dire d'abord, quand ralentir et comment passer de l'objection à la solution. Comme les crédits dépendent de la durée de la conversation, elle a fait plusieurs appels courts et gardé les transcriptions.
+Puis elle a ouvert **Talk to This**, un tuteur vocal en direct sur son propre contenu, et a parlé de ses trois scénarios les plus durs : un client qui crie à cause d'un frais d'itinérance de 150 dollars, une panne réseau à expliquer à un non-technicien, et un abonné de dix ans qui menace de résilier. Le tuteur répondait toujours à voix haute ; ensemble, ils ont discuté de quoi dire d'abord, quand ralentir et comment passer de l'objection à la solution. Comme l'utilisation dépend de la durée de la conversation, elle a fait plusieurs appels courts et gardé les transcriptions.
 
 {% include scene.html n=5 %}
 

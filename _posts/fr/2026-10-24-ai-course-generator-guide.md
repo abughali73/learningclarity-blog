@@ -98,4 +98,4 @@ Quand vous êtes prêt, **Exam Mode (mode examen)** peut évaluer un seul sujet 
 
 Envie d'aller plus loin ? Un **AI Learning Plan (plan d'apprentissage IA)** réunit plusieurs cours autour d'un objectif plus large, selon la structure plan d'apprentissage, cours, sujet, sous-sujet.
 
-Vous avez un objectif qui demande plus d'un sujet ? [Créez votre premier cours IA dans LearningClarity](https://www.learningclarity.ai) et commencez avec 300 crédits gratuits.
+Vous avez un objectif qui demande plus d'un sujet ? [Créez votre premier cours IA dans LearningClarity](https://www.learningclarity.ai) et commencez avec une première semaine gratuite.

@@ -101,4 +101,4 @@ Vos progrès sont suivis à chaque niveau, des sous-sujets jusqu'aux cours et au
 
 L'idée va au-delà d'une reconversion personnelle. Un responsable formation peut créer un plan une seule fois et le partager par e-mail avec des collègues qui utilisent LearningClarity ; chaque personne qui accepte reçoit une copie indépendante et suit ses propres progrès. Un parent ou un mentor qui accompagne un apprenant reçoit des rapports par e-mail qui incluent la progression dans les plans.
 
-Prêt à tracer votre prochaine étape ? [Créez votre plan d'apprentissage IA dans LearningClarity](https://www.learningclarity.ai) et commencez avec 300 crédits gratuits, sans abonnement.
+Prêt à tracer votre prochaine étape ? [Créez votre plan d'apprentissage IA dans LearningClarity](https://www.learningclarity.ai) et commencez avec une première semaine gratuite.

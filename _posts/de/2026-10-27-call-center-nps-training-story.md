@@ -65,7 +65,7 @@ faq:
   - q: "Was ist Talk to This in LearningClarity?"
     a: "Talk to This startet ein Live-Sprachgespräch mit einem KI-Tutor über den Stoff, den Sie gerade lernen. Sie sprechen oder tippen, der Tutor antwortet immer laut, und Sie können ein Transkript behalten. Es läuft im Web, auf dem iPhone und auf Android."
   - q: "Was kostet ein Gespräch mit Talk to This?"
-    a: "Die Credits richten sich nach der Gesprächsdauer; nicht genutzte reservierte Credits werden zurückgegeben. Neue Konten starten mit 300 kostenlosen Credits, ohne Kreditkarte."
+    a: "Die Nutzung richtet sich nach der Gesprächsdauer, sodass Ihr Kontingent nur für die Zeit verbraucht wird, in der Sie sprechen. Jedes neue Konto startet mit einer kostenlosen ersten Woche."
   - q: "Wie erhalte ich ein Zertifikat für ein Thema?"
     a: "Bestehen Sie eine Prüfung im Exam Mode, die alle Unterthemen abdeckt, mindestens 30 Fragen hat und bei der Sie 70 % oder mehr erreichen. Das Zertifikat hat eine Credential-ID und einen QR-Code, und jeder kann es ohne Konto prüfen."
 ---
@@ -99,7 +99,7 @@ Am Montagabend machte sie aus dem Unterthema über das Zurückgewinnen unzufried
 
 Im **Quiz Mode (Quizmodus)** wählte sie die Unterthemen zu Telekom-Richtlinien und Kundenpsychologie und tippte auf „Ich weiß es nicht“, statt zu raten. Das Ergebnis tat weh: Einwände zu Rechnungen waren ihre Schwachstelle. Sie ließ sich erklären, warum jede richtige Antwort richtig war.
 
-Dann öffnete sie **Talk to This**, einen Live-Sprachtutor zu ihrem eigenen Stoff, und sprach ihre drei schwersten Szenarien laut durch: ein Kunde, der wegen einer Roaming-Gebühr von 150 Dollar schreit, eine Netzstörung, die sie jemandem ohne Technikwissen erklären muss, und ein Kunde seit zehn Jahren, der mit Kündigung droht. Sie sprach, der Tutor antwortete immer laut, und gemeinsam besprachen sie, was zuerst gesagt werden sollte, wann sie langsamer werden sollte und wie sie vom Einwand zur Lösung kam. Weil sich die Credits nach der Gesprächsdauer richten, führte sie mehrere kurze Gespräche statt eines langen und behielt die Transkripte zum Nachlesen.
+Dann öffnete sie **Talk to This**, einen Live-Sprachtutor zu ihrem eigenen Stoff, und sprach ihre drei schwersten Szenarien laut durch: ein Kunde, der wegen einer Roaming-Gebühr von 150 Dollar schreit, eine Netzstörung, die sie jemandem ohne Technikwissen erklären muss, und ein Kunde seit zehn Jahren, der mit Kündigung droht. Sie sprach, der Tutor antwortete immer laut, und gemeinsam besprachen sie, was zuerst gesagt werden sollte, wann sie langsamer werden sollte und wie sie vom Einwand zur Lösung kam. Weil sich die Nutzung nach der Gesprächsdauer richtet, führte sie mehrere kurze Gespräche statt eines langen und behielt die Transkripte zum Nachlesen.
 
 {% include scene.html n=5 %}
 

@@ -102,4 +102,4 @@ Eine Erklärung zu hören heißt noch nicht, sie zu behalten. Deshalb bietet der
 
 Reicht Ihnen ein Abschnitt nach dem anderen nicht mehr, denken Sie größer: [Verwandeln Sie ein ganzes Thema in einen KI-Podcast](/de/2026/10/turn-any-topic-into-a-podcast/), ein Gespräch mit zwei Stimmen zwischen einer Moderation und einem Fachgast.
 
-Gönnen Sie Ihren Augen heute Abend eine Pause und [lernen Sie mit LearningClarity einfach durch Zuhören](https://www.learningclarity.ai). Jedes neue Konto startet mit 300 kostenlosen Credits.
+Gönnen Sie Ihren Augen heute Abend eine Pause und [lernen Sie mit LearningClarity einfach durch Zuhören](https://www.learningclarity.ai). Jedes neue Konto startet mit einer kostenlosen ersten Woche.

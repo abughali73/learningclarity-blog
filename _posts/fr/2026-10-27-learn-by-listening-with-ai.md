@@ -102,4 +102,4 @@ Entendre une explication ne veut pas dire la retenir. C'est pourquoi Explain Mod
 
 Quand une section à la fois ne suffit plus, voyez plus grand : [transformez un sujet entier en podcast IA](/fr/2026/10/turn-any-topic-into-a-podcast/), une conversation à deux voix entre un animateur et un invité expert.
 
-Offrez une pause à vos yeux ce soir et [essayez d'apprendre à l'oreille avec LearningClarity](https://www.learningclarity.ai). Chaque nouveau compte démarre avec 300 crédits gratuits.
+Offrez une pause à vos yeux ce soir et [essayez d'apprendre à l'oreille avec LearningClarity](https://www.learningclarity.ai). Chaque nouveau compte démarre avec une première semaine gratuite.

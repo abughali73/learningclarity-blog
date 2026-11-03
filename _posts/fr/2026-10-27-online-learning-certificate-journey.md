@@ -18,7 +18,7 @@ ad:
   items:
     - icon: user-plus
       title: "Inscrivez-vous, décrivez"
-      bullets: ["300 crédits offerts, sans carte", "Un sujet tapé, ses sous-sujets créés"]
+      bullets: ["Une première semaine gratuite", "Un sujet tapé, ses sous-sujets créés"]
     - icon: bulb
       title: "Apprenez à votre façon"
       bullets: ["Explain Mode, Simplify et Visualize", "Écoutez, ou faites-en un podcast"]
@@ -80,7 +80,7 @@ Elle ne voulait pas quarante onglets ouverts. Elle voulait qu'on lui apprenne vr
 
 {% include scene.html n=2 %}
 
-Lena s'est connectée à [LearningClarity, l'application d'apprentissage IA](https://www.learningclarity.ai), avec son compte Microsoft. Le compte a démarré avec 300 crédits offerts, sans qu'on lui demande de carte.
+Lena s'est connectée à [LearningClarity, l'application d'apprentissage IA](https://www.learningclarity.ai), avec son compte Microsoft. Sa première semaine était gratuite : elle pouvait tout essayer avant de choisir une formule.
 
 Elle n'avait aucun manuel à importer, alors elle a tapé ce qui l'empêchait de dormir : « La gestion de projet pour une première cheffe de projet : planification, périmètre, risques et information des parties prenantes. » Un instant plus tard, l'inquiétude avait une forme : un sujet avec ses sous-sujets. Elle a choisi ceux qui comptaient le plus pour lundi. (Pour aller plus loin : [apprendre n'importe quel sujet en le décrivant](/fr/2026/10/learn-any-subject-with-ai/).)
 

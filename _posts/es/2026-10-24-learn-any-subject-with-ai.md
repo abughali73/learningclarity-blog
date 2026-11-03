@@ -96,4 +96,4 @@ Una vez creado tu tema, abre un subtema en [Explain Mode (modo explicación), el
 
 Un pequeño consejo para obtener mejores resultados: di quién eres y por qué estás aprendiendo. «Explica las nociones básicas de estadística para una enfermera que lee artículos de investigación» le da a LearningClarity mucho más con lo que trabajar que «estadística».
 
-¿Hay algo que siempre has querido aprender? [Descríbelo en LearningClarity y empieza gratis](https://www.learningclarity.ai). Cada cuenta nueva empieza con 300 créditos gratis.
+¿Hay algo que siempre has querido aprender? [Descríbelo en LearningClarity y empieza gratis](https://www.learningclarity.ai). Cada cuenta nueva empieza con una primera semana gratis.

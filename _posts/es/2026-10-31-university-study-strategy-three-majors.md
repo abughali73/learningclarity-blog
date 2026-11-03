@@ -62,8 +62,8 @@ faq:
     a: "Sí. Sube archivos PDF (hasta 40 MB cada uno), imágenes o archivos de texto, y LearningClarity crea un tema y sus subtemas a partir del contenido. Las presentaciones de PowerPoint y los documentos de Word deben exportarse antes a PDF."
   - q: "¿Por qué no se sube mi PDF escaneado?"
     a: "Los PDF escaneados sin capa de texto y los PDF protegidos con contraseña no se pueden leer. Usa una versión del documento con texto real, o sube imágenes nítidas o un archivo .txt."
-  - q: "¿Necesito una suscripción?"
-    a: "No. Pagas solo por lo que usas, con créditos. Recibes 300 créditos gratis al crear la cuenta, los paquetes empiezan en 1,99 $ por 1.000 créditos y los créditos no caducan."
+  - q: "¿Cuánto cuesta?"
+    a: "Toda cuenta nueva empieza con una primera semana gratis. Después, los planes empiezan en 2,99 $ al mes con Bronze, y el pago anual cuesta menos que doce pagos mensuales."
 ---
 El primer domingo del cuatrimestre, la mesa de la cocina desapareció bajo un mar de papel. Elif tenía 400 diapositivas de embriología. Mateo, una asignatura de estructuras de datos con el parcial en siete semanas. Hannah, un dosier de derecho de contratos gordo como un ladrillo. Tres compañeros de piso, tres carreras y un mismo problema: saber cómo estudiar en la universidad sin pasar semanas copiando fichas a mano. Elif, Mateo, Hannah y su universidad son ficticios.
 
@@ -97,7 +97,7 @@ Su estrategia era el tiempo. En el tranvía usaba Listen (escuchar) para oír ca
 
 {% include scene.html n=5 %}
 
-Ninguno quería otra suscripción. Empezaron con los 300 créditos gratis que cada uno recibió al crear su cuenta y compraron un paquete de créditos cuando lo necesitaron. Los paquetes empiezan en 1,99 $ por 1.000 créditos y los créditos no caducan, así que nada se desperdició entre una convocatoria y otra.
+Ninguno quería una factura grande. Cada uno empezó con la primera semana gratis que trae una cuenta nueva y luego eligió Bronze por 2,99 $ al mes. Antes de las semanas de exámenes miraban el medidor de uso, y una recarga puntual de 3,99 $ cubrió el tramo más intenso sin cambiar de plan.
 
 Mateo compartió su tema de recursividad con Elif por correo después de que ella confesara que nunca la había entendido. Ella aceptó y recibió su propia copia independiente, con su propio progreso.
 

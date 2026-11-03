@@ -65,7 +65,7 @@ faq:
   - q: "¿Qué es Talk to This en LearningClarity?"
     a: "Talk to This abre una conversación de voz en directo con un tutor de IA sobre el material que estás estudiando. Hablas o escribes, el tutor siempre responde en voz alta y puedes guardar la transcripción. Funciona en la web, iPhone y Android."
   - q: "¿Cuánto cuesta una conversación con Talk to This?"
-    a: "Los créditos dependen de la duración de la conversación y los créditos reservados que no se usan se devuelven. Las cuentas nuevas empiezan con 300 créditos gratis, sin tarjeta."
+    a: "El uso depende de la duración de la conversación, así que solo consumes tu uso durante el tiempo que hablas. Toda cuenta nueva empieza con una primera semana gratis."
   - q: "¿Cómo consigo un certificado de un tema?"
     a: "Aprueba un examen de Exam Mode que cubra todos los subtemas, tenga al menos 30 preguntas y te dé un 70 % o más. El certificado lleva un ID de credencial y un código QR, y cualquiera puede verificarlo sin cuenta."
 ---
@@ -99,7 +99,7 @@ El lunes por la noche convirtió el subtema sobre recuperar clientes descontento
 
 En **Quiz Mode (modo cuestionario)** eligió los subtemas sobre políticas de telecomunicaciones y psicología del cliente, y pulsó «No lo sé» en vez de adivinar. Escoció: las objeciones sobre facturas eran su punto débil.
 
-Luego abrió **Talk to This**, un tutor de voz en directo sobre su propio material, y repasó en voz alta sus tres peores escenarios: un cliente que grita por un cargo de roaming de 150 dólares, explicar una caída de la red a alguien no técnico y un abonado de diez años que amenaza con darse de baja. El tutor siempre respondía en voz alta, y juntos comentaron qué decir primero, cuándo frenar y cómo pasar de la objeción a la solución. Como los créditos dependen de la duración de la conversación, hizo varias llamadas cortas y guardó las transcripciones.
+Luego abrió **Talk to This**, un tutor de voz en directo sobre su propio material, y repasó en voz alta sus tres peores escenarios: un cliente que grita por un cargo de roaming de 150 dólares, explicar una caída de la red a alguien no técnico y un abonado de diez años que amenaza con darse de baja. El tutor siempre respondía en voz alta, y juntos comentaron qué decir primero, cuándo frenar y cómo pasar de la objeción a la solución. Como el uso depende de la duración de la conversación, hizo varias llamadas cortas y guardó las transcripciones.
 
 {% include scene.html n=5 %}
 

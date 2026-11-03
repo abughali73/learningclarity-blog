@@ -96,4 +96,4 @@ Sobald Ihr Thema angelegt ist, öffnen Sie ein Unterthema im [Explain Mode (Erkl
 
 Ein kleiner Tipp für bessere Ergebnisse: Sagen Sie, wer Sie sind und warum Sie lernen. „Erkläre die Grundlagen der Statistik für eine Pflegekraft, die Forschungsartikel liest“ gibt LearningClarity mehr Anhaltspunkte als „Statistik“.
 
-Gibt es etwas, das Sie schon immer lernen wollten? [Beschreiben Sie es in LearningClarity und starten Sie kostenlos](https://www.learningclarity.ai). Jedes neue Konto beginnt mit 300 kostenlosen Credits.
+Gibt es etwas, das Sie schon immer lernen wollten? [Beschreiben Sie es in LearningClarity und starten Sie kostenlos](https://www.learningclarity.ai). Jedes neue Konto beginnt mit einer kostenlosen ersten Woche.

@@ -98,4 +98,4 @@ When you are ready, **Exam Mode** can assess a single topic or the whole course,
 
 Want to go further still? An AI Learning Plan combines several courses toward a broader goal, following the structure Learning Plan, Course, Topic, Subtopic.
 
-Have a goal that needs more than one topic? [Create your first AI course in LearningClarity](https://www.learningclarity.ai) and start with 300 free credits.
+Have a goal that needs more than one topic? [Create your first AI course in LearningClarity](https://www.learningclarity.ai) and start with a free first week.

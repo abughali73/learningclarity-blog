@@ -1,13 +1,13 @@
 ---
 title: "FAQ zur Lernplattform Learning Clarity: Ihre Fragen beantwortet"
-description: "FAQ zur Lernplattform Learning Clarity: Kosten, Datei-Uploads, Gratis-Credits, Sprachen, Datenschutz, Podcasts, Zertifikate und über 60 weitere Antworten."
+description: "FAQ zur Lernplattform Learning Clarity: Kosten und Tarife, Datei-Uploads, Sprachen, Datenschutz, Podcasts, Zertifikate und über 60 weitere Antworten."
 date: 2026-10-23 18:06:25 +0300
 last_modified_at: 2026-10-28 01:40:00 +0300
 lang: de
 ref: learningclarity-ai-study-app-faq
 capability: faq
 image: "/assets/img/posts/learningclarity-ai-study-app-faq-cinematic.webp"
-keywords: ["FAQ zur Lernplattform Learning Clarity", "LearningClarity Fragen", "was kostet LearningClarity", "PDF-Skripte hochladen und lernen", "KI-Lern-App kostenlose Credits"]
+keywords: ["FAQ zur Lernplattform Learning Clarity", "LearningClarity Fragen", "was kostet LearningClarity", "PDF-Skripte hochladen und lernen", "LearningClarity kostenlose Woche"]
 tags: [LearningClarity, LearningClarityAI, FAQ, KünstlicheIntelligenz, LernApp, Lerntipps, Prüfungsvorbereitung, OnlineLernen, Studium, Lernen, Weiterbildung, EdTech, AIinEducation, LifelongLearning]
 ad:
   color: purple
@@ -20,8 +20,8 @@ ad:
       title: "Der Einstieg"
       bullets: ["Thema beschreiben oder Material hochladen", "Im Web, auf dem iPhone und auf Android"]
     - icon: dollar
-      title: "Credits statt Abo"
-      bullets: ["300 Gratis-Credits, ohne Karte", "Credits verfallen nie"]
+      title: "Gratiswoche, dann einfache Tarife"
+      bullets: ["Eine Woche alles kostenlos testen", "Tarife ab 2,99 $ im Monat"]
     - icon: globe
       title: "In Ihrer Sprache lernen"
       bullets: ["7 Sprachen für die Oberfläche", "In einer Sprache hochladen, in einer anderen lernen"]
@@ -54,7 +54,7 @@ faq:
     a: "Registrieren Sie sich im Web, in der iPhone-App oder in der Android-App mit Ihrem Google-, Microsoft- oder Apple-Konto oder mit E-Mail-Adresse und Passwort. Beim Einrichten geben Sie Ihr Geburtsdatum an und wählen Ihre Sprache. [Schnellstart-Anleitung](https://www.learningclarity.ai/help/quick-start/)."
   - group: "Erste Schritte"
     q: "Kann ich LearningClarity kostenlos ausprobieren?"
-    a: "Ja. Jedes neue Konto startet mit 300 kostenlosen Credits, es wird keine Karte verlangt, und es gibt keine Testphase, nach der plötzlich abgebucht wird. Sie kaufen nur dann Credits, wenn Sie mehr brauchen."
+    a: "Ja. Jedes neue Konto erhält eine Woche kostenlose Nutzung mit einem fairen Nutzungskontingent, sodass Sie die Plattform ausprobieren können, bevor Sie einen Tarif wählen."
   - group: "Erste Schritte"
     q: "Wie fange ich am schnellsten an?"
     a: "Wählen Sie **Describe Topic (Thema beschreiben)**, tippen Sie ein, was Sie lernen möchten, und LearningClarity erstellt in Sekunden eine Lernroute aus Unterthemen. Öffnen Sie dann das erste Unterthema im Explain Mode (Erklärmodus). Ein Thema zu beschreiben ist außerdem der günstigste Einstieg."
@@ -138,7 +138,7 @@ faq:
     a: "**Talk to This** ist ein Live-Sprach-Tutor für das Material, mit dem Sie gerade lernen. Sie sprechen oder tippen, der Tutor antwortet immer laut, und Sie können ein Transkript behalten. Er antwortet in der Sprache des Themas, und die Funktion gibt es auf allen Plattformen: in der Web-App, auf dem iPhone und unter Android. [Laut lernen](https://www.learningclarity.ai/help/out-loud/)."
   - group: "Anhören, Podcasts und Sprechen"
     q: "Wie wird Talk to This abgerechnet?"
-    a: "Nach der Länge des Gesprächs. Beim Start eines Gesprächs werden Credits reserviert, und nicht genutzte reservierte Credits werden am Ende zurückgebucht. Sie zahlen also nur für die Zeit, die Sie tatsächlich nutzen."
+    a: "Nach der Länge des Gesprächs. Ihr Kontingent wird also nur für die Zeit verbraucht, in der Sie tatsächlich sprechen."
   - group: "Kurse, Lernpläne und Teilen"
     q: "Was ist ein AI Course?"
     a: "Ein **AI Course (KI-Kurs)** ist eine strukturierte Abfolge verwandter Themen. Beschreiben Sie, was Sie lernen möchten, und LearningClarity erstellt den Kurs mit seinen Themen und kann die beste Reihenfolge zum Lernen vorschlagen. [KI-Kurse erstellen](https://www.learningclarity.ai/help/create-ai-course/)."
@@ -178,30 +178,24 @@ faq:
   - group: "Fortschritt, Zertifikate und Erfolge"
     q: "Was sind Streaks und Erfolge?"
     a: "Ihre Streak (Lernserie) zählt aufeinanderfolgende Tage mit Lernaktivität, und Ihre längste Serie hält Ihren Bestwert fest. Es gibt 16 Erfolge mit Seltenheitsstufen von Common (Gewöhnlich) bis Legendary (Legendär), sechs davon verborgen, zum Beispiel First Topic, Quiz Perfect, Exam Excellence und 30-Day Streak. [Streaks und Erfolge](https://www.learningclarity.ai/help/streaks-achievements/)."
-  - group: "Credits und Zahlungen"
+  - group: "Tarife und Zahlungen"
     q: "Was kostet LearningClarity?"
-    a: "Für Einzelpersonen gibt es kein Abo. Sie zahlen mit Credits nur, was Sie nutzen, und Credit-Pakete gibt es ab $1.99 für 1.000 Credits. Credits verfallen nie. [Credits und Zahlungen](https://www.learningclarity.ai/help/credits/)."
-  - group: "Credits und Zahlungen"
-    q: "Welche Credit-Pakete gibt es?"
-    a: "Mini Starter: 1.000 Credits für $1.99. Starter: 4.500 Credits für $7.99. Advanced: 21.500 Credits für $29.99. Ultimate: 45.000 Credits für $59.99. Je größer das Paket, desto günstiger der einzelne Credit."
-  - group: "Credits und Zahlungen"
-    q: "Wofür werden Credits verbraucht?"
-    a: "Für das Erstellen neuer Inhalte: Themen, Erklärungen, Quizze und Prüfungen, Listen (Vorlesen), Visualize (Visualisieren), Podcasts und Talk to This. Aufwendigere Aufgaben kosten mehr, und bei Podcast-Folgen sehen Sie vor dem Start eine Schätzung. Lesen, Wiederholen und Überprüfen von Inhalten, die Sie bereits haben, ist kostenlos."
-  - group: "Credits und Zahlungen"
-    q: "Warum braucht ein Upload mehr Credits als eine Beschreibung?"
-    a: "Ein Thema aus Ihren eigenen Dateien zu erstellen, ist für die KI deutlich mehr Arbeit. Ein beschriebenes Thema beginnt bei etwa 50 Credits, für ein Thema aus hochgeladenem Material brauchen Sie dagegen ein Guthaben von mindestens 1.000 Credits."
-  - group: "Credits und Zahlungen"
-    q: "Was passiert, wenn mir die Credits ausgehen?"
-    a: "Es geht nichts verloren. Ihre Themen, Ihr Fortschritt, Ihr Quiz- und Prüfungsverlauf und Ihre Zertifikate bleiben erhalten. Ein Guthaben von null verhindert nur, dass neue Inhalte erstellt werden, bis Sie wieder aufladen."
-  - group: "Credits und Zahlungen"
-    q: "Wie bezahle ich, und ist das sicher?"
-    a: "Credit-Pakete kaufen Sie im Web per Karte oder auf dem iPhone über den App Store. Kartenzahlungen wickelt Stripe ab, und LearningClarity speichert Ihre Kartennummer nie."
-  - group: "Credits und Zahlungen"
+    a: "Ihre erste Woche ist kostenlos. Danach wählen Einzelpersonen einen Tarif: Bronze kostet 2,99 $ im Monat oder 32,99 $ im Jahr, Silver bietet das 5-Fache des Bronze-Kontingents für 11,99 $ im Monat oder 139,99 $ im Jahr, und Gold das 20-Fache für 31,99 $ im Monat oder 370,99 $ im Jahr. Die Preise sind in US-Dollar angegeben. [Die neuen Tarife ansehen](/de/2026/11/ai-study-platform-subscription-plans/)."
+  - group: "Tarife und Zahlungen"
+    q: "Ist die jährliche Zahlung günstiger?"
+    a: "Ja. Bei jedem Tarif kostet die jährliche Zahlung weniger als zwölf Monatszahlungen."
+  - group: "Tarife und Zahlungen"
+    q: "Woran sehe ich, wie viel meines Tarifs ich verbraucht habe?"
+    a: "Die Plattform zeigt jederzeit an, wie viel Prozent Ihres Kontingents verbraucht sind, und jede Funktion ist klar gekennzeichnet, wenn sie Ihr Kontingent nutzt. So wissen Sie es, bevor Sie tippen."
+  - group: "Tarife und Zahlungen"
+    q: "Was, wenn ich in einem Monat mehr brauche?"
+    a: "Wechseln Sie in einen größeren Tarif, oder kaufen Sie ein einmaliges Top-up für 3,99 $, das ein Bronze-Kontingent hinzufügt. Top-ups lassen sich mehrfach kaufen und werden einmal berechnet, nicht jeden Monat."
+  - group: "Tarife und Zahlungen"
+    q: "Ich habe früher Credits gekauft. Gelten sie noch?"
+    a: "Ja. Bereits gekaufte Credits funktionieren weiter wie bisher, bis sie aufgebraucht sind."
+  - group: "Tarife und Zahlungen"
     q: "Die Bezahlseite lädt nicht. Was kann ich tun?"
     a: "Browser-Erweiterungen von Virenschutzprogrammen blockieren manchmal die sichere Bezahlseite. Pausieren Sie die Erweiterung oder versuchen Sie es in einem privaten Fenster, und laden Sie die Seite neu. Wenn die Bezahlseite nie geladen hat, wurde auch nichts abgebucht. [Hilfe bei Problemen mit der Bezahlung](https://www.learningclarity.ai/help/payment-troubleshooting/)."
-  - group: "Credits und Zahlungen"
-    q: "Wie funktioniert das Empfehlungsprogramm?"
-    a: "Alle Nutzerinnen und Nutzer haben einen Empfehlungscode. Wer sich damit registriert, erhält 200 Bonus-Credits zusätzlich zu den 300 Willkommens-Credits, insgesamt also 500. Wenn die geworbene Person zum ersten Mal Credits kauft, erhalten Sie einen Bonus von 10 % der gekauften Credits, den Sie auf Anfrage in Geld umwandeln lassen können. Ein Empfehlungs-Dashboard zeigt Registrierungen, Käufe und Einnahmen."
   - group: "Sprachen, Geräte und Barrierefreiheit"
     q: "Welche Sprachen unterstützt LearningClarity?"
     a: "Die App lässt sich in 7 Sprachen nutzen: Arabisch, Englisch, Französisch, Deutsch, Italienisch, Portugiesisch und Spanisch. Erklärungen, Quizze, Prüfungen, Diagramme und Podcasts werden direkt in der gewählten Lernsprache erstellt, nicht maschinell übersetzt. [Sprachen und Barrierefreiheit](https://www.learningclarity.ai/help/language-faq/)."
@@ -216,7 +210,7 @@ faq:
     a: "Sie können ein Thema über eine Sprache erstellen und diese Sprache als Lernsprache festlegen. Der Sprach-Tutor spricht dann in dieser Sprache mit Ihnen und korrigiert jeweils einen wichtigen Fehler. Ein vollständiger Sprachkurs mit Niveaustufen oder Aussprachebewertung ist es nicht. [Eine Sprache lernen](https://www.learningclarity.ai/help/languages/)."
   - group: "Sprachen, Geräte und Barrierefreiheit"
     q: "Funktioniert es auf meinem Smartphone?"
-    a: "Ja. Es gibt Apps für iPhone und Android, und die Webversion läuft in jedem aktuellen Browser. Ihre Bibliothek, Ihr Fortschritt und Ihre Credits sind auf all Ihren Geräten dieselben. [Geräte, Browser und die App](https://www.learningclarity.ai/help/devices/)."
+    a: "Ja. Es gibt Apps für iPhone und Android, und die Webversion läuft in jedem aktuellen Browser. Ihre Bibliothek, Ihr Fortschritt und Ihr Tarif sind auf all Ihren Geräten dieselben. [Geräte, Browser und die App](https://www.learningclarity.ai/help/devices/)."
   - group: "Sprachen, Geräte und Barrierefreiheit"
     q: "Ist LearningClarity für Kinder geeignet?"
     a: "Ja. Erklärungen, Beispiele und Fragen werden an das Alter der lernenden Person angepasst, und Eltern, Lehrkräfte oder Mentoren können den Fortschritt über **Supervision (Begleitung)** verfolgen, die erst beginnt, wenn beide Seiten zugestimmt haben."
@@ -249,7 +243,7 @@ faq:
     a: "Öffnen Sie Ihr Profil über den Avatar oben rechts. Dort können Sie Ihre Angaben aktualisieren, Ihr Passwort ändern und die App-Sprache umstellen, die sofort übernommen wird. [Profileinstellungen](https://www.learningclarity.ai/help/profile/)."
   - group: "Datenschutz, Genauigkeit und Ihr Konto"
     q: "Wie lösche ich mein Konto?"
-    a: "In der mobilen App: Öffnen Sie Ihr Profil, gehen Sie zu **Account Actions (Kontoaktionen)**, wählen Sie **Delete Account (Konto löschen)** und bestätigen Sie durch Eintippen von DELETE. Die Löschung erfolgt sofort und endgültig und entfernt Ihre Inhalte, nicht genutzte Credits und Zertifikate. Laden Sie deshalb vorher alle Zertifikate als PDF herunter. [Konto löschen](https://www.learningclarity.ai/help/delete-account/)."
+    a: "In der mobilen App: Öffnen Sie Ihr Profil, gehen Sie zu **Account Actions (Kontoaktionen)**, wählen Sie **Delete Account (Konto löschen)** und bestätigen Sie durch Eintippen von DELETE. Die Löschung erfolgt sofort und endgültig und entfernt Ihre Inhalte und Zertifikate. Laden Sie deshalb vorher alle Zertifikate als PDF herunter. [Konto löschen](https://www.learningclarity.ai/help/delete-account/)."
 ---
 
 Sie sind neu bei LearningClarity oder überlegen noch, ob es zu Ihrer Art zu lernen passt? Diese **FAQ zur Lernplattform Learning Clarity** sammelt die Fragen, die am häufigsten gestellt werden – von den Kosten über die Dateien, die Sie hochladen können, bis zur Frage, wie Zertifikate funktionieren. Die Antworten stammen von der Startseite von LearningClarity und aus dem [Hilfe-Center von LearningClarity](https://www.learningclarity.ai/help/), in dem es zu jedem Thema eine ausführliche Anleitung gibt.

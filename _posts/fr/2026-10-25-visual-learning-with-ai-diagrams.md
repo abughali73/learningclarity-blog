@@ -105,4 +105,4 @@ Comme les explications et les questions de LearningClarity sont adaptées à l'�
 
 Visualize donne le meilleur de lui-même comme outil parmi d'autres. Si vous préférez écouter, **Listen** lit à voix haute la section en cours, pratique lorsque vous êtes loin de l'écran. Et si vous découvrez le tuteur, commencez par ce [guide d'Explain Mode, votre tuteur IA pas à pas](/fr/2026/10/meet-your-step-by-step-ai-tutor/).
 
-Choisissez la notion qui vous échappe toujours et [découvrez-la en schéma avec LearningClarity](https://www.learningclarity.ai). Chaque nouveau compte commence avec 300 crédits gratuits.
+Choisissez la notion qui vous échappe toujours et [découvrez-la en schéma avec LearningClarity](https://www.learningclarity.ai). Chaque nouveau compte commence avec une première semaine gratuite.

@@ -101,4 +101,4 @@ Progress is tracked at every level, from subtopics up to courses and the plan it
 
 The same idea works beyond a personal career move. A training lead can build a plan once and share it by email with colleagues who use LearningClarity; each person who accepts gets an independent copy and their own progress. A parent or mentor who supervises a learner receives email reports that include plan progress.
 
-Ready to map your next move? [Build your AI learning plan in LearningClarity](https://www.learningclarity.ai) and start with 300 free credits, no subscription needed.
+Ready to map your next move? [Build your AI learning plan in LearningClarity](https://www.learningclarity.ai) and start with a free first week.

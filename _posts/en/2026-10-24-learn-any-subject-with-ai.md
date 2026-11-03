@@ -96,4 +96,4 @@ Once your topic exists, open a subtopic in [Explain Mode, the step-by-step AI tu
 
 A small tip for better results: say who you are and why you're learning. "Explain the basics of statistics for a nurse reading research papers" gives LearningClarity more to work with than "statistics".
 
-Have something you've always wanted to learn? [Describe it in LearningClarity and start for free](https://www.learningclarity.ai). Every new account begins with 300 free credits.
+Have something you've always wanted to learn? [Describe it in LearningClarity and start for free](https://www.learningclarity.ai). Every new account begins with a free first week.

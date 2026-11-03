@@ -105,4 +105,4 @@ Explain Mode es el primer paso de la ruta de aprendizaje de LearningClarity:
 
 Puedes ir directamente a cualquier modo, pero empezar por la explicación da al cuestionario y al examen una base sólida sobre la que construir.
 
-Elige un tema que llevas tiempo aplazando y [prueba tu primera sección con el tutor de IA de LearningClarity](https://www.learningclarity.ai). Cada cuenta nueva empieza con 300 créditos gratis.
+Elige un tema que llevas tiempo aplazando y [prueba tu primera sección con el tutor de IA de LearningClarity](https://www.learningclarity.ai). Cada cuenta nueva empieza con una primera semana gratis.

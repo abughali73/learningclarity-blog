@@ -101,4 +101,4 @@ El progreso se registra en cada nivel, desde los subtemas hasta los cursos y el 
 
 La idea sirve más allá de un cambio de profesión personal. Un responsable de formación puede crear un plan una vez y compartirlo por correo electrónico con compañeros que usan LearningClarity; quien lo acepta recibe una copia independiente y su propio progreso. Y un padre, una madre o un mentor que supervisa a un estudiante recibe informes por correo que incluyen el progreso en los planes.
 
-¿Listo para trazar tu próximo paso? [Crea tu plan de aprendizaje con IA en LearningClarity](https://www.learningclarity.ai) y empieza con 300 créditos gratis, sin suscripción.
+¿Listo para trazar tu próximo paso? [Crea tu plan de aprendizaje con IA en LearningClarity](https://www.learningclarity.ai) y empieza con una primera semana gratis.

@@ -105,4 +105,4 @@ Explain Mode est la première étape du parcours d'apprentissage de LearningClar
 
 Vous pouvez accéder directement à n'importe quel mode, mais commencer par l'explication donne au quiz et à l'examen une base solide.
 
-Choisissez un sujet que vous repoussez depuis longtemps et [essayez votre première section avec le tuteur IA de LearningClarity](https://www.learningclarity.ai). Chaque nouveau compte commence avec 300 crédits gratuits.
+Choisissez un sujet que vous repoussez depuis longtemps et [essayez votre première section avec le tuteur IA de LearningClarity](https://www.learningclarity.ai). Chaque nouveau compte commence avec une première semaine gratuite.

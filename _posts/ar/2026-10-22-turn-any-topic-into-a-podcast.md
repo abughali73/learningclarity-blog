@@ -97,4 +97,4 @@ scenes:
 
 {% include scene.html n=5 %}
 
-[أنشئ أول بودكاست تعليمي لك على LearningClarity](https://www.learningclarity.ai) من موضوع تدرسه الآن. كل حساب جديد يبدأ بـ 300 رصيد مجاني.
+[أنشئ أول بودكاست تعليمي لك على LearningClarity](https://www.learningclarity.ai) من موضوع تدرسه الآن. كل حساب جديد يبدأ بأسبوع أول مجاني.

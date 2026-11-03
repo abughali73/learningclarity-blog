@@ -96,4 +96,4 @@ Une fois votre sujet créé, ouvrez un sous-sujet dans [Explain Mode (mode expli
 
 Un petit conseil pour de meilleurs résultats : dites qui vous êtes et pourquoi vous apprenez. « Explique les bases des statistiques à une infirmière qui lit des articles de recherche » donne à LearningClarity bien plus d'éléments que « statistiques ».
 
-Vous avez quelque chose que vous rêvez d'apprendre depuis toujours ? [Décrivez-le dans LearningClarity et commencez gratuitement](https://www.learningclarity.ai). Chaque nouveau compte démarre avec 300 crédits gratuits.
+Vous avez quelque chose que vous rêvez d'apprendre depuis toujours ? [Décrivez-le dans LearningClarity et commencez gratuitement](https://www.learningclarity.ai). Chaque nouveau compte démarre avec une première semaine gratuite.

@@ -352,7 +352,7 @@ ideas:
     cta: "Install the app on your phone and continue today's lesson on your way home."
 
   - id: student-budget-credits
-    status: idea
+    status: flagged
     capability: credits
     approach: myth versus reality
     audience: Students on a tight budget
@@ -367,7 +367,7 @@ ideas:
       outcome: "He pays once, for the month that mattered, and nothing renews."
     takeaway: "Pay for what you use, when you need it."
     cta: "Start with the free credits on one topic and see how far they take you."
-    notes: "Do not quote credit costs per action; they are not in capabilities.yml."
+    notes: "FLAGGED: built on the retired credit-pack pricing (no subscription, packs, never-expiring credits). Rewrite around the free first week and Bronze plan before using."
 
   - id: solar-panels-before-deciding
     status: idea

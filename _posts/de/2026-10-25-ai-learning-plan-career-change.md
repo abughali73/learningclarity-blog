@@ -101,4 +101,4 @@ Ihr Fortschritt wird auf jeder Ebene erfasst, von den Unterthemen über die Kurs
 
 Die Idee funktioniert auch über den eigenen Berufswechsel hinaus. Weiterbildungsverantwortliche können einen Plan einmal erstellen und per E-Mail mit Kolleginnen und Kollegen teilen, die LearningClarity nutzen; wer annimmt, erhält eine unabhängige Kopie und verfolgt den eigenen Fortschritt. Eltern oder Mentoren, die einen Lernenden begleiten, erhalten E-Mail-Berichte, die auch den Fortschritt in Lernplänen enthalten.
 
-Bereit für Ihren nächsten Schritt? [Erstellen Sie Ihren KI-Lernplan in LearningClarity](https://www.learningclarity.ai) und starten Sie mit 300 kostenlosen Credits, ganz ohne Abo.
+Bereit für Ihren nächsten Schritt? [Erstellen Sie Ihren KI-Lernplan in LearningClarity](https://www.learningclarity.ai) und starten Sie mit einer kostenlosen ersten Woche.

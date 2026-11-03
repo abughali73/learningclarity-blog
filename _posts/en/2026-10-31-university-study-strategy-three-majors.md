@@ -62,8 +62,8 @@ faq:
     a: "Yes. Upload PDF files (up to 40 MB each), images or plain text files, and LearningClarity builds a topic and its subtopics from the content. PowerPoint decks and Word documents need to be exported to PDF first."
   - q: "Why won't my scanned PDF upload?"
     a: "Scanned PDFs without a text layer and password-protected PDFs cannot be read. Use a version of the document that contains real text, or upload clear images or a .txt file instead."
-  - q: "Do I need a subscription?"
-    a: "No. Individuals pay only for what they use with credits. You get 300 free credits when you create an account, credit packs start at $1.99 for 1,000 credits, and credits never expire."
+  - q: "How much does it cost?"
+    a: "Every new account starts with a free first week. After that, plans start at $2.99 a month for Bronze, and paying yearly costs less than twelve monthly payments."
 ---
 On the first Sunday of term, the kitchen table disappeared under paper. Elif had 400 slides of embryology. Mateo had a data structures module with a midterm in seven weeks. Hannah had a contract law reader as thick as a brick. Three flatmates, three majors, one shared problem: they needed a study strategy for university that didn't start with weeks of typing flashcards. Elif, Mateo, Hannah and their university are fictional.
 
@@ -97,7 +97,7 @@ Her strategy was time. On the tram she used Listen to hear each explanation read
 
 {% include scene.html n=5 %}
 
-None of them wanted another subscription. They started with the 300 free credits each of them got with a new account, then bought a credit pack when they needed one. Packs start at $1.99 for 1,000 credits, and credits never expire, so nothing was wasted between exam periods.
+None of them wanted a big bill. Each started with the free first week that comes with a new account, then picked Bronze at $2.99 a month. Before exam weeks they checked the usage meter, and a one-off $3.99 top-up covered the busiest stretch without changing their plan.
 
 Mateo shared his recursion topic with Elif by email after she admitted she'd never understood it. She accepted and got her own independent copy with her own progress.
 

@@ -95,7 +95,7 @@ That morning she had also turned the subtopic on sourcing channels into an **AI 
 
 On Thursday night she opened **Quiz Mode** on the screening and compliance subtopics. Instead of guessing, she pressed "I don't know" whenever she was unsure, and the results showed exactly where her screening knowledge was thin. She asked why each right answer was right and went back to those sections.
 
-Then she opened **Talk to This**, a live voice tutor about her own material. Over several short calls (credits are based on conversation length), she talked through how she would run fast screening calls, how to explain shift rules and compound protocols, and how to handle the objections candidates raise about night shifts and pay. She spoke, the tutor always answered aloud, and she kept the transcripts to reread on Friday.
+Then she opened **Talk to This**, a live voice tutor about her own material. Over several short calls (usage is based on conversation length), she talked through how she would run fast screening calls, how to explain shift rules and compound protocols, and how to handle the objections candidates raise about night shifts and pay. She spoke, the tutor always answered aloud, and she kept the transcripts to reread on Friday.
 
 {% include scene.html n=5 %}
 

@@ -97,4 +97,4 @@ Los podcasts funcionan mejor junto al resto de la ruta de aprendizaje. La explic
 
 {% include scene.html n=5 %}
 
-[Crea tu primer podcast para estudiar en LearningClarity](https://www.learningclarity.ai) a partir de un tema que estés trabajando. Cada cuenta nueva empieza con 300 créditos gratis.
+[Crea tu primer podcast para estudiar en LearningClarity](https://www.learningclarity.ai) a partir de un tema que estés trabajando. Cada cuenta nueva empieza con una primera semana gratis.
