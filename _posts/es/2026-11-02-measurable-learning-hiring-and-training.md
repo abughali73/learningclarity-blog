@@ -1,12 +1,12 @@
 ---
-title: "Aprendizaje medible: cómo supo Marek que Yusuf estaba listo"
+title: "Nuevo empleado preparado: cómo supo Marek que Yusuf estaba listo"
 description: "Aprendizaje medible en la incorporación: Marek, responsable de formación, cambió las hojas de asistencia por quizzes y un examen antes de la revisión clave."
 date: 2026-11-02 23:00:00 +0200
 lang: es
 ref: measurable-learning-hiring-and-training
 capability: learning-insights
 image: /assets/img/posts/measurable-learning-hiring-and-training-cinematic.webp
-keywords: ["aprendizaje medible", "evaluación en la incorporación de empleados", "medir resultados de aprendizaje", "formación de nuevos empleados", "seguimiento del progreso"]
+keywords: ["nuevo empleado preparado", "aprendizaje medible", "evaluación en la incorporación de empleados", "medir resultados de aprendizaje", "formación de nuevos empleados", "seguimiento del progreso"]
 tags: [LearningClarity, LearningClarityAI, AprendizajeMedible, IncorporacionDeEmpleados, Onboarding, FormacionCorporativa, RecursosHumanos, Evaluacion, SeguimientoDelProgreso, AprendizajeOnline, EdTech, AIinEducation, LifelongLearning]
 ad:
   color: pink

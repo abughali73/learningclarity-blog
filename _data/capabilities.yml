@@ -92,6 +92,17 @@
   facts:
     - Progress is tracked at every level - subtopics, topics, courses, plans, quiz and exam history, mastery levels.
     - The three modes Explain, Quiz and Exam take you from first understanding to verified mastery; you can enter any mode directly.
+- key: learning-insights
+  name: Learning insights
+  facts:
+    - Quiz results include personalised insights - an assessment of your performance with tips on how to improve.
+    - Exam results include insights that highlight your strong areas and the topics that need more attention, alongside the performance assessment.
+    - In an Organization Workspace, the Insights section gives authorised members read-only views of learning across the organization.
+    - Team progress shows who has started, finished or fallen behind on assigned content.
+    - Exam results roll up completion, scores and pass rates for assigned exams.
+    - Learning results - pick one content item and see every member it reached and how they did.
+    - Usage and spend tracks credit spend across units; the spend dashboard can be emailed on a schedule, and budget alerts warn when the credit pool or a unit budget runs low.
+    - Access to each Insights view is controlled by the member's role and permissions.
 - key: sharing
   name: Sharing topics, courses and plans
   facts:

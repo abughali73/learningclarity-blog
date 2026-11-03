@@ -1,12 +1,12 @@
 ---
-title: "التعلم القابل للقياس: كيف عرف ماريك أن موظفه الجديد صار جاهزًا"
+title: "جاهزية الموظف الجديد: كيف عرف ماريك أن يوسف صار مستعدًا للعمل وحده"
 description: "التعلم القابل للقياس في تأهيل الموظفين الجدد: كيف استبدل ماريك، مدير التدريب، كشوف الحضور باختبارات وامتحان قبل مراجعة الثلاثين يومًا لموظفه الجديد."
 date: 2026-11-02 23:00:00 +0200
 lang: ar
 ref: measurable-learning-hiring-and-training
 capability: learning-insights
 image: /assets/img/posts/measurable-learning-hiring-and-training-cinematic.webp
-keywords: ["التعلم القابل للقياس", "تقييم الموظفين الجدد", "قياس نتائج التعلم", "تأهيل الموظفين الجدد", "تتبع التقدم في التعلم"]
+keywords: ["جاهزية الموظف الجديد", "التعلم القابل للقياس", "تقييم الموظفين الجدد", "قياس نتائج التعلم", "تأهيل الموظفين الجدد", "تتبع التقدم في التعلم"]
 tags: [LearningClarity, LearningClarityAI, الموارد_البشرية, التدريب, تطوير_المهارات, تقييم_الأداء, التعلم_الذاتي, الذكاء_الاصطناعي, التعليم_الإلكتروني, CorporateTraining, EmployeeOnboarding, EdTech, AIinEducation]
 ad:
   color: pink

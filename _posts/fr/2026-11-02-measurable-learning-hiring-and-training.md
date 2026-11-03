@@ -1,12 +1,12 @@
 ---
-title: "Apprentissage mesurable : comment Marek a su que Yusuf était prêt"
+title: "Nouvelle recrue prête : comment Marek a su que Yusuf était prêt"
 description: "Apprentissage mesurable à l’intégration : Marek, responsable formation, a remplacé les feuilles de présence par des quiz et un examen avant un bilan clé."
 date: 2026-11-02 23:00:00 +0200
 lang: fr
 ref: measurable-learning-hiring-and-training
 capability: learning-insights
 image: /assets/img/posts/measurable-learning-hiring-and-training-cinematic.webp
-keywords: ["apprentissage mesurable", "évaluation lors de l’intégration", "mesurer les acquis de formation", "formation des nouveaux salariés", "suivi de la progression"]
+keywords: ["nouvelle recrue prête", "apprentissage mesurable", "évaluation lors de l’intégration", "mesurer les acquis de formation", "formation des nouveaux salariés", "suivi de la progression"]
 tags: [LearningClarity, LearningClarityAI, ApprentissageMesurable, Integration, Onboarding, FormationProfessionnelle, RessourcesHumaines, Evaluation, SuiviDeProgression, ApprentissageEnLigne, EdTech, AIinEducation, LifelongLearning]
 ad:
   color: pink

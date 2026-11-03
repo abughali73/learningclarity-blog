@@ -1,12 +1,12 @@
 ---
-title: "Messbares Lernen: Woran Marek erkannte, dass Yusuf bereit war"
+title: "Neue Mitarbeiter einarbeiten: So wusste Marek, dass Yusuf bereit war"
 description: "Messbares Lernen im Onboarding: Wie L&D-Manager Marek Anwesenheitslisten durch Quiz und Prüfung ersetzte und beim 30-Tage-Gespräch echte Belege hatte."
 date: 2026-11-02 23:00:00 +0200
 lang: de
 ref: measurable-learning-hiring-and-training
 capability: learning-insights
 image: /assets/img/posts/measurable-learning-hiring-and-training-cinematic.webp
-keywords: ["messbares Lernen", "Onboarding neuer Mitarbeitender", "Lernerfolg messen", "Einarbeitung neuer Mitarbeiter", "Lernfortschritt verfolgen"]
+keywords: ["neue Mitarbeiter einarbeiten", "messbares Lernen", "Onboarding neuer Mitarbeitender", "Lernerfolg messen", "Einarbeitung neuer Mitarbeiter", "Lernfortschritt verfolgen"]
 tags: [LearningClarity, LearningClarityAI, MessbaresLernen, Onboarding, Einarbeitung, Personalentwicklung, BetrieblicheWeiterbildung, Weiterbildung, Lernfortschritt, OnlineLernen, EdTech, AIinEducation, LifelongLearning]
 ad:
   color: pink

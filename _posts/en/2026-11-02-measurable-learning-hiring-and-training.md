@@ -1,12 +1,12 @@
 ---
-title: "Measurable learning: how Marek knew his new hire was ready"
+title: "New hire readiness: how Marek knew Yusuf could take calls alone"
 description: "Measurable learning in onboarding: how Marek, an L&D manager, swapped attendance sheets for quiz and exam evidence before a new hire's 30-day review."
 date: 2026-11-02 23:00:00 +0200
 lang: en
 ref: measurable-learning-hiring-and-training
 capability: learning-insights
 image: /assets/img/posts/measurable-learning-hiring-and-training-cinematic.webp
-keywords: ["measurable learning", "employee onboarding assessment", "measuring learning outcomes", "onboarding training for new hires", "learning progress tracking"]
+keywords: ["new hire readiness", "measurable learning", "employee onboarding assessment", "measuring learning outcomes", "onboarding training for new hires", "learning progress tracking"]
 tags: [LearningClarity, LearningClarityAI, MeasurableLearning, EmployeeOnboarding, Onboarding, LearningAndDevelopment, CorporateTraining, QuizMode, ExamMode, ProgressTracking, HR, EdTech, AIinEducation, LifelongLearning]
 ad:
   color: pink
