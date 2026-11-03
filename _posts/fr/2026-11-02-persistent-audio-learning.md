@@ -1,141 +1,126 @@
 ---
-title: "Apprentissage audio en continu : une formation qui suit l’apprenant"
-description: "Avec l’apprentissage audio en continu, les podcasts générés dans Learning Clarity continuent de jouer pendant que l’apprenant navigue sur la plateforme."
+title: "Apprentissage audio en continu : une semaine, une question difficile"
+description: "L’apprentissage audio en continu sur une vraie semaine : un commercial révise une nouveauté produit en tram et dans la rue avant la question de sa cliente."
 date: 2026-11-02 23:35:00 +0200
 lang: fr
 ref: persistent-audio-learning
 capability: learning-insights
 image: /assets/img/posts/persistent-audio-learning-cinematic.webp
-keywords: ["apprentissage audio en continu", "formation audio", "podcasts éducatifs", "podcast IA pour la formation", "lecteur audio ancré"]
-tags: [LearningClarity, LearningClarityAI, ApprentissageAudio, Podcast, PodcastEducatif, FormationProfessionnelle, ApprentissageEnLigne, IntelligenceArtificielle, Pedagogie, EdTech, AIinEducation, LifelongLearning]
+keywords: ["apprentissage audio en continu", "apprendre en déplacement", "podcast IA pour la formation commerciale", "lecteur audio ancré", "formation produit pour commerciaux"]
+tags: [LearningClarity, LearningClarityAI, PodcastIA, ApprentissageAudio, FormationCommerciale, Vente, FormationProfessionnelle, ApprentissageEnLigne, ConseilsRevision, IntelligenceArtificielle, EdTech, AIinEducation, LifelongLearning]
 ad:
   color: purple
-  eyebrow: "Apprentissage audio"
-  headline: "Un audio qui continue"
-  highlight: "pendant la navigation"
-  subtitle: "Les épisodes générés vous suivent partout dans l’application."
+  eyebrow: "Apprendre en déplacement"
+  headline: "Une semaine d’écoute,"
+  highlight: "une question difficile"
+  subtitle: "La nouveauté produit de Rocco, apprise en tram, dans la rue et sur le canapé."
   items:
     - icon: headphones
-      title: "Un lecteur qui vous suit"
-      bullets: ["Un petit lecteur ancré reste actif", "Vous gardez votre position"]
+      title: "Un lecteur qui ne s’arrête pas"
+      bullets: ["Un lecteur ancré pendant la navigation", "Des épisodes enregistrés à réécouter"]
     - icon: layers
-      title: "Des épisodes enregistrés"
-      bullets: ["Générés une fois à partir d’un sujet", "À réécouter pour réviser"]
+      title: "Votre support en podcast"
+      bullets: ["Importez un PDF, obtenez un sujet", "Un animateur et un expert invité"]
     - icon: target
-      title: "L’audio en complément"
-      bullets: ["À utiliser avec le sujet structuré", "Gardez les visuels dans le sujet"]
+      title: "Les étapes visuelles à l’écran"
+      bullets: ["Explain Mode, section par section", "Visualize dessine un schéma légendé"]
     - icon: check
-      title: "Puis vérifiez"
-      bullets: ["Enchaînez avec un quiz", "Le mode Examen pour la préparation"]
-  footnote: ""
+      title: "Vérifiez ce qui est resté"
+      bullets: ["Quiz Mode avec l’option Je ne sais pas", "Score, détail et niveau de maîtrise"]
+  footnote: "Rocco, Ilse, Agnes, Kestrel Routing et Brenner Freight sont fictifs."
 hero_image:
   src: /assets/img/posts/persistent-audio-learning-cinematic.webp
-  alt: "Marco sort d’un bureau par un matin d’automne ensoleillé, écouteurs aux oreilles, téléphone et café à la main"
-  prompt: "Marco, a fictional sales representative in his late twenties with short dark curly hair, a neatly trimmed beard and light olive-brown skin, wearing a navy overshirt over a white crew-neck T-shirt, slim grey chinos and small white wireless earbuds, steps out of a glass office lobby onto a busy European city pavement on a crisp autumn morning, earbuds in, a phone in one hand with its screen turned towards him and away from the camera, his thumb mid-swipe, a takeaway coffee in the other hand, a slight focused smile as he listens. Low golden sunlight rakes along the street, long shadows, commuters softly blurred behind him. Mid-shot from a slightly low angle, shallow depth of field. Mood: energetic, unhurried focus, learning on the move."
+  alt: "Rocco quitte le bureau un lundi matin, écouteurs en place, téléphone et café à la main"
+  prompt: "Rocco, a fictional sales representative in his late twenties with short dark curly hair, a neatly trimmed beard and light olive-brown skin, wearing a navy overshirt over a white crew-neck T-shirt, slim grey chinos and small white wireless earbuds, steps out of a glass office lobby onto a busy European city pavement on a crisp autumn morning, earbuds in, a phone in one hand with its screen turned towards him and away from the camera, his thumb mid-swipe, a takeaway coffee in the other hand, a slight focused smile as he listens. Low golden sunlight rakes along the street, long shadows, commuters softly blurred behind him. Mid-shot from a slightly low angle, shallow depth of field. Mood: energetic, unhurried focus, learning on the move."
 scenes:
   - src: /assets/img/posts/persistent-audio-learning-scene-1.webp
-    alt: "Marco dans un tramway à l’aube, touchant son téléphone sans cesser d’écouter"
-    caption: "Il ouvre un autre écran ; l’épisode continue."
-    prompt: "Marco, a fictional sales representative in his late twenties with short dark curly hair, a neatly trimmed beard and light olive-brown skin, wearing a navy overshirt over a white crew-neck T-shirt, slim grey chinos and small white wireless earbuds, stands by the doors of a nearly empty tram at dawn, one hand on a handrail, the other holding a phone with its screen facing away from the camera as his thumb taps to open another part of the app, his head tilted slightly as he keeps listening to the episode. Cool blue dawn light through the tram windows, a thin line of warm sunrise on the horizon, city lights streaking past outside. Medium close-up at eye level. Mood: calm, absorbed, nothing interrupted."
+    alt: "Rocco dans un tram à l’aube ouvre un autre écran pendant que l’épisode continue"
+    caption: "Mardi à l’aube : un autre écran, le même épisode."
+    prompt: "Rocco, a fictional sales representative in his late twenties with short dark curly hair, a neatly trimmed beard and light olive-brown skin, wearing a navy overshirt over a white crew-neck T-shirt, slim grey chinos and small white wireless earbuds, stands by the doors of a nearly empty tram at dawn, one hand on a handrail, the other holding a phone with its screen facing away from the camera as his thumb taps to open another part of the app, his head tilted slightly as he keeps listening to the episode. Cool blue dawn light through the tram windows, a thin line of warm sunrise on the horizon, city lights streaking past outside. Medium close-up at eye level. Mood: calm, absorbed, nothing interrupted."
   - src: /assets/img/posts/persistent-audio-learning-scene-2.webp
-    alt: "Hanna, spécialiste formation, réécoute un nouvel épisode à son bureau"
-    caption: "L’équipe formation génère l’épisode une seule fois."
-    prompt: "Hanna, a fictional learning and development specialist in her mid-forties with short silver-blonde hair, pale skin and round tortoiseshell glasses, wearing a mustard cardigan over a cream blouse, sits at a tidy desk in a bright training office in the late morning, pressing one hand to an over-ear headphone as she listens back to a freshly generated episode, a laptop open in front of her with its screen facing away from the camera, a printed sheet with only simple hand-drawn boxes and arrows (no words) beside it. Soft diffuse daylight from a tall window, potted plants. Wide shot from the side at eye level. Mood: careful, satisfied preparation."
+    alt: "Ilse, spécialiste de la formation, réécoute l’épisode à son bureau"
+    caption: "Ilse vérifie l’épisode avec les notes de version."
+    prompt: "Ilse, a fictional learning and development specialist in her mid-forties with short silver-blonde hair, pale skin and round tortoiseshell glasses, wearing a mustard cardigan over a cream blouse, sits at a tidy desk in a bright training office in the late morning, pressing one hand to an over-ear headphone as she listens back to a freshly generated episode, a laptop open in front of her with its screen facing away from the camera, a printed sheet with only simple hand-drawn boxes and arrows (no words) beside it. Soft diffuse daylight from a tall window, potted plants. Wide shot from the side at eye level. Mood: careful, satisfied preparation."
   - src: /assets/img/posts/persistent-audio-learning-scene-3.webp
-    alt: "Marco marche entre deux rendez-vous clients dans une rue pavée, écouteurs aux oreilles"
-    caption: "La mise à jour produit dans les oreilles, entre deux clients."
-    prompt: "Marco, a fictional sales representative in his late twenties with short dark curly hair, a neatly trimmed beard and light olive-brown skin, wearing a navy overshirt over a white crew-neck T-shirt, slim grey chinos and small white wireless earbuds, walks briskly between client visits along a tree-lined street of an old European business district in the early afternoon, a slim laptop bag over his shoulder, earbuds in, glancing down at the phone in his hand with its screen hidden from the camera, lips slightly moving as if rehearsing a line he just heard. Overcast silver daylight, wet cobblestones, autumn leaves on the ground. Wide tracking shot at eye level, the street receding behind him. Mood: purposeful, prepared."
+    alt: "Rocco marche dans une rue pavée entre deux rendez-vous clients, écouteurs en place"
+    caption: "Mercredi : la nouveauté dans les oreilles entre deux visites."
+    prompt: "Rocco, a fictional sales representative in his late twenties with short dark curly hair, a neatly trimmed beard and light olive-brown skin, wearing a navy overshirt over a white crew-neck T-shirt, slim grey chinos and small white wireless earbuds, walks briskly between client visits along a tree-lined street of an old European business district in the early afternoon, a slim laptop bag over his shoulder, earbuds in, glancing down at the phone in his hand with its screen hidden from the camera, lips slightly moving as if rehearsing a line he just heard. Overcast silver daylight, wet cobblestones, autumn leaves on the ground. Wide tracking shot at eye level, the street receding behind him. Mood: purposeful, prepared."
   - src: /assets/img/posts/persistent-audio-learning-scene-4.webp
-    alt: "Marco à son bureau, écoutant et croquant des notes sur papier"
-    caption: "De retour au bureau, il écoute et note l’essentiel."
-    prompt: "Marco, a fictional sales representative in his late twenties with short dark curly hair, a neatly trimmed beard and light olive-brown skin, wearing a navy overshirt over a white crew-neck T-shirt, slim grey chinos and small white wireless earbuds, sits back at his desk in a modern open-plan sales office in the late afternoon, earbuds in, one hand writing in a paper notebook filled only with small hand-drawn sketches and arrows (no letters or words), a laptop beside him with its screen facing away from the camera and a phone lying face down. Warm low sunlight through large windows casts long stripes across the desk, colleagues softly blurred in the background. Over-the-shoulder shot from behind his left shoulder, the notebook in focus. Mood: concentrated, steady."
+    alt: "Rocco à son bureau dessine dans son carnet les étapes de la migration"
+    caption: "Jeudi : les étapes qu’on n’entend pas, dessinées à la main."
+    prompt: "Rocco, a fictional sales representative in his late twenties with short dark curly hair, a neatly trimmed beard and light olive-brown skin, wearing a navy overshirt over a white crew-neck T-shirt, slim grey chinos and small white wireless earbuds, sits back at his desk in a modern open-plan sales office in the late afternoon, earbuds in, one hand writing in a paper notebook filled only with small hand-drawn sketches and arrows (no letters or words), a laptop beside him with its screen facing away from the camera and a phone lying face down. Warm low sunlight through large windows casts long stripes across the desk, colleagues softly blurred in the background. Over-the-shoulder shot from behind his left shoulder, the notebook in focus. Mood: concentrated, steady."
   - src: /assets/img/posts/persistent-audio-learning-scene-5.webp
-    alt: "Marco sur son canapé le soir, souriant en répondant à un court quiz"
-    caption: "Puis un quiz rapide pour vérifier ce qui est resté."
-    prompt: "Marco, a fictional sales representative in his late twenties with short dark curly hair, a neatly trimmed beard and light olive-brown skin, wearing a navy overshirt over a white crew-neck T-shirt, slim grey chinos and small white wireless earbuds, sits on a sofa at home in the evening, one earbud now out and held between his fingers, the phone in his other hand with its screen turned away from the camera as he answers a short quiz, a small satisfied smile spreading across his face. A warm table lamp lights one side of his face, cool blue dusk through the window on the other, a mug of tea on a side table. Close-up at eye level, very shallow depth of field. Mood: quiet confidence, the day's learning landing."
+    alt: "Rocco sur son canapé le soir sourit en répondant à un court quiz"
+    caption: "Jeudi soir : la lacune est comblée."
+    prompt: "Rocco, a fictional sales representative in his late twenties with short dark curly hair, a neatly trimmed beard and light olive-brown skin, wearing a navy overshirt over a white crew-neck T-shirt, slim grey chinos and small white wireless earbuds, sits on a sofa at home in the evening, one earbud now out and held between his fingers, the phone in his other hand with its screen turned away from the camera as he answers a short quiz, a small satisfied smile spreading across his face. A warm table lamp lights one side of his face, cool blue dusk through the window on the other, a mug of tea on a side table. Close-up at eye level, very shallow depth of field. Mood: quiet confidence, the day's learning landing."
 faq:
-  - q: "Que signifie l’audio en continu dans Learning Clarity ?"
-    a: "Cela signifie qu’un épisode de podcast généré peut continuer à être lu dans un lecteur ancré pendant que l’apprenant navigue ailleurs dans l’application."
-  - q: "L’épisode reste-t-il disponible après la lecture ?"
-    a: "Oui. Les épisodes de podcast générés sont des contenus enregistrés qui peuvent être réécoutés plus tard."
-  - q: "L’audio en continu remplace-t-il le reste du parcours d’apprentissage ?"
-    a: "Non. C’est un format de consommation supplémentaire. Les apprenants peuvent toujours utiliser les modes Explication, Quiz et Examen pour étudier, s’entraîner et être évalués de manière structurée."
-  - q: "L’audio convient-il à tous les types de contenus ?"
-    a: "Non. Les contenus qui reposent fortement sur des schémas, des références visuelles complexes ou des démonstrations pratiques peuvent toujours nécessiter des formats visuels ou pratiques."
+  - q: "Un podcast IA continue-t-il de jouer si j’ouvre une autre partie de LearningClarity ?"
+    a: "Oui. Les épisodes passent dans un petit lecteur ancré qui continue de jouer pendant que vous naviguez ailleurs dans l’application. Chaque épisode est généré une fois puis enregistré : vous pouvez le réécouter sans le générer à nouveau."
+  - q: "Puis-je transformer mon propre support de formation en podcast ?"
+    a: "Oui. Importez un PDF (jusqu’à 40 Mo), des images ou un fichier .txt, et LearningClarity crée un sujet avec ses sous-sujets. Vous pouvez ensuite transformer le sujet ou un seul sous-sujet en épisode de podcast à deux voix."
+  - q: "Comment vérifier ce que j’ai retenu après l’écoute ?"
+    a: "Lancez un entraînement en Quiz Mode sur les sous-sujets de votre choix. L’option Je ne sais pas donne une image plus juste que le hasard, et les résultats affichent un score, un détail des réponses et un niveau de maîtrise."
 ---
-Générer un épisode audio ne représente que la moitié de l’expérience. Si l’apprenant doit rester sur une seule page pour continuer à écouter, le format se comporte comme une leçon à l’écran de plus, et non comme de l’audio.
+Lundi, 8 h 40. La responsable de Rocco lui transfère un e-mail d’une ligne, signé par la directrice des opérations de Brenner Freight : « Avant de renouveler vendredi, j’aurai une question sur la nouvelle version. Je veux la réponse de Rocco, pas d’une diapositive. »
 
-L’apprentissage audio en continu résout ce problème d’ergonomie en permettant à la lecture de se poursuivre pendant que l’apprenant navigue ailleurs dans la plateforme. Dans Learning Clarity, les épisodes de podcast générés peuvent être écoutés dans un petit lecteur ancré qui reste actif pendant que l’apprenant se déplace dans l’application.
+Rocco vend des logiciels de planification d’itinéraires pour Kestrel Routing, et Brenner est son plus gros client. Les notes de version faisaient quarante pages. Agnes Vogt, la directrice, était connue pour poser une seule question par réunion, et jamais la plus simple. Rocco, Agnes et les deux entreprises sont fictifs.
 
-L’audio devient ainsi une partie intégrante de l’expérience [Learning Clarity](https://www.learningclarity.ai/) plutôt qu’une destination séparée.
+Avec une semaine remplie de rendez-vous, l’apprentissage audio en continu allait devoir faire le gros du travail.
 
-## Qu’est-ce que l’apprentissage audio en continu ?
+## Lundi : la nouveauté dans les oreilles
+
+Ilse, de l’équipe formation, avait importé les notes de version en PDF dans [la plateforme d’étude LearningClarity](https://www.learningclarity.ai). La plateforme en avait tiré un sujet et ses sous-sujets, des objections à la mise en œuvre, qu’Ilse avait partagé avec l’équipe commerciale par e-mail.
+
+Rocco a accepté, a reçu sa propre copie et l’a transformée en **podcast IA**, une conversation à deux voix entre un animateur et un expert invité. Une notification « AI job complete » l’a prévenu quand il était prêt. Il a lancé la lecture en sortant du bureau, son café dans l’autre main.
+
+## Mardi : l’apprentissage audio en continu, dans le tram
 
 {% include scene.html n=1 %}
 
-L’apprentissage audio en continu signifie qu’une leçon audio ou un podcast continue d’être lu pendant que l’apprenant navigue vers d’autres zones de l’environnement d’apprentissage. L’état de lecture est conservé, de sorte que l’apprenant ne perd pas sa position simplement parce qu’il a ouvert un autre écran.
+Dans le tram de l’aube, l’invité est passé aux objections, et Rocco a voulu voir le sous-sujet lui-même. Il l’a ouvert, et les voix ont continué. L’épisode jouait toujours dans un petit lecteur ancré pendant qu’il faisait défiler le texte, sans redémarrer.
 
-C’est important parce que l’audio ne se consomme généralement pas comme le texte. Un apprenant peut vouloir parcourir un autre sujet, consulter sa progression ou se déplacer dans l’application tout en continuant à écouter.
-
-## Pourquoi l’expérience de lecture compte
-
-Une fonctionnalité peut être utile sur le plan pédagogique et échouer malgré tout à cause des frictions. Si l’apprenant doit relancer l’épisode, rester sur une seule page ou retrouver sans cesse sa position, l’avantage pratique de l’audio s’en trouve réduit.
-
-La lecture persistante ne garantit pas les résultats d’apprentissage. Elle supprime un obstacle d’interface pour que les apprenants puissent utiliser l’audio comme le format s’y prête naturellement : en écoute continue.
-
-## Comment elle fonctionne avec les podcasts générés
+Un audio rivé à un seul écran n’aurait été qu’une leçon de plus ; un audio qui le suivait partout tenait dans un trajet de tram.
 
 {% include scene.html n=2 %}
 
-Dans Learning Clarity, l’épisode de podcast est généré à partir d’un sujet ou d’un sous-thème, puis enregistré. Dès que l’apprenant lance la lecture, le petit lecteur reste disponible pendant qu’il se rend ailleurs dans l’application. L’épisode peut aussi être réécouté plus tard, car il s’agit d’un contenu enregistré et non d’une diffusion en direct unique.
+À l’autre bout de la ville, Ilse réécoutait son propre épisode en le comparant aux notes de version. Elle avait lu une [revue systématique de 2026 sur les podcasts éducatifs](https://pubmed.ncbi.nlm.nih.gov/42319146/) : les apprenants les jugeaient en général utiles comme ressource complémentaire, sur des preuves encore limitées. Sa note à l’équipe était donc prudente : « Servez-vous de l’épisode pour l’histoire. Les étapes de mise en œuvre, c’est une affaire de schéma. Ne sautez pas le sujet. »
 
-Cela crée une séparation pratique entre la création et la consommation du contenu. L’équipe formation ou l’apprenant génère l’épisode une fois, puis l’audio peut s’intégrer à des révisions répétées.
+Rocco l’a lue dans le tram, et il a sauté le sujet quand même.
 
-## Pourquoi l’audio réutilisable a sa place dans les bibliothèques de formation
-
-Les organisations investissent déjà du temps dans la création et la mise à jour de leurs sujets de formation. L’audio réutilisable leur offre une autre représentation du même contenu sans créer une bibliothèque audio totalement indépendante.
-
-Une [revue systématique sur les podcasts éducatifs](https://pubmed.ncbi.nlm.nih.gov/42319146/) publiée en 2026 a constaté que les apprenants des études incluses percevaient généralement les podcasts de façon positive en tant que ressources complémentaires, tout en avertissant que les données disponibles restaient limitées. Cela plaide pour une approche mesurée : utilisez l’audio comme un complément et évaluez s’il convient à vos apprenants et à vos contenus.
-
-## Scénario pratique : les connaissances produit en déplacement
+## Mercredi : un quiz qui pique
 
 {% include scene.html n=3 %}
 
-Une équipe commerciale reçoit un sujet de mise à jour produit couvrant le positionnement, les fonctionnalités, les objections et des notes de mise en œuvre. L’équipe formation génère un épisode de podcast à partir de ce sujet. Un apprenant lance l’écoute, puis navigue vers une autre partie de Learning Clarity sans interrompre la lecture.
+Entre deux rendez-vous, il a réécouté l’épisode enregistré. Le soir, il se sentait prêt.
 
-Plus tard, l’apprenant peut revenir au sujet structuré, faire un quiz et utiliser le mode Examen si une vérification du niveau de préparation est requise. Le lecteur persistant apporte de la souplesse, tandis que les fonctionnalités d’évaluation fournissent des preuves que l’écoute seule ne peut pas apporter.
+**Quiz Mode** (mode quiz) n’était pas d’accord. Il a choisi tous les sous-sujets et répondu « Je ne sais pas » au lieu de deviner. Les résultats, avec leur détail et son niveau de maîtrise, étaient nets. Quatre de ses « Je ne sais pas » tombaient au même endroit, la mise en œuvre : ce qui arrive aux données existantes pendant la bascule, et dans quel ordre. Ilse avait raison.
 
-## La conception audio compte toujours
-
-La lecture persistante rend l’audio plus facile à consommer, mais elle ne dispense pas d’une bonne conception des contenus. La durée de l’épisode doit correspondre au périmètre d’apprentissage, le sujet source doit être à jour, et l’apprenant doit savoir si l’audio est destiné à une première découverte, à une révision ou à un renforcement.
-
-Les recherches sur les [podcasts de révision dans l’enseignement supérieur](https://www.sciencedirect.com/science/article/pii/S0360131507001182) ont étudié l’usage des podcasts comme outils de révision et mis en évidence la souplesse perçue par les apprenants. La leçon pour la formation professionnelle est d’être explicite sur le rôle que joue l’audio dans la conception globale de la formation.
-
-## Bonnes pratiques pour la formation audio en continu
+## Jeudi : retour à l’écran
 
 {% include scene.html n=4 %}
 
-Utilisez l’audio pour des contenus que l’on peut comprendre sans référence visuelle permanente. Gardez les schémas, formules ou processus visuels essentiels accessibles dans le sujet. Associez l’écoute à des quiz ou à des examens lorsque la compréhension doit être vérifiée.
-
-Pour les organisations, gérez soigneusement la publication et le contrôle des versions. L’audio réutilisable a le plus de valeur lorsque les apprenants peuvent être sûrs que l’épisode reflète toujours le sujet actuel.
-
-## Là où la lecture persistante aide le plus
-
-La lecture persistante compte surtout lorsque l’écoute et d’autres activités se chevauchent. Un apprenant peut lancer un épisode sur un sujet, puis ouvrir ses sous-thèmes pour suivre en parallèle, consulter sa progression ou trouver l’élément suivant d’un plan d’apprentissage sans arrêter l’audio. L’épisode garde sa position : se déplacer dans l’application ne signifie pas repartir de zéro.
-
-Elle convient aussi à la révision avant une évaluation. Un apprenant peut réécouter un épisode consacré à un sujet tout en parcourant les sous-thèmes où ses résultats aux quiz précédents étaient les plus faibles, puis passer en mode Quiz ou en mode Examen lorsqu’il est prêt à vérifier sa compréhension.
-
-Pour les équipes qui introduisent l’audio, le conseil pratique est d’indiquer aux apprenants que le lecteur existe et à quoi il sert. Une courte note dans les consignes de formation — par exemple, qu’un épisode peut continuer à jouer pendant qu’ils parcourent le reste du sujet — augmente les chances que la fonctionnalité soit utilisée comme prévu plutôt que découverte par hasard.
-
-## Conclusion
+Jeudi après-midi, il a ouvert le sous-sujet sur la mise en œuvre en **Explain Mode** (mode explication), une courte section à la fois. Il a touché **Explain Further** pour plus de détails et d’exemples, puis **Visualize** sur la séquence de bascule, et obtenu un schéma clair et légendé. Il l’a redessiné dans son carnet en ajoutant à chaque étape l’équipe de répartition de Brenner, d’après ses propres notes sur le compte. Le schéma expliquait les étapes ; les adapter à Brenner, c’était son travail.
 
 {% include scene.html n=5 %}
 
-L’audio devient plus pratique lorsque l’interface respecte la façon dont les gens écoutent. La lecture persistante permet aux épisodes générés de rester partie intégrante du parcours d’apprentissage, même lorsque l’apprenant se déplace ailleurs dans la plateforme.
+Le soir, sur le canapé, il a fait un deuxième quiz sur les sous-sujets de mise en œuvre. Il a demandé pourquoi deux réponses étaient fausses et vu son niveau de maîtrise grimper. Un écouteur retiré, il a souri pour la première fois de la semaine.
 
-Vous pouvez découvrir ce fonctionnement en visitant [Learning Clarity](https://www.learningclarity.ai/) ou en [créant un compte gratuit](https://www.learningclarity.ai/auth/signup?utm_source=blog&utm_medium=cta&utm_campaign=persistent-audio-learning) pour générer de l’audio à partir d’un sujet structuré.
+## Vendredi : la question
 
-## Sources
+Agnes a écouté son résumé sans un mot, puis s’est penchée en avant.
 
-1. [Revue systématique sur les podcasts éducatifs](https://pubmed.ncbi.nlm.nih.gov/42319146/)
-2. [Étude sur les podcasts de révision dans l’enseignement supérieur](https://www.sciencedirect.com/science/article/pii/S0360131507001182)
+« Si nous basculons lundi, que deviennent les itinéraires que mes répartiteurs ont déjà, et qui doit faire quoi chez nous cette semaine-là ? »
+
+Rocco a ouvert son carnet sur le schéma et l’a déroulé étape par étape, en nommant les équipes de sa cliente à chaque phase.
+
+Agnes a longuement regardé la page. « C’est la première fois qu’un commercial me répond sans appeler son équipe technique. » Le renouvellement a été signé l’après-midi même : la préparation de Rocco, la réponse de Rocco.
+
+## Trois leçons à retenir
+
+- **Laissez l’audio raconter l’histoire.** Un lecteur ancré qui ne s’arrête pas transforme trajets et marches en temps d’étude.
+- **Gardez les étapes visuelles à l’écran.** Une séquence passe mieux en schéma qu’en voix.
+- **Vérifiez ce qui est resté.** Le « Je ne sais pas » de Quiz Mode montre la lacune avant le client.
+
+Pour étudier loin de l’écran, lisez [comment apprendre en écoutant avec l’IA](/fr/2026/10/learn-by-listening-with-ai/).
+
+Vous aussi, une question difficile vous attend cette semaine ? Importez ce soir le document qui se cache derrière, écoutez l’épisode demain pendant le trajet et faites un court quiz avant d’entrer dans la salle.

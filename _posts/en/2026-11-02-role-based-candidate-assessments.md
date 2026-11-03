@@ -1,6 +1,6 @@
 ---
-title: "Role-Based Candidate Assessments: Going Beyond CVs and Interviews"
-description: "Learn how role-based candidate assessments can add structured evidence to hiring decisions without replacing interviews, HR judgment, or work samples."
+title: "Role-based candidate assessments: Solveig's one hard question"
+description: "Role-based candidate assessments, told as a story: how Solveig, an HR lead, finally answered the question her director asks before every job offer."
 date: 2026-11-02 22:55:00 +0200
 lang: en
 ref: role-based-candidate-assessments
@@ -10,135 +10,113 @@ keywords: ["role-based candidate assessments", "candidate assessment", "pre-empl
 tags: [LearningClarity, LearningClarityAI, ExamMode, QuizMode, CandidateAssessment, Recruitment, Hiring, SkillsBasedHiring, HumanResources, Onboarding, EdTech, AIinEducation, CorporateTraining]
 ad:
   color: purple
-  eyebrow: "Training & hiring"
-  headline: "Hire on evidence, not"
-  highlight: "CVs alone"
-  subtitle: "Add a role-knowledge check before the final interview."
+  eyebrow: "The one hard question"
+  headline: "The hiring question she"
+  highlight: "finally answered"
+  subtitle: "Solveig's role-based candidate assessment, told as a story."
   items:
     - icon: target
       title: "Start from the role"
-      bullets: ["Test knowledge the job really needs", "Leave out what onboarding teaches"]
+      bullets: ["Upload the policies the job relies on", "Leave out what onboarding teaches"]
     - icon: clipboard
-      title: "Quiz or Exam Mode"
-      bullets: ["Build a Topic from role requirements", "Review every question before use"]
+      title: "Test the test first"
+      bullets: ["An experienced agent tries Quiz Mode", "\"I don't know\" instead of guessing"]
     - icon: people
       title: "One input, not a verdict"
-      bullets: ["Combine with interviews and work samples", "Human judgment makes the decision"]
+      bullets: ["Same Exam Mode settings for everyone", "Interviews and tasks still count"]
     - icon: route
       title: "Carry it into onboarding"
-      bullets: ["Reuse the same topic areas", "Explanations, quizzes and exams"]
-  footnote: ""
+      bullets: ["AI summary names areas to revisit", "Explain Mode, Simplify and Listen"]
+  footnote: "Solveig, Henrik, Rohan, Abena, Teo and Larkfield Energy are fictional."
 hero_image:
   src: /assets/img/posts/role-based-candidate-assessments-cinematic.webp
-  alt: "Ingrid, an HR lead, reviewing candidate folders at a meeting-room table in soft daylight"
-  prompt: "Ingrid, a fictional HR lead in her mid-fifties with a chin-length silver-blonde bob, fair skin, fine laugh lines and tortoiseshell reading glasses, wearing a navy blazer over a cream silk blouse and small silver earrings, sits alone at a long oak table in a glass-walled meeting room of a modern office in the late morning, leaning forward with her glasses pushed up on her head, a thoughtful half-smile, one hand resting on a neat stack of plain paper folders while the other holds a pen above an open notebook with no visible writing. A closed laptop and a cup of coffee sit beside her. Soft daylight pours through tall windows on the left, a blurred open-plan office with plants behind the glass. Mid-shot at eye level, shallow depth of field. Mood: calm, careful judgement before a hiring decision."
+  alt: "Solveig, an HR lead, weighing four job offers at an oak table in a glass-walled meeting room"
+  prompt: "Solveig, a fictional HR lead in her mid-fifties with a chin-length silver-blonde bob, fair skin, fine laugh lines and tortoiseshell reading glasses, wearing a navy blazer over a cream silk blouse and small silver earrings, sits alone at a long oak table in a glass-walled meeting room of a modern office in the late morning, leaning forward with her glasses pushed up on her head, a thoughtful half-smile, one hand resting on a neat stack of plain paper folders while the other holds a pen above an open notebook with no visible writing. A closed laptop and a cup of coffee sit beside her. Soft daylight pours through tall windows on the left, a blurred open-plan office with plants behind the glass. Mid-shot at eye level, shallow depth of field. Mood: calm, careful judgement before a hiring decision."
 scenes:
   - src: /assets/img/posts/role-based-candidate-assessments-scene-1.webp
-    alt: "Ingrid and a team lead looking through a policy binder on the customer operations floor"
-    caption: "Start from what the role really needs."
-    prompt: "Ingrid, a fictional HR lead in her mid-fifties with a chin-length silver-blonde bob, fair skin, fine laugh lines and tortoiseshell reading glasses, wearing a navy blazer over a cream silk blouse and small silver earrings, stands beside a fictional customer operations team lead, a man in his early thirties of South Asian heritage with short black hair and a neat beard, wearing a light blue open-collar shirt, in a quiet corner of a busy customer contact floor in the early morning. They are leaning over a high table together, Ingrid pointing at a thick printed policy binder whose pages show no readable writing while he explains with an open hand. Rows of empty desks with headsets hanging on hooks stretch out behind them, cool blue morning light from wide windows mixed with warm ceiling lights. Wide shot at eye level. Mood: focused, practical, deciding what the role really needs."
+    alt: "Solveig and Rohan, the team lead, going through the policy binder on the contact centre floor before the phones open"
+    caption: "Tuesday, 7:30: what does a new agent need on day one?"
+    prompt: "Solveig, a fictional HR lead in her mid-fifties with a chin-length silver-blonde bob, fair skin, fine laugh lines and tortoiseshell reading glasses, wearing a navy blazer over a cream silk blouse and small silver earrings, stands beside a fictional customer operations team lead, a man in his early thirties of South Asian heritage with short black hair and a neat beard, wearing a light blue open-collar shirt, in a quiet corner of a busy customer contact floor in the early morning. They are leaning over a high table together, Solveig pointing at a thick printed policy binder whose pages show no readable writing while he explains with an open hand. Rows of empty desks with headsets hanging on hooks stretch out behind them, cool blue morning light from wide windows mixed with warm ceiling lights. Wide shot at eye level. Mood: focused, practical, deciding what the role really needs."
   - src: /assets/img/posts/role-based-candidate-assessments-scene-2.webp
-    alt: "Ingrid reviewing assessment questions with an experienced customer service agent"
-    caption: "Someone who does the job reviews every question."
-    prompt: "Ingrid, a fictional HR lead in her mid-fifties with a chin-length silver-blonde bob, fair skin, fine laugh lines and tortoiseshell reading glasses, wearing a navy blazer over a cream silk blouse and small silver earrings, sits side by side at a small round table in a cosy break-out area with a fictional senior customer service agent, a Black woman in her forties with short natural hair, wearing a mustard cardigan and a lanyard, in the early afternoon. The agent points at a laptop whose screen faces away from the camera and Ingrid listens with her glasses on, nodding, a pencil in hand. Warm side light from a window, a potted fig tree and two mugs of tea on the table. Over-the-shoulder shot from behind the laptop, screen not visible. Mood: collaborative, careful review."
+    alt: "Abena, a senior agent, showing Solveig where the practice questions miss the mark"
+    caption: "Wednesday: someone who does the job takes the test first."
+    prompt: "Solveig, a fictional HR lead in her mid-fifties with a chin-length silver-blonde bob, fair skin, fine laugh lines and tortoiseshell reading glasses, wearing a navy blazer over a cream silk blouse and small silver earrings, sits side by side at a small round table in a cosy break-out area with a fictional senior customer service agent, a Black woman in her forties with short natural hair, wearing a mustard cardigan and a lanyard, in the early afternoon. The agent points at a laptop whose screen faces away from the camera and Solveig listens with her glasses on, nodding, a pencil in hand. Warm side light from a window, a potted fig tree and two mugs of tea on the table. Over-the-shoulder shot from behind the laptop, screen not visible. Mood: collaborative, careful review."
   - src: /assets/img/posts/role-based-candidate-assessments-scene-3.webp
-    alt: "A candidate thinking about a question in a quiet meeting room while Ingrid walks past"
-    caption: "A short, role-related check before the final interview."
-    prompt: "A fictional job candidate, a young man in his mid-twenties with light brown skin, curly dark hair and a neatly pressed white shirt, sits alone at a table in a quiet, bright meeting room in the late morning, chin resting on one hand as he thinks about a question, a laptop open in front of him with its screen turned away from the camera, a glass of water beside it. Through the glass wall behind him, slightly out of focus, Ingrid, a fictional HR lead in her mid-fifties with a chin-length silver-blonde bob, fair skin, fine laugh lines and tortoiseshell reading glasses, wearing a navy blazer over a cream silk blouse and small silver earrings, walks past carrying a folder and glances in with a reassuring smile. Soft overcast daylight, muted tones. Mid-shot at a slightly low angle. Mood: concentration, quiet nerves, fairness."
+    alt: "Teo weighing a question in a quiet meeting room as Solveig walks past"
+    caption: "The next Tuesday: the same settings for every candidate."
+    prompt: "A fictional job candidate, a young man in his mid-twenties with light brown skin, curly dark hair and a neatly pressed white shirt, sits alone at a table in a quiet, bright meeting room in the late morning, chin resting on one hand as he thinks about a question, a laptop open in front of him with its screen turned away from the camera, a glass of water beside it. Through the glass wall behind him, slightly out of focus, Solveig, a fictional HR lead in her mid-fifties with a chin-length silver-blonde bob, fair skin, fine laugh lines and tortoiseshell reading glasses, wearing a navy blazer over a cream silk blouse and small silver earrings, walks past carrying a folder and glances in with a reassuring smile. Soft overcast daylight, muted tones. Mid-shot at a slightly low angle. Mood: concentration, quiet nerves, fairness."
   - src: /assets/img/posts/role-based-candidate-assessments-scene-4.webp
-    alt: "Ingrid handing a coffee to the new hire on his first morning"
-    caption: "The same topics carry on into onboarding."
-    prompt: "Ingrid, a fictional HR lead in her mid-fifties with a chin-length silver-blonde bob, fair skin, fine laugh lines and tortoiseshell reading glasses, wearing a navy blazer over a cream silk blouse and small silver earrings, welcomes the same fictional new employee, a young man in his mid-twenties with light brown skin and curly dark hair, now wearing a casual grey sweater and a new lanyard, on his first morning at his desk on the customer operations floor. She hands him a mug of coffee while he laughs, a headset and a closed laptop waiting on the desk, colleagues blurred in the background. Bright golden early-morning sunlight streams through the windows behind them, lens flare. Wide shot at eye level. Mood: warm, welcoming, a fresh start."
+    alt: "Solveig handing Teo a coffee on his first morning on the contact centre floor"
+    caption: "First morning: onboarding starts where he needs it."
+    prompt: "Solveig, a fictional HR lead in her mid-fifties with a chin-length silver-blonde bob, fair skin, fine laugh lines and tortoiseshell reading glasses, wearing a navy blazer over a cream silk blouse and small silver earrings, welcomes the same fictional new employee, a young man in his mid-twenties with light brown skin and curly dark hair, now wearing a casual grey sweater and a new lanyard, on his first morning at his desk on the customer operations floor. She hands him a mug of coffee while he laughs, a headset and a closed laptop waiting on the desk, colleagues blurred in the background. Bright golden early-morning sunlight streams through the windows behind them, lens flare. Wide shot at eye level. Mood: warm, welcoming, a fresh start."
   - src: /assets/img/posts/role-based-candidate-assessments-scene-5.webp
-    alt: "Ingrid and the team lead reflecting on the hiring round at dusk"
-    caption: "A question good candidates miss is worth a second look."
-    prompt: "Ingrid, a fictional HR lead in her mid-fifties with a chin-length silver-blonde bob, fair skin, fine laugh lines and tortoiseshell reading glasses, wearing a navy blazer over a cream silk blouse and small silver earrings, sits across a desk from the fictional customer operations team lead, a man in his early thirties of South Asian heritage with short black hair and a neat beard, wearing a light blue open-collar shirt, in a small office at dusk at the end of a hiring round. Ingrid has taken her glasses off and taps them against a plain paper folder as she makes a point, he leans back thinking. A single warm desk lamp lights their faces, the city outside the window turning deep blue. Close-up on Ingrid in the foreground, him softly blurred. Mood: reflective, honest, improving the process."
+    alt: "Solveig and Rohan going through the hiring round at dusk"
+    caption: "When strong people miss the same question, check the question."
+    prompt: "Solveig, a fictional HR lead in her mid-fifties with a chin-length silver-blonde bob, fair skin, fine laugh lines and tortoiseshell reading glasses, wearing a navy blazer over a cream silk blouse and small silver earrings, sits across a desk from the fictional customer operations team lead, a man in his early thirties of South Asian heritage with short black hair and a neat beard, wearing a light blue open-collar shirt, in a small office at dusk at the end of a hiring round. Solveig has taken her glasses off and taps them against a plain paper folder as she makes a point, he leans back thinking. A single warm desk lamp lights their faces, the city outside the window turning deep blue. Close-up on Solveig in the foreground, him softly blurred. Mood: reflective, honest, improving the process."
 faq:
-  - q: "What is a role-based candidate assessment?"
-    a: "A role-based candidate assessment is a structured test focused on knowledge or skills relevant to a specific job. It can complement CV review, interviews, and work samples during selection."
-  - q: "Can an exam replace an interview?"
-    a: "No. An exam can provide evidence about defined knowledge, while interviews and practical tasks assess other dimensions such as communication, judgment, motivation, and applied performance."
-  - q: "Can Learning Clarity create candidate assessments?"
-    a: "Learning Clarity can support role-based Topics, quizzes, and exams that HR teams can use as one part of a broader assessment process."
-  - q: "Should candidate assessment results be the only hiring criterion?"
-    a: "No. High-stakes hiring decisions should use multiple relevant evidence sources and human judgment rather than relying on one score."
+  - q: "Can I build an assessment from our own policy documents?"
+    a: "Yes. Upload PDF files (up to 40 MB each), images or .txt files, and LearningClarity builds a topic and its subtopics from the content. Export Word or PowerPoint files to PDF first; scanned PDFs without a text layer cannot be read."
+  - q: "What can I set in Exam Mode?"
+    a: "You choose the scope, question types, difficulty (Medium, Hard or Random), timed or untimed, and the number of questions. Results show a score, a full question review, an AI performance summary of strengths and areas to revisit, and a mastery level."
+  - q: "Can another person get a copy of a topic I created?"
+    a: "Yes. Share it by email with another LearningClarity user. They preview it and accept or decline; on accepting they get an independent copy with their own progress."
 ---
-A CV summarizes experience. An interview reveals communication, judgment, motivation, and fit. Neither, by itself, proves that a candidate understands the knowledge required for a specific role. That is why many recruitment processes combine several selection methods rather than depending on a single signal.
+At 8:40 on a grey Monday, Henrik closed the meeting-room door and asked Solveig the question behind every role-based candidate assessment: "Before we make an offer, how do we know a new agent understands our escalation rules, and not just that they interview well?"
 
-Role-based candidate assessments add another source of evidence. They can help an HR team test defined knowledge or concepts before shortlisting, particularly when a role has clear technical, process, product, policy, or domain requirements.
+Solveig leads HR at Larkfield Energy's customer contact centre. Last spring, two hires with polished CVs and great interviews left within six weeks, both after escalations went wrong. Four agent offers had to go out by the end of the month, and Henrik, the operations director, wanted an answer at the quarterly review, five weeks away.
 
-With [Learning Clarity](https://www.learningclarity.ai/), an HR team can create a Topic around role requirements and use Quiz or Exam Mode to assess understanding. The result should be treated as one input in the hiring process, not as an automatic hiring decision.
+Solveig, Henrik and everyone at Larkfield are fictional. Her problem is not.
 
-## Why Candidate Assessment Should Be Role-Relevant
+## Tuesday, 7:30: what the role really needs
+
+Generic aptitude tests knew nothing about Larkfield's policies, so she started on the floor, before the phones opened, with Rohan, the team lead who would manage the new hires.
 
 {% include scene.html n=1 %}
 
-An assessment is useful only when it tests something that matters for the job. Generic knowledge tests may be easy to administer, but they can produce scores that are difficult to interpret. A better approach is to begin with the responsibilities of the role and identify the knowledge or skills that can reasonably be evaluated before hiring.
+They went through the thick policy binder and asked one thing of every section: does a new agent need this on day one, or will onboarding teach it? Escalation rules, refund policy, complaint handling and data protection basics stayed. The billing system's internal codes went. "If we test that," Rohan said, "we only hire people who already worked here."
 
-The [CIPD selection methods factsheet](https://www.cipd.org/uk/knowledge/factsheets/selection-factsheet/) distinguishes between interviews, psychometric tests, skill-based tasks, and assessment centres, and notes that skill-based assessments should resemble real job tasks where possible. For knowledge-focused roles, a structured exam can complement those methods by checking whether a candidate understands defined subject matter.
+## Wednesday: building a role-based candidate assessment
 
-## The Limits of CV-Only and Interview-Only Hiring
+That evening Solveig exported the four sections to PDF and uploaded them to [the LearningClarity study platform](https://www.learningclarity.ai). LearningClarity built a topic and its subtopics from them: the list from the floor, nothing more.
 
-CVs are useful for screening background and experience, but they depend on self-reported information and do not show how well a candidate can recall or apply role-specific knowledge. Interviews add richer context, but unstructured interviews can vary widely between candidates and interviewers.
-
-That does not make CVs or interviews obsolete. It means they work better as part of a broader evidence set. Recruitment quality improves when each method has a clear purpose: background screening, structured questioning, practical tasks, role-related knowledge checks, references, and human judgment.
-
-## How a Role-Based Assessment Workflow Works
+Then the step most teams skip: someone who does the job answers the questions before any candidate sees them. Abena, a senior agent with nine years on the phones, went first.
 
 {% include scene.html n=2 %}
 
-A practical workflow begins by defining the role, identifying the knowledge areas that can be tested fairly, and deciding what type of questions fit the job. The assessment should then be reviewed by someone who understands the role before candidates receive it.
+Abena opened **Quiz Mode** on all four subtopics and pressed "I don't know" instead of guessing. One honest wobble: she missed most of the data protection questions. She asked why each answer was correct and frowned. "These are about retention periods. That's the compliance team's job, not mine."
 
-Inside Learning Clarity, HR teams can create a Topic from role requirements or relevant supplied material, select appropriate subtopics, and use Quiz or Exam Mode to create a structured assessment. Scores and weak areas can then be reviewed alongside the rest of the candidate evidence.
+That section was out of date; testing it would have punished good candidates for Larkfield's old paperwork. Solveig uploaded the current guidance instead and built the topic again. The [CIPD factsheet on selection methods](https://www.cipd.org/uk/knowledge/factsheets/selection-factsheet/) says skill-based assessments should resemble real job tasks where possible. Abena had just shown her what that means.
 
-This approach is consistent with a broader skills-first direction in labour markets. The [OECD Skills-First Labour Market report](https://www.oecd.org/en/publications/a-skills-first-labour-market_2e1b85f0-en.html) discusses the growing importance of skills in how organizations think about matching people to work, while also highlighting the need for credible ways to understand and signal capabilities.
+## The next Tuesday: the candidates' half hour
 
-## What Should an Assessment Measure?
-
-The answer depends on the job. A compliance role may require knowledge of regulatory concepts. A customer service role may require understanding of escalation rules or product policies. A technical role may require architecture or troubleshooting knowledge. A sales role may require product, process, and scenario knowledge.
-
-Not every capability belongs in an online exam. Communication, collaboration, creativity, physical skills, and complex judgment may be better evaluated through interviews, work samples, simulations, or practical exercises. A role-based exam should focus on the knowledge it can measure reliably and leave the rest to other selection methods.
-
-## Practical Scenario: Screening Before the Final Interview
+Six shortlisted candidates had accepted the topic Solveig shared by email, each with their own copy. In a quiet meeting room, each took **Exam Mode** on the whole topic with the same settings: Medium difficulty, timed, 20 questions.
 
 {% include scene.html n=3 %}
 
-Imagine a company recruiting for a customer operations role. The team has a defined set of policies, product rules, and escalation procedures. After an initial application review, candidates receive a short role-related assessment covering those areas. The HR team reviews results and uses them together with interviews and practical exercises to decide who advances.
+Teo, 26, from retail, sat a long time over one question, chin on his hand. His results showed a score, a mastery level and an AI performance summary: strong on escalations and complaints, weaker on refund rules.
 
-The exam does not tell the company who to hire. It gives the team another structured data point. A candidate who performs strongly may still need to demonstrate communication and judgment. A candidate who struggles on one topic may still be a viable hire if the gap is trainable and other evidence is strong.
+Henrik wanted to rank the six by score and cut. Solveig refused: the exam was one input. Teo's structured interview and his mock complaint call with Rohan were the day's best, and refund rules can be taught. Teo got an offer.
 
-## How Learning Clarity Can Support the Transition Into Onboarding
+## Three weeks later: a first morning that started in the middle
 
 {% include scene.html n=4 %}
 
-One advantage of using a structured knowledge model in recruitment is that the same topic areas can inform onboarding after the person joins. The organization can take policies, product guides, SOPs, or other training material and turn them into learning Topics with explanations, quizzes, and exams.
+On Teo's first morning Solveig handed him a coffee, and he laughed when Rohan asked where he wanted to begin. His summary had named refunds, so he had already gone back to that subtopic in **Explain Mode**, tapping **Simplify** on partial refunds and letting **Listen** read sections aloud on the bus.
 
-The [SHRM onboarding guide](https://www.shrm.org/topics-tools/news/technology/new-employee-onboarding-guide) emphasizes that onboarding is more than initial paperwork. It includes helping new employees understand the organization, their role, and the information they need to perform. Learning Clarity can support that knowledge component while managers and HR continue to provide coaching, context, culture, and practical experience.
-
-## Best Practices for Fairer, More Useful Candidate Assessments
-
-Keep assessments directly connected to the role, give candidates clear instructions, and avoid unnecessary complexity. Use consistent question sets or equivalent difficulty across candidates where fairness matters. Review generated questions before use, especially for high-stakes hiring decisions.
-
-Use the assessment as evidence, not as an unquestioned verdict. Consider accessibility, language, time limits, and whether the test disadvantages candidates for reasons unrelated to job performance. Where possible, combine knowledge checks with structured interviews and realistic work samples.
-
-## Designing a Fair Candidate Assessment, Step by Step
+## The evening before the review
 
 {% include scene.html n=5 %}
 
-Start from the role, not from a question bank. List the knowledge a new hire genuinely needs from the first day — the policies, product rules or technical concepts that cannot be picked up quickly on the job — and leave out everything that onboarding will teach anyway. Create the Topic from that scope so the questions cannot drift into trivia.
+At dusk, Solveig and Rohan reviewed the round. Three of the four new hires had stumbled on the same refund exception. When strong people miss the same thing, the question or the policy is usually the problem. Rohan agreed to rewrite that page before the next round.
 
-Ask someone who does the job to review every question before the assessment is used. Each question should have one clearly correct answer, use language the candidate pool will understand, and avoid internal jargon. Keep the question set and time limit the same for everyone applying to the same role so results can be compared fairly, and consider accessibility needs before the assessment is sent.
+On Thursday Henrik asked again, and Solveig answered. "We still don't know everything. But for each of the four, I can show you what they knew about our policies before the offer, what we taught them first, and which part of our own material was wrong."
 
-Decide in advance how the result will be used — for example, as one input to shortlisting alongside the CV review and interviews — and tell candidates what the assessment covers. After each hiring round, look at the questions that strong hires got wrong. A question that good candidates miss is more likely to be flawed than informative, and removing it makes the next round fairer.
+Henrik was quiet for a moment. "That's the first hiring answer I can actually check."
 
-## Conclusion
+## Three takeaways
 
-Better hiring is not about replacing human judgment with a score. It is about giving decision-makers clearer evidence before they make a decision.
+- **Start from the role, not a question bank.** Test what a new hire needs on day one; leave the rest to onboarding.
+- **Let someone who does the job go first.** If they miss it, fix the material, not the candidate.
+- **Treat the score as one input.** Its gaps show where onboarding begins.
 
-If your recruitment process would benefit from a structured role-knowledge layer, [create a free Learning Clarity account](https://www.learningclarity.ai/auth/signup?utm_source=blog&utm_medium=cta&utm_campaign=role-based-candidate-assessments) and test how a role-based Topic can be turned into a quiz or exam.
-
-## Sources
-
-1. [CIPD selection methods factsheet](https://www.cipd.org/uk/knowledge/factsheets/selection-factsheet/)
-2. [OECD Skills-First Labour Market report](https://www.oecd.org/en/publications/a-skills-first-labour-market_2e1b85f0-en.html)
-3. [SHRM onboarding guide](https://www.shrm.org/topics-tools/news/technology/new-employee-onboarding-guide)
+Hiring soon? Read [how Nevine filled 50 posts in six days](/en/2026/10/mass-recruitment-training-story/), then upload one policy your team relies on and take a five-question quiz on it yourself before any candidate does.

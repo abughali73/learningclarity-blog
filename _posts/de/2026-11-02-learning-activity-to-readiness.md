@@ -1,142 +1,120 @@
 ---
-title: "Von Lernaktivität zu Bereitschaft: Warum Fortschritt Belege braucht"
-description: "Lernerfolg nachweisen: Warum Aktivität allein keine Bereitschaft beweist und wie Übung, Prüfungen, Feedback und Fortschrittsverfolgung Belege liefern."
+title: "Zertifizierungsprüfung vorbereiten: Freyas Tagebuch bis zur Prüfung"
+description: "Zertifizierungsprüfung vorbereiten in fünf Wochen: Freyas Lerntagebuch zeigt, warum Stunden und Serien täuschten und was ihre Bereitschaft wirklich belegte."
 date: 2026-11-02 23:15:00 +0200
 lang: de
 ref: learning-activity-to-readiness
 capability: learning-insights
 image: /assets/img/posts/learning-activity-to-readiness-cinematic.webp
-keywords: ["Lernerfolg nachweisen", "Aktivität vs. Bereitschaft", "Prüfung als Beleg", "Bereitschaftsnachweis", "Fortschrittsverfolgung"]
-tags: [LearningClarity, LearningClarityAI, MessbaresLernen, Lernerfolg, Fortschrittsverfolgung, Feedback, Zertifizierung, Weiterbildung, BetrieblicheWeiterbildung, OnlineLernen, EdTech, AIinEducation, LifelongLearning]
+keywords: ["Zertifizierungsprüfung vorbereiten", "Lernerfolg nachweisen", "woran erkenne ich, dass ich prüfungsreif bin", "Probeprüfung", "Lerntagebuch"]
+tags: [LearningClarity, LearningClarityAI, Prüfungsvorbereitung, Zertifizierung, Projektmanagement, Lerntipps, Weiterbildung, OnlineLernen, QuizMode, ExamMode, EdTech, AIinEducation, LifelongLearning]
 ad:
   color: purple
-  eyebrow: "Messbares Lernen"
-  headline: "Von Lernaktivität zu"
-  highlight: "echter Bereitschaft"
-  subtitle: "Übung, Prüfung und Fortschritt werden zu Belegen."
+  eyebrow: "Von beschäftigt zu bereit"
+  headline: "Fünf Wochen von beschäftigt"
+  highlight: "zu wirklich bereit"
+  subtitle: "Freyas Zertifizierungstagebuch: Belege statt Fleiß."
   items:
     - icon: chart
-      title: "Aktivität ist nicht Bereitschaft"
-      bullets: ["Zeit und Klicks beschreiben Verhalten", "Abschluss zeigt nur den Kontakt"]
+      title: "Aktivität ist keine Bereitschaft"
+      bullets: ["Eine Serie zeigt, dass Sie da waren", "Quizze zeigen, was hängen blieb"]
     - icon: target
-      title: "Prüfen, um zu steuern"
-      bullets: ["Quizze stärken und zeigen Erinnerung", "Die Prüfung als formeller Kontrollpunkt"]
+      title: "Ehrlich üben"
+      bullets: ["„Weiß ich nicht“ statt raten", "Punktzahl, Aufschlüsselung, Beherrschung"]
     - icon: check
-      title: "Nach Belegen handeln"
-      bullets: ["Schwachstellen zeigen, was zu wiederholen ist", "Fortschritt als Trend lesen"]
+      title: "Prüfung als Kontrollpunkt"
+      bullets: ["Umfang, Schwierigkeit, Zeit, Fragen", "KI-Zusammenfassung der Lücken"]
     - icon: people
-      title: "Verantwortungsvoll entscheiden"
-      bullets: ["Klareres Bild für Aufsichtspersonen", "Menschliche Prüfung bei hohem Einsatz"]
-  footnote: ""
+      title: "Den Trend sichtbar machen"
+      bullets: ["Betreuer per E-Mail einladen", "Geplante Fortschrittsberichte per E-Mail"]
+  footnote: "Freya, Desmond, Anjali und ihre Spedition sind frei erfunden."
 hero_image:
   src: /assets/img/posts/learning-activity-to-readiness-cinematic.webp
-  alt: "Lena in der Abenddämmerung am Schreibtisch, der Laptop abgewandt, nachdenklich über ihren handschriftlichen Notizen"
-  prompt: "Lena, a fictional independent learner in her late twenties with shoulder-length wavy auburn hair, light freckled skin and round tortoiseshell glasses, wearing an oversized mustard-yellow knit sweater over a white T-shirt, sits at a small desk by a window in her rented flat in the evening, a laptop open in front of her with its screen turned away from the camera, a thick paper notebook and a stack of sticky tabs beside it. She has just closed a practice session and leans back slightly, pen resting against her lip, looking down at a short handwritten list of her own notes with a thoughtful, quietly determined expression, deciding what she really knows. Deep blue dusk outside the window, a warm desk lamp casting an amber pool of light over her hands and the notebook, the room behind her softly in shadow. Mid-shot at eye level, shallow depth of field. Mood: calm evening focus, honest self-assessment. No text, letters or numbers visible anywhere, no logos."
+  alt: "Freya in der Abenddämmerung am Schreibtisch, Laptop abgewandt, prüft in ihren Notizen, was sie wirklich kann"
+  prompt: "Freya, a fictional independent learner in her late twenties with shoulder-length wavy auburn hair, light freckled skin and round tortoiseshell glasses, wearing an oversized mustard-yellow knit sweater over a white T-shirt, sits at a small desk by a window in her rented flat in the evening, a laptop open in front of her with its screen turned away from the camera, a thick paper notebook and a stack of sticky tabs beside it. She has just closed a practice session and leans back slightly, pen resting against her lip, looking down at a short handwritten list of her own notes with a thoughtful, quietly determined expression, deciding what she really knows. Deep blue dusk outside the window, a warm desk lamp casting an amber pool of light over her hands and the notebook, the room behind her softly in shadow. Mid-shot at eye level, shallow depth of field. Mood: calm evening focus, honest self-assessment. No text, letters or numbers visible anywhere, no logos."
 scenes:
   - src: /assets/img/posts/learning-activity-to-readiness-scene-1.webp
-    alt: "Lena spätabends am Schreibtisch, das Kinn auf die Hand gestützt, müde nach stundenlangem Lernen"
-    caption: "Stunden am Schreibtisch heißen nicht, dass es sitzt."
-    prompt: "Lena, a fictional independent learner in her late twenties with shoulder-length wavy auburn hair, light freckled skin and round tortoiseshell glasses, wearing an oversized mustard-yellow knit sweater over a white T-shirt, sits at the same small desk late at night after hours of studying, chin propped on one hand, staring past a laptop whose screen faces away from the camera, several highlighted printouts and an empty mug scattered around her. Her eyes are tired and unfocused, busy but unsure anything has stuck. Cool blue light from the laptop on her face mixed with a dim warm lamp, the window behind her completely dark. Wide shot from a slightly high angle, the desk clutter filling the foreground. Mood: long effort, quiet doubt. No text, letters or numbers visible anywhere, no logos."
+    alt: "Freya spät abends am Schreibtisch, das Kinn auf die Hand gestützt, müde nach einem langen Lernabend"
+    caption: "4. Oktober: 13 Tage Serie – und leise Zweifel."
+    prompt: "Freya, a fictional independent learner in her late twenties with shoulder-length wavy auburn hair, light freckled skin and round tortoiseshell glasses, wearing an oversized mustard-yellow knit sweater over a white T-shirt, sits at the same small desk late at night after hours of studying, chin propped on one hand, staring past a laptop whose screen faces away from the camera, several highlighted printouts and an empty mug scattered around her. Her eyes are tired and unfocused, busy but unsure anything has stuck. Cool blue light from the laptop on her face mixed with a dim warm lamp, the window behind her completely dark. Wide shot from a slightly high angle, the desk clutter filling the foreground. Mood: long effort, quiet doubt. No text, letters or numbers visible anywhere, no logos."
   - src: /assets/img/posts/learning-activity-to-readiness-scene-2.webp
-    alt: "Lena kreist mit rotem Stift eine Schwachstelle im Notizbuch ein, ein Tablet in der Hand"
-    caption: "Eine verpasste Frage wird zum klaren nächsten Schritt."
-    prompt: "Close-up of Lena, a fictional independent learner in her late twenties with shoulder-length wavy auburn hair, light freckled skin and round tortoiseshell glasses, wearing an oversized mustard-yellow knit sweater over a white T-shirt, holding a tablet tilted away from the camera so its screen cannot be seen, while with her other hand she draws a firm circle with a red pen around a small sketched shape in her open paper notebook, marking one weak area to revisit. Her expression shifts from mild disappointment to resolve. Warm tungsten desk-lamp light from the side, soft shadows, the background of her evening flat blurred. Over-the-shoulder framing at eye level, focus on the pen and her hand. Mood: a missed question turning into a clear next step. No text, letters or numbers visible anywhere, no logos."
+    alt: "Freya kreist mit rotem Stift eine Schwachstelle in ihrem Notizbuch ein, ein Tablet in der Hand"
+    caption: "5. Oktober: ein ehrliches Quiz, ein roter Kreis."
+    prompt: "Close-up of Freya, a fictional independent learner in her late twenties with shoulder-length wavy auburn hair, light freckled skin and round tortoiseshell glasses, wearing an oversized mustard-yellow knit sweater over a white T-shirt, holding a tablet tilted away from the camera so its screen cannot be seen, while with her other hand she draws a firm circle with a red pen around a small sketched shape in her open paper notebook, marking one weak area to revisit. Her expression shifts from mild disappointment to resolve. Warm tungsten desk-lamp light from the side, soft shadows, the background of her evening flat blurred. Over-the-shoulder framing at eye level, focus on the pen and her hand. Mood: a missed question turning into a clear next step. No text, letters or numbers visible anywhere, no logos."
   - src: /assets/img/posts/learning-activity-to-readiness-scene-3.webp
-    alt: "Lena schreibt in einer Bibliothek im Morgenlicht eine zeitlich begrenzte Probeprüfung"
-    caption: "Eine Probeprüfung als Kontrollpunkt vor der echten."
-    prompt: "Lena, a fictional independent learner in her late twenties with shoulder-length wavy auburn hair, light freckled skin and round tortoiseshell glasses, wearing an oversized mustard-yellow knit sweater over a white T-shirt, sits alone at a long wooden table in a quiet public library on a Saturday morning, taking a timed practice exam on a laptop whose screen faces away from the camera, sitting upright, completely focused, a pencil and a glass of water beside her and a blurred wall clock without visible numerals in the far background. Bright pale morning daylight pours through tall arched windows, long shafts of light and floating dust, rows of bookshelves softly out of focus. Wide shot at a low angle across the table surface. Mood: a serious checkpoint, calm concentration. No text, letters or numbers visible anywhere, no logos."
+    alt: "Freya schreibt an einem Bibliothekstisch im Morgenlicht eine Probeprüfung mit Zeitlimit"
+    caption: "17. Oktober: 30 Fragen mit Zeitlimit und ein Ergebnis, das wehtat."
+    prompt: "Freya, a fictional independent learner in her late twenties with shoulder-length wavy auburn hair, light freckled skin and round tortoiseshell glasses, wearing an oversized mustard-yellow knit sweater over a white T-shirt, sits alone at a long wooden table in a quiet public library on a Saturday morning, taking a timed practice exam on a laptop whose screen faces away from the camera, sitting upright, completely focused, a pencil and a glass of water beside her and a blurred wall clock without visible numerals in the far background. Bright pale morning daylight pours through tall arched windows, long shafts of light and floating dust, rows of bookshelves softly out of focus. Wide shot at a low angle across the table surface. Mood: a serious checkpoint, calm concentration. No text, letters or numbers visible anywhere, no logos."
   - src: /assets/img/posts/learning-activity-to-readiness-scene-4.webp
-    alt: "Ein Teamleiter und eine HR-Verantwortliche prüfen Lernergebnisse neben einer Arbeitsprobe"
-    caption: "Lerndaten, abgewogen mit der echten Arbeit."
+    alt: "Freyas Vorgesetzter und die HR-Leiterin prüfen ihren Fortschrittsbericht neben einem Projektplan, den sie geschrieben hat"
+    caption: "21. Oktober: der Bericht neben der echten Arbeit."
     prompt: "In a glass-walled meeting room of a mid-sized European office in the afternoon, a fictional team manager in his early fifties, Black British, with short greying hair and a neatly trimmed beard, wearing a navy cardigan over a light blue shirt, sits beside a fictional HR lead in her mid-thirties of South Asian background, with a sleek dark ponytail, wearing a charcoal blazer. A laptop between them faces away from the camera; the manager gestures toward a printed work sample on the table while the HR lead listens and nods, weighing learning results alongside real work. Soft diffused overcast daylight from the window, neutral tones, plants in the corner, blank walls. Mid-shot at eye level, slightly from the side. Mood: careful, fair, thoughtful judgment. No text, letters or numbers visible anywhere, no charts on walls, no logos."
   - src: /assets/img/posts/learning-activity-to-readiness-scene-5.webp
-    alt: "Lena trägt zur goldenen Stunde mit einem ruhigen Lächeln ein letztes Häkchen ins Notizbuch ein"
-    caption: "Schwachstellen wiederholt – der Trend zeigt nach oben."
-    prompt: "Lena, a fictional independent learner in her late twenties with shoulder-length wavy auburn hair, light freckled skin and round tortoiseshell glasses, wearing an oversized mustard-yellow knit sweater over a white T-shirt, a few weeks later at her desk by the window at golden hour, leaning forward with a relaxed, quietly proud smile as she adds a final small tick mark beside a column of simple hand-drawn shapes in her paper notebook, several sticky tabs now removed and stacked neatly to one side, the laptop closed. Warm low sunset light streams across the desk and her face, long soft shadows, a plant glowing on the windowsill. Close mid-shot from a slightly low angle. Mood: steady progress, confidence earned. No text, letters or numbers visible anywhere, no logos."
+    alt: "Freya setzt im goldenen Abendlicht mit stillem Lächeln einen letzten Haken in ihr Notizbuch"
+    caption: "31. Oktober: die letzte Schwachstelle, abgehakt."
+    prompt: "Freya, a fictional independent learner in her late twenties with shoulder-length wavy auburn hair, light freckled skin and round tortoiseshell glasses, wearing an oversized mustard-yellow knit sweater over a white T-shirt, a few weeks later at her desk by the window at golden hour, leaning forward with a relaxed, quietly proud smile as she adds a final small tick mark beside a column of simple hand-drawn shapes in her paper notebook, several sticky tabs now removed and stacked neatly to one side, the laptop closed. Warm low sunset light streams across the desk and her face, long soft shadows, a plant glowing on the windowsill. Close mid-shot from a slightly low angle. Mood: steady progress, confidence earned. No text, letters or numbers visible anywhere, no logos."
 faq:
-  - q: "Was sind Belege für Bereitschaft im Lernen?"
-    a: "Eine Kombination relevanter Signale wie Abschluss, Quiz-Ergebnisse, Prüfungsleistung, Fortschritt und Muster bei Schwachstellen, anhand derer beurteilt wird, ob eine lernende Person für den nächsten Schritt bereit ist."
-  - q: "Warum reicht Abschluss allein nicht aus?"
-    a: "Ein Abschluss zeigt, dass eine Aktivität beendet wurde. Er zeigt nicht unbedingt, dass die lernende Person das Material verstanden oder behalten hat."
-  - q: "Wie können Prüfungen bei der Beurteilung der Bereitschaft helfen?"
-    a: "Prüfungen können zeigen, was eine lernende Person abrufen oder verstehen kann, und helfen, Themen zu erkennen, die mehr Wiederholung brauchen."
-  - q: "Kann Learning Clarity die Bereitschaft verfolgen?"
-    a: "Learning Clarity kann Entscheidungen über Bereitschaft mit strukturierten Themen, Quizzen, Prüfungen, sichtbaren Schwachstellen, Fortschrittsverfolgung und Aufsicht unterstützen."
+  - q: "Woran erkenne ich, dass ich für eine Zertifizierungsprüfung bereit bin?"
+    a: "In LearningClarity zeigt Quiz Mode eine Punktzahl, eine Aufschlüsselung in richtige, falsche und „Weiß ich nicht“-Antworten sowie ein Beherrschungsniveau. Exam Mode ergänzt eine vollständige Fragenauswertung und eine KI-Zusammenfassung Ihrer Stärken und der Bereiche, die Sie wiederholen sollten."
+  - q: "Warum „Weiß ich nicht“ wählen statt zu raten?"
+    a: "Die Option „Weiß ich nicht“ in Quiz Mode ergibt ein genaueres Bild als Raten, sodass Ihre Ergebnisse die Unterthemen zeigen, die Sie wirklich wiederholen müssen."
+  - q: "Kann meine Führungskraft meinen Lernfortschritt verfolgen?"
+    a: "Nur wenn beide Seiten zustimmen. Sie können einen Betreuer per E-Mail einladen; nimmt er an, erhält er geplante E-Mail-Berichte, wöchentlich, alle zwei Wochen oder monatlich, mit Themenfortschritt sowie aktuellen Quizzen und Prüfungen."
 ---
-Lernplattformen können viele Aktivitäten erfassen: Jemand hat ein Thema geöffnet, Zeit in einem Modul verbracht, ein Quiz beendet oder eine Prüfung abgeschlossen. Diese Ereignisse sind nützlich, aber Aktivität sollte nicht mit Bereitschaft verwechselt werden.
+## Montag, 21. September: fünf Wochen, um die Zertifizierungsprüfung vorzubereiten
 
-Belastbare Belege dafür, dass jemand bereit ist, entstehen erst aus mehreren Signalen zusammen: welches Material abgeschlossen wurde, wie die lernende Person bei Übungen und Prüfungen abgeschnitten hat, welche Bereiche schwierig waren und ob sich die Leistung nach der Wiederholung verbessert.
+Heute Abend fange ich an, meine Zertifizierungsprüfung vorzubereiten, denn heute Nachmittag hat Desmond die Tür des Glasbesprechungsraums geschlossen und gesagt: „Im Januar wird die Stelle als Projektleiterin frei. Besteh die Zertifizierungsprüfung am 24. Oktober, dann gehört sie dir. Anjali aus der Personalabteilung wird aber mehr sehen wollen als ein Zertifikat. Bring einen echten Projektplan mit, den du selbst geschrieben hast.“
 
-[Learning Clarity](https://www.learningclarity.ai/) unterstützt diesen Aufbau von Belegen, indem es strukturierte Lerninhalte mit Erklär-Modus, Quiz-Modus, Prüfungsmodus, Fortschrittsverfolgung, Aufsicht und Zertifikaten verbindet.
+Fünf Wochen, neben meinem Vollzeitjob als Projektkoordinatorin. Ich führe dieses Tagebuch, um ehrlich zu erkennen, ob ich mich vorbereite oder nur beschäftigt bin. (Freya, Desmond, Anjali und unsere Spedition sind frei erfunden. Der Unterschied zwischen beschäftigt und bereit ist es nicht.)
 
-## Warum Aktivitätskennzahlen in die Irre führen können
+Das 600-Seiten-Handbuch und die Foren hätten mir Masse gegeben, aber kein Bild davon, was ich weiß. Also habe ich [die Lernplattform LearningClarity](https://www.learningclarity.ai) geöffnet und eingetippt: „Zertifizierung im Projektmanagement, mittleres Niveau: Umfang, Terminplanung, Kosten und Earned Value, Risiken, Stakeholder und Beschaffung. Ich leite täglich Projekte; mir fehlen Theorie und Fachbegriffe.“ Daraus wurden das Thema und seine Unterthemen.
+
+## Woche zwei: Die Serie sagte Ja, mein Kopf sagte Nein
+
+**Sonntag, 4. Oktober.** 13 Tage Serie. Vierzehn Stunden diese Woche in Explain Mode (Erklärmodus), jeden Abschnitt gelesen: Weiter, Weiter, Weiter. Drei Textmarker leer.
 
 {% include scene.html n=1 %}
 
-Zeitaufwand, Klicks und Abschluss sind leicht zu messen, weshalb sie Lern-Dashboards oft dominieren. Sie beschreiben aber Verhalten, nicht unbedingt Verständnis. Jemand kann lange an einem Inhalt sitzen, weil er schwierig ist, weil die Person abgelenkt ist oder weil sie sich intensiv damit beschäftigt. Dieselbe Kennzahl kann Verschiedenes bedeuten.
+Heute Abend wollte ich Earned Value ohne Notizen erklären und kam nirgendwohin. Die Serie zählt die Tage, an denen ich da war. Sie zählt nicht, was hängen geblieben ist. Das ist Aktivität, keine Bereitschaft.
 
-Bereitschaft braucht deshalb ein vollständigeres Bild. Ein Abschluss kann bestätigen, dass jemand mit dem Stoff in Berührung gekommen ist. Quiz-Ergebnisse können Erinnerung und Verständnis zeigen. Prüfungsleistungen können einen formelleren Kontrollpunkt bieten. Muster bei Schwachstellen können anzeigen, was wiederholt werden sollte.
-
-## Prüfung als Beleg, nicht als Strafe
-
-Prüfungen funktionieren am besten, wenn sie mit dem Lernziel verbunden sind und die nächsten Schritte bestimmen helfen. Schwache Leistung sollte nicht automatisch als Versagen gelten; sie kann ein diagnostisches Signal sein, dass die lernende Person eine weitere Erklärung oder mehr Übung braucht.
-
-Die [Forschung zum Testing-Effekt](https://pubmed.ncbi.nlm.nih.gov/26151629/) zeigt, warum das Abrufen selbst zum Lernen beitragen kann. Ein gut gestaltetes Quiz hat daher zwei Aufgaben: Es liefert Belege und gibt der lernenden Person Gelegenheit, das Abrufen des benötigten Wissens zu üben.
-
-## Feedback macht Belege nutzbar
+**Montag, 5. Oktober.** Neue Regel: erst testen, dann nachlesen. Ich habe Quiz Mode (Quizmodus) für vier Unterthemen geöffnet und mir versprochen, „Weiß ich nicht“ zu drücken, statt zu raten. Ergebnis: 58 %, mit sieben „Weiß ich nicht“, fünf davon zu Earned Value und Risikobewältigung. Unschön, aber das erste ehrliche Bild seit zwei Wochen. (Sofia hat dieselbe Lektion gelernt, nachzulesen in [der Geschichte über Übungstests, die ihr nicht mehr schmeichelten](/de/2026/10/practice-quizzes-stop-guessing/).)
 
 {% include scene.html n=2 %}
 
-Prüfungsdaten haben wenig Wert, wenn die lernende Person nicht weiß, was sie damit anfangen soll. Das nützlichste Ergebnis weist auf eine nächste Handlung hin: ein Unterthema wiederholen, ein Konzept üben, um Unterstützung bitten oder weitermachen.
+Ich habe gefragt, warum jede richtige Antwort richtig ist, bin zu Earned Value zurück, habe Simplify (Vereinfachen) angetippt, bis es klick machte, und dann Visualize (Visualisieren) für ein beschriftetes Diagramm, das ich von Hand abgezeichnet habe. Die Risikobewältigung habe ich in einen KI-Podcast verwandelt; der angedockte Player lief in der Straßenbahn weiter, während ich andere Unterthemen durchging. Und ich habe Desmond per E-Mail als Betreuer eingeladen, mit wöchentlichen Berichten. Wenn ich sage, dass ich bereit bin, soll er den Trend sehen, nicht nur mein Wort.
 
-Die [EEF-Evidenz zu Feedback](https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/feedback) betont die Rolle von Feedback dabei, Lernenden zu zeigen, wie ihre Leistung mit den Zielen zusammenhängt. Lernsysteme sollten diesen Zusammenhang sichtbar machen, statt Punktzahlen ohne Kontext zu präsentieren.
+## Samstag, 17. Oktober: 64 % in der Bibliothek
 
-## Wie Learning Clarity Aktivität mit Bereitschaft verbindet
-
-Learning Clarity gliedert Inhalte in Themen und Unterthemen, wodurch der Lernumfang klar wird. Der Erklär-Modus unterstützt angeleitetes Verstehen, der Quiz-Modus bietet Übung, und der Prüfungsmodus lässt sich als strukturierter Bereitschaftscheck nutzen. Die Fortschrittsverfolgung hält dann den gesamten Lernweg fest statt nur ein einzelnes Ergebnis.
-
-Für Aufsichtspersonen kann so ein klareres Bild entstehen, wer das vorgeschriebene Material abgeschlossen hat, wo die Leistung stark ist und wo mehr Unterstützung hilfreich sein könnte. Lernende sehen ihren Fortschritt und können entscheiden, was sie als Nächstes wiederholen.
-
-## Praxisbeispiel: Vorbereitung auf eine berufliche Zertifizierung
+Bibliothek um neun. Exam Mode (Prüfungsmodus), eingestellt wie die echte Prüfung: das ganze Thema, 30 Fragen, Schwierigkeit Hard, mit Zeitlimit.
 
 {% include scene.html n=3 %}
 
-Wer sich selbstständig auf eine Zertifizierung vorbereitet, kann das Fachgebiet hochladen oder beschreiben, das Thema durcharbeiten und nach jedem Unterthema Quizze machen. Fühlt sich die Person bereit, kann sie den Prüfungsmodus als Kontrollpunkt nutzen. Zeigen die Ergebnisse eine beständige Schwäche in einem Bereich, wird dieses Unterthema zur Priorität für die nächste Lerneinheit.
+64 %. Das tat weh. Die KI-Leistungszusammenfassung war klar und nützlich: stark bei Terminplanung und Umfang; wiederholen: Stakeholder-Kommunikation und Beschaffung. Earned Value, mein roter Kreis, lief gut, die unschönen Quizze hatten also gewirkt. Es gibt [Forschung zum Testeffekt](https://pubmed.ncbi.nlm.nih.gov/26151629/), die zeigt, dass schon das Abrufen von Wissen Übung ist. Das sagt einiges über meine Textmarker.
 
-Dieselbe Logik gilt im Unternehmen. Wer eine rollenbezogene Schulung absolviert, kann strukturierte Inhalte durcharbeiten, üben und eine Bereitschaftsprüfung ablegen. Die Führungskraft hat dann mehr Belege als nur ein Häkchen für den Abschluss.
+Abends zwei kurze Gespräche mit Talk to This (Sprachtutor), in denen ich meinen Stakeholder-Plan laut erklärt habe, bis ich nicht mehr gezögert habe.
 
-## Wie Organisationen Belege zur Bereitschaft verantwortungsvoll nutzen
+## Mittwoch, 21. Oktober: das Meeting, bei dem ich nicht dabei war
+
+Desmond und Anjali haben sich heute wegen Januar getroffen. Hinterher erzählte er, dass sie meinen Wochenbericht neben dem Projektplan offen hatten, den ich für den Lagerumzug geschrieben habe.
 
 {% include scene.html n=4 %}
 
-Daten zur Bereitschaft sollten im Kontext interpretiert werden. Eine Wissensprüfung eignet sich für Wissen. Sie kann nicht jedes praktische Verhalten, jede zwischenmenschliche Fähigkeit oder jedes Leistungsergebnis in der realen Arbeit beweisen. Führungskräfte sollten Lerndaten mit Beobachtung, Coaching, Arbeitsproben und anderen relevanten Belegen kombinieren.
+„Der Bericht zeigt einen Trend“, sagte er. „Die Ergebnisse steigen, die Schwachstellen hast du wiederholt. Aber Anjali ist deinen Plan Zeile für Zeile durchgegangen, denn kein Quiz zeigt, ob du ein Kick-off leiten kannst.“ Fair. Die Daten helfen ihnen, bessere Fragen zu stellen; die Entscheidung bleibt ihre.
 
-Der [OECD-Bericht zur Nutzung von Kompetenzen am Arbeitsplatz](https://www.oecd.org/en/publications/how-workers-use-or-don-t-use-their-skills-in-the-workplace_0e7c6dc9-en/full-report.html) unterstreicht, dass es bei Kompetenzen darauf ankommt, wie sie bei der Arbeit angewendet werden. Lernbelege können Entscheidungen über Bereitschaft stützen, doch Organisationen sollten weiterhin prüfen, ob das Wissen in die reale Arbeitsumgebung übertragen wird.
+Donnerstag: zweite Prüfung mit denselben Einstellungen. 83 %.
 
-## Best Practices für bessere Entscheidungen über Bereitschaft
+## Samstag, 31. Oktober: der letzte Haken
 
-Legen Sie fest, was Bereitschaft bedeutet, bevor Sie die Prüfung gestalten. Setzen Sie mehrere kleine Kontrollpunkte ein, statt sich nur auf eine einzige Abschlusspunktzahl zu verlassen. Machen Sie Schwachstellen sichtbar und geben Sie Lernenden einen Weg, sich zu verbessern. Halten Sie die Prüfungsinhalte im Einklang mit dem Material, das tatsächlich vermittelt oder zugewiesen wurde.
-
-Ergänzen Sie bei folgenreichen Entscheidungen eine Prüfung durch Menschen. Lerndaten sind nützlich, weil sie Rätselraten verringern, nicht weil sie Urteilsvermögen überflüssig machen.
-
-## Einen einfachen Bereitschaftsnachweis aufbauen
+Gestern kam das Ergebnis: bestanden. Die Prüfung, die Abende und der Plan waren meine eigene Arbeit.
 
 {% include scene.html n=5 %}
 
-Bereitschaft lässt sich leichter beurteilen, wenn die Belege jedes Mal auf dieselbe Weise gesammelt werden. Ein einfacher Nachweis pro lernender Person und Thema kann vier Teile haben: welche Unterthemen abgeschlossen wurden, wie sich die Quiz-Ergebnisse über die Versuche verändert haben, das Ergebnis einer breiteren Prüfung und welche Schwachstellen danach wiederholt wurden.
+Desmond rief an, bevor ich die E-Mail zu Ende gelesen hatte. „Anjali sagt, deiner ist der erste Plan, den sie nicht zurückschicken musste. Der Januar gehört dir.“ Heute Abend habe ich die letzte Schwachstelle abgehakt und die Klebezettel abgezogen.
 
-Lesen Sie den Nachweis als Trend, nicht als Momentaufnahme. Wer im ersten Quiz schlecht abgeschnitten, sich aber nach der Wiederholung eines Unterthemas verbessert hat, zeigt genau das Muster, das der Prozess hervorbringen soll. Wer mit einer hohen ersten Punktzahl startet und danach keine weitere Aktivität zeigt, ist vielleicht bereit – oder ist einfach auf Stoff gestoßen, den die Person schon kannte. Der Nachweis hilft Aufsichtspersonen, die richtige Nachfrage zu stellen, statt zu raten.
+## Was mein Tagebuch mich gelehrt hat
 
-Vereinbaren Sie im Voraus, was „bereit“ für das Thema bedeutet, zum Beispiel eine bestandene Prüfung, ohne dass ein Unterthema unter einem vereinbarten Niveau liegt. Die Regel schriftlich festzuhalten sorgt für einheitliche Entscheidungen zwischen Lernenden und macht klar, welche Belege weiterhin menschliches Urteil brauchen, etwa praktische Aufgaben, die keine Online-Prüfung beobachten kann.
+- **Aktivität ist keine Bereitschaft.** Stunden und Serien zeigen Fleiß; Quizze und Prüfungen zeigen, was hängen blieb.
+- **„Weiß ich nicht“ ist eine Information.** Raten versteckt genau die Lücke, die Sie sehen müssen.
+- **Lesen Sie den Trend und holen Sie einen Menschen dazu.** Eine steigende Linie neben echter Arbeit überzeugt mehr als jede einzelne Punktzahl.
 
-## Fazit
-
-Bereitschaft ist belastbarer, wenn sie auf Belegen beruht statt auf Annahmen. Ziel ist nicht, Lerndaten um ihrer selbst willen zu sammeln, sondern die nächste Lern- oder Managemententscheidung klarer zu machen.
-
-Sie können [Learning Clarity testen](https://www.learningclarity.ai/auth/signup?utm_source=blog&utm_medium=cta&utm_campaign=learning-activity-to-readiness) – mit einem vorhandenen Thema – und sehen, wie Erklärungen, Übung, Prüfung und Fortschritt zusammenwirken.
-
-## Quellen
-
-1. [Forschung zum Testing-Effekt](https://pubmed.ncbi.nlm.nih.gov/26151629/)
-2. [EEF-Evidenz zu Feedback](https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/feedback)
-3. [OECD-Bericht zur Nutzung von Kompetenzen am Arbeitsplatz](https://www.oecd.org/en/publications/how-workers-use-or-don-t-use-their-skills-in-the-workplace_0e7c6dc9-en/full-report.html)
+Jetzt Sie: Wählen Sie das Thema, das Sie bis zu einem echten Termin brauchen, machen Sie ein ehrliches Quiz, bevor Sie eine einzige Seite nachlesen, und schreiben Sie das Ergebnis in ein Tagebuch.
