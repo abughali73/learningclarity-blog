@@ -133,10 +133,9 @@
     - Do not mention free credits, credit packs, "no subscription" or "credits never expire"; that pricing model was retired on 5 November 2026.
 - key: referral
   name: Referral program
-  hold: true   # referral rewards were credit-based; on hold until the subscription-era terms are confirmed
   facts:
-    - Every user has a referral code; a friend who signs up with it gets 200 bonus credits on top of the 300 welcome credits (500 in total).
-    - When a referred friend makes their first credit purchase, the referrer receives a bonus of 10% of the credits purchased (first purchase only).
+    - Every user has a referral code; a friend who signs up with it gets 200 bonus credits.
+    - When a referred friend makes their first purchase, the referrer receives a bonus of 10% of that purchase (first purchase only).
     - The referral bonus can be converted to cash on request.
     - A referral dashboard shows sign-ups, purchases and earnings.
 - key: multi-device

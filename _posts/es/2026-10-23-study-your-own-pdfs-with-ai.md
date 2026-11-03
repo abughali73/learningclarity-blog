@@ -93,4 +93,4 @@ Cuando creas que ya lo dominas, pasa a **Quiz Mode (modo cuestionario)** para pr
 - **Días 2 a 4:** trabájalos en el modo explicación, unos cuantos cada día.
 - **Día 5:** haz un cuestionario sobre los subtemas más flojos y después un examen sobre el tema completo.
 
-¿Listo para probarlo con tus propios archivos? [Crea gratis tu cuenta de LearningClarity](https://www.learningclarity.ai). Cada cuenta nueva empieza con una primera semana gratis.
+¿Listo para probarlo con tus propios archivos? [Crea gratis tu cuenta de LearningClarity](https://www.learningclarity.ai). Cada cuenta nueva empieza con una primera semana gratis, y 200 créditos extra si te registras con el código de recomendación de un amigo.

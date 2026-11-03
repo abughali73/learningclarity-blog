@@ -93,4 +93,4 @@ Wenn Sie glauben, es verstanden zu haben, wechseln Sie in den **Quiz Mode (Quizm
 - **Tag 2 bis 4:** Arbeiten Sie sie im Explain Mode durch, jeden Tag ein paar.
 - **Tag 5:** Machen Sie ein Quiz zu den schwächsten Unterthemen und dann eine Prüfung über das ganze Thema.
 
-Bereit, es mit Ihren eigenen Dateien auszuprobieren? [Erstellen Sie Ihr kostenloses LearningClarity-Konto](https://www.learningclarity.ai). Jedes neue Konto startet mit einer kostenlosen ersten Woche.
+Bereit, es mit Ihren eigenen Dateien auszuprobieren? [Erstellen Sie Ihr kostenloses LearningClarity-Konto](https://www.learningclarity.ai). Jedes neue Konto startet mit einer kostenlosen ersten Woche, und mit dem Empfehlungscode einer Freundin oder eines Freundes kommen 200 Bonus-Credits dazu.
