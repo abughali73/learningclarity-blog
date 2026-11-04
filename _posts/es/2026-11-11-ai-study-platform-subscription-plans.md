@@ -55,7 +55,7 @@ faq:
   - q: "¿Puedo probar LearningClarity gratis?"
     a: "Sí. Al registrarte tienes una semana de uso gratuito con un uso razonable incluido, para probar la plataforma antes de elegir un plan."
   - q: "¿Qué pasa si necesito más uso en un mes?"
-    a: "Puedes pasarte a un plan mayor o comprar una recarga de 3,99 $ que añade el equivalente al uso de un plan Bronze. Puedes comprar varias a la vez y se cobran una sola vez, no cada mes."
+    a: "Puedes pasarte a un plan mayor o comprar una recarga de 3,99 $ que añade el equivalente al uso de un plan Bronze. Puedes comprar varias a la vez y se cobran una sola vez, no cada mes. Las recargas están disponibles solo para suscriptores de Bronze, Silver o Gold."
 ---
 Hoy presentamos la **suscripción a la plataforma de estudio con IA** de LearningClarity. Muchos usuarios nos contaron que estudian un poco casi todos los días y que prefieren un precio mensual pequeño y previsible a estar pendientes del saldo de créditos.
 
@@ -90,7 +90,7 @@ Tres semanas antes del examen, Ingrid mira el medidor un domingo por la noche: 7
 
 ## Si necesitas más: recarga o mejora de plan
 
-**Compra una recarga (top-up).** Por **3,99 $**, una recarga añade el equivalente al uso de un plan Bronze. Puedes comprar varias a la vez y cada compra se cobra una sola vez, no cada mes. Ingrid compra una para su semana de examen.
+**Compra una recarga (top-up).** Por **3,99 $**, una recarga añade el equivalente al uso de un plan Bronze. Puedes comprar varias a la vez y cada compra se cobra una sola vez, no cada mes. Las recargas solo están disponibles con una suscripción activa a Bronze, Silver o Gold, no durante la semana gratis. Ingrid compra una para su semana de examen.
 
 **Pasa a un plan mayor.** Si estudiar a fondo se convierte en tu rutina, Silver y Gold te dan mucho más margen cada mes y salen más baratos por unidad de uso: Silver cuesta unos 2,40 $ por cada uso equivalente a Bronze, y Gold unos 1,60 $.
 
@@ -102,7 +102,7 @@ Tres semanas antes del examen, Ingrid mira el medidor un domingo por la noche: 7
 | Bronze | 1× (uso base) | 2,99 $ | 32,99 $ |
 | Silver | 5× Bronze | 11,99 $ | 139,99 $ |
 | Gold | 20× Bronze | 31,99 $ | 370,99 $ |
-| Recarga | +1× Bronze, pago único | 3,99 $ cada una | No aplica |
+| Recarga | +1× Bronze, pago único, solo suscriptores | 3,99 $ cada una | No aplica |
 
 En todos los planes, pagar al año cuesta menos que doce pagos mensuales.
 

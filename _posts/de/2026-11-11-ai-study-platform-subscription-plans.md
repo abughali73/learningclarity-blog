@@ -55,7 +55,7 @@ faq:
   - q: "Kann ich LearningClarity kostenlos testen?"
     a: "Ja. Nach der Registrierung nutzen Sie die Plattform eine Woche lang kostenlos mit einem fairen Nutzungskontingent, bevor Sie einen Tarif wählen."
   - q: "Was, wenn ich in einem Monat mehr Nutzung brauche?"
-    a: "Sie können auf einen größeren Tarif wechseln oder für 3,99 $ eine Aufladung kaufen, die ein Kontingent in Höhe von Bronze hinzufügt. Aufladungen lassen sich mehrfach kaufen und werden einmalig berechnet, nicht monatlich."
+    a: "Sie können auf einen größeren Tarif wechseln oder für 3,99 $ eine Aufladung kaufen, die ein Kontingent in Höhe von Bronze hinzufügt. Aufladungen lassen sich mehrfach kaufen und werden einmalig berechnet, nicht monatlich. Aufladungen stehen nur Abonnentinnen und Abonnenten von Bronze, Silver oder Gold zur Verfügung."
 ---
 Heute führen wir das **Abo für die KI-Lernplattform** LearningClarity ein. Viele von Ihnen haben uns gesagt, dass sie fast jeden Tag ein wenig lernen und lieber einen kleinen, planbaren Monatspreis zahlen, als ständig ein Credit-Guthaben im Auge zu behalten.
 
@@ -90,7 +90,7 @@ Drei Wochen vor der Prüfung schaut Ingrid an einem Sonntagabend auf die Anzeige
 
 ## Wenn Sie mehr brauchen: aufladen oder upgraden
 
-**Kaufen Sie eine Aufladung (Top-up).** Für **3,99 $** fügt eine Aufladung ein Kontingent in Höhe von Bronze hinzu. Sie können mehrere auf einmal kaufen, und jeder Kauf wird einmalig berechnet, nicht monatlich. Ingrid kauft eine für ihre Prüfungswoche.
+**Kaufen Sie eine Aufladung (Top-up).** Für **3,99 $** fügt eine Aufladung ein Kontingent in Höhe von Bronze hinzu. Sie können mehrere auf einmal kaufen, und jeder Kauf wird einmalig berechnet, nicht monatlich. Aufladungen sind nur mit einem aktiven Bronze-, Silver- oder Gold-Abonnement erhältlich, nicht während der Gratiswoche. Ingrid kauft eine für ihre Prüfungswoche.
 
 **Wechseln Sie auf einen größeren Tarif.** Wenn intensives Lernen zu Ihrem Normalfall wird, geben Ihnen Silver und Gold jeden Monat deutlich mehr Spielraum und sind pro Nutzungseinheit günstiger: Silver kostet etwa 2,40 $ pro Bronze-Kontingent, Gold etwa 1,60 $.
 
@@ -102,7 +102,7 @@ Drei Wochen vor der Prüfung schaut Ingrid an einem Sonntagabend auf die Anzeige
 | Bronze | 1× (Basiskontingent) | 2,99 $ | 32,99 $ |
 | Silver | 5× Bronze | 11,99 $ | 139,99 $ |
 | Gold | 20× Bronze | 31,99 $ | 370,99 $ |
-| Aufladung | +1× Bronze, einmalig | je 3,99 $ | Entfällt |
+| Aufladung | +1× Bronze, einmalig, nur für Abonnenten | je 3,99 $ | Entfällt |
 
 Bei jedem Tarif ist die jährliche Zahlung günstiger als zwölf Monatszahlungen.
 

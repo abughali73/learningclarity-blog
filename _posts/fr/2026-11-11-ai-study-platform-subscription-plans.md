@@ -55,7 +55,7 @@ faq:
   - q: "Puis-je essayer LearningClarity gratuitement ?"
     a: "Oui. À l'inscription, vous bénéficiez d'une semaine d'utilisation gratuite avec un usage raisonnable inclus, pour essayer la plateforme avant de choisir une offre."
   - q: "Que faire si j'ai besoin de plus d'usage dans le mois ?"
-    a: "Vous pouvez passer à une offre supérieure ou acheter une recharge à 3,99 $, qui ajoute l'équivalent de l'usage d'une offre Bronze. Les recharges s'achètent par plusieurs et sont facturées une seule fois, pas chaque mois."
+    a: "Vous pouvez passer à une offre supérieure ou acheter une recharge à 3,99 $, qui ajoute l'équivalent de l'usage d'une offre Bronze. Les recharges s'achètent par plusieurs et sont facturées une seule fois, pas chaque mois. Elles sont réservées aux abonnés Bronze, Silver ou Gold."
 ---
 Nous lançons aujourd'hui l'**abonnement à la plateforme d'étude IA** LearningClarity. Beaucoup d'entre vous nous ont dit étudier un peu presque tous les jours et préférer un petit prix mensuel prévisible à la surveillance permanente d'un solde de crédits.
 
@@ -90,7 +90,7 @@ Trois semaines avant l'examen, Ingrid consulte le compteur un dimanche soir : 70
 
 ## Besoin de plus : recharge ou offre supérieure
 
-**Achetez une recharge (top-up).** Pour **3,99 $**, une recharge ajoute l'équivalent de l'usage d'une offre Bronze. Vous pouvez en acheter plusieurs à la fois, et chaque achat est facturé une seule fois, pas chaque mois. Ingrid en achète une pour sa semaine d'examen.
+**Achetez une recharge (top-up).** Pour **3,99 $**, une recharge ajoute l'équivalent de l'usage d'une offre Bronze. Vous pouvez en acheter plusieurs à la fois, et chaque achat est facturé une seule fois, pas chaque mois. Les recharges sont réservées aux abonnés ayant une offre Bronze, Silver ou Gold active, et ne sont pas disponibles pendant la semaine gratuite. Ingrid en achète une pour sa semaine d'examen.
 
 **Passez à une offre supérieure.** Si l'étude intensive devient votre norme, Silver et Gold vous donnent beaucoup plus de marge chaque mois et reviennent moins cher par unité d'usage : environ 2,40 $ par équivalent Bronze avec Silver, et environ 1,60 $ avec Gold.
 
@@ -102,7 +102,7 @@ Trois semaines avant l'examen, Ingrid consulte le compteur un dimanche soir : 70
 | Bronze | 1× (usage de base) | 2,99 $ | 32,99 $ |
 | Silver | 5× Bronze | 11,99 $ | 139,99 $ |
 | Gold | 20× Bronze | 31,99 $ | 370,99 $ |
-| Recharge | +1× Bronze, paiement unique | 3,99 $ l'unité | Sans objet |
+| Recharge | +1× Bronze, paiement unique, abonnés uniquement | 3,99 $ l'unité | Sans objet |
 
 Pour chaque offre, le paiement annuel coûte moins cher que douze paiements mensuels.
 

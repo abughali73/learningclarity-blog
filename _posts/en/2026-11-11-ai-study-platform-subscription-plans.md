@@ -55,7 +55,7 @@ faq:
   - q: "Can I try LearningClarity for free?"
     a: "Yes. When you sign up, you get one week of free use with a fair usage allowance, so you can try the platform before choosing a plan."
   - q: "What happens if I need more usage in a month?"
-    a: "You can upgrade to a larger plan, or buy a top-up for $3.99 that adds one Bronze-sized allowance. Top-ups can be bought in multiples and are charged once, not every month."
+    a: "You can upgrade to a larger plan, or buy a top-up for $3.99 that adds one Bronze-sized allowance. Top-ups are available to subscribers on Bronze, Silver or Gold, can be bought in multiples and are charged once, not every month."
 ---
 Today we are introducing an **AI study platform subscription** for LearningClarity. Many of you told us you study a little almost every day, and you would rather have one small, predictable monthly price than keep an eye on credit balances.
 
@@ -90,7 +90,7 @@ Three weeks before her exam, Ingrid checks the meter on a Sunday night: 70% used
 
 ## When you need more: top up or upgrade
 
-**Buy a top-up.** For **$3.99**, a top-up adds one Bronze-sized allowance. You can buy several at once, and each purchase is charged once, not every month. Ingrid buys one for her exam week.
+**Buy a top-up.** For **$3.99**, a top-up adds one Bronze-sized allowance. You can buy several at once, and each purchase is charged once, not every month. Top-ups are available only with an active Bronze, Silver or Gold subscription, not during the free week. Ingrid buys one for her exam week.
 
 **Move to a larger plan.** If more intensive study becomes your normal, Silver and Gold give you far more room each month and work out cheaper per unit of usage. Silver costs about $2.40 per Bronze-sized allowance, Gold about $1.60.
 
@@ -102,7 +102,7 @@ Three weeks before her exam, Ingrid checks the meter on a Sunday night: 70% used
 | Bronze | 1× (base allowance) | $2.99 | $32.99 |
 | Silver | 5× Bronze | $11.99 | $139.99 |
 | Gold | 20× Bronze | $31.99 | $370.99 |
-| Top-up | +1× Bronze, one-off | $3.99 each | n/a |
+| Top-up | +1× Bronze, one-off, subscribers only | $3.99 each | n/a |
 
 For every plan, paying yearly costs less than twelve monthly payments.
 
