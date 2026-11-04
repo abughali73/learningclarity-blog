@@ -51,7 +51,7 @@ scenes:
     prompt: "Ingrid, a fictional woman in her mid-thirties with straight ash-blonde hair in a low ponytail, light freckles, wearing a navy quarter-zip sports jacket over a grey T-shirt, walks down the steps of a modern brick training centre on a crisp autumn afternoon, a folder under one arm, her face relaxed into a relieved, proud smile, a few other people leaving in the background out of focus. Low golden afternoon sun from behind, long shadows on the steps, orange leaves on the pavement. Wide shot from a low angle. Mood: quiet pride and relief."
 faq:
   - q: "Combien coûte un abonnement LearningClarity ?"
-    a: "Bronze coûte 2,99 $ par mois ou 34,09 $ par an. Silver coûte 11,99 $ par mois ou 136,69 $ par an. Gold coûte 34,99 $ par mois ou 398,89 $ par an."
+    a: "Bronze coûte 2,99 $ par mois ou 34,09 $ par an. Silver offre 5 fois l'usage de Bronze pour 11,99 $ par mois ou 136,69 $ par an. Gold offre 15 fois l'usage de Bronze pour 34,99 $ par mois ou 398,89 $ par an."
   - q: "Puis-je essayer LearningClarity gratuitement ?"
     a: "Oui. À l'inscription, vous bénéficiez d'une semaine d'utilisation gratuite avec un usage raisonnable inclus, pour essayer la plateforme avant de choisir une offre."
   - q: "Que faire si j'ai besoin de plus d'usage dans le mois ?"
@@ -96,13 +96,13 @@ Trois semaines avant l'examen, Ingrid consulte le compteur un dimanche soir : 70
 
 ## Les offres d'abonnement de la plateforme d'étude IA en un coup d'œil
 
-| Offre | Prix mensuel | Prix annuel |
-|---|---|---|
-| Semaine gratuite (7 premiers jours) | Gratuit | Sans objet |
-| Bronze | 2,99 $ | 34,09 $ |
-| Silver | 11,99 $ | 136,69 $ |
-| Gold | 34,99 $ | 398,89 $ |
-| Recharge (abonnés uniquement, paiement unique) | 3,99 $ l'unité | Sans objet |
+| Offre | Usage | Prix mensuel | Prix annuel |
+|---|---|---|---|
+| Semaine gratuite (7 premiers jours) | Usage raisonnable | Gratuit | Sans objet |
+| Bronze | 1× (base) | 2,99 $ | 34,09 $ |
+| Silver | 5× Bronze | 11,99 $ | 136,69 $ |
+| Gold | 15× Bronze | 34,99 $ | 398,89 $ |
+| Recharge (abonnés uniquement, paiement unique) | +1× Bronze | 3,99 $ l'unité | Sans objet |
 
 Pour chaque offre, le paiement annuel coûte moins cher que douze paiements mensuels.
 

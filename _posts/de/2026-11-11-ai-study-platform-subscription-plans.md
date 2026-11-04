@@ -51,7 +51,7 @@ scenes:
     prompt: "Ingrid, a fictional woman in her mid-thirties with straight ash-blonde hair in a low ponytail, light freckles, wearing a navy quarter-zip sports jacket over a grey T-shirt, walks down the steps of a modern brick training centre on a crisp autumn afternoon, a folder under one arm, her face relaxed into a relieved, proud smile, a few other people leaving in the background out of focus. Low golden afternoon sun from behind, long shadows on the steps, orange leaves on the pavement. Wide shot from a low angle. Mood: quiet pride and relief."
 faq:
   - q: "Was kostet ein LearningClarity-Abo?"
-    a: "Bronze kostet 2,99 $ im Monat oder 34,09 $ im Jahr. Silver kostet 11,99 $ im Monat oder 136,69 $ im Jahr. Gold kostet 34,99 $ im Monat oder 398,89 $ im Jahr."
+    a: "Bronze kostet 2,99 $ im Monat oder 34,09 $ im Jahr. Silver bietet das 5-fache Kontingent von Bronze für 11,99 $ im Monat oder 136,69 $ im Jahr. Gold bietet das 15-fache Kontingent von Bronze für 34,99 $ im Monat oder 398,89 $ im Jahr."
   - q: "Kann ich LearningClarity kostenlos testen?"
     a: "Ja. Nach der Registrierung nutzen Sie die Plattform eine Woche lang kostenlos mit einem fairen Nutzungskontingent, bevor Sie einen Tarif wählen."
   - q: "Was, wenn ich in einem Monat mehr Nutzung brauche?"
@@ -96,13 +96,13 @@ Drei Wochen vor der Prüfung schaut Ingrid an einem Sonntagabend auf die Anzeige
 
 ## Die Abo-Tarife der KI-Lernplattform im Überblick
 
-| Tarif | Monatspreis | Jahrespreis |
-|---|---|---|
-| Gratiswoche (erste 7 Tage) | Kostenlos | Entfällt |
-| Bronze | 2,99 $ | 34,09 $ |
-| Silver | 11,99 $ | 136,69 $ |
-| Gold | 34,99 $ | 398,89 $ |
-| Aufladung (nur für Abonnenten, einmalig) | je 3,99 $ | Entfällt |
+| Tarif | Kontingent | Monatspreis | Jahrespreis |
+|---|---|---|---|
+| Gratiswoche (erste 7 Tage) | Faire Nutzung | Kostenlos | Entfällt |
+| Bronze | 1× (Basis) | 2,99 $ | 34,09 $ |
+| Silver | 5× Bronze | 11,99 $ | 136,69 $ |
+| Gold | 15× Bronze | 34,99 $ | 398,89 $ |
+| Aufladung (nur für Abonnenten, einmalig) | +1× Bronze | je 3,99 $ | Entfällt |
 
 Bei jedem Tarif ist die jährliche Zahlung günstiger als zwölf Monatszahlungen.
 

@@ -51,7 +51,7 @@ scenes:
     prompt: "Ingrid, a fictional woman in her mid-thirties with straight ash-blonde hair in a low ponytail, light freckles, wearing a navy quarter-zip sports jacket over a grey T-shirt, walks down the steps of a modern brick training centre on a crisp autumn afternoon, a folder under one arm, her face relaxed into a relieved, proud smile, a few other people leaving in the background out of focus. Low golden afternoon sun from behind, long shadows on the steps, orange leaves on the pavement. Wide shot from a low angle. Mood: quiet pride and relief."
 faq:
   - q: "¿Cuánto cuesta la suscripción a LearningClarity?"
-    a: "Bronze cuesta 2,99 $ al mes o 34,09 $ al año. Silver cuesta 11,99 $ al mes o 136,69 $ al año. Gold cuesta 34,99 $ al mes o 398,89 $ al año."
+    a: "Bronze cuesta 2,99 $ al mes o 34,09 $ al año. Silver ofrece 5 veces el uso de Bronze por 11,99 $ al mes o 136,69 $ al año. Gold ofrece 15 veces el uso de Bronze por 34,99 $ al mes o 398,89 $ al año."
   - q: "¿Puedo probar LearningClarity gratis?"
     a: "Sí. Al registrarte tienes una semana de uso gratuito con un uso razonable incluido, para probar la plataforma antes de elegir un plan."
   - q: "¿Qué pasa si necesito más uso en un mes?"
@@ -96,13 +96,13 @@ Tres semanas antes del examen, Ingrid mira el medidor un domingo por la noche: 7
 
 ## Los planes de suscripción de la plataforma de estudio con IA
 
-| Plan | Precio mensual | Precio anual |
-|---|---|---|
-| Semana gratis (primeros 7 días) | Gratis | No aplica |
-| Bronze | 2,99 $ | 34,09 $ |
-| Silver | 11,99 $ | 136,69 $ |
-| Gold | 34,99 $ | 398,89 $ |
-| Recarga (solo suscriptores, pago único) | 3,99 $ cada una | No aplica |
+| Plan | Uso | Precio mensual | Precio anual |
+|---|---|---|---|
+| Semana gratis (primeros 7 días) | Uso razonable | Gratis | No aplica |
+| Bronze | 1× (base) | 2,99 $ | 34,09 $ |
+| Silver | 5× Bronze | 11,99 $ | 136,69 $ |
+| Gold | 15× Bronze | 34,99 $ | 398,89 $ |
+| Recarga (solo suscriptores, pago único) | +1× Bronze | 3,99 $ cada una | No aplica |
 
 En todos los planes, pagar al año cuesta menos que doce pagos mensuales.
 
