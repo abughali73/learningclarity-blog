@@ -21,7 +21,7 @@ ad:
       bullets: ["Décrivez un sujet ou importez vos supports", "Sur le web, iPhone et Android"]
     - icon: dollar
       title: "Une semaine gratuite, puis des formules simples"
-      bullets: ["Une semaine gratuite pour tout essayer", "Formules dès 2,99 $ par mois"]
+      bullets: ["Une semaine gratuite pour tout essayer", "Formules dès 3,99 $ par mois"]
     - icon: globe
       title: "Apprenez dans votre langue"
       bullets: ["7 langues d'interface", "Importez dans une langue, étudiez dans une autre"]
@@ -180,7 +180,7 @@ faq:
     a: "Votre série compte les jours consécutifs avec une activité d'apprentissage, et votre plus longue série enregistre votre record. Il existe 16 succès, avec des niveaux de rareté allant de Common à Legendary, dont six cachés, comme First Topic, Quiz Perfect, Exam Excellence et 30-Day Streak. [Séries et succès](https://www.learningclarity.ai/help/streaks-achievements/)."
   - group: "Formules et paiements"
     q: "Combien coûte LearningClarity ?"
-    a: "Votre première semaine est gratuite. Ensuite, les particuliers choisissent une formule : Bronze coûte 2,99 $ par mois ou 34,09 $ par an, Silver offre 5 fois l'usage de Bronze pour 11,99 $ par mois ou 136,69 $ par an, et Gold offre 15 fois l'usage de Bronze pour 34,99 $ par mois ou 398,89 $ par an. Les prix sont en dollars américains. [Découvrir les nouvelles formules](/fr/2026/11/ai-study-platform-subscription-plans/)."
+    a: "Votre première semaine est gratuite. Ensuite, les particuliers choisissent une formule : Bronze coûte 3,99 $ par mois ou 45,49 $ par an, Silver offre 3 fois l'usage de Bronze pour 11,99 $ par mois ou 136,69 $ par an, et Gold offre 9 fois l'usage de Bronze pour 34,99 $ par mois ou 398,89 $ par an. Les prix sont en dollars américains. [Découvrir les nouvelles formules](/fr/2026/11/ai-study-platform-subscription-plans/)."
   - group: "Formules et paiements"
     q: "Le paiement annuel est-il moins cher ?"
     a: "Oui. Pour chaque formule, le paiement annuel coûte moins cher que douze paiements mensuels."

@@ -1,6 +1,6 @@
 ---
 title: "Suscripción a plataforma de estudio con IA: planes nuevos"
-description: "La suscripción de nuestra plataforma de estudio con IA empieza con una semana gratis, planes desde 2,99 $ al mes, medidor de uso y recargas. Elige tu plan."
+description: "La suscripción de nuestra plataforma de estudio con IA empieza con una semana gratis, planes desde 3,99 $ al mes, medidor de uso y recargas. Elige tu plan."
 date: 2026-11-11 09:00:00 +0200
 lang: es
 ref: ai-study-platform-subscription-plans
@@ -19,7 +19,7 @@ ad:
       title: "Primera semana gratis"
       bullets: ["Empieza al registrarte", "Con un uso razonable incluido"]
     - icon: dollar
-      title: "Planes desde 2,99 $ al mes"
+      title: "Planes desde 3,99 $ al mes"
       bullets: ["Bronze, Silver y Gold", "Paga al mes o al año"]
     - icon: chart
       title: "Tu uso, siempre visible"
@@ -51,7 +51,7 @@ scenes:
     prompt: "Ingrid, a fictional woman in her mid-thirties with straight ash-blonde hair in a low ponytail, light freckles, wearing a navy quarter-zip sports jacket over a grey T-shirt, walks down the steps of a modern brick training centre on a crisp autumn afternoon, a folder under one arm, her face relaxed into a relieved, proud smile, a few other people leaving in the background out of focus. Low golden afternoon sun from behind, long shadows on the steps, orange leaves on the pavement. Wide shot from a low angle. Mood: quiet pride and relief."
 faq:
   - q: "¿Cuánto cuesta la suscripción a LearningClarity?"
-    a: "Bronze cuesta 2,99 $ al mes o 34,09 $ al año. Silver ofrece 5 veces el uso de Bronze por 11,99 $ al mes o 136,69 $ al año. Gold ofrece 15 veces el uso de Bronze por 34,99 $ al mes o 398,89 $ al año."
+    a: "Bronze cuesta 3,99 $ al mes o 45,49 $ al año. Silver ofrece 3 veces el uso de Bronze por 11,99 $ al mes o 136,69 $ al año. Gold ofrece 9 veces el uso de Bronze por 34,99 $ al mes o 398,89 $ al año."
   - q: "¿Puedo probar LearningClarity gratis?"
     a: "Sí. Al registrarte tienes una semana de uso gratuito con un uso razonable incluido, para probar la plataforma antes de elegir un plan."
   - q: "¿Qué pasa si necesito más uso en un mes?"
@@ -73,7 +73,7 @@ Para eso existe la semana gratis: **cada cuenta nueva tiene una semana de uso gr
 
 {% include scene.html n=2 %}
 
-Cuando termina la semana gratis, Ingrid elige **Bronze por 2,99 $ al mes**. Está pensado justo para su tipo de aprendizaje constante, con un uso razonable que le permite seguir sin preocuparse.
+Cuando termina la semana gratis, Ingrid elige **Bronze por 3,99 $ al mes**. Está pensado justo para su tipo de aprendizaje constante, con un uso razonable que le permite seguir sin preocuparse.
 
 En el tranvía escucha un pódcast del subtema que leyó la noche anterior. Su forma de estudiar no cambia. Lo que cambia es la factura: una cantidad pequeña y previsible.
 
@@ -99,9 +99,9 @@ Tres semanas antes del examen, Ingrid mira el medidor un domingo por la noche: 7
 | Plan | Uso | Precio mensual | Precio anual |
 |---|---|---|---|
 | Semana gratis (primeros 7 días) | Uso razonable | Gratis | No aplica |
-| Bronze | 1× (base) | 2,99 $ | 34,09 $ |
-| Silver | 5× Bronze | 11,99 $ | 136,69 $ |
-| Gold | 15× Bronze | 34,99 $ | 398,89 $ |
+| Bronze | 1× (base) | 3,99 $ | 45,49 $ |
+| Silver | 3× Bronze | 11,99 $ | 136,69 $ |
+| Gold | 9× Bronze | 34,99 $ | 398,89 $ |
 | Recarga (solo suscriptores, pago único) | +1× Bronze | 3,99 $ cada una | No aplica |
 
 En todos los planes, pagar al año cuesta menos que doce pagos mensuales.

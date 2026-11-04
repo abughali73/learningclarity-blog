@@ -1,6 +1,6 @@
 ---
 title: "KI-Lernplattform im Abo: die neuen LearningClarity-Tarife"
-description: "Das Abo unserer KI-Lernplattform beginnt mit einer Gratiswoche, dann Tarife ab 2,99 $ im Monat, eine stets sichtbare Nutzungsanzeige und Aufladungen."
+description: "Das Abo unserer KI-Lernplattform beginnt mit einer Gratiswoche, dann Tarife ab 3,99 $ im Monat, eine stets sichtbare Nutzungsanzeige und Aufladungen."
 date: 2026-11-11 09:00:00 +0200
 lang: de
 ref: ai-study-platform-subscription-plans
@@ -19,7 +19,7 @@ ad:
       title: "Die erste Woche gratis"
       bullets: ["Beginnt mit der Registrierung", "Mit fairem Nutzungskontingent"]
     - icon: dollar
-      title: "Tarife ab 2,99 $ im Monat"
+      title: "Tarife ab 3,99 $ im Monat"
       bullets: ["Bronze, Silver und Gold", "Monatlich oder jährlich zahlen"]
     - icon: chart
       title: "Nutzung immer im Blick"
@@ -51,7 +51,7 @@ scenes:
     prompt: "Ingrid, a fictional woman in her mid-thirties with straight ash-blonde hair in a low ponytail, light freckles, wearing a navy quarter-zip sports jacket over a grey T-shirt, walks down the steps of a modern brick training centre on a crisp autumn afternoon, a folder under one arm, her face relaxed into a relieved, proud smile, a few other people leaving in the background out of focus. Low golden afternoon sun from behind, long shadows on the steps, orange leaves on the pavement. Wide shot from a low angle. Mood: quiet pride and relief."
 faq:
   - q: "Was kostet ein LearningClarity-Abo?"
-    a: "Bronze kostet 2,99 $ im Monat oder 34,09 $ im Jahr. Silver bietet das 5-fache Kontingent von Bronze für 11,99 $ im Monat oder 136,69 $ im Jahr. Gold bietet das 15-fache Kontingent von Bronze für 34,99 $ im Monat oder 398,89 $ im Jahr."
+    a: "Bronze kostet 3,99 $ im Monat oder 45,49 $ im Jahr. Silver bietet das 3-fache Kontingent von Bronze für 11,99 $ im Monat oder 136,69 $ im Jahr. Gold bietet das 9-fache Kontingent von Bronze für 34,99 $ im Monat oder 398,89 $ im Jahr."
   - q: "Kann ich LearningClarity kostenlos testen?"
     a: "Ja. Nach der Registrierung nutzen Sie die Plattform eine Woche lang kostenlos mit einem fairen Nutzungskontingent, bevor Sie einen Tarif wählen."
   - q: "Was, wenn ich in einem Monat mehr Nutzung brauche?"
@@ -73,7 +73,7 @@ Genau dafür gibt es die Gratiswoche: **Jedes neue Konto erhält eine Woche kost
 
 {% include scene.html n=2 %}
 
-Als die Gratiswoche endet, wählt Ingrid **Bronze für 2,99 $ im Monat**. Der Tarif ist für genau dieses stetige, tägliche Lernen gedacht, mit einem fairen Kontingent, das sie einfach weitermachen lässt.
+Als die Gratiswoche endet, wählt Ingrid **Bronze für 3,99 $ im Monat**. Der Tarif ist für genau dieses stetige, tägliche Lernen gedacht, mit einem fairen Kontingent, das sie einfach weitermachen lässt.
 
 In der Straßenbahn hört sie einen Podcast zum Unterthema vom Vorabend. An ihrem Lernen ändert sich nichts. Was sich ändert, ist die Rechnung: ein kleiner, planbarer Betrag.
 
@@ -99,9 +99,9 @@ Drei Wochen vor der Prüfung schaut Ingrid an einem Sonntagabend auf die Anzeige
 | Tarif | Kontingent | Monatspreis | Jahrespreis |
 |---|---|---|---|
 | Gratiswoche (erste 7 Tage) | Faire Nutzung | Kostenlos | Entfällt |
-| Bronze | 1× (Basis) | 2,99 $ | 34,09 $ |
-| Silver | 5× Bronze | 11,99 $ | 136,69 $ |
-| Gold | 15× Bronze | 34,99 $ | 398,89 $ |
+| Bronze | 1× (Basis) | 3,99 $ | 45,49 $ |
+| Silver | 3× Bronze | 11,99 $ | 136,69 $ |
+| Gold | 9× Bronze | 34,99 $ | 398,89 $ |
 | Aufladung (nur für Abonnenten, einmalig) | +1× Bronze | je 3,99 $ | Entfällt |
 
 Bei jedem Tarif ist die jährliche Zahlung günstiger als zwölf Monatszahlungen.

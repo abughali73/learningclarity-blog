@@ -1,6 +1,6 @@
 ---
 title: "AI Study Platform Subscription: LearningClarity's New Plans"
-description: "Our AI study platform subscription starts with a free week, then plans from $2.99 a month, a live usage meter and top-ups. See which plan fits you."
+description: "Our AI study platform subscription starts with a free week, then plans from $3.99 a month, a live usage meter and top-ups. See which plan fits you."
 date: 2026-11-11 09:00:00 +0200
 lang: en
 ref: ai-study-platform-subscription-plans
@@ -19,7 +19,7 @@ ad:
       title: "A free first week"
       bullets: ["Starts when you sign up", "With a fair usage allowance"]
     - icon: dollar
-      title: "Plans from $2.99 a month"
+      title: "Plans from $3.99 a month"
       bullets: ["Bronze, Silver and Gold", "Pay monthly or yearly"]
     - icon: chart
       title: "Always see your usage"
@@ -51,7 +51,7 @@ scenes:
     prompt: "Ingrid, a fictional woman in her mid-thirties with straight ash-blonde hair in a low ponytail, light freckles, wearing a navy quarter-zip sports jacket over a grey T-shirt, walks down the steps of a modern brick training centre on a crisp autumn afternoon, a folder under one arm, her face relaxed into a relieved, proud smile, a few other people leaving in the background out of focus. Low golden afternoon sun from behind, long shadows on the steps, orange leaves on the pavement. Wide shot from a low angle. Mood: quiet pride and relief."
 faq:
   - q: "How much does a LearningClarity subscription cost?"
-    a: "Bronze is $2.99 a month or $34.09 a year. Silver gives 5 times the Bronze allowance for $11.99 a month or $136.69 a year. Gold gives 15 times the Bronze allowance for $34.99 a month or $398.89 a year."
+    a: "Bronze is $3.99 a month or $45.49 a year. Silver gives 3 times the Bronze allowance for $11.99 a month or $136.69 a year. Gold gives 9 times the Bronze allowance for $34.99 a month or $398.89 a year."
   - q: "Can I try LearningClarity for free?"
     a: "Yes. When you sign up, you get one week of free use with a fair usage allowance, so you can try the platform before choosing a plan."
   - q: "What happens if I need more usage in a month?"
@@ -73,7 +73,7 @@ That is exactly what the free week is for. **Every new account gets one week of 
 
 {% include scene.html n=2 %}
 
-When the free week ends, Ingrid picks **Bronze for $2.99 a month**. It is built for exactly her kind of steady, everyday learning, with a fair usage allowance that lets her keep going without thinking about it.
+When the free week ends, Ingrid picks **Bronze for $3.99 a month**. It is built for exactly her kind of steady, everyday learning, with a fair usage allowance that lets her keep going without thinking about it.
 
 On the tram she listens to a podcast of the subtopic she read the night before. Nothing about her studying changes. What changes is the bill: one small, predictable amount.
 
@@ -99,9 +99,9 @@ Three weeks before her exam, Ingrid checks the meter on a Sunday night: 70% used
 | Plan | Usage | Monthly price | Yearly price |
 |---|---|---|---|
 | Free week (first 7 days) | Fair use | Free | n/a |
-| Bronze | 1× (base) | $2.99 | $34.09 |
-| Silver | 5× Bronze | $11.99 | $136.69 |
-| Gold | 15× Bronze | $34.99 | $398.89 |
+| Bronze | 1× (base) | $3.99 | $45.49 |
+| Silver | 3× Bronze | $11.99 | $136.69 |
+| Gold | 9× Bronze | $34.99 | $398.89 |
 | Top-up (subscribers only, one-off) | +1× Bronze | $3.99 each | n/a |
 
 For every plan, paying yearly costs less than twelve monthly payments.
