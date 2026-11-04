@@ -1,7 +1,18 @@
-{%- comment -%} Landing page after the confirmation link (blog-verify redirects here; ?status=invalid|error on failure). {%- endcomment -%}
+{%- comment -%}
+  Confirmation page. The link in the confirmation email opens /<lang>/subscribed/?t=<token>; the subscription is
+  only activated when the visitor clicks the button (a POST to blog-verify), so email link scanners such as
+  Microsoft Safe Links, which open links automatically, cannot confirm it.
+{%- endcomment -%}
 {%- assign lang = include.lang -%}{%- assign t = site.data.i18n[lang] -%}
 {%- for l in site.languages -%}{%- if l.code == lang -%}{%- assign home = l.home -%}{%- endif -%}{%- endfor -%}
 <section class="sub-page">
+  <div class="sub-confirm" hidden>
+    <div class="sub-page-icon">{% include icon.html name="mail" size=48 %}</div>
+    <h1>{{ t.confirm_title }}</h1>
+    <p>{{ t.confirm_text }}</p>
+    <p><button class="btn sub-confirm-btn" type="button" data-endpoint="{{ site.subscribe.endpoint }}/blog-verify">{{ t.confirm_button }}</button></p>
+    <p class="subscribe-status" role="status" aria-live="polite"></p>
+  </div>
   <div class="sub-ok">
     <div class="sub-page-icon">{% include icon.html name="check" size=48 %}</div>
     <h1>{{ t.subscribed_title }}</h1>
@@ -12,11 +23,27 @@
     <h1>{{ t.subscribed_invalid_title }}</h1>
     <p>{{ t.subscribed_invalid_text }}</p>
   </div>
-  <p><a class="btn" href="{{ home }}">{{ t.back_to_blog }}</a></p>
+  <p><a class="btn sub-back" href="{{ home }}">{{ t.back_to_blog }}</a></p>
 </section>
 <script>
-if (/[?&]status=(invalid|error)/.test(location.search)) {
-  document.querySelector(".sub-ok").hidden = true;
-  document.querySelector(".sub-bad").hidden = false;
-}
+(function () {
+  var q = new URLSearchParams(location.search), token = q.get("t");
+  var ok = document.querySelector(".sub-ok"), bad = document.querySelector(".sub-bad"), ask = document.querySelector(".sub-confirm");
+  function show(el) { [ok, bad, ask].forEach(function (x) { x.hidden = x !== el; }); }
+  if (/^(invalid|error)$/.test(q.get("status") || "")) { show(bad); return; }
+  if (!token) return;
+  show(ask);
+  var btn = ask.querySelector(".sub-confirm-btn"), status = ask.querySelector(".subscribe-status");
+  btn.addEventListener("click", function () {
+    btn.disabled = true; status.textContent = "";
+    fetch(btn.dataset.endpoint, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ token: token }) })
+      .then(function (r) { return r.json().catch(function () { return {}; }); })
+      .then(function (d) {
+        if (d && d.ok) { show(ok); history.replaceState(null, "", location.pathname); }
+        else if (d && d.error === "server") { status.textContent = {{ t.subscribe_err_generic | jsonify }}; status.className = "subscribe-status is-err"; btn.disabled = false; }
+        else show(bad);
+      })
+      .catch(function () { status.textContent = {{ t.subscribe_err_generic | jsonify }}; status.className = "subscribe-status is-err"; btn.disabled = false; });
+  });
+})();
 </script>

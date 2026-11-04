@@ -60,6 +60,9 @@ en:
   subscribe_err_email: Please enter a valid email address.
   subscribe_err_rate: Too many attempts. Please try again in a little while.
   subscribe_err_generic: Something went wrong. Please try again in a few minutes.
+  confirm_title: "Confirm your subscription"
+  confirm_text: "Click the button below to start receiving new posts by email."
+  confirm_button: "Confirm my subscription"
   subscribed_title: You're subscribed
   subscribed_text: Thanks for confirming your email. We'll let you know whenever a new post is published on the Learning Clarity Blog.
   subscribed_invalid_title: This link has expired
@@ -139,6 +142,9 @@ ar:
   subscribe_err_email: يُرجى إدخال بريد إلكتروني صحيح.
   subscribe_err_rate: محاولات كثيرة جدًا. يُرجى المحاولة مرة أخرى بعد قليل.
   subscribe_err_generic: حدث خطأ ما. يُرجى المحاولة مرة أخرى بعد بضع دقائق.
+  confirm_title: "أكِّد اشتراكك"
+  confirm_text: "انقر على الزر أدناه لتبدأ في تلقّي المقالات الجديدة عبر البريد الإلكتروني."
+  confirm_button: "تأكيد اشتراكي"
   subscribed_title: تم اشتراكك
   subscribed_text: شكرًا لتأكيد بريدك الإلكتروني. سنُعلمك كلما نُشر مقال جديد في مدونة Learning Clarity.
   subscribed_invalid_title: انتهت صلاحية هذا الرابط
@@ -218,6 +224,9 @@ es:
   subscribe_err_email: Introduce una dirección de correo válida.
   subscribe_err_rate: Demasiados intentos. Vuelve a intentarlo dentro de un rato.
   subscribe_err_generic: Algo ha salido mal. Vuelve a intentarlo dentro de unos minutos.
+  confirm_title: "Confirma tu suscripción"
+  confirm_text: "Pulsa el botón de abajo para empezar a recibir los nuevos artículos por correo."
+  confirm_button: "Confirmar mi suscripción"
   subscribed_title: ¡Ya estás suscrito!
   subscribed_text: Gracias por confirmar tu correo. Te avisaremos cada vez que publiquemos un artículo nuevo en el blog de Learning Clarity.
   subscribed_invalid_title: Este enlace ha caducado
@@ -297,6 +306,9 @@ fr:
   subscribe_err_email: Veuillez saisir une adresse e-mail valide.
   subscribe_err_rate: Trop de tentatives. Veuillez réessayer un peu plus tard.
   subscribe_err_generic: Un problème est survenu. Veuillez réessayer dans quelques minutes.
+  confirm_title: "Confirmez votre abonnement"
+  confirm_text: "Cliquez sur le bouton ci-dessous pour commencer à recevoir les nouveaux articles par e-mail."
+  confirm_button: "Confirmer mon abonnement"
   subscribed_title: Vous êtes abonné
   subscribed_text: Merci d’avoir confirmé votre adresse e-mail. Nous vous préviendrons à chaque nouvel article publié sur le blog Learning Clarity.
   subscribed_invalid_title: Ce lien a expiré
@@ -376,6 +388,9 @@ de:
   subscribe_err_email: Bitte geben Sie eine gültige E-Mail-Adresse ein.
   subscribe_err_rate: Zu viele Versuche. Bitte versuchen Sie es in Kürze erneut.
   subscribe_err_generic: Etwas ist schiefgelaufen. Bitte versuchen Sie es in einigen Minuten erneut.
+  confirm_title: "Bestätigen Sie Ihr Abonnement"
+  confirm_text: "Klicken Sie auf die Schaltfläche unten, um neue Beiträge per E-Mail zu erhalten."
+  confirm_button: "Abonnement bestätigen"
   subscribed_title: Ihr Abonnement ist aktiv
   subscribed_text: Vielen Dank für die Bestätigung Ihrer E-Mail-Adresse. Wir informieren Sie über jeden neuen Beitrag im Learning Clarity Blog.
   subscribed_invalid_title: Dieser Link ist abgelaufen

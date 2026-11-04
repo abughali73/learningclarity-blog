@@ -1,5 +1,5 @@
 import "jsr:@supabase/functions-js/edge-runtime.d.ts";
-import { asLang, COPY, db, EMAIL_RE, json, sendMail, sha256Hex, verifyEmailHtml } from "../_shared/blog.ts";
+import { asLang, BLOG_URL, COPY, db, EMAIL_RE, json, LANG_HOME, sendMail, sha256Hex, verifyEmailHtml } from "../_shared/blog.ts";
 
 // POST {email, lang, hp, source} from the blog's subscribe form. Double opt-in: stores a pending
 // subscriber and emails a confirmation link (blog-verify). The answer is the same whether or not the
@@ -8,7 +8,6 @@ import { asLang, COPY, db, EMAIL_RE, json, sendMail, sha256Hex, verifyEmailHtml 
 
 const RESEND_AFTER_MS = 10 * 60 * 1000;   // at most one confirmation email per address every 10 minutes
 const MAX_SIGNUPS_PER_IP_HOUR = 5;
-const SUPABASE_FN = (Deno.env.get("SUPABASE_URL") ?? "").replace(/\/$/, "") + "/functions/v1";
 
 Deno.serve(async (req: Request) => {
   if (req.method === "OPTIONS") return json(req, null, 204);
@@ -70,7 +69,8 @@ Deno.serve(async (req: Request) => {
     return json(req, { ok: false, error: "server" }, 500);
   }
 
-  const verifyUrl = `${SUPABASE_FN}/blog-verify?t=${token}`;
+  // The link opens the blog page, which confirms only on a click (see blog-verify): link scanners can't confirm.
+  const verifyUrl = `${BLOG_URL}${LANG_HOME[lang]}subscribed/?t=${token}`;
   const err = await sendMail({
     to: email,
     subject: COPY[lang].verifySubject,
