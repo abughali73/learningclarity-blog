@@ -65,6 +65,12 @@ adsense:
     list: ""          # shown after the post lists on the home and search pages
   # Auto ads need only `client`; turn them on and choose formats in AdSense > Ads > By site.
 
+# Email subscription (double opt-in). Supabase Edge Functions in the Learning_Clarity_Production project;
+# source in supabase/functions/. See supabase/README.md.
+subscribe:
+  # Set to true once the four blog-* functions are deployed (shows the subscribe box and header button).
+  enabled: false
+  endpoint: https://xlkexogyodwnblladuvj.supabase.co/functions/v1
 legal:
   privacy: https://www.learningclarity.ai/privacypolicy/
   terms: https://www.learningclarity.ai/termsofservice/
@@ -150,6 +156,7 @@ defaults:
 
 exclude:
   - AGENT.md
+  - supabase
   - STORY_GUIDE.md
   - README.md
   - Gemfile

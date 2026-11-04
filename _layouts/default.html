@@ -38,6 +38,7 @@
         <span class="brand-text"><span class="wordmark">Learning <span class="grad">Clarity</span></span><span class="brand-sub">{{ t.blog }}</span></span>
       </a>
       <nav class="nav" aria-label="Site">
+        {% if site.subscribe.enabled %}<a class="nav-subscribe" href="{% if page.no_subscribe %}{{ lang_home | default: '/' }}{% endif %}#subscribe">{% include icon.html name="bell" size=20 %}<span>{{ t.subscribe_nav }}</span></a>{% endif %}
         <a class="nav-search" href="{{ lang_home | default: '/' }}search/" aria-label="{{ t.search_nav }}">{% include icon.html name="search" size=20 %}<span>{{ t.search_nav }}</span></a>
         {% include lang-switcher.html lang=lang %}
         <span class="nav-apps" aria-label="{{ t.get_app }}">
@@ -50,6 +51,9 @@
   </header>
   <main class="wrap">
     {{ content }}
+    {%- if site.subscribe.enabled %}{%- unless page.no_subscribe %}
+    {% include subscribe.html lang=lang %}
+    {%- endunless %}{%- endif %}
   </main>
   <footer class="site-footer">
     <div class="wrap">

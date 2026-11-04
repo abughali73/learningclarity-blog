@@ -1,0 +1,49 @@
+{%- comment -%}
+  The "Get new posts by email" box (double opt-in). Shown on every page by the default layout, unless the
+  page sets `no_subscribe: true`. Posts to the blog-subscribe Supabase Edge Function (site.subscribe.endpoint).
+{%- endcomment -%}
+{%- assign lang = include.lang | default: page.lang | default: site.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- capture privacy_link -%}<a href="{{ site.legal.privacy }}" rel="noopener">{{ t.privacy }}</a>{%- endcapture -%}
+<section class="subscribe-box" id="subscribe" aria-labelledby="subscribe-title">
+  <div class="subscribe-icon">{% include icon.html name="bell" size=28 %}</div>
+  <div class="subscribe-body">
+    <h2 id="subscribe-title">{{ t.subscribe_title }}</h2>
+    <p>{{ t.subscribe_text }}</p>
+    <form class="subscribe-form" data-endpoint="{{ site.subscribe.endpoint }}/blog-subscribe" data-lang="{{ lang }}"
+          data-ok="{{ t.subscribe_ok | escape }}" data-err-email="{{ t.subscribe_err_email | escape }}"
+          data-err-rate="{{ t.subscribe_err_rate | escape }}" data-err="{{ t.subscribe_err_generic | escape }}"
+          data-sending="{{ t.subscribe_sending | escape }}" novalidate>
+      <label class="visually-hidden" for="subscribe-email">{{ t.subscribe_label }}</label>
+      <input id="subscribe-email" type="email" name="email" required autocomplete="email" inputmode="email" maxlength="254" placeholder="{{ t.subscribe_placeholder }}" dir="ltr">
+      <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn" type="submit">{{ t.subscribe_button }}</button>
+    </form>
+    <p class="subscribe-status" role="status" aria-live="polite"></p>
+    <p class="subscribe-consent">{{ t.subscribe_consent | replace: "[privacy]", privacy_link }}</p>
+  </div>
+</section>
+<script>
+(function () {
+  var f = document.querySelector(".subscribe-form");
+  if (!f) return;
+  var status = f.parentNode.querySelector(".subscribe-status"), btn = f.querySelector("button");
+  function say(msg, ok) { status.textContent = msg; status.className = "subscribe-status " + (ok ? "is-ok" : "is-err"); }
+  f.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var email = f.email.value.trim();
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { say(f.dataset.errEmail, false); f.email.focus(); return; }
+    btn.disabled = true; say(f.dataset.sending, true);
+    fetch(f.dataset.endpoint, {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email: email, lang: f.dataset.lang, hp: f.website.value, source: location.pathname })
+    }).then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { return { s: r.status, d: d }; }); })
+      .then(function (x) {
+        if (x.d && x.d.ok) { say(f.dataset.ok, true); f.reset(); return; }
+        say(x.s === 429 ? f.dataset.errRate : (x.d && x.d.error === "email") ? f.dataset.errEmail : f.dataset.err, false);
+      })
+      .catch(function () { say(f.dataset.err, false); })
+      .then(function () { btn.disabled = false; });
+  });
+})();
+</script>

@@ -1,0 +1,54 @@
+{%- comment -%}
+  The unsubscribe form linked from every new-post email (?t=<unsubscribe token>). Submitting unsubscribes the
+  address and stores the reason (blog-unsubscribe appends it to unsubscribe_feedback.csv).
+{%- endcomment -%}
+{%- assign lang = include.lang -%}{%- assign t = site.data.i18n[lang] -%}
+{%- for l in site.languages -%}{%- if l.code == lang -%}{%- assign home = l.home -%}{%- endif -%}{%- endfor -%}
+<section class="sub-page">
+  <div class="unsub-form-wrap">
+    <h1>{{ t.unsub_title }}</h1>
+    <p>{{ t.unsub_intro }}</p>
+    <form class="unsub-form" data-endpoint="{{ site.subscribe.endpoint }}/blog-unsubscribe" data-err="{{ t.subscribe_err_generic | escape }}" data-invalid="{{ t.unsub_invalid | escape }}">
+      <fieldset>
+        <legend>{{ t.unsub_reason_label }}</legend>
+        {%- assign reasons = "too_many,not_relevant,never_signed_up,read_elsewhere,other" | split: "," -%}
+        {%- for r in reasons -%}{%- assign key = "unsub_reason_" | append: r %}
+        <label class="unsub-reason"><input type="radio" name="reason" value="{{ r }}"{% if forloop.first %} required{% endif %}> <span>{{ t[key] }}</span></label>
+        {%- endfor %}
+      </fieldset>
+      <label class="unsub-comment-label" for="unsub-comment">{{ t.unsub_comment_label }}</label>
+      <textarea id="unsub-comment" name="comment" rows="4" maxlength="1000"></textarea>
+      <button class="btn" type="submit">{{ t.unsub_button }}</button>
+      <p class="subscribe-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+  <div class="unsub-done" hidden>
+    <div class="sub-page-icon">{% include icon.html name="check" size=48 %}</div>
+    <h1>{{ t.unsub_done_title }}</h1>
+    <p>{{ t.unsub_done_text }}</p>
+  </div>
+  <p><a class="btn btn-ghost" href="{{ home }}">{{ t.back_to_blog }}</a></p>
+</section>
+<script>
+(function () {
+  var f = document.querySelector(".unsub-form"), status = f.querySelector(".subscribe-status"), btn = f.querySelector("button");
+  var token = (location.search.match(/[?&]t=([0-9a-fA-F-]{36})/) || [])[1];
+  function say(msg) { status.textContent = msg; status.className = "subscribe-status is-err"; }
+  if (!token) { say(f.dataset.invalid); btn.disabled = true; return; }
+  f.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var r = f.querySelector("input[name=reason]:checked");
+    btn.disabled = true;
+    fetch(f.dataset.endpoint, {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ token: token, reason: r ? r.value : "other", comment: f.comment.value })
+    }).then(function (res) {
+      if (res.ok) {
+        document.querySelector(".unsub-form-wrap").hidden = true;
+        document.querySelector(".unsub-done").hidden = false;
+        history.replaceState(null, "", location.pathname);
+      } else { say(res.status === 404 || res.status === 400 ? f.dataset.invalid : f.dataset.err); btn.disabled = false; }
+    }).catch(function () { say(f.dataset.err); btn.disabled = false; });
+  });
+})();
+</script>

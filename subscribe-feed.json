@@ -1,0 +1,33 @@
+---
+layout: null
+permalink: /subscribe-feed.json
+sitemap: false
+---
+{%- comment -%}
+  Read by the blog-notify Supabase Edge Function to email subscribers about new posts.
+  The newest 15 posts of each language (future-dated posts are not built, so they appear once published).
+{%- endcomment -%}
+{%- assign items = "" | split: "" -%}
+{%- for l in site.languages -%}
+{%- assign lp = site.posts | where: "lang", l.code -%}
+{%- for p in lp limit: 15 -%}{%- assign items = items | push: p -%}{%- endfor -%}
+{%- endfor -%}
+{
+  "generated": {{ site.time | date_to_xmlschema | jsonify }},
+  "posts": [
+  {%- for p in items %}
+    {%- assign img = p.image | default: p.hero_image.src -%}
+    {%- if img contains ".webp" -%}{%- assign img = img | replace: ".webp", ".jpg" -%}{%- endif %}
+    {
+      "url": {{ p.url | absolute_url | jsonify }},
+      "ref": {{ p.ref | default: p.slug | jsonify }},
+      "lang": {{ p.lang | jsonify }},
+      "title": {{ p.title | strip_html | jsonify }},
+      "description": {{ p.description | strip_html | jsonify }},
+      "eyebrow": {{ p.ad.eyebrow | default: "" | jsonify }},
+      "image": {% if img and img != "/assets/img/og-default.png" %}{{ img | absolute_url | jsonify }}{% else %}null{% endif %},
+      "date": {{ p.date | date_to_xmlschema | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+  {%- endfor %}
+  ]
+}

@@ -1,0 +1,22 @@
+{%- comment -%} Landing page after the confirmation link (blog-verify redirects here; ?status=invalid|error on failure). {%- endcomment -%}
+{%- assign lang = include.lang -%}{%- assign t = site.data.i18n[lang] -%}
+{%- for l in site.languages -%}{%- if l.code == lang -%}{%- assign home = l.home -%}{%- endif -%}{%- endfor -%}
+<section class="sub-page">
+  <div class="sub-ok">
+    <div class="sub-page-icon">{% include icon.html name="check" size=48 %}</div>
+    <h1>{{ t.subscribed_title }}</h1>
+    <p>{{ t.subscribed_text }}</p>
+  </div>
+  <div class="sub-bad" hidden>
+    <div class="sub-page-icon">{% include icon.html name="clock" size=48 %}</div>
+    <h1>{{ t.subscribed_invalid_title }}</h1>
+    <p>{{ t.subscribed_invalid_text }}</p>
+  </div>
+  <p><a class="btn" href="{{ home }}">{{ t.back_to_blog }}</a></p>
+</section>
+<script>
+if (/[?&]status=(invalid|error)/.test(location.search)) {
+  document.querySelector(".sub-ok").hidden = true;
+  document.querySelector(".sub-bad").hidden = false;
+}
+</script>

@@ -48,6 +48,36 @@ en:
   ad_label: "Advertisement"
   privacy: "Privacy policy"
   terms: "Terms of service"
+  subscribe_nav: Subscribe
+  subscribe_title: Get new posts by email
+  subscribe_text: One short email whenever we publish a new guide or story. No spam, and you can unsubscribe at any time.
+  subscribe_label: Your email address
+  subscribe_placeholder: you@example.com
+  subscribe_button: Subscribe
+  subscribe_consent: We'll email you to confirm your address. See our [privacy].
+  subscribe_sending: Sending…
+  subscribe_ok: Almost done! Check your inbox and click the link in our email to confirm your subscription.
+  subscribe_err_email: Please enter a valid email address.
+  subscribe_err_rate: Too many attempts. Please try again in a little while.
+  subscribe_err_generic: Something went wrong. Please try again in a few minutes.
+  subscribed_title: You're subscribed
+  subscribed_text: Thanks for confirming your email. We'll let you know whenever a new post is published on the Learning Clarity Blog.
+  subscribed_invalid_title: This link has expired
+  subscribed_invalid_text: The confirmation link is invalid or more than 7 days old. Please subscribe again, and we'll send you a new one.
+  unsub_title: Unsubscribe
+  unsub_intro: Sorry to see you go. Could you tell us why you're unsubscribing? It helps us write better posts.
+  unsub_reason_label: Why are you unsubscribing?
+  unsub_reason_too_many: I get too many emails
+  unsub_reason_not_relevant: The posts aren't relevant to me
+  unsub_reason_never_signed_up: I never signed up for this
+  unsub_reason_read_elsewhere: I'd rather read the blog directly or via RSS
+  unsub_reason_other: Another reason
+  unsub_comment_label: Anything else you'd like to tell us? (optional)
+  unsub_button: Unsubscribe me
+  unsub_done_title: You've been unsubscribed
+  unsub_done_text: You won't receive any more emails about new posts. Thank you for your feedback.
+  unsub_invalid: This unsubscribe link is invalid or has already been used. If you still receive emails, reply to one of them and we'll remove you.
+  back_to_blog: Back to the blog
 ar:
   blog: المدونة
   home_title: مدونة Learning Clarity
@@ -97,6 +127,36 @@ ar:
   ad_label: "إعلان"
   privacy: "سياسة الخصوصية"
   terms: "شروط الخدمة"
+  subscribe_nav: اشترك
+  subscribe_title: تلقَّ المقالات الجديدة عبر البريد الإلكتروني
+  subscribe_text: رسالة قصيرة واحدة كلما نشرنا دليلًا أو قصة جديدة. بلا رسائل مزعجة، ويمكنك إلغاء الاشتراك في أي وقت.
+  subscribe_label: بريدك الإلكتروني
+  subscribe_placeholder: you@example.com
+  subscribe_button: اشترك
+  subscribe_consent: سنرسل إليك رسالة لتأكيد بريدك الإلكتروني. اطّلع على [privacy].
+  subscribe_sending: جارٍ الإرسال…
+  subscribe_ok: خطوة أخيرة! افتح بريدك الوارد واضغط على الرابط في رسالتنا لتأكيد اشتراكك.
+  subscribe_err_email: يُرجى إدخال بريد إلكتروني صحيح.
+  subscribe_err_rate: محاولات كثيرة جدًا. يُرجى المحاولة مرة أخرى بعد قليل.
+  subscribe_err_generic: حدث خطأ ما. يُرجى المحاولة مرة أخرى بعد بضع دقائق.
+  subscribed_title: تم اشتراكك
+  subscribed_text: شكرًا لتأكيد بريدك الإلكتروني. سنُعلمك كلما نُشر مقال جديد في مدونة Learning Clarity.
+  subscribed_invalid_title: انتهت صلاحية هذا الرابط
+  subscribed_invalid_text: رابط التأكيد غير صالح أو مضى عليه أكثر من 7 أيام. يُرجى الاشتراك مرة أخرى وسنرسل إليك رابطًا جديدًا.
+  unsub_title: إلغاء الاشتراك
+  unsub_intro: يؤسفنا رحيلك. هل يمكنك أن تخبرنا لماذا تلغي اشتراكك؟ يساعدنا ذلك على كتابة مقالات أفضل.
+  unsub_reason_label: لماذا تلغي اشتراكك؟
+  unsub_reason_too_many: تصلني رسائل كثيرة جدًا
+  unsub_reason_not_relevant: المقالات لا تناسب اهتماماتي
+  unsub_reason_never_signed_up: لم أشترك في هذه الرسائل أصلًا
+  unsub_reason_read_elsewhere: أفضّل قراءة المدونة مباشرة أو عبر RSS
+  unsub_reason_other: سبب آخر
+  unsub_comment_label: هل هناك ما تودّ إخبارنا به؟ (اختياري)
+  unsub_button: ألغِ اشتراكي
+  unsub_done_title: تم إلغاء اشتراكك
+  unsub_done_text: لن تصلك بعد الآن رسائل عن المقالات الجديدة. شكرًا لملاحظاتك.
+  unsub_invalid: رابط إلغاء الاشتراك هذا غير صالح أو سبق استخدامه. إذا كانت الرسائل لا تزال تصلك، فردّ على إحداها وسنزيلك من القائمة.
+  back_to_blog: العودة إلى المدونة
 es:
   blog: Blog
   home_title: El blog de Learning Clarity
@@ -146,6 +206,36 @@ es:
   ad_label: "Publicidad"
   privacy: "Política de privacidad"
   terms: "Condiciones del servicio"
+  subscribe_nav: Suscribirse
+  subscribe_title: Recibe los nuevos artículos por correo
+  subscribe_text: Un correo breve cada vez que publiquemos una guía o una historia nueva. Sin spam, y puedes darte de baja cuando quieras.
+  subscribe_label: Tu correo electrónico
+  subscribe_placeholder: tu@ejemplo.com
+  subscribe_button: Suscribirme
+  subscribe_consent: Te enviaremos un correo para confirmar tu dirección. Consulta nuestra [privacy].
+  subscribe_sending: Enviando…
+  subscribe_ok: ¡Casi listo! Revisa tu bandeja de entrada y haz clic en el enlace de nuestro correo para confirmar tu suscripción.
+  subscribe_err_email: Introduce una dirección de correo válida.
+  subscribe_err_rate: Demasiados intentos. Vuelve a intentarlo dentro de un rato.
+  subscribe_err_generic: Algo ha salido mal. Vuelve a intentarlo dentro de unos minutos.
+  subscribed_title: ¡Ya estás suscrito!
+  subscribed_text: Gracias por confirmar tu correo. Te avisaremos cada vez que publiquemos un artículo nuevo en el blog de Learning Clarity.
+  subscribed_invalid_title: Este enlace ha caducado
+  subscribed_invalid_text: El enlace de confirmación no es válido o tiene más de 7 días. Suscríbete de nuevo y te enviaremos otro.
+  unsub_title: Darse de baja
+  unsub_intro: Sentimos que te vayas. ¿Nos cuentas por qué te das de baja? Nos ayuda a escribir mejores artículos.
+  unsub_reason_label: ¿Por qué te das de baja?
+  unsub_reason_too_many: Recibo demasiados correos
+  unsub_reason_not_relevant: Los artículos no me interesan
+  unsub_reason_never_signed_up: Nunca me suscribí a esto
+  unsub_reason_read_elsewhere: Prefiero leer el blog directamente o por RSS
+  unsub_reason_other: Otro motivo
+  unsub_comment_label: ¿Quieres contarnos algo más? (opcional)
+  unsub_button: Darme de baja
+  unsub_done_title: Te has dado de baja
+  unsub_done_text: Ya no recibirás más correos sobre artículos nuevos. Gracias por tus comentarios.
+  unsub_invalid: Este enlace para darse de baja no es válido o ya se ha usado. Si sigues recibiendo correos, responde a uno de ellos y te eliminaremos de la lista.
+  back_to_blog: Volver al blog
 fr:
   blog: Blog
   home_title: Le blog Learning Clarity
@@ -195,6 +285,36 @@ fr:
   ad_label: "Publicité"
   privacy: "Politique de confidentialité"
   terms: "Conditions d’utilisation"
+  subscribe_nav: S’abonner
+  subscribe_title: Recevez les nouveaux articles par e-mail
+  subscribe_text: Un court e-mail à chaque nouveau guide ou nouvelle histoire. Pas de spam, et vous pouvez vous désabonner à tout moment.
+  subscribe_label: Votre adresse e-mail
+  subscribe_placeholder: vous@exemple.com
+  subscribe_button: S’abonner
+  subscribe_consent: Nous vous enverrons un e-mail pour confirmer votre adresse. Consultez notre [privacy].
+  subscribe_sending: Envoi en cours…
+  subscribe_ok: Presque terminé ! Ouvrez votre boîte de réception et cliquez sur le lien de notre e-mail pour confirmer votre abonnement.
+  subscribe_err_email: Veuillez saisir une adresse e-mail valide.
+  subscribe_err_rate: Trop de tentatives. Veuillez réessayer un peu plus tard.
+  subscribe_err_generic: Un problème est survenu. Veuillez réessayer dans quelques minutes.
+  subscribed_title: Vous êtes abonné
+  subscribed_text: Merci d’avoir confirmé votre adresse e-mail. Nous vous préviendrons à chaque nouvel article publié sur le blog Learning Clarity.
+  subscribed_invalid_title: Ce lien a expiré
+  subscribed_invalid_text: Le lien de confirmation n’est pas valide ou date de plus de 7 jours. Abonnez-vous à nouveau et nous vous en enverrons un autre.
+  unsub_title: Se désabonner
+  unsub_intro: Nous sommes désolés de vous voir partir. Pouvez-vous nous dire pourquoi vous vous désabonnez ? Cela nous aide à écrire de meilleurs articles.
+  unsub_reason_label: Pourquoi vous désabonnez-vous ?
+  unsub_reason_too_many: Je reçois trop d’e-mails
+  unsub_reason_not_relevant: Les articles ne me concernent pas
+  unsub_reason_never_signed_up: Je ne me suis jamais abonné
+  unsub_reason_read_elsewhere: Je préfère lire le blog directement ou par RSS
+  unsub_reason_other: Une autre raison
+  unsub_comment_label: Autre chose à nous dire ? (facultatif)
+  unsub_button: Me désabonner
+  unsub_done_title: Vous êtes désabonné
+  unsub_done_text: Vous ne recevrez plus d’e-mails sur les nouveaux articles. Merci pour votre retour.
+  unsub_invalid: Ce lien de désabonnement n’est pas valide ou a déjà été utilisé. Si vous recevez encore des e-mails, répondez à l’un d’eux et nous vous retirerons de la liste.
+  back_to_blog: Retour au blog
 de:
   blog: Blog
   home_title: Der Learning Clarity Blog
@@ -244,3 +364,33 @@ de:
   ad_label: "Anzeige"
   privacy: "Datenschutzerklärung"
   terms: "Nutzungsbedingungen"
+  subscribe_nav: Abonnieren
+  subscribe_title: Neue Beiträge per E-Mail erhalten
+  subscribe_text: Eine kurze E-Mail, sobald wir einen neuen Leitfaden oder eine neue Geschichte veröffentlichen. Kein Spam, und Sie können sich jederzeit abmelden.
+  subscribe_label: Ihre E-Mail-Adresse
+  subscribe_placeholder: sie@beispiel.de
+  subscribe_button: Abonnieren
+  subscribe_consent: Wir senden Ihnen eine E-Mail, um Ihre Adresse zu bestätigen. Siehe unsere [privacy].
+  subscribe_sending: Wird gesendet …
+  subscribe_ok: Fast geschafft! Öffnen Sie Ihr Postfach und klicken Sie auf den Link in unserer E-Mail, um Ihr Abonnement zu bestätigen.
+  subscribe_err_email: Bitte geben Sie eine gültige E-Mail-Adresse ein.
+  subscribe_err_rate: Zu viele Versuche. Bitte versuchen Sie es in Kürze erneut.
+  subscribe_err_generic: Etwas ist schiefgelaufen. Bitte versuchen Sie es in einigen Minuten erneut.
+  subscribed_title: Ihr Abonnement ist aktiv
+  subscribed_text: Vielen Dank für die Bestätigung Ihrer E-Mail-Adresse. Wir informieren Sie über jeden neuen Beitrag im Learning Clarity Blog.
+  subscribed_invalid_title: Dieser Link ist abgelaufen
+  subscribed_invalid_text: Der Bestätigungslink ist ungültig oder älter als 7 Tage. Bitte abonnieren Sie erneut, dann senden wir Ihnen einen neuen Link.
+  unsub_title: Abmelden
+  unsub_intro: Schade, dass Sie gehen. Verraten Sie uns, warum Sie sich abmelden? Das hilft uns, bessere Beiträge zu schreiben.
+  unsub_reason_label: Warum melden Sie sich ab?
+  unsub_reason_too_many: Ich erhalte zu viele E-Mails
+  unsub_reason_not_relevant: Die Beiträge sind für mich nicht relevant
+  unsub_reason_never_signed_up: Ich habe mich nie angemeldet
+  unsub_reason_read_elsewhere: Ich lese den Blog lieber direkt oder per RSS
+  unsub_reason_other: Ein anderer Grund
+  unsub_comment_label: Möchten Sie uns noch etwas mitteilen? (optional)
+  unsub_button: Abmelden
+  unsub_done_title: Sie wurden abgemeldet
+  unsub_done_text: Sie erhalten keine E-Mails mehr über neue Beiträge. Vielen Dank für Ihr Feedback.
+  unsub_invalid: Dieser Abmeldelink ist ungültig oder wurde bereits verwendet. Falls Sie weiterhin E-Mails erhalten, antworten Sie einfach auf eine davon, und wir entfernen Sie aus der Liste.
+  back_to_blog: Zurück zum Blog
