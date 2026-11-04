@@ -1,6 +1,6 @@
 import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 import {
-  asLang, BLOG_URL, db, graphProblem, json, Lang, newPostEmailHtml, PostInfo, sendMail, senderMailbox, sleep,
+  asLang, BLOG_URL, db, json, mailProblem, Lang, newPostEmailHtml, PostInfo, sendMail, senderMailbox, sleep,
   unsubscribeUrl, UUID_RE,
 } from "../_shared/blog.ts";
 
@@ -53,7 +53,7 @@ Deno.serve(async (req: Request) => {
   const given = req.headers.get("x-notify-secret") ?? "";
   if (!secretRow?.value || !timingSafeEqual(given, secretRow.value)) return json(req, { ok: false, error: "auth" }, 401);
 
-  const problem = graphProblem();
+  const problem = mailProblem();
   if (problem) return json(req, { ok: false, error: problem }, 500);
 
   let body: Record<string, unknown> = {};
@@ -74,7 +74,7 @@ Deno.serve(async (req: Request) => {
     const { data: sub } = await supabase.from("blog_subscribers").select("unsubscribe_token").eq("email", to).maybeSingle();
     const token = sub?.unsubscribe_token ?? "00000000-0000-4000-8000-000000000000";
     const image = (await imageOk(post.image)) ? post.image! : null;
-    const err = await sendMail({ to, subject: post.title, html: newPostEmailHtml(lang, info(post, image), unsubscribeUrl(lang, token)), ref: `blog-test:${post.ref}` });
+    const err = await sendMail({ to, subject: post.title, html: newPostEmailHtml(lang, info(post, image), unsubscribeUrl(lang, token)), ref: `blog-test:${post.ref}`, unsubscribeUrl: unsubscribeUrl(lang, token) });
     return json(req, { ok: !err, test: true, post: post.url, error: err });
   }
 
@@ -131,8 +131,9 @@ Deno.serve(async (req: Request) => {
         subject: post.title,
         html: newPostEmailHtml(lang, info(post, image), unsubscribeUrl(lang, s.unsubscribe_token)),
         ref: `blog-post:${post.ref}:${lang}:${s.id}`,
+        unsubscribeUrl: unsubscribeUrl(lang, s.unsubscribe_token),
       });
-      if (err && /^(Graph token|Graph mail not configured|Graph 401|Graph 403|Graph 5\d\d|Graph retry)/.test(err)) {
+      if (err && /^(Mail not configured|Graph token|(Graph|Resend) (401|403|5\d\d)|(Graph|Resend) retry)/.test(err)) {
         // A problem with the sender, not this address: stop, record nothing, and retry on the next run.
         errors.push(err); remaining = true; break;
       }
