@@ -1,7 +1,7 @@
 ---
 title: "AI Study Platform Subscription: LearningClarity's New Plans"
 description: "Our AI study platform subscription starts with a free week, then plans from $2.99 a month, a live usage meter and top-ups. See which plan fits you."
-date: 2026-11-04 23:46:59 +0200
+date: 2026-11-11 09:00:00 +0200
 lang: en
 ref: ai-study-platform-subscription-plans
 capability: subscription

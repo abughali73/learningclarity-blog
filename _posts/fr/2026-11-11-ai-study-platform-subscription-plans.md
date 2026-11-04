@@ -1,7 +1,7 @@
 ---
 title: "Abonnement plateforme d'étude IA : les offres LearningClarity"
 description: "L'abonnement de notre plateforme d'étude IA démarre par une semaine gratuite, puis des offres dès 2,99 $ par mois, un compteur d'usage et des recharges."
-date: 2026-11-04 23:46:59 +0200
+date: 2026-11-11 09:00:00 +0200
 lang: fr
 ref: ai-study-platform-subscription-plans
 capability: subscription
