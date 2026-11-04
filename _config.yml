@@ -72,7 +72,7 @@ subscribe:
   enabled: true
   endpoint: https://xlkexogyodwnblladuvj.supabase.co/functions/v1
 legal:
-  privacy: https://www.learningclarity.ai/privacypolicy/
+  privacy: https://www.learningclarity.ai/privacypolicy/   # the app's policy; the blog links to its own /<lang>/privacy/ pages
   terms: https://www.learningclarity.ai/termsofservice/
 
 app:

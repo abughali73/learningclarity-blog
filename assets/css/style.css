@@ -324,6 +324,9 @@ picture > source { display: none; } /* <source> is not hidden by default; inside
 .subscribe-compact .subscribe-status { margin: 8px 0 2px !important; font-size: 14px !important; }
 .subscribe-compact .subscribe-consent { font-size: 12px !important; }
 @media (max-width: 900px) { .home-top { grid-template-columns: 1fr; } }
+.legal-page { max-width: 760px; margin: 40px auto 24px; }
+.legal-page h1 { margin: 0 0 8px; font: 800 clamp(30px, 5vw, 42px)/1.15 var(--display); color: var(--ink); }
+.legal-page h2 { font-size: 23px; }
 .sub-page { max-width: 640px; margin: 48px auto; padding: clamp(24px, 5vw, 40px); border-radius: 24px; background: var(--card); border: 1px solid var(--line); text-align: center; }
 .sub-page h1 { margin: 0 0 10px; font: 700 30px/1.25 var(--display); }
 .sub-page p { color: var(--muted); }

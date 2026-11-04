@@ -5,7 +5,8 @@
 {%- endcomment -%}
 {%- assign lang = include.lang | default: page.lang | default: site.lang -%}
 {%- assign t = site.data.i18n[lang] -%}
-{%- capture privacy_link -%}<a href="{{ site.legal.privacy }}" rel="noopener">{{ t.privacy }}</a>{%- endcapture -%}
+{%- assign privacy_url = "/privacy/" -%}{%- for l in site.languages -%}{%- if l.code == lang -%}{%- assign privacy_url = l.home | append: "privacy/" -%}{%- endif -%}{%- endfor -%}
+{%- capture privacy_link -%}<a href="{{ privacy_url }}">{{ t.privacy }}</a>{%- endcapture -%}
 {%- if include.compact -%}
 <section class="subscribe-box subscribe-compact" id="subscribe" aria-labelledby="subscribe-title">
   <div class="subscribe-body">

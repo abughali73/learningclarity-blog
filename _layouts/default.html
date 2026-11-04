@@ -60,7 +60,7 @@
       <p class="footer-title">{{ t.qr_title }}</p>
       {% include stores.html lang=lang %}
       <ul class="footer-links">
-        <li><a href="{{ site.legal.privacy }}" rel="noopener">{{ t.privacy }}</a></li>
+        <li><a href="{{ lang_home | default: '/' }}privacy/">{{ t.privacy }}</a></li>
         <li><a href="{{ site.legal.terms }}" rel="noopener">{{ t.terms }}</a></li>
       </ul>
       <p class="footer-legal">© {{ site.time | date: "%Y" }} intelliSYS Solutions &amp; Consulting DWC LLC · {{ t.rights }}</p>
