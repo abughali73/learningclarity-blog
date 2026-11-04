@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       limit:
-        description: "How many older-style images to restyle in this run"
+        description: "How many older-style images to restyle per batch (each batch is saved before the next)"
         required: false
-        default: "250"
+        default: "40"
       only:
         description: "Regenerate only this image src (for testing), e.g. /assets/img/posts/<slug>-cinematic.webp"
         required: false
@@ -37,30 +37,42 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install pyyaml "pillow>=11.3"
-      - name: Generate missing images
+      - name: Generate images in batches, saving each batch as it is done
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_IMAGE_MODEL: ${{ vars.OPENAI_IMAGE_MODEL }}
           OPENAI_IMAGE_SIZE: ${{ vars.OPENAI_IMAGE_SIZE }}
           OPENAI_IMAGE_QUALITY: ${{ vars.OPENAI_IMAGE_QUALITY }}
-          IMAGE_RESTYLE_LIMIT: ${{ inputs.limit }}
+          IMAGE_RESTYLE_LIMIT: ${{ inputs.limit || '40' }}
           IMAGE_ONLY: ${{ inputs.only }}
-        run: python tools/generate_images.py
-      - name: Commit images and rebuild the site
-        if: always()
-        env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          git add assets/img/posts
-          if git diff --cached --quiet; then echo "Nothing new."; exit 0; fi
-          git -c user.name="LearningClarity Image Bot" -c user.email="actions@users.noreply.github.com" commit -m "images: generate and restyle post illustrations"
-          # Posts can be pushed while images are generating: rebase onto the latest main and retry.
-          for attempt in 1 2 3 4 5; do
-            git fetch origin main
-            git rebase origin/main
-            if git push origin HEAD:main; then break; fi
-            if [ "$attempt" = 5 ]; then echo "::error::Could not push the images after 5 attempts."; exit 1; fi
-            sleep $((attempt * 10))
+          git config user.name "LearningClarity Image Bot"
+          git config user.email "actions@users.noreply.github.com"
+          failed=0
+          # Each round makes every missing image plus up to IMAGE_RESTYLE_LIMIT older-style ones, then
+          # commits and pushes them, so a cancelled or timed-out run never loses finished pictures.
+          for round in $(seq 1 10); do
+            set +e
+            python tools/generate_images.py | tee generate.log
+            status=${PIPESTATUS[0]}
+            set -e
+            [ "$status" != 0 ] && failed=1
+            git add assets/img/posts
+            if ! git diff --cached --quiet; then
+              git commit -q -m "images: generate and restyle post illustrations"
+              # Posts can be pushed while images are generating: rebase onto the latest main and retry.
+              for attempt in 1 2 3 4 5; do
+                git fetch -q origin main
+                git rebase -q origin/main
+                if git push -q origin HEAD:main; then break; fi
+                if [ "$attempt" = 5 ]; then echo "::error::Could not push the images after 5 attempts."; exit 1; fi
+                sleep $((attempt * 10))
+              done
+              # Pushes made with the workflow token do not start a Pages build on their own.
+              gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
+            fi
+            if grep -q "No images to generate" generate.log || [ -n "$IMAGE_ONLY" ] || [ "$status" != 0 ]; then break; fi
           done
-          # Pushes made with the workflow token do not start a Pages build on their own.
-          gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
+          rm -f generate.log
+          exit $failed
