@@ -32,6 +32,14 @@ covered:
   - {id: study-platform-faq, status: published, capability: faq, angle: "Learning Clarity Study Platform FAQ (68 questions)"}
 
 ideas:
+  # Owner's University Stories (supplied 4 Nov 2026). Already written and scheduled one a day from 5 Nov 2026; each is used by its post.
+  - {id: uni-medicine-anatomy, status: idea, capability: visualize, source: "Owner's University Stories", angle: "First-year medical student masters the cranial nerves, 61% to 93% on practice exams, an A in anatomy"}
+  - {id: uni-economics-micro, status: idea, capability: explain-mode, source: "Owner's University Stories", angle: "Economics student learns to read consumer-choice graphs through everyday budgets, an A in Microeconomics"}
+  - {id: uni-ee-circuits, status: idea, capability: exam-mode, source: "Owner's University Stories", angle: "Electrical engineering student finds his sign-convention error, an A in Circuit Analysis"}
+  - {id: uni-psychology-stats, status: idea, capability: quiz-mode, source: "Owner's University Stories", angle: "Psychology student learns what a p-value means, an A in Research Methods and Statistics"}
+  - {id: uni-architecture-structures, status: idea, capability: learning-insights, source: "Owner's University Stories", angle: "Architecture student learns load paths and free-body diagrams, an A in Structural Mechanics"}
+  - {id: uni-business-statistics, status: idea, capability: describe-topic, source: "Owner's University Stories", angle: "Business student learns regression for sales forecasting, an A in Business Statistics"}
+  - {id: uni-data-science-linear-algebra, status: idea, capability: streaks-achievements, source: "Owner's University Stories", angle: "Data science student finally understands eigenvectors, an A in Linear Algebra for Machine Learning"}
   - id: law-student-scanned-reader
     status: idea
     capability: upload-material
