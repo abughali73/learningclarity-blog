@@ -5,6 +5,15 @@ on:
     branches: [main]
     paths: ["_posts/**"]
   workflow_dispatch:
+    inputs:
+      limit:
+        description: "How many older-style images to restyle in this run"
+        required: false
+        default: "0"
+      only:
+        description: "Regenerate only this image src (for testing), e.g. /assets/img/posts/<slug>-cinematic.webp"
+        required: false
+        default: ""
   schedule:
     - cron: "17 * * * *"   # hourly safety net: generates any image that is still missing
 
@@ -19,6 +28,7 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 300
     steps:
       - uses: actions/checkout@v4
         with:
@@ -26,13 +36,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install pyyaml pillow
+      - run: pip install pyyaml "pillow>=11.3"
       - name: Generate missing images
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_IMAGE_MODEL: ${{ vars.OPENAI_IMAGE_MODEL }}
           OPENAI_IMAGE_SIZE: ${{ vars.OPENAI_IMAGE_SIZE }}
           OPENAI_IMAGE_QUALITY: ${{ vars.OPENAI_IMAGE_QUALITY }}
+          IMAGE_RESTYLE_LIMIT: ${{ inputs.limit }}
+          IMAGE_ONLY: ${{ inputs.only }}
         run: python tools/generate_images.py
       - name: Commit images and rebuild the site
         if: always()
@@ -41,7 +53,7 @@ jobs:
         run: |
           git add assets/img/posts
           if git diff --cached --quiet; then echo "Nothing new."; exit 0; fi
-          git -c user.name="LearningClarity Image Bot" -c user.email="actions@users.noreply.github.com" commit -m "images: generate post illustrations"
+          git -c user.name="LearningClarity Image Bot" -c user.email="actions@users.noreply.github.com" commit -m "images: generate and restyle post illustrations"
           # Posts can be pushed while images are generating: rebase onto the latest main and retry.
           for attempt in 1 2 3 4 5; do
             git fetch origin main

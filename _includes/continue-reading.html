@@ -44,7 +44,7 @@
       <a href="{{ q.url }}">
         {%- if q.image and q.image != "/assets/img/og-default.png" -%}
         {%- assign thumb = site.static_files | where: "path", q.image | first -%}
-        {%- if thumb %}{% if q.image contains ".webp" %}<img src="{{ q.image | replace: ".webp", "-640.webp" }}" alt="" width="640" height="427" loading="lazy" decoding="async">{% else %}<img src="{{ q.image }}" alt="" width="1536" height="1024" loading="lazy" decoding="async">{% endif %}{% endif -%}
+        {%- if thumb %}{% if q.image contains ".webp" %}{% include picture.html src=q.image alt="" thumb=true loading="lazy" %}{% else %}<img src="{{ q.image }}" alt="" width="1536" height="1024" loading="lazy" decoding="async">{% endif %}{% endif -%}
         {%- endif %}
         <span class="cr-text">
           {% if q.ad.eyebrow %}<span class="ad-eyebrow ad-eyebrow-{{ q.ad.color | default: 'blue' }}">{{ q.ad.eyebrow }}</span>{% endif %}

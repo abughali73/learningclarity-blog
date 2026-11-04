@@ -1,0 +1,16 @@
+{%- comment -%}
+  One post picture in the lightest format the browser supports: AVIF first, WebP as the fallback.
+  {% include picture.html src="/assets/img/posts/x.webp" alt="..." sizes="100vw" loading="lazy" priority="high" thumb=true %}
+  src is the .webp path from the front matter. The AVIF <source> is only offered once the .avif file
+  exists (older pictures may still be WebP-only), because a browser never falls back from a missing AVIF.
+  thumb=true serves only the 640 px size (cards and thumbnails).
+{%- endcomment -%}
+{%- assign pic_src = include.src -%}
+{%- assign pic_small = pic_src | replace: ".webp", "-640.webp" -%}
+{%- assign pic_avif = pic_src | replace: ".webp", ".avif" -%}
+{%- assign pic_avif_small = pic_src | replace: ".webp", "-640.avif" -%}
+{%- assign pic_avif_file = site.static_files | where: "path", pic_avif | first -%}
+{%- if include.thumb -%}{%- assign pic_w = 640 -%}{%- assign pic_h = 427 -%}{%- else -%}{%- assign pic_w = 1280 -%}{%- assign pic_h = 853 -%}{%- endif -%}
+<picture>
+{%- if pic_avif_file -%}{%- if include.thumb -%}<source type="image/avif" srcset="{{ pic_avif_small }}">{%- else -%}<source type="image/avif" srcset="{{ pic_avif_small }} 640w, {{ pic_avif }} 1280w" sizes="{{ include.sizes }}">{%- endif -%}{%- endif -%}
+{%- if include.thumb -%}<img src="{{ pic_small }}"{%- else -%}<img src="{{ pic_src }}" srcset="{{ pic_small }} 640w, {{ pic_src }} 1280w" sizes="{{ include.sizes }}"{%- endif %} alt="{{ include.alt | escape }}" width="{{ pic_w }}" height="{{ pic_h }}"{% if include.loading %} loading="{{ include.loading }}"{% endif %}{% if include.priority %} fetchpriority="{{ include.priority }}"{% endif %} decoding="async"></picture>

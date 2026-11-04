@@ -10,7 +10,7 @@
   <a href="{{ p.url }}">
     {%- if p.image and p.image != "/assets/img/og-default.png" -%}
     {%- assign thumb = site.static_files | where: "path", p.image | first -%}
-    {%- if thumb %}{% if p.image contains ".webp" %}<img src="{{ p.image | replace: ".webp", "-640.webp" }}" alt="" width="640" height="427" loading="{{ img_loading }}" decoding="async">{% else %}<img src="{{ p.image }}" alt="" width="1536" height="1024" loading="{{ img_loading }}">{% endif %}{% endif -%}
+    {%- if thumb %}{% if p.image contains ".webp" %}{% include picture.html src=p.image alt="" thumb=true loading=img_loading %}{% else %}<img src="{{ p.image }}" alt="" width="1536" height="1024" loading="{{ img_loading }}">{% endif %}{% endif -%}
     {%- endif %}
     <div class="search-card-text">
       {% if p.ad.eyebrow %}<span class="ad-eyebrow ad-eyebrow-{{ p.ad.color | default: 'blue' }}">{{ p.ad.eyebrow }}</span>{% endif %}

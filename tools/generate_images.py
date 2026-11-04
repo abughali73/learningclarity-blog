@@ -18,6 +18,8 @@ Environment:
   OPENAI_IMAGE_MODEL  (repository variable, optional: the exact model ID, default gpt-image-2.5-flare)
   OPENAI_IMAGE_SIZE   (optional, default 1536x1024)
   OPENAI_IMAGE_QUALITY (optional, default high)
+  IMAGE_RESTYLE_LIMIT (optional, default 0: how many older-style images to redo per run)
+  IMAGE_ONLY          (optional: regenerate just this one src, for testing a style)
 """
 import base64
 import io
@@ -33,23 +35,35 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_MODEL = "gpt-image-2.5-flare"
-STYLE = ("Cinematic film still, as if from a high-end feature film: photorealistic, shot on a full-frame cinema "
-         "camera with a 35mm or 50mm prime lens, shallow depth of field with soft bokeh, motivated natural light "
-         "with deliberate contrast and gentle haze, rich but natural colour grading with warm highlights and teal "
-         "shadows, subtle film grain, thoughtful composition with a clear focal point and real depth. Believable "
-         "fictional people with natural, expressive faces and hands. Not a stock photo, not an illustration, not "
-         "cartoonish, no oversaturation. Absolutely no text, letters, numbers, logos, watermarks or brand marks, "
-         "no readable screens or app interfaces, and no real or recognisable people.")
+# Bump STYLE_VERSION whenever STYLE changes: every image made with an older version is regenerated
+# (in place, so the old picture stays live until the new one is committed). The version of each
+# image is recorded in assets/img/posts/styles.json.
+STYLE_VERSION = 2
+STYLE = ("Bright, inspirational and tech-savvy photorealistic image, like a premium technology brand campaign. "
+         "Clean, modern, light-filled spaces (glass walls, warm wood, plants, daylight from large windows) with "
+         "cool blue accent lighting. Where it fits the moment, a softly glowing, translucent holographic panel floats "
+         "near the person, showing abstract learning visuals: node diagrams, mind-map branches, flowing charts, "
+         "waveforms or simple icons, in luminous blue and white, as if the person's study material is coming to "
+         "life around them. The person looks focused, capable and optimistic. High-key, crisp and sharp, vibrant but "
+         "natural colours with blue and white highlights, gentle shallow depth of field, realistic skin and hands. "
+         "Even evening or night scenes stay bright and well lit with a hopeful mood; never gloomy, grey or murky. "
+         "Not an illustration, not cartoonish, not a generic stock photo. Absolutely no legible text, letters, "
+         "numbers, logos, watermarks or brand marks anywhere (holographic panels show only abstract shapes and "
+         "glyph-free diagrams; no logos on laptops, mugs, lanyards or clothing), and no real or recognisable people.")
 
 
 LARGE_WIDTH, SMALL_WIDTH, SHARE_WIDTH = 1280, 640, 1200
+AVIF_QUALITY, WEBP_QUALITY = 50, 75
+MANIFEST = ROOT / "assets/img/posts/styles.json"
 
 
 def save_image(png, out, share=False):
-    """Save a generated picture in fast-loading formats.
+    """Save a generated picture in the lightest formats browsers load.
 
-    For a .webp src: <name>.webp (1280 px wide) and <name>-640.webp for small screens and thumbnails.
-    For the hero (share=True) also <name>.jpg (1200 px), because some social networks don't show WebP previews.
+    For a .webp src, each picture is saved 1280 px and 640 px wide as:
+      <name>.avif / <name>-640.avif  (AVIF: smallest files; the layouts offer these first)
+      <name>.webp / <name>-640.webp  (WebP fallback for the few browsers without AVIF)
+    and for the hero (share=True) also <name>.jpg (1200 px), because social networks don't show AVIF/WebP previews.
     Any other extension is written as delivered.
     """
     out.parent.mkdir(parents=True, exist_ok=True)
@@ -61,10 +75,13 @@ def save_image(png, out, share=False):
     def resized(width):
         return im if im.width <= width else im.resize((width, round(im.height * width / im.width)), Image.LANCZOS)
 
-    resized(LARGE_WIDTH).save(out, "WEBP", quality=78, method=6)
-    resized(SMALL_WIDTH).save(out.with_name(out.stem + "-640.webp"), "WEBP", quality=75, method=6)
+    large, small = resized(LARGE_WIDTH), resized(SMALL_WIDTH)
+    large.save(out.with_suffix(".avif"), "AVIF", quality=AVIF_QUALITY, speed=4)
+    small.save(out.with_name(out.stem + "-640.avif"), "AVIF", quality=AVIF_QUALITY, speed=4)
+    large.save(out, "WEBP", quality=WEBP_QUALITY, method=6)
+    small.save(out.with_name(out.stem + "-640.webp"), "WEBP", quality=WEBP_QUALITY, method=6)
     if share:
-        resized(SHARE_WIDTH).save(out.with_suffix(".jpg"), "JPEG", quality=82, optimize=True, progressive=True)
+        resized(SHARE_WIDTH).save(out.with_suffix(".jpg"), "JPEG", quality=80, optimize=True, progressive=True)
 
 
 def front_matter(path):
@@ -92,14 +109,28 @@ def main():
     model = os.environ.get("OPENAI_IMAGE_MODEL", "").strip() or DEFAULT_MODEL
     size = os.environ.get("OPENAI_IMAGE_SIZE", "").strip() or "1536x1024"
     quality = os.environ.get("OPENAI_IMAGE_QUALITY", "").strip() or "high"
-    todo = {}
-    for path in sorted((ROOT / "_posts").glob("*/*.md")):
+    # Missing images are always made; restyling older images is capped per run so a run stays well
+    # inside the Actions time limit (the hourly schedule picks up the rest).
+    limit = int(os.environ.get("IMAGE_RESTYLE_LIMIT", "").strip() or 0)  # 0 until the new style is approved
+    only = os.environ.get("IMAGE_ONLY", "").strip()
+    manifest = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {}
+    missing, restyle = {}, {}
+    # Newest posts first, and heroes before scenes, so the most visible pictures change first.
+    for path in sorted((ROOT / "_posts").glob("*/*.md"), key=lambda p: p.name, reverse=True):
         fm = front_matter(path)
         hero = fm.get("hero_image") or {}
         for item in [hero] + list(fm.get("scenes") or []):
             src, prompt = item.get("src"), item.get("prompt")
-            if src and prompt and src not in todo and not (ROOT / src.lstrip("/")).exists():
-                todo[src] = (path, prompt, item is hero)
+            if not (src and prompt) or src in missing or src in restyle:
+                continue
+            if only and src != only:
+                continue
+            if not (ROOT / src.lstrip("/")).exists():
+                missing[src] = (path, prompt, item is hero)
+            elif manifest.get(src) != STYLE_VERSION:
+                restyle[src] = (path, prompt, item is hero)
+    restyle = dict(sorted(restyle.items(), key=lambda kv: not kv[1][2]))
+    todo = {**missing, **dict(list(restyle.items())[:limit])}
     if not todo:
         print("No images to generate.")
         return 0
@@ -107,12 +138,15 @@ def main():
         print(f"::error::{len(todo)} image(s) are waiting, but the OPENAI_API_KEY repository secret is missing "
               "or empty. Add it under Settings > Secrets and variables > Actions > Repository secrets.")
         return 1
-    print(f"Generating {len(todo)} image(s) with {model}.")
+    print(f"Generating {len(missing)} missing and {len(todo) - len(missing)} of {len(restyle)} restyled image(s) "
+          f"with {model} (style v{STYLE_VERSION}).")
     failed = 0
     for src, (path, prompt, is_hero) in todo.items():
         out = ROOT / src.lstrip("/")
         try:
             save_image(generate(prompt, key, model, size, quality), out, share=is_hero)
+            manifest[src] = STYLE_VERSION
+            MANIFEST.write_text(json.dumps(manifest, indent=1, sort_keys=True) + "\n")
             print(f"{path.relative_to(ROOT)} -> {src}")
         except Exception as exc:  # keep going; report at the end
             failed += 1
