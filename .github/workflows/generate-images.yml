@@ -9,7 +9,7 @@ on:
       limit:
         description: "How many older-style images to restyle in this run"
         required: false
-        default: "40"
+        default: "250"
       only:
         description: "Regenerate only this image src (for testing), e.g. /assets/img/posts/<slug>-cinematic.webp"
         required: false
@@ -28,7 +28,7 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 300
+    timeout-minutes: 345
     steps:
       - uses: actions/checkout@v4
         with:

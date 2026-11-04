@@ -18,7 +18,7 @@ Environment:
   OPENAI_IMAGE_MODEL  (repository variable, optional: the exact model ID, default gpt-image-2.5-flare)
   OPENAI_IMAGE_SIZE   (optional, default 1536x1024)
   OPENAI_IMAGE_QUALITY (optional, default high)
-  IMAGE_RESTYLE_LIMIT (optional, default 40: how many older-style images to redo per run)
+  IMAGE_RESTYLE_LIMIT (optional, default 250: how many older-style images to redo per run)
   IMAGE_ONLY          (optional: regenerate just this one src, for testing a style)
 """
 import base64
@@ -111,7 +111,7 @@ def main():
     quality = os.environ.get("OPENAI_IMAGE_QUALITY", "").strip() or "high"
     # Missing images are always made; restyling older images is capped per run so a run stays well
     # inside the Actions time limit (the hourly schedule picks up the rest).
-    limit = int(os.environ.get("IMAGE_RESTYLE_LIMIT", "").strip() or 40)
+    limit = int(os.environ.get("IMAGE_RESTYLE_LIMIT", "").strip() or 250)
     only = os.environ.get("IMAGE_ONLY", "").strip()
     manifest = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {}
     missing, restyle = {}, {}
