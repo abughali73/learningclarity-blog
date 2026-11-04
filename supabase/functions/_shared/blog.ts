@@ -1,13 +1,11 @@
 // Shared code for the blog email subscription functions (blog-subscribe, blog-verify,
 // blog-unsubscribe, blog-notify). Source of truth: the learningclarity-blog repo, supabase/functions/.
 //
-// Mail is sent exactly the way the LearningClarity app sends it (supabase/functions/_shared/email/sendEmail.ts
-// in the app): the EMAIL_TRANSPORT secret picks the transport.
-//   - anything but "graph" (the app's default): Resend, from notifications@learningclarity.ai. The
-//     learningclarity.ai domain is verified in Resend (SPF, DKIM, DMARC), so mail reaches Gmail, Yahoo, etc.
-//   - "graph": Microsoft Graph sendMail on learningclarity.ai@intellisys.sk (MS_TENANT_ID, MS_CLIENT_ID,
-//     MS_CLIENT_SECRET; MS_SENDER_EMAIL overrides the mailbox).
-// The sender is shared with the app (about 30 messages a minute), so bulk senders here pace themselves.
+// Mail goes out through Microsoft Graph from learningclarity.ai@intellisys.sk, with the same Graph app and
+// secrets as the LearningClarity app's GRAPHMAIL setup (MS_TENANT_ID, MS_CLIENT_ID, MS_CLIENT_SECRET,
+// MS_SENDER_EMAIL). Delivery to outside mailboxes (Gmail, Yahoo) needs intellisys.sk's SPF, DKIM and DMARC to
+// pass: see Tutor_Me Resources/Reports/GRAPHMAIL_Production_Configuration.md, section 1.
+// The mailbox is shared with the app (30 messages a minute), so bulk senders here pace themselves.
 
 import { createClient, SupabaseClient } from "npm:@supabase/supabase-js@2.45.4";
 
@@ -61,24 +59,17 @@ export function esc(s: string): string {
 
 export const sleep = (ms: number) => new Promise<void>((r) => setTimeout(r, ms));
 
-// ---- Sending (same transport switch as the app) -------------------------------------------------
-
-const RESEND_FROM = "Learning Clarity Blog <notifications@learningclarity.ai>";
-
-export function transport(): "graph" | "resend" {
-  return (Deno.env.get("EMAIL_TRANSPORT") ?? "").trim().toLowerCase() === "graph" ? "graph" : "resend";
-}
+// ---- Microsoft Graph -------------------------------------------------------------------------
 
 let tokenCache: { token: string; exp: number } | null = null;
 
 /** Why mail cannot be sent at all (missing configuration), or null when it can. */
 export function mailProblem(): string | null {
-  if (transport() === "resend") return Deno.env.get("RESEND_API_KEY") ? null : "Mail not configured: missing RESEND_API_KEY";
   const missing = ["MS_TENANT_ID", "MS_CLIENT_ID", "MS_CLIENT_SECRET"].filter((k) => !Deno.env.get(k));
   return missing.length ? `Mail not configured: missing ${missing.join(", ")}` : null;
 }
 
-/** The Graph mailbox (used for sending only when EMAIL_TRANSPORT=graph; also the allowed test address). */
+/** The sender mailbox: learningclarity.ai@intellisys.sk (MS_SENDER_EMAIL overrides it, as in the app). */
 export function senderMailbox(): string {
   return (Deno.env.get("MS_SENDER_EMAIL") ?? "").trim() || "learningclarity.ai@intellisys.sk";
 }
@@ -112,40 +103,13 @@ async function graphToken(): Promise<string> {
 
 export interface Mail { to: string; subject: string; html: string; ref: string; unsubscribeUrl?: string }
 
-/** Sends one message. Returns null when the provider accepted it, otherwise an error text.
- *  Errors that mean the sender itself is broken start with "Mail not configured", "Graph token", "Graph 401|403|5xx",
- *  "Resend 401|403|5xx" or end in "retry exhausted", so a bulk sender can stop instead of skipping addresses. */
+/** Sends one message. Returns null when Graph accepted it, otherwise an error text.
+ *  Errors that mean the sender itself is broken start with "Mail not configured", "Graph token", "Graph 401|403|5xx"
+ *  or "Graph retry", so a bulk sender can stop instead of skipping addresses. */
 export async function sendMail(m: Mail): Promise<string | null> {
   const problem = mailProblem();
   if (problem) return problem;
-  return transport() === "resend" ? sendViaResend(m) : sendViaGraph(m);
-}
-
-async function sendViaResend(m: Mail): Promise<string | null> {
-  const headers: Record<string, string> = { "X-LC-Message-Ref": m.ref.slice(0, 200) };
-  if (m.unsubscribeUrl) headers["List-Unsubscribe"] = `<${m.unsubscribeUrl}>`;
-  const body = JSON.stringify({ from: RESEND_FROM, to: [m.to], subject: m.subject, html: m.html, headers });
-  for (let attempt = 0; attempt < 3; attempt++) {
-    let res: Response;
-    try {
-      res = await fetchT("https://api.resend.com/emails", {
-        method: "POST",
-        headers: { Authorization: `Bearer ${Deno.env.get("RESEND_API_KEY")}`, "Content-Type": "application/json" },
-        body,
-      }, 20_000);
-    } catch (e) {
-      return `uncertain: no response from Resend (${(e as Error).message})`;
-    }
-    if (res.ok) return null;
-    const detail = (await res.text().catch(() => "")).slice(0, 300);
-    if ((res.status === 429 || res.status >= 500) && attempt < 2) {
-      const wait = Math.min(Number(res.headers.get("retry-after") ?? "2") || 2, 20);
-      await sleep(wait * 1000);
-      continue;
-    }
-    return `Resend ${res.status}: ${detail}`;
-  }
-  return "Resend retry exhausted";
+  return sendViaGraph(m);
 }
 
 async function sendViaGraph(m: Mail): Promise<string | null> {
@@ -159,7 +123,7 @@ async function sendViaGraph(m: Mail): Promise<string | null> {
       // Graph accepts only x- custom headers, so List-Unsubscribe cannot be set; the footer link is the opt-out.
       internetMessageHeaders: [{ name: "x-lc-message-ref", value: m.ref.slice(0, 200) }],
     },
-    saveToSentItems: false,
+    saveToSentItems: true,   // as in the app: every blog email is visible in the mailbox's Sent Items
   });
   for (let attempt = 0; attempt < 3; attempt++) {
     let token: string;

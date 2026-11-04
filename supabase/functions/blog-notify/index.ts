@@ -133,7 +133,7 @@ Deno.serve(async (req: Request) => {
         ref: `blog-post:${post.ref}:${lang}:${s.id}`,
         unsubscribeUrl: unsubscribeUrl(lang, s.unsubscribe_token),
       });
-      if (err && /^(Mail not configured|Graph token|(Graph|Resend) (401|403|5\d\d)|(Graph|Resend) retry)/.test(err)) {
+      if (err && /^(Mail not configured|Graph token|Graph (401|403|5\d\d)|Graph retry)/.test(err)) {
         // A problem with the sender, not this address: stop, record nothing, and retry on the next run.
         errors.push(err); remaining = true; break;
       }
