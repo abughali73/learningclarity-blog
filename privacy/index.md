@@ -40,7 +40,7 @@ Your email address is stored in a secured database with restricted access, and i
 
 ## Who can see it
 
-We keep your email address strictly confidential and do not share it with any third party. To run the subscription, we rely on service providers that act only on our instructions and may not use your address for any purpose of their own: Supabase, which hosts our database, and Resend and Microsoft 365, which deliver our emails.
+We keep your email address strictly confidential and do not share it with any third party. To run the subscription, we rely on two service providers that act only on our instructions and may not use your address for any purpose of their own: Supabase, which hosts our database, and Microsoft 365, which delivers our emails.
 
 ## Unsubscribing and deleting your data
 

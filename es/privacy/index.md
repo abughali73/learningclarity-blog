@@ -40,7 +40,7 @@ Tu dirección de correo se guarda en una base de datos protegida y de acceso res
 
 ## Quién puede verlo
 
-Tratamos tu dirección de correo con estricta confidencialidad y no la compartimos con terceros. Para gestionar la suscripción recurrimos a proveedores que actúan solo siguiendo nuestras instrucciones y que no pueden usar tu dirección para fines propios: Supabase, que aloja nuestra base de datos, y Resend y Microsoft 365, que entregan nuestros correos.
+Tratamos tu dirección de correo con estricta confidencialidad y no la compartimos con terceros. Para gestionar la suscripción recurrimos a dos proveedores que actúan solo siguiendo nuestras instrucciones y que no pueden usar tu dirección para fines propios: Supabase, que aloja nuestra base de datos, y Microsoft 365, que entrega nuestros correos.
 
 ## Darte de baja y borrar tus datos
 

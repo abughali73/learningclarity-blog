@@ -40,7 +40,7 @@ Votre adresse e-mail est conservée dans une base de données sécurisée à acc
 
 ## Qui peut la voir
 
-Nous traitons votre adresse e-mail de manière strictement confidentielle et ne la partageons avec aucun tiers. Pour faire fonctionner l'abonnement, nous faisons appel à des prestataires qui agissent uniquement selon nos instructions et ne peuvent pas utiliser votre adresse à leurs propres fins : Supabase, qui héberge notre base de données, et Resend et Microsoft 365, qui acheminent nos e-mails.
+Nous traitons votre adresse e-mail de manière strictement confidentielle et ne la partageons avec aucun tiers. Pour faire fonctionner l'abonnement, nous faisons appel à deux prestataires qui agissent uniquement selon nos instructions et ne peuvent pas utiliser votre adresse à leurs propres fins : Supabase, qui héberge notre base de données, et Microsoft 365, qui achemine nos e-mails.
 
 ## Vous désabonner et supprimer vos données
 

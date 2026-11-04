@@ -40,7 +40,7 @@ Ihre E-Mail-Adresse wird in einer gesicherten Datenbank mit eingeschränktem Zug
 
 ## Wer sie sehen kann
 
-Wir behandeln Ihre E-Mail-Adresse streng vertraulich und geben sie an keine Dritten weiter. Für den Betrieb des Abonnements nutzen wir Dienstleister, die ausschließlich nach unseren Weisungen handeln und Ihre Adresse nicht für eigene Zwecke verwenden dürfen: Supabase, das unsere Datenbank betreibt, sowie Resend und Microsoft 365, die unsere E-Mails zustellen.
+Wir behandeln Ihre E-Mail-Adresse streng vertraulich und geben sie an keine Dritten weiter. Für den Betrieb des Abonnements nutzen wir zwei Dienstleister, die ausschließlich nach unseren Weisungen handeln und Ihre Adresse nicht für eigene Zwecke verwenden dürfen: Supabase, das unsere Datenbank betreibt, und Microsoft 365, das unsere E-Mails zustellt.
 
 ## Abmeldung und Löschung Ihrer Daten
 
