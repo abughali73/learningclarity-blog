@@ -139,6 +139,7 @@ a:hover { color: var(--blue); }
 /* Hero image, FAQ, author box, social links */
 .hero-image { margin: 24px 0 0; }
 picture { display: contents; }
+picture > source { display: none; } /* <source> is not hidden by default; inside display:contents it would become a layout box */
 .hero-image img { display: block; width: 100%; border-radius: 20px; border: 1px solid var(--line); }
 .faq { margin-top: 28px; display: grid; gap: 12px; }
 .faq-item { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 4px 20px; }
@@ -208,16 +209,18 @@ picture { display: contents; }
 .search-input input { padding-inline-start: 46px; }
 .search-status { margin: 14px 0 0 !important; font-size: 15px !important; font-weight: 600; color: var(--muted); }
 .search-results { list-style: none; margin: 8px 0 56px; padding: 0; display: grid; gap: 16px; }
-.search-card a { display: grid; grid-template-columns: 240px 1fr; gap: 20px; align-items: center; padding: 14px; border-radius: 20px; background: var(--card); border: 1px solid var(--line); text-decoration: none; color: var(--ink); }
+.search-card a { display: grid; grid-template-columns: 168px 1fr; gap: 20px; align-items: center; padding: 14px; border-radius: 20px; background: var(--card); border: 1px solid var(--line); text-decoration: none; color: var(--ink); }
 .search-card a:hover { border-color: var(--blue-line); box-shadow: 0 8px 24px rgba(30, 41, 90, .08); }
-.search-card img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 14px; }
+.search-card img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 12px; }
 .search-card-text { display: flex; flex-direction: column; gap: 8px; padding: 6px 6px 6px 0; min-width: 0; }
 .search-card h2 { margin: 0; font: 700 21px/1.3 var(--display); }
 .search-card p { margin: 0; color: var(--muted); font-size: 16px; }
 .search-card .ad-eyebrow { align-self: flex-start; }
 .search-empty { margin: 0 0 48px; }
 @media (max-width: 640px) {
-  .search-card a { grid-template-columns: 1fr; gap: 12px; }
+  .search-card a { grid-template-columns: 96px 1fr; gap: 12px; align-items: start; }
+  .search-card h2 { font-size: 17px; }
+  .search-card p { font-size: 14px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
   .search-card-text { padding: 0 4px 4px; }
   .nav-search span { display: none; }
   .nav-subscribe span { display: none; }
