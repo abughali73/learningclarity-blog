@@ -1,14 +1,21 @@
 {%- comment -%}
   The "Get new posts by email" box (double opt-in). Shown on every page by the default layout, unless the
-  page sets `no_subscribe: true`. Posts to the blog-subscribe Supabase Edge Function (site.subscribe.endpoint).
+  page sets `no_subscribe: true`. The home pages show the compact variant beside the search block instead
+  (include it with compact=true), so each page has exactly one form. Posts to the blog-subscribe Supabase Edge Function (site.subscribe.endpoint).
 {%- endcomment -%}
 {%- assign lang = include.lang | default: page.lang | default: site.lang -%}
 {%- assign t = site.data.i18n[lang] -%}
 {%- capture privacy_link -%}<a href="{{ site.legal.privacy }}" rel="noopener">{{ t.privacy }}</a>{%- endcapture -%}
+{%- if include.compact -%}
+<section class="subscribe-box subscribe-compact" id="subscribe" aria-labelledby="subscribe-title">
+  <div class="subscribe-body">
+    <h2 id="subscribe-title">{% include icon.html name="bell" size=22 %}<span>{{ t.subscribe_title }}</span></h2>
+{%- else -%}
 <section class="subscribe-box" id="subscribe" aria-labelledby="subscribe-title">
   <div class="subscribe-icon">{% include icon.html name="bell" size=28 %}</div>
   <div class="subscribe-body">
     <h2 id="subscribe-title">{{ t.subscribe_title }}</h2>
+{%- endif %}
     <p>{{ t.subscribe_text }}</p>
     <form class="subscribe-form" data-endpoint="{{ site.subscribe.endpoint }}/blog-subscribe" data-lang="{{ lang }}"
           data-ok="{{ t.subscribe_ok | escape }}" data-err-email="{{ t.subscribe_err_email | escape }}"

@@ -5,6 +5,7 @@
   <h1>{{ t.home_title }}</h1>
   <p>{{ t.home_intro }}</p>
 </section>
+<div class="home-top">
 <section class="search-panel" aria-labelledby="search-panel-title">
   <form class="search-form search-form-big" action="{{ search_url }}" method="get" role="search" id="search-form">
     <label class="search-panel-title" id="search-panel-title" for="q">{% include icon.html name="search" size=22 %}<span>{{ t.search_label }}</span></label>
@@ -23,6 +24,10 @@
     <a class="search-panel-link" href="{{ search_url }}">{{ t.browse_all }} →</a>
   </div>
 </section>
+{%- if site.subscribe.enabled %}
+{% include subscribe.html lang=include.lang compact=true %}
+{%- endif %}
+</div>
 <ul class="search-results" id="search-results">
   {%- for post in posts -%}
   {% include post-card.html post=post i=forloop.index0 %}

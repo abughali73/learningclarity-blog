@@ -5,7 +5,7 @@ import {
 } from "../_shared/blog.ts";
 
 // Emails active subscribers about newly published blog posts, in their language.
-// Called hourly by the blog repo's GitHub Actions workflow (.github/workflows/notify-subscribers.yml)
+// Called every 15 minutes by the database job blog-notify-subscribers__every_15m (pg_cron + pg_net)
 // with header x-notify-secret = blog_settings.notify_secret. verify_jwt=false; the secret is the auth.
 //
 // The blog publishes /subscribe-feed.json (newest posts per language). A post seen for the first time is

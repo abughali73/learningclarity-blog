@@ -69,7 +69,7 @@ adsense:
 # source in supabase/functions/. See supabase/README.md.
 subscribe:
   # Set to true once the four blog-* functions are deployed (shows the subscribe box and header button).
-  enabled: false
+  enabled: true
   endpoint: https://xlkexogyodwnblladuvj.supabase.co/functions/v1
 legal:
   privacy: https://www.learningclarity.ai/privacypolicy/

@@ -10,6 +10,7 @@ const REASONS = ["too_many", "not_relevant", "never_signed_up", "read_elsewhere"
 const BUCKET = "blog-feedback";
 const CSV_PATH = "unsubscribe_feedback.csv";
 const CSV_HEADER = "submitted_at,email,language,reason,comment\n";
+const BOM = "\uFEFF";   // so Excel opens the UTF-8 file (Arabic, accents) correctly
 
 const csvCell = (v: unknown) => {
   let s = String(v ?? "").replace(/\r?\n/g, " ");
@@ -26,7 +27,7 @@ async function appendCsv(supabase: ReturnType<typeof db>, line: string): Promise
     if (!current.endsWith("\n")) current += "\n";
     const { error } = await supabase.storage.from(BUCKET).upload(
       CSV_PATH,
-      new Blob(["﻿" === current[0] ? current + line : "﻿" + current + line], { type: "text/csv; charset=utf-8" }),
+      new Blob([current.startsWith(BOM) ? current + line : BOM + current + line], { type: "text/csv; charset=utf-8" }),
       { upsert: true, contentType: "text/csv; charset=utf-8" },
     );
     if (!error) return;

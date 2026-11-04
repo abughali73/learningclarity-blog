@@ -311,6 +311,19 @@ picture > source { display: none; } /* <source> is not hidden by default; inside
 .subscribe-status.is-ok { color: #047857 !important; }
 .subscribe-status.is-err { color: #B91C1C !important; }
 .subscribe-consent { margin: 0 !important; font-size: 13px !important; }
+.home-top { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 20px; align-items: stretch; margin: 0 0 28px; }
+.home-top .search-panel { margin: 0; display: flex; flex-direction: column; justify-content: center; }
+.subscribe-compact .subscribe-status:empty { min-height: 0; margin: 4px 0 0 !important; }
+.subscribe-compact { position: relative; overflow: hidden; margin: 0; padding: 22px 24px 18px; border-radius: 22px; box-shadow: 0 10px 30px rgba(37, 99, 235, .10); }
+.subscribe-compact::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 4px; background: var(--grad); }
+.subscribe-compact h2 { display: flex; align-items: center; gap: 8px; margin: 0 0 6px; font: 700 20px/1.3 var(--display); }
+.subscribe-compact h2 .icon { flex: none; color: var(--blue); }
+.subscribe-compact p { margin: 0 0 12px; font-size: 14px; }
+.subscribe-compact .subscribe-form input[type=email] { flex: 1 1 100%; }
+.subscribe-compact .subscribe-form .btn { flex: 1 1 100%; justify-content: center; }
+.subscribe-compact .subscribe-status { margin: 8px 0 2px !important; font-size: 14px !important; }
+.subscribe-compact .subscribe-consent { font-size: 12px !important; }
+@media (max-width: 900px) { .home-top { grid-template-columns: 1fr; } }
 .sub-page { max-width: 640px; margin: 48px auto; padding: clamp(24px, 5vw, 40px); border-radius: 24px; background: var(--card); border: 1px solid var(--line); text-align: center; }
 .sub-page h1 { margin: 0 0 10px; font: 700 30px/1.25 var(--display); }
 .sub-page p { color: var(--muted); }
