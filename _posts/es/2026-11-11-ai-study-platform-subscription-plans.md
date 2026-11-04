@@ -106,6 +106,8 @@ Tres semanas antes del examen, Ingrid mira el medidor un domingo por la noche: 7
 
 En todos los planes, pagar al año cuesta menos que doce pagos mensuales.
 
+Los precios indicados son para la web y la app de Android. En iPhone y iPad, los precios de las compras dentro de la app a través de Apple pueden ser más altos.
+
 **¿Ya compraste créditos?** No pierdes nada. Los créditos que ya compraste siguen funcionando como siempre hasta que se agoten.
 
 {% include scene.html n=4 %}

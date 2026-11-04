@@ -106,6 +106,8 @@ Trois semaines avant l'examen, Ingrid consulte le compteur un dimanche soir : 70
 
 Pour chaque offre, le paiement annuel coûte moins cher que douze paiements mensuels.
 
+Les prix indiqués concernent le web et l'application Android. Sur iPhone et iPad, les prix des achats intégrés via Apple peuvent être plus élevés.
+
 **Vous avez déjà acheté des crédits ?** Vous ne perdez rien. Les crédits déjà achetés continuent de fonctionner comme avant, jusqu'à épuisement.
 
 {% include scene.html n=4 %}

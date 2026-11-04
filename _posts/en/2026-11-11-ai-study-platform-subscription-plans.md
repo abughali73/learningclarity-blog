@@ -106,6 +106,8 @@ Three weeks before her exam, Ingrid checks the meter on a Sunday night: 70% used
 
 For every plan, paying yearly costs less than twelve monthly payments.
 
+Prices shown are for the web and Android apps. On iPhone and iPad, prices bought through Apple in-app purchase may be higher.
+
 **Already bought credits?** Nothing is lost. Credits you have already purchased keep working as before until they are used up.
 
 {% include scene.html n=4 %}

@@ -106,6 +106,8 @@ Drei Wochen vor der Prüfung schaut Ingrid an einem Sonntagabend auf die Anzeige
 
 Bei jedem Tarif ist die jährliche Zahlung günstiger als zwölf Monatszahlungen.
 
+Die angegebenen Preise gelten für das Web und die Android-App. Auf iPhone und iPad können die Preise bei In-App-Käufen über Apple höher sein.
+
 **Sie haben bereits Credits gekauft?** Es geht nichts verloren. Bereits gekaufte Credits funktionieren weiter wie bisher, bis sie aufgebraucht sind.
 
 {% include scene.html n=4 %}
