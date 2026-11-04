@@ -51,7 +51,7 @@ scenes:
     prompt: "Ingrid, a fictional woman in her mid-thirties with straight ash-blonde hair in a low ponytail, light freckles, wearing a navy quarter-zip sports jacket over a grey T-shirt, walks down the steps of a modern brick training centre on a crisp autumn afternoon, a folder under one arm, her face relaxed into a relieved, proud smile, a few other people leaving in the background out of focus. Low golden afternoon sun from behind, long shadows on the steps, orange leaves on the pavement. Wide shot from a low angle. Mood: quiet pride and relief."
 faq:
   - q: "Combien coûte un abonnement LearningClarity ?"
-    a: "Bronze coûte 2,99 $ par mois ou 32,99 $ par an. Silver offre 5 fois l'usage de Bronze pour 11,99 $ par mois ou 139,99 $ par an. Gold offre 20 fois l'usage de Bronze pour 31,99 $ par mois ou 370,99 $ par an."
+    a: "Bronze coûte 2,99 $ par mois ou 34,09 $ par an. Silver coûte 11,99 $ par mois ou 136,69 $ par an. Gold coûte 34,99 $ par mois ou 398,89 $ par an."
   - q: "Puis-je essayer LearningClarity gratuitement ?"
     a: "Oui. À l'inscription, vous bénéficiez d'une semaine d'utilisation gratuite avec un usage raisonnable inclus, pour essayer la plateforme avant de choisir une offre."
   - q: "Que faire si j'ai besoin de plus d'usage dans le mois ?"
@@ -92,17 +92,17 @@ Trois semaines avant l'examen, Ingrid consulte le compteur un dimanche soir : 70
 
 **Achetez une recharge (top-up).** Pour **3,99 $**, une recharge ajoute l'équivalent de l'usage d'une offre Bronze. Vous pouvez en acheter plusieurs à la fois, et chaque achat est facturé une seule fois, pas chaque mois. Les recharges sont réservées aux abonnés ayant une offre Bronze, Silver ou Gold active, et ne sont pas disponibles pendant la semaine gratuite. Ingrid en achète une pour sa semaine d'examen.
 
-**Passez à une offre supérieure.** Si l'étude intensive devient votre norme, Silver et Gold vous donnent beaucoup plus de marge chaque mois et reviennent moins cher par unité d'usage : environ 2,40 $ par équivalent Bronze avec Silver, et environ 1,60 $ avec Gold.
+**Passez à une offre supérieure.** Si l'étude intensive devient votre norme, Silver et Gold vous donnent beaucoup plus de marge chaque mois.
 
 ## Les offres d'abonnement de la plateforme d'étude IA en un coup d'œil
 
-| Offre | Usage mensuel | Prix mensuel | Prix annuel |
-|---|---|---|---|
-| Semaine gratuite | Usage raisonnable, 7 premiers jours | Gratuit | Sans objet |
-| Bronze | 1× (usage de base) | 2,99 $ | 32,99 $ |
-| Silver | 5× Bronze | 11,99 $ | 139,99 $ |
-| Gold | 20× Bronze | 31,99 $ | 370,99 $ |
-| Recharge | +1× Bronze, paiement unique, abonnés uniquement | 3,99 $ l'unité | Sans objet |
+| Offre | Prix mensuel | Prix annuel |
+|---|---|---|
+| Semaine gratuite (7 premiers jours) | Gratuit | Sans objet |
+| Bronze | 2,99 $ | 34,09 $ |
+| Silver | 11,99 $ | 136,69 $ |
+| Gold | 34,99 $ | 398,89 $ |
+| Recharge (abonnés uniquement, paiement unique) | 3,99 $ l'unité | Sans objet |
 
 Pour chaque offre, le paiement annuel coûte moins cher que douze paiements mensuels.
 

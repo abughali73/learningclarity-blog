@@ -51,7 +51,7 @@ scenes:
     prompt: "Ingrid, a fictional woman in her mid-thirties with straight ash-blonde hair in a low ponytail, light freckles, wearing a navy quarter-zip sports jacket over a grey T-shirt, walks down the steps of a modern brick training centre on a crisp autumn afternoon, a folder under one arm, her face relaxed into a relieved, proud smile, a few other people leaving in the background out of focus. Low golden afternoon sun from behind, long shadows on the steps, orange leaves on the pavement. Wide shot from a low angle. Mood: quiet pride and relief."
 faq:
   - q: "¿Cuánto cuesta la suscripción a LearningClarity?"
-    a: "Bronze cuesta 2,99 $ al mes o 32,99 $ al año. Silver ofrece 5 veces el uso de Bronze por 11,99 $ al mes o 139,99 $ al año. Gold ofrece 20 veces el uso de Bronze por 31,99 $ al mes o 370,99 $ al año."
+    a: "Bronze cuesta 2,99 $ al mes o 34,09 $ al año. Silver cuesta 11,99 $ al mes o 136,69 $ al año. Gold cuesta 34,99 $ al mes o 398,89 $ al año."
   - q: "¿Puedo probar LearningClarity gratis?"
     a: "Sí. Al registrarte tienes una semana de uso gratuito con un uso razonable incluido, para probar la plataforma antes de elegir un plan."
   - q: "¿Qué pasa si necesito más uso en un mes?"
@@ -92,17 +92,17 @@ Tres semanas antes del examen, Ingrid mira el medidor un domingo por la noche: 7
 
 **Compra una recarga (top-up).** Por **3,99 $**, una recarga añade el equivalente al uso de un plan Bronze. Puedes comprar varias a la vez y cada compra se cobra una sola vez, no cada mes. Las recargas solo están disponibles con una suscripción activa a Bronze, Silver o Gold, no durante la semana gratis. Ingrid compra una para su semana de examen.
 
-**Pasa a un plan mayor.** Si estudiar a fondo se convierte en tu rutina, Silver y Gold te dan mucho más margen cada mes y salen más baratos por unidad de uso: Silver cuesta unos 2,40 $ por cada uso equivalente a Bronze, y Gold unos 1,60 $.
+**Pasa a un plan mayor.** Si estudiar a fondo se convierte en tu rutina, Silver y Gold te dan mucho más margen cada mes.
 
 ## Los planes de suscripción de la plataforma de estudio con IA
 
-| Plan | Uso mensual | Precio mensual | Precio anual |
-|---|---|---|---|
-| Semana gratis | Uso razonable, primeros 7 días | Gratis | No aplica |
-| Bronze | 1× (uso base) | 2,99 $ | 32,99 $ |
-| Silver | 5× Bronze | 11,99 $ | 139,99 $ |
-| Gold | 20× Bronze | 31,99 $ | 370,99 $ |
-| Recarga | +1× Bronze, pago único, solo suscriptores | 3,99 $ cada una | No aplica |
+| Plan | Precio mensual | Precio anual |
+|---|---|---|
+| Semana gratis (primeros 7 días) | Gratis | No aplica |
+| Bronze | 2,99 $ | 34,09 $ |
+| Silver | 11,99 $ | 136,69 $ |
+| Gold | 34,99 $ | 398,89 $ |
+| Recarga (solo suscriptores, pago único) | 3,99 $ cada una | No aplica |
 
 En todos los planes, pagar al año cuesta menos que doce pagos mensuales.
 

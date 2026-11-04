@@ -180,7 +180,7 @@ faq:
     a: "Your streak counts consecutive days with learning activity, and your longest streak records your best. There are 16 achievements with rarity levels from Common to Legendary, six of them hidden, such as First Topic, Quiz Perfect, Exam Excellence and 30-Day Streak. [Streaks and achievements](https://www.learningclarity.ai/help/streaks-achievements/)."
   - group: "Plans and payments"
     q: "How much does LearningClarity cost?"
-    a: "Your first week is free. After that, individuals choose a plan: Bronze is $2.99 a month or $32.99 a year, Silver gives 5 times the Bronze allowance for $11.99 a month or $139.99 a year, and Gold gives 20 times the Bronze allowance for $31.99 a month or $370.99 a year. Prices are in US dollars. [See the new plans](/en/2026/11/ai-study-platform-subscription-plans/)."
+    a: "Your first week is free. After that, individuals choose a plan: Bronze is $2.99 a month or $34.09 a year, Silver is $11.99 a month or $136.69 a year, and Gold is $34.99 a month or $398.89 a year. Prices are in US dollars. [See the new plans](/en/2026/11/ai-study-platform-subscription-plans/)."
   - group: "Plans and payments"
     q: "Is paying yearly cheaper?"
     a: "Yes. For every plan, paying yearly costs less than twelve monthly payments."
