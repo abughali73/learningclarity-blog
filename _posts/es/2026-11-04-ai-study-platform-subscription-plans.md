@@ -1,7 +1,7 @@
 ---
 title: "Suscripción a plataforma de estudio con IA: planes nuevos"
 description: "La suscripción de nuestra plataforma de estudio con IA empieza con una semana gratis, planes desde 2,99 $ al mes, medidor de uso y recargas. Elige tu plan."
-date: 2026-11-05 09:00:00 +0200
+date: 2026-11-04 23:46:59 +0200
 lang: es
 ref: ai-study-platform-subscription-plans
 capability: subscription

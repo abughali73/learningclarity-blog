@@ -1,7 +1,7 @@
 ---
 title: "KI-Lernplattform im Abo: die neuen LearningClarity-Tarife"
 description: "Das Abo unserer KI-Lernplattform beginnt mit einer Gratiswoche, dann Tarife ab 2,99 $ im Monat, eine stets sichtbare Nutzungsanzeige und Aufladungen."
-date: 2026-11-05 09:00:00 +0200
+date: 2026-11-04 23:46:59 +0200
 lang: de
 ref: ai-study-platform-subscription-plans
 capability: subscription
