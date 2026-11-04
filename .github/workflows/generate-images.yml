@@ -9,7 +9,7 @@ on:
       limit:
         description: "How many older-style images to restyle in this run"
         required: false
-        default: "0"
+        default: "40"
       only:
         description: "Regenerate only this image src (for testing), e.g. /assets/img/posts/<slug>-cinematic.webp"
         required: false
