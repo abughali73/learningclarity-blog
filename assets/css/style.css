@@ -344,3 +344,35 @@ picture > source { display: none; } /* <source> is not hidden by default; inside
   .subscribe-box { flex-direction: column; }
   .subscribe-form .btn { width: 100%; }
 }
+
+/* Tables in posts: scroll inside their own box, RTL-safe, sticky first column */
+.post-body table {
+  display: block; overflow-x: auto; -webkit-overflow-scrolling: touch;
+  width: 100%; max-width: 100%; margin: 24px 0;
+  border-collapse: separate; border-spacing: 0;
+  border: 1px solid var(--line); border-radius: 12px;
+  background: var(--card); font-size: 15px; line-height: 1.5;
+}
+.post-body th, .post-body td {
+  padding: 10px 14px; text-align: start; vertical-align: top;
+  min-width: 140px; border-bottom: 1px solid var(--line);
+  unicode-bidi: plaintext;
+}
+.post-body thead th {
+  background: var(--blue-tint); color: var(--ink);
+  font: 600 14px/1.35 var(--display); white-space: nowrap;
+}
+.post-body tbody tr:last-child td { border-bottom: 0; }
+.post-body tbody tr:nth-child(even) td { background: var(--bg); }
+.post-body th:first-child, .post-body td:first-child {
+  position: sticky; inset-inline-start: 0; z-index: 1;
+  min-width: 120px; font-weight: 700; color: var(--ink);
+  background: var(--card); border-inline-end: 1px solid var(--line);
+}
+.post-body thead th:first-child { background: var(--blue-tint); }
+.post-body tbody tr:nth-child(even) td:first-child { background: var(--bg); }
+@media (max-width: 640px) {
+  .post-body table { font-size: 14px; }
+  .post-body th, .post-body td { padding: 8px 10px; min-width: 120px; }
+  .post-body th:first-child, .post-body td:first-child { min-width: 104px; }
+}

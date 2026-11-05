@@ -99,7 +99,7 @@ It stung, but it helped. Instead of rereading 300 pages, she returned to the con
 
 Each tool does a different job. Prices were checked in November 2026 and change often.
 
-| | Approach | What you bring | Testing | Audio and voice | Best for |
+| Tool | Approach | What you bring | Testing | Audio and voice | Best for |
 |---|---|---|---|---|---|
 | LearningClarity | Explain, Quiz, Exam | PDFs, images, text, or a described topic | Quizzes and timed exams | Podcasts, Listen, Talk to This | Understanding and exam rehearsal |
 | Knowt | Notes and flashcards | Your notes, Quizlet imports | Learn mode, spaced repetition | Not the focus | Free flashcard study |

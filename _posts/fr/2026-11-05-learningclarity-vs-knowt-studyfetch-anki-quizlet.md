@@ -99,7 +99,7 @@ Son premier examen blanc chronométré en **Exam Mode** (mode examen), sur tout 
 
 Chaque outil fait un travail différent. Les prix ont été vérifiés en novembre 2026 et changent souvent.
 
-| | Approche | Ce que vous apportez | Évaluation | Audio et voix | Idéal pour |
+| Outil | Approche | Ce que vous apportez | Évaluation | Audio et voix | Idéal pour |
 |---|---|---|---|---|---|
 | LearningClarity | Expliquer, Quiz, Examen | PDF, images, texte ou sujet décrit | Quiz et examens chronométrés | Podcasts, Listen, Talk to This | Comprendre un programme et répéter l'examen |
 | Knowt | Notes et flashcards | Vos notes, sets Quizlet | Mode Learn, répétition espacée | Pas sa priorité | Fiches gratuites |

@@ -99,7 +99,7 @@ Dolió, pero sirvió. En lugar de releer 300 páginas, volvió a los subtemas de
 
 Cada herramienta hace un trabajo distinto. Los precios se revisaron en noviembre de 2026 y cambian a menudo.
 
-| | Enfoque | Qué aportas | Evaluación | Audio y voz | Ideal para |
+| Herramienta | Enfoque | Qué aportas | Evaluación | Audio y voz | Ideal para |
 |---|---|---|---|---|---|
 | LearningClarity | Explicar, Quiz, Examen | PDF, imágenes, texto o un tema descrito | Cuestionarios y exámenes cronometrados | Pódcasts, Listen, Talk to This | Entender un temario y ensayar el examen |
 | Knowt | Apuntes y flashcards | Tus apuntes, sets de Quizlet | Modo Learn, repaso espaciado | No es su foco | Flashcards gratis |

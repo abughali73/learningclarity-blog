@@ -99,7 +99,7 @@ Das tat weh, half aber. Statt 300 Seiten neu zu lesen, ging sie zurück zu den U
 
 Jedes Werkzeug erledigt eine andere Aufgabe. Die Preise wurden im November 2026 geprüft und ändern sich oft.
 
-| | Ansatz | Was Sie mitbringen | Prüfen | Audio und Stimme | Ideal für |
+| Tool | Ansatz | Was Sie mitbringen | Prüfen | Audio und Stimme | Ideal für |
 |---|---|---|---|---|---|
 | LearningClarity | Erklären, Quiz, Prüfung | PDFs, Bilder, Text oder ein beschriebenes Thema | Quizze und zeitgesteuerte Prüfungen | Podcasts, Listen, Talk to This | Stoff verstehen und Prüfung proben |
 | Knowt | Notizen und Karteikarten | Ihre Notizen, Quizlet-Sets | Learn-Modus, verteilte Wiederholung | Nicht der Schwerpunkt | Kostenlose Karteikarten |
