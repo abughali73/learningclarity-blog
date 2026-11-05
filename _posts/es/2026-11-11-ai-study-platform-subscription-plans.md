@@ -51,11 +51,11 @@ scenes:
     prompt: "Ingrid, a fictional woman in her mid-thirties with straight ash-blonde hair in a low ponytail, light freckles, wearing a navy quarter-zip sports jacket over a grey T-shirt, walks down the steps of a modern brick training centre on a crisp autumn afternoon, a folder under one arm, her face relaxed into a relieved, proud smile, a few other people leaving in the background out of focus. Low golden afternoon sun from behind, long shadows on the steps, orange leaves on the pavement. Wide shot from a low angle. Mood: quiet pride and relief."
 faq:
   - q: "¿Cuánto cuesta la suscripción a LearningClarity?"
-    a: "Bronze cuesta 3,99 $ al mes o 45,49 $ al año. Silver ofrece 3 veces el uso de Bronze por 11,99 $ al mes o 136,69 $ al año. Gold ofrece 9 veces el uso de Bronze por 34,99 $ al mes o 398,89 $ al año."
+    a: "Bronze cuesta 3,99 $ al mes o 43,99 $ al año. Silver ofrece 3 veces el uso de Bronze por 9,99 $ al mes o 109,99 $ al año. Gold ofrece 8 veces el uso de Bronze por 24,99 $ al mes o 274,99 $ al año."
   - q: "¿Puedo probar LearningClarity gratis?"
     a: "Sí. Al registrarte tienes una semana de uso gratuito con un uso razonable incluido, para probar la plataforma antes de elegir un plan."
   - q: "¿Qué pasa si necesito más uso en un mes?"
-    a: "Puedes pasarte a un plan mayor o comprar una recarga de 3,99 $ que añade el equivalente al uso de un plan Bronze. Puedes comprar varias a la vez y se cobran una sola vez, no cada mes. Las recargas están disponibles solo para suscriptores de Bronze, Silver o Gold."
+    a: "Puedes pasarte a un plan mayor o comprar una recarga de 4,99 $ que añade el equivalente al uso de un plan Bronze. Puedes comprar varias a la vez y se cobran una sola vez, no cada mes. Las recargas están disponibles solo para suscriptores de Bronze, Silver o Gold."
 ---
 Hoy presentamos la **suscripción a la plataforma de estudio con IA** de LearningClarity. Muchos usuarios nos contaron que estudian un poco casi todos los días y que prefieren un precio mensual pequeño y previsible a estar pendientes del saldo de créditos.
 
@@ -90,7 +90,7 @@ Tres semanas antes del examen, Ingrid mira el medidor un domingo por la noche: 7
 
 ## Si necesitas más: recarga o mejora de plan
 
-**Compra una recarga (top-up).** Por **3,99 $**, una recarga añade el equivalente al uso de un plan Bronze. Puedes comprar varias a la vez y cada compra se cobra una sola vez, no cada mes. Las recargas solo están disponibles con una suscripción activa a Bronze, Silver o Gold, no durante la semana gratis. Ingrid compra una para su semana de examen.
+**Compra una recarga (top-up).** Por **4,99 $**, una recarga añade el equivalente al uso de un plan Bronze. Puedes comprar varias a la vez y cada compra se cobra una sola vez, no cada mes. Las recargas solo están disponibles con una suscripción activa a Bronze, Silver o Gold, no durante la semana gratis. Ingrid compra una para su semana de examen.
 
 **Pasa a un plan mayor.** Si estudiar a fondo se convierte en tu rutina, Silver y Gold te dan mucho más margen cada mes.
 
@@ -99,10 +99,10 @@ Tres semanas antes del examen, Ingrid mira el medidor un domingo por la noche: 7
 | Plan | Uso | Precio mensual | Precio anual |
 |---|---|---|---|
 | Semana gratis (primeros 7 días) | Uso razonable | Gratis | No aplica |
-| Bronze | 1× (base) | 3,99 $ | 45,49 $ |
-| Silver | 3× Bronze | 11,99 $ | 136,69 $ |
-| Gold | 9× Bronze | 34,99 $ | 398,89 $ |
-| Recarga (solo suscriptores, pago único) | +1× Bronze | 3,99 $ cada una | No aplica |
+| Bronze | 1× (base) | 3,99 $ | 43,99 $ |
+| Silver | 3× Bronze | 9,99 $ | 109,99 $ |
+| Gold | 8× Bronze | 24,99 $ | 274,99 $ |
+| Recarga (solo suscriptores, pago único) | +1× Bronze | 4,99 $ cada una | No aplica |
 
 En todos los planes, pagar al año cuesta menos que doce pagos mensuales.
 

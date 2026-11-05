@@ -51,11 +51,11 @@ scenes:
     prompt: "Ingrid, a fictional woman in her mid-thirties with straight ash-blonde hair in a low ponytail, light freckles, wearing a navy quarter-zip sports jacket over a grey T-shirt, walks down the steps of a modern brick training centre on a crisp autumn afternoon, a folder under one arm, her face relaxed into a relieved, proud smile, a few other people leaving in the background out of focus. Low golden afternoon sun from behind, long shadows on the steps, orange leaves on the pavement. Wide shot from a low angle. Mood: quiet pride and relief."
 faq:
   - q: "How much does a LearningClarity subscription cost?"
-    a: "Bronze is $3.99 a month or $45.49 a year. Silver gives 3 times the Bronze allowance for $11.99 a month or $136.69 a year. Gold gives 9 times the Bronze allowance for $34.99 a month or $398.89 a year."
+    a: "Bronze is $3.99 a month or $43.99 a year. Silver gives 3 times the Bronze allowance for $9.99 a month or $109.99 a year. Gold gives 8 times the Bronze allowance for $24.99 a month or $274.99 a year."
   - q: "Can I try LearningClarity for free?"
     a: "Yes. When you sign up, you get one week of free use with a fair usage allowance, so you can try the platform before choosing a plan."
   - q: "What happens if I need more usage in a month?"
-    a: "You can upgrade to a larger plan, or buy a top-up for $3.99 that adds one Bronze-sized allowance. Top-ups are available to subscribers on Bronze, Silver or Gold, can be bought in multiples and are charged once, not every month."
+    a: "You can upgrade to a larger plan, or buy a top-up for $4.99 that adds one Bronze-sized allowance. Top-ups are available to subscribers on Bronze, Silver or Gold, can be bought in multiples and are charged once, not every month."
 ---
 Today we are introducing an **AI study platform subscription** for LearningClarity. Many of you told us you study a little almost every day, and you would rather have one small, predictable monthly price than keep an eye on credit balances.
 
@@ -90,7 +90,7 @@ Three weeks before her exam, Ingrid checks the meter on a Sunday night: 70% used
 
 ## When you need more: top up or upgrade
 
-**Buy a top-up.** For **$3.99**, a top-up adds one Bronze-sized allowance. You can buy several at once, and each purchase is charged once, not every month. Top-ups are available only with an active Bronze, Silver or Gold subscription, not during the free week. Ingrid buys one for her exam week.
+**Buy a top-up.** For **$4.99**, a top-up adds one Bronze-sized allowance. You can buy several at once, and each purchase is charged once, not every month. Top-ups are available only with an active Bronze, Silver or Gold subscription, not during the free week. Ingrid buys one for her exam week.
 
 **Move to a larger plan.** If more intensive study becomes your normal, Silver and Gold give you far more room each month.
 
@@ -99,10 +99,10 @@ Three weeks before her exam, Ingrid checks the meter on a Sunday night: 70% used
 | Plan | Usage | Monthly price | Yearly price |
 |---|---|---|---|
 | Free week (first 7 days) | Fair use | Free | n/a |
-| Bronze | 1× (base) | $3.99 | $45.49 |
-| Silver | 3× Bronze | $11.99 | $136.69 |
-| Gold | 9× Bronze | $34.99 | $398.89 |
-| Top-up (subscribers only, one-off) | +1× Bronze | $3.99 each | n/a |
+| Bronze | 1× (base) | $3.99 | $43.99 |
+| Silver | 3× Bronze | $9.99 | $109.99 |
+| Gold | 8× Bronze | $24.99 | $274.99 |
+| Top-up (subscribers only, one-off) | +1× Bronze | $4.99 each | n/a |
 
 For every plan, paying yearly costs less than twelve monthly payments.
 
