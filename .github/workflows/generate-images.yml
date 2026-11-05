@@ -3,7 +3,7 @@ name: Generate post images
 on:
   push:
     branches: [main]
-    paths: ["_posts/**"]
+    paths: ["_posts/**", "_social/**", "tools/generate_images.py"]
   workflow_dispatch:
     inputs:
       limit:

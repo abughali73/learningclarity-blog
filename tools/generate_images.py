@@ -55,6 +55,66 @@ STYLE = ("Bright, inspirational and tech-savvy photorealistic image, like a prem
 LARGE_WIDTH, SMALL_WIDTH, SHARE_WIDTH = 1280, 640, 1200
 AVIF_QUALITY, WEBP_QUALITY = 50, 75
 MANIFEST = ROOT / "assets/img/posts/styles.json"
+# Social copies (AGENT.md step 9b). LinkedIn article cover: 1920 x 1080 (16:9), JPEG or PNG.
+# LinkedIn and Facebook feed image: 1200 x 627 (1.91:1), JPEG, under 3 MB. Scenes: JPEG copies to upload
+# into the LinkedIn article, because LinkedIn does not accept AVIF or WebP.
+LINKEDIN_COVER, FEED_IMAGE = (1920, 1080), (1200, 627)
+SOCIAL_DIR = ROOT / "_social"
+
+
+def crop_to(im, size, top_bias=0.35):
+    """Centre-crop to the target ratio (keeping a little more of the top, where faces usually are), then resize."""
+    tw, th = size
+    if im.width / im.height > tw / th:
+        w = round(im.height * tw / th)
+        x = (im.width - w) // 2
+        box = (x, 0, x + w, im.height)
+    else:
+        h = round(im.width * th / tw)
+        y = round((im.height - h) * top_bias)
+        box = (0, y, im.width, y + h)
+    return im.crop(box).resize(size, Image.LANCZOS)
+
+
+def social_paths(out, hero):
+    if hero:
+        return [out.with_name(out.stem + "-linkedin.jpg"), out.with_name(out.stem + "-feed.jpg")]
+    return [out.with_suffix(".jpg")]
+
+
+def save_social(im, out, hero):
+    """Write the social copies of one picture (see LINKEDIN_COVER and FEED_IMAGE)."""
+    jpeg = dict(quality=85, optimize=True, progressive=True)
+    if hero:
+        cover, feed = social_paths(out, True)
+        crop_to(im, LINKEDIN_COVER).save(cover, "JPEG", **jpeg)
+        crop_to(im, FEED_IMAGE).save(feed, "JPEG", **jpeg)
+    else:
+        (scene,) = social_paths(out, False)
+        small = im if im.width <= LARGE_WIDTH else im.resize((LARGE_WIDTH, round(im.height * LARGE_WIDTH / im.width)), Image.LANCZOS)
+        small.save(scene, "JPEG", **jpeg)
+
+
+def backfill_social(posts):
+    """Make missing social copies for posts that have social drafts (_social/<ref>/), from the saved WebP."""
+    refs = {p.name for p in SOCIAL_DIR.iterdir() if p.is_dir()} if SOCIAL_DIR.exists() else set()
+    made = 0
+    for path in posts:
+        fm = front_matter(path)
+        if fm.get("lang") != "en" or fm.get("ref") not in refs:
+            continue
+        hero = fm.get("hero_image") or {}
+        for item in [hero] + list(fm.get("scenes") or []):
+            src = item.get("src") or ""
+            out = ROOT / src.lstrip("/")
+            if not src.endswith(".webp") or not out.exists():
+                continue
+            if all(p.exists() for p in social_paths(out, item is hero)):
+                continue
+            save_social(Image.open(out).convert("RGB"), out, item is hero)
+            made += 1
+            print(f"social copies -> {src}")
+    return made
 
 
 def save_image(png, out, share=False):
@@ -64,6 +124,7 @@ def save_image(png, out, share=False):
       <name>.avif / <name>-640.avif  (AVIF: smallest files; the layouts offer these first)
       <name>.webp / <name>-640.webp  (WebP fallback for the few browsers without AVIF)
     and for the hero (share=True) also <name>.jpg (1200 px), because social networks don't show AVIF/WebP previews.
+    Every picture also gets its LinkedIn/Facebook copies (save_social).
     Any other extension is written as delivered.
     """
     out.parent.mkdir(parents=True, exist_ok=True)
@@ -82,6 +143,7 @@ def save_image(png, out, share=False):
     small.save(out.with_name(out.stem + "-640.webp"), "WEBP", quality=WEBP_QUALITY, method=6)
     if share:
         resized(SHARE_WIDTH).save(out.with_suffix(".jpg"), "JPEG", quality=80, optimize=True, progressive=True)
+    save_social(im, out, share)
 
 
 def front_matter(path):
@@ -115,8 +177,11 @@ def main():
     only = os.environ.get("IMAGE_ONLY", "").strip()
     manifest = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {}
     missing, restyle = {}, {}
+    posts = sorted((ROOT / "_posts").glob("*/*.md"), key=lambda p: p.name, reverse=True)
+    if not only:
+        backfill_social(posts)
     # Newest posts first, and heroes before scenes, so the most visible pictures change first.
-    for path in sorted((ROOT / "_posts").glob("*/*.md"), key=lambda p: p.name, reverse=True):
+    for path in posts:
         fm = front_matter(path)
         hero = fm.get("hero_image") or {}
         for item in [hero] + list(fm.get("scenes") or []):
