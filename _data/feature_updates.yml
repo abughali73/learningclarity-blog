@@ -1,5 +1,5 @@
 # State for the "LC Features Update" weekly announcement (skill: lc-features-update).
-# last_reviewed_commit: the newest intelliSYS-S-R-O/Tutor_Me main commit already reviewed for features.
+# last_reviewed_commit: the newest Learning Clarity AI Tutor main commit (GitHub intelliSYS-S-R-O/Tutor_Me) already reviewed for features.
 # deferred: features found but held for the next update (fewer than 3 that week); re-checked next run.
 # issues: every feature-update post, newest first; each new post links to the earlier ones.
 last_reviewed_commit: e8f87939   # 2026-10-27; the next run reviews main after this commit
