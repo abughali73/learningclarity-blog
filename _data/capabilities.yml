@@ -183,6 +183,10 @@
   facts:
     - Available on the web, iOS and Android; sign in with Google, Microsoft, Apple or email.
     - Library, progress and your plan are shared across devices.
+    - "The sign-in and sign-up screens show Continue with Google, Microsoft or Apple first, then Continue with email. When you sign up, you type your email twice, and the address is checked as you type (for example \"This address can receive email\")."
+    - "Change your sign-in email from your profile (Change email): type the new address twice and your current password, then open the link sent to the new address within 24 hours. Until then you keep signing in with your current email; after you confirm, your other devices are signed out."
+    - "If someone else changed your email, the message sent to your old address has a link to secure your account, which puts your old email back and signs out every device."
+    - Changing your sign-in email is in the web app for now; accounts that sign in with Google, Microsoft or Apple manage their email there.
 - key: age-adapted
   name: Age-adapted learning
   facts:
