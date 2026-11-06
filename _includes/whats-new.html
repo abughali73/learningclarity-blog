@@ -1,0 +1,40 @@
+{%- comment -%}
+  The "What's new" changelog for one language: {% include whats-new.html lang="en" %}
+  Lists every feature-update post (front matter feature_update: true), newest first, with its features.
+{%- endcomment -%}
+{%- assign t = site.data.i18n[include.lang] -%}
+{%- assign updates = site.posts | where: "lang", include.lang | where: "feature_update", true -%}
+<section class="hero wn-hero">
+  <span class="fu-issue">{% include icon.html name="star" size=18 %}<span>{{ t.whats_new_nav }}</span></span>
+  <h1>{{ t.whats_new_title }}</h1>
+  <p>{{ t.whats_new_intro }}</p>
+  <p class="wn-feed"><a href="/feed/whats-new/{{ include.lang }}.xml">{% include icon.html name="bell" size=18 %} {{ t.whats_new_feed }}</a> · <a href="#subscribe">{{ t.subscribe_nav }}</a></p>
+</section>
+{%- if updates.size == 0 %}
+<p class="wn-empty">{{ t.whats_new_empty }}</p>
+{%- else %}
+<ol class="wn-list">
+  {%- for p in updates %}
+  <li class="wn-item">
+    <div class="wn-when">
+      <time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: t.date_format }}</time>
+      {%- if p.issue %}<span class="fu-tl-issue">#{{ p.issue }}</span>{% endif %}
+    </div>
+    <a class="wn-card" href="{{ p.url }}">
+      <h2>{{ p.title }}</h2>
+      <p>{{ p.description }}</p>
+      {%- if p.features and p.features.size > 0 %}
+      <ul class="wn-features">
+        {%- for f in p.features %}<li>{% include icon.html name=f.icon size=16 %}<span>{{ f.title }}</span></li>{% endfor %}
+      </ul>
+      {%- elsif p.ad.items %}
+      <ul class="wn-features">
+        {%- for f in p.ad.items %}<li>{% include icon.html name=f.icon size=16 %}<span>{{ f.title }}</span></li>{% endfor %}
+      </ul>
+      {%- endif %}
+      <span class="more">{{ t.read_more }} →</span>
+    </a>
+  </li>
+  {%- endfor %}
+</ol>
+{%- endif %}

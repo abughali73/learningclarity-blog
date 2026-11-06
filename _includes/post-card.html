@@ -6,7 +6,7 @@
 {%- assign p = include.post -%}
 {%- assign ct = site.data.i18n[p.lang] -%}
 {%- if include.i < 2 -%}{%- assign img_loading = "eager" -%}{%- else -%}{%- assign img_loading = "lazy" -%}{%- endif -%}
-<li class="search-card" data-i="{{ include.i }}">
+<li class="search-card{% if p.feature_update %} is-feature-update{% endif %}" data-i="{{ include.i }}">
   <a href="{{ p.url }}">
     {%- if p.image and p.image != "/assets/img/og-default.png" -%}
     {%- assign thumb = site.static_files | where: "path", p.image | first -%}

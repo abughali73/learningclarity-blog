@@ -6,6 +6,8 @@ lang: es
 ref: upload-notes-slides-photos-and-links-to-study
 capability: upload-material
 story: upload-anything-announcement
+feature_update: true
+issue: 1
 image: /assets/img/posts/upload-notes-slides-photos-and-links-to-study-cinematic.webp
 keywords: ["subir apuntes para estudiar con IA", "convertir PowerPoint en lecciones", "estudiar con apuntes a mano", "aprender con artículos web", "plataforma de estudio con IA"]
 tags: [LearningClarity, LearningClarityAI, EstudiarConIA, Novedades, TecnicasDeEstudio, Examenes, AppWeb, ApuntesAMano, Estudiantes, EdTech, AIinEducation, AprendizajePermanente]

@@ -1,0 +1,164 @@
+---
+layout: default
+---
+{%- comment -%}
+  The feature-update announcement (LC Features Update). Front matter, on top of the usual post fields:
+    feature_update: true
+    issue: 2                      # running number of the update
+    features:                     # 3 to 7, most important first; the same ids, icons and clip flags in every language
+      - id: saved-lessons         # lowercase-hyphen id; the section heading carries {#f-<id>}
+        icon: layers              # an icon name from _includes/icon.html
+        title: "Saved lessons"
+        summary: "One line for the at-a-glance card."
+        where: "Explain Mode, on any subtopic"   # where to find it in the app
+        web_only: true            # optional: shows the Web app badge and the "web app first" note
+        clip: true                # optional: /assets/video/features/<ref>/<id>.mp4 (+ .webm, -poster.jpg, -<lang>.m4a)
+        caption: "Caption under the clip"
+        alt: "What the clip shows"
+  In the body, each feature section is a `## Heading {#f-<id>}` with `{% include feature-clip.html id="<id>" %}`
+  after its first paragraph.
+{%- endcomment -%}
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign lang_home = "/" -%}{%- for l in site.languages -%}{%- if l.code == page.lang -%}{%- assign lang_home = l.home -%}{%- endif -%}{%- endfor -%}
+{%- assign twins = site.posts | where: "ref", page.ref -%}
+{%- assign author_key = page.author | default: site.default_author -%}
+{%- assign author = site.data.authors[author_key] -%}
+{%- if author -%}
+  {%- assign k = "name_" | append: page.lang -%}{%- assign author_name = author[k] | default: author.name -%}
+  {%- if page.lang == "en" -%}{%- assign author_url = author.url -%}{%- else -%}{%- assign k = "url_" | append: page.lang -%}{%- assign author_url = author[k] | default: author.url -%}{%- endif -%}
+{%- endif -%}
+{%- assign web_only_count = page.features | where: "web_only", true | size -%}
+{%- assign whats_new_url = lang_home | append: "whats-new/" -%}
+<article class="post fu">
+  <p class="crumbs"><a href="{{ lang_home }}">← {{ t.back }}</a> · <a href="{{ whats_new_url }}">{{ t.whats_new_nav }}</a></p>
+  <header class="fu-head">
+    <div class="fu-badge-row">
+      <span class="fu-issue">{% include icon.html name="star" size=18 %}<span>{{ t.fu_issue | replace: "[n]", page.issue }}</span></span>
+      <time class="fu-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: t.date_format }}</time>
+    </div>
+    <h1>{{ page.title }}</h1>
+    <p class="post-desc">{{ page.description }}</p>
+    <p class="post-meta">{% if author %}{{ t.by }} <a href="{{ author_url }}" rel="author">{{ author_name }}</a> · {% endif %}{{ t.published }} <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: t.date_format }}</time></p>
+    {%- if twins.size > 1 %}
+    <nav class="translations" aria-label="{{ t.available_in }}">
+      <span class="translations-label">{{ t.available_in }}:</span>
+      <ul>
+        {%- for l in site.languages -%}
+        {%- if l.code != page.lang -%}
+        {%- assign twin = twins | where: "lang", l.code | first -%}
+        {%- if twin %}
+        <li><a href="{{ twin.url }}" hreflang="{{ l.code }}" lang="{{ l.code }}" dir="{{ l.dir }}" rel="alternate">{{ l.name }}</a></li>
+        {%- endif -%}
+        {%- endif -%}
+        {%- endfor %}
+      </ul>
+    </nav>
+    {%- endif %}
+  </header>
+  {%- if page.hero_image -%}
+  {%- assign hero_file = site.static_files | where: "path", page.hero_image.src | first -%}
+  {%- if hero_file %}
+  {%- assign hero_src = page.hero_image.src -%}
+  <figure class="hero-image">{% include picture.html src=hero_src alt=page.hero_image.alt sizes="(max-width: 1080px) 100vw, 1048px" priority="high" %}</figure>
+  {%- endif -%}
+  {%- endif %}
+
+  {%- if page.features and page.features.size > 0 %}
+  <section class="fu-glance" aria-labelledby="fu-glance-title">
+    <h2 id="fu-glance-title">{{ t.fu_glance_title }}</h2>
+    <ol class="fu-grid">
+      {%- for f in page.features %}
+      <li class="fu-card fu-c{{ forloop.index0 | modulo: 4 }}">
+        <a href="#f-{{ f.id }}">
+          <span class="fu-card-icon">{% include icon.html name=f.icon size=24 %}</span>
+          <span class="fu-card-title">{{ f.title }}</span>
+          <span class="fu-card-summary">{{ f.summary }}</span>
+          <span class="fu-card-foot">{% if f.where %}<span class="fu-where">{{ f.where }}</span>{% endif %}{% if f.web_only %}<span class="fu-web">{{ t.fu_web_badge }}</span>{% endif %}</span>
+        </a>
+      </li>
+      {%- endfor %}
+    </ol>
+  </section>
+  {%- endif %}
+
+  {%- if web_only_count > 0 %}
+  <aside class="fu-note" role="note">
+    <span class="fu-note-icon">{% include icon.html name="device" size=22 %}</span>
+    <p><strong>{{ t.fu_web_first_title }}</strong> {{ t.fu_web_first_text }} <a href="#subscribe">{{ t.fu_web_first_link }}</a></p>
+  </aside>
+  {%- endif %}
+
+  <div class="post-body fu-body">
+    {{ content }}
+    {%- if page.faq %}{% include faq.html items=page.faq heading=page.faq_heading lang=page.lang %}{% endif %}
+  </div>
+
+  {%- assign earlier = site.posts | where: "lang", page.lang | where: "feature_update", true -%}
+  {%- if earlier.size > 1 %}
+  <section class="fu-earlier" aria-labelledby="fu-earlier-title">
+    <h2 id="fu-earlier-title">{{ t.fu_earlier_title }}</h2>
+    <ol class="fu-timeline">
+      {%- for p in earlier limit: 12 %}{% if p.url != page.url %}
+      <li>
+        <time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: t.date_format }}</time>
+        <a href="{{ p.url }}">{% if p.issue %}<span class="fu-tl-issue">#{{ p.issue }}</span> {% endif %}{{ p.title }}</a>
+      </li>
+      {%- endif %}{% endfor %}
+    </ol>
+    <p class="fu-all"><a href="{{ whats_new_url }}">{{ t.fu_all_updates }} →</a></p>
+  </section>
+  {%- endif %}
+
+  {% include ad-slot.html name="post_bottom" lang=page.lang %}
+  {%- if page.tags and page.tags.size > 0 %}
+  <p class="hashtags" aria-label="{{ t.hashtags_label }}">
+    {%- for tag in page.tags %}<span class="hashtag" dir="auto">#{{ tag | remove: " " | remove: "#" }}</span>{% endfor -%}
+  </p>
+  {%- endif %}
+  {% include author-box.html key=author_key lang=page.lang %}
+  {% include social.html lang=page.lang %}
+  {% include continue-reading.html %}
+  <aside class="cta">
+    <h2>{{ t.cta_title }}</h2>
+    <p>{{ t.cta_text }}</p>
+    <a class="btn" href="{{ site.app.web }}" rel="noopener">{{ t.cta_button }}</a>
+  </aside>
+</article>
+<script>
+/* Narration for feature clips: the clip itself is silent; "Play with narration" restarts it with the narration
+   track in the page's language, kept in step with the video. */
+(function () {
+  document.querySelectorAll(".fu-clip[data-narration]").forEach(function (fig) {
+    var v = fig.querySelector("video"), btn = fig.querySelector(".fu-narrate"), a = null, on = false;
+    if (!v || !btn) return;
+    var label = btn.querySelector("span");
+    function stop() {
+      on = false; if (a) a.pause(); v.loop = true;
+      btn.setAttribute("aria-pressed", "false"); label.textContent = btn.dataset.play;
+    }
+    btn.addEventListener("click", function () {
+      if (on) { stop(); return; }
+      if (!a) {
+        a = new Audio(fig.dataset.narration); a.preload = "auto";
+        a.addEventListener("ended", stop);
+        v.addEventListener("pause", function () { if (on && !v.ended) a.pause(); });
+        v.addEventListener("play", function () { if (on) { a.currentTime = Math.min(v.currentTime, a.duration || 1e9); a.play(); } });
+        v.addEventListener("ended", function () { if (on) { v.currentTime = 0; v.play(); } });
+      }
+      on = true; v.loop = false; v.currentTime = 0; a.currentTime = 0;
+      btn.setAttribute("aria-pressed", "true"); label.textContent = btn.dataset.stop;
+      Promise.all([v.play(), a.play()]).catch(stop);
+    });
+  });
+  /* Clips play only while on screen, and never with reduced motion. */
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var clips = document.querySelectorAll(".fu-clip video");
+  if (reduce) { clips.forEach(function (v) { v.removeAttribute("autoplay"); v.pause(); v.controls = true; }); return; }
+  if ("IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.play().catch(function () {}); } else if (e.target.loop) { e.target.pause(); } });
+    }, { threshold: 0.35 });
+    clips.forEach(function (v) { io.observe(v); });
+  }
+})();
+</script>

@@ -1,0 +1,6 @@
+---
+layout: null
+permalink: /feed/whats-new/en.xml
+sitemap: false
+---
+{% include whats-new-feed.xml lang="en" %}

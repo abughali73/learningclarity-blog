@@ -1,0 +1,32 @@
+{%- comment -%}
+  One feature's motion clip in a feature-update post (layout: feature-update):
+  {% include feature-clip.html id="saved-lessons" %}
+  Files, by the post's ref and the feature id (the graphics step writes them):
+    /assets/video/features/<ref>/<id>.mp4        H.264, silent (required)
+    /assets/video/features/<ref>/<id>.webm       VP9 (optional, offered first)
+    /assets/video/features/<ref>/<id>-poster.jpg first frame (required)
+    /assets/video/features/<ref>/<id>-<lang>.m4a narration in the post's language (optional; adds "Play with narration")
+  Nothing is shown until the .mp4 exists.
+{%- endcomment -%}
+{%- assign fc = page.features | where: "id", include.id | first -%}
+{%- assign fc_t = site.data.i18n[page.lang] -%}
+{%- assign fc_base = "/assets/video/features/" | append: page.ref | append: "/" | append: include.id -%}
+{%- assign fc_mp4 = fc_base | append: ".mp4" -%}
+{%- assign fc_mp4_file = site.static_files | where: "path", fc_mp4 | first -%}
+{%- if fc and fc_mp4_file -%}
+{%- assign fc_webm = fc_base | append: ".webm" -%}
+{%- assign fc_webm_file = site.static_files | where: "path", fc_webm | first -%}
+{%- assign fc_voice = fc_base | append: "-" | append: page.lang | append: ".m4a" -%}
+{%- assign fc_voice_file = site.static_files | where: "path", fc_voice | first -%}
+<figure class="fu-clip"{% if fc_voice_file %} data-narration="{{ fc_voice }}"{% endif %}>
+  <div class="fu-clip-frame">
+    <video autoplay muted loop playsinline preload="metadata" poster="{{ fc_base }}-poster.jpg" width="1280" height="720" aria-label="{{ fc.alt | default: fc.title | escape }}">
+      {%- if fc_webm_file %}<source src="{{ fc_webm }}" type="video/webm">{% endif %}<source src="{{ fc_mp4 }}" type="video/mp4">
+    </video>
+    {%- if fc_voice_file %}
+    <button type="button" class="fu-narrate" aria-pressed="false" data-play="{{ fc_t.fu_play_narration | escape }}" data-stop="{{ fc_t.fu_stop_narration | escape }}">{% include icon.html name="headphones" size=18 %}<span>{{ fc_t.fu_play_narration }}</span></button>
+    {%- endif %}
+  </div>
+  {%- if fc.caption %}<figcaption>{{ fc.caption }}</figcaption>{% endif %}
+</figure>
+{%- endif -%}

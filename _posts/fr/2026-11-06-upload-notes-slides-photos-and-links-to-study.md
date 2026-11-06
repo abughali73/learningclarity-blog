@@ -6,6 +6,8 @@ lang: fr
 ref: upload-notes-slides-photos-and-links-to-study
 capability: upload-material
 story: upload-anything-announcement
+feature_update: true
+issue: 1
 image: /assets/img/posts/upload-notes-slides-photos-and-links-to-study-cinematic.webp
 keywords: ["importer ses notes pour réviser avec l'IA", "transformer un PowerPoint en leçons", "réviser ses notes manuscrites", "apprendre avec des articles web", "plateforme d'étude IA"]
 tags: [LearningClarity, LearningClarityAI, ReviserAvecIA, Nouveaute, MethodeDeTravail, Examens, AppWeb, NotesManuscrites, Etudiants, EdTech, AIinEducation, ApprentissageEnLigne]

@@ -49,6 +49,21 @@ en:
   privacy: "Privacy policy"
   terms: "Terms of service"
   subscribe_nav: Subscribe
+  whats_new_nav: "What's new"
+  whats_new_title: "What's new in LearningClarity"
+  whats_new_intro: "Every feature update in one place: what changed in the app, when, and how to use it."
+  whats_new_feed: "Feature updates feed"
+  whats_new_empty: "No feature updates yet."
+  fu_issue: "Feature update #[n]"
+  fu_glance_title: "New in this update"
+  fu_web_badge: "Web app"
+  fu_web_first_title: "Web app first."
+  fu_web_first_text: "Features marked Web app are in the LearningClarity web app now and are coming to the iPhone and Android apps later."
+  fu_web_first_link: "Subscribe to hear when they arrive."
+  fu_earlier_title: "Earlier feature updates"
+  fu_all_updates: "All feature updates"
+  fu_play_narration: "Play with narration"
+  fu_stop_narration: "Stop narration"
   subscribe_title: Get new posts by email
   subscribe_text: One short email whenever we publish a new guide or story. No spam, and you can unsubscribe at any time.
   subscribe_label: Your email address
@@ -131,6 +146,21 @@ ar:
   privacy: "سياسة الخصوصية"
   terms: "شروط الخدمة"
   subscribe_nav: اشترك
+  whats_new_nav: "ما الجديد"
+  whats_new_title: "ما الجديد في LearningClarity"
+  whats_new_intro: "كل تحديثات الميزات في مكان واحد: ما الذي تغيّر في التطبيق، ومتى، وكيف تستخدمه."
+  whats_new_feed: "خلاصة تحديثات الميزات"
+  whats_new_empty: "لا توجد تحديثات ميزات بعد."
+  fu_issue: "تحديث الميزات رقم [n]"
+  fu_glance_title: "الجديد في هذا التحديث"
+  fu_web_badge: "تطبيق الويب"
+  fu_web_first_title: "على الويب أولًا."
+  fu_web_first_text: "الميزات المعلَّمة بـ«تطبيق الويب» متاحة الآن في تطبيق LearningClarity على الويب، وستصل لاحقًا إلى تطبيقَي iPhone وAndroid."
+  fu_web_first_link: "اشترك لتعرف عند وصولها."
+  fu_earlier_title: "تحديثات الميزات السابقة"
+  fu_all_updates: "كل تحديثات الميزات"
+  fu_play_narration: "تشغيل مع التعليق الصوتي"
+  fu_stop_narration: "إيقاف التعليق الصوتي"
   subscribe_title: تلقَّ المقالات الجديدة عبر البريد الإلكتروني
   subscribe_text: رسالة قصيرة واحدة كلما نشرنا دليلًا أو قصة جديدة. بلا رسائل مزعجة، ويمكنك إلغاء الاشتراك في أي وقت.
   subscribe_label: بريدك الإلكتروني
@@ -213,6 +243,21 @@ es:
   privacy: "Política de privacidad"
   terms: "Condiciones del servicio"
   subscribe_nav: Suscribirse
+  whats_new_nav: "Novedades"
+  whats_new_title: "Novedades de LearningClarity"
+  whats_new_intro: "Todas las actualizaciones en un solo lugar: qué cambió en la app, cuándo y cómo usarlo."
+  whats_new_feed: "Feed de novedades"
+  whats_new_empty: "Todavía no hay actualizaciones."
+  fu_issue: "Actualización n.º [n]"
+  fu_glance_title: "Lo nuevo en esta actualización"
+  fu_web_badge: "App web"
+  fu_web_first_title: "Primero en la web."
+  fu_web_first_text: "Las funciones marcadas como App web ya están en la app web de LearningClarity y llegarán más adelante a las apps de iPhone y Android."
+  fu_web_first_link: "Suscríbete para saber cuándo llegan."
+  fu_earlier_title: "Actualizaciones anteriores"
+  fu_all_updates: "Todas las actualizaciones"
+  fu_play_narration: "Reproducir con narración"
+  fu_stop_narration: "Detener la narración"
   subscribe_title: Recibe los nuevos artículos por correo
   subscribe_text: Un correo breve cada vez que publiquemos una guía o una historia nueva. Sin spam, y puedes darte de baja cuando quieras.
   subscribe_label: Tu correo electrónico
@@ -295,6 +340,21 @@ fr:
   privacy: "Politique de confidentialité"
   terms: "Conditions d’utilisation"
   subscribe_nav: S’abonner
+  whats_new_nav: "Nouveautés"
+  whats_new_title: "Les nouveautés de LearningClarity"
+  whats_new_intro: "Toutes les mises à jour au même endroit : ce qui a changé dans l’app, quand, et comment l’utiliser."
+  whats_new_feed: "Flux des nouveautés"
+  whats_new_empty: "Aucune mise à jour pour l’instant."
+  fu_issue: "Mise à jour n° [n]"
+  fu_glance_title: "Nouveau dans cette mise à jour"
+  fu_web_badge: "App web"
+  fu_web_first_title: "D’abord sur le web."
+  fu_web_first_text: "Les fonctions marquées App web sont déjà dans l’application web de LearningClarity et arriveront plus tard sur les applications iPhone et Android."
+  fu_web_first_link: "Abonnez-vous pour être prévenu."
+  fu_earlier_title: "Mises à jour précédentes"
+  fu_all_updates: "Toutes les mises à jour"
+  fu_play_narration: "Lire avec la narration"
+  fu_stop_narration: "Arrêter la narration"
   subscribe_title: Recevez les nouveaux articles par e-mail
   subscribe_text: Un court e-mail à chaque nouveau guide ou nouvelle histoire. Pas de spam, et vous pouvez vous désabonner à tout moment.
   subscribe_label: Votre adresse e-mail
@@ -377,6 +437,21 @@ de:
   privacy: "Datenschutzerklärung"
   terms: "Nutzungsbedingungen"
   subscribe_nav: Abonnieren
+  whats_new_nav: "Neuigkeiten"
+  whats_new_title: "Neuigkeiten bei LearningClarity"
+  whats_new_intro: "Alle Funktions-Updates an einem Ort: was sich in der App geändert hat, wann und wie Sie es nutzen."
+  whats_new_feed: "Feed der Funktions-Updates"
+  whats_new_empty: "Noch keine Funktions-Updates."
+  fu_issue: "Funktions-Update Nr. [n]"
+  fu_glance_title: "Neu in diesem Update"
+  fu_web_badge: "Web-App"
+  fu_web_first_title: "Zuerst im Web."
+  fu_web_first_text: "Funktionen mit dem Hinweis Web-App sind jetzt in der LearningClarity-Web-App verfügbar und kommen später in die iPhone- und Android-Apps."
+  fu_web_first_link: "Abonnieren Sie, um es zu erfahren."
+  fu_earlier_title: "Frühere Funktions-Updates"
+  fu_all_updates: "Alle Funktions-Updates"
+  fu_play_narration: "Mit Sprecher abspielen"
+  fu_stop_narration: "Sprecher stoppen"
   subscribe_title: Neue Beiträge per E-Mail erhalten
   subscribe_text: Eine kurze E-Mail, sobald wir einen neuen Leitfaden oder eine neue Geschichte veröffentlichen. Kein Spam, und Sie können sich jederzeit abmelden.
   subscribe_label: Ihre E-Mail-Adresse

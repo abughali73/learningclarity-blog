@@ -6,6 +6,8 @@ lang: ar
 ref: upload-notes-slides-photos-and-links-to-study
 capability: upload-material
 story: upload-anything-announcement
+feature_update: true
+issue: 1
 image: /assets/img/posts/upload-notes-slides-photos-and-links-to-study-cinematic.webp
 keywords: ["رفع الملاحظات للمذاكرة بالذكاء الاصطناعي", "تحويل عرض PowerPoint إلى دروس", "المذاكرة من ملاحظات بخط اليد", "التعلم من مقالات الويب", "منصة دراسة بالذكاء الاصطناعي"]
 tags: [LearningClarity, LearningClarityAI, المذاكرة_بالذكاء_الاصطناعي, ميزة_جديدة, نصائح_للمذاكرة, الاستعداد_للامتحانات, تطبيق_الويب, ملاحظات_بخط_اليد, الطلاب, EdTech, AIinEducation, التعلم_مدى_الحياة]

@@ -6,6 +6,8 @@ lang: en
 ref: upload-notes-slides-photos-and-links-to-study
 capability: upload-material
 story: upload-anything-announcement
+feature_update: true
+issue: 1
 image: /assets/img/posts/upload-notes-slides-photos-and-links-to-study-cinematic.webp
 keywords: ["upload notes to study with AI", "turn PowerPoint into lessons", "study from handwritten notes", "learn from web articles", "AI study platform free week"]
 tags: [LearningClarity, LearningClarityAI, StudyWithAI, ProductUpdate, StudyTips, ExamPrep, WebApp, HandwrittenNotes, Students, EdTech, AIinEducation, LifelongLearning]

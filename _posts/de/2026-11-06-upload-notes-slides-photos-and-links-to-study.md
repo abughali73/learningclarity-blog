@@ -6,6 +6,8 @@ lang: de
 ref: upload-notes-slides-photos-and-links-to-study
 capability: upload-material
 story: upload-anything-announcement
+feature_update: true
+issue: 1
 image: /assets/img/posts/upload-notes-slides-photos-and-links-to-study-cinematic.webp
 keywords: ["Notizen hochladen und mit KI lernen", "PowerPoint in Lektionen umwandeln", "mit handschriftlichen Notizen lernen", "mit Webartikeln lernen", "KI-Lernplattform"]
 tags: [LearningClarity, LearningClarityAI, LernenMitKI, Neuheit, Lerntipps, Pruefungsvorbereitung, WebApp, Handschrift, Studium, EdTech, AIinEducation, LebenslangesLernen]

@@ -14,3 +14,13 @@ Source for https://blog.learningclarity.ai, a Jekyll site published with GitHub 
 - Images: each post has one AI illustration (`hero_image`), generated with OpenAI by `.github/workflows/generate-images.yml` after a push; it is also the preview image (`image:`).
 - AI illustrations: posts with a `hero_image.prompt` get an image from `.github/workflows/generate-images.yml` (needs the `OPENAI_API_KEY` secret; the model comes from the `OPENAI_IMAGE_MODEL` variable, default `gpt-image-2.5-flare`).
 - Search engine verification codes go in `_config.yml` under `verification:`.
+
+## Feature updates
+
+- Weekly feature announcements (the LC Features Update skill) use `layout: feature-update` with `feature_update: true`,
+  `issue:` and a `features:` list; the format is documented at the top of `_layouts/feature-update.html`.
+  Each feature section is `## Heading {#f-<id>}` with `{% include feature-clip.html id="<id>" %}`; clips and
+  narration live in `assets/video/features/<ref>/`. `tools/check_post.py` checks all of it.
+- `/whats-new/` (and `/<lang>/whats-new/`) lists every post with `feature_update: true`; its Atom feed is
+  `/feed/whats-new/<lang>.xml`. The header links to it in every language.
+

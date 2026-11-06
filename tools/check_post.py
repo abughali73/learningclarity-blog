@@ -141,6 +141,9 @@ def main(name):
         for lang in LANGS[1:]:
             if values[lang] != values["en"]:
                 problems.append(f"{lang}: ref, capability, image, ad colour/icons or image src/prompt differ from en")
+    # feature-update posts (layout: feature-update): the features block, its clips and the section anchors
+    if posts.get("en") and posts["en"][0].get("layout") == "feature-update":
+        problems += check_feature_update(posts)
     # nothing under assets/img may be added by the agent
     staged = subprocess.run(["git", "status", "--porcelain", "--", "assets/img"], cwd=ROOT,
                             capture_output=True, text=True).stdout.strip()
@@ -151,6 +154,74 @@ def main(name):
         return 1
     print(f"OK: {name} passes in all five languages.")
     return 0
+
+
+def check_feature_update(posts):
+    """Rules for the weekly feature-update announcement (skill lc-features-update)."""
+    out = []
+    en = posts["en"][0]
+    ref = en.get("ref")
+    feats_en = en.get("features") or []
+    if not 3 <= len(feats_en) <= 7:
+        out.append(f"en: {len(feats_en)} features (need 3 to 7)")
+    ids = [f.get("id") for f in feats_en]
+    if len(set(ids)) != len(ids):
+        out.append("en: feature ids must be unique")
+    total = 0
+    for lang, (fm, body) in posts.items():
+        p = lambda msg: out.append(f"{lang}: {msg}")
+        if fm.get("layout") != "feature-update":
+            p("layout must be feature-update in all five files")
+        if fm.get("feature_update") is not True:
+            p("feature_update: true is missing")
+        if not isinstance(fm.get("issue"), int) or fm.get("issue") != en.get("issue"):
+            p("issue must be the same whole number in all five files")
+        feats = fm.get("features") or []
+        if [(f.get("id"), f.get("icon"), bool(f.get("clip")), bool(f.get("web_only"))) for f in feats] != \
+                [(f.get("id"), f.get("icon"), bool(f.get("clip")), bool(f.get("web_only"))) for f in feats_en]:
+            p("features differ from en (ids, order, icons, clip or web_only)")
+        for f in feats:
+            fid = f.get("id") or "?"
+            if not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", str(fid)):
+                p(f"feature id {fid!r} must be lowercase words joined by hyphens")
+            if f.get("icon") not in ICONS:
+                p(f"feature {fid}: icon {f.get('icon')!r} is not a known icon")
+            for key in ("title", "summary"):
+                if not f.get(key):
+                    p(f"feature {fid}: {key} is missing")
+            if len(f.get("summary", "")) > 110:
+                p(f"feature {fid}: summary is {len(f.get('summary', ''))} characters (110 max)")
+            if not re.search(r"^## .*\{#f-" + re.escape(str(fid)) + r"\}\s*$", body, re.M):
+                p(f"feature {fid}: no section heading ending in {{#f-{fid}}}")
+            n = len(re.findall(r'\{% include feature-clip\.html id="' + re.escape(str(fid)) + r'" %\}', body))
+            if f.get("clip"):
+                if n != 1:
+                    p(f"feature {fid}: feature-clip is included {n} times (need exactly 1)")
+                if not f.get("alt") or not f.get("caption"):
+                    p(f"feature {fid}: a clip needs alt and caption")
+            elif n:
+                p(f"feature {fid}: clip is not true but the body includes its clip")
+        for m in re.findall(r'\{% include feature-clip\.html id="([^"]+)" %\}', body):
+            if m not in ids:
+                p(f"the body includes a clip for unknown feature {m!r}")
+        if "<video" in body:
+            p("use {% include feature-clip.html %} instead of a <video> tag")
+    for f in feats_en:
+        if not f.get("clip"):
+            continue
+        base = ROOT / "assets" / "video" / "features" / str(ref) / str(f.get("id"))
+        for suffix in (".mp4", "-poster.jpg"):
+            path = Path(str(base) + suffix)
+            if not path.exists():
+                out.append(f"feature {f.get('id')}: {path.relative_to(ROOT)} is missing")
+        for path in base.parent.glob(f"{f.get('id')}*"):
+            size = path.stat().st_size
+            total += size
+            if path.suffix in (".mp4", ".webm") and size > 4 * 1024 * 1024:
+                out.append(f"{path.relative_to(ROOT)} is {size / 1048576:.1f} MB (4 MB max per clip)")
+    if total > 20 * 1024 * 1024:
+        out.append(f"the clips and narration of this post total {total / 1048576:.1f} MB (20 MB max)")
+    return out
 
 
 if __name__ == "__main__":
