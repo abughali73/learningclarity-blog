@@ -93,17 +93,17 @@ layout: default
     {%- if page.faq %}{% include faq.html items=page.faq heading=page.faq_heading lang=page.lang %}{% endif %}
   </div>
 
-  {%- assign earlier = site.posts | where: "lang", page.lang | where: "feature_update", true -%}
-  {%- if earlier.size > 1 %}
+  {%- assign earlier = site.posts | where: "lang", page.lang | where: "feature_update", true | where_exp: "p", "p.url != page.url" -%}
+  {%- if earlier.size > 0 %}
   <section class="fu-earlier" aria-labelledby="fu-earlier-title">
     <h2 id="fu-earlier-title">{{ t.fu_earlier_title }}</h2>
     <ol class="fu-timeline">
-      {%- for p in earlier limit: 12 %}{% if p.url != page.url %}
+      {%- for p in earlier limit: 12 %}
       <li>
         <time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: t.date_format }}</time>
         <a href="{{ p.url }}">{% if p.issue %}<span class="fu-tl-issue">#{{ p.issue }}</span> {% endif %}{{ p.title }}</a>
       </li>
-      {%- endif %}{% endfor %}
+      {%- endfor %}
     </ol>
     <p class="fu-all"><a href="{{ whats_new_url }}">{{ t.fu_all_updates }} →</a></p>
   </section>
