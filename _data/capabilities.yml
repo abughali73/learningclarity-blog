@@ -19,6 +19,7 @@
   facts:
     - Type the subject you want to learn (up to 5,000 characters), optionally with goals or level.
     - LearningClarity builds the topic, assigns a category and generates its subtopics.
+    - The topic is created in the background; you can leave the screen and a banner tells you when it is ready.
     - The fastest and most economical way to start.
     - You choose which subtopics to focus on; completion is tracked for each one.
 - key: ai-courses
@@ -36,17 +37,29 @@
 - key: explain-mode
   name: Explain Mode
   facts:
-    - An interactive AI tutor that teaches a subtopic one short section at a time; select Next to continue at your own pace.
-    - Simplify rephrases the current section in simpler terms; Explain Further adds detail and examples.
-    - Ask your own question about a section, or ask for an example.
-    - Knowledge Checks are multiple-choice questions during the explanation, with feedback; Retry lets you reattempt.
-    - Resume returns you to where you stopped.
-    - Explanations and questions are adapted to the learner's age.
+    - An interactive AI tutor that teaches a subtopic page by page; select Next to continue at your own pace.
+    - Each lesson is written once and saved. Unfinished lessons reopen at the page where you stopped; finished lessons can be reread at any time.
+    - The lesson appears as it is written, so you can start reading page 1 while the rest is prepared. An outline shows every planned page and a bar fills as the pages are written. You can leave and come back while it is prepared.
+    - "When you create a topic, course or learning plan you choose how familiar you are with it (from New to me to I know it well); every lesson in it is planned and written for that level, and the level cannot be changed later."
+    - The level control in the lesson (Foundation, Standard or Advanced) rewrites the current page at another level, shown beside the original page.
+    - Select a sentence, several sentences or a paragraph, or use the box at the end of the page for the whole page, then pick a tool. Each tool and option says what it does and what it costs before you use it.
+    - Simplify rewrites the selected text or page in simpler words, step by step.
+    - "Explain Further offers four options: Why it works, Worked example, Real-world use, and Limits & mistakes."
+    - "Ask answers your own question about the lesson, and offers Check me (one quick question to check you understood) and Help me remember (a memory trick)."
+    - Results appear right under the text you asked about; each one can be marked Helpful or Not helpful, added to your notes, or removed.
+    - Highlight sentences as Key point or Confusing, and add notes; they are collected in "Your notes and answers" and can be downloaded with the lesson as a PDF ("Download my notebook").
+    - Under every chart in a lesson, "Play with this chart" lets you change the chart yourself; it is free and uses no AI.
+    - Knowledge Checks are questions during the lesson with feedback; after a wrong answer, "Try another question" gives a new one, and you can look back at the earlier questions and your answers.
+    - "\"I know this\" lets you skip a page you already know."
+    - "At the end of the lesson, a wrap-up shows how many knowledge checks you answered correctly on the first try, how you did on each part, the page worth another look, and your notes. It then suggests your next step: the next subtopic, a quiz, the exam, the podcast, Talk to This or the PDF."
+    - Explanations and questions are adapted to the learner's age and level.
+    - For now the new lesson experience (saved lessons, level control, the redesigned tools, the wrap-up) is in the web app; it is coming to the iPhone and Android apps later.
 - key: visualize
-  name: Visualize (diagrams)
+  name: Visualize
   facts:
-    - Visualize generates a clean, labelled diagram of the current concept in Explain Mode.
-    - Labels are in the topic's language.
+    - "In Explain Mode, Visualize offers two options for the selected text or page: Illustration (an AI-drawn image of the idea, which you can enlarge) and Watch a video (short YouTube videos about it, played in the lesson)."
+    - Illustrations are labelled in the topic's language.
+    - Do not mention diagrams, charts or interactive graphs as Visualize options; they are not offered.
 - key: listen
   name: Listen (audio narration)
   facts:
@@ -98,6 +111,15 @@
   facts:
     - Progress is tracked at every level - subtopics, topics, courses, plans, quiz and exam history, mastery levels.
     - The three modes Explain, Quiz and Exam take you from first understanding to verified mastery; you can enter any mode directly.
+    - Every subtopic shows its mastery as Solid, Shaky or Needs revision, based on your answers in lessons, quizzes and exams.
+- key: revise
+  name: Revise what you missed
+  facts:
+    - After a quiz or an exam, each weak area has a Revise button.
+    - "Revising has three steps: review the saved lesson, with the pages that cover your missed questions marked; answer new questions, one per screen, with instant feedback; then see the result. Getting more than half right brings the subtopic back to good standing."
+    - You can revise again with new questions as often as you like, or revise all weak subtopics one after another.
+    - The Review list on the dashboard collects what you missed in lessons, quizzes and exams, with the date of the next review; opening a saved lesson is free.
+    - For now Revise and the Review list are in the web app; they are coming to the iPhone and Android apps later.
 - key: learning-insights
   name: Learning insights
   facts:
@@ -116,6 +138,7 @@
     - The recipient previews it and accepts or declines; on accepting they get an independent copy and their own progress.
     - You are notified when a share is accepted; pending shares can be cancelled.
     - Only content you created can be shared; shared copies cannot be shared onward.
+    - The recipient's copy includes the lessons already written, so they can start reading straight away.
 - key: supervision
   name: Supervision for parents and teachers
   facts:
