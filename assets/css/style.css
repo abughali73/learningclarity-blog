@@ -21,8 +21,12 @@
 html { -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.65 var(--body); }
 img { max-width: 100%; height: auto; }
-a { color: var(--link); }
+a, a:link, a:visited { color: var(--link); }
 a:hover { color: var(--blue); }
+/* In-text links: literal colours for every link state, so the browser never paints them with a style
+   borrowed from the white header "Subscribe" button that shares the same #subscribe target. */
+.post-body a, .post-body a:link, .post-body a:visited { color: #1D3FAF; text-decoration: underline; text-decoration-color: currentColor; text-underline-offset: 2px; background: none; }
+.post-body a:hover, .post-body a:focus-visible { color: #2563EB; }
 .wrap { width: 100%; max-width: 1080px; margin: 0 auto; padding: 0 16px; }
 .grad { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .lang-ar .grad { background-image: linear-gradient(270deg, #2563EB, #7C3AED 60%, #DB2777); }
@@ -198,7 +202,7 @@ picture > source { display: none; } /* <source> is not hidden by default; inside
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
 .nav-search { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 12px; border: 1px solid var(--line); border-radius: 999px; color: var(--link); }
 .nav-search:hover { border-color: var(--blue-line); background: var(--blue-tint); }
-.nav-subscribe { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 14px; border-radius: 999px; background: var(--blue); color: #fff !important; }
+.nav-subscribe, .nav-subscribe:visited { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 14px; border-radius: 999px; background: var(--blue); color: #fff !important; }
 .nav-subscribe:hover { background: #1D4ED8; }
 .search-form { display: flex; gap: 10px; margin-top: 22px; max-width: 680px; }
 .search-form input { flex: 1; min-width: 0; min-height: 48px; padding: 0 16px; border: 1px solid var(--rail); border-radius: 999px; background: #fff; color: var(--ink); font: 17px var(--body); }
