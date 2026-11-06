@@ -1,20 +1,20 @@
 ---
 title: "Estudia con lo que tengas: sube apuntes, diapositivas, fotos y enlaces"
-description: "Desde el 7 de noviembre, cualquier cuenta de LearningClarity convierte archivos Word, diapositivas, fotos de apuntes, vídeos de YouTube y webs en lecciones."
+description: "Desde el 7 de noviembre, cualquier cuenta de LearningClarity convierte archivos Word, diapositivas, fotos de apuntes y páginas web en lecciones en la app web."
 date: 2026-11-06 08:20:00 +0200
 lang: es
 ref: upload-notes-slides-photos-and-links-to-study
 capability: upload-material
 story: upload-anything-announcement
 image: /assets/img/posts/upload-notes-slides-photos-and-links-to-study-cinematic.webp
-keywords: ["subir apuntes para estudiar con IA", "convertir PowerPoint en lecciones", "estudiar con apuntes a mano", "aprender con vídeos de YouTube", "plataforma de estudio con IA"]
-tags: [LearningClarity, LearningClarityAI, EstudiarConIA, Novedades, TecnicasDeEstudio, Examenes, YouTube, ApuntesAMano, Estudiantes, EdTech, AIinEducation, AprendizajePermanente]
+keywords: ["subir apuntes para estudiar con IA", "convertir PowerPoint en lecciones", "estudiar con apuntes a mano", "aprender con artículos web", "plataforma de estudio con IA"]
+tags: [LearningClarity, LearningClarityAI, EstudiarConIA, Novedades, TecnicasDeEstudio, Examenes, AppWeb, ApuntesAMano, Estudiantes, EdTech, AIinEducation, AprendizajePermanente]
 ad:
   color: blue
-  eyebrow: "Novedad desde el 7 de noviembre"
+  eyebrow: "Novedad web desde el 7 de nov."
   headline: "Convierte todo lo que estudias en"
   highlight: "lecciones para aprender"
-  subtitle: "Para todas las cuentas, también en la primera semana gratis."
+  subtitle: "En la app web, para todas las cuentas, también la semana gratis."
   items:
     - icon: upload
       title: "Cualquier archivo"
@@ -24,7 +24,7 @@ ad:
       bullets: ["Fotografía tus apuntes a mano", "O un capítulo entero, página a página"]
     - icon: globe
       title: "También enlaces"
-      bullets: ["Un vídeo público de YouTube", "Un artículo de cualquier web"]
+      bullets: ["Pega el enlace de una página web", "Como un artículo o una guía"]
     - icon: layers
       title: "A la medida del material"
       bullets: ["Un tema, un curso o un plan", "Siguiendo sus propios apartados"]
@@ -48,7 +48,7 @@ scenes:
     prompt: "Felix, a fictional 27-year-old new employee with short light-brown hair, a neatly trimmed beard and fair skin, wearing a light blue Oxford shirt and a lanyard with a blank badge, sits at a bright open-plan office desk in the late morning, leaning back with a relaxed half-smile toward a laptop whose screen faces away from the camera, a printed welcome pack with no readable text beside him. Colleagues softly blurred in the background, daylight from tall windows. Medium shot at eye level. Mood: settling in with confidence."
   - src: /assets/img/posts/upload-notes-slides-photos-and-links-to-study-scene-4.webp
     alt: "Una mujer en la mesa de la cocina por la tarde, con una tableta y un cuaderno, empieza una materia nueva"
-    caption: "Rosa empieza con un vídeo y un artículo."
+    caption: "Rosa empieza con dos artículos."
     prompt: "Rosa, a fictional 41-year-old woman with shoulder-length curly auburn hair, light freckled skin and green-framed glasses, wearing a mustard jumper, sits at a wooden kitchen table in the evening with a tablet propped on a stand, its screen facing away from the camera, and an open notebook in which she is writing, with the writing unreadable. A pot of herbs, a teapot and warm pendant light above the table, a dark window behind. Medium shot at eye level. Mood: curious, starting something new for herself."
   - src: /assets/img/posts/upload-notes-slides-photos-and-links-to-study-scene-5.webp
     alt: "Tres personas en tres lugares, cada una estudiando con su dispositivo"
@@ -56,15 +56,17 @@ scenes:
     prompt: "A split-screen triptych of three panels in matching warm light. Left: Nadia, a fictional 19-year-old student with long dark wavy hair tied back, olive skin and a cream cardigan, on a bus seat with her phone, screen facing away. Middle: Felix, a fictional 27-year-old man with short light-brown hair, a trimmed beard and a light blue shirt, at a café table with a laptop, screen facing away. Right: Rosa, a fictional 41-year-old woman with curly auburn hair, freckles, green-framed glasses and a mustard jumper, on a sofa with a tablet, screen facing away. Each is calm and focused. Eye-level medium shots. No text, no logos."
 faq:
   - q: "¿Qué archivos puedo subir a LearningClarity?"
-    a: "PDF, Word (.docx), PowerPoint (.pptx), texto plano (.txt) y Markdown (.md), además de imágenes PNG, JPG o JPEG. También puedes pegar el enlace de un vídeo público de YouTube o de una página web. Los límites de tamaño aparecen en la pantalla de subida."
+    a: "PDF, Word (.docx), PowerPoint (.pptx), texto plano (.txt) y Markdown (.md), además de imágenes PNG, JPG o JPEG. También puedes pegar el enlace de una página web. Los límites de tamaño aparecen en la pantalla de subida."
   - q: "¿Puedo subir apuntes a mano o páginas escaneadas?"
     a: "Sí. Fotografía las páginas con la cámara del móvil y sube las fotos, o sube un PDF escaneado; el texto se lee automáticamente. Funcionan mejor las páginas claras y bien iluminadas, y una página sin texto legible no se puede usar."
   - q: "¿Subir material está incluido en la primera semana gratis?"
     a: "Sí. Subir tu propio material está abierto a todas las cuentas, también durante la primera semana gratis."
 ---
-Desde el **sábado 7 de noviembre de 2026** podrás crear lecciones en LearningClarity a partir de casi cualquier cosa con la que estudies: un archivo Word, una presentación de PowerPoint, una nota en Markdown, fotos de tus apuntes a mano, un capítulo entero del libro fotografiado página a página, un vídeo de YouTube o un artículo de la web. Y subir material está abierto a todas las cuentas, también durante la primera semana gratis.
+Desde el **sábado 7 de noviembre de 2026** podrás crear lecciones en LearningClarity a partir de casi cualquier cosa con la que estudies: un archivo Word, una presentación de PowerPoint, una nota en Markdown, fotos de tus apuntes a mano, un capítulo entero del libro fotografiado página a página, o un artículo de la web. Y subir material está abierto a todas las cuentas, también durante la primera semana gratis.
 
-Hasta ahora había que exportar los archivos Word y PowerPoint a PDF, y no se podían usar escaneos ni enlaces de vídeo. Eso cambia el 7 de noviembre.
+**Primero en la app web.** Estas novedades están disponibles en la app web de LearningClarity. Llegarán más adelante a las apps de iPhone y Android: [suscríbete al blog](#subscribe) y te avisaremos en cuanto estén en el App Store y Google Play.
+
+Hasta ahora había que exportar los archivos Word y PowerPoint a PDF, y no se podían usar escaneos ni enlaces web. Eso cambia el 7 de noviembre.
 
 {% include scene.html n=1 %}
 
@@ -72,7 +74,6 @@ Hasta ahora había que exportar los archivos Word y PowerPoint a PDF, y no se po
 
 - **Archivos:** PDF, Word (.docx), PowerPoint (.pptx), texto plano (.txt) y Markdown (.md), además de imágenes PNG, JPG o JPEG. Puedes subir varios archivos a la vez; los límites de tamaño aparecen en la pantalla de subida.
 - **La cámara del móvil:** fotografía tus apuntes a mano, fotocopias o un capítulo entero, página a página, y sube las fotos. Las páginas escaneadas y las fotos se leen automáticamente, y los PDF escaneados también.
-- **Un enlace de YouTube:** pega el enlace de un vídeo público y LearningClarity lo convierte en un tema. Puedes añadir una nota breve sobre en qué centrarte.
 - **Una página web:** pega el enlace de una página web normal, como un artículo, y LearningClarity crea contenido de aprendizaje a partir de ella.
 
 LearningClarity sigue la estructura de tu material (su índice, sus títulos o los títulos de las diapositivas), así que los subtemas coinciden con lo que le das y las lecciones usan sus propios ejemplos. Antes de crear nada puedes añadir notas para la IA y elegir el idioma de aprendizaje.
@@ -87,7 +88,7 @@ LearningClarity sigue la estructura de tu material (su índice, sus títulos o l
 
 {% include scene.html n=3 %}
 
-**Rosa** quiere aprender algo nuevo por su cuenta. Empieza con una clase pública de YouTube que le gustó y un artículo sobre el mismo tema, pega los dos enlaces y estudia por las tardes en la mesa de la cocina.
+**Rosa** quiere aprender algo nuevo por su cuenta. Encuentra dos buenos artículos sobre el tema, pega los dos enlaces y estudia por las tardes en la mesa de la cocina.
 
 {% include scene.html n=4 %}
 
@@ -102,7 +103,7 @@ A partir de ahí, todo funciona como siempre: Explain Mode para aprender, Quiz M
 ## Conviene saber
 
 - Las fotos claras y bien iluminadas funcionan mejor. Una página sin texto legible no se puede usar, y los PDF protegidos con contraseña no se pueden leer.
-- Los vídeos de YouTube tienen que ser públicos; no se pueden usar vídeos en directo, privados ni con restricción de edad. La duración permitida aparece en la app y hay un límite diario de temas de YouTube.
-- Los archivos de audio y vídeo, como grabaciones de clase, no se pueden subir como archivos.
+- Los archivos de audio y vídeo, como grabaciones de clase, no se pueden subir.
+- Por ahora, estas novedades solo están en la app web.
 
-Empieza el sábado: abre [la plataforma de estudio LearningClarity](https://www.learningclarity.ai), haz una foto a una página de tus apuntes o pega un enlace, y mira en qué se convierte.
+Empieza el sábado: abre [la plataforma de estudio LearningClarity](https://www.learningclarity.ai) en tu navegador, haz una foto a una página de tus apuntes o pega un enlace, y mira en qué se convierte.

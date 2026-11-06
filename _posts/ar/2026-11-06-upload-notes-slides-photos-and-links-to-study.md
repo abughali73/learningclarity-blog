@@ -1,20 +1,20 @@
 ---
 title: "ذاكر من أي مصدر: ارفع ملاحظاتك وشرائحك وصورك وروابطك"
-description: "ابتداءً من 7 نوفمبر، يحوّل أي حساب في LearningClarity ملفات Word والشرائح وصور الملاحظات المكتوبة بخط اليد ومقاطع YouTube وصفحات الويب إلى دروس."
+description: "ابتداءً من 7 نوفمبر، يحوّل أي حساب في LearningClarity ملفات Word والشرائح وصور الملاحظات المكتوبة بخط اليد وصفحات الويب إلى دروس على تطبيق الويب."
 date: 2026-11-06 08:20:00 +0200
 lang: ar
 ref: upload-notes-slides-photos-and-links-to-study
 capability: upload-material
 story: upload-anything-announcement
 image: /assets/img/posts/upload-notes-slides-photos-and-links-to-study-cinematic.webp
-keywords: ["رفع الملاحظات للمذاكرة بالذكاء الاصطناعي", "تحويل عرض PowerPoint إلى دروس", "المذاكرة من ملاحظات بخط اليد", "التعلم من فيديوهات يوتيوب", "منصة دراسة بالذكاء الاصطناعي"]
-tags: [LearningClarity, LearningClarityAI, المذاكرة_بالذكاء_الاصطناعي, ميزة_جديدة, نصائح_للمذاكرة, الاستعداد_للامتحانات, يوتيوب, ملاحظات_بخط_اليد, الطلاب, EdTech, AIinEducation, التعلم_مدى_الحياة]
+keywords: ["رفع الملاحظات للمذاكرة بالذكاء الاصطناعي", "تحويل عرض PowerPoint إلى دروس", "المذاكرة من ملاحظات بخط اليد", "التعلم من مقالات الويب", "منصة دراسة بالذكاء الاصطناعي"]
+tags: [LearningClarity, LearningClarityAI, المذاكرة_بالذكاء_الاصطناعي, ميزة_جديدة, نصائح_للمذاكرة, الاستعداد_للامتحانات, تطبيق_الويب, ملاحظات_بخط_اليد, الطلاب, EdTech, AIinEducation, التعلم_مدى_الحياة]
 ad:
   color: blue
-  eyebrow: "جديد ابتداءً من 7 نوفمبر"
+  eyebrow: "جديد على الويب من 7 نوفمبر"
   headline: "حوّل كل ما تذاكر منه إلى"
   highlight: "دروس تتعلم منها"
-  subtitle: "متاح لكل الحسابات، حتى في الأسبوع المجاني الأول."
+  subtitle: "على تطبيق الويب، لكل الحسابات، حتى في الأسبوع المجاني."
   items:
     - icon: upload
       title: "أي ملف لديك"
@@ -24,7 +24,7 @@ ad:
       bullets: ["صوّر ملاحظاتك المكتوبة بخط اليد", "أو فصلًا كاملًا صفحة بعد صفحة"]
     - icon: globe
       title: "والروابط أيضًا"
-      bullets: ["فيديو عام على YouTube", "مقال على أي صفحة ويب"]
+      bullets: ["الصق رابط صفحة ويب", "مثل مقال أو دليل"]
     - icon: layers
       title: "على قدر المحتوى"
       bullets: ["موضوع أو دورة أو خطة تعلم", "وفق عناوين المحتوى نفسه"]
@@ -48,7 +48,7 @@ scenes:
     prompt: "Felix, a fictional 27-year-old new employee with short light-brown hair, a neatly trimmed beard and fair skin, wearing a light blue Oxford shirt and a lanyard with a blank badge, sits at a bright open-plan office desk in the late morning, leaning back with a relaxed half-smile toward a laptop whose screen faces away from the camera, a printed welcome pack with no readable text beside him. Colleagues softly blurred in the background, daylight from tall windows. Medium shot at eye level. Mood: settling in with confidence."
   - src: /assets/img/posts/upload-notes-slides-photos-and-links-to-study-scene-4.webp
     alt: "امرأة على طاولة المطبخ مساءً أمامها جهاز لوحي ودفتر مفتوح تبدأ موضوعًا جديدًا"
-    caption: "روزا تبدأ بفيديو ومقال."
+    caption: "روزا تبدأ بمقالين."
     prompt: "Rosa, a fictional 41-year-old woman with shoulder-length curly auburn hair, light freckled skin and green-framed glasses, wearing a mustard jumper, sits at a wooden kitchen table in the evening with a tablet propped on a stand, its screen facing away from the camera, and an open notebook in which she is writing, with the writing unreadable. A pot of herbs, a teapot and warm pendant light above the table, a dark window behind. Medium shot at eye level. Mood: curious, starting something new for herself."
   - src: /assets/img/posts/upload-notes-slides-photos-and-links-to-study-scene-5.webp
     alt: "ثلاثة أشخاص في ثلاثة أماكن، كل منهم يذاكر على جهازه"
@@ -56,15 +56,17 @@ scenes:
     prompt: "A split-screen triptych of three panels in matching warm light. Left: Nadia, a fictional 19-year-old student with long dark wavy hair tied back, olive skin and a cream cardigan, on a bus seat with her phone, screen facing away. Middle: Felix, a fictional 27-year-old man with short light-brown hair, a trimmed beard and a light blue shirt, at a café table with a laptop, screen facing away. Right: Rosa, a fictional 41-year-old woman with curly auburn hair, freckles, green-framed glasses and a mustard jumper, on a sofa with a tablet, screen facing away. Each is calm and focused. Eye-level medium shots. No text, no logos."
 faq:
   - q: "ما الملفات التي يمكنني رفعها إلى LearningClarity؟"
-    a: "ملفات PDF وWord (.docx) وPowerPoint (.pptx) والنص العادي (.txt) وMarkdown (.md)، والصور بصيغة PNG أو JPG أو JPEG. ويمكنك أيضًا لصق رابط فيديو عام على YouTube أو رابط صفحة ويب. تظهر حدود الحجم في شاشة الرفع."
+    a: "ملفات PDF وWord (.docx) وPowerPoint (.pptx) والنص العادي (.txt) وMarkdown (.md)، والصور بصيغة PNG أو JPG أو JPEG. ويمكنك أيضًا لصق رابط صفحة ويب. تظهر حدود الحجم في شاشة الرفع."
   - q: "هل يمكنني رفع ملاحظات مكتوبة بخط اليد أو صفحات ممسوحة ضوئيًا؟"
     a: "نعم. صوّر الصفحات بكاميرا هاتفك وارفع الصور، أو ارفع ملف PDF ممسوحًا ضوئيًا، وسيُقرأ النص تلقائيًا. تعمل الصفحات الواضحة جيدة الإضاءة بشكل أفضل، ولا يمكن استخدام صفحة لا تحتوي نصًا مقروءًا."
   - q: "هل رفع المحتوى متاح في الأسبوع المجاني الأول؟"
     a: "نعم. رفع محتواك الخاص متاح لكل الحسابات، بما في ذلك خلال الأسبوع المجاني الأول."
 ---
-ابتداءً من **يوم السبت 7 نوفمبر 2026** ستتمكن من إنشاء دروس في LearningClarity من أي شيء تقريبًا تذاكر منه: ملف Word، أو عرض PowerPoint، أو ملاحظة Markdown، أو صور ملاحظاتك المكتوبة بخط اليد، أو فصل كامل من كتاب مصوَّر صفحة بعد صفحة، أو فيديو على YouTube، أو مقال على الويب. ورفع المحتوى متاح لكل الحسابات، حتى خلال الأسبوع المجاني الأول.
+ابتداءً من **يوم السبت 7 نوفمبر 2026** ستتمكن من إنشاء دروس في LearningClarity من أي شيء تقريبًا تذاكر منه: ملف Word، أو عرض PowerPoint، أو ملاحظة Markdown، أو صور ملاحظاتك المكتوبة بخط اليد، أو فصل كامل من كتاب مصوَّر صفحة بعد صفحة، أو مقال على الويب. ورفع المحتوى متاح لكل الحسابات، حتى خلال الأسبوع المجاني الأول.
 
-حتى الآن كان عليك تصدير ملفات Word وPowerPoint إلى PDF أولًا، ولم يكن ممكنًا استخدام الصفحات الممسوحة ضوئيًا أو روابط الفيديو. هذا يتغير في 7 نوفمبر.
+**على تطبيق الويب أولًا.** هذه الميزات الجديدة متاحة في تطبيق الويب من LearningClarity، وستصل لاحقًا إلى تطبيقَي iPhone وAndroid. [اشترك في المدونة](#subscribe) وسنُعلمك فور توفرها على App Store وGoogle Play.
+
+حتى الآن كان عليك تصدير ملفات Word وPowerPoint إلى PDF أولًا، ولم يكن ممكنًا استخدام الصفحات الممسوحة ضوئيًا أو روابط الويب. هذا يتغير في 7 نوفمبر.
 
 {% include scene.html n=1 %}
 
@@ -72,7 +74,6 @@ faq:
 
 - **الملفات:** PDF وWord (.docx) وPowerPoint (.pptx) والنص العادي (.txt) وMarkdown (.md)، إضافة إلى الصور بصيغة PNG أو JPG أو JPEG. يمكنك رفع عدة ملفات معًا، وتظهر حدود الحجم في شاشة الرفع.
 - **كاميرا هاتفك:** صوّر ملاحظاتك المكتوبة بخط اليد أو الأوراق المطبوعة أو فصلًا كاملًا صفحة بعد صفحة، ثم ارفع الصور. تُقرأ الصفحات الممسوحة ضوئيًا والصور تلقائيًا، وكذلك ملفات PDF الممسوحة ضوئيًا.
-- **رابط YouTube:** الصق رابط فيديو عام، وسيحوّله LearningClarity إلى موضوع. ويمكنك إضافة ملاحظة قصيرة عمّا تريد التركيز عليه.
 - **صفحة ويب:** الصق رابط صفحة ويب عادية، كمقال مثلًا، وسيبني LearningClarity منها محتوى تعليميًا.
 
 يتبع LearningClarity بنية محتواك نفسه، أي فهرسه أو عناوينه أو عناوين الشرائح، فتأتي الموضوعات الفرعية مطابقة لما قدّمته، وتستخدم الدروس أمثلته هو. وقبل الإنشاء يمكنك إضافة ملاحظات للذكاء الاصطناعي واختيار لغة التعلم.
@@ -87,7 +88,7 @@ faq:
 
 {% include scene.html n=3 %}
 
-**روزا** تريد أن تتعلم شيئًا جديدًا لنفسها. تبدأ بمحاضرة عامة على YouTube أعجبتها ومقال عن الموضوع نفسه، تلصق الرابطين، وتذاكر مساءً على طاولة المطبخ.
+**روزا** تريد أن تتعلم شيئًا جديدًا لنفسها. تجد مقالين جيدين عن الموضوع، تلصق الرابطين، وتذاكر مساءً على طاولة المطبخ.
 
 {% include scene.html n=4 %}
 
@@ -102,7 +103,7 @@ faq:
 ## من المفيد أن تعرف
 
 - تعمل الصور الواضحة جيدة الإضاءة بشكل أفضل. لا يمكن استخدام صفحة لا تحتوي نصًا مقروءًا، ولا يمكن قراءة ملفات PDF المحمية بكلمة مرور.
-- يجب أن تكون فيديوهات YouTube عامة؛ فلا يمكن استخدام البث المباشر أو الفيديوهات الخاصة أو المقيّدة بالعمر. تظهر المدة المسموح بها في التطبيق، وهناك حد يومي لموضوعات YouTube.
-- لا يمكن رفع ملفات الصوت والفيديو، مثل تسجيلات المحاضرات، كملفات.
+- لا يمكن رفع ملفات الصوت والفيديو، مثل تسجيلات المحاضرات.
+- هذه الميزات الجديدة متاحة حاليًا على تطبيق الويب فقط.
 
-ابدأ يوم السبت: افتح [منصة LearningClarity للدراسة](https://www.learningclarity.ai)، وصوّر صفحة واحدة من ملاحظاتك أو الصق رابطًا واحدًا، وانظر إلامَ يتحول.
+ابدأ يوم السبت: افتح [منصة LearningClarity للدراسة](https://www.learningclarity.ai) في متصفحك، وصوّر صفحة واحدة من ملاحظاتك أو الصق رابطًا واحدًا، وانظر إلامَ يتحول.

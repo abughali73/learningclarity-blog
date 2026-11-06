@@ -1,20 +1,20 @@
 ---
 title: "Lernen mit allem, was Sie haben: Notizen, Folien, Fotos und Links"
-description: "Ab 7. November macht jedes LearningClarity-Konto aus Word-Dateien, Folien, Fotos handschriftlicher Notizen, YouTube-Videos und Webseiten Lektionen."
+description: "Ab 7. November macht jedes LearningClarity-Konto aus Word-Dateien, Folien, Fotos handschriftlicher Notizen und Webseiten Lektionen in der Web-App."
 date: 2026-11-06 08:20:00 +0200
 lang: de
 ref: upload-notes-slides-photos-and-links-to-study
 capability: upload-material
 story: upload-anything-announcement
 image: /assets/img/posts/upload-notes-slides-photos-and-links-to-study-cinematic.webp
-keywords: ["Notizen hochladen und mit KI lernen", "PowerPoint in Lektionen umwandeln", "mit handschriftlichen Notizen lernen", "mit YouTube-Videos lernen", "KI-Lernplattform"]
-tags: [LearningClarity, LearningClarityAI, LernenMitKI, Neuheit, Lerntipps, Pruefungsvorbereitung, YouTube, Handschrift, Studium, EdTech, AIinEducation, LebenslangesLernen]
+keywords: ["Notizen hochladen und mit KI lernen", "PowerPoint in Lektionen umwandeln", "mit handschriftlichen Notizen lernen", "mit Webartikeln lernen", "KI-Lernplattform"]
+tags: [LearningClarity, LearningClarityAI, LernenMitKI, Neuheit, Lerntipps, Pruefungsvorbereitung, WebApp, Handschrift, Studium, EdTech, AIinEducation, LebenslangesLernen]
 ad:
   color: blue
-  eyebrow: "Neu ab 7. November"
+  eyebrow: "Neu im Web ab 7. November"
   headline: "Machen Sie aus Ihrem Lernstoff"
   highlight: "Lektionen zum Lernen"
-  subtitle: "Für jedes Konto, auch in der kostenlosen ersten Woche."
+  subtitle: "In der Web-App, für jedes Konto, auch in der Gratiswoche."
   items:
     - icon: upload
       title: "Jede Datei"
@@ -24,7 +24,7 @@ ad:
       bullets: ["Handschriftliche Notizen fotografieren", "Oder ein ganzes Kapitel, Seite für Seite"]
     - icon: globe
       title: "Auch Links"
-      bullets: ["Ein öffentliches YouTube-Video", "Ein Artikel auf einer Webseite"]
+      bullets: ["Den Link zu einer Webseite einfügen", "Etwa einen Artikel oder Leitfaden"]
     - icon: layers
       title: "Passend zum Material"
       bullets: ["Ein Thema, ein Kurs oder ein Lernplan", "Entlang seiner eigenen Gliederung"]
@@ -48,7 +48,7 @@ scenes:
     prompt: "Felix, a fictional 27-year-old new employee with short light-brown hair, a neatly trimmed beard and fair skin, wearing a light blue Oxford shirt and a lanyard with a blank badge, sits at a bright open-plan office desk in the late morning, leaning back with a relaxed half-smile toward a laptop whose screen faces away from the camera, a printed welcome pack with no readable text beside him. Colleagues softly blurred in the background, daylight from tall windows. Medium shot at eye level. Mood: settling in with confidence."
   - src: /assets/img/posts/upload-notes-slides-photos-and-links-to-study-scene-4.webp
     alt: "Eine Frau am Küchentisch am Abend, mit Tablet und offenem Notizbuch, beginnt ein neues Thema"
-    caption: "Rosa beginnt mit einem Video und einem Artikel."
+    caption: "Rosa beginnt mit zwei Artikeln."
     prompt: "Rosa, a fictional 41-year-old woman with shoulder-length curly auburn hair, light freckled skin and green-framed glasses, wearing a mustard jumper, sits at a wooden kitchen table in the evening with a tablet propped on a stand, its screen facing away from the camera, and an open notebook in which she is writing, with the writing unreadable. A pot of herbs, a teapot and warm pendant light above the table, a dark window behind. Medium shot at eye level. Mood: curious, starting something new for herself."
   - src: /assets/img/posts/upload-notes-slides-photos-and-links-to-study-scene-5.webp
     alt: "Drei Menschen an drei Orten, jeder lernt an seinem eigenen Gerät"
@@ -56,15 +56,17 @@ scenes:
     prompt: "A split-screen triptych of three panels in matching warm light. Left: Nadia, a fictional 19-year-old student with long dark wavy hair tied back, olive skin and a cream cardigan, on a bus seat with her phone, screen facing away. Middle: Felix, a fictional 27-year-old man with short light-brown hair, a trimmed beard and a light blue shirt, at a café table with a laptop, screen facing away. Right: Rosa, a fictional 41-year-old woman with curly auburn hair, freckles, green-framed glasses and a mustard jumper, on a sofa with a tablet, screen facing away. Each is calm and focused. Eye-level medium shots. No text, no logos."
 faq:
   - q: "Welche Dateien kann ich bei LearningClarity hochladen?"
-    a: "PDF-, Word- (.docx), PowerPoint- (.pptx), Text- (.txt) und Markdown-Dateien (.md) sowie Bilder als PNG, JPG oder JPEG. Sie können auch den Link zu einem öffentlichen YouTube-Video oder einer Webseite einfügen. Die Größenlimits stehen auf dem Upload-Bildschirm."
+    a: "PDF-, Word- (.docx), PowerPoint- (.pptx), Text- (.txt) und Markdown-Dateien (.md) sowie Bilder als PNG, JPG oder JPEG. Sie können auch den Link zu einer Webseite einfügen. Die Größenlimits stehen auf dem Upload-Bildschirm."
   - q: "Kann ich handschriftliche Notizen oder gescannte Seiten hochladen?"
     a: "Ja. Fotografieren Sie die Seiten mit der Handykamera und laden Sie die Fotos hoch, oder laden Sie ein gescanntes PDF hoch; der Text wird automatisch gelesen. Klare, gut beleuchtete Seiten funktionieren am besten, und eine Seite ohne lesbaren Text kann nicht verwendet werden."
   - q: "Ist das Hochladen in der kostenlosen ersten Woche enthalten?"
     a: "Ja. Das Hochladen eigener Materialien steht jedem Konto offen, auch während der kostenlosen ersten Woche."
 ---
-Ab **Samstag, 7. November 2026**, können Sie in LearningClarity Lektionen aus fast allem erstellen, womit Sie lernen: aus einer Word-Datei, einer PowerPoint-Präsentation, einer Markdown-Notiz, Fotos Ihrer handschriftlichen Notizen, einem ganzen Buchkapitel Seite für Seite fotografiert, einem YouTube-Video oder einem Artikel im Netz. Und das Hochladen steht jedem Konto offen, auch während der kostenlosen ersten Woche.
+Ab **Samstag, 7. November 2026**, können Sie in LearningClarity Lektionen aus fast allem erstellen, womit Sie lernen: aus einer Word-Datei, einer PowerPoint-Präsentation, einer Markdown-Notiz, Fotos Ihrer handschriftlichen Notizen, einem ganzen Buchkapitel Seite für Seite fotografiert, oder einem Artikel im Netz. Und das Hochladen steht jedem Konto offen, auch während der kostenlosen ersten Woche.
 
-Bisher mussten Word- und PowerPoint-Dateien zuerst als PDF exportiert werden, und Scans oder Videolinks ließen sich nicht verwenden. Das ändert sich am 7. November.
+**Zuerst in der Web-App.** Die neuen Funktionen gibt es in der Web-App von LearningClarity. In die iPhone- und Android-Apps kommen sie später: [Abonnieren Sie den Blog](#subscribe), und wir sagen Ihnen Bescheid, sobald sie im App Store und bei Google Play verfügbar sind.
+
+Bisher mussten Word- und PowerPoint-Dateien zuerst als PDF exportiert werden, und Scans oder Weblinks ließen sich nicht verwenden. Das ändert sich am 7. November.
 
 {% include scene.html n=1 %}
 
@@ -72,7 +74,6 @@ Bisher mussten Word- und PowerPoint-Dateien zuerst als PDF exportiert werden, un
 
 - **Dateien:** PDF, Word (.docx), PowerPoint (.pptx), Text (.txt) und Markdown (.md) sowie Bilder als PNG, JPG oder JPEG. Mehrere Dateien passen in einen Upload; die Größenlimits stehen auf dem Upload-Bildschirm.
 - **Die Kamera Ihres Handys:** Fotografieren Sie handschriftliche Notizen, Skripte oder ein ganzes Kapitel Seite für Seite und laden Sie die Fotos hoch. Gescannte Seiten und Fotos werden automatisch gelesen, gescannte PDFs ebenfalls.
-- **Ein YouTube-Link:** Fügen Sie den Link zu einem öffentlichen Video ein, und LearningClarity macht daraus ein Thema. Eine kurze Notiz, worauf es Ihnen ankommt, können Sie ergänzen.
 - **Eine Webseite:** Fügen Sie den Link zu einer gewöhnlichen Webseite ein, etwa einem Artikel, und LearningClarity erstellt daraus Lerninhalte.
 
 LearningClarity folgt der Gliederung Ihres Materials (Inhaltsverzeichnis, Überschriften oder Folientitel). So passen die Unterthemen zu dem, was Sie hochladen, und die Lektionen verwenden dessen eigene Beispiele. Bevor Sie etwas erstellen, können Sie Hinweise für die KI ergänzen und die Lernsprache wählen.
@@ -87,7 +88,7 @@ LearningClarity folgt der Gliederung Ihres Materials (Inhaltsverzeichnis, Übers
 
 {% include scene.html n=3 %}
 
-**Rosa** möchte für sich selbst etwas Neues lernen. Sie beginnt mit einer öffentlichen Vorlesung auf YouTube, die ihr gefallen hat, und einem Artikel zum selben Thema, fügt beide Links ein und lernt abends am Küchentisch.
+**Rosa** möchte für sich selbst etwas Neues lernen. Sie findet zwei gute Artikel zum Thema, fügt beide Links ein und lernt abends am Küchentisch.
 
 {% include scene.html n=4 %}
 
@@ -102,7 +103,7 @@ Danach funktioniert alles wie gewohnt: Explain Mode zum Lernen, Quiz Mode zum Ü
 ## Gut zu wissen
 
 - Klare, gut beleuchtete Fotos funktionieren am besten. Eine Seite ohne lesbaren Text kann nicht verwendet werden, und passwortgeschützte PDFs können nicht gelesen werden.
-- YouTube-Videos müssen öffentlich sein; Livestreams, private und altersbeschränkte Videos lassen sich nicht verwenden. Die erlaubte Länge steht in der App, und YouTube-Themen sind pro Tag begrenzt.
-- Audio- und Videodateien, etwa Vorlesungsaufzeichnungen, können nicht als Dateien hochgeladen werden.
+- Audio- und Videodateien, etwa Vorlesungsaufzeichnungen, können nicht hochgeladen werden.
+- Vorerst gibt es die neuen Funktionen nur in der Web-App.
 
-Legen Sie am Samstag los: Öffnen Sie [die Lernplattform LearningClarity](https://www.learningclarity.ai), fotografieren Sie eine Seite Ihrer Notizen oder fügen Sie einen Link ein, und sehen Sie, was daraus wird.
+Legen Sie am Samstag los: Öffnen Sie [die Lernplattform LearningClarity](https://www.learningclarity.ai) im Browser, fotografieren Sie eine Seite Ihrer Notizen oder fügen Sie einen Link ein, und sehen Sie, was daraus wird.

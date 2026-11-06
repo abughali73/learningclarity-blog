@@ -1,20 +1,20 @@
 ---
 title: "Study from anything: upload notes, slides, photos and links"
-description: "From 7 November, every LearningClarity account can turn Word files, slides, photos of handwritten notes, YouTube videos and web pages into lessons."
+description: "From 7 November, every LearningClarity account can turn Word files, slides, photos of handwritten notes and web pages into lessons on the web app."
 date: 2026-11-06 08:20:00 +0200
 lang: en
 ref: upload-notes-slides-photos-and-links-to-study
 capability: upload-material
 story: upload-anything-announcement
 image: /assets/img/posts/upload-notes-slides-photos-and-links-to-study-cinematic.webp
-keywords: ["upload notes to study with AI", "turn PowerPoint into lessons", "study from handwritten notes", "learn from YouTube videos", "AI study platform free week"]
-tags: [LearningClarity, LearningClarityAI, StudyWithAI, ProductUpdate, StudyTips, ExamPrep, YouTubeLearning, HandwrittenNotes, Students, EdTech, AIinEducation, LifelongLearning]
+keywords: ["upload notes to study with AI", "turn PowerPoint into lessons", "study from handwritten notes", "learn from web articles", "AI study platform free week"]
+tags: [LearningClarity, LearningClarityAI, StudyWithAI, ProductUpdate, StudyTips, ExamPrep, WebApp, HandwrittenNotes, Students, EdTech, AIinEducation, LifelongLearning]
 ad:
   color: blue
-  eyebrow: "New from 7 November"
+  eyebrow: "New on the web from 7 November"
   headline: "Turn whatever you study from into"
   highlight: "lessons you can learn"
-  subtitle: "Open to every account, including the free first week."
+  subtitle: "In the web app, for every account, including the free week."
   items:
     - icon: upload
       title: "Any file you have"
@@ -24,7 +24,7 @@ ad:
       bullets: ["Photograph handwritten notes", "Or a whole chapter, page by page"]
     - icon: globe
       title: "Links work too"
-      bullets: ["A public YouTube video", "An article on any web page"]
+      bullets: ["Paste a link to a web page", "Such as an article or a guide"]
     - icon: layers
       title: "Sized to your material"
       bullets: ["A topic, a course or a learning plan", "Following its own headings"]
@@ -48,7 +48,7 @@ scenes:
     prompt: "Felix, a fictional 27-year-old new employee with short light-brown hair, a neatly trimmed beard and fair skin, wearing a light blue Oxford shirt and a lanyard with a blank badge, sits at a bright open-plan office desk in the late morning, leaning back with a relaxed half-smile toward a laptop whose screen faces away from the camera, a printed welcome pack with no readable text beside him. Colleagues softly blurred in the background, daylight from tall windows. Medium shot at eye level. Mood: settling in with confidence."
   - src: /assets/img/posts/upload-notes-slides-photos-and-links-to-study-scene-4.webp
     alt: "A woman at her kitchen table in the evening, a tablet propped up and a notebook open, starting a new subject"
-    caption: "Rosa starts with a video and an article."
+    caption: "Rosa starts with two articles."
     prompt: "Rosa, a fictional 41-year-old woman with shoulder-length curly auburn hair, light freckled skin and green-framed glasses, wearing a mustard jumper, sits at a wooden kitchen table in the evening with a tablet propped on a stand, its screen facing away from the camera, and an open notebook in which she is writing, with the writing unreadable. A pot of herbs, a teapot and warm pendant light above the table, a dark window behind. Medium shot at eye level. Mood: curious, starting something new for herself."
   - src: /assets/img/posts/upload-notes-slides-photos-and-links-to-study-scene-5.webp
     alt: "Three learners in three places, each studying on their own device"
@@ -56,15 +56,17 @@ scenes:
     prompt: "A split-screen triptych of three panels in matching warm light. Left: Nadia, a fictional 19-year-old student with long dark wavy hair tied back, olive skin and a cream cardigan, on a bus seat with her phone, screen facing away. Middle: Felix, a fictional 27-year-old man with short light-brown hair, a trimmed beard and a light blue shirt, at a café table with a laptop, screen facing away. Right: Rosa, a fictional 41-year-old woman with curly auburn hair, freckles, green-framed glasses and a mustard jumper, on a sofa with a tablet, screen facing away. Each is calm and focused. Eye-level medium shots. No text, no logos."
 faq:
   - q: "Which files can I upload to LearningClarity?"
-    a: "PDF, Word (.docx), PowerPoint (.pptx), plain text (.txt) and Markdown (.md) files, and images in PNG, JPG or JPEG. You can also paste a link to a public YouTube video or to a web page. The size limits are shown on the upload screen."
+    a: "PDF, Word (.docx), PowerPoint (.pptx), plain text (.txt) and Markdown (.md) files, and images in PNG, JPG or JPEG. You can also paste a link to a web page. The size limits are shown on the upload screen."
   - q: "Can I upload handwritten notes or scanned pages?"
     a: "Yes. Photograph the pages with your phone's camera and upload the photos, or upload a scanned PDF; the text is read automatically. Clear, well-lit pages work best, and a page with no readable text can't be used."
   - q: "Is uploading included in the free first week?"
     a: "Yes. Uploading your own material is open to every account, including during the free first week."
 ---
-From **Saturday 7 November 2026**, you can build lessons in LearningClarity from almost anything you study from: a Word file, a PowerPoint deck, a Markdown note, photos of your handwritten notes, a whole textbook chapter photographed page by page, a YouTube video or an article on the web. And uploading is open to every account, including during the free first week.
+From **Saturday 7 November 2026**, you can build lessons in LearningClarity from almost anything you study from: a Word file, a PowerPoint deck, a Markdown note, photos of your handwritten notes, a whole textbook chapter photographed page by page, or an article on the web. And uploading is open to every account, including during the free first week.
 
-Until now, you had to export Word and PowerPoint files to PDF first, and scans and video links couldn't be used. That changes on 7 November.
+**Web app first.** These new features are available in the LearningClarity web app. They are coming to the iPhone and Android apps later: [subscribe to the blog](#subscribe) and we'll let you know as soon as they are on the App Store and Google Play.
+
+Until now, you had to export Word and PowerPoint files to PDF first, and scans and web links couldn't be used. That changes on 7 November.
 
 {% include scene.html n=1 %}
 
@@ -72,7 +74,6 @@ Until now, you had to export Word and PowerPoint files to PDF first, and scans a
 
 - **Files:** PDF, Word (.docx), PowerPoint (.pptx), plain text (.txt) and Markdown (.md), plus images in PNG, JPG or JPEG. Several files can go into one upload; the size limits are shown on the upload screen.
 - **Your phone's camera:** photograph handwritten notes, printed handouts or a whole chapter, one page at a time, and upload the photos. Scanned pages and photos are read automatically, and scanned PDFs are read too.
-- **A YouTube link:** paste a link to a public video and LearningClarity turns it into a topic. You can add a short note on what to focus on.
 - **A web page:** paste a link to an ordinary web page, such as an article, and LearningClarity builds learning content from it.
 
 LearningClarity follows your material's own structure, its table of contents, headings or slide titles, so the subtopics match what you gave it and the lessons use its own examples. You can add notes for the AI and choose the learning language before you create anything.
@@ -87,7 +88,7 @@ LearningClarity follows your material's own structure, its table of contents, he
 
 {% include scene.html n=3 %}
 
-**Rosa** wants to learn something new for herself. She starts with a public YouTube lecture she liked and an article on the same subject, pastes both links, and studies at her kitchen table in the evenings.
+**Rosa** wants to learn something new for herself. She finds two good articles on the subject, pastes both links, and studies at her kitchen table in the evenings.
 
 {% include scene.html n=4 %}
 
@@ -102,7 +103,7 @@ From there, everything works as before: Explain Mode to learn, Quiz Mode to prac
 ## Good to know
 
 - Clear, well-lit photos work best. A page with no readable text can't be used, and password-protected PDFs can't be read.
-- YouTube videos must be public; live, private and age-restricted videos can't be used. The length allowed is shown in the app, and there is a daily limit on YouTube topics.
-- Audio and video files, such as lecture recordings, can't be uploaded as files.
+- Audio and video files, such as lecture recordings, can't be uploaded.
+- For now, these new features are in the web app only.
 
-Start on Saturday: open [the LearningClarity study platform](https://www.learningclarity.ai), take a photo of one page of your notes or paste one link, and see what it becomes.
+Start on Saturday: open [the LearningClarity study platform](https://www.learningclarity.ai) in your browser, take a photo of one page of your notes or paste one link, and see what it becomes.
