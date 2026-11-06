@@ -3,11 +3,17 @@
 - key: upload-material
   name: Learn from your own material
   facts:
-    - Upload PDF files (up to 40 MB each), images in PNG, JPG or JPEG (up to 10 MB each, at most 7 per upload) or plain text .txt files (up to 5 MB); up to 50 MB in one upload. LearningClarity builds a topic and its subtopics from the content.
-    - Word documents and PowerPoint decks cannot be uploaded directly; export them to PDF first and they upload normally.
-    - Scanned PDFs without a text layer and password-protected PDFs cannot be read.
+    - Uploading your own material is open to every account, including during the free first week.
+    - "Upload PDF, Word (.docx), PowerPoint (.pptx), plain text (.txt) and Markdown (.md) files, and images (PNG, JPG or JPEG); several files can go into one upload. The size limits are shown on the upload screen."
+    - Use your phone's camera to photograph handwritten notes, printed notes or a whole chapter page by page, and upload the photos. Scanned pages and photos are read automatically; clear, well-lit pages work best, and a page with no readable text can't be used.
+    - Scanned PDFs are read too. Password-protected PDFs cannot be read.
+    - Paste a link to a public YouTube video and LearningClarity turns the video into a topic; you can add a short note on what to focus on (up to 500 characters). Live, private and age-restricted videos can't be used, the length allowed is shown in the app, and there is a daily limit on YouTube topics.
+    - Paste a link to an ordinary web page, such as an article, and LearningClarity builds learning content from it.
+    - Depending on how much material you give it, LearningClarity creates a single topic, a course of several topics, or a learning plan of several courses.
+    - LearningClarity follows the material's own structure (its table of contents, headings or slide titles), so the subtopics match your material and the lessons use its own examples.
+    - You can add notes for the AI and choose the learning language before creating the content.
     - Lets learners study exactly what their course or employer requires.
-    - Audio and video files (including lecture recordings) and YouTube links are not supported as sources.
+    - Audio and video files (including lecture recordings) can't be uploaded as files.
 - key: describe-topic
   name: Create a topic by describing it
   facts:
