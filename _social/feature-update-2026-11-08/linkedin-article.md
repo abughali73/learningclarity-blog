@@ -53,7 +53,7 @@ Seeing mistakes is not fixing them. After a quiz or an exam, each weak area now 
 
 1. Review the saved lesson, with the pages for missed questions marked.
 2. Answer new questions, one per screen, with instant feedback.
-3. See your result: more than half right brings the subtopic back to good standing.
+3. See your result: half or more right brings the subtopic back to good standing.
 
 ## Play with this chart {#f-play-with-chart}
 
@@ -91,7 +91,7 @@ Try your next lesson today in [the LearningClarity web app](https://www.learning
 
 **How do I revise the questions I got wrong in a quiz?**
 
-After a quiz or an exam, each weak area has a Revise button, and Revise all works through them one after another. You review the saved lesson with the pages for missed questions marked, then answer new questions; more than half right brings the subtopic back to good standing.
+After a quiz or an exam, each weak area has a Revise button, and Revise all works through them one after another. You review the saved lesson with the pages for missed questions marked, then answer new questions; half or more right brings the subtopic back to good standing.
 
 **Can I change the lesson level after I create a topic?**
 
