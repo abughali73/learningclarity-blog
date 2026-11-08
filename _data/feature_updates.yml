@@ -2,9 +2,56 @@
 # last_reviewed_commit: the newest Learning Clarity AI Tutor main commit (GitHub intelliSYS-S-R-O/Tutor_Me) already reviewed for features.
 # deferred: features found but held for the next update (fewer than 3 that week); re-checked next run.
 # issues: every feature-update post, newest first; each new post links to the earlier ones.
-last_reviewed_commit: e8f87939   # 2026-10-27; the next run reviews main after this commit
-deferred: []
+last_reviewed_commit: 6d76bad   # 2026-11-08; the next run reviews main after this commit
+deferred:
+  - name: shared-lessons
+    summary: "Shared copies include the lessons already written"
+    capability: sharing
+    commits: [b029fe5]
+    first_found: 2026-11-08
+    note: "live; held over the 7-feature cap"
+  - name: signin-redesign
+    summary: "New sign-in and sign-up screens: Google, Microsoft or Apple first, email checked as you type"
+    capability: multi-device
+    commits: ["1791545"]
+    first_found: 2026-11-08
+    note: "live; held over the cap"
+  - name: describe-background
+    summary: "Describe a topic: it is created in the background, a banner says when it is ready"
+    capability: describe-topic
+    commits: [b029fe5]
+    first_found: 2026-11-08
+    note: "live; held over the cap"
+  - name: topic-covers
+    summary: "New topics get an AI cover image"
+    capability: none yet
+    commits: [b029fe5]
+    first_found: 2026-11-08
+    note: "live (TOPIC_COVER_ON_CREATE); held over the cap; needs capability facts"
+  - name: upload-scope-choice
+    summary: "For big uploads, choose topic, course or learning plan, with the cost shown"
+    capability: upload-material
+    commits: [6d76bad]
+    first_found: 2026-11-08
+    note: "not in the live web app yet; re-check, drop if still not live"
+  - name: upload-credit-estimate
+    summary: "The upload screen says how many credits the material needs"
+    capability: upload-material
+    commits: [6d76bad]
+    first_found: 2026-11-08
+    note: "not live yet; re-check"
+  - name: dashboard-shared-badge
+    summary: "Dashboard: Shared with me button with a red badge; Continue card shows the cover and description"
+    capability: sharing
+    commits: [6d76bad, 02b887e]
+    first_found: 2026-11-08
+    note: "not confirmed live; re-check"
 issues:
+  - date: 2026-11-08
+    ref: feature-update-2026-11-08
+    url_path: 2026/11/feature-update-2026-11-08/
+    title: "Feature update 8 Nov 2026: Lessons you can start reading right away"
+    features: [lessons-start-fast, lesson-tools, level-at-creation, lesson-wrap-up, revise, play-with-chart, change-email]
   - date: 2026-11-06
     ref: upload-notes-slides-photos-and-links-to-study
     url_path: 2026/11/upload-notes-slides-photos-and-links-to-study/

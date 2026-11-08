@@ -40,11 +40,12 @@
     - An interactive AI tutor that teaches a subtopic page by page; select Next to continue at your own pace.
     - Each lesson is written once and saved. Unfinished lessons reopen at the page where you stopped; finished lessons can be reread at any time.
     - The lesson appears as it is written, so you can start reading page 1 while the rest is prepared. An outline shows every planned page and a bar fills as the pages are written. You can leave and come back while it is prepared.
+    - "On the topic page, a subtopic whose lesson is being written shows \"Writing lesson…\"."
     - "When you create a topic, course or learning plan you choose how familiar you are with it (from New to me to I know it well); every lesson in it is planned and written for that level, and the level cannot be changed later."
-    - The level control in the lesson (Foundation, Standard or Advanced) rewrites the current page at another level, shown beside the original page.
+    - Do not mention an in-lesson level control (Foundation, Standard, Advanced); it is switched off.
     - Select a sentence, several sentences or a paragraph, or use the box at the end of the page for the whole page, then pick a tool. Each tool and option says what it does and what it costs before you use it.
     - Simplify rewrites the selected text or page in simpler words, step by step.
-    - "Explain Further offers four options: Why it works, Worked example, Real-world use, and Limits & mistakes."
+    - "Explain Further lists its options with a one-line description each, including Why it works, Worked example, Real-world use, Limits & mistakes and Connect; an option that does not fit the text stays listed, greyed, with the reason."
     - "Ask answers your own question about the lesson, and offers Check me (one quick question to check you understood) and Help me remember (a memory trick)."
     - Results appear right under the text you asked about; each one can be marked Helpful or Not helpful, added to your notes, or removed.
     - Highlight sentences as Key point or Confusing, and add notes; they are collected in "Your notes and answers" and can be downloaded with the lesson as a PDF ("Download my notebook").
@@ -115,7 +116,7 @@
 - key: revise
   name: Revise what you missed
   facts:
-    - After a quiz or an exam, each weak area has a Revise button.
+    - After a quiz or an exam, each weak area has a Revise button, and Revise all works through every weak subtopic.
     - "Revising has three steps: review the saved lesson, with the pages that cover your missed questions marked; answer new questions, one per screen, with instant feedback; then see the result. Getting more than half right brings the subtopic back to good standing."
     - You can revise again with new questions as often as you like, or revise all weak subtopics one after another.
     - The Review list on the dashboard collects what you missed in lessons, quizzes and exams, with the date of the next review; opening a saved lesson is free.
