@@ -51,7 +51,7 @@ scenes:
     prompt: "Ingrid, a fictional woman in her mid-thirties with straight ash-blonde hair in a low ponytail, light freckles, wearing a navy quarter-zip sports jacket over a grey T-shirt, walks down the steps of a modern brick training centre on a crisp autumn afternoon, a folder under one arm, her face relaxed into a relieved, proud smile, a few other people leaving in the background out of focus. Low golden afternoon sun from behind, long shadows on the steps, orange leaves on the pavement. Wide shot from a low angle. Mood: quiet pride and relief."
 faq:
   - q: "Was kostet ein LearningClarity-Abo?"
-    a: "Bronze kostet 3,99 $ im Monat oder 43,99 $ im Jahr. Silver bietet das 3-fache Kontingent von Bronze für 9,99 $ im Monat oder 109,99 $ im Jahr. Gold bietet das 8-fache Kontingent von Bronze für 24,99 $ im Monat oder 274,99 $ im Jahr."
+    a: "Bronze kostet 3,99 $ im Monat oder 45,99 $ im Jahr. Silver bietet das 3-fache Kontingent von Bronze für 11,99 $ im Monat oder 136,99 $ im Jahr. Gold bietet das 8-fache Kontingent von Bronze für 31,99 $ im Monat oder 363,99 $ im Jahr."
   - q: "Kann ich LearningClarity kostenlos testen?"
     a: "Ja. Nach der Registrierung nutzen Sie die Plattform eine Woche lang kostenlos mit einem fairen Nutzungskontingent, bevor Sie einen Tarif wählen."
   - q: "Was, wenn ich in einem Monat mehr Nutzung brauche?"
@@ -99,9 +99,9 @@ Drei Wochen vor der Prüfung schaut Ingrid an einem Sonntagabend auf die Anzeige
 | Tarif | Kontingent | Monatspreis | Jahrespreis |
 |---|---|---|---|
 | Gratiswoche (erste 7 Tage) | Faire Nutzung | Kostenlos | Entfällt |
-| Bronze | 1× (Basis) | 3,99 $ | 43,99 $ |
-| Silver | 3× Bronze | 9,99 $ | 109,99 $ |
-| Gold | 8× Bronze | 24,99 $ | 274,99 $ |
+| Bronze | 1× (Basis) | 3,99 $ | 45,99 $ |
+| Silver | 3× Bronze | 11,99 $ | 136,99 $ |
+| Gold | 8× Bronze | 31,99 $ | 363,99 $ |
 | Aufladung (nur für Abonnenten, einmalig) | +1× Bronze | je 4,99 $ | Entfällt |
 
 Bei jedem Tarif ist die jährliche Zahlung günstiger als zwölf Monatszahlungen.

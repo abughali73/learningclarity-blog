@@ -180,7 +180,7 @@ faq:
     a: "Tu racha cuenta los días seguidos con actividad de aprendizaje, y tu racha más larga registra tu mejor marca. Hay 16 logros con niveles de rareza que van de Común a Legendario, seis de ellos ocultos, como First Topic (primer tema), Quiz Perfect (cuestionario perfecto), Exam Excellence (excelencia en examen) y 30-Day Streak (racha de 30 días). [Rachas y logros](https://www.learningclarity.ai/help/streaks-achievements/)."
   - group: "Planes y pagos"
     q: "¿Cuánto cuesta LearningClarity?"
-    a: "Tu primera semana es gratis. Después, los particulares eligen un plan: Bronze cuesta 3,99 $ al mes o 43,99 $ al año; Silver ofrece 3 veces el uso de Bronze por 9,99 $ al mes o 109,99 $ al año, y Gold ofrece 8 veces el uso de Bronze por 24,99 $ al mes o 274,99 $ al año. Los precios están en dólares estadounidenses. [Descubre los nuevos planes](/es/2026/11/ai-study-platform-subscription-plans/)."
+    a: "Tu primera semana es gratis. Después, los particulares eligen un plan: Bronze cuesta 3,99 $ al mes o 45,99 $ al año; Silver ofrece 3 veces el uso de Bronze por 11,99 $ al mes o 136,99 $ al año, y Gold ofrece 8 veces el uso de Bronze por 31,99 $ al mes o 363,99 $ al año. Los precios están en dólares estadounidenses. [Descubre los nuevos planes](/es/2026/11/ai-study-platform-subscription-plans/)."
   - group: "Planes y pagos"
     q: "¿Sale más barato pagar al año?"
     a: "Sí. En todos los planes, el pago anual cuesta menos que doce pagos mensuales."

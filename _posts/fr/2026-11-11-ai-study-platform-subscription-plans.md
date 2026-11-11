@@ -51,7 +51,7 @@ scenes:
     prompt: "Ingrid, a fictional woman in her mid-thirties with straight ash-blonde hair in a low ponytail, light freckles, wearing a navy quarter-zip sports jacket over a grey T-shirt, walks down the steps of a modern brick training centre on a crisp autumn afternoon, a folder under one arm, her face relaxed into a relieved, proud smile, a few other people leaving in the background out of focus. Low golden afternoon sun from behind, long shadows on the steps, orange leaves on the pavement. Wide shot from a low angle. Mood: quiet pride and relief."
 faq:
   - q: "Combien coûte un abonnement LearningClarity ?"
-    a: "Bronze coûte 3,99 $ par mois ou 43,99 $ par an. Silver offre 3 fois l'usage de Bronze pour 9,99 $ par mois ou 109,99 $ par an. Gold offre 8 fois l'usage de Bronze pour 24,99 $ par mois ou 274,99 $ par an."
+    a: "Bronze coûte 3,99 $ par mois ou 45,99 $ par an. Silver offre 3 fois l'usage de Bronze pour 11,99 $ par mois ou 136,99 $ par an. Gold offre 8 fois l'usage de Bronze pour 31,99 $ par mois ou 363,99 $ par an."
   - q: "Puis-je essayer LearningClarity gratuitement ?"
     a: "Oui. À l'inscription, vous bénéficiez d'une semaine d'utilisation gratuite avec un usage raisonnable inclus, pour essayer la plateforme avant de choisir une offre."
   - q: "Que faire si j'ai besoin de plus d'usage dans le mois ?"
@@ -99,9 +99,9 @@ Trois semaines avant l'examen, Ingrid consulte le compteur un dimanche soir : 70
 | Offre | Usage | Prix mensuel | Prix annuel |
 |---|---|---|---|
 | Semaine gratuite (7 premiers jours) | Usage raisonnable | Gratuit | Sans objet |
-| Bronze | 1× (base) | 3,99 $ | 43,99 $ |
-| Silver | 3× Bronze | 9,99 $ | 109,99 $ |
-| Gold | 8× Bronze | 24,99 $ | 274,99 $ |
+| Bronze | 1× (base) | 3,99 $ | 45,99 $ |
+| Silver | 3× Bronze | 11,99 $ | 136,99 $ |
+| Gold | 8× Bronze | 31,99 $ | 363,99 $ |
 | Recharge (abonnés uniquement, paiement unique) | +1× Bronze | 4,99 $ l'unité | Sans objet |
 
 Pour chaque offre, le paiement annuel coûte moins cher que douze paiements mensuels.

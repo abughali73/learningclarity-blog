@@ -51,7 +51,7 @@ scenes:
     prompt: "Ingrid, a fictional woman in her mid-thirties with straight ash-blonde hair in a low ponytail, light freckles, wearing a navy quarter-zip sports jacket over a grey T-shirt, walks down the steps of a modern brick training centre on a crisp autumn afternoon, a folder under one arm, her face relaxed into a relieved, proud smile, a few other people leaving in the background out of focus. Low golden afternoon sun from behind, long shadows on the steps, orange leaves on the pavement. Wide shot from a low angle. Mood: quiet pride and relief."
 faq:
   - q: "كم تبلغ تكلفة اشتراك LearningClarity؟"
-    a: "الخطة البرونزية بسعر 3.99 دولار شهريًا أو 43.99 دولار سنويًا. الخطة الفضية تمنح 3 أضعاف حصة البرونزية بسعر 9.99 دولار شهريًا أو 109.99 دولار سنويًا. الخطة الذهبية تمنح 8 أضعاف حصة البرونزية بسعر 24.99 دولار شهريًا أو 274.99 دولار سنويًا."
+    a: "الخطة البرونزية بسعر 3.99 دولار شهريًا أو 45.99 دولار سنويًا. الخطة الفضية تمنح 3 أضعاف حصة البرونزية بسعر 11.99 دولار شهريًا أو 136.99 دولار سنويًا. الخطة الذهبية تمنح 8 أضعاف حصة البرونزية بسعر 31.99 دولار شهريًا أو 363.99 دولار سنويًا."
   - q: "هل يمكنني تجربة LearningClarity مجانًا؟"
     a: "نعم. عند التسجيل تحصل على أسبوع من الاستخدام المجاني مع حصة استخدام عادلة، لتجرّب المنصة قبل اختيار خطتك."
   - q: "ماذا لو احتجت إلى استخدام أكثر خلال الشهر؟"
@@ -99,9 +99,9 @@ faq:
 | الخطة | الاستخدام | السعر الشهري | السعر السنوي |
 |---|---|---|---|
 | الأسبوع المجاني (أول 7 أيام) | استخدام عادل | مجانًا | لا ينطبق |
-| البرونزية (Bronze) | 1× (الأساس) | 3.99 دولار | 43.99 دولار |
-| الفضية (Silver) | 3× البرونزية | 9.99 دولار | 109.99 دولار |
-| الذهبية (Gold) | 8× البرونزية | 24.99 دولار | 274.99 دولار |
+| البرونزية (Bronze) | 1× (الأساس) | 3.99 دولار | 45.99 دولار |
+| الفضية (Silver) | 3× البرونزية | 11.99 دولار | 136.99 دولار |
+| الذهبية (Gold) | 8× البرونزية | 31.99 دولار | 363.99 دولار |
 | الشحن الإضافي (Top-up)، للمشتركين فقط، لمرة واحدة | +1× البرونزية | 4.99 دولار للشحن | لا ينطبق |
 
 في كل الخطط، الدفع السنوي أقل تكلفة من اثنتي عشرة دفعة شهرية.

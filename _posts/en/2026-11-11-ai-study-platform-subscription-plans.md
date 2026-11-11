@@ -51,7 +51,7 @@ scenes:
     prompt: "Ingrid, a fictional woman in her mid-thirties with straight ash-blonde hair in a low ponytail, light freckles, wearing a navy quarter-zip sports jacket over a grey T-shirt, walks down the steps of a modern brick training centre on a crisp autumn afternoon, a folder under one arm, her face relaxed into a relieved, proud smile, a few other people leaving in the background out of focus. Low golden afternoon sun from behind, long shadows on the steps, orange leaves on the pavement. Wide shot from a low angle. Mood: quiet pride and relief."
 faq:
   - q: "How much does a LearningClarity subscription cost?"
-    a: "Bronze is $3.99 a month or $43.99 a year. Silver gives 3 times the Bronze allowance for $9.99 a month or $109.99 a year. Gold gives 8 times the Bronze allowance for $24.99 a month or $274.99 a year."
+    a: "Bronze is $3.99 a month or $45.99 a year. Silver gives 3 times the Bronze allowance for $11.99 a month or $136.99 a year. Gold gives 8 times the Bronze allowance for $31.99 a month or $363.99 a year."
   - q: "Can I try LearningClarity for free?"
     a: "Yes. When you sign up, you get one week of free use with a fair usage allowance, so you can try the platform before choosing a plan."
   - q: "What happens if I need more usage in a month?"
@@ -99,9 +99,9 @@ Three weeks before her exam, Ingrid checks the meter on a Sunday night: 70% used
 | Plan | Usage | Monthly price | Yearly price |
 |---|---|---|---|
 | Free week (first 7 days) | Fair use | Free | n/a |
-| Bronze | 1× (base) | $3.99 | $43.99 |
-| Silver | 3× Bronze | $9.99 | $109.99 |
-| Gold | 8× Bronze | $24.99 | $274.99 |
+| Bronze | 1× (base) | $3.99 | $45.99 |
+| Silver | 3× Bronze | $11.99 | $136.99 |
+| Gold | 8× Bronze | $31.99 | $363.99 |
 | Top-up (subscribers only, one-off) | +1× Bronze | $4.99 each | n/a |
 
 For every plan, paying yearly costs less than twelve monthly payments.

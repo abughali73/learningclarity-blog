@@ -180,7 +180,7 @@ faq:
     a: "Ihre Streak (Lernserie) zählt aufeinanderfolgende Tage mit Lernaktivität, und Ihre längste Serie hält Ihren Bestwert fest. Es gibt 16 Erfolge mit Seltenheitsstufen von Common (Gewöhnlich) bis Legendary (Legendär), sechs davon verborgen, zum Beispiel First Topic, Quiz Perfect, Exam Excellence und 30-Day Streak. [Streaks und Erfolge](https://www.learningclarity.ai/help/streaks-achievements/)."
   - group: "Tarife und Zahlungen"
     q: "Was kostet LearningClarity?"
-    a: "Ihre erste Woche ist kostenlos. Danach wählen Einzelpersonen einen Tarif: Bronze kostet 3,99 $ im Monat oder 43,99 $ im Jahr, Silver bietet das 3-Fache des Bronze-Kontingents für 9,99 $ im Monat oder 109,99 $ im Jahr, und Gold das 8-Fache für 24,99 $ im Monat oder 274,99 $ im Jahr. Die Preise sind in US-Dollar angegeben. [Die neuen Tarife ansehen](/de/2026/11/ai-study-platform-subscription-plans/)."
+    a: "Ihre erste Woche ist kostenlos. Danach wählen Einzelpersonen einen Tarif: Bronze kostet 3,99 $ im Monat oder 45,99 $ im Jahr, Silver bietet das 3-Fache des Bronze-Kontingents für 11,99 $ im Monat oder 136,99 $ im Jahr, und Gold das 8-Fache für 31,99 $ im Monat oder 363,99 $ im Jahr. Die Preise sind in US-Dollar angegeben. [Die neuen Tarife ansehen](/de/2026/11/ai-study-platform-subscription-plans/)."
   - group: "Tarife und Zahlungen"
     q: "Ist die jährliche Zahlung günstiger?"
     a: "Ja. Bei jedem Tarif kostet die jährliche Zahlung weniger als zwölf Monatszahlungen."

@@ -63,7 +63,7 @@ faq:
   - q: "Why won't my scanned PDF upload?"
     a: "Scanned PDFs without a text layer and password-protected PDFs cannot be read. Use a version of the document that contains real text, or upload clear images or a .txt file instead."
   - q: "How much does it cost?"
-    a: "Every new account starts with a free first week. After that, plans start at $2.99 a month for Bronze, and paying yearly costs less than twelve monthly payments."
+    a: "Every new account starts with a free first week. After that, plans start at $3.99 a month for Bronze, and paying yearly costs less than twelve monthly payments."
 ---
 On the first Sunday of term, the kitchen table disappeared under paper. Elif had 400 slides of embryology. Mateo had a data structures module with a midterm in seven weeks. Hannah had a contract law reader as thick as a brick. Three flatmates, three majors, one shared problem: they needed a study strategy for university that didn't start with weeks of typing flashcards. Elif, Mateo, Hannah and their university are fictional.
 
@@ -97,7 +97,7 @@ Her strategy was time. On the tram she used Listen to hear each explanation read
 
 {% include scene.html n=5 %}
 
-None of them wanted a big bill. Each started with the free first week that comes with a new account, then picked Bronze at $2.99 a month. Before exam weeks they checked the usage meter, and a one-off $3.99 top-up covered the busiest stretch without changing their plan.
+None of them wanted a big bill. Each started with the free first week that comes with a new account, then picked Bronze at $3.99 a month. Before exam weeks they checked the usage meter, and a one-off $4.99 top-up covered the busiest stretch without changing their plan.
 
 Mateo shared his recursion topic with Elif by email after she admitted she'd never understood it. She accepted and got her own independent copy with her own progress.
 

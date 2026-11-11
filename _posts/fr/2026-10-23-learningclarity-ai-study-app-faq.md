@@ -180,7 +180,7 @@ faq:
     a: "Votre série compte les jours consécutifs avec une activité d'apprentissage, et votre plus longue série enregistre votre record. Il existe 16 succès, avec des niveaux de rareté allant de Common à Legendary, dont six cachés, comme First Topic, Quiz Perfect, Exam Excellence et 30-Day Streak. [Séries et succès](https://www.learningclarity.ai/help/streaks-achievements/)."
   - group: "Formules et paiements"
     q: "Combien coûte LearningClarity ?"
-    a: "Votre première semaine est gratuite. Ensuite, les particuliers choisissent une formule : Bronze coûte 3,99 $ par mois ou 43,99 $ par an, Silver offre 3 fois l'usage de Bronze pour 9,99 $ par mois ou 109,99 $ par an, et Gold offre 8 fois l'usage de Bronze pour 24,99 $ par mois ou 274,99 $ par an. Les prix sont en dollars américains. [Découvrir les nouvelles formules](/fr/2026/11/ai-study-platform-subscription-plans/)."
+    a: "Votre première semaine est gratuite. Ensuite, les particuliers choisissent une formule : Bronze coûte 3,99 $ par mois ou 45,99 $ par an, Silver offre 3 fois l'usage de Bronze pour 11,99 $ par mois ou 136,99 $ par an, et Gold offre 8 fois l'usage de Bronze pour 31,99 $ par mois ou 363,99 $ par an. Les prix sont en dollars américains. [Découvrir les nouvelles formules](/fr/2026/11/ai-study-platform-subscription-plans/)."
   - group: "Formules et paiements"
     q: "Le paiement annuel est-il moins cher ?"
     a: "Oui. Pour chaque formule, le paiement annuel coûte moins cher que douze paiements mensuels."
