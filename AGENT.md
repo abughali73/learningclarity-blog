@@ -9,7 +9,9 @@ Every post is published in **five languages**: English (`en`), Arabic (`ar`), Sp
 - **Logo:** the LearningClarity logo is the navy-and-gold "brain of two speech bubbles" (navy bubble with text lines,
   gold bubble with "AI"). The master files are `assets/img/brand/lc-logo.svg` and `assets/img/brand/lc-logo.png`
   (transparent). Never draw, describe or recreate the logo in an image prompt or in a post; AI images never contain
-  logos. Brand colours: navy `#1B3480`, gold `#E2A024`.
+  logos. Brand colours (the same as the web app at www.learningclarity.ai and the blog theme): navy `#1D3B8B`
+  (deep navy `#12265C`), gold `#E9A92B`, slate text `#1E293B`. When an `ad.color` is picked, `purple` now shows
+  gold and `pink` shows teal; `blue` is the navy brand colour.
 - **Channel banner:** `assets/img/og-default.png` (1200 x 630) is the blog's channel banner and the default share
   image for every page without its own picture, for example the home, search and What's new pages. It carries the
   logo. It is made only by the "Generate channel banner" workflow (`tools/generate_brand_banner.py`): the artwork comes
