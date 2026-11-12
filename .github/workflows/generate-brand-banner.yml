@@ -1,0 +1,51 @@
+name: Generate channel banner
+
+on:
+  push:
+    branches: [main]
+    paths: ["tools/generate_brand_banner.py", "assets/img/brand/lc-logo.png"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  banner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install "pillow>=11.3"
+      - name: Fetch the brand fonts (Poppins)
+        run: |
+          mkdir -p "$RUNNER_TEMP/fonts"
+          for f in Poppins-Bold Poppins-SemiBold Poppins-Medium; do
+            curl -sSfL -o "$RUNNER_TEMP/fonts/$f.ttf" "https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/$f.ttf"
+          done
+      - name: Make the artwork with the OpenAI image model and draw the logo and words on it
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_IMAGE_MODEL: ${{ vars.OPENAI_IMAGE_MODEL }}
+          OPENAI_IMAGE_QUALITY: ${{ vars.OPENAI_IMAGE_QUALITY }}
+          BANNER_FONT_DIR: ${{ runner.temp }}/fonts
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python tools/generate_brand_banner.py
+          git config user.name "LearningClarity Image Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add assets/img/og-default.png assets/img/brand/banner-art.jpg
+          if ! git diff --cached --quiet; then
+            git commit -q -m "banner: regenerate the channel banner with the new logo"
+            for attempt in 1 2 3 4 5; do
+              git fetch -q origin main
+              git rebase -q origin/main
+              if git push -q origin HEAD:main; then break; fi
+              if [ "$attempt" = 5 ]; then echo "::error::Could not push the banner."; exit 1; fi
+              sleep $((attempt * 10))
+            done
+            gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
+          fi

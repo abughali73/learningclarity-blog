@@ -4,6 +4,18 @@ These are the instructions for the scheduled task that publishes a new post on b
 
 Every post is published in **five languages**: English (`en`), Arabic (`ar`), Spanish (`es`), French (`fr`) and German (`de`). The languages are listed under `languages:` in `_config.yml`. Each language has its own folder (`_posts/<code>/`), home page (`/`, `/ar/`, `/es/`, `/fr/`, `/de/`), author page and feed (`/feed/<code>.xml`). All five files of a post share the same file name and the same `ref`; the layouts use the `ref` to cross-reference the languages automatically (the header language menu, the "Also available in" links under the title, `hreflang` tags, and `workTranslation`/`translationOfWork` in the schema). Never publish a post in fewer than five languages.
 
+## Brand
+
+- **Logo:** the LearningClarity logo is the navy-and-gold "brain of two speech bubbles" (navy bubble with text lines,
+  gold bubble with "AI"). The master files are `assets/img/brand/lc-logo.svg` and `assets/img/brand/lc-logo.png`
+  (transparent). Never draw, describe or recreate the logo in an image prompt or in a post; AI images never contain
+  logos. Brand colours: navy `#1B3480`, gold `#E2A024`.
+- **Channel banner:** `assets/img/og-default.png` (1200 x 630) is the blog's channel banner and the default share
+  image for every page without its own picture, for example the home, search and What's new pages. It carries the
+  logo. It is made only by the "Generate channel banner" workflow (`tools/generate_brand_banner.py`): the artwork comes
+  from the OpenAI image model (the same model as the post images), and the logo and words are drawn on top from the
+  master file. Never edit, replace or regenerate it in a run; to change it, Maher runs that workflow.
+
 ## Each run
 
 0. **Scheduled queue first.** If any post in `_posts/en/` has a `date:` later than now (the owner's scheduled posts, published one a day by `.github/workflows/publish-scheduled.yml`), do not write a post in this run: stop and report that scheduled posts are queued until the latest of those dates. Resume normal runs once no post in `_posts/en/` is dated in the future.
