@@ -23,7 +23,8 @@
   {%- endif %}
   {% feed_meta %}
   <link rel="alternate" type="application/atom+xml" title="{{ t.feed_title }}" href="{{ '/feed/' | append: lang | append: '.xml' | absolute_url }}">
-  <link rel="icon" href="/assets/img/lc-icon.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/img/brand/favicon-48.png?v=2">
+  <link rel="apple-touch-icon" href="/assets/img/brand/lc-icon-180.png?v=2">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap">
@@ -34,7 +35,7 @@
   <header class="site-header">
     <div class="wrap header-row">
       <a class="brand" href="{{ lang_home | default: '/' }}">
-        <img src="/assets/img/lc-icon.png" alt="" width="44" height="44">
+        <img src="/assets/img/lc-icon.png?v=2" alt="" width="44" height="44">
         <span class="brand-text"><span class="wordmark">Learning <span class="grad">Clarity</span></span><span class="brand-sub">{{ t.blog }}</span></span>
       </a>
       <nav class="nav" aria-label="Site">

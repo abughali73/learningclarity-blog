@@ -451,3 +451,7 @@ picture > source { display: none; } /* <source> is not hidden by default; inside
   .fu-narrate { inset-block-end: 8px; inset-inline-end: 8px; padding: 0 12px; font-size: 14px; }
 }
 @media (prefers-reduced-motion: reduce) { .fu-card a { transition: none; } .fu-card a:hover { transform: none; } }
+
+/* Brand wordmark in the new logo colours: "Learning" navy, "Clarity" gold (the .grad highlight elsewhere is unchanged) */
+.wordmark, .ad-wordmark { color: #1B3480; }
+.wordmark .grad, .ad-wordmark .grad, .lang-ar .wordmark .grad, .lang-ar .ad-wordmark .grad { background: none; -webkit-background-clip: border-box; background-clip: border-box; color: #D18E14; }
