@@ -165,7 +165,7 @@
 - key: subscription
   name: Free first week and monthly plans
   facts:
-    - Every new account gets one free week of fair use, to try the platform before choosing a plan. There are no credits; usage is measured against your plan's allowance.
+    - Every new account gets one free week of fair use, to try the platform before choosing a plan. Individual accounts have no credits; usage is measured against the plan's allowance. Organization Workspaces still use a shared credit pool.
     - "After the free week, individuals choose a monthly or yearly plan: Bronze $3.99 a month or $45.99 a year; Silver (3x the Bronze allowance) $11.99 a month or $136.99 a year; Gold (8x the Bronze allowance) $31.99 a month or $363.99 a year. Prices are in US dollars."
     - For every plan, paying yearly costs less than twelve monthly payments.
     - The platform always shows the percentage of your allowance used, and every feature is clearly labelled when it uses your allowance.
@@ -179,7 +179,7 @@
     - When a referred friend buys a plan or top-up, the referrer receives extra usage equal to 10% of the allowance of whatever the friend buys.
     - The referred friend gets nothing extra - just the full allowance of what they buy, and the same free first week as every new account.
     - A referral dashboard shows your referrals' sign-ups and purchases.
-    - Do not mention referral bonus credits, sign-up bonuses for the friend, or converting the referral bonus to cash; those were retired with credits.
+    - Do not mention referral bonus credits, sign-up bonuses for the friend, or converting the referral bonus to cash; those were retired with credits for individual accounts.
 - key: multi-device
   name: Web, iPhone and Android
   facts:
