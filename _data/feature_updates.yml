@@ -35,7 +35,7 @@ deferred:
     first_found: 2026-11-08
     note: "not in the live web app yet; re-check, drop if still not live"
   - name: upload-credit-estimate
-    summary: "The upload screen says how many credits the material needs"
+    summary: "The upload screen says how much of your allowance the material needs"
     capability: upload-material
     commits: [6d76bad]
     first_found: 2026-11-08

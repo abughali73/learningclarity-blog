@@ -198,7 +198,7 @@ faq:
     a: "Les extensions de navigateur des antivirus bloquent parfois la page de paiement sécurisée. Mettez l'extension en pause, ou essayez une fenêtre de navigation privée, puis rechargez la page. Si la page de paiement ne s'est jamais chargée, rien n'a été débité. [Résoudre les problèmes de paiement](https://www.learningclarity.ai/help/payment-troubleshooting/)."
   - group: "Formules et paiements"
     q: "Comment fonctionne le programme de parrainage ?"
-    a: "Chaque utilisateur a un code de parrainage. Un ami qui s'inscrit avec ce code reçoit 200 crédits bonus. Quand votre ami effectue son premier achat, vous recevez un bonus de 10 % de cet achat, que vous pouvez convertir en argent sur demande. Un tableau de bord de parrainage affiche les inscriptions, les achats et vos gains."
+    a: "Chaque utilisateur a un code de parrainage à partager. Quand un ami s'inscrit avec ce code et achète un forfait ou une recharge, vous recevez une utilisation supplémentaire égale à 10 % de l'allocation de ce qu'il achète. Votre ami reçoit l'allocation complète de ce qu'il achète, sans bonus supplémentaire, et commence avec la même première semaine gratuite que tout nouveau compte. Un tableau de bord de parrainage affiche les inscriptions et les achats de vos filleuls."
   - group: "Langues, appareils et accessibilité"
     q: "Quelles langues LearningClarity prend-il en charge ?"
     a: "L'application peut être utilisée en 7 langues : allemand, anglais, arabe, espagnol, français, italien et portugais. Les explications, quiz, examens, schémas et podcasts sont générés dans la langue d'apprentissage que vous avez choisie, et non traduits automatiquement. [Langues et accessibilité](https://www.learningclarity.ai/help/language-faq/)."

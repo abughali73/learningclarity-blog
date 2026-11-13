@@ -93,4 +93,4 @@ Quand vous pensez avoir compris, passez à **Quiz Mode (mode quiz)** pour vous e
 - **Jours 2 à 4 :** travaillez-les en mode explication, quelques-uns chaque jour.
 - **Jour 5 :** faites un quiz sur les sous-sujets les plus fragiles, puis un examen sur le sujet complet.
 
-Prêt à essayer avec vos propres fichiers ? [Créez votre compte LearningClarity gratuit](https://www.learningclarity.ai). Chaque nouveau compte commence avec une première semaine gratuite, et 200 crédits bonus si vous vous inscrivez avec le code de parrainage d'un ami.
+Prêt à essayer avec vos propres fichiers ? [Créez votre compte LearningClarity gratuit](https://www.learningclarity.ai). Chaque nouveau compte commence avec une première semaine gratuite d'utilisation raisonnable.

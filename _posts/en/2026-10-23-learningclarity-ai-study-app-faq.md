@@ -198,7 +198,7 @@ faq:
     a: "Antivirus browser extensions sometimes block the secure checkout page. Pause the extension, or try a private window, and reload. If checkout never loaded, nothing was charged. [Checkout troubleshooting](https://www.learningclarity.ai/help/payment-troubleshooting/)."
   - group: "Plans and payments"
     q: "How does the referral program work?"
-    a: "Every user has a referral code. A friend who signs up with it gets 200 bonus credits. When your friend makes their first purchase, you receive a bonus of 10% of that purchase, which can be converted to cash on request. A referral dashboard shows sign-ups, purchases and earnings."
+    a: "Every user has a referral code to share. When a friend signs up with it and buys a plan or top-up, you receive extra usage equal to 10% of the allowance of whatever they buy. Your friend gets the full allowance of what they buy, with no extra bonus, and starts with the same free first week as every new account. A referral dashboard shows your referrals' sign-ups and purchases."
   - group: "Languages, devices and accessibility"
     q: "Which languages does LearningClarity support?"
     a: "The app can be used in 7 languages: Arabic, English, French, German, Italian, Portuguese and Spanish. Explanations, quizzes, exams, diagrams and podcasts are generated in your chosen learning language, not machine-translated. [Languages and accessibility](https://www.learningclarity.ai/help/language-faq/)."

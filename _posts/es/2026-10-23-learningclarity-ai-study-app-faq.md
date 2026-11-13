@@ -198,7 +198,7 @@ faq:
     a: "A veces las extensiones antivirus del navegador bloquean la página de pago segura. Pausa la extensión o prueba con una ventana privada, y vuelve a cargar la página. Si la página de pago no llegó a cargarse, no se ha cobrado nada. [Solución de problemas con el pago](https://www.learningclarity.ai/help/payment-troubleshooting/)."
   - group: "Planes y pagos"
     q: "¿Cómo funciona el programa de recomendaciones?"
-    a: "Cada usuario tiene un código de recomendación. Un amigo que se registra con él recibe 200 créditos extra. Cuando tu amigo hace su primera compra, recibes una bonificación del 10 % de esa compra, que puedes pedir que se convierta en dinero. Un panel de recomendaciones muestra los registros, las compras y tus ganancias."
+    a: "Cada usuario tiene un código de recomendación para compartir. Cuando un amigo se registra con él y compra un plan o una recarga, recibes uso adicional equivalente al 10 % de la asignación de lo que compre. Tu amigo recibe la asignación completa de lo que compra, sin bonificación extra, y empieza con la misma primera semana gratis que toda cuenta nueva. Un panel de recomendaciones muestra los registros y las compras de tus recomendados."
   - group: "Idiomas, dispositivos y accesibilidad"
     q: "¿Qué idiomas admite LearningClarity?"
     a: "La app puede usarse en 7 idiomas: árabe, inglés, francés, alemán, italiano, portugués y español. Las explicaciones, los cuestionarios, los exámenes, los diagramas y los podcasts se generan en el idioma de aprendizaje que elijas, sin traducción automática. [Idiomas y accesibilidad](https://www.learningclarity.ai/help/language-faq/)."

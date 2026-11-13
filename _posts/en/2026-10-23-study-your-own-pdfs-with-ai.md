@@ -93,4 +93,4 @@ When you think you've got it, switch to **Quiz Mode** for low-pressure practice.
 - **Days 2 to 4:** work through them in Explain Mode, a few each day.
 - **Day 5:** take a quiz on the weakest subtopics, then an exam on the full topic.
 
-Ready to try it with your own files? [Create your free LearningClarity account](https://www.learningclarity.ai). Every new account starts with a free first week, plus 200 bonus credits when you sign up with a friend's referral code.
+Ready to try it with your own files? [Create your free LearningClarity account](https://www.learningclarity.ai). Every new account starts with a free first week of fair use.

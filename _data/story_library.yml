@@ -351,7 +351,7 @@ ideas:
     challenge: "Chloé, a warehouse team lead, is studying logistics planning but her day is split between the floor, the bus and the kitchen table."
     hook: "06:12, bus stop. 12:40, loading bay. 21:30, kitchen table. Same lesson, three screens."
     features:
-      - {name: Web, iPhone and Android, helps: "Library, progress and credits are shared across devices."}
+      - {name: Web, iPhone and Android, helps: "Library, progress and your plan are shared across devices."}
       - {name: Resume, helps: "Takes her back to exactly where she stopped on any device."}
       - {name: Listen, helps: "Reads a section aloud when reading isn't possible."}
     outline:
