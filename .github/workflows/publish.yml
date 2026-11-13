@@ -1,0 +1,103 @@
+name: Publish
+
+# Two ways to publish:
+# 1. Publish now (Actions > Publish > Run workflow):
+#    - leave "slug" empty to rebuild the site, which publishes every post whose date has passed;
+#    - enter a post's slug (e.g. ai-study-platform-subscription-plans) to publish that post right away:
+#      its date is moved to now in all five languages, the files are renamed to today's date,
+#      the change is pushed to main and the site is rebuilt.
+# 2. Scheduled posts: every hour this workflow checks whether a post's date passed in the last
+#    70 minutes and, if so, rebuilds the site, so a future-dated post goes live on its own
+#    within about an hour of its date (`future: false` hides it until then).
+
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "Slug of the post to publish now (leave empty to just rebuild the site)"
+        required: false
+        default: ""
+  schedule:
+    - cron: "5 * * * *"
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Move the post's date to now
+        if: github.event_name == 'workflow_dispatch' && inputs.slug != ''
+        env:
+          SLUG: ${{ inputs.slug }}
+        run: |
+          set -euo pipefail
+          case "$SLUG" in *[!a-z0-9-]*|"") echo "::error::Invalid slug '$SLUG'"; exit 1;; esac
+          now=$(TZ=Africa/Cairo date -d '-5 min' '+%Y-%m-%d %H:%M:%S %z')
+          today=${now:0:10}
+          langs="en ar es fr de"
+          for l in $langs; do
+            n=$(ls _posts/$l/????-??-??-"$SLUG".md 2>/dev/null | wc -l)
+            if [ "$n" != 1 ]; then echo "::error::Expected one _posts/$l/*-$SLUG.md, found $n"; exit 1; fi
+          done
+          for l in $langs; do
+            f=$(ls _posts/$l/????-??-??-"$SLUG".md)
+            sed -i "0,/^date: .*/s//date: $now/" "$f"
+            new="_posts/$l/$today-$SLUG.md"
+            [ "$f" = "$new" ] || git mv "$f" "$new"
+          done
+          git config user.name "LearningClarity Publisher"
+          git config user.email "actions@users.noreply.github.com"
+          git add _posts
+          if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
+          git commit -q -m "publish: $SLUG"
+          for attempt in 1 2 3 4 5; do
+            git fetch -q origin main
+            git rebase -q origin/main
+            if git push -q origin HEAD:main; then break; fi
+            if [ "$attempt" = 5 ]; then echo "::error::Could not push after 5 attempts."; exit 1; fi
+            sleep $((attempt * 10))
+          done
+          echo "Published $SLUG with date $now"
+
+      - name: Decide whether to rebuild
+        id: due
+        run: |
+          set -euo pipefail
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then echo "build=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          # Scheduled run: rebuild only if some post's date passed in the last 70 minutes.
+          due=$(python3 - <<'EOF'
+          import glob, re
+          from datetime import datetime, timezone, timedelta
+          now = datetime.now(timezone.utc)
+          hits = []
+          for f in glob.glob("_posts/*/*.md"):
+              with open(f, encoding="utf-8") as fh:
+                  head = fh.read(4000)
+              m = re.search(r"^date:\s*(\d{4}-\d\d-\d\d \d\d:\d\d:\d\d [+-]\d{4})\s*$", head, re.M)
+              if not m:
+                  continue
+              d = datetime.strptime(m.group(1), "%Y-%m-%d %H:%M:%S %z")
+              if now - timedelta(minutes=70) < d <= now:
+                  hits.append(f)
+          print(" ".join(sorted(hits)))
+          EOF
+          )
+          if [ -n "$due" ]; then echo "Due: $due"; echo "build=true" >> "$GITHUB_OUTPUT"; else echo "No post became due."; echo "build=false" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Rebuild the site
+        if: steps.due.outputs.build == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        # Pushes made with the workflow token do not start a Pages build on their own.
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds"
